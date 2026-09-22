@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { frq } from "../content";
-import { buildGradePrompt, cacheKey, estimateCostCents, normalizeAnswer } from "../grading";
+import { buildGradePrompt, cacheKey, estimateCostCents, matchGradedPart, normalizeAnswer } from "../grading";
 
 describe("grading helpers", () => {
   it("cache key ignores whitespace and case", () => {
@@ -22,5 +22,19 @@ describe("grading helpers", () => {
   it("cost estimate uses per-model prices", () => {
     expect(estimateCostCents("claude-sonnet-5", 1_000_000, 0)).toBe(200);
     expect(estimateCostCents("claude-sonnet-5", 0, 1000)).toBe(1);
+  });
+});
+
+describe("matchGradedPart", () => {
+  const parts = [{ label: "a" }, { label: "b" }, { label: "e(i)" }];
+  it("matches exact, parenthesized and prefixed labels", () => {
+    const graded = [{ label: "(a)", points: 1 }, { label: "Part b", points: 2 }, { label: "E (i)", points: 3 }];
+    expect(matchGradedPart(graded, parts, 0)?.points).toBe(1);
+    expect(matchGradedPart(graded, parts, 1)?.points).toBe(2);
+    expect(matchGradedPart(graded, parts, 2)?.points).toBe(3);
+  });
+  it("falls back to position only when the counts agree", () => {
+    expect(matchGradedPart([{ label: "x" }, { label: "y" }, { label: "z" }], parts, 1)?.label).toBe("y");
+    expect(matchGradedPart([{ label: "x" }], parts, 1)).toBeUndefined();
   });
 });

@@ -48,6 +48,7 @@ export const frqProblemSchema = z.object({
   title: z.string().min(1),
   topic_id: z.string().min(1),
   intro_md: z.string(),
+  figure_url: z.string().nullable().optional(),
   parts: z
     .array(
       z.object({
@@ -58,6 +59,7 @@ export const frqProblemSchema = z.object({
           .array(z.object({ points: z.number().positive(), criterion: z.string().min(1) }))
           .min(1),
         max_points: z.number().positive(),
+        figure_url: z.string().nullable().optional(),
       }),
     )
     .min(1),

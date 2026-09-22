@@ -1,0 +1,756 @@
+[
+  {
+    "id": "2018-N-P1",
+    "year": 2018,
+    "level": "national",
+    "number": 1,
+    "title": "Unknown Monoprotic Acid: Analysis and Titration",
+    "topic_id": "stoichiometry",
+    "intro_md": "An unknown monoprotic acid contains only the elements C, H, and O.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Combustion analysis indicates that the unknown acid contains 40.0% C and 6.7% H by mass. What is its empirical formula?",
+        "key_md": "1.000 g of the acid would contain 0.400 g C, 0.067 g H, and (by difference) 0.533 g O.\n\n0.400 g C/(12.01 g mol$^{-1}$) = 0.0333 mol C\n\n0.067 g H/(1.008 g mol$^{-1}$) = 0.0665 mol H\n\n0.533 g O/(16.00 g mol$^{-1}$) = 0.0333 mol O\n\nSo the empirical formula is $\\ce{CH2O}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Converts mass percentages (including O by difference, 53.3%) to moles of C, H, and O"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct empirical formula $\\ce{CH2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "A 1.000 g sample of the compound is dissolved in 50 mL water and titrated with 0.3000 M NaOH to a phenolphthalein endpoint, which is observed after the addition of 37.00 mL of base. What is the molar mass of the acid and what is its molecular formula?",
+        "key_md": "0.03700 L titrant × 0.3000 mol L$^{-1}$ = 0.01110 mol NaOH = 0.01110 mol unknown\n\n1.000 g unknown/0.01110 mol unknown = 90.09 g mol$^{-1}$\n\nSince the formula mass of $\\ce{CH2O}$ is 30.03 g mol$^{-1}$, there must be three formula units per molecule; the molecular formula is thus $\\ce{C3H6O3}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Moles of NaOH = moles of monoprotic acid = 0.01110 mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Molar mass = 90.1 g mol$^{-1}$ (±0.5)"
+          },
+          {
+            "points": 1,
+            "criterion": "Molecular formula $\\ce{C3H6O3}$ (three $\\ce{CH2O}$ units)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "The pH of the titration mixture is measured to be 3.43 after the addition of 10.00 mL of the NaOH solution. What is the p$K_\\text{a}$ of the unknown acid?",
+        "key_md": "After 10.00 mL base have been added 10.0/37.0 of the acid has been deprotonated, while 27.0/37.0 remains protonated. Using the Henderson-Hasselbalch equation:\n\npH = p$K_\\text{a}$ + log$_{10}$([X$^-$]/[HX])\n\n3.43 = p$K_\\text{a}$ + log$_{10}$(10/27)\n\np$K_\\text{a}$ = 3.86",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes ratio of conjugate base to acid is 10.0 : 27.0 at 10.00 mL of the 37.00 mL required"
+          },
+          {
+            "points": 1,
+            "criterion": "Applies Henderson–Hasselbalch equation correctly"
+          },
+          {
+            "points": 1,
+            "criterion": "p$K_\\text{a}$ = 3.86 (±0.05)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "A different monoprotic acid with the same molar mass is titrated under the same conditions and the pH of the solution is measured after the addition of 40.00 mL NaOH solution. Explain why this measurement will not be informative about the p$K_\\text{a}$ of this acid, and estimate the pH at this point in the titration.",
+        "key_md": "Since this acid is also monoprotic and has the same molar mass, the endpoint will also be at 37.00 mL added base. Thus, at 40.00 mL added NaOH, essentially all the original acid will have been deprotonated, and the pH will be determined by the amount of excess NaOH added.\n\nSpecifically, 3.00 mL excess base will have been added\n\n0.00300 L × 0.3000 mol L$^{-1}$ = 9.00 × 10$^{-4}$ mol excess OH$^-$\n\nTotal volume = 50 mL original + 40 mL added = 90 mL\n\n[OH$^-$] = 9.00 × 10$^{-4}$ mol/0.090 L = 1.0 × 10$^{-2}$ M\n\npH = 14.0 + log$_{10}$[OH$^-$] = 12.0",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that 40.00 mL is past the equivalence point (37.00 mL), so pH is set by excess NaOH and not by the acid/conjugate-base buffer ratio"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes excess $\\ce{OH-}$ = 9.00 × 10$^{-4}$ mol in 90 mL total, [OH$^-$] = 1.0 × 10$^{-2}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "pH ≈ 12.0 (±0.1)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "An aqueous solution of the unknown acid was found to rotate the plane of polarization of plane-polarized light (at the sodium D line). Suggest a reasonable structure for the unknown acid. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Since a solution of the unknown acid rotates plane-polarized light, the acid must be chiral. An organic acid with a p$K_\\text{a}$ = 3.86 and a formula of $\\ce{C3H6O3}$ must contain a carboxylic acid, –COOH. The only chiral carboxylic acid with this formula is lactic acid, $\\ce{CH3CH(OH)COOH}$, though of course one cannot determine which enantiomer is present from the given data.\n\n(Structure drawn: a central stereocenter carbon bearing $\\ce{CH3}$, $\\ce{OH}$ (dashed bond), H (bold wedge), and a $\\ce{-COOH}$ group; i.e., lactic acid drawn with defined but arbitrary configuration.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes the acid must be chiral (optically active) and contains a –COOH group"
+          },
+          {
+            "points": 1,
+            "criterion": "Gives lactic acid, $\\ce{CH3CH(OH)COOH}$, as the structure"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2018 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2018-N-P2",
+    "year": 2018,
+    "level": "national",
+    "number": 2,
+    "title": "Thermodynamics of Potassium Iodate Dissolution",
+    "topic_id": "thermodynamics",
+    "intro_md": "Potassium iodate ($\\ce{KIO3}$, $M$ = 214.0) dissolves to a limited extent in water:\n\n$$\\ce{KIO3(s) <=> K+(aq) + IO3^-(aq)}$$\n\nTo 100.67 g water in a well-insulated container were added small portions of solid $\\ce{KIO3}$. After each addition, the mixture was stirred extensively until the temperature stabilized. The temperatures, measured as a function of the added mass of $\\ce{KIO3}$, are shown as solid dots below. A best-fit line through the data points below 6 g $\\ce{KIO3}$ added is given for your convenience. (You may assume that the specific heat capacity and density of the solution are the same as that of pure water at all times during the experiment and may neglect the heat capacity of the insulated container.)\n\nGraph: $T$ (°C) vs. g added $\\ce{KIO3}$. Best-fit line through the initial points: $y = 19.76 - 0.600x$. Beyond about 7 g added, the temperature levels off at the constant value $T = 15.75\\ ^\\circ$C (dashed horizontal line).",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate $K_\\text{sp}$ for $\\ce{KIO3}$ (that is, $K_\\text{eq}$ for the dissolution reaction given above).",
+        "key_md": "The $\\ce{KIO3}$ stops dissolving when the temperature stops changing, i.e. at the intersection of the solid and dashed lines. The position of this intersection can be found by reading the graph, or by setting the equations of the two lines equal to one another:\n\n$19.76 - 0.600x = 15.75$\n\n$x = 6.68$ g $\\ce{KIO3}$ to make a saturated solution\n\n6.68 g $\\ce{KIO3}$/(214.0 g mol$^{-1}$) = 0.0312 mol $\\ce{KIO3}$\n\n$[\\ce{K+}] = [\\ce{IO3^-}] = 0.0312$ mol/(0.10067 L + 0.00668 L) = 0.291 M\n\nIn the saturated solution, the dissolution reaction is at equilibrium:\n\n$K_\\text{eq} = K_\\text{sp}$ of $\\ce{KIO3} = [\\ce{K+}][\\ce{IO3^-}] = [0.291]^2 = 0.0846$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes saturation at the intersection of the two lines and finds mass dissolved $x = 6.68$ g (±0.1 g)"
+          },
+          {
+            "points": 1,
+            "criterion": "Converts to 0.0312 mol $\\ce{KIO3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes saturated concentration $[\\ce{K+}] = [\\ce{IO3^-}] \\approx 0.291$ M using total solution volume (~0.1074 L)"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{sp} = [\\ce{K+}][\\ce{IO3^-}] \\approx 0.085$ (0.08–0.09)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate $\\Delta H^\\circ$ for the dissolution reaction of $\\ce{KIO3}$.",
+        "key_md": "$q_\\text{solution} = mC_\\text{p}\\Delta T = (107.39\\ \\text{g solution})(4.184\\ \\text{J g}^{-1}\\ ^\\circ\\text{C}^{-1})(15.75\\ ^\\circ\\text{C} - 19.76\\ ^\\circ\\text{C})$\n\n$q_\\text{solution} = -1.80$ kJ\n\n$\\Delta H^\\circ_\\text{rxn} = q_\\text{rxn}/(\\text{mol reacted}) = -q_\\text{solution}/(0.0312\\ \\text{mol}) = +57.8$ kJ mol$^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses total solution mass (~107.4 g) and $\\Delta T = -4.01$ °C to get $q_\\text{solution} \\approx -1.80$ kJ"
+          },
+          {
+            "points": 1,
+            "criterion": "Sets $q_\\text{rxn} = -q_\\text{solution}$ and divides by moles dissolved"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ \\approx +58$ kJ mol$^{-1}$ (±3)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate $\\Delta S^\\circ$ for the dissolution reaction of $\\ce{KIO3}$.",
+        "key_md": "The temperature is not strictly constant in the experiment, but it is reasonable to use the average temperature of the experiment, 18 ºC = 291 K.\n\n$\\Delta G^\\circ = -RT\\ln(K_\\text{eq}) = -(8.314\\ \\text{J mol}^{-1}\\ \\text{K}^{-1})(291\\ \\text{K})\\ln(0.0846)$\n\n$\\Delta G^\\circ_{291\\ \\text{K}} = 5.98$ kJ mol$^{-1}$\n\n$\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$\n\n$5980\\ \\text{J mol}^{-1} = 57800\\ \\text{J mol}^{-1} - (291\\ \\text{K})(\\Delta S^\\circ)$\n\n$\\Delta S^\\circ = +178$ J mol$^{-1}$ K$^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Computes $\\Delta G^\\circ = -RT\\ln K \\approx +6.0$ kJ mol$^{-1}$ at a reasonable $T$ (~291 K)"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ \\approx +178$ J mol$^{-1}$ K$^{-1}$ (±10)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "One might expect dissolution reactions of ionic solids to invariably take place with large positive $\\Delta S^\\circ$ values, since an ordered solid is forming mobile ions in solution. In fact, $\\Delta S^\\circ$ values for such reactions are often small in magnitude and are frequently negative. Explain why.",
+        "key_md": "The increase in entropy on dissolving the highly constrained solid is counterbalanced by the decrease in degrees of freedom of the solvent. Ions in aqueous solution are surrounded by a solvent shell of water molecules that are strongly oriented by the charges on the ions and so have much smaller entropies than bulk water. This contributes a negative term to the overall change in entropy of the dissolution reaction. (In the case of $\\ce{KIO3}$, the relatively large size and small charges on the ions means that this negative term is modest in magnitude; the overall entropy change of this dissolution is indeed rather positive.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that water molecules become ordered/oriented in solvation shells around the ions (hydration ordering)"
+          },
+          {
+            "points": 1,
+            "criterion": "States this loss of solvent degrees of freedom gives a negative entropy contribution that offsets the positive term from breaking up the solid"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2018 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2018-N-P3",
+    "year": 2018,
+    "level": "national",
+    "number": 3,
+    "title": "Potentiometric titration of chloride with silver",
+    "topic_id": "redox",
+    "intro_md": "The amount of chloride in an unknown sample can be determined by potentiometric titration, which uses an electrochemical cell shown schematically below:\n\n*(Figure: a buret containing 0.200 M $\\ce{AgNO3}$ delivers titrant into half-cell B. Half-cell A contains an Ag electrode in 1 M $\\ce{Ag+}$; half-cell B contains an Ag electrode in the analyte containing $\\ce{Cl-}$. The two half-cells are connected by a salt bridge and the electrodes by a voltmeter.)*",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "During the titration, when some of the 0.200 M $\\ce{AgNO3}$ solution has been added to the analyte, which half-cell (A or B) contains the anode of the electrochemical cell?  Explain your reasoning.",
+        "key_md": "The concentration of $\\ce{Ag+}$ ion will always be smaller in half-cell B than it is in half-cell A (it cannot exceed 0.2 M!).  Oxidation of the Ag electrode will take place in the half-cell with lower $\\ce{Ag+}$ concentration, so the anode is in half-cell B.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies half-cell B as containing the anode"
+          },
+          {
+            "points": 2,
+            "criterion": "Explains that $[\\ce{Ag+}]$ is lower in B (cannot exceed 0.2 M) and oxidation occurs at the electrode in the lower $\\ce{Ag+}$ concentration"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "A saline solution, consisting of NaCl dissolved in 5% dextrose solution, is analyzed using this technique.  100.0 g of the saline solution is placed in half-cell B and the voltage from the voltmeter is recorded as a function of the volume of added 0.200 M $\\ce{AgNO3}$:\n\n(See the plot of $|E|$, V vs. $V$ of 0.2 M $\\ce{AgNO3}$, mL.)\n\nCalculate the mass percentage of NaCl in the saline solution.",
+        "key_md": "The endpoint of the titration takes place at 18.8 mL added $\\ce{AgNO3}$, so\n\n$\\text{mol } \\ce{Cl-} = (0.0188\\ \\text{L})(0.200\\ \\text{mol L}^{-1}) = 3.76 \\times 10^{-3}\\ \\text{mol}$\n\n$(3.76 \\times 10^{-3}\\ \\text{mol NaCl})(58.44\\ \\text{g mol}^{-1}) = 0.220\\ \\text{g NaCl}$\n\n$(0.220\\ \\text{g NaCl})/(100.0\\ \\text{g saline}) \\times 100\\% = 0.22\\%$ saline solution",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the endpoint from the graph at ≈18.8 mL (accept 18.5–19.0 mL) added 0.200 M AgNO3"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes mol Cl- (= mol Ag+) = 3.76 × 10^-3 mol (±5%)"
+          },
+          {
+            "points": 1,
+            "criterion": "Converts to mass of NaCl = 0.220 g using 58.44 g/mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Reports mass percentage = 0.22% NaCl (±0.02%) using the 100.0 g sample"
+          }
+        ],
+        "max_points": 4,
+        "figure_url": "/figures/2018-N-P3-f2.png"
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the concentration of free silver ion in half-cell B when 10.00 mL of titrant has been added.",
+        "key_md": "At 10.00 mL added titrant, the absolute value of the cell potential is 0.470 V.  From the Nernst equation:\n\n$E = E^\\circ - (0.0591/n)\\log([\\ce{Ag+}]_\\text{sample}/[\\ce{Ag+}]_\\text{ref})$\n\n$0.470\\ \\text{V} = 0\\ \\text{V} - 0.0591 \\cdot \\log([\\ce{Ag+}]_\\text{sample}/[1])$\n\n$[\\ce{Ag+}] = 1.12 \\times 10^{-8}\\ \\text{M}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reads |E| = 0.470 V from the graph at 10.00 mL added titrant (accept 0.46–0.48 V)"
+          },
+          {
+            "points": 1,
+            "criterion": "Applies the Nernst equation with E° = 0, n = 1 and [Ag+]ref = 1 M (concentration cell)"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains [Ag+] ≈ 1.1 × 10^-8 M (accept 0.7–2 × 10^-8 M)"
+          }
+        ],
+        "max_points": 3,
+        "figure_url": "/figures/2018-N-P3-f2.png"
+      },
+      {
+        "label": "d",
+        "stem_md": "Calculate the $K_\\text{sp}$ of AgCl(*s*).",
+        "key_md": "At the point where 10.00 mL $\\ce{AgNO3}$ has been added, essentially all the added silver ion (0.01000 L × 0.200 mol L$^{-1}$ = $2.00 \\times 10^{-3}$ mol) has reacted to form AgCl(*s*) (since, according to part c, only about $10^{-9}$ mol $\\ce{Ag+}$ is still present in solution).  Thus the remaining chloride ion concentration is\n\n$[\\ce{Cl-}] = (3.76 \\times 10^{-3}$ mol $- 2.00 \\times 10^{-3}$ mol)/(0.100 L + 0.010 L) = 0.016 M\n\nSince at this point there is some solid AgCl present, then\n\n$K_\\text{sp} = [\\ce{Ag+}][\\ce{Cl-}] = [1.12 \\times 10^{-8}][0.016] = 1.8 \\times 10^{-10}$\n\nOf course, there is nothing special about the 10.0-mL point in the titration; any point where the $[\\ce{Ag+}]$ can be determined (from the cell potential) and the $[\\ce{Cl-}]$ can be determined (from the un-precipitated amount) will work.  But 10.0 mL is convenient since we already figured out $[\\ce{Ag+}]$ in part c.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Calculates moles of unreacted $\\ce{Cl-}$ ($3.76\\times10^{-3} - 2.00\\times10^{-3}$ mol) using total volume 0.110 L"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains $[\\ce{Cl-}] \\approx 0.016$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Reports $K_\\text{sp} = [\\ce{Ag+}][\\ce{Cl-}] \\approx 1.8 \\times 10^{-10}$ (factor of ~3 tolerance)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2018 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2018-N-P3-f1.png"
+  },
+  {
+    "id": "2018-N-P4",
+    "year": 2018,
+    "level": "national",
+    "number": 4,
+    "title": "Organoiridium Air Oxidation Kinetics",
+    "topic_id": "kinetics",
+    "intro_md": "The air oxidation of an organoiridium compound $\\ce{(C9H11)3Ir}$ takes place according to the following equation:\n\n$$\\ce{(C9H11)3Ir + 0.5 O2 -> (C9H11)3IrO}$$\n\nThe reaction was studied with the initial $[\\ce{(C9H11)3Ir}] = 1.3 \\times 10^{-4}$ M under two different $\\ce{O2}$ concentrations (run 1, $[\\ce{O2}] = 1.0 \\times 10^{-2}$ M; run 2, $[\\ce{O2}] = 2.0 \\times 10^{-3}$ M). The concentration of $\\ce{(C9H11)3Ir}$ was measured as a function of time; below are plotted $[\\ce{(C9H11)3Ir}]$, $\\ln([\\ce{(C9H11)3Ir}])$, and $1/[\\ce{(C9H11)3Ir}]$ vs. time.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Is the order of the reaction in $\\ce{(C9H11)3Ir}$ 0, 1, or 2?  Justify your answer.  (Even if the data are not exactly consistent with an integer order, pick the closest integer order.)",
+        "key_md": "In each run, $[\\ce{O2}] \\gg [\\ce{(C9H11)3Ir}]$, so $[\\ce{O2}]$ is effectively constant during each run.  So the order in Ir can be determined by seeing whether the $[\\ce{Ir}]$ changes linearly with time (zeroth-order), whether $\\ln([\\ce{Ir}])$ changes linearly with time (first-order), or whether $1/[\\ce{Ir}]$ changes linearly with time (second-order).  Clearly it is only the last of these that is true; the reaction must be second-order in $\\ce{(C9H11)3Ir}$.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States the reaction is second order in $\\ce{(C9H11)3Ir}$"
+          },
+          {
+            "points": 2,
+            "criterion": "Justifies by noting that only the $1/[\\ce{Ir}]$ plot is linear in time (with $[\\ce{O2}]$ effectively constant in each run)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "Is the order of the reaction in $\\ce{O2}$ 0, 1, or 2?  Justify your answer.  (Even if the data are not exactly consistent with an integer order, pick the closest integer order.)",
+        "key_md": "Since rate $= k[\\ce{O2}]^n[\\ce{(C9H11)3Ir}]^2$, we can see how the slope of the second-order plots (which are equal to $k[\\ce{O2}]^n$) change with $[\\ce{O2}]$.  The slope of run 1 ($[\\ce{O2}] = 1.0 \\times 10^{-2}$ M) is 280 $\\text{M}^{-1}\\text{s}^{-1}$, while the slope for run 2 ($[\\ce{O2}] = 2.0 \\times 10^{-3}$ M) is 31 $\\text{M}^{-1}\\text{s}^{-1}$.  A decrease of $[\\ce{O2}]$ by a factor of 5 results in a 9-fold decrease in rate.  This is not particularly close to either $n = 1$ (should be a 5-fold decrease) or $n = 2$ (should be a 25-fold decrease), but it is closer to $n = 1$.  (Numerically, $n = \\log(9)/\\log(5) = 1.37$; as directed by the instructions, this should be considered as the closest integer, $n = 1$.)",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Compares slopes of the second-order (1/[Ir]) plots for the two runs (about 280 and 31 $\\text{M}^{-1}\\text{s}^{-1}$), i.e. a ~9-fold change for a 5-fold change in $[\\ce{O2}]$"
+          },
+          {
+            "points": 2,
+            "criterion": "Recognizes the slope equals $k[\\ce{O2}]^n$ and computes/argues $n \\approx 1.37$"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes the order in $\\ce{O2}$ is 1 (closest integer)"
+          }
+        ],
+        "max_points": 5
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the rate constant for the reaction.",
+        "key_md": "If we use the data from run 1, $k[\\ce{O2}] = k[1.0 \\times 10^{-2}\\ \\text{M}] = 280\\ \\text{M}^{-1}\\text{s}^{-1}$.  So $k$ for this overall third-order reaction is $2.8 \\times 10^{4}\\ \\text{M}^{-2}\\text{s}^{-1}$.  (Using run 2 gives $k = 1.6 \\times 10^{4}\\ \\text{M}^{-2}\\text{s}^{-1}$.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets slope of second-order plot equal to $k[\\ce{O2}]$"
+          },
+          {
+            "points": 2,
+            "criterion": "Obtains $k \\approx 2.8 \\times 10^{4}\\ \\text{M}^{-2}\\text{s}^{-1}$ (run 1) or $1.6 \\times 10^{4}\\ \\text{M}^{-2}\\text{s}^{-1}$ (run 2), with correct third-order units"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The following mechanism has been proposed. Is the mechanism consistent with the observed rate law? Explain your reasoning.\n\n$\\ce{(C9H11)3Ir + O2 <=>[k_1][k_{-1}] (C9H11)3Ir(O2)}$\n\n$\\ce{(C9H11)3Ir(O2) + (C9H11)3Ir ->[k_2] 2 (C9H11)3IrO}$",
+        "key_md": "If step 1 is rate-determining, then Rate $= k[\\ce{O2}][\\ce{(C9H11)3Ir}]$, which gives the wrong order in iridium. If step 2 is rate-determining, then Rate $= k[\\ce{(C9H11)3Ir}]^2[\\ce{O2}]$, which is consistent with the experimental data. So this mechanism is consistent with the data if the second step is rate-limiting (i.e., $k_2[\\ce{(C9H11)3Ir}] \\ll k_{-1}$).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes that step 1 rate-determining would give Rate $= k[\\ce{O2}][\\ce{Ir}]$, inconsistent with the observed order in Ir"
+          },
+          {
+            "points": 1,
+            "criterion": "Derives Rate $= k[\\ce{(C9H11)3Ir}]^2[\\ce{O2}]$ for step 2 rate-determining (pre-equilibrium in step 1)"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes the mechanism is consistent provided the second step is rate-limiting ($k_2[\\ce{Ir}] \\ll k_{-1}$)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2018 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2018-N-P4-f1.png"
+  },
+  {
+    "id": "2018-N-P5",
+    "year": 2018,
+    "level": "national",
+    "number": 5,
+    "title": "Net ionic equations for six reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances. You need not balance the equations.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "A solution of acetic acid (ethanoic acid) is added to solid cadmium hydroxide.",
+        "key_md": "$\\ce{CH3COOH(aq) + Cd(OH)2(s) -> Cd^2+(aq) + CH3COO^-(aq) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants shown as $\\ce{CH3COOH}$ (molecular, undissociated) and solid $\\ce{Cd(OH)2}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{Cd^2+}$, $\\ce{CH3COO^-}$ and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Phosphorus tribromide and water are mixed.",
+        "key_md": "$\\ce{PBr3(l) + H2O(l) -> H3PO3(aq) + H3O^+(aq) + Br^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product $\\ce{H3PO3}$ (phosphorous acid) identified"
+          },
+          {
+            "points": 1,
+            "criterion": "Remaining products $\\ce{H3O+}$ (or $\\ce{H+}$/HBr) and $\\ce{Br-}$ given"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Hydrogen sulfide gas is passed into a solution of nickel(II) perchlorate.",
+        "key_md": "$\\ce{Ni^2+(aq) + H2S(aq) -> NiS(s) + H^+(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{Ni^2+}$ and molecular $\\ce{H2S}$, with perchlorate omitted as spectator"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{NiS(s)}$ and $\\ce{H+}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "A mixture of manganese(IV) oxide and concentrated hydrochloric acid is heated.",
+        "key_md": "$\\ce{MnO2(s) + HCl(aq) -> Mn^2+(aq) + Cl2(g) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{MnO2(s)}$ and $\\ce{HCl}$ (concentrated, may be written molecular)"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Mn^2+}$, $\\ce{Cl2(g)}$ and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Calcium carbonate is added to aqueous hydrofluoric acid.",
+        "key_md": "$\\ce{CaCO3(s) + HF(aq) -> CaF2(s) + CO2(g) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "HF written as a weak (molecular) acid and $\\ce{CaCO3}$ as a solid"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{CaF2(s)}$, $\\ce{CO2(g)}$ and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "A mixture of benzene with concentrated nitric and sulfuric acids is carefully heated. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Benzene (drawn as the hexagon with alternating double bonds) $+\\ \\ce{HNO3}$, with $\\ce{H2SO4}$ shown as catalyst over the arrow, gives nitrobenzene (benzene ring bearing an $\\ce{-NO2}$ group) $+\\ \\ce{H2O}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Nitrobenzene drawn as the structural formula (benzene ring with $\\ce{-NO2}$ substituent)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{HNO3}$ as reactant with $\\ce{H2SO4}$ as catalyst and $\\ce{H2O}$ as the other product"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2018 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2018-N-P6",
+    "year": 2018,
+    "level": "national",
+    "number": 6,
+    "title": "Lithium halide rock salt lattices",
+    "topic_id": "states-of-matter",
+    "intro_md": "The binary compounds of lithium LiX (X = H, F, Cl, Br, and I) all crystallize in the cubic lattice known as the rock salt or NaCl lattice. One unit cell of this structure (small circles = Li, large circles = X) is shown below. The length of the edge of the unit cell is abbreviated $a$.\n\nCompound — $a$, pm\n\nLiH — 408.3\n\nLiF — 403.5\n\nLiCl — 513.6\n\nLiBr — 548.9\n\nLiI — 601.9",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate the density of LiCl, $a$ = 513.6 pm.",
+        "key_md": "Volume of one unit cell = $a^3$ = (513.6 pm)$^3$ = (513.6 × 10$^{-10}$ cm)$^3$ = 1.355 × 10$^{-22}$ cm$^3$\n\nMass of one unit cell = 4 LiCl = 4(42.39 g mol$^{-1}$)/(6.022 × 10$^{23}$ mol$^{-1}$) = 2.816 × 10$^{-22}$ g\n\nDensity = (2.816 × 10$^{-22}$ g)/(1.355 × 10$^{-22}$ cm$^3$) = 2.078 g cm$^{-3}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Unit cell volume $a^3$ = 1.355 × 10⁻²² cm³ (correct pm → cm conversion)"
+          },
+          {
+            "points": 2,
+            "criterion": "Recognizes 4 LiCl formula units per rock salt unit cell and computes mass = 2.816 × 10⁻²² g"
+          },
+          {
+            "points": 1,
+            "criterion": "Density = 2.08 g cm⁻³ (±0.02) with correct units"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "Carbon-hydrogen bonds are invariably shorter than carbon-fluorine bonds (e.g., 108.7 pm in CH$_4$ vs. 132.3 pm in CF$_4$). However, the Li–H distances in LiH are actually slightly longer than the Li–F distances in LiF. Explain why.",
+        "key_md": "A neutral hydrogen atom is somewhat smaller than a neutral fluorine atom (hence the smaller C–H bond compared to a C–F bond). However, $Z_\\text{eff}$ for F is much greater than for H, so addition of an electron to form H$^-$ causes a much greater increase in size than addition of an electron to F to form F$^-$. LiH and LiF are both largely ionic, with H$^-$ and F$^-$ anions, respectively. The H$^-$ ion is thus slightly larger in size than the F$^-$ ion.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that LiH and LiF are largely ionic, so the relevant species are the anions H⁻ and F⁻ (not neutral atoms)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that low $Z_\\text{eff}$ of H makes H⁻ expand much more on adding an electron, so H⁻ is larger than F⁻"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "The $a$ values of the lithium halides increase monotonically but not steadily with increasing period: The increase from fluoride to chloride is the largest, with the increase from chloride to bromide the smallest and the increase from bromide to iodide intermediate in size. Explain this pattern. What would you predict about the magnitude of the increase in $a$ from LiI to LiAt?",
+        "key_md": "As the principal quantum number $n$ increases, the size of an atom or ion increases, though the effect generally diminishes in magnitude as $n$ increases. The outlier in this general trend in the lithium halides is thus the LiCl vs. LiBr ($n$ = 3 to $n$ = 4), where the increase is smaller than expected. This is due to the inclusion for the first time of the $d$ block elements ($Z$ = 21 to $Z$ = 30). The addition of these ten extra protons, which are not completely shielded by the ten extra electrons, causes the 4$p$ elements to be anomalously contracted.\n\nThis effect is also expected with the astatide ion At$^-$, due to the intervention of the 4$f$ elements (the \"lanthanide contraction\"). So the increase in size from LiI to LiAt is expected to be rather small, similar to or even smaller than the increase in size from LiCl to LiBr. While data are not available for astatides, this trend is seen in structures of polonides.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes that ionic size increases with $n$ but with diminishing increments"
+          },
+          {
+            "points": 2,
+            "criterion": "Attributes the anomalously small Cl → Br increase to poor shielding by the newly filled 3$d$ block (scandide/$d$-block contraction of the 4$p$ elements)"
+          },
+          {
+            "points": 1,
+            "criterion": "Predicts a small LiI → LiAt increase because of the lanthanide (4$f$) contraction"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "The melting points of the lithium halides (filled circles) and of lithium hydride (open square) are graphed as a function of the unit cell edge length $a$ below. Explain the correlation observed among the lithium halides between $a$ value and melting point.",
+        "key_md": "In these ionic crystals, the interionic attractions are proportional to $1/r$, where $r$ is the separation between ions. So as $a$ is smaller, the cohesive forces are stronger, which leads to higher melting points.",
+        "rubric": [
+          {
+            "points": 4,
+            "criterion": "States that the interionic (electrostatic/Coulombic) attraction in the ionic crystal is proportional to $1/r$ (inversely related to the interionic separation, i.e., to $a$)"
+          },
+          {
+            "points": 3,
+            "criterion": "Concludes that smaller $a$ means stronger cohesive/lattice forces and therefore a higher melting point (correlation of decreasing mp with increasing $a$)"
+          }
+        ],
+        "max_points": 7,
+        "figure_url": "/figures/2018-N-P6-f2.png"
+      },
+      {
+        "label": "e",
+        "stem_md": "The melting point of lithium hydride deviates from the value expected based on the correlation shown by the lithium halides. Explain this deviation.",
+        "key_md": "H is much less electronegative than F, so LiH is much less ionic than LiF. Since the cohesive energies are proportional to $q_1q_2/r$, and the charges on Li and H in LiH are smaller than those on Li and F in LiF, LiH has a lower melting point.",
+        "rubric": [
+          {
+            "points": 4,
+            "criterion": "Notes that H is much less electronegative than F (or the halogens), so LiH is much less ionic / has smaller effective ionic charges than the lithium halides"
+          },
+          {
+            "points": 3,
+            "criterion": "Connects the smaller charges to a smaller cohesive energy ($\\propto q_1q_2/r$) and hence a melting point lower than expected from the $a$ correlation"
+          }
+        ],
+        "max_points": 7
+      }
+    ],
+    "source": "USNCO 2018 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2018-N-P6-f1.png"
+  },
+  {
+    "id": "2018-N-P7",
+    "year": 2018,
+    "level": "national",
+    "number": 7,
+    "title": "Nitric oxide bonding and N2O3 isomers",
+    "topic_id": "bonding",
+    "intro_md": "Nitrogen forms a wide variety of binary oxides.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What is the bond order in nitric oxide, NO? Explain your answer.",
+        "key_md": "The valence molecular orbital configuration for NO is $\\sigma_{2s}^2\\sigma^*_{2s}{}^2\\pi_{2p}^4\\sigma_{2p}^2\\pi^*_{2p}{}^1$; the bond order is thus $\\tfrac{1}{2}(8-3) = 2.5$. (One could also interpolate between $\\ce{NO+}$, with a triple bond, and $\\ce{NO-}$, with a double bond, to get a bond order of NO of 2.5.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States bond order = 2.5"
+          },
+          {
+            "points": 2,
+            "criterion": "Justification: correct valence MO configuration $\\sigma_{2s}^2\\sigma^*_{2s}{}^2\\pi_{2p}^4\\sigma_{2p}^2\\pi^*_{2p}{}^1$ with $\\tfrac{1}{2}(8-3)$ (or valid interpolation between $\\ce{NO+}$ and $\\ce{NO-}$)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "NO has one unpaired electron; is it principally located on nitrogen or on oxygen? Justify your answer.",
+        "key_md": "The $\\pi^*$ orbital in NO is made up of an antibonding combination of N $2p$ and O $2p$ orbitals. It is composed predominantly of the atomic orbital to which it is closer in energy. Since it is higher in energy than either atomic orbital, then the higher-lying N $2p$ orbital makes a greater contribution to it. (So the unpaired electron is principally on nitrogen.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Answers that the unpaired electron is principally on nitrogen"
+          },
+          {
+            "points": 2,
+            "criterion": "Justifies via the $\\pi^*$ (antibonding) orbital lying above both atomic orbitals and therefore resembling/containing a greater contribution from the higher-energy N $2p$ orbital"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "The ionization energy of atomic N(*g*) is 1400 kJ mol⁻¹. Is the ionization energy of NO(*g*) greater than or less than 1400 kJ mol⁻¹? Justify your answer.",
+        "key_md": "Less than. Since the $\\pi^*$ orbital is higher in energy than the N $2p$ atomic orbital, an electron in it will be more easily ionized than an electron in a N $2p$ orbital. (Since both orbitals are singly occupied, the electron–electron repulsion terms should be similar.) The experimental ionization energy of NO, 9.26 eV, is indeed smaller than that of N.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the ionization energy of NO is less than 1400 kJ mol⁻¹"
+          },
+          {
+            "points": 2,
+            "criterion": "Justifies by noting the electron removed comes from the $\\pi^*$ orbital, which lies higher in energy than the N $2p$ orbital"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The molecule N₂O₃ has been observed in two structurally isomeric forms. Draw Lewis structures of these two isomers. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Two isomers:\n\n1. The oxygen-bridged isomer, $\\ce{O=N-O-N=O}$: a central oxygen (two lone pairs) singly bonded to each of two nitrogen atoms; each nitrogen bears one lone pair and is doubly bonded to a terminal oxygen (each terminal O has two lone pairs). All formal charges zero.\n\n2. The N–N bonded (nitro-nitroso) isomer, $\\ce{O2N-NO}$: a nitro nitrogen with a formal charge of $+1$ bonded to one doubly bonded O and one singly bonded $\\ce{O^-}$ (formal charge $-1$, three lone pairs), and joined by an N–N single bond to a nitroso nitrogen that carries a lone pair and is doubly bonded to a terminal oxygen (two lone pairs).",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Correct Lewis structure of the $\\ce{O=N-O-N=O}$ (oxygen-bridged) isomer with correct lone pairs"
+          },
+          {
+            "points": 2,
+            "criterion": "Correct Lewis structure of the $\\ce{O2N-NO}$ (N–N bonded) isomer with the $+1/-1$ formal charges on the nitro group shown"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "USNCO 2018 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2018-N-P8",
+    "year": 2018,
+    "level": "national",
+    "number": 8,
+    "title": "Amide formation, basicity and resonance",
+    "topic_id": "organic",
+    "intro_md": "Amides are an important class of compounds that can be formed from carboxylic acids and amines.",
+    "parts": [
+      {
+        "label": "a(i)",
+        "stem_md": "Account for the following experimental observation on the basis of structure and bonding.\n\ni. Acetic acid, $\\ce{CH3COOH}$, is a stronger acid than ethanol, $\\ce{CH3CH2OH}$.",
+        "key_md": "The conjugate base of acetic acid is strongly stabilized by resonance, while the conjugate base of ethanol is not. Since the conjugate base is stabilized, this makes it easier to remove $\\ce{H+}$ from acetic acid. (The inductive effect of the C=O group is also significant.)\n\n(Two resonance structures of acetate are drawn: $\\ce{H3C-C(=O)-O^-}$ ↔ $\\ce{H3C-C(-O^-)=O}$, showing the negative charge delocalized equally over both oxygens.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the acetate conjugate base is stabilized by resonance (charge delocalized over two oxygens) whereas ethoxide is not"
+          },
+          {
+            "points": 1,
+            "criterion": "Connects conjugate-base stabilization (and/or inductive effect of C=O) to greater ease of losing $\\ce{H+}$/stronger acidity"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "a(ii)",
+        "stem_md": "Account for the following experimental observation on the basis of structure and bonding.\n\nii. Dimethylamine, $\\ce{(CH3)2NH}$, is a stronger base than diphenylamine, $\\ce{(C6H5)2NH}$.",
+        "key_md": "Diphenylamine is stabilized by resonance delocalization of the nitrogen lone pair into the benzene rings. Since this delocalization is lost when the nitrogen is protonated, it is more difficult to protonate diphenylamine, so it is a weaker base.\n\n(Resonance structures are drawn showing the N lone pair delocalized into a ring, giving $\\ce{N+}=$ ring with a carbanion/negative charge in the ring, etc.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the nitrogen lone pair of diphenylamine is delocalized into the aromatic rings by resonance"
+          },
+          {
+            "points": 1,
+            "criterion": "States that this stabilization is lost upon protonation, making diphenylamine the weaker base (dimethylamine's lone pair is localized/available)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "When dimethylamine and acetic acid are mixed, they form a solid compound **A**, which upon strong heating loses water and forms the amide *N,N*-dimethylacetamide (**B**). What is the structure of the intermediate **A**?\n\n$\\ce{(CH3)2NH + CH3COOH -> A}$ ; $\\ce{A ->[\\Delta][-H2O] CH3CON(CH3)2}$ (**B**) *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "**A** is the ionic compound dimethylammonium acetate, $\\ce{[(CH3)2NH2][CH3COO]}$.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Identifies A as the ammonium salt dimethylammonium acetate, $\\ce{[(CH3)2NH2]+[CH3COO]-}$ (both ions correct)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Experimental measurements such as those using nuclear magnetic resonance (NMR) spectroscopy indicate that all three $\\ce{CH3}$ groups in *N,N*-dimethylacetamide are in distinct chemical environments, with exchange between any of these environments being very slow at room temperature. Explain this observation.",
+        "key_md": "*N,N*-dimethylacetamide is a flat molecule (all the nonhydrogen atoms are in the same plane). This is because both the carbonyl carbon and the nitrogen atom are $sp^2$ hybridized, with their unhybridized $p$ orbitals parallel to each other in order to allow for π overlap that is required in the minor resonance structure of the amide. If the molecule twists out of planarity, this overlap, and hence the resonance stabilization, is lost, which costs a significant amount of energy. In the flat structure, the two $\\ce{CH3}$ groups on N are in different environments—one is *cis* to the oxygen and one is *trans* to it.\n\n(Resonance structures drawn: $\\ce{CH3-C(=O)-N(CH3)2}$ ↔ $\\ce{CH3-C(-O^-)=N+(CH3)2}$, i.e. C=N double bond with formal charges.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Invokes amide resonance / partial C–N double bond ($sp^2$ C and N with parallel p orbitals) giving a planar molecule"
+          },
+          {
+            "points": 1,
+            "criterion": "States that rotation about the C–N bond is slow because it destroys the π overlap/resonance stabilization (high barrier)"
+          },
+          {
+            "points": 1,
+            "criterion": "States that in the planar structure the two N-methyl groups are inequivalent (one cis, one trans to O), so all three $\\ce{CH3}$ groups differ"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Strong bases deprotonate *N,N*-dimethylacetamide to give an anion, $\\ce{C4H8NO^-}$, while strong acids protonate *N,N*-dimethylacetamide to give a cation, $\\ce{C4H10NO+}$. Draw Lewis structures of the conjugate base and conjugate acid of *N,N*-dimethylacetamide, including formal charges and all major resonance structures if relevant. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "**Conjugate base** (deprotonation at the acetyl $\\ce{CH3}$, giving an enolate-type anion) — three resonance forms drawn:\n1. Enolate form: $\\ce{CH2=C(-O^-)-N(CH3)2}$, with the negative formal charge on oxygen and a C=C double bond to the terminal $\\ce{CH2}$.\n2. Carbanion form: $\\ce{^-CH2-C(=O)-N(CH3)2}$, with the negative formal charge on the terminal carbon.\n3. A third (labeled \"very minor resonance form\"): $\\ce{^-CH2-C(-O^-)=N+(CH3)2}$, with negative charges on the carbanion carbon and on oxygen and a positive formal charge on the doubly-bonded nitrogen.\n\n**Conjugate acid** (protonation on oxygen) — two resonance forms drawn:\n1. $\\ce{CH3-C(=OH+)-N(CH3)2}$, with the positive formal charge on the protonated oxygen (C=O–H double bond) and a neutral amine nitrogen.\n2. $\\ce{CH3-C(-OH)=N+(CH3)2}$, with a neutral O–H single bond and the positive formal charge on the nitrogen, which is doubly bonded to carbon.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Conjugate base drawn as deprotonation at the acetyl methyl, with both major resonance forms (carbanion and enolate with $\\ce{O-}$) and correct formal charges"
+          },
+          {
+            "points": 2,
+            "criterion": "Conjugate acid drawn as O-protonation, with both resonance forms (positive charge on OH oxygen and on nitrogen with C=N) and correct formal charges"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "USNCO 2018 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

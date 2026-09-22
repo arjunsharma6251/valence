@@ -1,0 +1,807 @@
+[
+  {
+    "id": "2021-N-P1",
+    "year": 2021,
+    "level": "national",
+    "number": 1,
+    "title": "Identifying a Volatile Binary Oxide",
+    "topic_id": "stoichiometry",
+    "intro_md": "A binary oxide $\\ce{X_mO_n}$ is a white, slightly volatile solid that reacts with saturated aqueous $\\ce{Ba(OH)2}$ to give a white precipitate.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "A 69.5 mg sample of this oxide is placed in an evacuated 1.00 L container, which is then heated slowly until the solid just vaporizes completely. At this point, the pressure in the container is 20.0 mm Hg and the temperature is 239.7 °C. What is the molar mass of the oxide in the gas phase?",
+        "key_md": "$P = [(20.0\\ \\text{mm Hg})/(760\\ \\text{mm Hg/atm})](1.013\\ \\text{bar/atm}) = 0.0267$ bar\n\n$n = PV/RT = (0.0267\\ \\text{bar})(1.00\\ \\text{L})/(0.08314\\ \\text{L bar mol}^{-1}\\text{K}^{-1})(512.8\\ \\text{K}) = 6.26 \\times 10^{-4}$ mol\n\n$M = 0.0695\\ \\text{g}/6.26 \\times 10^{-4}\\ \\text{mol} = 111\\ \\text{g mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Converts pressure to consistent units (0.0267 bar or 0.0263 atm) and uses T = 512.8 K"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses ideal gas law to get n = 6.26 × 10⁻⁴ mol (±2%)"
+          },
+          {
+            "points": 1,
+            "criterion": "Molar mass M = 111 g mol⁻¹ (±2)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "A 1.00 g sample of the oxide is dissolved in aqueous acid and electrolytically reduced, with elemental $\\ce{X}$ depositing on the cathode. Complete electrolysis requires 58 minutes with a current of 1.00 A. What is the value of $n$ in the formula $\\ce{X_mO_n}$?",
+        "key_md": "$1.00\\ \\text{g}/(111\\ \\text{g mol}^{-1}) = 9.01 \\times 10^{-3}$ mol of the oxide\n\nElectrolysis requires $(58\\ \\text{min})(60\\ \\text{s/min})(1.00\\ \\text{A}) = 3480$ C\n\n$3480\\ \\text{C}/(96500\\ \\text{C/mol}) = 0.0361$ mol electrons / $9.01 \\times 10^{-3}$ mol of the oxide = 4.0\n\nIt thus requires 4 mol electrons per mol compound to reduce $m\\ \\ce{X}$ to its elemental form, which corresponds to 2 O atoms per formula unit.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Charge passed = 3480 C and moles of electrons = 0.0361 mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Ratio of 4.0 mol electrons per mol of oxide"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes n = 2 (2 O atoms per formula unit)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "What is the chemical formula of the oxide?",
+        "key_md": "If the oxide has $n = 1$, then the atomic mass of $\\ce{X} = (111 - 32) = 79$, $\\ce{X} = \\ce{Se}$. $\\ce{SeO2}$ is indeed a white, slightly volatile, acidic oxide, so this is reasonable.\n\nIf the oxide has $n = 2$, then the atomic mass of $\\ce{X} = 79/2 = 39.5$. This is not especially close to any atomic mass, but the closest would be K and Ca. $\\ce{K2O2}$ is not an oxide (it is a peroxide), and $\\ce{Ca2O2}$ is not plausible as a volatile molecule and would be a basic oxide, not an acidic one.\n\nIf $n = 3$, then the atomic mass of $\\ce{X}$ would be $79/3 = 26.3$. Close to Al, but $\\ce{Al3O2}$ is not a stable oxide, and higher values of $n$ are even worse.\n\nSo the oxide is $\\ce{SeO2}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies X from residual mass 111 − 32 = 79, i.e. Se"
+          },
+          {
+            "points": 1,
+            "criterion": "States formula $\\ce{SeO2}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Write a balanced net ionic equation for the reaction of the oxide with a saturated aqueous solution of $\\ce{Ba(OH)2}$.",
+        "key_md": "$\\ce{Ba^2+(aq) + 2 OH^-(aq) + SeO2(s) -> BaSeO3(s) + H2O(l)}$\n\nor\n\n$\\ce{Ba^2+(aq) + 2 OH^-(aq) + H2SeO3(aq) -> BaSeO3(s) + 2 H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct products, including $\\ce{BaSeO3}(s)$ as the white precipitate"
+          },
+          {
+            "points": 1,
+            "criterion": "Balanced net ionic equation (charge and mass balanced)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "The experiment described in part (a) is repeated with a 415.7 mg sample of the oxide, which requires heating to 280.0 °C to just vaporize the solid. What is the standard enthalpy of sublimation of the oxide?",
+        "key_md": "In part (a), a smaller amount of $\\ce{SeO2}$ was used, and we found the equilibrium vapor pressure at $T_1 = 512.8$ K. Here, using more $\\ce{SeO2}$ will require a higher temperature to achieve a higher vapor pressure so that a larger mass will fill the same volume:\n\n$0.4157\\ \\text{g}\\ \\ce{SeO2}/(111.0\\ \\text{g mol}^{-1}) = 3.745 \\times 10^{-3}$ mol\n\n$P = nRT/V = (3.745 \\times 10^{-3}\\ \\text{mol})(0.08314\\ \\text{L bar mol}^{-1}\\text{K}^{-1})(553.2\\ \\text{K})/(1.00\\ \\text{L}) = 0.172$ bar\n\n$\\ln(P_2/P_1) = (-\\Delta H^\\circ_\\text{subl}/R)(1/T_2 - 1/T_1)$\n\n$\\Delta H^\\circ_\\text{subl} = -(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})\\ln(0.172\\ \\text{bar}/0.0267\\ \\text{bar})([1/553.2\\ \\text{K}] - [1/512.8\\ \\text{K}])^{-1}$\n\n$\\Delta H^\\circ_\\text{subl} = 10900\\ \\text{J mol}^{-1} = 109\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Computes second vapor pressure P₂ = 0.172 bar at 553.2 K from ideal gas law"
+          },
+          {
+            "points": 1,
+            "criterion": "Applies Clausius–Clapeyron relation with the two (P, T) pairs"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{subl} \\approx 109$ kJ mol⁻¹ (±3)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2021 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2021-N-P2",
+    "year": 2021,
+    "level": "national",
+    "number": 2,
+    "title": "Calcium Hydroxide Solubility and Sulfuric Acid Titration",
+    "topic_id": "equilibrium",
+    "intro_md": "A saturated aqueous solution of $\\ce{Ca(OH)2}$ has pH = 12.40.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What is the concentration of hydroxide ion in this solution?",
+        "key_md": "pH = 12.40, so pOH = 14.00 – 12.40 = 1.60, $[\\ce{OH-}] = 10^{-\\text{pOH}} = 0.0251$ M",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correctly computes pOH = 1.60 from pH = 12.40"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{OH-}] = 0.0251$ M (±0.0002 M)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "What is the $K_\\text{sp}$ of $\\ce{Ca(OH)2}$?",
+        "key_md": "$[\\ce{Ca^2+}] = 0.5[\\ce{OH-}] = 0.0126$ M\n\n$K_\\text{sp} = [\\ce{Ca^2+}][\\ce{OH-}]^2 = [0.0126][0.0251]^2 = 7.9 \\times 10^{-6}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $[\\ce{Ca^2+}] = \\tfrac{1}{2}[\\ce{OH-}] = 0.0126$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses correct expression $K_\\text{sp} = [\\ce{Ca^2+}][\\ce{OH-}]^2$"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{sp} = 7.9 \\times 10^{-6}$ (±0.2 × 10⁻⁶)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "A 100.0 mg sample of $\\ce{Ca(OH)2}$ ($M = 74.09$) is suspended in 100.0 mL of water. The mixture is stirred vigorously and 3 M sulfuric acid is added dropwise to it while monitoring the pH of the solution.\n\nAt the point that the pH reaches 7.00, there is solid calcium sulfate suspended in the solution. What is the concentration of $\\ce{Ca^2+}(aq)$ in the solution at this point? The $K_\\text{sp}$ of $\\ce{CaSO4}$ is $2.4 \\times 10^{-5}$.",
+        "key_md": "When pH = 7.00, the hydroxide has been exactly neutralized by the $\\ce{H2SO4}$, so the number of moles of $\\ce{Ca^2+}$ is equal to the number of moles of $\\ce{SO4^2-}$ present. Some of both will have precipitated as $\\ce{CaSO4}$, but $[\\ce{Ca^2+}]$ is still equal to $[\\ce{SO4^2-}]$ in solution. So\n\n$[\\ce{Ca^2+}][\\ce{SO4^2-}] = K_\\text{sp}$\n\n$[\\ce{Ca^2+}]^2 = 2.4 \\times 10^{-5}$\n\n$[\\ce{Ca^2+}] = 0.0049$ M",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Recognizes that at pH 7.00 all hydroxide is neutralized so $[\\ce{Ca^2+}] = [\\ce{SO4^2-}]$ in solution"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{Ca^2+}] = \\sqrt{2.4\\times10^{-5}} = 0.0049$ M (±0.0002 M)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Does the solution become homogeneous at any point during this titration? Justify your answer.",
+        "key_md": "0.1000 g $\\ce{Ca(OH)2}$/(74.09 g mol⁻¹) = 0.001350 mol $\\ce{Ca(OH)2}$.\n\nSo if the solution becomes homogeneous, then $[\\ce{Ca^2+}] = (0.001350\\ \\text{mol})/(0.100\\ \\text{L}) = 0.0135$ M. (The volume change in the titration is negligible since less than 0.5 mL of the sulfuric acid solution is added to reach the endpoint.)\n\nIn order for the solid $\\ce{Ca(OH)2}$ to have just dissolved, $[\\ce{Ca^2+}][\\ce{OH-}]^2 = K_\\text{sp}$ of $\\ce{Ca(OH)2}$\n\n$[0.0135][\\ce{OH-}]^2 = 7.9 \\times 10^{-6}$\n\n$[\\ce{OH-}] = 0.0242$ M\n\nSince the initial number of moles of hydroxide = 2(0.001350 mol) = 0.00270 mol, this means that 0.00270 mol – 0.00242 mol = 0.00028 mol hydroxide were neutralized, requiring 0.00014 mol $\\ce{H2SO4}$ and creating $[\\ce{SO4^2-}] = (0.00014\\ \\text{mol})/(0.100\\ \\text{L}) = 0.0014$ M.\n\nSo at this point, $[\\ce{Ca^2+}][\\ce{SO4^2-}] = [0.0135][0.0014] = 1.9 \\times 10^{-5}$. Since this ion product is less than the $K_\\text{sp}$ of $\\ce{CaSO4}$, $\\ce{CaSO4}$ will not have begun to precipitate yet, and the solution **will be homogeneous** at this point.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Computes 0.001350 mol $\\ce{Ca(OH)2}$, giving $[\\ce{Ca^2+}] = 0.0135$ M if all dissolved"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{sp}$ of $\\ce{Ca(OH)2}$ to find $[\\ce{OH-}] = 0.0242$ M at the point the last $\\ce{Ca(OH)2}$ dissolves"
+          },
+          {
+            "points": 1,
+            "criterion": "Finds the amount of $\\ce{H2SO4}$ added (0.00014 mol) and hence $[\\ce{SO4^2-}] = 0.0014$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Compares ion product $1.9 \\times 10^{-5} < K_\\text{sp}(\\ce{CaSO4}) = 2.4\\times10^{-5}$ and concludes the solution does become homogeneous"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "USNCO 2021 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2021-N-P3",
+    "year": 2021,
+    "level": "national",
+    "number": 3,
+    "title": "Vanadium Redox Battery Potentials and Thermodynamics",
+    "topic_id": "redox",
+    "intro_md": "Vanadium can adopt four oxidation states in aqueous solution.\n\nHalf-reaction — E° at 298 K, V\n\n$\\ce{VO2^+(aq) + 2 H^+(aq) + e^- -> VO^2+(aq) + H2O(l)}$ — +1.00\n\n$\\ce{VO^2+(aq) + 2 H^+(aq) + e^- -> V^3+(aq) + H2O(l)}$ — +0.34\n\n$\\ce{V^3+(aq) + e^- -> V^2+(aq)}$ — –0.26",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate $E°$ for the following half-cell at 298 K:\n\n$\\ce{VO2^+(aq) + 4 H^+(aq) + 3 e^- -> V^2+(aq) + 2 H2O(l)}$    $E° = ???$",
+        "key_md": "$\\ce{VO2^+(aq) + 2 H^+(aq) + e^- -> VO^2+(aq) + H2O(l)}$   $\\Delta G° = -(1)(F)(1.00\\ \\text{V})$\n\n$\\ce{VO^2+(aq) + 2 H^+(aq) + e^- -> V^3+(aq) + H2O(l)}$   $\\Delta G° = -(1)(F)(0.34\\ \\text{V})$\n\n$\\ce{V^3+(aq) + e^- -> V^2+(aq)}$   $\\Delta G° = -(1)(F)(-0.26\\ \\text{V})$\n\n$\\ce{VO2^+(aq) + 4 H^+(aq) + 3 e^- -> V^2+(aq) + 2 H2O(l)}$   $\\Delta G° = -(3)(F)(E°)$\n\n$-(3)(F)(E°) = -(F)(1.00\\ \\text{V} + 0.34\\ \\text{V} - 0.26\\ \\text{V})$\n\n$E° = +0.36\\ \\text{V}$",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Adds the three half-reactions using $\\Delta G°$ (or $nE°$) rather than simply adding potentials"
+          },
+          {
+            "points": 1,
+            "criterion": "$E° = +0.36$ V (±0.01 V)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "A vanadium battery can be constructed using the reduction of vanadium(V) by vanadium(II). Calculate $\\Delta E°$ for this reaction at 298 K:\n\n$\\ce{VO2^+(aq) + V^2+(aq) + 2 H^+(aq) -> VO^2+(aq) + V^3+(aq) + H2O(l)}$",
+        "key_md": "$\\Delta E° = 1.00\\ \\text{V} - (-0.26\\ \\text{V}) = 1.26\\ \\text{V}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta E° = 1.26$ V (cathode minus anode potential)"
+          }
+        ],
+        "max_points": 1
+      },
+      {
+        "label": "c",
+        "stem_md": "The value of $\\Delta E°$ for the vanadium battery increases with increasing temperature by $1.76 \\times 10^{-4}$ V K⁻¹. Calculate $\\Delta H°_\\text{rxn}$ and $\\Delta S°_\\text{rxn}$ for the vanadium battery.",
+        "key_md": "$\\Delta G° = -nF\\Delta E° = \\Delta H° - T\\Delta S°$, so $\\Delta E° = (-\\Delta H°/nF) + T\\Delta S°/nF$\n\nIf $\\Delta E°$ increases by $1.76 \\times 10^{-4}$ V K⁻¹, then $\\Delta S°/nF = 1.76 \\times 10^{-4}$ V K⁻¹.\n\n$\\Delta S° = (1)(96500\\ \\text{J V}^{-1}\\text{mol}^{-1})(1.76 \\times 10^{-4}\\ \\text{V K}^{-1}) = 17.0\\ \\text{J mol}^{-1}\\text{K}^{-1}$\n\nAt 298 K, $\\Delta G° = -nF\\Delta E° = -(1)(96.5\\ \\text{kJ V}^{-1}\\text{mol}^{-1})(1.26\\ \\text{V}) = -121.6\\ \\text{kJ mol}^{-1}$\n\n$\\Delta G° = \\Delta H° - T\\Delta S°$\n\n$-121.6\\ \\text{kJ mol}^{-1} = \\Delta H° - (298\\ \\text{K})(0.0170\\ \\text{kJ mol}^{-1}\\text{K}^{-1})$\n\n$\\Delta H° = -117\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $d(\\Delta E°)/dT = \\Delta S°/nF$ (from $\\Delta G° = -nF\\Delta E° = \\Delta H° - T\\Delta S°$)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S° = 17.0$ J mol⁻¹ K⁻¹ (±0.5)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G° = -121.6$ kJ mol⁻¹ at 298 K with $n = 1$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H° = -117$ kJ mol⁻¹ (±1)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "A vanadium battery is set up as shown below, using solutions that are buffered at pH = 1.00. It is then discharged with a constant current of 10.0 A until the cell potential reaches 1.14 V. The temperature is maintained at 298 K, and the volume of solution in each beaker is 100.0 mL. (Two Pt electrodes in beakers joined by a salt bridge, connected through a voltmeter.)\n\nInitial conditions:\n\nLeft cell: $[\\ce{VO2^+}] = 0.50$ M, $[\\ce{VO^2+}] = 0.10$ M, pH = 1.00, volume = 100.0 mL\n\nRight cell: $[\\ce{V^2+}] = 0.50$ M, $[\\ce{V^3+}] = 0.10$ M, pH = 1.00, volume = 100.0 mL\n\nWhat is the concentration of $\\ce{V^3+}(aq)$ in the anodic cell when the cell voltage reaches 1.14 V?",
+        "key_md": "Using the Nernst equation (with base 10 logarithm, at 298 K):\n\n$\\Delta E = \\Delta E° - (0.0591/n)\\log\\left(\\dfrac{[\\ce{VO^2+}][\\ce{V^3+}]}{[\\ce{VO2^+}][\\ce{V^2+}][\\ce{H^+}]^2}\\right)$\n\n$1.14\\ \\text{V} = 1.26\\ \\text{V} - 2(0.0591)(\\text{pH}) - 0.0591\\log\\left(\\dfrac{[\\ce{VO^2+}][\\ce{V^3+}]}{[\\ce{VO2^+}][\\ce{V^2+}]}\\right)$\n\n$1.14\\ \\text{V} = 1.14\\ \\text{V} - 0.0591\\log\\left(\\dfrac{[\\ce{VO^2+}][\\ce{V^3+}]}{[\\ce{VO2^+}][\\ce{V^2+}]}\\right)$\n\n$\\log\\left(\\dfrac{[\\ce{VO^2+}][\\ce{V^3+}]}{[\\ce{VO2^+}][\\ce{V^2+}]}\\right) = 0$\n\nSo the numerator and denominator must be equal, which means (given the initial concentrations of 0.50 M for both vanadium reactants and 0.10 M for both vanadium products) that all vanadium species must have equal concentrations. So $[\\ce{V^3+}] = 0.30$ M.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct Nernst expression including $[\\ce{H^+}]^2$ with $n = 1$ and pH = 1.00"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows the reaction quotient must equal 1 (log term = 0)"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{V^3+}] = 0.30$ M"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "How much time is required to achieve this voltage?",
+        "key_md": "Since $[\\ce{V^3+}]$ increases by 0.20 M in a 0.100 L solution, this corresponds to the passage of $(1)(96500\\ \\text{C mol}^{-1})(0.20\\ \\text{mol L}^{-1})(0.100\\ \\text{L}) = 1930\\ \\text{C}$. At a current of 10.0 A,\n\n$(10.0\\ \\text{A})t = 1930\\ \\text{C}$\n\n$t = 193\\ \\text{s}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Charge passed = 1930 C from 0.020 mol electrons (0.20 M change in 0.100 L, n = 1)"
+          },
+          {
+            "points": 1,
+            "criterion": "$t = 193$ s (±2 s)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2021 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2021-N-P4",
+    "year": 2021,
+    "level": "national",
+    "number": 4,
+    "title": "Nitryl chloride/nitrosyl chloride gas equilibrium thermodynamics",
+    "topic_id": "thermodynamics",
+    "intro_md": "The gas-phase equilibrium between nitryl chloride ($\\ce{NO2Cl}$) and nitrosyl chloride ($\\ce{NOCl}$) was studied:\n\n$\\ce{NO2Cl(g) + NO(g) <=> NOCl(g) + NO2(g)}$  (4a)\n\nThe equilibrium constant for reaction 4a was measured as $K_\\text{4a} = 1.12 \\times 10^4$ at 298 K and $K_\\text{4a} = 4.68 \\times 10^3$ at 340 K.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate $\\Delta G^\\circ_\\text{4a}$ at both 298 K and 340 K.",
+        "key_md": "$\\Delta G^\\circ_\\text{4a} = -RT\\ln(K_\\text{4a})$\n\nAt 298 K, $\\Delta G^\\circ_\\text{4a} = -(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})\\cdot\\ln(1.12\\times10^4) = -23.10\\ \\text{kJ mol}^{-1}$\n\nAt 340 K, $\\Delta G^\\circ_\\text{4a} = -(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(340\\ \\text{K})\\cdot\\ln(4.68\\times10^3) = -23.89\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = -RT\\ln K$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ$(298 K) = $-23.1$ kJ mol⁻¹ (±0.2)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ$(340 K) = $-23.9$ kJ mol⁻¹ (±0.2)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate $\\Delta H^\\circ_\\text{4a}$ and $\\Delta S^\\circ_\\text{4a}$ (assuming that they are essentially independent of temperature).",
+        "key_md": "Since $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$:\n\n$\\Delta H^\\circ - (298\\ \\text{K})\\Delta S^\\circ = -23.10\\ \\text{kJ mol}^{-1}$\n\n$\\Delta H^\\circ - (340\\ \\text{K})\\Delta S^\\circ = -23.89\\ \\text{kJ mol}^{-1}$\n\nSolving the simultaneous equations gives\n\n$\\Delta H^\\circ = -17.5\\ \\text{kJ mol}^{-1}$\n\n$\\Delta S^\\circ = 18.8\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up two simultaneous equations from $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$ (or equivalent van't Hoff treatment)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ = -17.5$ kJ mol⁻¹ (±1)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ = +18.8$ J mol⁻¹ K⁻¹ (±2)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Which of the four gaseous compounds involved in this equilibrium has the lowest standard molar entropy $S^\\circ$ at 298 K? Justify your choice.",
+        "key_md": "$\\ce{NO(g)}$ has the lowest molar entropy because all four compounds are in the gaseous state, but NO has the fewest atoms per molecule and hence the fewest degrees of freedom among which energy can be distributed. All other molecules have a bond between nitrogen and oxygen (like NO), but also have other bonds among which energy can be distributed.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies NO(g)"
+          },
+          {
+            "points": 1,
+            "criterion": "Justification: fewest atoms/bonds, hence fewest degrees of freedom (vibrational/rotational modes) for distributing energy"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "The normal boiling point of NOCl is –6 °C. Consider reaction 4b that produces liquid NOCl rather than gaseous NOCl:\n\n$\\ce{NO2Cl(g) + NO(g) <=> NOCl(l) + NO2(g)}$  (4b)\n\nAt 298 K, how will each of the thermodynamic quantities $\\Delta H^\\circ_\\text{4b}$, $\\Delta S^\\circ_\\text{4b}$, and $\\Delta G^\\circ_\\text{4b}$ compare to the corresponding thermodynamic quantity for reaction 4a (i.e., will the quantity for 4b be greater than, less than, or equal to the quantity for 4a)? Justify your answers.",
+        "key_md": "The properties of reaction 4b can be determined from those of 4a plus those of the condensation reaction 4*:\n\n$\\ce{NO2Cl(g) + NO(g) <=> NOCl(g) + NO2(g)}$  (4a)\n\n$\\ce{NOCl(g) <=> NOCl(l)}$  (4*)\n\n$\\ce{NO2Cl(g) + NO(g) <=> NOCl(l) + NO2(g)}$  (4b)\n\n$\\Delta H^\\circ_\\text{4b} = \\Delta H^\\circ_\\text{4a} + \\Delta H^\\circ_{4*}$. Since $\\Delta H^\\circ_{4*}$ is negative [condensation is exothermic], **$\\Delta H^\\circ_\\text{4b} < \\Delta H^\\circ_\\text{4a}$**\n\n$\\Delta S^\\circ_\\text{4b} = \\Delta S^\\circ_\\text{4a} + \\Delta S^\\circ_{4*}$. Since $\\Delta S^\\circ_{4*}$ is negative [liquid has a lower entropy than gas], **$\\Delta S^\\circ_\\text{4b} < \\Delta S^\\circ_\\text{4a}$**\n\n$\\Delta G^\\circ_\\text{4b} = \\Delta G^\\circ_\\text{4a} + \\Delta G^\\circ_{4*}$. Since $\\Delta G^\\circ_{4*}$ is positive at 298 K [at temperatures above the normal boiling point, the gas is more stable at standard pressure than the liquid], **$\\Delta G^\\circ_\\text{4b} > \\Delta G^\\circ_\\text{4a}$**",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{4b} < \\Delta H^\\circ_\\text{4a}$ because condensation is exothermic"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ_\\text{4b} < \\Delta S^\\circ_\\text{4a}$ because the liquid has lower entropy than the gas"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ_\\text{4b} > \\Delta G^\\circ_\\text{4a}$ because condensation is nonspontaneous (ΔG° > 0) at 298 K, above the normal boiling point"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "In experimental practice, the study of equilibrium 4a is complicated by the fact that $\\ce{NO2(g)}$ is also in equilibrium with $\\ce{N2O4(g)}$ according to reaction 4c under conditions where reaction 4a attains equilibrium.\n\n$\\ce{2 NO2(g) <=> N2O4(g)}$  (4c)\n\nSuppose that samples of $\\ce{NO2Cl}$ and NO are introduced into a reaction vessel and the mixture is allowed to attain equilibrium according to reactions 4a and 4c at 320 K. If the volume of the reaction vessel is doubled, will the number of moles of $\\ce{NOCl(g)}$ increase, decrease, or stay the same after the system reattains equilibrium? Justify your answer.",
+        "key_md": "As the volume of the container is doubled, all of the partial pressures of the gases will undergo an instantaneous decrease by a factor of two. Reaction 4a has an equal number of gaseous reactants as products, so its position will not be directly affected by this change. However, reaction 4c has more moles of reactants than products, so that reaction will shift to increase the number of moles of $\\ce{NO2(g)}$. By Le Chatelier's principle, this will shift reaction 4a to the left, so the number of moles of $\\ce{NOCl(g)}$ will **decrease**.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Answers that the moles of NOCl(g) decrease"
+          },
+          {
+            "points": 1,
+            "criterion": "Justification: 4a is unaffected by volume (equal moles of gas), but 4c shifts toward NO2, and the added NO2 pushes 4a to the left"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2021 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2021-N-P5",
+    "year": 2021,
+    "level": "national",
+    "number": 5,
+    "title": "Net Equations for Six Reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances. You need not balance the equations.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Solid calcium oxide is added to distilled water.",
+        "key_md": "$\\ce{CaO(s) + H2O(l) -> Ca(OH)2(s)}$  ($\\ce{Ca^2+(aq) + OH^-(aq)}$ would also be accepted)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants $\\ce{CaO}$ and $\\ce{H2O}$ with no spectator species"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct product $\\ce{Ca(OH)2}$ (or $\\ce{Ca^2+ + OH^-}$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Acidic aqueous solutions of potassium permanganate and iron(II) sulfate are mixed.",
+        "key_md": "$\\ce{MnO4^-(aq) + Fe^2+(aq) + H+(aq) -> Mn^2+(aq) + Fe^3+(aq) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants given as $\\ce{MnO4^-}$, $\\ce{Fe^2+}$ and $\\ce{H+}$ (no $\\ce{K+}$ or $\\ce{SO4^2-}$ spectators)"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Mn^2+}$, $\\ce{Fe^3+}$ and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Gaseous ammonia and boron trifluoride are mixed.",
+        "key_md": "$\\ce{NH3(g) + BF3(g) -> H3NBF3(s)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants $\\ce{NH3}$ and $\\ce{BF3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Lewis acid–base adduct $\\ce{H3N-BF3}$ as the product"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Solid phosphorus(V) oxide is added to an excess of aqueous sodium carbonate.",
+        "key_md": "$\\ce{P4O10(s) + CO3^2-(aq) + H2O(l) -> HPO4^2-(aq) + HCO3^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{P4O10}$ (or $\\ce{P2O5}$), $\\ce{CO3^2-}$ and $\\ce{H2O}$, with $\\ce{Na+}$ omitted"
+          },
+          {
+            "points": 1,
+            "criterion": "Products a phosphate anion ($\\ce{HPO4^2-}$) and $\\ce{HCO3^-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Potassium hydroxide is added to a dimethyl sulfoxide solution of 1-bromobutane. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{OH^-}$ + 1-bromobutane (drawn as a four-carbon chain with Br on the terminal carbon) $\\rightarrow$ $\\ce{Br^-}$ + 1-butanol (four-carbon chain with OH on the terminal carbon).\n\n($\\ce{Br^-}$ + $\\ce{H2O}$ + 1-butene (drawn as $\\ce{CH3CH2CH=CH2}$) would also be accepted.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\ce{OH^-}$ shown reacting with 1-bromobutane structure and $\\ce{Br^-}$ released ($\\ce{K+}$ omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Organic product drawn as 1-butanol (or 1-butene plus $\\ce{H2O}$ for elimination)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Fluorine-18 emits a positron.",
+        "key_md": "$\\ce{^18F -> ^18O + ^0_{+1}e}$ [also written $\\beta^+$]",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product nuclide correctly identified as $\\ce{^18O}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Positron $\\ce{^0_{+1}e}$ (or $\\beta^+$) included"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2021 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2021-N-P6",
+    "year": 2021,
+    "level": "national",
+    "number": 6,
+    "title": "Magnetism and Color of Transition Metal Complexes",
+    "topic_id": "bonding",
+    "intro_md": "Explain the following observations about complex ions of the transition metals.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "The $\\ce{Cr(H2O)6^3+}$ ion is paramagnetic while the $\\ce{Sc(H2O)6^3+}$ ion is diamagnetic.",
+        "key_md": "$\\ce{Cr(H2O)6^3+}$ has an odd number of electrons (Cr(III) has a $d^3$ configuration) and thus must be paramagnetic. $\\ce{Sc(H2O)6^3+}$ has a $d^0$ metal ion, so all electrons are paired, giving a diamagnetic ion.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies Cr(III) as $d^3$ (odd number of $d$ electrons, unpaired electrons → paramagnetic)"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies Sc(III) as $d^0$, so all electrons paired → diamagnetic"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "The $\\ce{CoF6^3-}$ ion is paramagnetic while the $\\ce{Co(CN)6^3-}$ ion is diamagnetic.",
+        "key_md": "$\\ce{F-}$ is a weaker field ligand than $\\ce{CN-}$, so the splitting between the two sets of $d$ orbitals in an octahedral complex (the three so-called $t_{2g}$ or $d\\pi$ orbitals at lower energy and the two $e_g$ or $d\\sigma^*$ orbitals at higher energy) is lower in $\\ce{CoF6^3-}$ than in $\\ce{Co(CN)6^3-}$. So the six $d$ electrons occupy all five $d$ orbitals in $\\ce{CoF6^3-}$, giving four unpaired electrons, while they are confined to the three $t_{2g}$ orbitals in $\\ce{Co(CN)6^3-}$ and are thus all paired.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States $\\ce{F-}$ is a weak-field ligand and $\\ce{CN-}$ a strong-field ligand (smaller vs. larger $t_{2g}/e_g$ splitting)"
+          },
+          {
+            "points": 1,
+            "criterion": "High-spin $d^6$ $\\ce{CoF6^3-}$ has 4 unpaired electrons (electrons spread over all five $d$ orbitals)"
+          },
+          {
+            "points": 1,
+            "criterion": "Low-spin $d^6$ $\\ce{Co(CN)6^3-}$ has all six electrons paired in the $t_{2g}$ orbitals"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "The $\\ce{NiCl4^2-}$ ion is paramagnetic while the $\\ce{PtCl4^2-}$ ion is diamagnetic.",
+        "key_md": "$\\ce{NiCl4^2-}$ is tetrahedral, and so all the $d$ orbitals are similar in energy (three are at slightly higher energy and two at slightly lower energy, but the difference in energy is small). In its ground state, the eight $d$ electrons in Ni(II) spread out as much as possible among the five $d$ orbitals. This means that there are two half-filled $d$ orbitals, so the compound has 2 unpaired electrons. In square planar $\\ce{PtCl4^2-}$, one $d$ orbital ($d_{x^2-y^2}$, if the chlorides are taken to lie along the $x$ and $y$ axes) is much higher in energy than any of the others. That $d$ orbital is thus empty, and filling the remaining four $d$ orbitals with eight electrons results in no unpaired electrons.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States $\\ce{NiCl4^2-}$ is tetrahedral with small $d$-orbital splitting, giving $d^8$ with 2 unpaired electrons"
+          },
+          {
+            "points": 1,
+            "criterion": "States $\\ce{PtCl4^2-}$ is square planar with one high-lying $d$ orbital ($d_{x^2-y^2}$) left empty"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes the eight electrons fill the remaining four orbitals, giving no unpaired electrons"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The $\\ce{CoCl4^2-}$ ion is strongly colored while the $\\ce{ZnCl4^2-}$ ion is colorless.",
+        "key_md": "$\\ce{CoCl4^2-}$ has $d^7$ Co(II) and so has moderately intense $d$-$d$ transitions where electrons are promoted from filled $d$ orbitals to half-filled $d$ orbitals. In contrast, $\\ce{ZnCl4^2-}$ has a $d^{10}$ metal center, so all the $d$ orbitals are completely filled and no $d$-$d$ transitions are possible.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Co(II) is $d^7$ with partially filled $d$ orbitals, allowing $d$-$d$ transitions"
+          },
+          {
+            "points": 1,
+            "criterion": "Zn(II) is $d^{10}$ (filled), so no $d$-$d$ transitions are possible → colorless"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "The $\\ce{MnO4^-}$ ion is strongly colored while the $\\ce{ReO4^-}$ ion is colorless.",
+        "key_md": "In $\\ce{MnO4-}$, Mn(VII) is $d^0$, so the color cannot arise from a $d$-$d$ transition. It must be due to a ligand-to-metal charge transfer transition (LMCT), where an electron is promoted from a nonbonding orbital on oxygen to a Mn $d$ orbital. This is possible in $\\ce{ReO4-}$ as well, but the transfer requires much more energy (Mn(VII) is much more oxidizing than Re(VII)) and occurs in the ultraviolet, giving rise to a colorless species.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes both metals are $d^0$ (Mn(VII), Re(VII)), so color is not from $d$-$d$ transitions"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes the color to ligand-to-metal charge transfer (O → metal $d$)"
+          },
+          {
+            "points": 1,
+            "criterion": "States the LMCT energy is much higher for Re (Re(VII) less oxidizing), so absorption is in the UV → colorless"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2021 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2021-N-P7",
+    "year": 2021,
+    "level": "national",
+    "number": 7,
+    "title": "Boiling points and intermolecular forces",
+    "topic_id": "states-of-matter",
+    "intro_md": "Consider the species whose normal boiling points are listed below.\n\nSpecies: LiH, CH₄, NH₃, H₂O, HF, Ne\n\nbp (°C): > 900, –164, –33, 100, 19, –246",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Explain why LiH has a much higher boiling point than any of the other species in the table.",
+        "key_md": "LiH is ionic, so the cohesive forces are electrostatic interactions between $\\ce{Li+}$ and $\\ce{H-}$ ions, which are much stronger than the intermolecular forces in the other substances, which are molecular.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies LiH as ionic (electrostatic attraction between $\\ce{Li+}$ and $\\ce{H-}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "States these ionic/electrostatic forces are much stronger than the intermolecular forces in the other (molecular) substances"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Explain why NH₃ has a higher boiling point than CH₄.",
+        "key_md": "$\\ce{NH3}$ can participate in hydrogen bonding, while $\\ce{CH4}$ cannot.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States that $\\ce{NH3}$ engages in hydrogen bonding while $\\ce{CH4}$ does not (1 pt if only one side of the comparison is given)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Explain why H₂O has a higher boiling point than either NH₃ or HF.",
+        "key_md": "All three compounds can participate in intermolecular hydrogen bonding, but $\\ce{NH3}$ and HF can only form one mole of hydrogen bonds per mole of compound (HF has only one H per mole [one H-bond donor], and $\\ce{NH3}$ has only one lone pair [one H-bond acceptor]). Water has two H-bond donors and two H-bond acceptors per mole, so it forms twice as many hydrogen bonds and has correspondingly stronger intermolecular forces.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes that all three hydrogen bond, so the difference is in the number of hydrogen bonds"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies HF as having only one H-bond donor and $\\ce{NH3}$ only one H-bond acceptor (lone pair)"
+          },
+          {
+            "points": 1,
+            "criterion": "States water has two donors and two acceptors, hence twice as many H-bonds/stronger intermolecular forces"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Explain why CH₄ has a higher boiling point than Ne.",
+        "key_md": "Neither $\\ce{CH4}$ nor Ne have permanent dipoles, nor can either participate in hydrogen bonding. The only intermolecular forces they experience are London dispersion forces. Dispersion forces are greater if the number of electrons per molecule is greater, or if the polarizability of the electrons is greater. Methane and neon each have ten electrons per molecule, but neon holds its electrons much more tightly than either carbon or hydrogen does (larger $Z_\\text{eff}$) and so is much less polarizable. This means that an instantaneous dipole on one Ne atom is relatively ineffective at inducing a dipole on a neighboring Ne.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that only London dispersion forces operate (no dipoles, no hydrogen bonding)"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes both have ten electrons, so the difference must be polarizability"
+          },
+          {
+            "points": 1,
+            "criterion": "States Ne holds its electrons more tightly (larger $Z_\\text{eff}$) and is less polarizable, so weaker dispersion forces"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "The species BH₃ does not appear on this list because it is not a stable molecule. Draw a clear picture of the three-dimensional structure of the stable boron hydride that has the empirical formula BH₃, and predict where the boiling point of this boron hydride falls among the six species listed in the table. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The structure drawn is diborane, $\\ce{B2H6}$: two boron atoms bridged by two hydrogen atoms (a four-membered B–H–B–H ring), with each boron also bearing two terminal hydrogens (one drawn with a wedge and one with a hash to show that the four terminal H atoms lie in a plane perpendicular to the B–H–B bridging plane).\n\n$\\ce{B2H6}$ cannot participate in hydrogen bonding (so it is likely to have weaker intermolecular forces than $\\ce{NH3}$) but has more electrons than $\\ce{CH4}$ or Ne (so it will have stronger London dispersion forces). Its normal boiling point is therefore expected to fall between that of $\\ce{CH4}$ and that of $\\ce{NH3}$ (experimentally, it boils at –92 °C).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Draws diborane $\\ce{B2H6}$ with two bridging hydrogens and two terminal hydrogens on each boron (three-dimensional depiction)"
+          },
+          {
+            "points": 1,
+            "criterion": "Predicts the boiling point falls between $\\ce{CH4}$ and $\\ce{NH3}$, justified by no hydrogen bonding but greater dispersion forces (more electrons)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2021 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2021-N-P8",
+    "year": 2021,
+    "level": "national",
+    "number": 8,
+    "title": "Bromination of hydrocarbons and arenes",
+    "topic_id": "organic",
+    "intro_md": "Elemental bromine reacts with different hydrocarbons under different conditions.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Bromine reacts rapidly with cyclohexene, $\\ce{C6H10}$, at room temperature. Draw a structural formula for the major organic product of this reaction, clearly depicting stereochemistry if relevant. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "*trans*-1,2-dibromocyclohexane: a cyclohexane ring bearing Br on C1 and Br on C2 on opposite faces (one bold wedge, one hashed wedge) — and its enantiomer, in a racemic mixture.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Structure is 1,2-dibromocyclohexane (anti addition product of $\\ce{Br2}$ across the double bond)"
+          },
+          {
+            "points": 1,
+            "criterion": "Stereochemistry shown as *trans* (anti), noted as a racemic mixture of enantiomers"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Bromine does not react with cyclohexane, $\\ce{C6H12}$, at room temperature in the dark, but does react in the presence of light. Draw a structural formula for the major organic product of this reaction, and clearly explain the role of light in the reaction. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Product: bromocyclohexane (a cyclohexane ring with a single Br substituent).\n\nThis is a radical chain reaction, and light serves to homolyze the Br–Br bond and generate the chain-carrying Br atoms.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Draws bromocyclohexane ($\\ce{C6H11Br}$) as the major product"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies the reaction as a radical (free-radical chain) substitution"
+          },
+          {
+            "points": 1,
+            "criterion": "States that light homolyzes the Br–Br bond to generate chain-carrying Br atoms"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Bromine does not react readily with benzene, $\\ce{C6H6}$, in the absence of a catalyst, but in the presence of a suitable catalyst it forms bromobenzene, $\\ce{C6H5Br}$. Give an example of a suitable catalyst and clearly explain its role in the reaction.",
+        "key_md": "Suitable catalysts are Lewis acids such as $\\ce{FeBr3}$ or $\\ce{AlBr3}$, which make $\\ce{Br2}$ a stronger electrophile.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Names a suitable Lewis-acid catalyst ($\\ce{FeBr3}$, $\\ce{AlBr3}$, or equivalent)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that the Lewis acid polarizes/complexes $\\ce{Br2}$, making it a stronger electrophile"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Under the conditions in (c), each of the benzene derivatives shown below reacts with bromine.  Indicate which compound reacts the fastest and which the slowest, and explain your reasoning.",
+        "key_md": "The key high-energy intermediate in electrophilic aromatic substitution reactions is a cyclohexadienyl cation.  This cation is stabilized (and hence the barrier to the reaction is lowered) by groups that can donate electrons inductively (such as $\\ce{CH3}$) and very strongly stabilized by groups that can donate electrons by resonance (such as $\\ce{OCH3}$).  Hence the reaction rate is anisole > toluene > benzene.\n\n(The solution illustrates the cyclohexadienyl cation intermediates: for benzene the positive charge is unstabilized; for toluene the methyl group donates electrons inductively into the ring; for anisole the $\\ce{OCH3}$ oxygen lone pair delocalizes onto the ring carbon, drawn as a resonance structure bearing an oxocarbenium-type $\\ce{+OCH3}$, giving the greatest stabilization.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States anisole reacts fastest and benzene reacts slowest (order anisole > toluene > benzene)"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies the rate-determining, high-energy cyclohexadienyl (arenium) cation intermediate as the species being stabilized"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that $\\ce{OCH3}$ donates electrons by resonance (strongest stabilization) while $\\ce{CH3}$ donates only inductively"
+          }
+        ],
+        "max_points": 3,
+        "figure_url": "/figures/2021-N-P8-f1.png"
+      },
+      {
+        "label": "e",
+        "stem_md": "In the presence of excess bromine and a catalyst as described in (c), benzene reacts to form a mixture of isomers of dibromobenzene, $\\ce{C6H4Br2}$. Draw structural formulas for the three isomers that are formed and indicate which one is formed in the *smallest* quantity. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The three isomers are *ortho*-dibromobenzene (1,2-), *para*-dibromobenzene (1,4-), and *meta*-dibromobenzene (1,3-).\n\nThe *meta* (1,3-) isomer is least abundant — Br is electron-donating by resonance and stabilizes the intermediates for ortho and para, but not meta, products.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Draws all three isomers: 1,2- (ortho), 1,3- (meta) and 1,4- (para) dibromobenzene"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies the meta (1,3-) isomer as formed in the smallest quantity (Br is an ortho/para director by resonance donation)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2021 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

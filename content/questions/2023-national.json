@@ -4,7 +4,7 @@
     "year": 2023,
     "level": "national",
     "number": 1,
-    "stem_md": "An amino acid (M = 174) with a formula of CaHbNxO2 contains 8.1% by mass of H and 41.3% by mass of C. What is the value of x in its formula?",
+    "stem_md": "An amino acid (M = 174) with a formula of $\\ce{C_aH_bN_xO2}$ contains 8.1% by mass of H and 41.3% by mass of C. What is the value of x in its formula?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -30,14 +30,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-02",
     "year": 2023,
     "level": "national",
     "number": 2,
-    "stem_md": "Potassium tris(oxalato)ferrate(III) trihydrate is prepared by precipitation from aqueous solution according to the following equation: 3 K2C2O4(aq) + FeCl3(aq) + 3 H2O(l) → K3Fe(C2O4)3 • 3H2O(s) + 3 KCl(aq) A student mixes 10.00 g K2C2O4 (M = 166.2) and 5.00 g FeCl3 (M = 162.2) in 20.0 mL water and isolates 5.74 g K3Fe(C2O4)3 • 3H2O by filtration. What is the percent yield of this reaction?",
+    "stem_md": "Potassium tris(oxalato)ferrate(III) trihydrate is prepared by precipitation from aqueous solution according to the following equation: $\\ce{3 K2C2O4(aq) + FeCl3(aq) + 3 H2O(l) -> K3Fe(C2O4)3 . 3H2O(s) + 3 KCl(aq)}$ A student mixes 10.00 g $\\ce{K2C2O4}$ (M = 166.2) and 5.00 g $\\ce{FeCl3}$ (M = 162.2) in 20.0 mL water and isolates 5.74 g $\\ce{K3Fe(C2O4)3 . 3H2O}$ by filtration. What is the percent yield of this reaction?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -63,14 +64,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 2. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-03",
     "year": 2023,
     "level": "national",
     "number": 3,
-    "stem_md": "Carbon tetrachloride (CCl4, M = 153.8, density = 1.59 g mL-1) and heptane (C7H16, M = 100.2, density = 0.68 g mL-1) are miscible liquids. Which solution has the highest concentration of CCl4?",
+    "stem_md": "Carbon tetrachloride ($\\ce{CCl4}$, M = 153.8, density = 1.59 g mL$^{-1}$) and heptane ($\\ce{C7H16}$, M = 100.2, density = 0.68 g mL$^{-1}$) are miscible liquids. Which solution has the highest concentration of $\\ce{CCl4}$?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -79,24 +81,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "5% v/v CCl4 in heptane"
+        "text_md": "5% v/v $\\ce{CCl4}$ in heptane"
       },
       {
         "label": "B",
-        "text_md": "5% w/w CCl4 in heptane"
+        "text_md": "5% w/w $\\ce{CCl4}$ in heptane"
       },
       {
         "label": "C",
-        "text_md": "5 mol% CCl4 in heptane"
+        "text_md": "5 mol% $\\ce{CCl4}$ in heptane"
       },
       {
         "label": "D",
-        "text_md": "All three solutions have the same concentration of CCl4."
+        "text_md": "All three solutions have the same concentration of $\\ce{CCl4}$."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-04",
@@ -112,31 +115,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H3PO4"
+        "text_md": "$\\ce{H3PO4}$"
       },
       {
         "label": "B",
-        "text_md": "H2SO4"
+        "text_md": "$\\ce{H2SO4}$"
       },
       {
         "label": "C",
-        "text_md": "H3AsO4"
+        "text_md": "$\\ce{H3AsO4}$"
       },
       {
         "label": "D",
-        "text_md": "H2SeO4"
+        "text_md": "$\\ce{H2SeO4}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-05",
     "year": 2023,
     "level": "national",
     "number": 5,
-    "stem_md": "A 1.802-g sample of a hydrated double salt containing two different metal ions with the formula of MA(MB)2(SO4)4 • 22H2O is heated strongly to drive off all the water, leaving a residue of 1.000 g. What is the identity of MA?",
+    "stem_md": "A 1.802-g sample of a hydrated double salt containing two different metal ions with the formula of $\\ce{M_A(M_B)2(SO4)4 . 22H2O}$ is heated strongly to drive off all the water, leaving a residue of 1.000 g. What is the identity of $M_A$?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -162,14 +166,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 5. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-07",
     "year": 2023,
     "level": "national",
     "number": 7,
-    "stem_md": "A weighed sample of iron ore is dissolved in 10 mL of 1.0 M hydrochloric acid and then titrated with 0.100 M KMnO4 to determine the percent iron by mass in the sample. Which glassware is the best choice for measuring the hydrochloric acid?",
+    "stem_md": "A weighed sample of iron ore is dissolved in 10 mL of 1.0 M hydrochloric acid and then titrated with 0.100 M $\\ce{KMnO4}$ to determine the percent iron by mass in the sample. Which glassware is the best choice for measuring the hydrochloric acid?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -195,7 +200,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 7. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-08",
@@ -211,31 +217,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Cr2+"
+        "text_md": "$\\ce{Cr^2+}$"
       },
       {
         "label": "B",
-        "text_md": "Mn2+"
+        "text_md": "$\\ce{Mn^2+}$"
       },
       {
         "label": "C",
-        "text_md": "Co2+"
+        "text_md": "$\\ce{Co^2+}$"
       },
       {
         "label": "D",
-        "text_md": "Ni2+"
+        "text_md": "$\\ce{Ni^2+}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 8. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-09",
     "year": 2023,
     "level": "national",
     "number": 9,
-    "stem_md": "When equal volumes of a 1.0 M ammonium sulfate solution and a saturated solution of barium hydroxide are mixed, what is observed? I. Gas is evolved II. A white precipitate forms.",
+    "stem_md": "When equal volumes of a 1.0 M ammonium sulfate solution and a saturated solution of barium hydroxide are mixed, what is observed?\n\nI. Gas is evolved\n\nII. A white precipitate forms.",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -261,7 +268,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-10",
@@ -281,7 +289,7 @@
       },
       {
         "label": "B",
-        "text_md": "Measurement of the absorbance of the solution at a wavelength of light at which both Cu2+ and Ni2+ absorb, and comparison with the absorbances of known standards of the two ions."
+        "text_md": "Measurement of the absorbance of the solution at a wavelength of light at which both $\\ce{Cu^2+}$ and $\\ce{Ni^2+}$ absorb, and comparison with the absorbances of known standards of the two ions."
       },
       {
         "label": "C",
@@ -294,7 +302,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-11",
@@ -310,31 +319,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Li+"
+        "text_md": "$\\ce{Li+}$"
       },
       {
         "label": "B",
-        "text_md": "Mg2+"
+        "text_md": "$\\ce{Mg^2+}$"
       },
       {
         "label": "C",
-        "text_md": "K+"
+        "text_md": "$\\ce{K+}$"
       },
       {
         "label": "D",
-        "text_md": "Ca2+"
+        "text_md": "$\\ce{Ca^2+}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 11. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-12",
     "year": 2023,
     "level": "national",
     "number": 12,
-    "stem_md": "A sample of malachite, Cu2CO3(OH)2, is heated over a Bunsen burner to form CuO. The mass percent copper in the sample is calculated based on the mass before and after heating. Which could explain the experimentally determined percent copper being lower than that expected for malachite?",
+    "stem_md": "A sample of malachite, $\\ce{Cu2CO3(OH)2}$, is heated over a Bunsen burner to form $\\ce{CuO}$. The mass percent copper in the sample is calculated based on the mass before and after heating. Which could explain the experimentally determined percent copper being lower than that expected for malachite?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -351,16 +361,17 @@
       },
       {
         "label": "C",
-        "text_md": "Azurite (Cu3(CO3)2(OH)2) is present in the sample."
+        "text_md": "Azurite ($\\ce{Cu3(CO3)2(OH)2}$) is present in the sample."
       },
       {
         "label": "D",
-        "text_md": "Goethite (FeO(OH)) is present in the sample."
+        "text_md": "Goethite ($\\ce{FeO(OH)}$) is present in the sample."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-13",
@@ -393,7 +404,42 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-N-14",
+    "year": 2023,
+    "level": "national",
+    "number": 14,
+    "stem_md": "Which $\\ce{C5H10O}$ isomer has the highest normal boiling point?",
+    "figure_url": "/figures/2023-N-14.png",
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 National Part I exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-15",
@@ -426,7 +472,42 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-N-16",
+    "year": 2023,
+    "level": "national",
+    "number": 16,
+    "stem_md": "The density of white tin is 7.28 g cm$^{-3}$ and the density of gray tin is 4.75 g cm$^{-3}$. The conversion of white tin to gray tin, $\\ce{Sn(s, white) -> Sn(s, gray)}$, has a standard enthalpy of reaction of –2.1 kJ mol$^{-1}$ at 298 K. At 1 atm pressure, white tin and gray tin are in equilibrium at 13 °C. Which best represents the phase diagram of tin near 13 °C and 1 atm?",
+    "figure_url": "/figures/2023-N-16.png",
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 National Part I exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-17",
@@ -459,14 +540,49 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-N-18",
+    "year": 2023,
+    "level": "national",
+    "number": 18,
+    "stem_md": "A 10-gram sample of a substance is added to a rigid evacuated 1 L vessel. The pressure in the vessel is measured as a function of temperature and the following graph is obtained: Which graph is obtained if a 10-gram sample of the substance is heated in a 2 L vessel?",
+    "figure_url": "/figures/2023-N-18.png",
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 National Part I exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-19",
     "year": 2023,
     "level": "national",
     "number": 19,
-    "stem_md": "The phase change X(s) → X(l) has ∆G° > 0 at 300 K. Which statement about this reaction must be correct?",
+    "stem_md": "The phase change $\\ce{X(s) -> X(l)}$ has $\\Delta G^\\circ > 0$ at 300 K. Which statement about this reaction must be correct?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -475,11 +591,11 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Keq < 1 at 300 K"
+        "text_md": "$K_\\text{eq} < 1$ at 300 K"
       },
       {
         "label": "B",
-        "text_md": "∆S° < 0 at 300 K"
+        "text_md": "$\\Delta S^\\circ < 0$ at 300 K"
       },
       {
         "label": "C",
@@ -492,14 +608,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-20",
     "year": 2023,
     "level": "national",
     "number": 20,
-    "stem_md": "For which reaction is ∆H°rxn closest to ∆G°rxn?",
+    "stem_md": "For which reaction is $\\Delta H^\\circ_\\text{rxn}$ closest to $\\Delta G^\\circ_\\text{rxn}$?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -508,32 +625,33 @@
     "options": [
       {
         "label": "A",
-        "text_md": "2 CO2(g) → 2 CO(g) + O2(g)"
+        "text_md": "$\\ce{2 CO2(g) -> 2 CO(g) + O2(g)}$"
       },
       {
         "label": "B",
-        "text_md": "2 HCl(g) → H2(g) + Cl2(g)"
+        "text_md": "$\\ce{2 HCl(g) -> H2(g) + Cl2(g)}$"
       },
       {
         "label": "C",
-        "text_md": "2 H2O(l) → 2 H2(g) + O2(g)"
+        "text_md": "$\\ce{2 H2O(l) -> 2 H2(g) + O2(g)}$"
       },
       {
         "label": "D",
-        "text_md": "2 NaCl(s) → 2 Na(s) + Cl2(g)"
+        "text_md": "$\\ce{2 NaCl(s) -> 2 Na(s) + Cl2(g)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-21",
     "year": 2023,
     "level": "national",
     "number": 21,
-    "stem_md": "2.00 g solid iodine, initially at 300 K, is heated in a sealed vessel maintained at 1.00 atm pressure. The temperature of the sample as a function of the amount of heat added to it is shown below. What is the entropy of vaporization of I2, ∆S°vap, at its normal boiling point?",
-    "figure_url": null,
+    "stem_md": "2.00 g solid iodine, initially at 300 K, is heated in a sealed vessel maintained at 1.00 atm pressure. The temperature of the sample as a function of the amount of heat added to it is shown below. What is the entropy of vaporization of $\\ce{I2}$, $\\Delta S^\\circ_\\text{vap}$, at its normal boiling point?",
+    "figure_url": "/figures/2023-N-21.png",
     "topic_id": "thermodynamics",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -541,31 +659,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "40.1 J mol-1 K-1"
+        "text_md": "40.1 J mol$^{-1}$ K$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "52.6 J mol-1 K-1"
+        "text_md": "52.6 J mol$^{-1}$ K$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "56.8 J mol-1 K-1"
+        "text_md": "56.8 J mol$^{-1}$ K$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "92.8 J mol-1 K-1"
+        "text_md": "92.8 J mol$^{-1}$ K$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-22",
     "year": 2023,
     "level": "national",
     "number": 22,
-    "stem_md": "20.0 mL of NaOH(aq) is titrated against 1.00 M HCl(aq) in a well-insulated vessel with constant stirring. Each solution is initially at 22.0° C, and the temperature of the reaction mixture is monitored after each 2.0 mL of hydrochloric acid is added. What is ∆H° for the reaction that takes place? Assume that all solutions’ densities and heat capacities are the same as that of pure water, and that solution volumes are additive.",
+    "stem_md": "20.0 mL of $\\ce{NaOH(aq)}$ is titrated against 1.00 M $\\ce{HCl(aq)}$ in a well-insulated vessel with constant stirring. Each solution is initially at 22.0° C, and the temperature of the reaction mixture is monitored after each 2.0 mL of hydrochloric acid is added. What is $\\Delta H^\\circ$ for the reaction that takes place? Assume that all solutions’ densities and heat capacities are the same as that of pure water, and that solution volumes are additive.",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -574,31 +693,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–15 kJ mol-1"
+        "text_md": "–15 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "–31 kJ mol-1"
+        "text_md": "–31 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "–39 kJ mol-1"
+        "text_md": "–39 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "–54 kJ mol-1"
+        "text_md": "–54 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-23",
     "year": 2023,
     "level": "national",
     "number": 23,
-    "stem_md": "Silver ion reacts with ammonia to form a complex ion: Ag+(aq) + 2 NH3(aq) → Ag(NH3)2 +(aq) In a certain solution at equilibrium at 298 K, [Ag+] = [NH3] = [Ag(NH3)2 +] = C. What is ∆Grxn at 298 K if [Ag+] = [NH3] = [Ag(NH3)2 +] = 0.1C?",
+    "stem_md": "Silver ion reacts with ammonia to form a complex ion: $\\ce{Ag+(aq) + 2 NH3(aq) -> Ag(NH3)2+(aq)}$ In a certain solution at equilibrium at 298 K, $[\\ce{Ag+}] = [\\ce{NH3}] = [\\ce{Ag(NH3)2+}] = C$. What is $\\Delta G_\\text{rxn}$ at 298 K if $[\\ce{Ag+}] = [\\ce{NH3}] = [\\ce{Ag(NH3)2+}] = 0.1C$?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -607,32 +727,33 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–5.7 kJ mol-1"
+        "text_md": "–5.7 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "0 kJ mol-1"
+        "text_md": "0 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "5.7 kJ mol-1"
+        "text_md": "5.7 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "11.4 kJ mol-1"
+        "text_md": "11.4 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-24",
     "year": 2023,
     "level": "national",
     "number": 24,
-    "stem_md": "Equal volumes of 1.00 M HSO4 –(aq) and 1.00 M SO4 2– (aq) are mixed. The pH of this solution varies with the reciprocal of the absolute temperature as shown. What is the standard enthalpy change for the acid dissociation of HSO4 –(aq)? HSO4 –(aq) → H+(aq) + SO4 2-(aq) ∆H°rxn = ???",
-    "figure_url": null,
+    "stem_md": "Equal volumes of 1.00 M $\\ce{HSO4-(aq)}$ and 1.00 M $\\ce{SO4^2-(aq)}$ are mixed. The pH of this solution varies with the reciprocal of the absolute temperature as shown. What is the standard enthalpy change for the acid dissociation of $\\ce{HSO4-(aq)}$? $\\ce{HSO4-(aq) -> H+(aq) + SO4^2-(aq)}$ $\\Delta H^\\circ_\\text{rxn} = ???$",
+    "figure_url": "/figures/2023-N-24.png",
     "topic_id": "thermodynamics",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -640,31 +761,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–24.0 kJ mol-1"
+        "text_md": "–24.0 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "–10.4 kJ mol-1"
+        "text_md": "–10.4 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "10.4 kJ mol-1"
+        "text_md": "10.4 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "24.0 kJ mol-1"
+        "text_md": "24.0 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-25",
     "year": 2023,
     "level": "national",
     "number": 25,
-    "stem_md": "Hydroxide ion reacts with methyl iodide to give methanol in an irreversible second-order reaction with a rate constant k = 6.5 ´ 10-5 L mol-1 s-1. OH–(aq) + CH3I(aq) → CH3OH(aq) + I–(aq) Rate = k[OH–][CH3I] How long will it take the concentration of CH3I to decrease from 0.010 M to 0.0020 M in a 1.00 M solution of sodium hydroxide?",
+    "stem_md": "Hydroxide ion reacts with methyl iodide to give methanol in an irreversible second-order reaction with a rate constant $k = 6.5 \\times 10^{-5}$ L mol$^{-1}$ s$^{-1}$. $\\ce{OH-(aq) + CH3I(aq) -> CH3OH(aq) + I-(aq)}$ Rate = $k[\\ce{OH-}][\\ce{CH3I}]$ How long will it take the concentration of $\\ce{CH3I}$ to decrease from 0.010 M to 0.0020 M in a 1.00 M solution of sodium hydroxide?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -677,27 +799,28 @@
       },
       {
         "label": "B",
-        "text_md": "2.5 ´ 104 s"
+        "text_md": "$2.5 \\times 10^{4}$ s"
       },
       {
         "label": "C",
-        "text_md": "4.1 ´ 106 s"
+        "text_md": "$4.1 \\times 10^{6}$ s"
       },
       {
         "label": "D",
-        "text_md": "6.2 ´ 106 s"
+        "text_md": "$6.2 \\times 10^{6}$ s"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-26",
     "year": 2023,
     "level": "national",
     "number": 26,
-    "stem_md": "The temperature-dependence of the rate constant of a chemical reaction can be described by the Arrhenius equation, k = Ae–Ea/RT. Which elementary chemical reaction has the largest Arrhenius pre-factor A?",
+    "stem_md": "The temperature-dependence of the rate constant of a chemical reaction can be described by the Arrhenius equation, $k = Ae^{-E_a/RT}$. Which elementary chemical reaction has the largest Arrhenius pre-factor $A$?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -706,31 +829,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "(CH3)3CBr(aq) → (CH3)3C+(aq) + Br–(aq)"
+        "text_md": "$\\ce{(CH3)3CBr(aq) -> (CH3)3C+(aq) + Br-(aq)}$"
       },
       {
         "label": "B",
-        "text_md": "N2O4(g) → 2 NO2(g)"
+        "text_md": "$\\ce{N2O4(g) -> 2 NO2(g)}$"
       },
       {
         "label": "C",
-        "text_md": "CH3NC(g) → CH3CN(g)"
+        "text_md": "$\\ce{CH3NC(g) -> CH3CN(g)}$"
       },
       {
         "label": "D",
-        "text_md": "(CH3O)2SO2(aq) + OH–(aq) → CH3OH(aq) + CH3OSO3 –(aq)"
+        "text_md": "$\\ce{(CH3O)2SO2(aq) + OH-(aq) -> CH3OH(aq) + CH3OSO3-(aq)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-27",
     "year": 2023,
     "level": "national",
     "number": 27,
-    "stem_md": "The iodination of acetone is irreversible and has a rate law of Rate = k[CH3COCH3][H+]. CH3COCH3(aq) + I3 –(aq) → CH3COCH2I(aq) + H+(aq) + 2 I–(aq) When the reaction is carried out with an initial concentration of I3 – much smaller than those of either acetone or H+, it is observed that the yellow color due to I3 – fades over time, finally disappearing abruptly at a time t. How does t depend on the initial concentrations? Dependence on: [CH3COCH3] [H+] [I3 –]",
+    "stem_md": "The iodination of acetone is irreversible and has a rate law of Rate = $k[\\ce{CH3COCH3}][\\ce{H+}]$. $\\ce{CH3COCH3(aq) + I3-(aq) -> CH3COCH2I(aq) + H+(aq) + 2 I-(aq)}$ When the reaction is carried out with an initial concentration of $\\ce{I3-}$ much smaller than those of either acetone or $\\ce{H+}$, it is observed that the yellow color due to $\\ce{I3-}$ fades over time, finally disappearing abruptly at a time $t$. How does $t$ depend on the initial concentrations? Dependence on: $[\\ce{CH3COCH3}]$ $[\\ce{H+}]$ $[\\ce{I3-}]$",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -756,15 +880,16 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-28",
     "year": 2023,
     "level": "national",
     "number": 28,
-    "stem_md": "The reaction between A and B is carried out twice, with [A]0 = 0.50 M in each run but with two different initial concentrations of B, and the results are shown below. What can be concluded about the rate law?",
-    "figure_url": null,
+    "stem_md": "The reaction between A and B is carried out twice, with $[A]_0 = 0.50$ M in each run but with two different initial concentrations of B, and the results are shown below. What can be concluded about the rate law?",
+    "figure_url": "/figures/2023-N-28.png",
     "topic_id": "kinetics",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -772,15 +897,15 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Rate = (0.0069 s-1)[B]"
+        "text_md": "Rate = $(0.0069 \\text{ s}^{-1})[B]$"
       },
       {
         "label": "B",
-        "text_md": "Rate = (0.0069 M-1 s-1)[A][B]"
+        "text_md": "Rate = $(0.0069 \\text{ M}^{-1}\\text{ s}^{-1})[A][B]$"
       },
       {
         "label": "C",
-        "text_md": "Rate = (0.014 M-1 s-1)[A][B]"
+        "text_md": "Rate = $(0.014 \\text{ M}^{-1}\\text{ s}^{-1})[A][B]$"
       },
       {
         "label": "D",
@@ -789,14 +914,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-29",
     "year": 2023,
     "level": "national",
     "number": 29,
-    "stem_md": "Nitrogen dioxide reacts with carbon monoxide with the rate law shown NO2(g) + CO(g) → NO(g) + CO2(g) Rate = k[NO2]2 Which mechanisms are consistent with this rate law? I. 2 NO2 ⇄ N2O4 fast, unfavorable N2O4 + CO → N2O3 + CO2 slow N2O3 → NO + NO2 fast II. 2 NO2 → NO + NO3 slow NO3 + CO → NO2 + CO2 fast",
+    "stem_md": "Nitrogen dioxide reacts with carbon monoxide with the rate law shown $\\ce{NO2(g) + CO(g) -> NO(g) + CO2(g)}$\n\nRate = $k[\\ce{NO2}]^2$\n\nWhich mechanisms are consistent with this rate law?\n\nI. $\\ce{2 NO2 <=> N2O4}$ fast, unfavorable\n$\\ce{N2O4 + CO -> N2O3 + CO2}$ slow\n$\\ce{N2O3 -> NO + NO2}$ fast\n\nII. $\\ce{2 NO2 -> NO + NO3}$ slow\n$\\ce{NO3 + CO -> NO2 + CO2}$ fast",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -822,14 +948,49 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-N-30",
+    "year": 2023,
+    "level": "national",
+    "number": 30,
+    "stem_md": "The reaction coordinate diagram of a reaction that takes place at 300 K is shown below. Which best represents the reaction coordinate diagram for the same reaction at 340 K?",
+    "figure_url": "/figures/2023-N-30.png",
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 National Part I exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-31",
     "year": 2023,
     "level": "national",
     "number": 31,
-    "stem_md": "Pure PCl5 is placed in a rigid flask so that its pressure at 250 °C is 2.000 bar. The gas slowly decomposes to PCl3 and Cl2 at this temperature, and the partial pressure of Cl2 is eventually 0.814 bar. What is the value of Kp for the reaction? PCl5(g) ⇄ PCl3(g) + Cl2(g) Kp = ???",
+    "stem_md": "Pure $\\ce{PCl5}$ is placed in a rigid flask so that its pressure at 250 °C is 2.000 bar. The gas slowly decomposes to $\\ce{PCl3}$ and $\\ce{Cl2}$ at this temperature, and the partial pressure of $\\ce{Cl2}$ is eventually 0.814 bar. What is the value of $K_\\text{p}$ for the reaction?\n\n$\\ce{PCl5(g) <=> PCl3(g) + Cl2(g)}$ $K_\\text{p}$ = ???",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -855,14 +1016,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-32",
     "year": 2023,
     "level": "national",
     "number": 32,
-    "stem_md": "What is the maximum concentration of lead(II) ions at equilibrium in a solution with pH = 10.50? The Ksp of Pb(OH)2 is 1.4 ´ 10-15.",
+    "stem_md": "What is the maximum concentration of lead(II) ions at equilibrium in a solution with pH = 10.50? The $K_\\text{sp}$ of $\\ce{Pb(OH)2}$ is $1.4 \\times 10^{-15}$.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -871,31 +1033,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "7.1 ´ 10-6 M"
+        "text_md": "$7.1 \\times 10^{-6}$ M"
       },
       {
         "label": "B",
-        "text_md": "1.4 ´ 10-8 M"
+        "text_md": "$1.4 \\times 10^{-8}$ M"
       },
       {
         "label": "C",
-        "text_md": "3.5 ´ 10-9 M"
+        "text_md": "$3.5 \\times 10^{-9}$ M"
       },
       {
         "label": "D",
-        "text_md": "4.4 ´ 10-12 M"
+        "text_md": "$4.4 \\times 10^{-12}$ M"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-33",
     "year": 2023,
     "level": "national",
     "number": 33,
-    "stem_md": "The pKa of methylammonium ion, CH3NH3 +, is 10.64. What is the percent ionization of a 0.20 M solution of methylamine, CH3NH2?",
+    "stem_md": "The p$K_\\text{a}$ of methylammonium ion, $\\ce{CH3NH3+}$, is 10.64. What is the percent ionization of a 0.20 M solution of methylamine, $\\ce{CH3NH2}$?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -921,14 +1084,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-34",
     "year": 2023,
     "level": "national",
     "number": 34,
-    "stem_md": "Which statement best describes the differences between a 0.1 M solution of ammonium bicarbonate, NH4(HCO3), and a 0.1 M solution of ammonium carbonate, (NH4)2CO3?",
+    "stem_md": "Which statement best describes the differences between a 0.1 M solution of ammonium bicarbonate, $\\ce{NH4(HCO3)}$, and a 0.1 M solution of ammonium carbonate, $\\ce{(NH4)2CO3}$?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -954,14 +1118,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-35",
     "year": 2023,
     "level": "national",
     "number": 35,
-    "stem_md": "A mixture of N2O4(g) and NO2(g) is contained in a vessel whose total volume can change but where the total pressure is maintained at 1.00 atm. The initial temperature is 298 K, and the two gases are in equilibrium. Which changes will result in an increase in the number of moles of NO2 present at equilibrium? N2O4(g) ⇄ 2 NO2(g) ∆H° = 57.6 kJ mol-1 I. Adding Ne(g) II. Increasing the temperature to 310 K",
+    "stem_md": "A mixture of $\\ce{N2O4(g)}$ and $\\ce{NO2(g)}$ is contained in a vessel whose total volume can change but where the total pressure is maintained at 1.00 atm. The initial temperature is 298 K, and the two gases are in equilibrium. Which changes will result in an increase in the number of moles of $\\ce{NO2}$ present at equilibrium?\n\n$\\ce{N2O4(g) <=> 2 NO2(g)}$ $\\Delta H^\\circ$ = 57.6 kJ mol$^{-1}$\n\nI. Adding $\\ce{Ne(g)}$\n\nII. Increasing the temperature to 310 K",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -987,14 +1152,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-37",
     "year": 2023,
     "level": "national",
     "number": 37,
-    "stem_md": "Which species has the largest coefficient when the chemical equation for the disproportionation of white phosphorus in basic solution is balanced? __ P4(s) + __ OH–(aq) + __ H2O(l) → __ PH3(g) + __ PO4 3-(aq)",
+    "stem_md": "Which species has the largest coefficient when the chemical equation for the disproportionation of white phosphorus in basic solution is balanced?\n\n__ $\\ce{P4(s)}$ + __ $\\ce{OH-(aq)}$ + __ $\\ce{H2O(l)}$ -> __ $\\ce{PH3(g)}$ + __ $\\ce{PO4^3-(aq)}$",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1003,31 +1169,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "P4(s)"
+        "text_md": "$\\ce{P4(s)}$"
       },
       {
         "label": "B",
-        "text_md": "OH–(aq)"
+        "text_md": "$\\ce{OH-(aq)}$"
       },
       {
         "label": "C",
-        "text_md": "H2O(l)"
+        "text_md": "$\\ce{H2O(l)}$"
       },
       {
         "label": "D",
-        "text_md": "PH3(g)"
+        "text_md": "$\\ce{PH3(g)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-38",
     "year": 2023,
     "level": "national",
     "number": 38,
-    "stem_md": "Which reagent would spontaneously reduce Fe2+(aq) to Fe(s) under standard conditions?",
+    "stem_md": "Which reagent would spontaneously reduce $\\ce{Fe^2+(aq)}$ to $\\ce{Fe(s)}$ under standard conditions?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1036,31 +1203,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2(g)"
+        "text_md": "$\\ce{H2(g)}$"
       },
       {
         "label": "B",
-        "text_md": "Ni(s)"
+        "text_md": "$\\ce{Ni(s)}$"
       },
       {
         "label": "C",
-        "text_md": "Sn2+(aq)"
+        "text_md": "$\\ce{Sn^2+(aq)}$"
       },
       {
         "label": "D",
-        "text_md": "Zn(s)"
+        "text_md": "$\\ce{Zn(s)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-39",
     "year": 2023,
     "level": "national",
     "number": 39,
-    "stem_md": "In a test of the selectivity of an electrocatalyst for the reduction of carbon dioxide to methanol, electrolysis is carried out with a constant current of 0.370 A for 155 minutes. Afterwards, the cathodic compartment of the cell is analyzed and is found to contain 5.30 ´ 10-3 mol CH3OH. What is the faradaic yield (the percent yield based on the current passed through the cell)?",
+    "stem_md": "In a test of the selectivity of an electrocatalyst for the reduction of carbon dioxide to methanol, electrolysis is carried out with a constant current of 0.370 A for 155 minutes. Afterwards, the cathodic compartment of the cell is analyzed and is found to contain $5.30 \\times 10^{-3}$ mol $\\ce{CH3OH}$. What is the faradaic yield (the percent yield based on the current passed through the cell)?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1086,14 +1254,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-40",
     "year": 2023,
     "level": "national",
     "number": 40,
-    "stem_md": "The cathodic compartment of an electrolytic cell is 0.100 M in the ions Fe(CN)6 3- and Cu2+ and has a chemically inert electrode. As current is passed through the cell, which best describes how Cu(s) is deposited on the electrode? Half-reaction E°, V Cu2+(aq) + 2e– → Cu(s) +0.337 Fe(CN)6 3- + e– → Fe(CN)6 4- +0.370",
+    "stem_md": "The cathodic compartment of an electrolytic cell is 0.100 M in the ions $\\ce{Fe(CN)6^3-}$ and $\\ce{Cu^2+}$ and has a chemically inert electrode. As current is passed through the cell, which best describes how $\\ce{Cu(s)}$ is deposited on the electrode?\n\nHalf-reaction $E^\\circ$, V\n\n$\\ce{Cu^2+(aq) + 2e- -> Cu(s)}$ +0.337\n\n$\\ce{Fe(CN)6^3- + e- -> Fe(CN)6^4-}$ +0.370",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1119,14 +1288,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-41",
     "year": 2023,
     "level": "national",
     "number": 41,
-    "stem_md": "What is E° for the disproportionation of hydrogen manganate ion in acidic solution? 5 HMnO4 –(aq) + 3 H+(aq) → 4 MnO4 –(aq) + Mn2+(aq) + 4 H2O(l) Half-reaction E°, V MnO4 –(aq) + H+(aq) + e– → HMnO4 –(aq) +0.90 MnO4 –(aq) + 8 H+(aq) + 5 e– → Mn2+(aq) + 4 H2O(l) +1.51",
+    "stem_md": "What is $E^\\circ$ for the disproportionation of hydrogen manganate ion in acidic solution?\n\n$\\ce{5 HMnO4-(aq) + 3 H+(aq) -> 4 MnO4-(aq) + Mn^2+(aq) + 4 H2O(l)}$\n\nHalf-reaction $E^\\circ$, V\n\n$\\ce{MnO4-(aq) + H+(aq) + e- -> HMnO4-(aq)}$ +0.90\n\n$\\ce{MnO4-(aq) + 8 H+(aq) + 5 e- -> Mn^2+(aq) + 4 H2O(l)}$ +1.51",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1152,15 +1322,16 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-42",
     "year": 2023,
     "level": "national",
     "number": 42,
-    "stem_md": "In the galvanic cell shown, the silver electrode is oxidized to Ag+ while AuCl4 – is reduced to elemental Au, and the measured cell potential is 0.13 V. Which change will result in the largest value of the measured cell potential?",
-    "figure_url": null,
+    "stem_md": "In the galvanic cell shown, the silver electrode is oxidized to $\\ce{Ag+}$ while $\\ce{AuCl4-}$ is reduced to elemental $\\ce{Au}$, and the measured cell potential is 0.13 V. Which change will result in the largest value of the measured cell potential?",
+    "figure_url": "/figures/2023-N-42.png",
     "topic_id": "redox",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -1168,24 +1339,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "The concentration of AuCl4 – is decreased to 0.10 M."
+        "text_md": "The concentration of $\\ce{AuCl4-}$ is decreased to 0.10 M."
       },
       {
         "label": "B",
-        "text_md": "The concentration of Cl– is decreased to 0.10 M."
+        "text_md": "The concentration of $\\ce{Cl-}$ is decreased to 0.10 M."
       },
       {
         "label": "C",
-        "text_md": "The concentration of Ag+ is decreased to 0.10 M."
+        "text_md": "The concentration of $\\ce{Ag+}$ is decreased to 0.10 M."
       },
       {
         "label": "D",
-        "text_md": "The surface area of the Ag electrode is decreased by a factor of 10."
+        "text_md": "The surface area of the $\\ce{Ag}$ electrode is decreased by a factor of 10."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-43",
@@ -1218,7 +1390,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-44",
@@ -1251,7 +1424,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-45",
@@ -1279,12 +1453,13 @@
       },
       {
         "label": "D",
-        "text_md": "n = 4 → n = 2 salt bridge V Au Ag 1.0 M AuCl4– 1.0 M Cl– 1.0 M Ag+ anode cathode"
+        "text_md": "n = 4 → n = 2 salt bridge V Au Ag 1.0 M $\\ce{AuCl4-}$ 1.0 M $\\ce{Cl-}$ 1.0 M $\\ce{Ag+}$ anode cathode"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-46",
@@ -1317,14 +1492,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-47",
     "year": 2023,
     "level": "national",
     "number": 47,
-    "stem_md": "The first ionization energy of gallium (Ga, 578.8 kJ mol-1) is greater than that of aluminum (Al, 577.5 kJ mol-1). Which is the best explanation for this?",
+    "stem_md": "The first ionization energy of gallium (Ga, 578.8 kJ mol$^{-1}$) is greater than that of aluminum (Al, 577.5 kJ mol$^{-1}$). Which is the best explanation for this?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1350,14 +1526,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-48",
     "year": 2023,
     "level": "national",
     "number": 48,
-    "stem_md": "By what mode does the isotope 31S undergo radioactive decay?",
+    "stem_md": "By what mode does the isotope $\\ce{^{31}S}$ undergo radioactive decay?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1383,7 +1560,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-49",
@@ -1399,24 +1577,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "HCO2 –"
+        "text_md": "$\\ce{HCO2^-}$"
       },
       {
         "label": "B",
-        "text_md": "CO3 2–"
+        "text_md": "$\\ce{CO3^2-}$"
       },
       {
         "label": "C",
-        "text_md": "CO2"
+        "text_md": "$\\ce{CO2}$"
       },
       {
         "label": "D",
-        "text_md": "COS"
+        "text_md": "$\\ce{COS}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-50",
@@ -1432,31 +1611,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "BCl3"
+        "text_md": "$\\ce{BCl3}$"
       },
       {
         "label": "B",
-        "text_md": "NI3"
+        "text_md": "$\\ce{NI3}$"
       },
       {
         "label": "C",
-        "text_md": "AsH3"
+        "text_md": "$\\ce{AsH3}$"
       },
       {
         "label": "D",
-        "text_md": "BrF3"
+        "text_md": "$\\ce{BrF3}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-51",
     "year": 2023,
     "level": "national",
     "number": 51,
-    "stem_md": "Which ions are linear? I. NO2 + II. ICl2 –",
+    "stem_md": "Which ions are linear?\n\nI. $\\ce{NO2+}$\n\nII. $\\ce{ICl2^-}$",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1482,14 +1662,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-52",
     "year": 2023,
     "level": "national",
     "number": 52,
-    "stem_md": "Which is the best description of the structure of the substance whose empirical formula is NPF10?",
+    "stem_md": "Which is the best description of the structure of the substance whose empirical formula is $\\ce{NPF10}$?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1498,31 +1679,66 @@
     "options": [
       {
         "label": "A",
-        "text_md": "F5N–PF5"
+        "text_md": "$\\ce{F5N-PF5}$"
       },
       {
         "label": "B",
-        "text_md": "F3N–PF7"
+        "text_md": "$\\ce{F3N-PF7}$"
       },
       {
         "label": "C",
-        "text_md": "[NF4][PF6]"
+        "text_md": "$\\ce{[NF4][PF6]}$"
       },
       {
         "label": "D",
-        "text_md": "[PF4][NF6]"
+        "text_md": "$\\ce{[PF4][NF6]}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-N-53",
+    "year": 2023,
+    "level": "national",
+    "number": 53,
+    "stem_md": "Which is the best representation of the three-dimensional arrangement of the atoms in dimethyl carbodiimide, $\\ce{CH3NCNCH3}$?",
+    "figure_url": "/figures/2023-N-53.png",
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 National Part I exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-54",
     "year": 2023,
     "level": "national",
     "number": 54,
-    "stem_md": "Two substances with the formula (en)2CoCl3 (en = ethylenediamine, H2NCH2CH2NH2) have different aqueous solubilities and different UV-visible spectra in aqueous solution. Which is the most likely explanation for this observation?",
+    "stem_md": "Two substances with the formula $\\ce{(en)2CoCl3}$ (en = ethylenediamine, $\\ce{H2NCH2CH2NH2}$) have different aqueous solubilities and different UV-visible spectra in aqueous solution. Which is the most likely explanation for this observation?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1539,16 +1755,51 @@
       },
       {
         "label": "C",
-        "text_md": "One substance contains [(en)2CoCl2]Cl with six- coordinate cobalt and the other contains (en)2CoCl3 molecules with seven-coordinate cobalt."
+        "text_md": "One substance contains $\\ce{[(en)2CoCl2]Cl}$ with six-coordinate cobalt and the other contains $\\ce{(en)2CoCl3}$ molecules with seven-coordinate cobalt."
       },
       {
         "label": "D",
-        "text_md": "One substance contains [(en)2CoCl2]Cl with six- coordinate cobalt and the other contains [(en)2Co]Cl3 with four-coordinate cobalt."
+        "text_md": "One substance contains $\\ce{[(en)2CoCl2]Cl}$ with six-coordinate cobalt and the other contains $\\ce{[(en)2Co]Cl3}$ with four-coordinate cobalt."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-N-55",
+    "year": 2023,
+    "level": "national",
+    "number": 55,
+    "stem_md": "Which molecule is achiral in all of its stereoisomeric forms?",
+    "figure_url": "/figures/2023-N-55.png",
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 National Part I exam, question 55. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-56",
@@ -1556,7 +1807,7 @@
     "level": "national",
     "number": 56,
     "stem_md": "How many methyl groups are axial in the most stable chair conformation of the trimethylcyclohexane shown below?",
-    "figure_url": null,
+    "figure_url": "/figures/2023-N-56.png",
     "topic_id": "organic",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -1581,7 +1832,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 56. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-57",
@@ -1597,31 +1849,66 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CH3CH2CONH2 < CH3CH2COOCH3 < CH3CH2COCl"
+        "text_md": "$\\ce{CH3CH2CONH2}$ < $\\ce{CH3CH2COOCH3}$ < $\\ce{CH3CH2COCl}$"
       },
       {
         "label": "B",
-        "text_md": "CH3CH2COOCH3 < CH3CH2CONH2 < CH3CH2COCl"
+        "text_md": "$\\ce{CH3CH2COOCH3}$ < $\\ce{CH3CH2CONH2}$ < $\\ce{CH3CH2COCl}$"
       },
       {
         "label": "C",
-        "text_md": "CH3CH2CONH2 < CH3CH2COCl < CH3CH2COOCH3"
+        "text_md": "$\\ce{CH3CH2CONH2}$ < $\\ce{CH3CH2COCl}$ < $\\ce{CH3CH2COOCH3}$"
       },
       {
         "label": "D",
-        "text_md": "CH3CH2COOCH3 < CH3CH2COCl < CH3CH2CONH2 H3C N C N CH3 H3C N C N CH3 H3C N C N CH3 H3C N C N CH3 OH HO OH OH OH OH OH HO CH3 CH3 CH3"
+        "text_md": "$\\ce{CH3CH2COOCH3}$ < $\\ce{CH3CH2COCl}$ < $\\ce{CH3CH2CONH2}$ H3C N C N CH3 H3C N C N CH3 H3C N C N CH3 H3C N C N CH3 OH HO OH OH OH OH OH HO CH3 CH3 CH3"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 57. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-N-58",
+    "year": 2023,
+    "level": "national",
+    "number": 58,
+    "stem_md": "Which $\\ce{C6H10}$ isomer has the most positive standard enthalpy of formation?",
+    "figure_url": "/figures/2023-N-58.png",
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 National Part I exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-59",
     "year": 2023,
     "level": "national",
     "number": 59,
-    "stem_md": "Which reagent reacts readily with butanal (CH3CH2CH2CHO), but not with 2-pentanone (CH3CH2CH2COCH3)?",
+    "stem_md": "Which reagent reacts readily with butanal ($\\ce{CH3CH2CH2CHO}$), but not with 2-pentanone ($\\ce{CH3CH2CH2COCH3}$)?",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1630,24 +1917,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "K2Cr2O7 in aqueous H2SO4"
+        "text_md": "$\\ce{K2Cr2O7}$ in aqueous $\\ce{H2SO4}$"
       },
       {
         "label": "B",
-        "text_md": "I2 in aqueous NaOH"
+        "text_md": "$\\ce{I2}$ in aqueous $\\ce{NaOH}$"
       },
       {
         "label": "C",
-        "text_md": "CH3MgBr in Et2O"
+        "text_md": "$\\ce{CH3MgBr}$ in $\\ce{Et2O}$"
       },
       {
         "label": "D",
-        "text_md": "NaBH4 in CH3OH"
+        "text_md": "$\\ce{NaBH4}$ in $\\ce{CH3OH}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 59. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-N-60",
@@ -1675,11 +1963,12 @@
       },
       {
         "label": "D",
-        "text_md": "An achiral glycoside END OF TEST PLEASE ANSWER THE FOLLOWING FOUR QUESTIONS THANK YOU! When you have finished answering this examination or time has been called by the Examiner, please provide responses to the following 4 items. Your answers will not affect your score on the exam but will help with a study being conducted by the U.S. National Chemistry Olympiad (USNCO) Subgroup."
+        "text_md": "An achiral glycoside"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 National Part I exam, question 60. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   }
 ]

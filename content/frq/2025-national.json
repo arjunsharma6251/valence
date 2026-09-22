@@ -1,0 +1,860 @@
+[
+  {
+    "id": "2025-N-P1",
+    "year": 2025,
+    "level": "national",
+    "number": 1,
+    "title": "Copper hydrates: dehydration, spectroscopy, iodometric titration",
+    "topic_id": "stoichiometry",
+    "intro_md": "Copper(II) sulfate pentahydrate, $\\ce{CuSO4 * 5H2O}$, is a blue crystalline solid. Upon gentle heating, it loses water to form anhydrous $\\ce{CuSO4}$, which is a white solid.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "When 5.000 g $\\ce{CuSO4 * 5H2O}$ is heated to remove all of its water, what mass of anhydrous $\\ce{CuSO4}$ will be produced?",
+        "key_md": "$M$ of $\\ce{CuSO4 * 5 H2O}$ = 249.70, $M$ of $\\ce{CuSO4}$ = 159.62\n\n$(5.00\\ \\text{g } \\ce{CuSO4 * 5 H2O})/249.70\\ \\text{g mol}^{-1} = 2.002 \\times 10^{-2}$ mol $\\ce{CuSO4 * 5 H2O}$\n\n$2.002 \\times 10^{-2}\\ \\text{mol} \\times 159.62\\ \\text{g mol}^{-1} = 3.196$ g anhydrous $\\ce{CuSO4}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct molar masses (249.70 and 159.62 g/mol) and moles of hydrate ($2.002 \\times 10^{-2}$ mol)"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass of anhydrous $\\ce{CuSO4}$ = 3.196 g (accept 3.19–3.20 g)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Explain the change in color on dehydration of $\\ce{CuSO4 * 5H2O}$.",
+        "key_md": "Copper(II) is $d^9$ and is expected to show (weak) absorption of light regardless of its environment. Dehydration of copper(II) sulfate results in a change of ligands from water ligands to sulfate ligands. The blue color is due to absorption of red light at the extreme low-energy end of the visible spectrum. The change to the (weaker-field) sulfate ligands reduces the energy of the absorption into the near-infrared, so that visible light is not absorbed at all. This makes the solid appear white.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the ligands around Cu(II) change from water to sulfate, altering the ligand-field ($d$–$d$) splitting"
+          },
+          {
+            "points": 1,
+            "criterion": "States that the weaker-field sulfate shifts the absorption out of the visible into the near-IR, so no visible light is absorbed and the solid appears white"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "A solution of 0.0506 g $\\ce{Cu(CH3COO)2 * H2O}$ is made up with water to a volume of 5.00 mL water.  This solution in a 1-cm cuvette produces the visible spectrum shown.  What wavelength would be the best choice to determine the concentration of Cu(II)?",
+        "key_md": "The maximum absorption of light occurs at 763 nm, so that is the most sensitive wavelength to measure.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States a wavelength at the absorption maximum, ~760 nm (accept 750–770 nm)"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies the choice as the wavelength of maximum absorbance, giving greatest sensitivity"
+          }
+        ],
+        "max_points": 2,
+        "figure_url": "/figures/2025-N-P1-f1.png"
+      },
+      {
+        "label": "d",
+        "stem_md": "A student determines the value of $n$ in an unknown crystalline hydrate of copper(II) nitrate, $\\ce{Cu(NO3)2 * n H2O}$, by preparing 5.00 mL of an aqueous solution of a known mass of the compound and measuring its absorbance at the wavelength determined in part c. However, the student inserts the cuvette into the spectrophotometer without first wiping fingerprints from it. How will this affect the value of $n$ determined in the experiment?",
+        "key_md": "The fingerprint will scatter light, increasing the apparent absorbance and thus the apparent amount of copper. This will mean that less mass will be ascribed to water, giving a smaller value of $n$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the fingerprint scatters/absorbs light, increasing the apparent absorbance and hence the apparent amount of Cu"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes that less mass is ascribed to water, so $n$ comes out too small"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "An alternative method for determining the degree of hydration of the copper nitrate is to allow a known mass of compound to react with excess KI solution, which produces a yellow-brown suspension. Write a balanced net ionic equation for this reaction.",
+        "key_md": "$\\ce{2 Cu^2+(aq) + 5 I^-(aq) -> 2 CuI(s) + I3^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct products: $\\ce{CuI}$ precipitate plus $\\ce{I3^-}$ (or $\\ce{I2}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Equation correctly balanced in mass and charge as a net ionic equation"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "The experiment in part e is carried out with 0.1000 g of the hydrated copper(II) nitrate. To the resulting mixture is added a 0.0250 M solution of sodium thiosulfate, $\\ce{Na2S2O3}$, until the color of the mixture has just dissipated, leaving a milky white suspension. This requires 17.20 mL of added sodium thiosulfate solution. What is the value of $n$ for the $\\ce{Cu(NO3)2 * n H2O}$?",
+        "key_md": "The thiosulfate reacts with triiodide to form tetrathionate and iodide in the following balanced equation:\n\n$\\ce{2 S2O3^2-(aq) + I3^-(aq) -> S4O6^2-(aq) + 3 I^-(aq)}$\n\nSince each 2 mol of $\\ce{Cu^2+}$ produced one mol $\\ce{I3^-}$, each mol of $\\ce{S2O3^2-}$ corresponds to one mol of $\\ce{Cu^2+}$:\n\n$(0.01720\\ \\text{L } \\ce{S2O3^2-}) \\times (0.0250\\ \\text{mol L}^{-1}) = 4.30 \\times 10^{-4}$ mol $\\ce{S2O3^2-}$ = $4.30 \\times 10^{-4}$ mol $\\ce{Cu^2+}$\n\n$\\{4.30 \\times 10^{-4}\\ \\text{mol } \\ce{Cu(NO3)2}\\} \\times (187.57\\ \\text{g mol}^{-1}) = 0.0807$ g $\\ce{Cu(NO3)2}$\n\n0.1000 g hydrated $\\ce{Cu(NO3)2}$ – 0.0807 g anhyd. $\\ce{Cu(NO3)2}$ = 0.0193 g $\\ce{H2O}$\n\n$(0.0193\\ \\text{g } \\ce{H2O})/(18.02\\ \\text{g mol}^{-1}) = 1.07 \\times 10^{-3}$ mol $\\ce{H2O}$\n\n$n = (1.07 \\times 10^{-3}\\ \\text{mol } \\ce{H2O})/(4.30 \\times 10^{-4}\\ \\text{mol Cu}) = 2.50$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Balanced thiosulfate–triiodide equation $\\ce{2 S2O3^2- + I3^- -> S4O6^2- + 3 I^-}$ and recognition that 1 mol $\\ce{S2O3^2-}$ ≡ 1 mol $\\ce{Cu^2+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Moles $\\ce{S2O3^2-}$ = $4.30 \\times 10^{-4}$ mol and mass of anhydrous $\\ce{Cu(NO3)2}$ = 0.0807 g"
+          },
+          {
+            "points": 1,
+            "criterion": "Water mass 0.0193 g → $1.07 \\times 10^{-3}$ mol and $n = 2.5$ (accept 2.4–2.6)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2025 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2025-N-P2",
+    "year": 2025,
+    "level": "national",
+    "number": 2,
+    "title": "Calcium oxalate solubility and oxalic acid equilibria",
+    "topic_id": "equilibrium",
+    "intro_md": "Calcium oxalate, $\\ce{CaC2O4}$, has a $K_\\text{sp}$ of $2.7 \\times 10^{-9}$. Oxalic acid, $\\ce{H2C2O4}$, has two ionizable hydrogens with $\\text{p}K_\\text{a1} = 1.27$ and $\\text{p}K_\\text{a2} = 4.28$.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw a Lewis structure for oxalate ion, $\\ce{C2O4^2-}$, including all bonds, lone pairs, and formal charges. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "A structure with a C–C single bond joining the two carbons; each carbon bears one doubly bonded O (two lone pairs, formal charge 0) and one singly bonded O (three lone pairs, formal charge –1). The two negative formal charges are on the two singly bonded oxygen atoms; overall charge 2–.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "C–C single bond with each C bonded to two O (one C=O, one C–O⁻), all octets satisfied"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct lone pairs shown (2 on each double-bonded O, 3 on each single-bonded O) and –1 formal charge placed on each singly bonded O"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the molar solubility of calcium oxalate in pure water.",
+        "key_md": "If the molar solubility is $S$, then $[\\ce{Ca^2+}] = [\\ce{C2O4^2-}] = S$\n\n$K_\\text{sp} = [\\ce{Ca^2+}][\\ce{C2O4^2-}] = S^2 = 2.7 \\times 10^{-9}$\n\n$S = 5.2 \\times 10^{-5}$ mol L$^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up $K_\\text{sp} = S^2$"
+          },
+          {
+            "points": 1,
+            "criterion": "$S = 5.2 \\times 10^{-5}$ M (±5%)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the molar solubility of calcium oxalate in a 0.100 M $\\ce{CaCl2}$ solution.",
+        "key_md": "$K_\\text{sp} = [\\ce{Ca^2+}][\\ce{C2O4^2-}] = [0.100][\\ce{C2O4^2-}] = 2.7 \\times 10^{-9}$\n\n$[\\ce{C2O4^2-}] = 2.7 \\times 10^{-8}$ mol L$^{-1}$\n\nSince all the oxalate comes from the dissolving calcium oxalate, this is the solubility.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $[\\ce{Ca^2+}] = 0.100$ M in the $K_\\text{sp}$ expression"
+          },
+          {
+            "points": 1,
+            "criterion": "Solubility $= 2.7 \\times 10^{-8}$ M, identified as equal to $[\\ce{C2O4^2-}]$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "A 0.100 mol sample of solid $\\ce{CaC2O4}$ is suspended in 1.00 L of water and $\\ce{HCl}(g)$ is bubbled through the solution until all of the solid just dissolves. What is the pH of the final homogeneous solution? You may assume the final volume of solution is 1.00 L.",
+        "key_md": "Since all the calcium oxalate has dissolved, $[\\ce{Ca^2+}] = 0.100$ M. Since it has just dissolved, the $K_\\text{sp}$ expression is valid, and $[\\ce{C2O4^2-}] = 2.7 \\times 10^{-8}$ mol L$^{-1}$ as in part b.\n\nThe total amount of oxalate, $[\\ce{C2O4^2-}] + [\\ce{HC2O4^-}] + [\\ce{H2C2O4}]$, must add up to 0.100 M. Since so little of it is $\\ce{C2O4^2-}$, we will assume that almost all of it is doubly protonated, so $[\\ce{H2C2O4}] \\approx 0.100$ M. We can relate the concentration of $\\ce{C2O4^2-}$ to that of $\\ce{H2C2O4}$ by combining the two $K_\\text{a}$ equilibria:\n\n$\\ce{H2C2O4 <=> HC2O4^- + H+}$   $K_\\text{eq} = K_\\text{a1} = 0.054$\n\n$\\ce{HC2O4^- <=> C2O4^2- + H+}$   $K_\\text{eq} = K_\\text{a2} = 5.2 \\times 10^{-5}$\n\n$\\ce{H2C2O4 <=> C2O4^2- + 2 H+}$   $K_\\text{eq} = K_\\text{a1}K_\\text{a2} = 2.8 \\times 10^{-6}$\n\n$\\dfrac{[\\ce{C2O4^2-}][\\ce{H+}]^2}{[\\ce{H2C2O4}]} = \\dfrac{[2.7\\times10^{-8}][\\ce{H+}]^2}{[0.100]} = 2.8 \\times 10^{-6}$\n\n$[\\ce{H+}] = 3.2$ M\n\n$\\text{pH} = -\\log_{10}[\\ce{H+}] = -0.51$\n\nAt this pH, about 1 part in 60 of the oxalate is in the form of $\\ce{HC2O4^-}$, so our assumption about the concentration of $\\ce{H2C2O4}$ is indeed valid.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $[\\ce{Ca^2+}] = 0.100$ M so $[\\ce{C2O4^2-}] = 2.7 \\times 10^{-8}$ M at the point of just dissolving"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses combined equilibrium $K_\\text{a1}K_\\text{a2} = 2.8 \\times 10^{-6}$ with $[\\ce{H2C2O4}] \\approx 0.100$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{H+}] = 3.2$ M and pH = –0.51 (±0.1)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "How many moles of $\\ce{HCl}(g)$ are added in part d?",
+        "key_md": "To achieve this concentration of $\\ce{H+}$, one would need to add 3.2 mol HCl, plus 0.2 mol more to protonate the 0.1 mol of $\\ce{C2O4^2-}$, for a total of 3.4 mol.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Accounts for the 0.2 mol needed to doubly protonate 0.1 mol oxalate"
+          },
+          {
+            "points": 1,
+            "criterion": "Total of 3.4 mol HCl (consistent with part d's $[\\ce{H+}]$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Will the molar solubility of $\\ce{CaC2O4}$ in 0.1 M $\\ce{NaHC2O4}$ be significantly greater than, significantly less than, or within 10% of the molar solubility of calcium oxalate in pure water? Justify your answer.",
+        "key_md": "Addition of $\\ce{HC2O4^-}$ cannot increase the solubility of calcium oxalate, since it cannot decrease the oxalate concentration by protonating it (since that would just replace the oxalate with another mole of oxalate!). It might be able to decrease the solubility by the common ion effect. To see if this is significant, we can calculate the concentration of $\\ce{C2O4^2-}$ in the 0.100 M $\\ce{HC2O4^-}$ solution. The major way this is formed is by deprotonation of $\\ce{HC2O4^-}$ by itself:\n\n$\\ce{HC2O4^- + H+ <=> H2C2O4}$   $K_\\text{eq} = 1/K_\\text{a1} = 18.6$\n\n$\\ce{HC2O4^- <=> C2O4^2- + H+}$   $K_\\text{eq} = K_\\text{a2} = 5.2 \\times 10^{-5}$\n\n$\\ce{2 HC2O4^- <=> C2O4^2- + H2C2O4}$   $K_\\text{eq} = K_\\text{a2}/K_\\text{a1} = 9.8 \\times 10^{-4}$\n\n$\\dfrac{[\\ce{C2O4^2-}][\\ce{H2C2O4}]}{[\\ce{HC2O4^-}]^2} = \\dfrac{[x]^2}{[0.100-2x]^2} = 9.8 \\times 10^{-4}$\n\n$\\dfrac{[x]}{[0.100-2x]} = 0.031$\n\n$x = 2.9 \\times 10^{-3} = [\\ce{C2O4^2-}]$\n\nSince this is 56 times larger than the oxalate concentration when $\\ce{CaC2O4}$ is dissolved in pure water (see part b), the common ion effect will significantly decrease the solubility of calcium oxalate in the $\\ce{NaHC2O4}$ solution compared to pure water.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Answers \"significantly less than\" and invokes the common ion effect (noting protonation by $\\ce{HC2O4^-}$ cannot increase solubility)"
+          },
+          {
+            "points": 1,
+            "criterion": "Quantitative support: $[\\ce{C2O4^2-}] \\approx 2.9 \\times 10^{-3}$ M from $2\\ce{HC2O4^- <=> C2O4^2- + H2C2O4}$ ($K = K_\\text{a2}/K_\\text{a1} = 9.8\\times10^{-4}$), much larger than $5.2\\times10^{-5}$ M"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2025 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2025-N-P3",
+    "year": 2025,
+    "level": "national",
+    "number": 3,
+    "title": "Thermochemistry of DMEA–acetic acid neutralization",
+    "topic_id": "thermodynamics",
+    "intro_md": "*N,N*-Dimethylethanolamine (($\\ce{CH3}$)$_2$$\\ce{NCH2CH2OH}$, DMEA, $M = 89.14$) is a Brønsted base whose conjugate acid, DMEAH$^+$, has a p$K_\\text{a}$ = 9.22 ($K_\\text{a} = 6.0 \\times 10^{-10}$).  Acetic acid ($\\ce{CH3COOH}$, $M = 60.05$) has a p$K_\\text{a}$ = 4.75 ($K_\\text{a} = 1.8 \\times 10^{-5}$).",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate $\\Delta G^\\circ_\\text{rxn}$ at 298 K for the acid-base reaction of DMEA with $\\ce{CH3COOH}$.",
+        "key_md": "Reaction is $\\ce{DMEA(aq) + CH3COOH(aq) -> DMEAH+(aq) + CH3COO^-(aq)}$\n\n$K_\\text{eq} = (K_\\text{a}\\ \\text{of } \\ce{CH3COOH})/(K_\\text{a}\\ \\text{of DMEAH+}) = (1.8 \\times 10^{-5})/(6.0 \\times 10^{-10})$\n\n$K_\\text{eq} = 3.0 \\times 10^{4}$\n\n$\\Delta G^\\circ = -RT\\ln(K_\\text{eq}) = -(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})\\ln(3.0 \\times 10^{4})$\n\n$\\Delta G^\\circ = -25500\\ \\text{J mol}^{-1} = -25.5\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct balanced acid-base reaction and recognition that $K_\\text{eq} = K_\\text{a}(\\ce{CH3COOH})/K_\\text{a}(\\text{DMEAH+})$"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{eq} = 3.0 \\times 10^{4}$ (or equivalent, e.g. from $\\Delta$p$K_\\text{a}$ = 4.47)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ = -25.5$ kJ mol$^{-1}$ (±0.5) using $\\Delta G^\\circ = -RT\\ln K$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "A solution consisting of 7.84 g $\\ce{CH3COOH}$ and 107.17 g water is placed in a well-insulated (Dewar) flask.  To this solution is added DMEA in small portions.  After each portion of DMEA is added, the solution is stirred and the temperature measured with a digital thermometer.  The data obtained are plotted at right.  The solid line represents the best linear fit to the data with < 12 g added DMEA, the dashed line the average of the data with ≥ 12 g added DMMEA; both equations are given on the plot.  (Plot of $T$, °C vs. g DMMEA added: solid line $y = 1.141x + 19.03$; dashed line $y = 31.84$.)\n\nCalculate $\\Delta H^\\circ_\\text{rxn}$ for the reaction of DMEA with $\\ce{CH3COOH}$.  You may assume that all solutions have the same specific heat capacity as pure water.",
+        "key_md": "At the intersection point, $1.141x + 19.03 = 31.84$, so $x = 11.23$ g DMEA\n\nAt this point, $q_\\text{rxn} = -q_{\\ce{H2O}} = -mC_\\text{p}\\Delta T$\n\n$= -(7.84\\ \\text{g} + 107.17\\ \\text{g} + 11.23\\ \\text{g})(4.184\\ \\text{J mol}^{-1}\\text{K}^{-1})(31.84\\ ^\\circ\\text{C} - 19.03\\ ^\\circ\\text{C})$\n\n$q_\\text{rxn} = -6766$ J\n\n$\\Delta H^\\circ_\\text{rxn} = q_\\text{rxn}/(\\text{mol reacted})$\n\nAt this point the number of moles of both reagents are equal; mol $\\ce{CH3COOH}$ reacted = $(7.84\\ \\text{g})/(60.05\\ \\text{g mol}^{-1}) = 0.131$ mol.\n\n$\\Delta H^\\circ_\\text{rxn} = -6766\\ \\text{J}/(0.131\\ \\text{mol}) = -51600\\ \\text{J mol}^{-1} = -51.6\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Finds the equivalence point from the intersection of the two lines, $x = 11.2$ g DMEA, and $\\Delta T = 31.84 - 19.03 = 12.81$ °C"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses total solution mass (7.84 + 107.17 + 11.23 = 126.2 g) with $c = 4.184$ J g$^{-1}$K$^{-1}$ to get $q \\approx 6.77$ kJ"
+          },
+          {
+            "points": 1,
+            "criterion": "Moles reacted = 0.131 mol (limiting acetic acid at equivalence)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{rxn} = -51.6$ kJ mol$^{-1}$ (±2), negative sign"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate $\\Delta S^\\circ_\\text{rxn}$ for the reaction of DMEA with $\\ce{CH3COOH}$.",
+        "key_md": "$\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$\n\n$-25500\\ \\text{J mol}^{-1} = -51600\\ \\text{J mol}^{-1} - (298\\ \\text{K})\\Delta S^\\circ$\n\n$\\Delta S^\\circ = -87.6\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$ with $T$ = 298 K"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ = -87.6$ J mol$^{-1}$K$^{-1}$ (±5, or consistent with student's a and b values)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "The $\\Delta S^\\circ$ calculated in part c. is negative.  What features of the reaction of DMEA with $\\ce{CH3COOH}$ cause it to have a negative entropy of reaction?",
+        "key_md": "The reaction produces two charged particles from two neutral ones.  Charged species in aqueous solution are strongly solvated by the water, which significantly constrains the orientations of the solvent molecules around the ions.  This decreases the number of ways the solvent molecules can be arranged and so decreases the entropy.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes that two charged (ionic) species are produced from two neutral species (no change in number of particles)"
+          },
+          {
+            "points": 2,
+            "criterion": "Explains that the ions strongly solvate/order the surrounding water molecules, reducing the number of accessible solvent arrangements and hence the entropy"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2025 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2025-N-P4",
+    "year": 2025,
+    "level": "national",
+    "number": 4,
+    "title": "Zn–Pb galvanic cell thermodynamics from E(T)",
+    "topic_id": "redox",
+    "intro_md": "A galvanic cell is set up as follows and the cell potential measured as a function of temperature to give the graph shown.\n\nCell diagram: a voltmeter (V) connects a Pb electrode immersed in 1.00 M $\\ce{Pb^2+}$ (left-hand compartment) to a Zn electrode immersed in 1.00 M $\\ce{Zn^2+}$ (right-hand compartment); the two compartments are connected by a salt bridge.\n\nThe measured cell potential decreases linearly with temperature over 280–340 K; the best-fit line shown on the graph is\n\n$y = 0.7887 - 0.000515x$  (with $y = E$ in V and $x = T$ in K)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Which electrode is the anode and which is the cathode?",
+        "key_md": "The Zn electrode is the anode and the Pb electrode is the cathode.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States Zn = anode and Pb = cathode (both required)"
+          }
+        ],
+        "max_points": 1
+      },
+      {
+        "label": "b",
+        "stem_md": "The standard reduction potential for $\\ce{Zn^2+}(aq)$ at 298 K is –0.762 V. What is the standard reduction potential for $\\ce{Pb^2+}(aq)$ at 298 K?",
+        "key_md": "At 298 K the (standard) cell potential is $(0.7887\\ \\text{V}) - (0.000515\\ \\text{V K}^{-1})(298\\ \\text{K}) = 0.635$ V.\n\n$E^\\circ(\\ce{Pb^2+}/\\ce{Pb}) - E^\\circ(\\ce{Zn^2+}/\\ce{Zn}) = E^\\circ_\\text{cell}$\n\n$E^\\circ(\\ce{Pb^2+}/\\ce{Pb}) - (-0.762\\ \\text{V}) = 0.635\\ \\text{V}$\n\n$E^\\circ(\\ce{Pb^2+}/\\ce{Pb}) = -0.127\\ \\text{V}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Obtains $E^\\circ_\\text{cell} = 0.635$ V at 298 K from the line equation (±0.002 V)"
+          },
+          {
+            "points": 1,
+            "criterion": "$E^\\circ(\\ce{Pb^2+}/\\ce{Pb}) = -0.127$ V (±0.003 V)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "What are ∆G° (at 298 K), ∆H°, and ∆S° for the reaction shown below?\n\n$\\ce{Zn(s) + Pb^2+(aq) -> Zn^2+(aq) + Pb(s)}$",
+        "key_md": "$\\Delta G^\\circ = -nFE^\\circ = -2(96500\\ \\text{J V}^{-1}\\text{mol}^{-1})(0.635\\ \\text{V}) = -123\\ \\text{kJ mol}^{-1}$\n\n$\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ = -nFE^\\circ$\n\n$E^\\circ = -\\Delta H^\\circ/nF + (\\Delta S^\\circ/nF)(T)$\n\nFrom the equation of the line,\n\n$\\Delta H^\\circ = -nF(\\text{intercept}) = -2(96500\\ \\text{J V}^{-1}\\text{mol}^{-1})(0.7887\\ \\text{V}) = -152\\ \\text{kJ mol}^{-1}$\n\n$\\Delta S^\\circ = nF(\\text{slope}) = 2(96500\\ \\text{J V}^{-1}\\text{mol}^{-1})(-0.000515\\ \\text{V K}^{-1}) = -99.4\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ = -123$ kJ mol⁻¹ (±2) using $\\Delta G^\\circ = -nFE^\\circ$ with $n = 2$"
+          },
+          {
+            "points": 1,
+            "criterion": "Relates intercept/slope of $E$ vs. $T$ to $\\Delta H^\\circ$ and $\\Delta S^\\circ$ ($E^\\circ = -\\Delta H^\\circ/nF + (\\Delta S^\\circ/nF)T$)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ = -152$ kJ mol⁻¹ (±3)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ = -99.4$ J mol⁻¹ K⁻¹ (±2)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "Explain the sign of ∆S° for the reaction given in part c.",
+        "key_md": "The $\\ce{Pb^2+}$ ion is much larger and hence less tightly solvated than the $\\ce{Zn^2+}$ ion, so it has a much more positive $S^\\circ$ value (10.5 J mol⁻¹ K⁻¹ compared to –112.1 J mol⁻¹ K⁻¹ for $\\ce{Zn^2+}(aq)$). Thus replacing $\\ce{Pb^2+}$ in solution with $\\ce{Zn^2+}$ results in a net ordering of the solvent molecules and a net decrease in entropy.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes that the smaller, more charge-dense $\\ce{Zn^2+}$ is more strongly solvated (lower $S^\\circ$) than the larger $\\ce{Pb^2+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes that replacing $\\ce{Pb^2+}$ by $\\ce{Zn^2+}$ orders the solvent, giving negative $\\Delta S^\\circ$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "The temperature-dependence of the cell is remeasured with the same cell, except that the concentration of $\\ce{Pb^2+}(aq)$ in the left-hand compartment is changed to 0.100 M.  Plot the results on the graph shown below (with the results shown from the standard cell given again for reference), and briefly justify your plot. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Under nonstandard conditions, the Nernst equation indicates that\n\n$E = E^\\circ - (RT/nF)\\ln([\\ce{Zn^2+}]/[\\ce{Pb^2+}])$\n\n$E = E^\\circ - \\{(8.314\\ \\text{J mol}^{-1}\\ \\text{K}^{-1})/(2 \\times 96500\\ \\text{J mol}^{-1}\\ \\text{V}^{-1})\\}\\cdot\\ln(10)\\cdot T$\n\n$E = E^\\circ - (9.92 \\times 10^{-5}\\ \\text{V K}^{-1})T$\n\nSo the graph will be a line with the original $y$-intercept but with a slope that is smaller (more negative) by $9.92 \\times 10^{-5}$ V K$^{-1}$.  The drawn (blue) line is $y = 0.7887 - 0.000614x$, i.e. a straight line through the same intercept 0.7887 V at $T = 0$, lying below the original line: about 0.618 V at 280 K and about 0.580 V at 340 K.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Applies the Nernst equation with $n = 2$ and $Q = [\\ce{Zn^2+}]/[\\ce{Pb^2+}] = 10$"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows the correction term is linear in $T$, equal to $(9.92 \\times 10^{-5}\\ \\text{V K}^{-1})T$ (±5%), giving new slope ≈ −0.000614 V K⁻¹ with unchanged intercept 0.7887 V"
+          },
+          {
+            "points": 1,
+            "criterion": "Plots a straight line below the original line (≈0.618 V at 280 K, ≈0.580 V at 340 K) with the same intercept"
+          }
+        ],
+        "max_points": 3,
+        "figure_url": "/figures/2025-N-P4-f3.png"
+      }
+    ],
+    "source": "USNCO 2025 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2025-N-P4-f2.png"
+  },
+  {
+    "id": "2025-N-P5",
+    "year": 2025,
+    "level": "national",
+    "number": 5,
+    "title": "Net Equations for Six Reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances, and clearly show stereochemistry where relevant. You need not balance the equations or show the phases of the species.\n\n(Note that while phases are shown in the solutions for the sake of completeness, they are not required on the exam.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Carbon dioxide is bubbled through a saturated solution of barium hydroxide.",
+        "key_md": "$\\ce{Ba^2+(aq) + OH^-(aq) + CO2(g) -> BaCO3(s) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants $\\ce{Ba^2+}$, $\\ce{OH^-}$, $\\ce{CO2}$ (spectator ions omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{BaCO3(s)}$ and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Potassium permanganate is mixed with iron(II) sulfate in dilute sulfuric acid.",
+        "key_md": "$\\ce{MnO4^-(aq) + Fe^2+(aq) + H+(aq) -> Mn^2+(aq) + Fe^3+(aq) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants $\\ce{MnO4^-}$, $\\ce{Fe^2+}$, $\\ce{H+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{Mn^2+}$, $\\ce{Fe^3+}$, $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Solid silver chloride is added to concentrated aqueous ammonia.",
+        "key_md": "$\\ce{AgCl(s) + NH3(aq) -> Ag(NH3)2^+(aq) + Cl^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants $\\ce{AgCl(s)}$ and $\\ce{NH3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{Ag(NH3)2^+}$ and $\\ce{Cl^-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Phosphorus trichloride reacts with potassium chlorate.",
+        "key_md": "$\\ce{PCl3(l) + KClO3(s) -> POCl3(l) + KCl(s)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants $\\ce{PCl3}$ and $\\ce{KClO3}$ (or $\\ce{ClO3^-}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{POCl3}$ and $\\ce{KCl}$ (or $\\ce{Cl^-}$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "*Para*-xylene (1,4-dimethylbenzene) is heated with a mixture of concentrated nitric and sulfuric acids. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Nitration of the aromatic ring: *p*-xylene $\\ce{+ H+ + NO3^- ->}$ 2,5-dimethylnitrobenzene $\\ce{+ H2O}$.\n\nThe drawn answer shows the structure of 1,4-dimethylbenzene reacting with $\\ce{H+}$ and $\\ce{NO3^-}$ to give a benzene ring bearing two methyl groups para to each other and an $\\ce{NO2}$ group on a ring carbon ortho to one methyl group (i.e., 2,5-dimethyl-1-nitrobenzene), plus $\\ce{H2O}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes electrophilic aromatic nitration with $\\ce{NO2}$ substituted onto the ring (structural formula drawn)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct product structure (nitro group on ring of p-xylene, methyls retained) and $\\ce{H2O}$ as the other product"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Fluorine-18 emits a positron.",
+        "key_md": "$\\ce{^18F -> ^18O + \\beta^+}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product identified as $\\ce{^18O}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Positron ($\\beta^+$) included and mass/charge balanced"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2025 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2025-N-P6",
+    "year": 2025,
+    "level": "national",
+    "number": 6,
+    "title": "Oxygen Allotropes: Bonding and Spectroscopy",
+    "topic_id": "bonding",
+    "intro_md": "Oxygen has two stable allotropes, $\\ce{O2}$ (dioxygen) and $\\ce{O3}$ (ozone).",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Explain why $\\ce{O2}$ has a higher normal boiling point than either $\\ce{N2}$ or $\\ce{F2}$.",
+        "key_md": "In these nonpolar diatomic molecules, the only intermolecular forces are London dispersion forces. These interactions increase in strength with increasing numbers of electrons and with increasing polarizability of the electrons. $\\ce{O2}$ has two more electrons than $\\ce{N2}$, so it is expected that its boiling point will increase. The fact that $\\ce{F2}$ has a lower boiling point must indicate that its electrons are less polarizable than those in $\\ce{O2}$. This is characteristic of fluorine-containing molecules and is due to F's extremely high electronegativity resulting in a very low polarizability of its electrons.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that London dispersion forces are the only intermolecular forces in these nonpolar diatomics"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains $\\ce{O2}$ > $\\ce{N2}$ by greater number of electrons"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains $\\ce{O2}$ > $\\ce{F2}$ by the low polarizability of fluorine's electrons (high electronegativity, tightly held electrons)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Explain why both atomic oxygen (O) and $\\ce{O2}$ have two unpaired electrons in their ground states.",
+        "key_md": "The ground-state electron configuration of atomic O is $1s^2 2s^2 2p^4$. Four electrons occupy the three $2p$ orbitals, so by Hund's rule, the lowest-energy configuration has two half-filled orbitals with electron spins aligned.\n\nIn $\\ce{O2}$, the occupied molecular orbitals are $(\\sigma_{2s})^2 (\\sigma^*_{2s})^2 (\\sigma_{2p})^2 (\\pi_{2px})^2 (\\pi_{2py})^2 (\\pi^*_{2px})^1 (\\pi^*_{2py})^1$. Again, with two electrons occupying the two degenerate $\\pi^*$ orbitals, the lowest-energy configuration has the two electrons with the same spin in different orbitals.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Atomic O: $1s^2 2s^2 2p^4$ with four electrons in three degenerate $2p$ orbitals giving two half-filled orbitals by Hund's rule"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{O2}$: correct MO configuration with two electrons in the degenerate $\\pi^*$ orbitals"
+          },
+          {
+            "points": 1,
+            "criterion": "Invokes Hund's rule/degeneracy so that the two $\\pi^*$ electrons occupy different orbitals with parallel spins"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Molecular oxygen has an excited state with no unpaired electrons, which emits light with a wavelength of 1270 nm to return to the ground state. What is the energy (in kJ mol$^{-1}$) by which the excited state is higher than the ground state?",
+        "key_md": "$E = hc/\\lambda$\n\n$E = (6.626 \\times 10^{-34}\\ \\text{J s})(2.998 \\times 10^{8}\\ \\text{m s}^{-1})/(1.270 \\times 10^{-6}\\ \\text{m}) = 1.564 \\times 10^{-19}$ J\n\nThis is the energy of one photon; the energy of a mole of photons is $(1.564 \\times 10^{-22}\\ \\text{kJ}) \\times (6.022 \\times 10^{23}\\ \\text{mol}^{-1}) = 94.19$ kJ mol$^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $E = hc/\\lambda$ to get $1.56 \\times 10^{-19}$ J per photon"
+          },
+          {
+            "points": 1,
+            "criterion": "Multiplies by $N_\\text{A}$ to obtain $\\approx 94.2$ kJ mol$^{-1}$ (±1)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Explain why $\\ce{O2}$ does not absorb light in the infrared region of the electromagnetic spectrum but $\\ce{O3}$ does.",
+        "key_md": "To absorb light in the IR, a molecule must have a molecular vibration that causes a change in the molecule's dipole moment. $\\ce{O2}$ has only one possible vibration (stretching the O–O bond), but that does not cause the dipole moment to change from zero. $\\ce{O3}$ has three possible vibrations (symmetric stretch, asymmetric stretch, and bend). Because of the unsymmetrical distribution of charge in the molecule (see Lewis structures below), all of these motions cause a change in the dipole moment, so $\\ce{O3}$ absorbs at three fundamental frequencies in the IR region (701, 1042, and 1103 cm$^{-1}$).\n\n[Drawn: the two resonance Lewis structures of ozone, bent, with a formal positive charge on the central O and a negative charge on one terminal O, interchanged by resonance.]",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the IR-activity requirement: the vibration must change the molecular dipole moment"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{O2}$'s single stretching vibration does not change its (zero) dipole moment — homonuclear/symmetric"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{O3}$ is bent/polar with unsymmetrical charge distribution, so its vibrations (stretches and bend) change the dipole moment"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Dioxygen can be oxidized to form dioxygenyl cation ($\\ce{O2+}$) or reduced to form superoxide ion ($\\ce{O2-}$) or peroxide ion ($\\ce{O2^2-}$), while ozone can be reduced to form ozonide ion ($\\ce{O3-}$). Among these six species, the O–O bond distances are 112 pm, 121 pm, 127 pm, 128 pm, 135 pm, and 154 pm. Fill in the table below by assigning the correct distances to the six species, and briefly justify your assignments. (You may consider 127 and 128 pm as essentially the same in this problem.)\n\nSpecies / O–O distance, pm: $\\ce{O2}$ ___ ; $\\ce{O2+}$ ___ ; $\\ce{O2-}$ ___ ; $\\ce{O2^2-}$ ___ ; $\\ce{O3}$ ___ ; $\\ce{O3-}$ ___",
+        "key_md": "According to the MO configuration in part b, the bond order in $\\ce{O2}$ is 2.0. Electrons are added to or removed from $\\pi^*$ orbitals, so $\\ce{O2+}$ has a bond order of 2.5 while $\\ce{O2-}$ has a bond order of 1.5 and $\\ce{O2^2-}$ a bond order of 1.0. The Lewis structure of $\\ce{O3}$ (see part d) indicates that there are two O–O $\\sigma$ bonds and one O–O $\\pi$ bond, so the overall bond order is 1.5 (same as that of superoxide). The extra electron in ozonide is added to a $\\pi^*$ orbital, reducing the overall $\\pi$ bond order from 1.0 to 0.5. With the two $\\sigma$ bonds, this means that there are a total of 2.5 bonds distributed over the two O–O bonds, giving an O–O bond order of 1.25. Aligning the stated bond lengths with these bond orders gives the assignments in the table.\n\n$\\ce{O2}$: 121 pm\n$\\ce{O2+}$: 112 pm\n$\\ce{O2-}$: 128 pm\n$\\ce{O2^2-}$: 154 pm\n$\\ce{O3}$: 127 pm\n$\\ce{O3-}$: 135 pm",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct bond orders for the dioxygen series ($\\ce{O2+}$ 2.5, $\\ce{O2}$ 2.0, $\\ce{O2-}$ 1.5, $\\ce{O2^2-}$ 1.0) from adding/removing $\\pi^*$ electrons"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct bond orders for $\\ce{O3}$ (1.5) and $\\ce{O3-}$ (1.25) with justification"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2025 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2025-N-P7",
+    "year": 2025,
+    "level": "national",
+    "number": 7,
+    "title": "Perovskite CsPbI3 and YBa2Cu3O7 Structures",
+    "topic_id": "states-of-matter",
+    "intro_md": "Cesium lead iodide, $\\ce{CsPbI3}$, is of interest in solar photovoltaic cells. It adopts a structure called a *perovskite* whose cubic unit cell is shown below.\n\n(The cubic unit cell drawing shows small gray spheres at the eight corners, medium-sized white spheres at the centers of the six faces, and one large black sphere at the body center.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Which element corresponds to the small gray spheres, which to the medium sized white spheres, and which to the large black spheres?\n\n- small gray sphere = \n- medium white sphere = \n- large black sphere = ",
+        "key_md": "There are 3 white spheres per unit cell, so that must be I.  The coordination number of the gray spheres is 12 while that of the black spheres is 6, which is most appropriate for Cs and Pb, respectively.\n\n- small gray sphere = Cs\n- medium white sphere = I\n- large black sphere = Pb",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Small gray spheres identified as Cs"
+          },
+          {
+            "points": 1,
+            "criterion": "Medium white spheres identified as I (3 per unit cell)"
+          },
+          {
+            "points": 1,
+            "criterion": "Large black sphere identified as Pb"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Describe the coordination number and the identity of the nearest neighbor atoms for each of the types of atoms in $\\ce{CsPbI3}$.",
+        "key_md": "Pb:  coordination = 6 I atoms\n\nCs:  coordination = 12 I atoms\n\nI:  coordination = 2 Pb atoms [the Cs–I distances are longer]",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Pb: coordination number 6, nearest neighbors are I atoms"
+          },
+          {
+            "points": 2,
+            "criterion": "Cs: coordination number 12, nearest neighbors are I atoms"
+          },
+          {
+            "points": 1,
+            "criterion": "I: coordination number 2, nearest neighbors are Pb atoms (Cs–I distances are longer)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "c",
+        "stem_md": "The length of the unit cell edge in $\\ce{CsPbI3}$ is 628 pm. What is the density of $\\ce{CsPbI3}$, in $\\text{g cm}^{-3}$?",
+        "key_md": "Unit cell volume $= (628 \\times 10^{-10}\\ \\text{cm})^3 = 2.48 \\times 10^{-22}\\ \\text{cm}^3$\n\nOne $\\ce{CsPbI3}$ formula unit per unit cell, mass $= (720.8\\ \\text{g mol}^{-1})/(6.022 \\times 10^{23}\\ \\text{mol}^{-1}) = 1.197 \\times 10^{-21}\\ \\text{g}$\n\nDensity $= (1.197 \\times 10^{-21}\\ \\text{g})/(2.48 \\times 10^{-22}\\ \\text{cm}^3) = 4.83\\ \\text{g cm}^{-3}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Unit cell volume $2.48 \\times 10^{-22}\\ \\text{cm}^3$ from $(628\\ \\text{pm})^3$"
+          },
+          {
+            "points": 1,
+            "criterion": "Recognizes one $\\ce{CsPbI3}$ formula unit per cell and mass $1.197 \\times 10^{-21}$ g (M = 720.8 g/mol)"
+          },
+          {
+            "points": 1,
+            "criterion": "Density $= 4.83\\ \\text{g cm}^{-3}$ (±0.05)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "A mixed-metal oxide that is of interest in high-temperature superconductivity research, $\\ce{YBa2Cu3O7}$, adopts a structure related to the perovskite structure.  One unit cell of this structure is shown below.\n\nIdentify which elements correspond to the four types of spheres in the diagram.\n\n- dotted sphere = \n- open (white) sphere = \n- black sphere = \n- shaded (gradient) sphere = ",
+        "key_md": "The elements can be assigned by the stoichiometry of the types of spheres in the unit cell.\n\n- dotted sphere = Ba\n- open (white) sphere = O\n- black sphere = Cu\n- shaded (gradient) sphere = Y",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Dotted spheres = Ba"
+          },
+          {
+            "points": 1,
+            "criterion": "Open white spheres = O and shaded sphere = Y"
+          },
+          {
+            "points": 1,
+            "criterion": "Black spheres = Cu"
+          }
+        ],
+        "max_points": 3,
+        "figure_url": "/figures/2025-N-P7-f2.png"
+      },
+      {
+        "label": "e",
+        "stem_md": "Give the oxidation numbers of each element in $\\ce{YBa2Cu3O7}$.",
+        "key_md": "$\\ce{Y}$ = +3, $\\ce{Ba}$ = +2, $\\ce{O}$ = –2. This means that $\\ce{Cu}$ = +2.33 on average.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Y = +3, Ba = +2, O = –2"
+          },
+          {
+            "points": 1,
+            "criterion": "Cu = +2.33 (average, i.e. +7/3)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "The atoms represented by the black spheres have two different coordination geometries in the structure shown.  What are the geometries?  How is this observation related to the oxidation numbers you determined in part e?",
+        "key_md": "The Cu atoms in the middle of the unit cell are square pyramidal, while the Cu atoms on the top and bottom faces are square planar.  The ratio of square pyramidal : square planar sites is 2:1.  This corresponds to the two different oxidation states (two Cu(II), one Cu(III)) in the formula.  Chemically, Cu(II) is often square pyramidal, while Cu(III) forms shorter bonds and is almost always square planar.  So the different oxidation states are localized in the different copper sites in the crystal.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Identifies both geometries: square pyramidal (middle Cu) and square planar (Cu on top/bottom faces)"
+          },
+          {
+            "points": 1,
+            "criterion": "States the 2:1 ratio of square pyramidal : square planar sites"
+          },
+          {
+            "points": 1,
+            "criterion": "Relates the 2:1 ratio to two Cu(II) and one Cu(III), i.e., the average +2.33 oxidation state is localized as distinct Cu(II)/Cu(III) sites"
+          }
+        ],
+        "max_points": 4,
+        "figure_url": "/figures/2025-N-P7-f2.png"
+      }
+    ],
+    "source": "USNCO 2025 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2025-N-P7-f1.png"
+  },
+  {
+    "id": "2025-N-P8",
+    "year": 2025,
+    "level": "national",
+    "number": 8,
+    "title": "Halogenation reactions of organic compounds",
+    "topic_id": "organic",
+    "intro_md": "Many organic compounds react with elemental halogens such as $\\ce{Br2}$ or $\\ce{I2}$.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Under appropriate conditions, 3-methylpentane will react with $\\ce{Br2}$ to form a single monobromide with the formula $\\ce{C6H13Br}$. Give appropriate reaction conditions and the structural formula of the product. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "3-bromo-3-methylpentane will be formed selectively under free radical conditions. These could be provided either by photolysis or by using a free radical initiator such as benzoyl peroxide.\n\nStructure drawn: a pentane chain with a methyl group and a Br both attached at C3 (i.e., $\\ce{CH3CH2C(CH3)(Br)CH2CH3}$).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States free-radical conditions (light/photolysis, heat, or radical initiator such as benzoyl peroxide/peroxide)"
+          },
+          {
+            "points": 1,
+            "criterion": "Gives 3-bromo-3-methylpentane (Br on the tertiary carbon C3) as the product structure"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Cyclohexene forms different products when reacted with $\\ce{Br2}$ in water than when reacted in carbon tetrachloride. Give structural formulas for the products formed in the two solvents, including stereochemistry if relevant. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "In water, the bromohydrin is formed, while the dibromide is formed in $\\ce{CCl4}$. In both cases, the compounds have a *trans* stereochemistry (both as racemic mixtures, only one enantiomer of each compound is shown).\n\nStructures drawn: *trans*-2-bromocyclohexan-1-ol (Br wedge, OH dash on adjacent carbons) and *trans*-1,2-dibromocyclohexane (Br wedge, Br dash on adjacent carbons).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "In water: 2-bromocyclohexanol (bromohydrin)"
+          },
+          {
+            "points": 1,
+            "criterion": "In $\\ce{CCl4}$: 1,2-dibromocyclohexane"
+          },
+          {
+            "points": 1,
+            "criterion": "Both products specified as trans (anti) addition, racemic"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Benzene reacts with bromine in the presence of a Lewis acid catalyst. Give an example of a suitable catalyst and the structural formula of the major organic product of the reaction. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The product is bromobenzene. Typical Lewis acids used are $\\ce{AlBr3}$ or $\\ce{FeBr3}$.\n\nStructure drawn: a benzene ring bearing a single Br substituent.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Names a suitable Lewis acid catalyst ($\\ce{AlBr3}$, $\\ce{FeBr3}$, or equivalent)"
+          },
+          {
+            "points": 1,
+            "criterion": "Gives bromobenzene as the major product"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Cyclopentanone reacts with excess bromine in the presence of base to give a tetrabromide. Give a structural formula for the product and explain why the reaction does not give good yields of a monobromide product even when only one equivalent of $\\ce{Br2}$ is used. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Structure drawn: 2,2,5,5-tetrabromocyclopentanone — a cyclopentanone ring with two Br atoms on each of the two carbons alpha to the C=O.\n\nThe reaction proceeds by rate-limiting deprotonation of the ketone at the alpha position to form an enolate, which subsequently reacts with $\\ce{Br2}$ to form the bromoketone. Because the monobromoketone is more acidic than cyclopentanone itself, the initial product is more reactive than the starting material, leading to extensive polybromination. The tetrabromide can be formed selectively because it no longer has any acidic alpha hydrogens adjacent to the ketone.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product drawn/named as 2,2,5,5-tetrabromocyclopentanone"
+          },
+          {
+            "points": 1,
+            "criterion": "States rate-limiting step is enolate formation (deprotonation at the alpha carbon)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains the monobromoketone is more acidic/more reactive than the starting ketone, so bromination continues (polybromination); tetrabromide stops because no acidic alpha H remain"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Acetophenone, $\\ce{C6H5COCH3}$, reacts with excess iodine in the presence of aqueous sodium hydroxide to give a yellow precipitate and a water-soluble organic species. Give structural formulas for these two products. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "This is the iodoform reaction. After iodination of the methyl group (similar to the bromination in part d), hydroxide can add to the electrophilic carbonyl and eject $\\ce{CI3-}$, a (relatively) stable carbanion. Protonation of this carbanion gives $\\ce{CHI3}$, which precipitates as a yellow solid. The other product is benzoic acid, which is immediately deprotonated by the excess hydroxide, giving the soluble carboxylate salt sodium benzoate.\n\nStructures drawn: iodoform, $\\ce{CHI3}$ (a carbon bearing H and three I), and benzoate ion, $\\ce{C6H5CO2-}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Yellow precipitate identified as iodoform, $\\ce{CHI3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Water-soluble product identified as benzoate ion (sodium benzoate), $\\ce{C6H5COO-}$"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2025 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

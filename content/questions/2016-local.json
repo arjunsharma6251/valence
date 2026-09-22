@@ -4,7 +4,7 @@
     "year": 2016,
     "level": "local",
     "number": 1,
-    "stem_md": "A 20.0 g sample of mercury(II) oxide (HgO, M = 216.6) is heated strongly, causing it to decompose to metallic Hg and O2 gas. What volume of O2 gas is produced (measured at STP)?",
+    "stem_md": "A 20.0 g sample of mercury(II) oxide ($\\ce{HgO}$, M = 216.6) is heated strongly, causing it to decompose to metallic $\\ce{Hg}$ and $\\ce{O2}$ gas. What volume of $\\ce{O2}$ gas is produced (measured at STP)?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -30,14 +30,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-02",
     "year": 2016,
     "level": "local",
     "number": 2,
-    "stem_md": "When 30.0 mL of 0.10 M AgNO3 is added to 30.0 mL of 0.10 M NaCl, aqueous NaNO3 and solid AgCl are formed. How much solid AgCl is produced?",
+    "stem_md": "When 30.0 mL of 0.10 M $\\ce{AgNO3}$ is added to 30.0 mL of 0.10 M $\\ce{NaCl}$, aqueous $\\ce{NaNO3}$ and solid $\\ce{AgCl}$ are formed. How much solid $\\ce{AgCl}$ is produced?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -63,14 +64,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 2. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-03",
     "year": 2016,
     "level": "local",
     "number": 3,
-    "stem_md": "How much Sr(OH)2 • 8 H2O (M = 265.76) is needed to prepare 250.0 mL of solution in which [OH–] = 0.100 M?",
+    "stem_md": "How much $\\ce{Sr(OH)2.8H2O}$ (M = 265.76) is needed to prepare 250.0 mL of solution in which $[\\ce{OH-}]$ = 0.100 M?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -96,14 +98,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-04",
     "year": 2016,
     "level": "local",
     "number": 4,
-    "stem_md": "A 10.00 g sample of a compound containing only carbon, hydrogen, and oxygen forms 23.98 g CO2 and 4.91 g H2O upon complete combustion. What is the empirical formula of the compound?",
+    "stem_md": "A 10.00 g sample of a compound containing only carbon, hydrogen, and oxygen forms 23.98 g $\\ce{CO2}$ and 4.91 g $\\ce{H2O}$ upon complete combustion. What is the empirical formula of the compound?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -112,24 +115,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "C2HO"
+        "text_md": "$\\ce{C2HO}$"
       },
       {
         "label": "B",
-        "text_md": "C3H3O"
+        "text_md": "$\\ce{C3H3O}$"
       },
       {
         "label": "C",
-        "text_md": "C6H3O2"
+        "text_md": "$\\ce{C6H3O2}$"
       },
       {
         "label": "D",
-        "text_md": "C6H6O"
+        "text_md": "$\\ce{C6H6O}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-05",
@@ -145,31 +149,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2SO4"
+        "text_md": "$\\ce{H2SO4}$"
       },
       {
         "label": "B",
-        "text_md": "NaC2H3O2"
+        "text_md": "$\\ce{NaC2H3O2}$"
       },
       {
         "label": "C",
-        "text_md": "K2CO3"
+        "text_md": "$\\ce{K2CO3}$"
       },
       {
         "label": "D",
-        "text_md": "CH2O"
+        "text_md": "$\\ce{CH2O}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 5. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-06",
     "year": 2016,
     "level": "local",
     "number": 6,
-    "stem_md": "An aqueous solution of potassium sulfate (K2SO4) has a freezing point of –2.24 ºC. What is its molality? (Kf = 1.86 ºC•m–1)",
+    "stem_md": "An aqueous solution of potassium sulfate ($\\ce{K2SO4}$) has a freezing point of –2.24 °C. What is its molality? ($K_f$ = 1.86 °C·m$^{-1}$)",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -195,7 +200,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 6. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-07",
@@ -211,31 +217,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "KHSO4"
+        "text_md": "$\\ce{KHSO4}$"
       },
       {
         "label": "B",
-        "text_md": "NaOH"
+        "text_md": "$\\ce{NaOH}$"
       },
       {
         "label": "C",
-        "text_md": "AlCl3"
+        "text_md": "$\\ce{AlCl3}$"
       },
       {
         "label": "D",
-        "text_md": "NH4NO3"
+        "text_md": "$\\ce{NH4NO3}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 7. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-08",
     "year": 2016,
     "level": "local",
     "number": 8,
-    "stem_md": "What is observed when equal volumes of 0.1 M aqueous HCl and 0.01 M aqueous Na2SO3 are mixed?",
+    "stem_md": "What is observed when equal volumes of 0.1 M aqueous $\\ce{HCl}$ and 0.01 M aqueous $\\ce{Na2SO3}$ are mixed?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -261,7 +268,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 8. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-09",
@@ -277,24 +285,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "AgNO3 + HCl"
+        "text_md": "$\\ce{AgNO3 + HCl}$"
       },
       {
         "label": "B",
-        "text_md": "NaOH + HClO4"
+        "text_md": "$\\ce{NaOH + HClO4}$"
       },
       {
         "label": "C",
-        "text_md": "BaBr2 + Na2SO4"
+        "text_md": "$\\ce{BaBr2 + Na2SO4}$"
       },
       {
         "label": "D",
-        "text_md": "ZnI2 + KOH"
+        "text_md": "$\\ce{ZnI2 + KOH}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-10",
@@ -327,7 +336,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-11",
@@ -343,31 +353,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Co2+"
+        "text_md": "$\\ce{Co^2+}$"
       },
       {
         "label": "B",
-        "text_md": "Ni2+"
+        "text_md": "$\\ce{Ni^2+}$"
       },
       {
         "label": "C",
-        "text_md": "Cu2+"
+        "text_md": "$\\ce{Cu^2+}$"
       },
       {
         "label": "D",
-        "text_md": "Zn2+"
+        "text_md": "$\\ce{Zn^2+}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 11. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-13",
     "year": 2016,
     "level": "local",
     "number": 13,
-    "stem_md": "A sample of O2 gas at a given temperature and pressure has a density of 1.30 g L–1. What is the density of gaseous propane (C3H8) under the same conditions?",
+    "stem_md": "A sample of $\\ce{O2}$ gas at a given temperature and pressure has a density of 1.30 g L$^{-1}$. What is the density of gaseous propane ($\\ce{C3H8}$) under the same conditions?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -376,31 +387,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1.30 g L–1"
+        "text_md": "1.30 g L$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "1.79 g L–1"
+        "text_md": "1.79 g L$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "1.96 g L–1"
+        "text_md": "1.96 g L$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "2.60 g L–1"
+        "text_md": "2.60 g L$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-14",
     "year": 2016,
     "level": "local",
     "number": 14,
-    "stem_md": "Which statements about the behavior of gaseous H2 molecules in a container at 1 atm and 298 K are correct? I. All H2 molecules are moving at the same speed. II. The H2 molecules are colliding more frequently with the walls of the container than they would in the same container at 398 K.",
+    "stem_md": "Which statements about the behavior of gaseous $\\ce{H2}$ molecules in a container at 1 atm and 298 K are correct?\n\nI. All $\\ce{H2}$ molecules are moving at the same speed.\n\nII. The $\\ce{H2}$ molecules are colliding more frequently with the walls of the container than they would in the same container at 398 K.",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -426,14 +438,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-15",
     "year": 2016,
     "level": "local",
     "number": 15,
-    "stem_md": "Which species has a normal boiling point closest to the normal boiling point of argon, Ar?",
+    "stem_md": "Which species has a normal boiling point closest to the normal boiling point of argon, $\\ce{Ar}$?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -442,32 +455,33 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2"
+        "text_md": "$\\ce{H2}$"
       },
       {
         "label": "B",
-        "text_md": "N2"
+        "text_md": "$\\ce{N2}$"
       },
       {
         "label": "C",
-        "text_md": "F2"
+        "text_md": "$\\ce{F2}$"
       },
       {
         "label": "D",
-        "text_md": "Cl2"
+        "text_md": "$\\ce{Cl2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-16",
     "year": 2016,
     "level": "local",
     "number": 16,
-    "stem_md": "A sample of methanol, CH3OH, is introduced into an evacuated chamber with a movable piston. The pressure is measured as a function of the volume of the container while the temperature is maintained at 50 ºC, and the graph below is obtained. 200 250 300 350 400 20 40 60 80 × 10^0 120 P, mm Hg V, mL Which statements are correct? I. At volumes less than 60 mL, only liquid methanol is present. II. At volumes greater than 60 mL, only gaseous methanol is present.",
-    "figure_url": null,
+    "stem_md": "A sample of methanol, $\\ce{CH3OH}$, is introduced into an evacuated chamber with a movable piston. The pressure is measured as a function of the volume of the container while the temperature is maintained at 50 ºC, and the graph below is obtained. 200 250 300 350 400 20 40 60 80 $\\times 10^{0}$ 120 P, mm Hg V, mL Which statements are correct?\n\nI. At volumes less than 60 mL, only liquid methanol is present.\n\nII. At volumes greater than 60 mL, only gaseous methanol is present.",
+    "figure_url": "/figures/2016-L-16.png",
     "topic_id": "states-of-matter",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -492,14 +506,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-17",
     "year": 2016,
     "level": "local",
     "number": 17,
-    "stem_md": "How many nearest neighbors does each silicon atom have in solid Si?",
+    "stem_md": "How many nearest neighbors does each silicon atom have in solid $\\ce{Si}$?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -525,7 +540,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-18",
@@ -541,31 +557,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1.0 L of Ar at STP"
+        "text_md": "1.0 L of $\\ce{Ar}$ at STP"
       },
       {
         "label": "B",
-        "text_md": "1.0 L of H2 at STP"
+        "text_md": "1.0 L of $\\ce{H2}$ at STP"
       },
       {
         "label": "C",
-        "text_md": "1.0 L of Ar at 25 ºC and 760 mm Hg"
+        "text_md": "1.0 L of $\\ce{Ar}$ at 25 ºC and 760 mm Hg"
       },
       {
         "label": "D",
-        "text_md": "1.0 L of H2 at 0 ºC and 900 mm Hg"
+        "text_md": "1.0 L of $\\ce{H2}$ at 0 ºC and 900 mm Hg"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-19",
     "year": 2016,
     "level": "local",
     "number": 19,
-    "stem_md": "The standard enthalpy of formation, ∆Hºf, for HCOOH(l) is equal to the standard enthalpy change for which reaction?",
+    "stem_md": "The standard enthalpy of formation, $\\Delta H^\\circ_f$, for $\\ce{HCOOH(l)}$ is equal to the standard enthalpy change for which reaction?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -574,31 +591,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "C(g) + 2 H(g) + 2 O(g) → HCOOH(l)"
+        "text_md": "$\\ce{C(g) + 2 H(g) + 2 O(g) -> HCOOH(l)}$"
       },
       {
         "label": "B",
-        "text_md": "C(s) + H2(g) + O2(g) → HCOOH(l)"
+        "text_md": "$\\ce{C(s) + H2(g) + O2(g) -> HCOOH(l)}$"
       },
       {
         "label": "C",
-        "text_md": "C(g) + H2(g) + O2(g) → HCOOH(l)"
+        "text_md": "$\\ce{C(g) + H2(g) + O2(g) -> HCOOH(l)}$"
       },
       {
         "label": "D",
-        "text_md": "CO2(g) + H2(g) → HCOOH(l)"
+        "text_md": "$\\ce{CO2(g) + H2(g) -> HCOOH(l)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-20",
     "year": 2016,
     "level": "local",
     "number": 20,
-    "stem_md": "40.0 mL of 0.200 M aqueous NaOH is added to 200.0 mL of 0.100 M aqueous NaHCO3 in a flask maintained at 25 ºC. Neglecting the effects of dilution, what is q for this reaction? ∆Hºf, kJ mol–1 OH–(aq) –230 HCO3 –(aq) –692 CO3 2–(aq) –677 H2O(l) –286",
+    "stem_md": "40.0 mL of 0.200 M aqueous $\\ce{NaOH}$ is added to 200.0 mL of 0.100 M aqueous $\\ce{NaHCO3}$ in a flask maintained at 25 ºC. Neglecting the effects of dilution, what is q for this reaction?\n\n$\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$\n\n$\\ce{OH-(aq)}$ –230\n\n$\\ce{HCO3-(aq)}$ –692\n\n$\\ce{CO3^2-(aq)}$ –677\n\n$\\ce{H2O(l)}$ –286",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -624,7 +642,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-21",
@@ -657,14 +676,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-22",
     "year": 2016,
     "level": "local",
     "number": 22,
-    "stem_md": "Which is the best explanation for the negative sign of ∆Sº in the following reaction? CaSO4(s) → Ca2+(aq) + SO4 2–(aq) ∆Sº = –143 J mol–1 K–1",
+    "stem_md": "Which is the best explanation for the negative sign of $\\Delta S^\\circ$ in the following reaction?\n\n$\\ce{CaSO4(s) -> Ca^2+(aq) + SO4^2-(aq)}$ $\\Delta S^\\circ = -143$ J mol$^{-1}$ K$^{-1}$",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -673,15 +693,15 @@
     "options": [
       {
         "label": "A",
-        "text_md": "There are more ways of arranging the Ca2+ and SO4 2– ions in aqueous solution than in the crystal lattice."
+        "text_md": "There are more ways of arranging the $\\ce{Ca^2+}$ and $\\ce{SO4^2-}$ ions in aqueous solution than in the crystal lattice."
       },
       {
         "label": "B",
-        "text_md": "Solid CaSO4 is a network covalent solid, whereas it separates into ions in aqueous solution."
+        "text_md": "Solid $\\ce{CaSO4}$ is a network covalent solid, whereas it separates into ions in aqueous solution."
       },
       {
         "label": "C",
-        "text_md": "Aqueous Ca2+ and SO4 2– ions are tightly solvated, decreasing the number of ways of arranging water molecules when the solid dissolves."
+        "text_md": "Aqueous $\\ce{Ca^2+}$ and $\\ce{SO4^2-}$ ions are tightly solvated, decreasing the number of ways of arranging water molecules when the solid dissolves."
       },
       {
         "label": "D",
@@ -690,14 +710,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-23",
     "year": 2016,
     "level": "local",
     "number": 23,
-    "stem_md": "The Ksp of Al(OH)3 is 2.0 × 10–31 at 298 K. What is ∆Gº (at 298 K) for the precipitation of Al(OH)3 according to the equation below? Al3+(aq) + 3 OH–(aq) → Al(OH)3(s)",
+    "stem_md": "The $K_\\text{sp}$ of $\\ce{Al(OH)3}$ is $2.0 \\times 10^{-31}$ at 298 K. What is $\\Delta G^\\circ$ (at 298 K) for the precipitation of $\\ce{Al(OH)3}$ according to the equation below?\n\n$\\ce{Al^3+(aq) + 3 OH-(aq) -> Al(OH)3(s)}$",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -706,31 +727,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–175 kJ mol–1"
+        "text_md": "–175 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "14.7 kJ mol–1"
+        "text_md": "14.7 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "70.6 kJ mol–1"
+        "text_md": "70.6 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "175 kJ mol–1"
+        "text_md": "175 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-24",
     "year": 2016,
     "level": "local",
     "number": 24,
-    "stem_md": "The bond dissociation enthalpies of the H–H bond and the H–Cl bond are 435 kJ mol–1 and 431 kJ mol–1, respectively. The ∆Hºf of HCl(g) is –92 kJ mol–1. What is the bond dissociation enthalpy of the Cl–Cl bond?",
+    "stem_md": "The bond dissociation enthalpies of the $\\ce{H-H}$ bond and the $\\ce{H-Cl}$ bond are 435 kJ mol$^{-1}$ and 431 kJ mol$^{-1}$, respectively. The $\\Delta H^\\circ_\\text{f}$ of $\\ce{HCl(g)}$ is –92 kJ mol$^{-1}$. What is the bond dissociation enthalpy of the $\\ce{Cl-Cl}$ bond?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -739,24 +761,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "88 kJ mol–1"
+        "text_md": "88 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "96 kJ mol–1"
+        "text_md": "96 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "188 kJ mol–1"
+        "text_md": "188 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "243 kJ mol–1"
+        "text_md": "243 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-25",
@@ -789,14 +812,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-26",
     "year": 2016,
     "level": "local",
     "number": 26,
-    "stem_md": "At 280 ºC, nitrogen dioxide decomposes to nitric oxide and oxygen: 2 NO2(g) → 2 NO(g) + O2(g) In one experiment, the concentration of NO2 decreased from 0.0100 M to 0.0050 M over the course of 100. s. What was the average rate of disappearance of NO2(g)?",
+    "stem_md": "At 280 ºC, nitrogen dioxide decomposes to nitric oxide and oxygen: $\\ce{2 NO2(g) -> 2 NO(g) + O2(g)}$ In one experiment, the concentration of $\\ce{NO2}$ decreased from 0.0100 M to 0.0050 M over the course of 100. s. What was the average rate of disappearance of $\\ce{NO2(g)}$?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -805,31 +829,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1.0 × 10–2 M s–1"
+        "text_md": "$1.0 \\times 10^{-2}$ M s$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "1.0 × 10–4 M s–1"
+        "text_md": "$1.0 \\times 10^{-4}$ M s$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "5.0 × 10–5 M s–1"
+        "text_md": "$5.0 \\times 10^{-5}$ M s$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "2.5 × 10–5 M s–1"
+        "text_md": "$2.5 \\times 10^{-5}$ M s$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-27",
     "year": 2016,
     "level": "local",
     "number": 27,
-    "stem_md": "What is the rate law for the following reaction? A + 2 B → C + D [A]0, M [B]0, M Initial rate, M s–1 0.050 0.100 0.085 0.050 0.200 0.170 0.100 0.300 0.510",
+    "stem_md": "What is the rate law for the following reaction? $\\ce{A + 2 B -> C + D}$ [A]0, M [B]0, M Initial rate, M s–1 0.050 0.100 0.085 0.050 0.200 0.170 0.100 0.300 0.510",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -838,31 +863,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Rate = k[A]"
+        "text_md": "Rate = $k[A]$"
       },
       {
         "label": "B",
-        "text_md": "Rate = k[B]"
+        "text_md": "Rate = $k[B]$"
       },
       {
         "label": "C",
-        "text_md": "Rate = k[A][B]"
+        "text_md": "Rate = $k[A][B]$"
       },
       {
         "label": "D",
-        "text_md": "Rate = k[A][B]2"
+        "text_md": "Rate = $k[A][B]^2$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-28",
     "year": 2016,
     "level": "local",
     "number": 28,
-    "stem_md": "What are the units of k if the rate law of a reaction is rate = k[X]0[Y]0?",
+    "stem_md": "What are the units of $k$ if the rate law of a reaction is rate = $k[X]_0[Y]_0$?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -871,31 +897,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "M s–1"
+        "text_md": "M s$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "s–1"
+        "text_md": "s$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "M–1 s–1"
+        "text_md": "M$^{-1}$ s$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "k is dimensionless"
+        "text_md": "$k$ is dimensionless"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-29",
     "year": 2016,
     "level": "local",
     "number": 29,
-    "stem_md": "Hydrogen peroxide, H2O2(aq), decomposes into water and oxygen. Adding a small amount of FeCl3(aq) increases the rate of gas evolution in this reaction. What is the best description of the role of FeCl3?",
+    "stem_md": "Hydrogen peroxide, $\\ce{H2O2(aq)}$, decomposes into water and oxygen. Adding a small amount of $\\ce{FeCl3(aq)}$ increases the rate of gas evolution in this reaction. What is the best description of the role of $\\ce{FeCl3}$?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -921,14 +948,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-30",
     "year": 2016,
     "level": "local",
     "number": 30,
-    "stem_md": "A substance decomposes in a first-order reaction with a rate constant of 6.70 × 10–4 s–1. If the initial concentration of the substance is 1.50 M, what is its concentration after 500. s?",
+    "stem_md": "A substance decomposes in a first-order reaction with a rate constant of $6.70 \\times 10^{-4}$ s$^{-1}$. If the initial concentration of the substance is 1.50 M, what is its concentration after 500. s?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -954,14 +982,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-31",
     "year": 2016,
     "level": "local",
     "number": 31,
-    "stem_md": "A 60.0 g sample of CaCO3 is heated to 950 K in a 1.00 L evacuated container, where it reacts according to the following equation: CaCO3(s) CaO(s) + CO2(g) After equilibrium is attained, the pressure of CO2(g) is 30.0 mm Hg. When the experiment is repeated using 120.0 g CaCO3, what is the equilibrium pressure P?",
+    "stem_md": "A 60.0 g sample of $\\ce{CaCO3}$ is heated to 950 K in a 1.00 L evacuated container, where it reacts according to the following equation: $\\ce{CaCO3(s) <=> CaO(s) + CO2(g)}$ After equilibrium is attained, the pressure of $\\ce{CO2(g)}$ is 30.0 mm Hg. When the experiment is repeated using 120.0 g $\\ce{CaCO3}$, what is the equilibrium pressure $P$?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -970,31 +999,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "15.0 mm Hg ≤ P < 30.0 mm Hg"
+        "text_md": "15.0 mm Hg ≤ $P$ < 30.0 mm Hg"
       },
       {
         "label": "B",
-        "text_md": "P = 30.0 mm Hg"
+        "text_md": "$P$ = 30.0 mm Hg"
       },
       {
         "label": "C",
-        "text_md": "30.0 mm Hg < P < 60.0 mm Hg"
+        "text_md": "30.0 mm Hg < $P$ < 60.0 mm Hg"
       },
       {
         "label": "D",
-        "text_md": "P = 60.0 mm Hg"
+        "text_md": "$P$ = 60.0 mm Hg"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-32",
     "year": 2016,
     "level": "local",
     "number": 32,
-    "stem_md": "Nitrous acid, HNO2, has Ka = 4.5 × 10–4. What is the best description of the species present in a 0.1 M solution of nitrous acid?",
+    "stem_md": "Nitrous acid, $\\ce{HNO2}$, has $K_\\text{a} = 4.5 \\times 10^{-4}$. What is the best description of the species present in a 0.1 M solution of nitrous acid?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1003,31 +1033,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "HNO2(aq) is the predominant species; much smaller amounts of H+(aq) and NO2 –(aq) exist."
+        "text_md": "$\\ce{HNO2(aq)}$ is the predominant species; much smaller amounts of $\\ce{H+(aq)}$ and $\\ce{NO2-(aq)}$ exist."
       },
       {
         "label": "B",
-        "text_md": "H+(aq) and NO2 –(aq) are the predominant species; much smaller amounts of HNO2(aq) exist."
+        "text_md": "$\\ce{H+(aq)}$ and $\\ce{NO2-(aq)}$ are the predominant species; much smaller amounts of $\\ce{HNO2(aq)}$ exist."
       },
       {
         "label": "C",
-        "text_md": "Only H+(aq) and NO2 –(aq) are present in measurable amounts."
+        "text_md": "Only $\\ce{H+(aq)}$ and $\\ce{NO2-(aq)}$ are present in measurable amounts."
       },
       {
         "label": "D",
-        "text_md": "HNO2(aq), H+(aq), and NO2 –(aq) are all present in comparable amounts."
+        "text_md": "$\\ce{HNO2(aq)}$, $\\ce{H+(aq)}$, and $\\ce{NO2-(aq)}$ are all present in comparable amounts."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-33",
     "year": 2016,
     "level": "local",
     "number": 33,
-    "stem_md": "Silver sulfate, Ag2SO4 (M = 311.87), has Ksp = 6.0 × 10–5. What mass of Ag2SO4 will dissolve per liter of water?",
+    "stem_md": "Silver sulfate, $\\ce{Ag2SO4}$ (M = 311.87), has $K_\\text{sp} = 6.0 \\times 10^{-5}$. What mass of $\\ce{Ag2SO4}$ will dissolve per liter of water?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1053,14 +1084,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-34",
     "year": 2016,
     "level": "local",
     "number": 34,
-    "stem_md": "IBr(g) is in equilibrium with I2(g) and Br2(g) at 150 ºC: 2 IBr(g) I2(g) + Br2(g) K = 8.50 × 10–3 Initially, a closed vessel at 150 ºC has a partial pressure of IBr of 0.350 atm and partial pressures of I2 and Br2 each of 0.750 atm. What is the partial pressure of IBr once the system reaches equilibrium?",
+    "stem_md": "$\\ce{IBr(g)}$ is in equilibrium with $\\ce{I2(g)}$ and $\\ce{Br2(g)}$ at 150 ºC: $\\ce{2 IBr(g) <=> I2(g) + Br2(g)}$ $K = 8.50 \\times 10^{-3}$ Initially, a closed vessel at 150 ºC has a partial pressure of $\\ce{IBr}$ of 0.350 atm and partial pressures of $\\ce{I2}$ and $\\ce{Br2}$ each of 0.750 atm. What is the partial pressure of $\\ce{IBr}$ once the system reaches equilibrium?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1086,14 +1118,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-35",
     "year": 2016,
     "level": "local",
     "number": 35,
-    "stem_md": "20 mL of an approximately 10% aqueous solution of ethylamine, CH3CH2NH2, is titrated with 0.3000 M aqueous HCl. Which indicator would be most suitable for this titration? The pKa of CH3CH2NH3 + is 10.75.",
+    "stem_md": "20 mL of an approximately 10% aqueous solution of ethylamine, $\\ce{CH3CH2NH2}$, is titrated with 0.3000 M aqueous $\\ce{HCl}$. Which indicator would be most suitable for this titration? The p$K_\\text{a}$ of $\\ce{CH3CH2NH3+}$ is 10.75.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1119,14 +1152,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-36",
     "year": 2016,
     "level": "local",
     "number": 36,
-    "stem_md": "The tetramminecopper(II) ion, Cu(NH3)4 2+, has a formation constant Kf = 1.1 × 1013. What is the minimum concentration of free ammonia in solution required to ensure that at least 99.9% of the dissolved copper(II) ion is found in the form of its ammonia complex?",
+    "stem_md": "The tetramminecopper(II) ion, $\\ce{Cu(NH3)4^2+}$, has a formation constant $K_\\text{f} = 1.1 \\times 10^{13}$. What is the minimum concentration of free ammonia in solution required to ensure that at least 99.9% of the dissolved copper(II) ion is found in the form of its ammonia complex?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1135,31 +1169,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "9 × 10–14 M"
+        "text_md": "$9 \\times 10^{-14}$ M"
       },
       {
         "label": "B",
-        "text_md": "9 × 10–11 M"
+        "text_md": "$9 \\times 10^{-11}$ M"
       },
       {
         "label": "C",
-        "text_md": "8 × 10–4 M"
+        "text_md": "$8 \\times 10^{-4}$ M"
       },
       {
         "label": "D",
-        "text_md": "3 × 10–3 M"
+        "text_md": "$3 \\times 10^{-3}$ M"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 36. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-37",
     "year": 2016,
     "level": "local",
     "number": 37,
-    "stem_md": "When the equation ClO2(aq) + OH–(aq) → ClO2 –(aq) + ClO3 –(aq) + H2O(l) is balanced, what is the ratio of the coefficient of ClO2 to that of ClO3 –?",
+    "stem_md": "When the equation $\\ce{ClO2(aq) + OH-(aq) -> ClO2-(aq) + ClO3-(aq) + H2O(l)}$ is balanced, what is the ratio of the coefficient of $\\ce{ClO2}$ to that of $\\ce{ClO3-}$?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1185,14 +1220,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-38",
     "year": 2016,
     "level": "local",
     "number": 38,
-    "stem_md": "When an aqueous solution of KI is electrolyzed, what forms at the anode?",
+    "stem_md": "When an aqueous solution of $\\ce{KI}$ is electrolyzed, what forms at the anode?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1201,31 +1237,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "O2"
+        "text_md": "$\\ce{O2}$"
       },
       {
         "label": "B",
-        "text_md": "I2"
+        "text_md": "$\\ce{I2}$"
       },
       {
         "label": "C",
-        "text_md": "K"
+        "text_md": "$\\ce{K}$"
       },
       {
         "label": "D",
-        "text_md": "H2O"
+        "text_md": "$\\ce{H2O}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-39",
     "year": 2016,
     "level": "local",
     "number": 39,
-    "stem_md": "A current of 0.15 A is passed through an aqueous solution of K2PtCl4. How long will it take to deposit 1.00 g Pt(s) (M = 195.1)?",
+    "stem_md": "A current of 0.15 A is passed through an aqueous solution of $\\ce{K2PtCl4}$. How long will it take to deposit 1.00 g $\\ce{Pt(s)}$ (M = 195.1)?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1251,14 +1288,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-40",
     "year": 2016,
     "level": "local",
     "number": 40,
-    "stem_md": "In the galvanic cell Al(s) ǀ Al3+(aq, 1 M) ǀǀ Cu2+(aq, 1 M) ǀ Cu(s) which of the following changes will increase the cell potential? I. Dilution of the Al3+ solution to 0.001 M II. Dilution of the Cu2+ solution to 0.001 M III. Increasing the surface area of the Al(s) electrode",
+    "stem_md": "In the galvanic cell $\\ce{Al(s) | Al^3+(aq, 1 M) || Cu^2+(aq, 1 M) | Cu(s)}$ which of the following changes will increase the cell potential?\n\nI. Dilution of the $\\ce{Al^3+}$ solution to 0.001 M\n\nII. Dilution of the $\\ce{Cu^2+}$ solution to 0.001 M\n\nIII. Increasing the surface area of the $\\ce{Al(s)}$ electrode",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1284,14 +1322,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-41",
     "year": 2016,
     "level": "local",
     "number": 41,
-    "stem_md": "What is the equilibrium constant for the following reaction at 25 °C? 2 Ag+(aq) + Cu(s) → Cu2+(aq) + 2 Ag(s) Half-Reaction Eº, V Ag+(aq) + e– → Ag(s) +0.80 Cu2+(aq) + 2e– → Cu(s) +0.34",
+    "stem_md": "What is the equilibrium constant for the following reaction at 25 °C?\n\n$\\ce{2 Ag+(aq) + Cu(s) -> Cu^2+(aq) + 2 Ag(s)}$\n\nHalf-Reaction $E^\\circ$, V\n\n$\\ce{Ag+(aq) + e- -> Ag(s)}$ +0.80\n\n$\\ce{Cu^2+(aq) + 2e- -> Cu(s)}$ +0.34",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1300,31 +1339,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "6.0 × 107"
+        "text_md": "$6.0 \\times 10^{7}$"
       },
       {
         "label": "B",
-        "text_md": "3.6 × 1015"
+        "text_md": "$3.6 \\times 10^{15}$"
       },
       {
         "label": "C",
-        "text_md": "3.6 × 1038"
+        "text_md": "$3.6 \\times 10^{38}$"
       },
       {
         "label": "D",
-        "text_md": "4.2 × 1042"
+        "text_md": "$4.2 \\times 10^{42}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-42",
     "year": 2016,
     "level": "local",
     "number": 42,
-    "stem_md": "In the galvanic cell Sn(s) | Sn2+(aq) || Cu2+(aq) | Cu(s) the standard potential is 0.48 V. Starting with standard concentrations, what are the concentrations of Sn2+ and Cu2+ when the cell has discharged to a potential of 0.45 V?",
+    "stem_md": "In the galvanic cell $\\ce{Sn(s) | Sn^2+(aq) || Cu^2+(aq) | Cu(s)}$ the standard potential is 0.48 V. Starting with standard concentrations, what are the concentrations of $\\ce{Sn^2+}$ and $\\ce{Cu^2+}$ when the cell has discharged to a potential of 0.45 V?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1333,31 +1373,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "[Sn2+ ] = 0.47 M, [Cu2+] = 1.53 M"
+        "text_md": "$[\\ce{Sn^2+}]$ = 0.47 M, $[\\ce{Cu^2+}]$ = 1.53 M"
       },
       {
         "label": "B",
-        "text_md": "[Sn2+ ] = [Cu2+] = 1.00 M"
+        "text_md": "$[\\ce{Sn^2+}]$ = $[\\ce{Cu^2+}]$ = 1.00 M"
       },
       {
         "label": "C",
-        "text_md": "[Sn2+ ] = 1.53 M, [Cu2+] = 0.47 M"
+        "text_md": "$[\\ce{Sn^2+}]$ = 1.53 M, $[\\ce{Cu^2+}]$ = 0.47 M"
       },
       {
         "label": "D",
-        "text_md": "[Sn2+ ] = 1.82 M, [Cu2+] = 0.18 M"
+        "text_md": "$[\\ce{Sn^2+}]$ = 1.82 M, $[\\ce{Cu^2+}]$ = 0.18 M"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-43",
     "year": 2016,
     "level": "local",
     "number": 43,
-    "stem_md": "Which of the following statements is best supported by the data from Rutherford’s experiment of scattering alpha particles with a thin metal foil?",
+    "stem_md": "Which of the following statements is best supported by the data from Rutherford's experiment of scattering alpha particles with a thin metal foil?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1383,7 +1424,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-44",
@@ -1399,24 +1441,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Fr2O"
+        "text_md": "$\\ce{Fr2O}$"
       },
       {
         "label": "B",
-        "text_md": "FrO"
+        "text_md": "$\\ce{FrO}$"
       },
       {
         "label": "C",
-        "text_md": "Fr2O3"
+        "text_md": "$\\ce{Fr2O3}$"
       },
       {
         "label": "D",
-        "text_md": "FrO2 Page 7"
+        "text_md": "$\\ce{FrO2}$ Page 7"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-45",
@@ -1449,7 +1492,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-46",
@@ -1482,14 +1526,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-47",
     "year": 2016,
     "level": "local",
     "number": 47,
-    "stem_md": "Which set of quantum numbers n, l, ml, ms is invalid?",
+    "stem_md": "Which set of quantum numbers $n$, $l$, $m_l$, $m_s$ is invalid?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1515,7 +1560,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-48",
@@ -1531,24 +1577,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "232Th"
+        "text_md": "$\\ce{^{232}Th}$"
       },
       {
         "label": "B",
-        "text_md": "234Th"
+        "text_md": "$\\ce{^{234}Th}$"
       },
       {
         "label": "C",
-        "text_md": "237Np"
+        "text_md": "$\\ce{^{237}Np}$"
       },
       {
         "label": "D",
-        "text_md": "231Pa"
+        "text_md": "$\\ce{^{231}Pa}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-49",
@@ -1564,31 +1611,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CO2"
+        "text_md": "$\\ce{CO2}$"
       },
       {
         "label": "B",
-        "text_md": "HCN"
+        "text_md": "$\\ce{HCN}$"
       },
       {
         "label": "C",
-        "text_md": "NH3"
+        "text_md": "$\\ce{NH3}$"
       },
       {
         "label": "D",
-        "text_md": "P4"
+        "text_md": "$\\ce{P4}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-50",
     "year": 2016,
     "level": "local",
     "number": 50,
-    "stem_md": "The nitrite ion, NO2 –, can be represented as a resonance hybrid of two significant Lewis structures. Which statements about this are correct? I. The two resonance structures contribute equally to the structure. II. The formal charge of nitrogen is zero in both resonance structures.",
+    "stem_md": "The nitrite ion, $\\ce{NO2^-}$, can be represented as a resonance hybrid of two significant Lewis structures. Which statements about this are correct?\n\nI. The two resonance structures contribute equally to the structure.\n\nII. The formal charge of nitrogen is zero in both resonance structures.",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1614,7 +1662,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-51",
@@ -1630,31 +1679,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NF3"
+        "text_md": "$\\ce{NF3}$"
       },
       {
         "label": "B",
-        "text_md": "NF5"
+        "text_md": "$\\ce{NF5}$"
       },
       {
         "label": "C",
-        "text_md": "PF3"
+        "text_md": "$\\ce{PF3}$"
       },
       {
         "label": "D",
-        "text_md": "PF5"
+        "text_md": "$\\ce{PF5}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-52",
     "year": 2016,
     "level": "local",
     "number": 52,
-    "stem_md": "What is the molecular geometry of IF3?",
+    "stem_md": "What is the molecular geometry of $\\ce{IF3}$?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1680,14 +1730,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-53",
     "year": 2016,
     "level": "local",
     "number": 53,
-    "stem_md": "N2 is a stable molecule and the N4 molecule is unknown. P4 is much more stable than molecular P2. Which is the best explanation for this difference?",
+    "stem_md": "$\\ce{N2}$ is a stable molecule and the $\\ce{N4}$ molecule is unknown. $\\ce{P4}$ is much more stable than molecular $\\ce{P2}$. Which is the best explanation for this difference?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1696,7 +1747,7 @@
     "options": [
       {
         "label": "A",
-        "text_md": "N2 has valence electrons only in bonding and nonbonding orbitals, while P2 has some valence electrons in antibonding orbitals."
+        "text_md": "$\\ce{N2}$ has valence electrons only in bonding and nonbonding orbitals, while $\\ce{P2}$ has some valence electrons in antibonding orbitals."
       },
       {
         "label": "B",
@@ -1708,12 +1759,13 @@
       },
       {
         "label": "D",
-        "text_md": "The preference of P to adopt smaller bond angles than N favors formation of tetrahedral P4 molecules."
+        "text_md": "The preference of P to adopt smaller bond angles than N favors formation of tetrahedral $\\ce{P4}$ molecules."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-54",
@@ -1729,31 +1781,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Benzene, C6H6"
+        "text_md": "Benzene, $\\ce{C6H6}$"
       },
       {
         "label": "B",
-        "text_md": "Ethane, C2H6"
+        "text_md": "Ethane, $\\ce{C2H6}$"
       },
       {
         "label": "C",
-        "text_md": "Ethene, C2H4"
+        "text_md": "Ethene, $\\ce{C2H4}$"
       },
       {
         "label": "D",
-        "text_md": "Ethyne, C2H2"
+        "text_md": "Ethyne, $\\ce{C2H2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-55",
     "year": 2016,
     "level": "local",
     "number": 55,
-    "stem_md": "How many sigma bonds are in 2-butyne (CH3CCCH3)?",
+    "stem_md": "How many sigma bonds are in 2-butyne ($\\ce{CH3CCCH3}$)?",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1779,7 +1832,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 55. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-56",
@@ -1795,24 +1849,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CH3CH2CH2CH2OH"
+        "text_md": "$\\ce{CH3CH2CH2CH2OH}$"
       },
       {
         "label": "B",
-        "text_md": "CH3CH2CH(OH)CH3"
+        "text_md": "$\\ce{CH3CH2CH(OH)CH3}$"
       },
       {
         "label": "C",
-        "text_md": "(CH3)2CHCH2OH"
+        "text_md": "$\\ce{(CH3)2CHCH2OH}$"
       },
       {
         "label": "D",
-        "text_md": "(CH3)3COH"
+        "text_md": "$\\ce{(CH3)3COH}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 56. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-57",
@@ -1828,24 +1883,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CH3CH2OH"
+        "text_md": "$\\ce{CH3CH2OH}$"
       },
       {
         "label": "B",
-        "text_md": "CH3COOH"
+        "text_md": "$\\ce{CH3COOH}$"
       },
       {
         "label": "C",
-        "text_md": "CH3CHO"
+        "text_md": "$\\ce{CH3CHO}$"
       },
       {
         "label": "D",
-        "text_md": "Cl3CCHO"
+        "text_md": "$\\ce{Cl3CCHO}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 57. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-58",
@@ -1878,7 +1934,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-59",
@@ -1911,7 +1968,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 59. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2016-L-60",
@@ -1939,11 +1997,12 @@
       },
       {
         "label": "D",
-        "text_md": "Ionic bonds END OF TEST AMERICAN CHEMICAL SOCIETY U.S. National Chemistry Olympiad"
+        "text_md": "Ionic bonds"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2016 Local exam, question 60. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   }
 ]

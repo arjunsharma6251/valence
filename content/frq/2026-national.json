@@ -1,0 +1,852 @@
+[
+  {
+    "id": "2026-N-P1",
+    "year": 2026,
+    "level": "national",
+    "number": 1,
+    "title": "Unknown C,H,O Compound: Formula and Phase Properties",
+    "topic_id": "states-of-matter",
+    "intro_md": "An unknown compound **X** contains only carbon, hydrogen, and oxygen.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "When burned, 1.00 g of **X** produces 2.00 g of carbon dioxide and 0.818 g of water. What is the empirical formula of **X**?",
+        "key_md": "2.00 g $\\ce{CO2}$/(44.01 g mol$^{-1}$) = 0.0454 mol C = 0.545 g C\n\n0.818 g $\\ce{H2O}$/(18.02 g mol$^{-1}$) = 0.0454 mol $\\ce{H2O}$ = 0.0908 mol H = 0.0915 g H\n\n1.00 g **X** – 0.545 g C – 0.0915 g H = 0.364 g O = 0.0227 mol O\n\nMol ratio of C : H : O = 2 : 4 : 1, so empirical formula is $\\ce{C2H4O}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct moles of C (0.0454), H (0.0908) and O (0.0227) obtained, with O by mass difference"
+          },
+          {
+            "points": 1,
+            "criterion": "Empirical formula $\\ce{C2H4O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "A 1.68 g sample of **X** is introduced into a 2.00 L evacuated flask. The flask is slowly heated until the liquid evaporates completely, which occurs at 62.3 °C. At this temperature, the pressure in the flask is 200.0 mmHg. What is the molar mass of **X**, and what is its molecular formula?",
+        "key_md": "$PV = nRT$\n\n[(200.0 mmHg)/(760 mmHg/atm)]×(1.013 bar atm$^{-1}$) = 0.2666 bar\n\n(0.2666 bar)(2.00 L) = $n$(0.08314 L bar mol$^{-1}$ K$^{-1}$)(335.5 K)\n\n$n$ = 0.0191 mol\n\n$M$ = (1.68 g)/(0.0191 mol) = 87.9 g mol$^{-1}$\n\nSince the molar mass of $\\ce{C2H4O}$ = 44.1 g mol$^{-1}$, the molecular formula must be double the empirical formula, $\\ce{C4H8O2}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct use of $PV = nRT$ with consistent units and T = 335.5 K to give $n \\approx 0.0191$ mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Molar mass $\\approx 88$ g mol$^{-1}$ (87.9 ± 2) and molecular formula $\\ce{C4H8O2}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "The melting point of **X** is 11.8 °C and its normal boiling point is 101.1 °C. Calculate the standard enthalpy and entropy of vaporization of **X**.",
+        "key_md": "We have two temperatures at which we know the vapor pressure: 0.2666 bar at 335.5 K (from part b) and 1 atm (1.013 bar) at 374.3 K.\n\n$\\ln\\left(\\frac{p_2}{p_1}\\right) = -\\frac{\\Delta H^\\circ}{R}\\left(\\frac{1}{T_2} - \\frac{1}{T_1}\\right)$\n\n$\\ln\\left(\\frac{1.013\\ \\text{bar}}{0.2666\\ \\text{bar}}\\right) = -\\frac{\\Delta H^\\circ}{8.314\\ \\text{J mol}^{-1}\\text{K}^{-1}}\\left(\\frac{1}{374.3\\ \\text{K}} - \\frac{1}{335.5\\ \\text{K}}\\right)$\n\n$\\Delta H^\\circ_\\text{vap}$ = 35.92 kJ mol$^{-1}$\n\nAt 374.3 K, $K_\\text{eq}$ = 1.013, so\n\n$\\Delta G^\\circ_\\text{vap} = -RT\\ln(1.013) = -0.0402$ kJ mol$^{-1}$ = $\\Delta H^\\circ_\\text{vap} - T\\Delta S^\\circ_\\text{vap}$\n\n–0.0402 kJ mol$^{-1}$ = 35.92 kJ mol$^{-1}$ – (374.3 K)$\\Delta S^\\circ_\\text{vap}$\n\n$\\Delta S^\\circ_\\text{vap}$ = 96.1 J mol$^{-1}$ K$^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes the two (P, T) vapor-pressure points: 0.2666 bar at 335.5 K and 1.013 bar (1 atm) at 374.3 K"
+          },
+          {
+            "points": 1,
+            "criterion": "Clausius–Clapeyron gives $\\Delta H^\\circ_\\text{vap} \\approx 35.9$ kJ mol$^{-1}$ (±1)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ_\\text{vap} \\approx 96$ J mol$^{-1}$ K$^{-1}$ (±3), e.g. from $\\Delta G^\\circ_\\text{vap} \\approx 0$ at the normal boiling point"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "What types of intermolecular forces are likely present in liquid **X**? Justify your answer.",
+        "key_md": "There are of course London dispersion forces present, and these are probably the only forces that are significant, given that the enthalpy of vaporization is modest and the entropy is about what one would expect from Trouton's rule. Hydrogen bonding in particular is unlikely because the boiling point is lower than one would expect for a molecule of this size with hydrogen bonding present. Thus, for example, *n*-propanol, $\\ce{C3H7OH}$, has a very similar normal boiling point of 97 °C despite having one fewer carbon and one fewer oxygen atom than this compound.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies London dispersion forces (with dipole–dipole permitted) as the significant forces and rules out hydrogen bonding"
+          },
+          {
+            "points": 1,
+            "criterion": "Justification based on the modest $\\Delta H_\\text{vap}$/$\\Delta S_\\text{vap}$ near Trouton's rule or on the low boiling point for a molecule of this size"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "The unit cell of crystalline **X** at its melting point has a volume of 241.5 Å$^3$ and the density of the solid is 1.211 g cm$^{-3}$. How many molecules of **X** are present in the unit cell?",
+        "key_md": "$\\frac{1.211\\ \\text{g}}{1\\ \\text{cm}^3} \\times \\frac{10^{-24}\\ \\text{cm}^3}{1\\ \\text{Å}^3} \\times \\frac{241.5\\ \\text{Å}^3}{1\\ \\text{unit cell}} \\times \\frac{1\\ \\text{mol}}{88.1\\ \\text{g}} \\times \\frac{6.022\\times10^{23}\\ \\text{molecules}}{1\\ \\text{mol}}$ = 2 molecules/unit cell",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct unit conversion chain using $1\\ \\text{Å}^3 = 10^{-24}\\ \\text{cm}^3$, the density, molar mass ~88 g mol$^{-1}$ and $N_A$"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer: 2 molecules per unit cell"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "The density of liquid **X** at its melting point is 1.034 g cm$^{–3}$. Will the melting point increase, decrease, or stay the same as the pressure is increased?",
+        "key_md": "Higher pressures favor the denser phase, which for **X** is the solid. Therefore the melting point will increase with increasing pressure.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the melting point increases, justified by pressure favoring the denser (solid) phase"
+          }
+        ],
+        "max_points": 1
+      }
+    ],
+    "source": "USNCO 2026 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2026-N-P2",
+    "year": 2026,
+    "level": "national",
+    "number": 2,
+    "title": "Nickel(II) complex ions and solubility equilibria",
+    "topic_id": "equilibrium",
+    "intro_md": "The nickel(II) ion forms a variety of colored complex ions, including green $\\ce{Ni(H2O)6^2+}$, violet $\\ce{Ni(NH3)6^2+}$ ($K_\\text{f} = 2.0 \\times 10^{8}$), and yellow $\\ce{Ni(CN)4^2-}$ ($K_\\text{f} = 2.0 \\times 10^{31}$).",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Explain the trend in colors among the three complex ions.",
+        "key_md": "The complexes absorb the complementary colors of those shown, so green $\\ce{Ni(H2O)6^2+}$ absorbs red light, violet $\\ce{Ni(NH3)6^2+}$ absorbs yellow light, and yellow $\\ce{Ni(CN)4^2-}$ absorbs violet light. Thus the complexes are listed in increasing energy of the absorbed light. These $d^8$ complexes absorb light when an electron is promoted from a nonbonding $d$ orbital to an antibonding $d$ orbital. The strength of the bonding increases in the order of $\\ce{H2O} < \\ce{NH3} < \\ce{CN-}$ (increasing Lewis basicity, increasing ligand field strength), corresponding to a greater difference in energy between nonbonding and antibonding orbitals.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the observed color is the complement of the absorbed color, so the absorbed light energy increases in the order $\\ce{H2O} < \\ce{NH3} < \\ce{CN-}$ (red → yellow → violet absorbed)"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes the increasing splitting (nonbonding $d$ → antibonding $d$ gap) to increasing ligand field strength/Lewis basicity of the ligands"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "How many unpaired electrons does each of the three complex ions have?",
+        "key_md": "Octahedral $d^8$ complexes such as $\\ce{Ni(H2O)6^2+}$ or $\\ce{Ni(NH3)6^2+}$ have two unpaired electrons. Square planar $d^8$ complexes such as $\\ce{Ni(CN)4^2-}$ have no unpaired electrons.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Two unpaired electrons for both octahedral complexes $\\ce{Ni(H2O)6^2+}$ and $\\ce{Ni(NH3)6^2+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Zero unpaired electrons for square planar $\\ce{Ni(CN)4^2-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "To 1.00 L of a 0.01 M solution of $\\ce{Ni(NO3)2}$ is slowly added ammonia. Initially, a green precipitate of $\\ce{Ni(OH)2}$ ($K_\\text{sp} = 2.0 \\times 10^{-15}$) is formed. What is the pH of the solution at the point where the precipitate just begins to form?",
+        "key_md": "At the point of precipitation, $[\\ce{Ni^2+}] = 0.010$ M and\n\n$[\\ce{Ni^2+}][\\ce{OH-}]^2 = [0.010][\\ce{OH-}]^2 = 2.0 \\times 10^{-15}$\n\n$[\\ce{OH-}] = 4.47 \\times 10^{-7}$\n\n$\\text{pH} = 14 + \\log_{10}[\\ce{OH-}] = 7.65$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets $[\\ce{Ni^2+}] = 0.010$ M in $K_\\text{sp}$ and obtains $[\\ce{OH-}] = 4.5 \\times 10^{-7}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Reports pH = 7.65 (±0.05)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "By the time 0.600 mol of $\\ce{NH3}$ have been added to the solution in c., the solution has become homogeneous and violet in color. Calculate the concentration of $\\ce{Ni^2+}(aq)$ in this solution.",
+        "key_md": "Almost all the nickel will be complexed in this solution, so $[\\ce{NH3}] = 0.600 - 6(0.010) = 0.54$ M. (The solution is highly basic, so the amount of ammonia in the form of $\\ce{NH4+}$ is negligible.) From the formation equilibrium,\n\n$\\dfrac{[\\ce{Ni(NH3)6^2+}]}{[\\ce{Ni^2+}][\\ce{NH3}]^6} = \\dfrac{[0.010]}{[\\ce{Ni^2+}][0.54]^6} = 2.0 \\times 10^{8}$\n\n$[\\ce{Ni^2+}] = 2.0 \\times 10^{-9}$ M",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Free ammonia concentration $[\\ce{NH3}] = 0.600 - 6(0.010) = 0.54$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{f}$ with $[\\ce{Ni(NH3)6^2+}] = 0.010$ M to get $[\\ce{Ni^2+}] = 2.0 \\times 10^{-9}$ M (within a factor of 2)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Nickel sulfide is quite insoluble ($K_\\text{sp} = 4.0 \\times 10^{-20}$). 0.010 mol of NiS is suspended in 1.00 L of a solution buffered at pH = 10.00. Ammonia is then bubbled through this solution until the nickel sulfide just dissolves. Show that no solid $\\ce{Ni(OH)2}$ will be present at this point. For $\\ce{H2S}$, $pK_\\text{a1} = 7.05$ and $pK_\\text{a2} = 19.0$.",
+        "key_md": "Since the nickel sulfide has just dissolved, all the sulfur is in solution either as $\\ce{H2S}$, $\\ce{HS-}$, or $\\ce{S^2-}$. At pH = 10, almost all the sulfur will be in the form of $\\ce{HS-}$, so $[\\ce{HS-}] = 0.0100$ M. One can calculate $[\\ce{S^2-}]$ using the Henderson-Hasselbalch equation:\n\n$\\text{pH} = pK_\\text{a} + \\log_{10}([\\ce{S^2-}]/[\\ce{HS-}])$\n\n$10.00 = 19.0 + \\log_{10}([\\ce{S^2-}]/[0.0100])$\n\n$[\\ce{S^2-}] = 1.0 \\times 10^{-11}$ M\n\nFrom the $K_\\text{sp}$ of NiS, which is valid because the NiS has just barely dissolved:\n\n$[\\ce{Ni^2+}][\\ce{S^2-}] = 4.0 \\times 10^{-20}$\n\n$[\\ce{Ni^2+}][1.0 \\times 10^{-11}] = 4.0 \\times 10^{-20}$\n\n$[\\ce{Ni^2+}] = 4 \\times 10^{-9}$ M\n\nAt pH = 10.00, $[\\ce{OH-}] = 1.0 \\times 10^{-4}$ M. One can calculate $Q_\\text{sp}$ for $\\ce{Ni(OH)2}$:\n\n$Q_\\text{sp}$ for $\\ce{Ni(OH)2} = [\\ce{Ni^2+}][\\ce{OH-}]^2 = [4 \\times 10^{-9}][1.0 \\times 10^{-4}]^2 = 4.0 \\times 10^{-17}$\n\nSince $Q_\\text{sp} < K_\\text{sp}$ ($= 2.0 \\times 10^{-15}$), no $\\ce{Ni(OH)2}$ will precipitate under these conditions.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes sulfide is essentially all $\\ce{HS-}$ at pH 10 and uses $pK_\\text{a2}$ to get $[\\ce{S^2-}] = 1.0 \\times 10^{-11}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{sp}$(NiS) to get $[\\ce{Ni^2+}] = 4 \\times 10^{-9}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes $Q_\\text{sp} = [\\ce{Ni^2+}][\\ce{OH-}]^2 = 4 \\times 10^{-17}$ with $[\\ce{OH-}] = 1.0 \\times 10^{-4}$ M and concludes $Q_\\text{sp} < K_\\text{sp} = 2.0 \\times 10^{-15}$, so no precipitate"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "f",
+        "stem_md": "Calculate the number of moles of $\\ce{NH3}$ added to the solution in part e. (The $pK_\\text{a}$ of $\\ce{NH4+}$ is 9.25.)",
+        "key_md": "From part e., $[\\ce{Ni^2+}] = 4 \\times 10^{-9}$ M. Since there is no solid, this means that almost all the nickel must be present in the form of $\\ce{Ni(NH3)6^2+}$, so $[\\ce{Ni(NH3)6^2+}] = 0.010$ M. From the complexation equilibrium:\n\n$\\dfrac{[\\ce{Ni(NH3)6^2+}]}{[\\ce{Ni^2+}][\\ce{NH3}]^6} = \\dfrac{[0.010]}{[4 \\times 10^{-9}][\\ce{NH3}]^6} = 2.0 \\times 10^{8}$\n\n$[\\ce{NH3}] = 0.48$ M\n\nThis is the amount of *free* ammonia present, but to determine the number of moles of ammonia *added*, one needs to account for the other forms of ammonia present. This includes $\\ce{NH3}$ bound to $\\ce{Ni^2+}$, which amounts to $6 \\times (0.010\\ \\text{mol}) = 0.060$ mol. It also includes $\\ce{NH4+}$, which is related to $[\\ce{NH3}]$ via the acid-base equilibrium:\n\n$\\text{pH} = pK_\\text{a} + \\log_{10}([\\ce{NH3}]/[\\ce{NH4+}])$\n\n$10.00 = 9.25 + \\log_{10}([0.48]/[\\ce{NH4+}])$\n\n$[\\ce{NH4+}] = 0.085$ M\n\nSince the volume of solution is 1.00 L, the number of moles of ammonia that need to be added is 0.48 mol + 0.060 mol + 0.085 mol = 0.63 mol ammonia.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{f}$ with $[\\ce{Ni(NH3)6^2+}] = 0.010$ M and $[\\ce{Ni^2+}] = 4 \\times 10^{-9}$ M to get free $[\\ce{NH3}] \\approx 0.48$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Accounts for ammonia bound to nickel (0.060 mol) and for $\\ce{NH4+}$ (0.085 M from Henderson–Hasselbalch at pH 10.00)"
+          },
+          {
+            "points": 1,
+            "criterion": "Total ≈ 0.63 mol $\\ce{NH3}$ added (±0.03 mol)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2026 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2026-N-P3",
+    "year": 2026,
+    "level": "national",
+    "number": 3,
+    "title": "Hydrogen Storage in Lanthanum Pentanickel",
+    "topic_id": "thermodynamics",
+    "intro_md": "Lanthanum pentanickel, $\\ce{LaNi5}(s)$, is under consideration for solid-state hydrogen storage. $\\ce{LaNi5}(s)$ is a conductive metallic crystal, and it forms hydrides in two phases:\n\n- an α phase α-$\\ce{LaNi5H}_x(s)$ observed at lower $\\ce{H2}$ pressure, characterized as a solid-state solution\n- a β phase β-$\\ce{LaNi5H_{6.39}}(s)$ observed at higher $\\ce{H2}$ pressure, characterized by metal-hydrogen bonding\n\nSpecies — $\\Delta H^\\circ_\\text{f}$, kJ mol⁻¹ — $S^\\circ$, J mol⁻¹ K⁻¹\n\n$\\ce{H2}(g)$ — 0 — 130.7\n\n$\\ce{Ni}(s)$ — 0 — 29.9\n\n$\\ce{La}(s)$ — 0 — 56.9\n\n$\\ce{LaNi5}(s)$ — –162 — 217\n\nα-$\\ce{LaNi5H}_x(s)$ — –186 — 223\n\nβ-$\\ce{LaNi5H_{6.39}}(s)$ — ? — ?",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate $\\Delta G^\\circ_\\text{f}$ of $\\ce{LaNi5}(s)$ at 298 K.",
+        "key_md": "For the reaction\n\n$\\ce{La}(s) + 5\\,\\ce{Ni}(s) \\rightarrow \\ce{LaNi5}(s)$\n\n$\\Delta H^\\circ_\\text{rxn} = (-162) - (0 + 5[0])$ kJ mol⁻¹ $= -162$ kJ mol⁻¹\n\n$\\Delta S^\\circ_\\text{rxn} = (217) - (56.9 + 5[29.9])$ J mol⁻¹ K⁻¹ $= 10.6$ J mol⁻¹ K⁻¹\n\n$\\Delta G^\\circ_\\text{rxn, 298K} = \\Delta G^\\circ_\\text{f, 298K}$ of $\\ce{LaNi5}(s) = \\Delta H^\\circ_\\text{rxn} - (298\\ \\text{K})\\Delta S^\\circ_\\text{rxn}$\n\n$\\Delta G^\\circ_\\text{f, 298K}$ of $\\ce{LaNi5}(s) = -165$ kJ mol⁻¹",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct $\\Delta H^\\circ_\\text{rxn} = -162$ kJ mol⁻¹ and $\\Delta S^\\circ_\\text{rxn} = 10.6$ J mol⁻¹ K⁻¹ (formation from La and 5 Ni)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ_\\text{f} = -165$ kJ mol⁻¹ (±1)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Show that the maximum degree of hydrogenation $x$ for α-$\\ce{LaNi5H}_x(s)$ is approximately 0.43.",
+        "key_md": "The maximum mass% of H in α-$\\ce{LaNi5H}_x(s)$ is 0.10%. So in 100. g of α-$\\ce{LaNi5H}_x(s)$, there are 0.10 g/(1.008 g mol$^{-1}$) = 0.099 mol H and 99.9 g/(432.35 g mol$^{-1}$) = 0.231 mol $\\ce{LaNi5}$. So $x$ = 0.099/0.231 = 0.43.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Reads the maximum weight percent of hydrogen in the α phase from the graph as ≈0.10% (plateau of the low-pressure branch)"
+          },
+          {
+            "points": 2,
+            "criterion": "Converts to moles correctly: 0.10 g H/(1.008 g mol⁻¹) = 0.099 mol H and 99.9 g/(432.35 g mol⁻¹) = 0.231 mol LaNi5 (per 100 g)"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains x = 0.099/0.231 ≈ 0.43"
+          }
+        ],
+        "max_points": 5
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate $\\Delta G^\\circ_\\text{rxn}$ at 30 °C and at 50 °C for the hydrogenation of the α phase to the β phase.",
+        "key_md": "The balanced reaction is:\n\n$\\ce{\\alpha\\text{-}LaNi5H_{0.43} + 2.98 H2(g) -> \\beta\\text{-}LaNi5H_{6.39}}$\n\nIf $\\Delta G_\\text{rxn}$ (nonstandard; not the standard $\\Delta G^\\circ$) is positive, then the α phase is stable, while if it is negative the β phase is stable. The two phases can coexist if $\\Delta G_\\text{rxn} = 0$. The hydrogen pressure at which the two phases coexist can be read from the steep part of the graphs, i.e., 3.1 bar at 30 °C and 5.4 bar at 50 °C. At these pressures,\n\n$\\Delta G = 0 = \\Delta G^\\circ + RT\\ln(Q)$\n\n$\\Delta G^\\circ = -RT\\ln(Q) = -RT\\ln(P_{\\ce{H2}}^{-2.98})$\n\n$\\Delta G^\\circ(30\\ ^\\circ\\text{C}) = -R(303.2\\ \\text{K})\\ln[(3.1)^{-2.98}] = 8.50$ kJ mol$^{-1}$\n\n$\\Delta G^\\circ(50\\ ^\\circ\\text{C}) = -R(323.2\\ \\text{K})\\ln[(5.4)^{-2.98}] = 13.5$ kJ mol$^{-1}$",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Writes the balanced hydrogenation reaction α-LaNi5H0.43 + 2.98 H2(g) → β-LaNi5H6.39"
+          },
+          {
+            "points": 2,
+            "criterion": "Recognizes that at the plateau (steep region) the two phases coexist so ΔG = 0, and reads coexistence pressures ≈3.1 bar (30 °C) and ≈5.4 bar (50 °C) from the graph"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses ΔG° = −RT ln Q with Q = P(H2)^−2.98"
+          },
+          {
+            "points": 2,
+            "criterion": "Obtains ΔG°(30 °C) ≈ +8.5 kJ mol⁻¹ and ΔG°(50 °C) ≈ +13.5 kJ mol⁻¹ (±1 kJ mol⁻¹)"
+          }
+        ],
+        "max_points": 7
+      },
+      {
+        "label": "d",
+        "stem_md": "Calculate $\\Delta H^\\circ_\\text{f}$ and $S^\\circ$ for β-$\\ce{LaNi5H_{6.39}}(s)$.",
+        "key_md": "One can get $\\Delta H^\\circ_\\text{rxn}$ and $\\Delta S^\\circ_\\text{rxn}$ for the hydrogenation reaction in (c) by solving the two simultaneous equations:\n\n8.50 kJ mol⁻¹ $= \\Delta H^\\circ_\\text{rxn} - (303.2\\ \\text{K})\\Delta S^\\circ_\\text{rxn}$\n\n13.5 kJ mol⁻¹ $= \\Delta H^\\circ_\\text{rxn} - (323.2\\ \\text{K})\\Delta S^\\circ_\\text{rxn}$\n\n$\\Delta H^\\circ_\\text{rxn} = -67.3$ kJ mol⁻¹, $\\Delta S^\\circ_\\text{rxn} = -250.$ J mol⁻¹ K⁻¹\n\nFrom the tabulated values:\n\n$\\Delta H^\\circ_\\text{rxn} = \\Delta H^\\circ_\\text{f}(\\beta) - (-186\\ \\text{kJ mol}^{-1}) - 2.98(0) = -67.3$ kJ mol⁻¹\n\n$\\Delta H^\\circ_\\text{f}(\\beta\\text{-}\\ce{LaNi5H_{6.39}}(s)) = -253$ kJ mol⁻¹\n\n$\\Delta S^\\circ_\\text{rxn} = S^\\circ(\\beta) - (223\\ \\text{J mol}^{-1}\\text{K}^{-1}) - 2.98(130.7\\ \\text{J mol}^{-1}\\text{K}^{-1}) = -250.$ J mol⁻¹ K⁻¹\n\n$S^\\circ(\\beta\\text{-}\\ce{LaNi5H_{6.39}}(s)) = 362$ J mol⁻¹ K⁻¹",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Solves the two simultaneous $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$ equations to get $\\Delta H^\\circ_\\text{rxn} \\approx -67$ kJ mol⁻¹ and $\\Delta S^\\circ_\\text{rxn} \\approx -250$ J mol⁻¹ K⁻¹"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{f}(\\beta) = -253$ kJ mol⁻¹ (±5)"
+          },
+          {
+            "points": 1,
+            "criterion": "$S^\\circ(\\beta) = 362$ J mol⁻¹ K⁻¹ (±10), using 2.98 $S^\\circ(\\ce{H2})$"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2026 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2026-N-P3-f1.png"
+  },
+  {
+    "id": "2026-N-P4",
+    "year": 2026,
+    "level": "national",
+    "number": 4,
+    "title": "Iodomethane hydrolysis kinetics and pH dependence",
+    "topic_id": "kinetics",
+    "intro_md": "Iodomethane, $\\ce{CH3I}$, hydrolyzes irreversibly in dilute solution via two distinct pathways:\n\n$\\ce{CH3I(aq) + H2O(l) -> CH3OH(aq) + H+(aq) + I^-(aq)}$    Rate = $k_1[\\ce{CH3I}]$\n\n$\\ce{CH3I(aq) + OH^-(aq) -> CH3OH(aq) + I^-(aq)}$    Rate = $k_2[\\ce{CH3I}][\\ce{OH^-}]$",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "A solution is prepared by dissolving enough methyl iodide in pure water to make a 0.0500 M solution. After 1.50 h at 89.9 °C, the concentration of iodide in this solution is measured to be 0.0311 M. What is the value of $k_1$ at 89.9 °C?",
+        "key_md": "If $[\\ce{I^-}] = 0.0311$ M, then $[\\ce{CH3I}] = 0.0500 - 0.0311 = 0.0189$ M. Since this is a first-order reaction,\n\n$\\ln([\\ce{CH3I}]) = \\ln([\\ce{CH3I}]_0) - k_1 t$\n\n$\\ln(0.0189) = \\ln(0.0500) - k_1(5400\\ \\text{s})$\n\n$k_1 = 1.80 \\times 10^{-4}\\ \\text{s}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $[\\ce{CH3I}] = 0.0500 - 0.0311 = 0.0189$ M remaining"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses first-order integrated rate law with $t = 5400$ s"
+          },
+          {
+            "points": 1,
+            "criterion": "$k_1 = 1.80 \\times 10^{-4}\\ \\text{s}^{-1}$ (±2%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "What would the concentration of iodide be in this solution after 3.00 h at 89.9 °C?",
+        "key_md": "$\\ln([\\ce{CH3I}]) = \\ln([\\ce{CH3I}]_0) - k_1 t$\n\n$\\ln([\\ce{CH3I}]) = \\ln(0.0500) - (1.80 \\times 10^{-4}\\ \\text{s}^{-1})(10800\\ \\text{s})$\n\n$[\\ce{CH3I}] = 7.16 \\times 10^{-3}$ M\n\n$[\\ce{I^-}] = 0.0500\\ \\text{M} - 0.0072\\ \\text{M} = 0.0428$ M",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Applies first-order decay for $t = 10800$ s to get $[\\ce{CH3I}] = 7.16 \\times 10^{-3}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{I^-}] = 0.0428$ M (±2%)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "The hydrolysis of iodomethane is studied in strongly buffered solutions as a function of pH.  Under these conditions, the reaction is always found to be first order in iodomethane, with an observed first-order rate constant $k_\\text{obs}$ that varies with pH.  The logarithms of $k_\\text{obs}$ (with $k_\\text{obs}$ measured in units of $\\text{s}^{-1}$) for the reaction studied at 333 K as a function of pH are shown with filled circles and a solid line on the graph below.\n\nWhat are the values of $k_1$ and $k_2$ for the reaction at 333 K?",
+        "key_md": "Because the reactions take place in a buffer solution, the concentration of hydroxide ion is constant throughout each run, so rate $= (k_1 + k_2[\\ce{OH-}])[\\ce{CH3I}]$.  Thus, $k_\\text{obs} = k_1 + k_2[\\ce{OH-}]$.  At low pH, the concentration of hydroxide becomes very small and $k_\\text{obs}$ approaches $k_1$ asymptotically.  From the graph, $\\log_{10}(k_1) = -5.06$, $k_1 = 8.7 \\times 10^{-6}\\ \\text{s}^{-1}$.\n\nThe value of $k_2$ can be inferred from any point on the graph at higher pH.  An easy value to pick is at pH = 13.0, where $\\log_{10}(k_\\text{obs}) = -3.48$, $k_\\text{obs} = 3.31 \\times 10^{-4}\\ \\text{s}^{-1}$.\n\n$k_\\text{obs} = k_1 + k_2[\\ce{OH-}]$\n\n$3.31 \\times 10^{-4}\\ \\text{s}^{-1} = 8.7 \\times 10^{-6}\\ \\text{s}^{-1} + k_2[0.10\\ \\text{M}]$\n\n$k_2 = 3.2 \\times 10^{-3}\\ \\text{M}^{-1}\\ \\text{s}^{-1}$",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States that in buffered solution $k_\\text{obs} = k_1 + k_2[\\ce{OH-}]$"
+          },
+          {
+            "points": 2,
+            "criterion": "Identifies $k_1$ from the low-pH plateau: $\\log_{10}(k_1) \\approx -5.06$, $k_1 \\approx 8.7 \\times 10^{-6}\\ \\text{s}^{-1}$ (accept $8-9 \\times 10^{-6}\\ \\text{s}^{-1}$)"
+          },
+          {
+            "points": 2,
+            "criterion": "Reads a high-pH point (e.g. pH 13.0, $k_\\text{obs} = 3.3 \\times 10^{-4}\\ \\text{s}^{-1}$) and uses $[\\ce{OH-}] = 0.10\\ \\text{M}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains $k_2 \\approx 3.2 \\times 10^{-3}\\ \\text{M}^{-1}\\ \\text{s}^{-1}$ (accept $2.5-4 \\times 10^{-3}$)"
+          }
+        ],
+        "max_points": 7,
+        "figure_url": "/figures/2026-N-P4-f1.png"
+      },
+      {
+        "label": "d",
+        "stem_md": "The analogous data for the reaction studied at 343 K are shown on the graph (filled squares, dashed line).  Which has a larger activation energy, reaction 1 or reaction 2?  Explain your reasoning.",
+        "key_md": "At pH = 9, hydrolysis is essentially only taking place by reaction 1.  The difference in the graphs at this pH, 0.46 log units, indicates that the reaction 1 is faster at 343 K by a factor of $10^{0.46} = 2.9$.  At pH = 13, hydrolysis is taking place almost completely (> 95%) by reaction 2.  The difference in the graphs is slightly smaller here, only 0.42 log units corresponding to a factor of 2.6.  Reaction 1 therefore has a greater temperature-dependence than reaction 2, and since $k = Ae^{-E_a/RT}$, reaction 1 must therefore have the greater activation energy.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies that at low pH (pH ≈ 9) $k_\\text{obs}$ reflects reaction 1 and at high pH (pH ≈ 13) it reflects reaction 2"
+          },
+          {
+            "points": 2,
+            "criterion": "Compares the vertical (log) separation of the two curves at low and high pH, finding the larger separation (≈0.46 vs ≈0.42 log units; factor 2.9 vs 2.6) at low pH"
+          },
+          {
+            "points": 2,
+            "criterion": "Concludes reaction 1 has the larger activation energy, citing greater temperature dependence via $k = Ae^{-E_a/RT}$"
+          }
+        ],
+        "max_points": 5,
+        "figure_url": "/figures/2026-N-P4-f1.png"
+      },
+      {
+        "label": "e",
+        "stem_md": "The value of $k_2$ for $\\ce{CH3CH2I}$ is significantly smaller than the value of $k_2$ for $\\ce{CH3I}$ at a given temperature. Rationalize this difference based on the structures of the transition states for these reactions.",
+        "key_md": "Reaction 2 is bimolecular, with hydroxide ion approaching the carbon 180° away from the iodide in the transition state of the (so-called $S_N2$) reaction. Since the coordination number of carbon increases from 4 to 5 in the transition state, substitution of methyl for hydrogen at the carbon makes it more difficult to attain the transition state due to increased steric crowding. Thus the activation energy is higher for $\\ce{CH3CH2I}$ and the value of $k_2$ correspondingly smaller.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the $S_N2$ (bimolecular, backside 180° attack) transition state with five groups around carbon"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes the smaller $k_2$ for $\\ce{CH3CH2I}$ to increased steric crowding raising the activation energy"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2026 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2026-N-P5",
+    "year": 2026,
+    "level": "national",
+    "number": 5,
+    "title": "Net Ionic and Organic Reaction Equations",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances, and clearly show stereochemistry where relevant. You need not balance the equations or show the phases of the species.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Sulfur dioxide is bubbled through barium hydroxide solution.",
+        "key_md": "$\\ce{Ba^2+(aq) + SO2(g) + OH^-(aq) -> BaSO3(s) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants: $\\ce{Ba^2+}$, $\\ce{SO2}$ and $\\ce{OH^-}$ (spectator ions omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products: $\\ce{BaSO3}$ (sulfite, not sulfate) plus $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Phosphorus pentachloride is heated with phosphorus(V) oxide.",
+        "key_md": "$\\ce{PCl5(s) + P4O10(s) -> POCl3(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactant formulas $\\ce{PCl5}$ and $\\ce{P4O10}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct product $\\ce{POCl3}$ as the only product"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Cobalt(II) nitrate is dissolved in concentrated aqueous hydrochloric acid.",
+        "key_md": "$\\ce{Co(NO3)2(s) + Cl^-(aq) -> CoCl4^2-(aq) + NO3^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Chloride ion shown as reactant with $\\ce{Co(NO3)2}$ (or $\\ce{Co^2+}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Product identified as the tetrachlorocobaltate(II) complex $\\ce{CoCl4^2-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Iron(II) ammonium sulfate reacts with potassium dichromate in dilute sulfuric acid.",
+        "key_md": "$\\ce{Cr2O7^2-(aq) + Fe^2+(aq) + H^+(aq) -> Cr^3+(aq) + Fe^3+(aq) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{Cr2O7^2-}$, $\\ce{Fe^2+}$ and $\\ce{H+}$ (spectators omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Cr^3+}$, $\\ce{Fe^3+}$ and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Bromine is added to 4-nitrotoluene in the presence of anhydrous iron(III) bromide. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Electrophilic aromatic bromination: 4-nitrotoluene $+\\ \\ce{Br2} \\longrightarrow$ 2-bromo-4-nitrotoluene $+\\ \\ce{HBr}$.\n\nThe drawn product is the benzene ring bearing $\\ce{CH3}$ at C1, $\\ce{NO2}$ at C4 (para to the methyl), and $\\ce{Br}$ at the position ortho to the methyl group (i.e., meta to the nitro group); $\\ce{HBr}$ is the other product.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product is a monobrominated 4-nitrotoluene with $\\ce{HBr}$ also formed"
+          },
+          {
+            "points": 1,
+            "criterion": "Br placed ortho to the $\\ce{CH3}$ group (meta to $\\ce{NO2}$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Acetone (2-propanone) is added to an aqueous solution of hydroxylamine. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Acetone $+\\ \\ce{NH2OH} \\longrightarrow$ acetone oxime $+\\ \\ce{H2O}$.\n\nThe drawn product is $\\ce{(CH3)2C=N-OH}$, i.e., the $\\ce{C=O}$ of acetone replaced by $\\ce{C=N-OH}$, with water as the other product.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Oxime product $\\ce{(CH3)2C=N-OH}$ drawn with the $\\ce{C=N}$ double bond"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{H2O}$ shown as the co-product"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2026 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2026-N-P6",
+    "year": 2026,
+    "level": "national",
+    "number": 6,
+    "title": "Group 11 Alloy: Dissolution and Electrolysis",
+    "topic_id": "redox",
+    "intro_md": "A metallic alloy contains all of the group 11 metals (copper, silver, and gold).\n\nHalf-reaction — $E^\\circ$, V\n\n$\\ce{Cu^2+(aq) + 2 e- -> Cu(s)}$ — +0.34\n\n$\\ce{Ag+(aq) + e- -> Ag(s)}$ — +0.80\n\n$\\ce{Au+(aq) + e- -> Au(s)}$ — +1.83\n\n$\\ce{Au^3+(aq) + 3 e- -> Au(s)}$ — +1.52\n\n$\\ce{AuCl4^-(aq) + 3 e- -> Au(s) + 4 Cl^-(aq)}$ — +0.93",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "0.1000 g of this alloy is dissolved in 10 mL of 6 M nitric acid (a large excess), which leaves behind 0.0325 g of unreacted metallic gold. Explain why gold does not dissolve in nitric acid, but does dissolve in aqua regia, which is a mixture of nitric and hydrochloric acids.",
+        "key_md": "The redox potential of Au to form either $\\ce{Au+(aq)}$ or $\\ce{Au^3+(aq)}$ is so high that nitric acid is not a strong enough oxidant to allow this reaction. However, chloride ion binds strongly to $\\ce{Au^3+}$, so that in aqua regia the relevant couple is the $\\ce{AuCl4^-}/\\ce{Au}$ couple, which has a lower potential.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the $\\ce{Au+}/\\ce{Au}$ or $\\ce{Au^3+}/\\ce{Au}$ potential is too high (nitric acid is not a strong enough oxidant)"
+          },
+          {
+            "points": 1,
+            "criterion": "States that chloride binds/complexes $\\ce{Au^3+}$ as $\\ce{AuCl4^-}$, lowering the reduction potential to +0.93 V so oxidation becomes favorable"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "What is the formation constant $K_\\text{f}$ for the $\\ce{AuCl4^-}$ complex ion?",
+        "key_md": "$\\ce{Au^3+(aq) + 3 e- -> Au(s)}$ &nbsp; $\\Delta G^\\circ = -3F(1.52\\ \\text{V})$\n\n$\\ce{Au(s) + 4 Cl^-(aq) -> AuCl4^-(aq) + 3 e-}$ &nbsp; $\\Delta G^\\circ = -3F(-0.93\\ \\text{V})$\n\n$\\ce{Au^3+(aq) + 4 Cl^-(aq) -> AuCl4^-(aq)}$ &nbsp; $\\Delta G^\\circ = -3F(0.59\\ \\text{V})$\n\n$\\Delta G^\\circ = -170.8\\ \\text{kJ mol}^{-1} = -RT\\ln(K_\\text{f}) = -(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})\\ln(K_\\text{f})$\n\n$K_\\text{f} = 8.6 \\times 10^{29}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Combines the two half-reactions to give $E^\\circ = 0.59$ V for $\\ce{Au^3+ + 4 Cl^- -> AuCl4^-}$ with $n = 3$"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = -nFE^\\circ = -RT\\ln K_\\text{f}$ (or $\\ln K = nFE^\\circ/RT$)"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{f} \\approx 8.6 \\times 10^{29}$ (within a factor of ~3)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "To the filtrate from part a. is added aqueous ammonia to give a total volume of 50.0 mL, with the final pH of the solution equal to 4.00. What fraction of the Cu(II) ion in solution is in the form of $\\ce{Cu(NH3)4^2+}$? The $K_\\text{f}$ of $\\ce{Cu(NH3)4^2+}$ is $1.7 \\times 10^{13}$ and the p$K_\\text{a}$ of $\\ce{NH4+}$ is 9.25.",
+        "key_md": "Since the nitric acid was employed in large excess over the dissolving metals, the moles of acid present will be close to those initially present, i.e. $(6\\ \\text{mol L}^{-1})(0.010\\ \\text{L}) = 0.060$ mol. Since the final pH = 4, essentially all the acid is neutralized (with little excess ammonia), so $[\\ce{NH4+}] = 0.060\\ \\text{mol}/0.050\\ \\text{L} = 0.12$ M. From the pH,\n\n$\\text{pH} = \\text{p}K_\\text{a} + \\log_{10}([\\ce{NH3}]/[\\ce{NH4+}])$\n\n$4.00 = 9.25 + \\log_{10}([\\ce{NH3}]/[0.12])$\n\n$[\\ce{NH3}] = 6.7 \\times 10^{-6}$ M\n\nFrom the complex ion equilibrium,\n\n$[\\ce{Cu(NH3)4^2+}]/[\\ce{Cu^2+}(aq)] = K_\\text{f}[\\ce{NH3}]^4$\n\n$[\\ce{Cu(NH3)4^2+}]/[\\ce{Cu^2+}(aq)] = 3.4 \\times 10^{-8}$\n\nSince this ratio is so tiny, it is essentially equal to the fraction of complexed copper.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $[\\ce{NH4+}] = 0.060\\ \\text{mol}/0.0500\\ \\text{L} = 0.12$ M from the excess nitric acid neutralized"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses Henderson–Hasselbalch at pH 4.00 to get $[\\ce{NH3}] \\approx 6.7 \\times 10^{-6}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Fraction as $\\ce{Cu(NH3)4^2+} = K_\\text{f}[\\ce{NH3}]^4 \\approx 3.4 \\times 10^{-8}$ (within a factor of ~2)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The solution from part c. is subjected to constant-current electrolysis with a platinum cathode and its potential measured relative to a half-cell with a silver anode in a large volume of 1.000 M NaBr (with some silver bromide present).  The electrolysis is carried out with a constant current of 12.0 mA and the potential measured as a function of time to give the graph shown below.  What is the percent by mass of copper and silver in the alloy?",
+        "key_md": "The first equivalence point, where all the $\\ce{Ag+}$ has been reduced to $\\ce{Ag}(s)$, occurs at 3400 s.  This corresponds to\n\n$(3400\\ \\text{s})(0.0120\\ \\text{C s}^{-1})/(96500\\ \\text{C mol}^{-1}) = 4.23 \\times 10^{-4}\\ \\text{mol Ag} = 0.0456\\ \\text{g Ag} = 45.6\\%$ of the 0.1000 g alloy sample.\n\nThe percent Cu can be obtained by difference, given the 32.5% Au, as 21.9%.  (Using the second equivalence point in the potentiometric titration at 8950 s gives 21.9% Cu as well.)",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Identifies the first equivalence point (silver plating complete) at t ≈ 3400 s from the graph"
+          },
+          {
+            "points": 2,
+            "criterion": "Uses Q = It/F to get mol Ag = 4.23 × 10⁻⁴ mol (± 5%)"
+          },
+          {
+            "points": 2,
+            "criterion": "Mass % Ag = 45.6% (± 1%) of the 0.1000 g sample"
+          },
+          {
+            "points": 2,
+            "criterion": "Mass % Cu = 21.9% (± 1%), obtained by difference using 32.5% Au (or from the second equivalence point at ~8950 s)"
+          }
+        ],
+        "max_points": 8,
+        "figure_url": "/figures/2026-N-P6-f1.png"
+      },
+      {
+        "label": "e",
+        "stem_md": "What is the $K_\\text{sp}$ of AgBr?",
+        "key_md": "The initial potential, 0.61 V, is essentially a concentration cell between the $\\ce{Ag+}$ in the analyte ($= 4.23 \\times 10^{-4}\\ \\text{mol}/0.0500\\ \\text{L} = 8.46 \\times 10^{-3}\\ \\text{M}$) and the $\\ce{Ag+}$ in the $\\ce{AgBr}/\\ce{Br-}$ solution.  So $0.61\\ \\text{V} = (RT/F)\\ln([8.46 \\times 10^{-3}]/[\\ce{Ag+}])$, which gives $[\\ce{Ag+}] = 4.1 \\times 10^{-13}$ in the AgBr reference cell.  Since $[\\ce{Br-}] = 1.00\\ \\text{M}$ in this cell, then $K_\\text{sp} = 4.1 \\times 10^{-13}$.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Recognizes a silver concentration cell and computes the analyte [Ag⁺] = 8.46 × 10⁻³ M"
+          },
+          {
+            "points": 2,
+            "criterion": "Applies the Nernst equation with the initial potential 0.61 V to get [Ag⁺] ≈ 4.1 × 10⁻¹³ M in the reference half-cell"
+          },
+          {
+            "points": 1,
+            "criterion": "States Ksp = [Ag⁺][Br⁻] ≈ 4 × 10⁻¹³ using [Br⁻] = 1.00 M"
+          }
+        ],
+        "max_points": 5,
+        "figure_url": "/figures/2026-N-P6-f1.png"
+      }
+    ],
+    "source": "USNCO 2026 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2026-N-P7",
+    "year": 2026,
+    "level": "national",
+    "number": 7,
+    "title": "Boron hydrides: structure and bonding",
+    "topic_id": "bonding",
+    "intro_md": "Boron and hydrogen form a number of interesting compounds.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Give the electron configuration and the number of unpaired electrons in both the ground state of atomic B and its lowest-energy excited state.",
+        "key_md": "Ground state B is $1s^2 2s^2 2p^1$ with one unpaired electron.\n\nLowest-energy excited state B is $1s^2 2s^1 2p^2$ with three unpaired electrons.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Ground state given as $1s^2 2s^2 2p^1$ with 1 unpaired electron"
+          },
+          {
+            "points": 1,
+            "criterion": "Lowest excited state given as $1s^2 2s^1 2p^2$ with 3 unpaired electrons"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Which requires more energy to excite, the ground state of atomic B to its lowest excited state or the ground state of atomic H to its lowest excited state? Justify your answer.",
+        "key_md": "B takes much less energy to excite than H. (Quantitatively, B requires 3.55 eV to excite while H requires 10.20 eV.) The energy difference between $s$ and $p$ orbitals with the same principal quantum number is less than the difference in energy between orbitals of different principal quantum number. The difference between $n = 1$ and $n = 2$ is especially large, since $E$ is proportional to $-1/n^2$, making the H $2s$ excited state especially high in energy. Boron's higher $Z_\\text{eff}$ is not enough to outweigh these effects. (The more favorable exchange energy of the quartet excited state of B also contributes to its relatively low energy.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that H requires more energy (B is easier to excite)"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies via the $2s \\to 2p$ (same $n$) gap being much smaller than the $n=1 \\to n=2$ gap ($E \\propto -1/n^2$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "In the gas phase at low pressure, the binary compound BH$_3$ can be observed. Clearly describe or depict its geometry and explain its bonding.",
+        "key_md": "BH$_3$ has six valence electrons and can thus form three two-center two-electron bonds. It has a trigonal planar geometry.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Geometry identified as trigonal planar"
+          },
+          {
+            "points": 1,
+            "criterion": "Bonding described as three ordinary two-center two-electron B–H bonds using the six valence electrons (electron-deficient, no lone pair on B)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "At higher pressures or in condensed phases, BH$_3$ dimerizes to form diborane, B$_2$H$_6$. Clearly describe or depict the geometry and explain the bonding in diborane.",
+        "key_md": "B$_2$H$_6$ has only twelve valence electrons and can thus not form seven two-center two-electron bonds (as in, for example, C$_2$H$_6$ with 14 valence electrons). Instead, it has a structure where the two boron atoms are bridged by two hydrogens, forming two three-center two-electron bonds. Each B also has two terminal hydrogens bonded with two-center two-electron bonds. The overall geometry is that of two tetrahedra joined along an edge: the drawn structure shows two B atoms each bearing two terminal H atoms (one wedge/one plain, in the plane containing the terminal hydrogens), with two bridging H atoms above and below between the borons.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Describes/depicts two bridging H atoms between the two B atoms plus two terminal H atoms on each B (two tetrahedra sharing an edge)"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies the bridge bonds as three-center two-electron bonds"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes only 12 valence electrons available, too few for seven 2c–2e bonds (electron deficiency)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Boron and hydrogen form the anionic species borohydride, BH$_4^-$. Draw a Lewis structure of BH$_4^-$, making sure to include all lone pairs and nonzero formal charges. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Lewis structure: a central B atom with four single bonds to four H atoms (tetrahedral arrangement drawn as up, down, left, right), no lone pairs on B, and a formal charge of $-1$ shown on the boron atom.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Four B–H single bonds, no lone pairs shown"
+          },
+          {
+            "points": 1,
+            "criterion": "Formal charge of $-1$ placed on the boron atom"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Boron and hydrogen also form a series of dianions B$_n$H$_n^{2-}$, including the icosahedral species B$_{12}$H$_{12}^{2-}$ illustrated below.  Carboranes are neutral compounds with the formula C$_2$B$_{10}$H$_{12}$, where two of the boron atoms in B$_{12}$H$_{12}^{2-}$ are replaced with carbon while retaining the same icosahedral structure.  How many isomers of carborane are possible?  Draw or clearly describe them. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Three possible isomers: so-called \"ortho\" with two carbons bonded to one another; \"meta\" with two carbons separated by one boron; and \"para\" with two carbons separated by two boron atoms.\n\n(The official solution shows three icosahedral drawings, identical to the $\\ce{B12H12^2-}$ cage but neutral and with two of the vertex B atoms replaced by C, each vertex still carrying one terminal H: **ortho** — the two C vertices adjacent (directly bonded); **meta** — the two C vertices separated by one intervening B vertex; **para** — the two C vertices at antipodal positions of the icosahedron, separated by two B atoms.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that three isomers are possible"
+          },
+          {
+            "points": 2,
+            "criterion": "Correctly identifies/draws all three arrangements of the two carbon vertices in the icosahedron: adjacent (ortho), separated by one boron (meta), and antipodal/separated by two borons (para)"
+          }
+        ],
+        "max_points": 3,
+        "figure_url": "/figures/2026-N-P7-f1.png"
+      }
+    ],
+    "source": "USNCO 2026 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2026-N-P8",
+    "year": 2026,
+    "level": "national",
+    "number": 8,
+    "title": "HBr addition to (E)-2-pentene and isomers",
+    "topic_id": "organic",
+    "intro_md": "(E)-2-pentene reacts with hydrogen bromide to give three compounds, **A**, **B**, and **C**. Compound **A** reacts with potassium hydroxide in dimethyl sulfoxide to give (E)-2-pentene and its (Z) isomer as the only alkene products. In contrast, compounds **B** and **C** react with KOH in DMSO to give not only (E)- and (Z)-2-pentene but also another alkene **D**.\n\n(A reaction scheme is shown: (E)-2-pentene $\\xrightarrow{\\ce{HBr}}$ **A** + **B** + **C**; **A** $\\xrightarrow[\\ce{DMSO}]{\\ce{KOH}}$ (E)-2-pentene + (Z)-2-pentene; **B** and **C** $\\xrightarrow[\\ce{DMSO}]{\\ce{KOH}}$ (E)-2-pentene + (Z)-2-pentene + **D**.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw structures for compounds **A**–**D**, clearly indicating stereochemistry if applicable. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "**A** = 3-bromopentane, $\\ce{CH3CH2CH(Br)CH2CH3}$ (drawn with the Br on the central carbon; achiral, so no stereochemistry is shown).\n\n**B** and **C** = the two enantiomers of 2-bromopentane, $\\ce{CH3CH(Br)CH2CH2CH3}$ — one drawn with the C–Br bond as a bold wedge, the other with the C–Br bond as a hashed (dashed) wedge.\n\n**D** = 1-pentene, $\\ce{CH2=CHCH2CH2CH3}$.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "A identified as 3-bromopentane"
+          },
+          {
+            "points": 2,
+            "criterion": "B and C identified as the two enantiomers of 2-bromopentane, with opposite stereochemistry at C2 explicitly indicated (wedge/dash or R/S)"
+          },
+          {
+            "points": 1,
+            "criterion": "D identified as 1-pentene"
+          }
+        ],
+        "max_points": 5
+      },
+      {
+        "label": "b",
+        "stem_md": "What is the relationship (constitutional isomers, enantiomers, diastereomers, or not isomers) between compounds **A** and **B**?",
+        "key_md": "Constitutional isomers",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States \"constitutional isomers\""
+          }
+        ],
+        "max_points": 1
+      },
+      {
+        "label": "c",
+        "stem_md": "What is the relationship (constitutional isomers, enantiomers, diastereomers, or not isomers) between compounds **B** and **C**?",
+        "key_md": "Enantiomers",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States \"enantiomers\""
+          }
+        ],
+        "max_points": 1
+      },
+      {
+        "label": "d",
+        "stem_md": "(E)-2-pentene has a melting point of –140 °C and a normal boiling point of 37 °C, while (Z)-2-pentene has a melting point of –180 °C and a boiling point of 37 °C. Explain why the (E) isomer has a significantly higher melting point, but essentially the same boiling point, as the (Z) isomer.",
+        "key_md": "Melting points of molecular solids depend strongly on how well the molecules can pack together in the crystal. Molecules with more regular shapes (such as the zigzag-shaped E isomer) can pack more tightly and thus have higher melting points than irregularly shaped molecules (such as the curlicue-shaped Z isomer). Boiling points are not very sensitive to the details of shape (since the liquid is not arranged regularly), but rather to surface area. The two isomers are both tube shaped and have the same surface area and thus very similar boiling points. (A branched isomer, such as 2-methyl-1-butene, has a smaller surface area and thus weaker intermolecular forces and a correspondingly lower boiling point, 31 °C.)",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Explains the higher melting point of the E isomer in terms of its more regular (zigzag) shape allowing tighter/better crystal packing"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that boiling point depends on surface area / strength of dispersion forces in the disordered liquid, which is essentially the same for both isomers"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "No alkenes with the formula C5H10 are chiral. Draw the structure of a chiral alkene with the formula C6H12. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "3-methyl-1-pentene, $\\ce{CH2=CH-CH(CH3)-CH2CH3}$, drawn with the methyl group at C3 on a bold wedge (or its enantiomer, with the methyl group hashed). These are the only chiral alkenes with the formula $\\ce{C6H12}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Draws 3-methyl-1-pentene (correct C6H12 alkene skeleton with a stereocenter)"
+          },
+          {
+            "points": 1,
+            "criterion": "Indicates the stereochemistry at the stereocenter (wedge/dash) for one enantiomer"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2026 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

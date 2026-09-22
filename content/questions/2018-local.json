@@ -4,7 +4,7 @@
     "year": 2018,
     "level": "local",
     "number": 1,
-    "stem_md": "How many oxygen atoms are in 225 g O2?",
+    "stem_md": "How many oxygen atoms are in 225 g $\\ce{O2}$?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -13,31 +13,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "4.23 × 1024"
+        "text_md": "$4.23 \\times 10^{24}$"
       },
       {
         "label": "B",
-        "text_md": "6.84 × 1024"
+        "text_md": "$6.84 \\times 10^{24}$"
       },
       {
         "label": "C",
-        "text_md": "8.47 × 1024"
+        "text_md": "$8.47 \\times 10^{24}$"
       },
       {
         "label": "D",
-        "text_md": "1.69 × 1025"
+        "text_md": "$1.69 \\times 10^{25}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-02",
     "year": 2018,
     "level": "local",
     "number": 2,
-    "stem_md": "A 0.300 M solution of HCl is prepared by adding some 1.50 M HCl to a 500 mL volumetric flask and diluting to the mark with deionized water. What volume of 1.50 M HCl must be added?",
+    "stem_md": "A 0.300 M solution of $\\ce{HCl}$ is prepared by adding some 1.50 M $\\ce{HCl}$ to a 500 mL volumetric flask and diluting to the mark with deionized water. What volume of 1.50 M $\\ce{HCl}$ must be added?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -63,14 +64,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 2. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-03",
     "year": 2018,
     "level": "local",
     "number": 3,
-    "stem_md": "Copper(I) oxide, Cu2O, is reduced to metallic copper by heating in a stream of hydrogen gas. What mass of water is produced when 10.00 g copper is formed?",
+    "stem_md": "Copper(I) oxide, $\\ce{Cu2O}$, is reduced to metallic copper by heating in a stream of hydrogen gas. What mass of water is produced when 10.00 g copper is formed?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -96,14 +98,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-04",
     "year": 2018,
     "level": "local",
     "number": 4,
-    "stem_md": "The mineral enargite is 48.41% Cu, 19.02% As, and 32.57% S by mass. What is the empirical formula of enargite?",
+    "stem_md": "The mineral enargite is 48.41% $\\ce{Cu}$, 19.02% $\\ce{As}$, and 32.57% $\\ce{S}$ by mass. What is the empirical formula of enargite?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -112,31 +115,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CuAsS"
+        "text_md": "$\\ce{CuAsS}$"
       },
       {
         "label": "B",
-        "text_md": "Cu2AsS2"
+        "text_md": "$\\ce{Cu2AsS2}$"
       },
       {
         "label": "C",
-        "text_md": "Cu3AsS4"
+        "text_md": "$\\ce{Cu3AsS4}$"
       },
       {
         "label": "D",
-        "text_md": "Cu4AsS3"
+        "text_md": "$\\ce{Cu4AsS3}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-05",
     "year": 2018,
     "level": "local",
     "number": 5,
-    "stem_md": "A 5.0 g sample of calcium nitrate (Ca(NO3)2, M = 164) contaminated with silica (SiO2, M = 60.1) is found to contain 1.0 g calcium. What is the mass percent purity of calcium nitrate in the sample?",
+    "stem_md": "A 5.0 g sample of calcium nitrate ($\\ce{Ca(NO3)2}$, $M = 164$) contaminated with silica ($\\ce{SiO2}$, $M = 60.1$) is found to contain 1.0 g calcium. What is the mass percent purity of calcium nitrate in the sample?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -162,14 +166,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 5. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-06",
     "year": 2018,
     "level": "local",
     "number": 6,
-    "stem_md": "A solution of 20.0 g of which hydrated salt dissolved in 200 g H2O will have the lowest freezing point?",
+    "stem_md": "A solution of 20.0 g of which hydrated salt dissolved in 200 g $\\ce{H2O}$ will have the lowest freezing point?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -178,31 +183,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CuSO4 • 5 H2O (M = 250)"
+        "text_md": "$\\ce{CuSO4 . 5H2O}$ ($M = 250$)"
       },
       {
         "label": "B",
-        "text_md": "NiSO4 • 6 H2O (M = 263)"
+        "text_md": "$\\ce{NiSO4 . 6H2O}$ ($M = 263$)"
       },
       {
         "label": "C",
-        "text_md": "MgSO4 • 7 H2O (M = 246)"
+        "text_md": "$\\ce{MgSO4 . 7H2O}$ ($M = 246$)"
       },
       {
         "label": "D",
-        "text_md": "Na2SO4 • 10 H2O (M = 286)"
+        "text_md": "$\\ce{Na2SO4 . 10H2O}$ ($M = 286$)"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 6. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-07",
     "year": 2018,
     "level": "local",
     "number": 7,
-    "stem_md": "Addition of 6 M HCl to which substance will NOT result in gas evolution?",
+    "stem_md": "Addition of 6 M $\\ce{HCl}$ to which substance will NOT result in gas evolution?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -211,31 +217,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Al"
+        "text_md": "$\\ce{Al}$"
       },
       {
         "label": "B",
-        "text_md": "Zn"
+        "text_md": "$\\ce{Zn}$"
       },
       {
         "label": "C",
-        "text_md": "K2CO3"
+        "text_md": "$\\ce{K2CO3}$"
       },
       {
         "label": "D",
-        "text_md": "NaNO3"
+        "text_md": "$\\ce{NaNO3}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 7. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-08",
     "year": 2018,
     "level": "local",
     "number": 8,
-    "stem_md": "A divalent metal ion dissolved in dilute hydrochloric acid forms a precipitate when H2S is bubbled through the solution. Which ion is it?",
+    "stem_md": "A divalent metal ion dissolved in dilute hydrochloric acid forms a precipitate when $\\ce{H2S}$ is bubbled through the solution. Which ion is it?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -244,24 +251,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Ca2+"
+        "text_md": "$\\ce{Ca^2+}$"
       },
       {
         "label": "B",
-        "text_md": "Mn2+"
+        "text_md": "$\\ce{Mn^2+}$"
       },
       {
         "label": "C",
-        "text_md": "Zn2+"
+        "text_md": "$\\ce{Zn^2+}$"
       },
       {
         "label": "D",
-        "text_md": "Cd2+"
+        "text_md": "$\\ce{Cd^2+}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 8. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-09",
@@ -277,31 +285,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "KMnO4"
+        "text_md": "$\\ce{KMnO4}$"
       },
       {
         "label": "B",
-        "text_md": "KClO4"
+        "text_md": "$\\ce{KClO4}$"
       },
       {
         "label": "C",
-        "text_md": "KAl(SO4)2"
+        "text_md": "$\\ce{KAl(SO4)2}$"
       },
       {
         "label": "D",
-        "text_md": "KI"
+        "text_md": "$\\ce{KI}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-10",
     "year": 2018,
     "level": "local",
     "number": 10,
-    "stem_md": "A solution contains 0.1 M Sr2+ ions and 0.1 M Ag+ ions. Addition of an equal volume of a 0.5 M solution of which reagent will cause precipitation of a strontium salt but not a silver salt?",
+    "stem_md": "A solution contains 0.1 M $\\ce{Sr^2+}$ ions and 0.1 M $\\ce{Ag+}$ ions. Addition of an equal volume of a 0.5 M solution of which reagent will cause precipitation of a strontium salt but not a silver salt?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -310,24 +319,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NaNO3"
+        "text_md": "$\\ce{NaNO3}$"
       },
       {
         "label": "B",
-        "text_md": "NaF"
+        "text_md": "$\\ce{NaF}$"
       },
       {
         "label": "C",
-        "text_md": "NaOH"
+        "text_md": "$\\ce{NaOH}$"
       },
       {
         "label": "D",
-        "text_md": "NaCl"
+        "text_md": "$\\ce{NaCl}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-11",
@@ -360,14 +370,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 11. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-12",
     "year": 2018,
     "level": "local",
     "number": 12,
-    "stem_md": "The molar mass of a solid carboxylic acid is determined by titrating a known mass of the acid with a standardized solution of NaOH to a phenolphthalein endpoint. Which errors will lead to a molar mass that is smaller than the actual molar mass? I. Some of the acid is spilled when being transferred into the titration flask. II. The endpoint is recorded when the solution is dark red in color rather than light pink.",
+    "stem_md": "The molar mass of a solid carboxylic acid is determined by titrating a known mass of the acid with a standardized solution of $\\ce{NaOH}$ to a phenolphthalein endpoint. Which errors will lead to a molar mass that is smaller than the actual molar mass?\n\nI. Some of the acid is spilled when being transferred into the titration flask.\n\nII. The endpoint is recorded when the solution is dark red in color rather than light pink.",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -393,7 +404,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-13",
@@ -401,7 +413,7 @@
     "level": "local",
     "number": 13,
     "stem_md": "What state of matter corresponds to the diagram below?",
-    "figure_url": null,
+    "figure_url": "/figures/2018-L-13.png",
     "topic_id": "states-of-matter",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -426,14 +438,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-14",
     "year": 2018,
     "level": "local",
     "number": 14,
-    "stem_md": "The normal boiling point of 2-propanol, (CH3)2CHOH, is 83 ºC, while that of acetone, (CH3)2C=O, is 56 ºC. What is the principal reason for the greater boiling point of 2- propanol?",
+    "stem_md": "The normal boiling point of 2-propanol, $\\ce{(CH3)2CHOH}$, is 83 ºC, while that of acetone, $\\ce{(CH3)2C=O}$, is 56 ºC. What is the principal reason for the greater boiling point of 2- propanol?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -442,7 +455,7 @@
     "options": [
       {
         "label": "A",
-        "text_md": "The O–H bond in 2-propanol is stronger than the C–H bonds in acetone."
+        "text_md": "The $\\ce{O-H}$ bond in 2-propanol is stronger than the $\\ce{C-H}$ bonds in acetone."
       },
       {
         "label": "B",
@@ -459,14 +472,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-15",
     "year": 2018,
     "level": "local",
     "number": 15,
-    "stem_md": "Consider the four gases CO2, N2, CCl4, and He. Which is the correct order of increasing average molecular speed at 100 ºC?",
+    "stem_md": "Consider the four gases $\\ce{CO2}$, $\\ce{N2}$, $\\ce{CCl4}$, and $\\ce{He}$. Which is the correct order of increasing average molecular speed at 100 ºC?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -475,31 +489,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "He < N2 < CO2 < CCl4"
+        "text_md": "$\\ce{He} < \\ce{N2} < \\ce{CO2} < \\ce{CCl4}$"
       },
       {
         "label": "B",
-        "text_md": "CCl4 < CO2 < N2 < He"
+        "text_md": "$\\ce{CCl4} < \\ce{CO2} < \\ce{N2} < \\ce{He}$"
       },
       {
         "label": "C",
-        "text_md": "He < CO2 < N2 < CCl4"
+        "text_md": "$\\ce{He} < \\ce{CO2} < \\ce{N2} < \\ce{CCl4}$"
       },
       {
         "label": "D",
-        "text_md": "CCl4 < N2 < CO2 < He"
+        "text_md": "$\\ce{CCl4} < \\ce{N2} < \\ce{CO2} < \\ce{He}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-16",
     "year": 2018,
     "level": "local",
     "number": 16,
-    "stem_md": "Under what conditions will the behavior of a real gas best approximate the behavior of an ideal gas? I. High temperature II. High pressure",
+    "stem_md": "Under what conditions will the behavior of a real gas best approximate the behavior of an ideal gas?\n\nI. High temperature\n\nII. High pressure",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -525,7 +540,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-17",
@@ -558,14 +574,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-18",
     "year": 2018,
     "level": "local",
     "number": 18,
-    "stem_md": "Toluene, C7H8, has both a higher vapor pressure than water at 25 ºC and a higher normal boiling point. Which statement best explains these observations?",
+    "stem_md": "Toluene, $\\ce{C7H8}$, has both a higher vapor pressure than water at 25 ºC and a higher normal boiling point. Which statement best explains these observations?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -591,14 +608,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-19",
     "year": 2018,
     "level": "local",
     "number": 19,
-    "stem_md": "To 100.0 g water at 25.00 ºC in a well-insulated container is added a block of aluminum initially at 100.0 ºC. The temperature of the water once the system reaches thermal equilibrium is 28.00 ºC. What is the mass of the aluminum block? (The specific heat capacity of Al is 0.900 J g–1 K–1.)",
+    "stem_md": "To 100.0 g water at 25.00 ºC in a well-insulated container is added a block of aluminum initially at 100.0 ºC. The temperature of the water once the system reaches thermal equilibrium is 28.00 ºC. What is the mass of the aluminum block? (The specific heat capacity of Al is 0.900 J g$^{-1}$ K$^{-1}$.)",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -624,14 +642,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-20",
     "year": 2018,
     "level": "local",
     "number": 20,
-    "stem_md": "The standard enthalpy of formation, ∆Hºf, of the compound MgO(s) is equal to the standard enthalpy change for which reaction?",
+    "stem_md": "The standard enthalpy of formation, $\\Delta H^\\circ_\\text{f}$, of the compound $\\ce{MgO(s)}$ is equal to the standard enthalpy change for which reaction?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -640,31 +659,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Mg(s) + ½ O2(g) → MgO(s)"
+        "text_md": "$\\ce{Mg(s) + 1/2 O2(g) -> MgO(s)}$"
       },
       {
         "label": "B",
-        "text_md": "2 Mg(s) + O2(g) → 2 MgO(s)"
+        "text_md": "$\\ce{2 Mg(s) + O2(g) -> 2 MgO(s)}$"
       },
       {
         "label": "C",
-        "text_md": "Mg(g) + O(g) → MgO(s)"
+        "text_md": "$\\ce{Mg(g) + O(g) -> MgO(s)}$"
       },
       {
         "label": "D",
-        "text_md": "Mg2+(aq) + O2-(aq) → MgO(s)"
+        "text_md": "$\\ce{Mg^2+(aq) + O^2-(aq) -> MgO(s)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-21",
     "year": 2018,
     "level": "local",
     "number": 21,
-    "stem_md": "The enthalpy of formation of XeF2(g) is –108 kJ mol–1 and the bond dissociation enthalpy of the F–F bond is 155 kJ mol–1. What is the average bond dissociation enthalpy of a Xe–F bond?",
+    "stem_md": "The enthalpy of formation of $\\ce{XeF2(g)}$ is –108 kJ mol$^{-1}$ and the bond dissociation enthalpy of the $\\ce{F-F}$ bond is 155 kJ mol$^{-1}$. What is the average bond dissociation enthalpy of a $\\ce{Xe-F}$ bond?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -673,31 +693,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "47 kJ mol–1"
+        "text_md": "47 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "54 kJ mol–1"
+        "text_md": "54 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "132 kJ mol–1"
+        "text_md": "132 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "263 kJ mol–1"
+        "text_md": "263 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-22",
     "year": 2018,
     "level": "local",
     "number": 22,
-    "stem_md": "What is the standard Gibbs free energy of formation, ∆Gºf, of NH3(g) at 298 K? Substance ∆Hºf, kJ mol–1 Sº, J mol–1 K–1 H2(g) 0 131 N2(g) 0 192 NH3(g) –46 193",
+    "stem_md": "What is the standard Gibbs free energy of formation, $\\Delta G^\\circ_\\text{f}$, of $\\ce{NH3(g)}$ at 298 K? Substance $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ $S^\\circ$, J mol$^{-1}$ K$^{-1}$ $\\ce{H2(g)}$ 0 131 $\\ce{N2(g)}$ 0 192 $\\ce{NH3(g)}$ –46 193",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -706,31 +727,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–104 kJ mol–1"
+        "text_md": "–104 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "–16 kJ mol–1"
+        "text_md": "–16 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "–7 kJ mol–1"
+        "text_md": "–7 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "13 kJ mol–1 Page 5"
+        "text_md": "13 kJ mol$^{-1}$ Page 5"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-23",
     "year": 2018,
     "level": "local",
     "number": 23,
-    "stem_md": "The vaporization of a liquid at a certain temperature and pressure is spontaneous. For this process, which of the inequalities regarding the Gibbs free energy G and the internal energy E are correct? I. ∆G < 0 II. ∆E < ∆H",
+    "stem_md": "The vaporization of a liquid at a certain temperature and pressure is spontaneous. For this process, which of the inequalities regarding the Gibbs free energy $G$ and the internal energy $E$ are correct?\n\nI. $\\Delta G < 0$\n\nII. $\\Delta E < \\Delta H$",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -756,7 +778,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-24",
@@ -772,31 +795,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NH4+(aq) + CH3COO–(aq) → NH3(aq) + CH3COOH(aq)"
+        "text_md": "$\\ce{NH4+(aq) + CH3COO-(aq) -> NH3(aq) + CH3COOH(aq)}$"
       },
       {
         "label": "B",
-        "text_md": "CaO(s) + CO2(g) → CaCO3(s)"
+        "text_md": "$\\ce{CaO(s) + CO2(g) -> CaCO3(s)}$"
       },
       {
         "label": "C",
-        "text_md": "NH3(g) + HCl(g) → NH4+(aq) + Cl–(aq)"
+        "text_md": "$\\ce{NH3(g) + HCl(g) -> NH4+(aq) + Cl-(aq)}$"
       },
       {
         "label": "D",
-        "text_md": "C2H4(g) + Br2(l) → C2H4Br2(l)"
+        "text_md": "$\\ce{C2H4(g) + Br2(l) -> C2H4Br2(l)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-25",
     "year": 2018,
     "level": "local",
     "number": 25,
-    "stem_md": "Carbon tetrachloride is produced from methyl chloride and chlorine according to the following equation: CH3Cl(g) + 3 Cl2(g) → CCl4(g) + 3 HCl(g) If the rate of formation of CCl4 is measured to be 0.063 M min–1, what is the rate of disappearance of Cl2?",
+    "stem_md": "Carbon tetrachloride is produced from methyl chloride and chlorine according to the following equation: $\\ce{CH3Cl(g) + 3Cl2(g) -> CCl4(g) + 3HCl(g)}$ If the rate of formation of $\\ce{CCl4}$ is measured to be 0.063 M min$^{-1}$, what is the rate of disappearance of $\\ce{Cl2}$?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -805,31 +829,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "0.021 M min–1"
+        "text_md": "0.021 M min$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "0.063 M min–1"
+        "text_md": "0.063 M min$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "0.13 M min–1"
+        "text_md": "0.13 M min$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "0.19 M min–1"
+        "text_md": "0.19 M min$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-26",
     "year": 2018,
     "level": "local",
     "number": 26,
-    "stem_md": "Iodine-131 decays with a half-life of 8.02 d. In a sample initially containing 5.00 mg of 131I, what mass remains after 6.01 d?",
+    "stem_md": "Iodine-131 decays with a half-life of 8.02 d. In a sample initially containing 5.00 mg of $\\ce{^{131}I}$, what mass remains after 6.01 d?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -855,14 +880,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-27",
     "year": 2018,
     "level": "local",
     "number": 27,
-    "stem_md": "For an irreversible reaction A → products, the graph of 1/[A] as a function of time is linear. What is the reaction order in A?",
+    "stem_md": "For an irreversible reaction A → products, the graph of $1/[A]$ as a function of time is linear. What is the reaction order in A?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -888,7 +914,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-28",
@@ -921,14 +948,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-29",
     "year": 2018,
     "level": "local",
     "number": 29,
-    "stem_md": "Questions 29 and 30 concern the reaction and mechanism below. The formation of NOBr, 2 NO(g) + Br2(g) → 2 NOBr(g), is studied, and the following mechanism is proposed: NO(g) + Br2(g) NOBr2(g) fast, equilibrium NO(g) + NOBr2(g) → 2 NOBr(g) slow What rate law is predicted by this mechanism?",
+    "stem_md": "Questions 29 and 30 concern the reaction and mechanism below. The formation of $\\ce{NOBr}$, $\\ce{2NO(g) + Br2(g) -> 2NOBr(g)}$, is studied, and the following mechanism is proposed: $\\ce{NO(g) + Br2(g) <=> NOBr2(g)}$ fast, equilibrium $\\ce{NO(g) + NOBr2(g) -> 2NOBr(g)}$ slow What rate law is predicted by this mechanism?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -937,31 +965,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Rate = k[NO][Br2]"
+        "text_md": "$\\text{Rate} = k[\\ce{NO}][\\ce{Br2}]$"
       },
       {
         "label": "B",
-        "text_md": "Rate = k[NO]2[Br2]"
+        "text_md": "$\\text{Rate} = k[\\ce{NO}]^2[\\ce{Br2}]$"
       },
       {
         "label": "C",
-        "text_md": "Rate = k[NO][Br2]2"
+        "text_md": "$\\text{Rate} = k[\\ce{NO}][\\ce{Br2}]^2$"
       },
       {
         "label": "D",
-        "text_md": "Rate = k[NO]2"
+        "text_md": "$\\text{Rate} = k[\\ce{NO}]^2$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-30",
     "year": 2018,
     "level": "local",
     "number": 30,
-    "stem_md": "In this reaction, NOBr2(g) is best described as",
+    "stem_md": "In this reaction, $\\ce{NOBr2(g)}$ is best described as",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -987,14 +1016,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-31",
     "year": 2018,
     "level": "local",
     "number": 31,
-    "stem_md": "What mass of silver chloride (M = 143.4) will dissolve in 1.00 L of water? The Ksp of AgCl is 1.8 × 10–10.",
+    "stem_md": "What mass of silver chloride ($M = 143.4$) will dissolve in 1.00 L of water? The $K_\\text{sp}$ of $\\ce{AgCl}$ is $1.8 \\times 10^{-10}$.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1020,14 +1050,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-32",
     "year": 2018,
     "level": "local",
     "number": 32,
-    "stem_md": "What is the pH of a 0.20 M solution of sodium benzoate, Na(C6H5COO)? The Ka of benzoic acid, C6H5COOH, is 6.5 × 10–5.",
+    "stem_md": "What is the pH of a 0.20 M solution of sodium benzoate, $\\ce{Na(C6H5COO)}$? The $K_\\text{a}$ of benzoic acid, $\\ce{C6H5COOH}$, is $6.5 \\times 10^{-5}$.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1053,14 +1084,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-33",
     "year": 2018,
     "level": "local",
     "number": 33,
-    "stem_md": "Sulfur trioxide is formed from the reaction of sulfur dioxide and oxygen: SO2(g) + ½ O2(g) SO3(g) At 1000 K, an equilibrium mixture has partial pressures of 0.562 bar SO2, 0.101 bar O2, and 0.332 bar SO3. What is the equilibrium constant Kp for the reaction at this temperature?",
+    "stem_md": "Sulfur trioxide is formed from the reaction of sulfur dioxide and oxygen:\n\n$\\ce{SO2(g) + 1/2 O2(g) <=> SO3(g)}$\n\nAt 1000 K, an equilibrium mixture has partial pressures of 0.562 bar $\\ce{SO2}$, 0.101 bar $\\ce{O2}$, and 0.332 bar $\\ce{SO3}$. What is the equilibrium constant $K_p$ for the reaction at this temperature?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1086,14 +1118,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-34",
     "year": 2018,
     "level": "local",
     "number": 34,
-    "stem_md": "The following endothermic reaction is at equilibrium in a sealed container. PCl3(g) + Cl2(g) PCl5(g) Which of the following changes would result in an increase in the number of moles of PCl5(g) present at equilibrium? I. Increasing the temperature II. Increasing the volume",
+    "stem_md": "The following endothermic reaction is at equilibrium in a sealed container.\n\n$\\ce{PCl3(g) + Cl2(g) <=> PCl5(g)}$\n\nWhich of the following changes would result in an increase in the number of moles of $\\ce{PCl5(g)}$ present at equilibrium?\n\nI. Increasing the temperature\n\nII. Increasing the volume",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1119,14 +1152,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-35",
     "year": 2018,
     "level": "local",
     "number": 35,
-    "stem_md": "A 0.12 M solution of a monoprotic acid is 2.3% ionized. What is the Ka of this acid?",
+    "stem_md": "A 0.12 M solution of a monoprotic acid is 2.3% ionized. What is the $K_\\text{a}$ of this acid?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1152,14 +1186,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-36",
     "year": 2018,
     "level": "local",
     "number": 36,
-    "stem_md": "Calcium fluoride, CaF2, has a molar solubility of 2.1 × 10–4 mol L–1 at pH = 7.00. By what factor does its molar solubility increase in a solution with pH = 3.00? The pKa of HF is 3.17.",
+    "stem_md": "Calcium fluoride, $\\ce{CaF2}$, has a molar solubility of $2.1 \\times 10^{-4}$ mol L$^{-1}$ at pH = 7.00. By what factor does its molar solubility increase in a solution with pH = 3.00? The p$K_\\text{a}$ of $\\ce{HF}$ is 3.17.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1185,14 +1220,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 36. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-37",
     "year": 2018,
     "level": "local",
     "number": 37,
-    "stem_md": "The mineral crocidolite has the formula Na2Fe5(Si4O11)2(OH)2. How many of the iron ions per formula unit are in the +2 oxidation state and how many are in the +3 oxidation state?",
+    "stem_md": "The mineral crocidolite has the formula $\\ce{Na2Fe5(Si4O11)2(OH)2}$. How many of the iron ions per formula unit are in the +2 oxidation state and how many are in the +3 oxidation state?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1218,14 +1254,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-38",
     "year": 2018,
     "level": "local",
     "number": 38,
-    "stem_md": "What products are formed in the electrolysis of 1.0 M aqueous HBr?",
+    "stem_md": "What products are formed in the electrolysis of 1.0 M aqueous $\\ce{HBr}$?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1234,31 +1271,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2 at the cathode, Br2 at the anode"
+        "text_md": "$\\ce{H2}$ at the cathode, $\\ce{Br2}$ at the anode"
       },
       {
         "label": "B",
-        "text_md": "O2 at the cathode, H2 at the anode"
+        "text_md": "$\\ce{O2}$ at the cathode, $\\ce{H2}$ at the anode"
       },
       {
         "label": "C",
-        "text_md": "OH– at the cathode, HOBr at the anode"
+        "text_md": "$\\ce{OH-}$ at the cathode, $\\ce{HOBr}$ at the anode"
       },
       {
         "label": "D",
-        "text_md": "Br3– at the cathode, HBrO4 at the anode"
+        "text_md": "$\\ce{Br3-}$ at the cathode, $\\ce{HBrO4}$ at the anode"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-39",
     "year": 2018,
     "level": "local",
     "number": 39,
-    "stem_md": "A 1.00 g sample of a hydrogen peroxide (H2O2) solution is placed in an Erlenmeyer flask and diluted with 20 mL of 1 M aqueous sulfuric acid. To this solution is added 0.0200 M KMnO4 solution via a buret, until a pale purple color persists. This requires 22.50 mL of KMnO4 solution. What is the percent by mass of hydrogen peroxide in the original solution?",
+    "stem_md": "A 1.00 g sample of a hydrogen peroxide ($\\ce{H2O2}$) solution is placed in an Erlenmeyer flask and diluted with 20 mL of 1 M aqueous sulfuric acid. To this solution is added 0.0200 M $\\ce{KMnO4}$ solution via a buret, until a pale purple color persists. This requires 22.50 mL of $\\ce{KMnO4}$ solution. What is the percent by mass of hydrogen peroxide in the original solution?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1284,14 +1322,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-40",
     "year": 2018,
     "level": "local",
     "number": 40,
-    "stem_md": "What is the standard cell potential of the following electrochemical cell? Ni(s) | Ni2+(aq), 1.0 M || Ag+(aq), 1.0 M | Ag(s) Half-Reaction Eº, V Ni2+(aq) + 2e– → Ni(s) –0.23 Ag+(aq) + e– → Ag(s) +0.80",
+    "stem_md": "What is the standard cell potential of the following electrochemical cell? $\\ce{Ni(s) | Ni^2+(aq), 1.0 M || Ag+(aq), 1.0 M | Ag(s)}$ Half-Reaction $E^\\circ$, V $\\ce{Ni^2+(aq) + 2e- -> Ni(s)}$ –0.23 $\\ce{Ag+(aq) + e- -> Ag(s)}$ +0.80",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1317,7 +1356,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-41",
@@ -1350,7 +1390,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-42",
@@ -1383,14 +1424,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-43",
     "year": 2018,
     "level": "local",
     "number": 43,
-    "stem_md": "What is the electron configuration of the Al3+ ion?",
+    "stem_md": "What is the electron configuration of the $\\ce{Al^3+}$ ion?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1399,24 +1441,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1s22s22p6"
+        "text_md": "$1s^2 2s^2 2p^6$"
       },
       {
         "label": "B",
-        "text_md": "1s22s22p63s23p1"
+        "text_md": "$1s^2 2s^2 2p^6 3s^2 3p^1$"
       },
       {
         "label": "C",
-        "text_md": "1s22s22p63s23p4"
+        "text_md": "$1s^2 2s^2 2p^6 3s^2 3p^4$"
       },
       {
         "label": "D",
-        "text_md": "1s22s22p63s23p6"
+        "text_md": "$1s^2 2s^2 2p^6 3s^2 3p^6$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-44",
@@ -1432,24 +1475,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "K"
+        "text_md": "$\\ce{K}$"
       },
       {
         "label": "B",
-        "text_md": "Ca"
+        "text_md": "$\\ce{Ca}$"
       },
       {
         "label": "C",
-        "text_md": "Fe"
+        "text_md": "$\\ce{Fe}$"
       },
       {
         "label": "D",
-        "text_md": "Zn"
+        "text_md": "$\\ce{Zn}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-45",
@@ -1465,31 +1509,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "3.69 × 10–19 J"
+        "text_md": "$3.69 \\times 10^{-19}$ J"
       },
       {
         "label": "B",
-        "text_md": "3.69 × 10–26 J"
+        "text_md": "$3.69 \\times 10^{-26}$ J"
       },
       {
         "label": "C",
-        "text_md": "3.56 × 10–40 J"
+        "text_md": "$3.56 \\times 10^{-40}$ J"
       },
       {
         "label": "D",
-        "text_md": "1.19 × 10–48 J"
+        "text_md": "$1.19 \\times 10^{-48}$ J"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-46",
     "year": 2018,
     "level": "local",
     "number": 46,
-    "stem_md": "An orbital in a ground-state gas-phase As atom has n = 3, l = 1. How many electrons are in this orbital?",
+    "stem_md": "An orbital in a ground-state gas-phase As atom has $n = 3$, $l = 1$. How many electrons are in this orbital?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1515,7 +1560,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-47",
@@ -1548,14 +1594,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-48",
     "year": 2018,
     "level": "local",
     "number": 48,
-    "stem_md": "The acidity of the group 16 hydrides increase going down the group (H2O << H2S < H2Se < H2Te). Which is the best explanation for this trend?",
+    "stem_md": "The acidity of the group 16 hydrides increase going down the group ($\\ce{H2O} \\ll \\ce{H2S} < \\ce{H2Se} < \\ce{H2Te}$). Which is the best explanation for this trend?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1572,16 +1619,17 @@
       },
       {
         "label": "C",
-        "text_md": "The polarity of the X–H bond increases going down the group."
+        "text_md": "The polarity of the $\\ce{X-H}$ bond increases going down the group."
       },
       {
         "label": "D",
-        "text_md": "The H–X–H bond angle increases going down the group."
+        "text_md": "The $\\ce{H-X-H}$ bond angle increases going down the group."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-49",
@@ -1597,24 +1645,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "PF3"
+        "text_md": "$\\ce{PF3}$"
       },
       {
         "label": "B",
-        "text_md": "KF"
+        "text_md": "$\\ce{KF}$"
       },
       {
         "label": "C",
-        "text_md": "CH3COOH"
+        "text_md": "$\\ce{CH3COOH}$"
       },
       {
         "label": "D",
-        "text_md": "MgSO4"
+        "text_md": "$\\ce{MgSO4}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-50",
@@ -1630,31 +1679,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CS2"
+        "text_md": "$\\ce{CS2}$"
       },
       {
         "label": "B",
-        "text_md": "SO2"
+        "text_md": "$\\ce{SO2}$"
       },
       {
         "label": "C",
-        "text_md": "HCCH"
+        "text_md": "$\\ce{HCCH}$"
       },
       {
         "label": "D",
-        "text_md": "BrCN"
+        "text_md": "$\\ce{BrCN}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-51",
     "year": 2018,
     "level": "local",
     "number": 51,
-    "stem_md": "In the Lewis structure of the chlorate ion, ClO3–, how many lone pairs of electrons does the chlorine atom have?",
+    "stem_md": "In the Lewis structure of the chlorate ion, $\\ce{ClO3-}$, how many lone pairs of electrons does the chlorine atom have?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1680,14 +1730,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-52",
     "year": 2018,
     "level": "local",
     "number": 52,
-    "stem_md": "A coordination complex M(NH3)2Cl2 can be separated into a pair of geometric isomers. Is this observation consistent with a tetrahedral or a square planar geometry at the metal center?",
+    "stem_md": "A coordination complex $\\ce{M(NH3)2Cl2}$ can be separated into a pair of geometric isomers. Is this observation consistent with a tetrahedral or a square planar geometry at the metal center?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1713,14 +1764,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-53",
     "year": 2018,
     "level": "local",
     "number": 53,
-    "stem_md": "The bond in gas-phase O2 (121 pm) is significantly longer than the bond in gas-phase O2+ (112 pm). What is the best explanation for this difference?",
+    "stem_md": "The bond in gas-phase $\\ce{O2}$ (121 pm) is significantly longer than the bond in gas-phase $\\ce{O2+}$ (112 pm). What is the best explanation for this difference?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1729,31 +1781,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "O2 has one more antibonding electron than O2+."
+        "text_md": "$\\ce{O2}$ has one more antibonding electron than $\\ce{O2+}$."
       },
       {
         "label": "B",
-        "text_md": "O2 has two unpaired electrons while O2+ has one."
+        "text_md": "$\\ce{O2}$ has two unpaired electrons while $\\ce{O2+}$ has one."
       },
       {
         "label": "C",
-        "text_md": "The bond in O2 has less ionic character than the bond in O2+."
+        "text_md": "The bond in $\\ce{O2}$ has less ionic character than the bond in $\\ce{O2+}$."
       },
       {
         "label": "D",
-        "text_md": "It requires more energy to remove an electron from O2 to form O2+ than it does to remove an electron from O to form O+."
+        "text_md": "It requires more energy to remove an electron from $\\ce{O2}$ to form $\\ce{O2+}$ than it does to remove an electron from $\\ce{O}$ to form $\\ce{O+}$."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-54",
     "year": 2018,
     "level": "local",
     "number": 54,
-    "stem_md": "In the guanidinium ion, [C(NH2)3]+, what is the best description of the hybridizations of the nitrogen atoms?",
+    "stem_md": "In the guanidinium ion, $\\ce{[C(NH2)3]+}$, what is the best description of the hybridizations of the nitrogen atoms?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1779,14 +1832,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-55",
     "year": 2018,
     "level": "local",
     "number": 55,
-    "stem_md": "How many π bonds are in a molecule of propyne, C3H4?",
+    "stem_md": "How many π bonds are in a molecule of propyne, $\\ce{C3H4}$?",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1812,14 +1866,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 55. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-56",
     "year": 2018,
     "level": "local",
     "number": 56,
-    "stem_md": "How many isomers have the formula C2H2Br2?",
+    "stem_md": "How many isomers have the formula $\\ce{C2H2Br2}$?",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1845,7 +1900,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 56. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-57",
@@ -1878,14 +1934,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 57. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-58",
     "year": 2018,
     "level": "local",
     "number": 58,
-    "stem_md": "A compound with the formula C6H12 does not decolorize bromine in CHCl3 solution. Which compound could this be?",
+    "stem_md": "A compound with the formula $\\ce{C6H12}$ does not decolorize bromine in $\\ce{CHCl3}$ solution. Which compound could this be?",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1911,7 +1968,42 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2018-L-59",
+    "year": 2018,
+    "level": "local",
+    "number": 59,
+    "stem_md": "Which reaction would yield a single alkene product?",
+    "figure_url": "/figures/2018-L-59.png",
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 Local exam, question 59. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2018-L-60",
@@ -1939,11 +2031,12 @@
       },
       {
         "label": "D",
-        "text_md": "an exothermic reaction that breaks down sugars. END OF TEST AMERICAN CHEMICAL SOCIETY U.S. National Chemistry Olympiad"
+        "text_md": "an exothermic reaction that breaks down sugars."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2018 Local exam, question 60. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   }
 ]

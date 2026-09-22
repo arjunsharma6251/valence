@@ -1,0 +1,815 @@
+[
+  {
+    "id": "2019-N-P1",
+    "year": 2019,
+    "level": "national",
+    "number": 1,
+    "title": "Studtite decomposition and uranium oxidation state",
+    "topic_id": "stoichiometry",
+    "intro_md": "Studtite is a mineral that contains only hydrogen, oxygen, and a metal M. Its empirical formula is $\\ce{MO_x(H2O)_y}$, where $x$ and $y$ are integers.\n\nA 1.0000 g sample of studtite is heated at 520 ºC, which causes it to decompose to molecular oxygen, water vapor, and the solid metal trioxide $\\ce{MO3}$. The gases from this reaction are collected in a rigid container with a volume of 1.000 L. When this container is maintained at 200.0 ºC, the pressure is 355.0 mm Hg. When the container is cooled to 25.0 ºC, some of the water vapor condenses to the liquid, and the pressure in the container falls to 48.65 mm Hg. The vapor pressure of water at 25.0 ºC is 23.80 mm Hg.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate the number of moles of $\\ce{O2}$ produced in this reaction.",
+        "key_md": "At 25 ºC, some liquid water is present, so the pressure of water is equal to the vapor pressure, 23.80 mm Hg. Thus the partial pressure of $\\ce{O2}$ is 48.65 mm Hg – 23.80 mm Hg = 24.85 mm Hg. From the ideal gas law,\n\n$n = PV/RT$\n\n$n = (24.85\\ \\text{mm Hg})(1.000\\ \\text{L})/(62.36\\ \\text{L mm Hg mol}^{-1}\\text{K}^{-1})(298.15\\ \\text{K})$\n\n$n = 1.337 \\times 10^{-3}$ mol",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $P_{\\ce{O2}} = 48.65 - 23.80 = 24.85$ mm Hg"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct ideal-gas calculation giving $n(\\ce{O2}) = 1.34 \\times 10^{-3}$ mol (±2%)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the number of moles of $\\ce{H2O}$ produced in this reaction.",
+        "key_md": "At 200 ºC, the total moles of gas are given by\n\n$n = (355.0\\ \\text{mm Hg})(1.000\\ \\text{L})/(62.36\\ \\text{L mm Hg mol}^{-1}\\text{K}^{-1})(473.15\\ \\text{K}) = 0.01203$ mol\n\nThe number of moles of water vapor = $(0.01203\\ \\text{mol total gases}) - (1.337 \\times 10^{-3}\\ \\text{mol}\\ \\ce{O2}) = 0.01069$ mol.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Total moles of gas at 473.15 K = 0.0120 mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Subtracts $\\ce{O2}$ to obtain $n(\\ce{H2O}) = 0.0107$ mol (±2%)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the mass of solid $\\ce{MO3}$ produced in this reaction.",
+        "key_md": "The total mass of gaseous products = $(18.032\\ \\text{g mol}^{-1})(0.01069\\ \\text{mol}\\ \\ce{H2O}) + (32.00\\ \\text{g mol}^{-1})(1.337 \\times 10^{-3}\\ \\text{mol}\\ \\ce{O2}) = 0.2355$ g. Thus 0.7645 g $\\ce{MO3}$ remains.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Mass of gases = 0.235 g (from $\\ce{H2O}$ + $\\ce{O2}$ masses)"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass of $\\ce{MO3}$ = 1.0000 g – 0.2355 g = 0.765 g (±2%)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "What is the identity of the metal M? Support your answer.",
+        "key_md": "The balanced equation for this reaction is:\n\n$\\ce{MO_x(H2O)_y -> y H2O + (x-3)/2 O2 + MO3}$\n\nSince $x$ is an integer, the smallest amount of $\\ce{O2}$ that can be produced per mol $\\ce{MO3}$ is 0.5, or any integer multiple of this could be produced.\n\nIf $x = 4$, then $2(1.337 \\times 10^{-3}\\ \\text{mol})$ mol $\\ce{MO3}$ is present, and the molar mass of $\\ce{MO3}$ is $(0.7645\\ \\text{g})/(2.674 \\times 10^{-3}\\ \\text{mol}\\ \\ce{MO3}) = 285.9\\ \\text{g mol}^{-1}$. This would imply that the atomic mass of M is $285.9 - 3(16.00) = 237.9\\ \\text{g mol}^{-1}$. This is the atomic mass of U.\n\nIf $x = 5$, then only $1.337 \\times 10^{-3}$ mol of $\\ce{MO3}$ would be present, and the molar mass of $\\ce{MO3}$ would be twice as high, and the atomic mass of M would be over twice that of uranium. This is impossible. (Higher values of $x$ would give even higher values of the atomic mass of M.) Therefore M = U. Since $x = 4$, the 8:1 mol ratio of $\\ce{H2O}$ to $\\ce{O2}$ produced implies that $y = 4$ as well.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Writes/uses the balanced decomposition $\\ce{MO_x(H2O)_y -> y H2O + (x-3)/2 O2 + MO3}$ and argues moles of $\\ce{MO3}$ must be an integer multiple of $2 n(\\ce{O2})$"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes molar mass of $\\ce{MO3}$ = 286 g mol⁻¹ and atomic mass of M ≈ 238 g mol⁻¹"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies M = uranium (and rules out larger $x$)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "What is the oxidation state of the metal M in the mineral studtite? Explain your answer.",
+        "key_md": "Naively, one would expect that $\\ce{UO4(H2O)4}$ would have U(VIII). But this is impossible: since U has only 6 valence electrons, it cannot possibly have an oxidation state greater than +6! The only reasonable formulation is that some of the oxygens in studtite are in the form of *peroxide*, $\\ce{O2^2-}$, with an oxidation state of –1 for oxygen (not the –2 of oxide). Since it is unlikely that a strongly oxidizing species such as peroxide would coexist with a reduced oxidation state of uranium, uranium must be in its highest oxidation state, +6. Studtite should then be formulated as $\\ce{UO2(O2)(H2O)4}$. This mineral and its partially dehydrated form metastudtite, $\\ce{UO2(O2)(H2O)2}$, are the only known peroxide-containing minerals.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States oxidation state of U is +6 (U(VI))"
+          },
+          {
+            "points": 2,
+            "criterion": "Explains that U cannot exceed +6 (only 6 valence electrons), so oxygen must be present as peroxide $\\ce{O2^2-}$ (O at –1), i.e. $\\ce{UO2(O2)(H2O)4}$"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2019 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2019-N-P2",
+    "year": 2019,
+    "level": "national",
+    "number": 2,
+    "title": "Iodate solubility products and van't Hoff analysis",
+    "topic_id": "equilibrium",
+    "intro_md": "Group 2 iodates such as $\\ce{Ca(IO3)2}$ and $\\ce{Ba(IO3)2}$ are sparingly soluble compounds.\n\nThe $K_\\text{sp}$ of $\\ce{Ba(IO3)2}$ is measured by the following experiment: An aqueous solution is saturated with $\\ce{Ba(IO3)2}$ at 298 K and a 10.00 mL aliquot of this solution (free of any solid) is added to a solution containing an excess of KI in 1 M aqueous HCl, causing the solution to turn yellow. This yellow solution is then titrated with 0.0150 M $\\ce{Na2S2O3}$ solution until the color disappears; 8.00 mL of the thiosulfate solution is required to reach this endpoint.",
+    "parts": [
+      {
+        "label": "a(i)",
+        "stem_md": "Write balanced net ionic equations for\n\ni. the reaction of the saturated $\\ce{Ba(IO3)2}$ solution with the acidified KI solution",
+        "key_md": "$\\ce{IO3^-(aq) + 8 I^-(aq) + 6 H^+(aq) -> 3 I3^-(aq) + 3 H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants and products: iodate + iodide + acid giving $\\ce{I3^-}$ (or $\\ce{I2}$) and water"
+          },
+          {
+            "points": 1,
+            "criterion": "Equation correctly balanced in mass and charge"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "a(ii)",
+        "stem_md": "ii. the reaction of the yellow solution with the sodium thiosulfate solution.",
+        "key_md": "$\\ce{I3^-(aq) + 2 S2O3^2-(aq) -> 3 I^-(aq) + S4O6^2-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies $\\ce{I3^-}$ (or $\\ce{I2}$) reduced to $\\ce{I^-}$ and $\\ce{S2O3^2-}$ oxidized to $\\ce{S4O6^2-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Equation correctly balanced in mass and charge"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the $K_\\text{sp}$ of $\\ce{Ba(IO3)2}$ at 298 K.",
+        "key_md": "$(8.00 \\times 10^{-3}\\ \\text{L titrant}) \\times (0.0150\\ \\text{mol L}^{-1}) = 1.20 \\times 10^{-4}\\ \\text{mol } \\ce{S2O3^2-}$\n\n$(1.20 \\times 10^{-4}\\ \\text{mol } \\ce{S2O3^2-}) \\times (1\\ \\text{mol } \\ce{IO3^-}/6\\ \\text{mol } \\ce{S2O3^2-}) = 2.00 \\times 10^{-5}\\ \\text{mol } \\ce{IO3^-}$\n\nSo the concentration of $\\ce{IO3^-}$ in the saturated $\\ce{Ba(IO3)2}$ solution is $(2.00 \\times 10^{-5}\\ \\text{mol})/(0.01000\\ \\text{L}) = 2.00 \\times 10^{-3}$ M\n\n$[\\ce{Ba^2+}] = 0.5[\\ce{IO3^-}] = 1.00 \\times 10^{-3}$ M\n\n$K_\\text{sp} = [\\ce{Ba^2+}][\\ce{IO3^-}]^2 = (1.00 \\times 10^{-3})(2.00 \\times 10^{-3})^2 = 4.00 \\times 10^{-9}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Moles thiosulfate = $1.20 \\times 10^{-4}$ mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses 6:1 stoichiometry to get $2.00 \\times 10^{-5}$ mol $\\ce{IO3^-}$, i.e. $[\\ce{IO3^-}] = 2.00 \\times 10^{-3}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{Ba^2+}] = 1.00 \\times 10^{-3}$ M (half of iodate)"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{sp} = [\\ce{Ba^2+}][\\ce{IO3^-}]^2 = 4.0 \\times 10^{-9}$ (±5%)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "c",
+        "stem_md": "The $K_\\text{sp}$ of $\\ce{Ca(IO3)2}$ can be measured by similar experiments. A plot of $\\ln(K_\\text{sp})$ of $\\ce{Ca(IO3)2}$ as a function of $1/T$ shows two straight-line segments:\n\nfor $T$ = 317 – 363 K: $y = -330\\,x - 10.63$\n\nfor $T$ = 273 – 317 K: $y = -11400\\,x + 24.3$\n\n(where $y = \\ln(K_\\text{sp})$ and $x = 1/T$ in $\\text{K}^{-1}$)\n\nCalculate $\\Delta H^\\circ$ and $\\Delta S^\\circ$ for the dissolution of $\\ce{Ca(IO3)2}$ in the range of $T$ = 273 to 317 K.",
+        "key_md": "The figure given is a van't Hoff plot for the dissolution reaction of $\\ce{Ca(IO3)2}$, since $K_\\text{sp} = K_\\text{eq}$ for the dissolution reaction. Since $\\ln(K_\\text{eq}) = -(\\Delta G^\\circ/RT) = (-\\Delta H^\\circ/R)(1/T) + (\\Delta S^\\circ/R)$, the slope of the plot is $-\\Delta H^\\circ/R$ and the intercept is $\\Delta S^\\circ/R$.\n\n$\\Delta H^\\circ = -(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(-11400\\ \\text{K}) = 94.8\\ \\text{kJ mol}^{-1}$\n\n$\\Delta S^\\circ = (8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(24.3) = 202\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes van't Hoff relation: slope $= -\\Delta H^\\circ/R$, intercept $= \\Delta S^\\circ/R$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ = 94.8$ kJ mol$^{-1}$ (±2%)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ = 202$ J mol$^{-1}$ K$^{-1}$ (±2%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The $\\ln(K_\\text{sp})$ vs. $1/T$ plot has a break in the curve because the stable crystalline form of calcium iodate changes in the temperature range shown. At some temperatures, the stable form is anhydrous $\\ce{Ca(IO3)2}$, while at other temperatures the hexahydrate $\\ce{Ca(IO3)2 * 6H2O}$ is the stable form. Assign which form is stable at which temperatures, and justify your assignment.",
+        "key_md": "Dissolution of calcium iodate in the 317–363 K range takes place with a much smaller $\\Delta H^\\circ$ (2.7 kJ mol$^{-1}$) and much smaller (more negative) $\\Delta S^\\circ$ (–88.38 J mol$^{-1}$ K$^{-1}$) than in the 273–317 K range discussed in (c). The hexahydrate will certainly dissolve with a more positive $\\Delta S^\\circ$, since the six lattice waters will have many more degrees of freedom in bulk water than they do in the crystal lattice. Thus $\\ce{Ca(IO3)2 * 6H2O}$ must correspond to the stable phase at low temperature (273–317 K) and the anhydrous $\\ce{Ca(IO3)2}$ must be stable in the 317–363 K range.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Computes/states that the 317–363 K segment has much smaller $\\Delta H^\\circ$ (~2.7 kJ mol$^{-1}$) and more negative $\\Delta S^\\circ$ (~–88 J mol$^{-1}$ K$^{-1}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Argues that dissolving the hexahydrate releases six lattice waters and so has the more positive $\\Delta S^\\circ$ of dissolution"
+          },
+          {
+            "points": 1,
+            "criterion": "Assigns $\\ce{Ca(IO3)2 * 6H2O}$ stable at 273–317 K and anhydrous $\\ce{Ca(IO3)2}$ stable at 317–363 K"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2019 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2019-N-P3",
+    "year": 2019,
+    "level": "national",
+    "number": 3,
+    "title": "Electrochemical Ammonia Synthesis from Nitrogen",
+    "topic_id": "redox",
+    "intro_md": "There is considerable interest in producing ammonia by electrolyzing nitrogen/water mixtures (in the presence of suitable catalysts) as shown below.\n\n$$\\ce{N2(g) + 3 H2O(l) -> 2 NH3(g) + 1.5 O2(g)}$$",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Would ammonia be evolved at the cathode or the anode of this electrolytic cell?",
+        "key_md": "Nitrogen is reduced to ammonia in this cell, so ammonia is produced at the **cathode**.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States cathode (optionally noting that N is reduced)"
+          }
+        ],
+        "max_points": 1
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the standard cell potential $E^\\circ$ for this reaction at 298 K given the thermodynamic data shown.\n\nCompound: $\\ce{H2O(l)}$ — $\\Delta G^\\circ_\\text{f}$, kJ mol$^{-1}$ = –237.1\n\nCompound: $\\ce{NH3(g)}$ — $\\Delta G^\\circ_\\text{f}$, kJ mol$^{-1}$ = –16.4",
+        "key_md": "$\\Delta G^\\circ = 2(-16.4\\ \\text{kJ mol}^{-1}) - 3(-237.1\\ \\text{kJ mol}^{-1}) = 678.5\\ \\text{kJ mol}^{-1}$\n\n$\\Delta G^\\circ = -nFE^\\circ$\n\n$678500\\ \\text{J mol}^{-1} = -(6)(96500\\ \\text{C mol}^{-1})E^\\circ$\n\n$E^\\circ = -1.17\\ \\text{V}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ = +678.5$ kJ mol$^{-1}$ computed from formation free energies"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = -nFE^\\circ$ with $n = 6$"
+          },
+          {
+            "points": 1,
+            "criterion": "$E^\\circ = -1.17$ V (±0.02 V), negative sign included"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Would $E^\\circ$ for this reaction be larger or smaller in magnitude at higher temperatures?  Justify your answer.",
+        "key_md": "In the reaction, 3.5 mol of gaseous products are produced from 2 mol gaseous reagents, so $\\Delta S^\\circ$ is positive (it turns out to be 100.2 J mol$^{-1}$ K$^{-1}$).  Since $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$, if $\\Delta S^\\circ$ is positive, $\\Delta G^\\circ$ will become algebraically smaller as temperature increases.  Since $\\Delta G^\\circ$ is positive, this means that its magnitude will become smaller as $T$ increases, and hence $E^\\circ$ will become smaller in magnitude (less negative) as $T$ increases.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $\\Delta S^\\circ > 0$ (more moles of gas produced than consumed)"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes $E^\\circ$ smaller in magnitude (less negative) at higher $T$ via $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "The standard reduction potential of $\\ce{O2}$ *in acidic solution* is 1.23 V.\n\n$$\\ce{O2(g) + 4 H+(aq) + 4 e- -> 2 H2O} \\qquad E^\\circ = 1.23\\ \\text{V}$$\n\nWrite the half-reaction corresponding to the reduction of $\\ce{O2}(g)$ to water in *basic solution* and calculate the standard reduction potential.",
+        "key_md": "In basic solution,\n\n$\\ce{O2(g) + 2 H2O(l) + 4 e- -> 4 OH^-(aq)}$\n\nTo calculate $E^\\circ$, one can combine the $\\Delta G^\\circ$ values for the reduction reaction in acid solution with the $\\Delta G^\\circ$ for the autoprotolysis of water:\n\n$\\ce{O2(g) + 4 H+(aq) + 4 e- -> 2 H2O(l)}$   $\\Delta G^\\circ = -nFE^\\circ = -475$ kJ mol$^{-1}$\n\n$\\ce{4 H2O(l) -> 4 H+(aq) + 4 OH^-(aq)}$   $\\Delta G^\\circ = -RT\\ln(K_\\text{eq}) = -RT\\ln([1\\times10^{-14}]^4) = 319$ kJ mol$^{-1}$\n\n---\n\n$\\ce{O2(g) + 2 H2O(l) + 4 e- -> 4 OH^-(aq)}$   $\\Delta G^\\circ = -156$ kJ mol$^{-1}$\n\n$E^\\circ = \\Delta G^\\circ/(-nF) = (-156000\\ \\text{J mol}^{-1})/(-4F) = 0.40\\ \\text{V}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct basic half-reaction $\\ce{O2 + 2 H2O + 4 e- -> 4 OH-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correctly incorporates water autoprotolysis ($K_w$) energetics (or equivalent Nernst treatment at pH 14)"
+          },
+          {
+            "points": 1,
+            "criterion": "$E^\\circ = 0.40$ V (±0.02 V)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Write the half-reaction corresponding to the reduction of $\\ce{N2}(g)$ to $\\ce{NH3}(g)$ in basic solution and calculate the standard reduction potential.",
+        "key_md": "$\\ce{N2(g) + 6 H2O(l) + 6 e- -> 2 NH3(g) + 6 OH^-(aq)}$\n\nSince the difference in standard reduction potentials for the two half-reactions is equal to the overall $E^\\circ$, then $E^\\circ - 0.40\\ \\text{V} = -1.17\\ \\text{V}$, and $E^\\circ = -0.77\\ \\text{V}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct balanced half-reaction $\\ce{N2 + 6 H2O + 6 e- -> 2 NH3 + 6 OH-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$E^\\circ = -0.77$ V (±0.02 V) obtained from $E^\\circ_\\text{cell} = E^\\circ_\\text{cathode} - E^\\circ_\\text{anode}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "A cell for forming $\\ce{NH3}$ by electrolysis of nitrogen as described above runs for 3000 s with a current of 1.20 A and produces $1.05 \\times 10^{-3}$ mol $\\ce{NH3}$.  What is the faradaic yield of ammonia (that is, the yield of ammonia as a percentage of the maximum amount that could be formed by passage of this amount of electricity)?",
+        "key_md": "Theoretical yield of $\\ce{NH3}$ = (3000 s)(1.2 A)/(3)(96500 C mol$^{-1}$) = 0.0124 mol $\\ce{NH3}$.  The faradaic yield is thus $\\{(1.05 \\times 10^{-3}\\ \\text{mol})/(0.0124\\ \\text{mol})\\} \\times 100\\% = 8.4\\%$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Theoretical yield = 0.0124 mol $\\ce{NH3}$ using $q = It$ and 3 electrons per $\\ce{NH3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Faradaic yield = 8.4% (±0.2%)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2019 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2019-N-P4",
+    "year": 2019,
+    "level": "national",
+    "number": 4,
+    "title": "Ascorbic acid oxidation by ferricyanide kinetics",
+    "topic_id": "kinetics",
+    "intro_md": "Ascorbic acid (Vitamin C, abbreviated HAsc) is a weak acid with $pK_a = 4.10$. It is readily oxidized to form dehydroascorbic acid. One reagent that can carry out this oxidation is the ferricyanide ion, $\\ce{Fe(CN)6^3-}$.\n\n(Structures shown: Ascorbic acid, HAsc, $\\ce{C6H8O6}$ — a lactone ring bearing an enediol (two OH groups on the C=C) with a $\\ce{CH(OH)CH2OH}$ side chain; Dehydroascorbic acid, $\\ce{C6H6O6}$ — the same ring with the two enediol OH groups oxidized to two C=O groups.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Write a balanced net ionic equation for the reaction of $\\ce{Fe(CN)6^3-}$ with HAsc in acidic solution.",
+        "key_md": "$\\ce{C6H8O6(aq) + 2 Fe(CN)6^3-(aq) -> C6H6O6(aq) + 2 Fe(CN)6^4-(aq) + 2 H+(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants and products: $\\ce{C6H8O6}$ + $\\ce{Fe(CN)6^3-}$ giving $\\ce{C6H6O6}$ + $\\ce{Fe(CN)6^4-}$ + $\\ce{H+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Equation balanced in mass and charge (2 $\\ce{Fe(CN)6^3-}$ and 2 $\\ce{H+}$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "The rate of this reaction can be followed by measuring $[\\ce{Fe(CN)6^3-}]$ through its absorbance at 416 nm, where bright yellow $\\ce{Fe(CN)6^3-}$ absorbs light strongly and all the other colorless components of the reaction do not.  Two runs were conducted with $[\\ce{H+}] = 0.06$ M and an initial $[\\ce{Fe(CN)6^3-}] = 5.22 \\times 10^{-4}$ M, but with different HAsc concentrations.  Plots of $\\ln([\\ce{Fe(CN)6^3-}])$ as a function of time for the two runs are shown below.\n\nWhat is the rate law for this reaction at $[\\ce{H+}] = 0.06$ M?  Explain your reasoning.",
+        "key_md": "The limiting reagent is $\\ce{Fe(CN)6^3-}$, with a large excess of both $\\ce{H+}$ and HAsc present (pseudo-first-order conditions).  Since the natural logarithm of its concentration decays linearly with time, the reaction is first order in $\\ce{Fe(CN)6^3-}$.  When the concentration of HAsc is increased by a factor of (0.0152 M/0.00507 M) = 3.00, the observed rate constant (= –slope) increases by a factor of (0.0132/0.00443) = 2.98.  Thus the rate is linearly dependent on [HAsc].\n\n$\\therefore$ Rate = $k[\\text{HAsc}][\\ce{Fe(CN)6^3-}]$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States rate law Rate = k[HAsc][Fe(CN)6^3-] (first order in each)"
+          },
+          {
+            "points": 2,
+            "criterion": "Justifies first order in Fe(CN)6^3- from the linearity of ln([Fe(CN)6^3-]) vs. time (pseudo-first-order conditions)"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies first order in HAsc by noting the slope (observed rate constant) increases by ~3.0 when [HAsc] is tripled"
+          }
+        ],
+        "max_points": 4,
+        "figure_url": "/figures/2019-N-P4-f2.png"
+      },
+      {
+        "label": "c",
+        "stem_md": "What is the rate constant for this reaction at $[\\ce{H+}] = 0.06$ M?  Make sure to include units.",
+        "key_md": "Rate = $k[\\text{HAsc}][\\ce{Fe(CN)6^3-}] = k_\\text{obs}[\\ce{Fe(CN)6^3-}]$, where $k_\\text{obs}$ = –slope of the $\\ln([\\ce{Fe(CN)6^3-}])$ vs. time plot.  So $k[\\text{HAsc}] = k_\\text{obs}$, $k = k_\\text{obs}/[\\text{HAsc}]$.  From the first run, $k = (0.00443\\ \\text{s}^{-1})/(0.00507\\ \\text{M}) = 0.874\\ \\text{M}^{-1}\\ \\text{s}^{-1}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes k_obs = –slope and k = k_obs/[HAsc]"
+          },
+          {
+            "points": 2,
+            "criterion": "Numeric answer k ≈ 0.87 M^-1 s^-1 (0.85–0.90) with correct units"
+          }
+        ],
+        "max_points": 3,
+        "figure_url": "/figures/2019-N-P4-f2.png"
+      },
+      {
+        "label": "d",
+        "stem_md": "The behavior of the reaction varies with the acidity of the solution.  Five runs were conducted at [HAsc] = 0.00507 M and an initial $[\\ce{Fe(CN)6^3-}] = 5.22 \\times 10^{-4}$ M, but at varying $[\\ce{H+}]$.  For each run, $\\ln([\\ce{Fe(CN)6^3-}])$ was plotted as a function of time and the slope of the plot was measured.  The slope was multiplied by –1 and its variation as a function of $[\\ce{H+}]$ is graphed below.\n\nPropose a mechanistic explanation for the effect of $[\\ce{H+}]$ on the reaction kinetics.  Be sure to explain how your mechanistic explanation qualitatively predicts the appearance of the plot.",
+        "key_md": "Evidently the reaction goes faster at low $[\\ce{H+}]$, but even at high $[\\ce{H+}]$, the rate levels off at a finite value rather than approaching zero.  This is not consistent with a simple inverse order in $\\ce{H+}$, but rather a two-term rate law:\n\n$$k_\\text{obs} = k_1 + k_2/[\\ce{H+}]$$\n\nA plausible explanation is that either HAsc or its conjugate base can react with $\\ce{Fe(CN)6^3-}$, with $\\ce{Asc-}$ reacting much more rapidly than HAsc.  As $[\\ce{H+}]$ decreases, the amount of $\\ce{Asc-}$ increases and hence the rate increases.  Even at the highest pH studied, pH $\\ll$ p$K_\\text{a}$, so only a small fraction of the HAsc is in its conjugate base form, and $[\\ce{Asc-}]$ is proportional to $1/[\\ce{H+}]$ under these conditions.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Proposes that both HAsc and its conjugate base Asc^- react with Fe(CN)6^3-, with Asc^- reacting much faster (parallel pathways)"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes [Asc^-] is proportional to 1/[H+] (since pH << pKa), so the rate rises as [H+] decreases"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains the leveling off at high [H+] via a two-term rate law k_obs = k_1 + k_2/[H+] (nonzero limiting rate)"
+          }
+        ],
+        "max_points": 4,
+        "figure_url": "/figures/2019-N-P4-f3.png"
+      }
+    ],
+    "source": "USNCO 2019 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2019-N-P4-f1.png"
+  },
+  {
+    "id": "2019-N-P5",
+    "year": 2019,
+    "level": "national",
+    "number": 5,
+    "title": "Net ionic equations for six reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances. You need not balance the equations.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Aqueous solutions of propanoic acid and potassium cyanide are combined.",
+        "key_md": "$\\ce{CH3CH2COOH(aq) + CN^-(aq) -> CH3CH2COO^-(aq) + HCN(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants: propanoic acid (molecular) and $\\ce{CN^-}$ as the only reacting ion (spectator $\\ce{K+}$ omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products: propanoate ion $\\ce{CH3CH2COO^-}$ and $\\ce{HCN}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Solid silver chloride is treated with concentrated aqueous ammonia.",
+        "key_md": "$\\ce{AgCl(s) + NH3(aq) -> Ag(NH3)2^+(aq) + Cl^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{AgCl(s)}$ and $\\ce{NH3(aq)}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Ag(NH3)2^+}$ (diammine complex) and $\\ce{Cl^-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Aqueous sodium sulfite is heated with elemental sulfur.",
+        "key_md": "$\\ce{SO3^2-(aq) + S8(s) -> S2O3^2-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{SO3^2-}$ and elemental sulfur ($\\ce{S8}$ or $\\ce{S}$), $\\ce{Na+}$ omitted"
+          },
+          {
+            "points": 1,
+            "criterion": "Product thiosulfate $\\ce{S2O3^2-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Solid copper(II) sulfate is added to a potassium iodide solution.",
+        "key_md": "$\\ce{CuSO4(s) + H+(aq) + I^-(aq) -> CuI(s) + I3^-(g) + HSO4^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{CuSO4(s)}$ and $\\ce{I^-(aq)}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Products include $\\ce{CuI(s)}$ and $\\ce{I3^-}$ (or $\\ce{I2}$) plus sulfate/bisulfate"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Aniline is added to a cold acidified solution of sodium nitrite. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Structural equation: aniline (benzene ring bearing $\\ce{NH2}$) $+\\ \\ce{HNO2(aq)} + \\ce{H+(aq)} \\longrightarrow$ benzenediazonium ion (benzene ring bearing $\\ce{-N#N+}$, positive formal charge on the nitrogen attached to the ring) $+\\ \\ce{H2O(l)}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Aniline drawn/written as structure reacting with $\\ce{HNO2}$ (nitrous acid) and $\\ce{H+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Product benzenediazonium ion $\\ce{C6H5N2+}$ (with charge shown) plus $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Uranium-235 undergoes nuclear fission to form barium-141 and krypton-92.",
+        "key_md": "$\\ce{^{235}_{92}U + ^{1}_{0}n -> ^{141}_{56}Ba + ^{92}_{36}Kr + 3 ^{1}_{0}n}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Neutron-induced fission written with correct nuclide symbols $\\ce{^{235}_{92}U}$, $\\ce{^{141}_{56}Ba}$, $\\ce{^{92}_{36}Kr}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass/charge balanced with 3 neutrons released"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2019 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2019-N-P6",
+    "year": 2019,
+    "level": "national",
+    "number": 6,
+    "title": "Beryllium versus barium: periodic trends and dimerization",
+    "topic_id": "bonding",
+    "intro_md": "The chemistry of beryllium (Be) has a number of interesting features.",
+    "parts": [
+      {
+        "label": "a(i)",
+        "stem_md": "Explain the differences between Be and its heavier congener, barium (Ba), with regard to the following property.\n\ni. Be has a higher ionization energy (900 kJ mol$^{-1}$) than Ba (563 kJ mol$^{-1}$).",
+        "key_md": "The electron ionized in Be is a $2s$ electron, while Ba loses a $6s$ electron. The higher value of $n$ corresponds to a higher energy, requiring less energy to remove.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the ionized electrons as Be $2s$ vs. Ba $6s$ (higher $n$ / farther from nucleus, more shielded)"
+          },
+          {
+            "points": 1,
+            "criterion": "States that the higher-$n$ (Ba) electron is higher in energy / less tightly held, so less energy is required to remove it"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "a(ii)",
+        "stem_md": "ii. Adding an electron to a gas-phase Be atom requires energy, while adding an electron to a gas-phase Ba atom releases a small amount of energy (14 kJ mol$^{-1}$).",
+        "key_md": "Since both Be and Ba have an $ns^2$ configuration, an added electron must enter a new subshell, which is higher in energy. The $2p$ subshell that would be occupied for Be is much higher in energy, but the next available orbital for Ba is a $5d$ orbital, which is closer in energy to the $6s$ subshell.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes both have filled $ns^2$ configurations so the added electron must enter a new, higher-energy subshell"
+          },
+          {
+            "points": 1,
+            "criterion": "Compares Be $2p$ (much higher in energy) with Ba $5d$ (close in energy to $6s$), explaining the favorable electron addition for Ba"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "a(iii)",
+        "stem_md": "iii. BeCl$_2$(s) has a more positive $\\Delta H^\\circ_\\text{f}$ (–496.2 kJ mol$^{-1}$) than BaCl$_2$(s) (–858.6 kJ mol$^{-1}$)",
+        "key_md": "Ba is more electropositive than Be, so it costs much less energy to remove its valence electrons to form the 2+ ion. This difference outweighs the somewhat higher lattice energy of BeCl$_2$ than BaCl$_2$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States Ba is more electropositive / has much lower ionization energies, so forming Ba$^{2+}$ costs far less energy"
+          },
+          {
+            "points": 1,
+            "criterion": "States that this ionization-energy difference outweighs the larger (more favorable) lattice energy of BeCl$_2$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "a(iv)",
+        "stem_md": "Explain the differences between Be and its heavier congener, barium (Ba), with regard to the following properties.\n\niv. Solid $\\ce{BeCl2}$ adopts the structure shown on the left, while solid $\\ce{BaCl2}$ adopts the structure shown on the right (metal = black spheres, chlorine = gray spheres).",
+        "key_md": "Be can only form 4 bonds, so it can only adopt the left structure. The larger $\\ce{Ba^2+}$ ion can easily achieve the coordination number of 8 required by the right-hand structure.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that Be (small, only 4 available bonds/orbitals) is limited to a maximum coordination number of 4, so it must adopt the left-hand (chain) structure"
+          },
+          {
+            "points": 1,
+            "criterion": "States that the larger $\\ce{Ba^2+}$ ion can accommodate the coordination number of 8 required by the right-hand structure"
+          }
+        ],
+        "max_points": 2,
+        "figure_url": "/figures/2019-N-P6-f1.png"
+      },
+      {
+        "label": "b",
+        "stem_md": "In the vapor phase, BeCl$_2$ exists as a mixture of BeCl$_2$ monomers and Be$_2$Cl$_4$ dimers. Draw or clearly describe the geometries of these two gas-phase species. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Monomer: a linear molecule, $\\ce{Cl-Be-Cl}$.\n\nDimer: two Be atoms bridged by two chlorine atoms forming a planar four-membered Be–Cl–Be–Cl ring, with one terminal Cl on each Be (each Be is three-coordinate, roughly trigonal planar).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Monomer drawn/described as linear $\\ce{Cl-Be-Cl}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Dimer drawn/described with two bridging Cl atoms forming a four-membered ring and one terminal Cl on each Be"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "At 800 K, $K_\\text{p}$ for dimerization of BeCl$_2$(g) is 2.9.\n\n$\\ce{2 BeCl2(g) <=> Be2Cl4(g)}$  $K_\\text{p} = 2.9$\n\nCalculate the mole fraction of dimeric Be$_2$Cl$_4$ in BeCl$_2$ vapor at a total pressure of 0.100 bar at 800 K.",
+        "key_md": "Let $P_\\text{M}$ = partial pressure of monomeric BeCl$_2$(g)\n\n$P_\\text{D}$ = partial pressure of dimeric Be$_2$Cl$_4$(g)\n\n$P_\\text{D}/P_\\text{M}^2 = 2.9$\n\n$0.100 - P_\\text{M} = 2.9 P_\\text{M}^2$\n\n$2.9 P_\\text{M}^2 + P_\\text{M} - 0.100 = 0$\n\nSolving gives $P_\\text{M} = 0.081$ bar, and therefore $P_\\text{D} = 0.100$ bar $-$ 0.081 bar $= 0.019$ bar. The mole fraction of the dimer is $P_\\text{D}/0.100$ bar $= 0.19$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up $K_\\text{p} = P_\\text{D}/P_\\text{M}^2 = 2.9$ with $P_\\text{M} + P_\\text{D} = 0.100$ bar"
+          },
+          {
+            "points": 1,
+            "criterion": "Solves the quadratic $2.9P_\\text{M}^2 + P_\\text{M} - 0.100 = 0$ to get $P_\\text{M} \\approx 0.081$ bar, $P_\\text{D} \\approx 0.019$ bar"
+          },
+          {
+            "points": 1,
+            "criterion": "Reports mole fraction of dimer $= 0.19$ ($\\pm 0.01$)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2019 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2019-N-P7",
+    "year": 2019,
+    "level": "national",
+    "number": 7,
+    "title": "Borazine Lewis structures, B–N bonding, boiling points",
+    "topic_id": "bonding",
+    "intro_md": "Borazine, $\\ce{B3N3H6}$, has a structure consisting of a six-membered ring with alternating BH and NH groups.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw a Lewis structure for borazine, including nonzero formal charges if needed. Show all major resonance structures of borazine. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Three resonance structures are drawn for the six-membered ring of alternating B and N atoms, each B bearing one H and each N bearing one H:\n\n- **Minor structure:** all six ring bonds are single bonds; each N carries a lone pair; each B has only six electrons (electron deficient); all formal charges zero. (labeled *minor*)\n- **Two major structures:** the two \"Kekulé-like\" forms in which three alternating B–N bonds are double bonds. In each of these, every N that is doubly bonded carries a formal charge of $+1$ and every B that is doubly bonded carries a formal charge of $-1$, so each atom has a complete octet. The two structures differ in which set of three B=N bonds is doubled, and they are related by a double-headed resonance arrow. (labeled *major*)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Six-membered ring with alternating B–H and N–H units drawn correctly"
+          },
+          {
+            "points": 1,
+            "criterion": "All-single-bond structure shown with N lone pairs / electron-deficient B (the minor contributor)"
+          },
+          {
+            "points": 1,
+            "criterion": "Both B=N double-bonded resonance structures shown with formal charges $\\ce{B^-}$ and $\\ce{N^+}$ (identified as major)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Two other compounds containing boron, nitrogen, and hydrogen are $\\ce{BH3NH3}$ and $\\ce{BH2NH2}$. Draw Lewis structures for these two compounds, again including any formal charges and major resonance structures. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{BH3NH3}$: a single B–N bond, with three H on B and three H on N; formal charges $\\ce{B^-}$ and $\\ce{N^+}$ (i.e., $\\ce{H3B^{-}-N^{+}H3}$). Both atoms have octets; only this one structure.\n\n$\\ce{BH2NH2}$: a B=N double bond with two H on B and two H on N; formal charges $\\ce{B^-}$ and $\\ce{N^+}$ (i.e., $\\ce{H2B^{-}=N^{+}H2}$).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\ce{BH3NH3}$ drawn with a single B–N (dative) bond and 3 H on each atom"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{BH2NH2}$ drawn with a B=N double bond and 2 H on each atom"
+          },
+          {
+            "points": 1,
+            "criterion": "Formal charges shown: negative on B, positive on N, in both structures"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "The B–N distances in $\\ce{B3N3H6}$, $\\ce{BH3NH3}$, and $\\ce{BH2NH2}$ are 139.1, 142.9, and 156.4 pm (not necessarily in that order). Assign each B–N distances to the proper compound and explain your reasoning.",
+        "key_md": "$\\ce{BH3NH3}$, 156.4 pm\n\n$\\ce{B3N3H6}$, 142.9 pm\n\n$\\ce{BH2NH2}$, 139.1 pm\n\nFrom the Lewis structures, the bond order increases (from 1 to 1.5 to 2) in the order listed, with the bond lengths decreasing accordingly.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "All three assignments correct: $\\ce{BH3NH3}$ = 156.4 pm, $\\ce{B3N3H6}$ = 142.9 pm, $\\ce{BH2NH2}$ = 139.1 pm"
+          },
+          {
+            "points": 1,
+            "criterion": "Explanation based on increasing B–N bond order (1, 1.5, 2) giving shorter bonds"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Typically, when one replaces a hydrogen attached to N with a $\\ce{CH3}$ group, the boiling point of the compound decreases. For example, piperazine has a normal boiling point of 146 ºC while N-methylpiperazine has a normal boiling point of 138 ºC. Explain this observation.",
+        "key_md": "In piperazine, the N–H hydrogen can act as a hydrogen bond donor to another nitrogen lone pair. Changing the H to $\\ce{CH3}$ thus decreases the amount of hydrogen bonding and weakens the intermolecular forces. This effect outweighs the increase in London dispersion forces in the $\\ce{-CH3}$ derivative.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the N–H acts as a hydrogen bond donor and methylation removes/reduces hydrogen bonding"
+          },
+          {
+            "points": 1,
+            "criterion": "States that this loss outweighs the increased London dispersion forces of the $\\ce{CH3}$ group"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "In contrast to the situation in (d), when one N-H group in borazine (bp = 55 ºC) is changed to an N-CH3 group, the normal boiling point of N-methylborazine increases significantly, to 84 ºC. Explain why the usual trend in boiling points is not observed for borazine and N-methylborazine.",
+        "key_md": "Borazine has no hydrogen bond acceptors! There are not really any lone pairs on nitrogen since they are involved in π donation to the boron atoms. So the N–H hydrogens do not participate in hydrogen bonding, and converting them to $\\ce{CH3}$ groups leads only to an increase in London dispersion forces and a corresponding increase in boiling point.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Explains that the N lone pairs are delocalized (π donation to B), so borazine has no H-bond acceptor and no hydrogen bonding"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes that methylation only increases London dispersion forces, raising the boiling point"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2019 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2019-N-P8",
+    "year": 2019,
+    "level": "national",
+    "number": 8,
+    "title": "Grignard Synthesis and Alkene Dehydration",
+    "topic_id": "organic",
+    "intro_md": "Consider the following sequence of reactions:\n\n$\\ce{CH3CH2Br ->[\\ce{Mg}][\\ce{Et2O}] CH3CH2MgBr ->[\\ce{CH3CHO}] \\mathbf{X}}$\n\n$\\mathbf{X} \\ce{->[\\text{dilute aqueous HCl}] \\mathbf{Y}}$\n\n$\\mathbf{Y} \\ce{->[\\ce{H2SO4}][\\text{heat}]}$ three isomers of $\\ce{C4H8}$",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "If the diethyl ether used in the reaction of ethyl bromide with magnesium metal is not scrupulously dry, $\\ce{CH3CH2MgBr}$ is not formed in good yield. What organic product is formed if wet diethyl ether is used?",
+        "key_md": "Ethane, $\\ce{C2H6}$ (the Grignard reagent is very basic and is easily protonated by water)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies ethane ($\\ce{C2H6}$) as the organic product"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes it to protonation of the very basic Grignard reagent by water"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Give the structures of compounds $\\mathbf{X}$ and $\\mathbf{Y}$. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\mathbf{X}$ = the magnesium alkoxide of 2-butanol, $\\ce{CH3CH2CH(OMgBr)CH3}$ (drawn as a four-carbon chain bearing an $\\ce{OMgBr}$ group on C2)\n\n$\\mathbf{Y}$ = 2-butanol, $\\ce{CH3CH2CH(OH)CH3}$ (drawn as a four-carbon chain bearing an $\\ce{OH}$ group on C2)",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "$\\mathbf{X}$ given as the 2-butoxide magnesium bromide salt, $\\ce{CH3CH2CH(OMgBr)CH3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\mathbf{Y}$ given as 2-butanol, $\\ce{CH3CH2CH(OH)CH3}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Give the structures of the three isomers of $\\ce{C4H8}$ formed in the final reaction. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The three structures drawn are 1-butene ($\\ce{CH2=CHCH2CH3}$), *trans*-2-butene ($\\ce{CH3CH=CHCH3}$ with the two methyl groups on opposite sides of the double bond), and *cis*-2-butene ($\\ce{CH3CH=CHCH3}$ with the two methyl groups on the same side of the double bond).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "1-butene drawn/named"
+          },
+          {
+            "points": 1,
+            "criterion": "*trans*-2-butene drawn with correct geometry"
+          },
+          {
+            "points": 1,
+            "criterion": "*cis*-2-butene drawn with correct geometry"
+          },
+          {
+            "points": 1,
+            "criterion": "All three are $\\ce{C4H8}$ isomers consistent with dehydration of 2-butanol (no rearranged/branched isomer)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "State which isomer of $\\ce{C4H8}$ is formed in the greatest quantity in this reaction, and explain why.",
+        "key_md": "The middle compound, *trans*-2-butene, is formed in the greatest quantity. It is the most stable of the three alkenes (most highly substituted, and more stable geometric isomer).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies *trans*-2-butene as the major product"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes it is the most highly substituted alkene (Zaitsev/most stable)"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes trans is the more stable geometric isomer (less steric strain) than cis"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2019 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

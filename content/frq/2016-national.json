@@ -1,0 +1,760 @@
+[
+  {
+    "id": "2016-N-P1",
+    "year": 2016,
+    "level": "national",
+    "number": 1,
+    "title": "Unknown Carbon–Oxygen–Chlorine Compound Identification",
+    "topic_id": "stoichiometry",
+    "intro_md": "An unknown compound **A** contains only carbon, oxygen, and chlorine.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "A 3.00 g sample of **A** is completely vaporized in a 1.00 L container at 70.0 ºC and exerts a pressure of 0.854 atm. What is the molar mass of **A**?",
+        "key_md": "$n = PV/RT = (0.854\\ \\text{atm})(1.00\\ \\text{L})/(0.0821\\ \\text{L atm mol}^{-1}\\text{K}^{-1})(343.2\\ \\text{K}) = 0.0303\\ \\text{mol}$\n\n$3.00\\ \\text{g}/0.0303\\ \\text{mol} = 99.0\\ \\text{g/mol}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $n = PV/RT$ with $T = 343.2$ K to obtain $n \\approx 0.0303$ mol"
+          },
+          {
+            "points": 2,
+            "criterion": "Molar mass $= 99.0$ g/mol (±1 g/mol)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "A 0.300 g sample of **A** is added to 100 mL water, which results in the conversion of all the chlorine in **A** to HCl. After briefly bubbling nitrogen gas through the solution, the hydrochloric acid is titrated with 0.2000 M NaOH solution. The titration requires 30.33 mL added NaOH to reach a phenolphthalein endpoint. What is the mass percentage of chlorine in compound **A**?",
+        "key_md": "$0.03033\\ \\text{L NaOH soln} \\times 0.2000\\ \\text{mol L}^{-1} = 0.06066\\ \\text{mol NaOH}$\n\nThere were thus $0.06066\\ \\text{mol Cl} \\times 35.45\\ \\text{g mol}^{-1} = 0.2150\\ \\text{g Cl}$ in the sample\n\n$(0.2150\\ \\text{g Cl}/0.300\\ \\text{g sample}) \\times 100\\% = 71.7\\%$ Cl by mass",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Moles NaOH = moles HCl = moles Cl = $6.066 \\times 10^{-3}$ mol (accepting the key's stated value)"
+          },
+          {
+            "points": 1,
+            "criterion": "Converts to mass of Cl ($0.2150$ g)"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass percent Cl $= 71.7\\%$ (±0.5%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Propose a molecular formula for **A** and draw a reasonable Lewis structure for it *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "In 99.0 g (1 mol) **A**, there is $(0.717 \\times 99.0\\ \\text{g})/(35.45\\ \\text{g mol}^{-1}\\ \\ce{Cl}) = 2$ mol Cl\n\nThe remaining mass in 1 mol **A** is $99.0\\ \\text{g mol}^{-1} - (2 \\times 35.45\\ \\text{g mol}^{-1}) = 28.1\\ \\text{g mol}^{-1}$\n\nThe only combination of atomic masses of C and O that is close to 28 g mol$^{-1}$ is $\\ce{C1O1}$.\n\nSo the molecular formula is $\\ce{COCl2}$:\n\nLewis structure: central C with a double bond to O (O bearing two lone pairs) and single bonds to two Cl atoms, each Cl bearing three lone pairs; trigonal planar about carbon.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Shows that 2 mol Cl per mole leaves ~28 g/mol for C + O, i.e. one C and one O"
+          },
+          {
+            "points": 1,
+            "criterion": "Molecular formula $\\ce{COCl2}$"
+          },
+          {
+            "points": 2,
+            "criterion": "Correct Lewis structure: C=O double bond, two C–Cl single bonds, lone pairs on O (2) and each Cl (3), octets satisfied"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "Write a balanced equation for the reaction of **A** with water (as described in part (b)).",
+        "key_md": "$\\ce{COCl2(g) + H2O(l) -> CO2(g) + 2 HCl(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{CO2}$ and $\\ce{HCl}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Equation balanced: $\\ce{COCl2 + H2O -> CO2 + 2 HCl}$"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2016 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2016-N-P2",
+    "year": 2016,
+    "level": "national",
+    "number": 2,
+    "title": "Acetic acid/acetate buffer pH calculations",
+    "topic_id": "equilibrium",
+    "intro_md": "A buffer solution is prepared from 1.00 L of 0.0500 M $\\ce{CH3COOH}$ ($K_\\text{a} = 1.8 \\times 10^{-5}$) and 2.50 g sodium acetate, $\\ce{Na(CH3COO)}$.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What is the pH of this solution?",
+        "key_md": "$1.00\\ \\text{L} \\times 0.050\\ \\text{mol L}^{-1} = 0.0500\\ \\text{mol } \\ce{CH3COOH}$\n\n$2.50\\ \\text{g } \\ce{Na[CH3COO]}/82.04\\ \\text{g mol}^{-1} = 0.0305\\ \\text{mol } \\ce{CH3COO-}$\n\n$\\text{pH} = \\text{p}K_\\text{a} + \\log([\\ce{CH3COO-}]/[\\ce{CH3COOH}]) = 4.74 + \\log(0.0305/0.0500) = 4.53$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct moles of acetate from 2.50 g / 82.04 g mol⁻¹ = 0.0305 mol (and 0.0500 mol acid)"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses Henderson–Hasselbalch with $\\text{p}K_\\text{a} = 4.74$"
+          },
+          {
+            "points": 1,
+            "criterion": "pH = 4.53 (±0.03)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "1.00 mL of a 1.00 M solution of hydrochloric acid is added to the buffer. Write an equation for the major reaction that takes place, and calculate the pH after addition.",
+        "key_md": "$\\ce{CH3COO-}(aq) + \\ce{H3O+}(aq) \\rightarrow \\ce{CH3COOH}(aq) + \\ce{H2O}(l)$ [very favorable]\n\n$\\text{pH} = 4.74 + \\log(\\{0.0305 - 0.001\\}/\\{0.0500 + 0.001\\}) = 4.50$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct major reaction: acetate + $\\ce{H3O+}$ (or $\\ce{H+}$) → acetic acid + water"
+          },
+          {
+            "points": 1,
+            "criterion": "Correctly adjusts moles by 0.001 mol (acetate 0.0295, acid 0.0510)"
+          },
+          {
+            "points": 1,
+            "criterion": "pH = 4.50 (±0.03)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the mass of sodium hydroxide that would need to be added to 1.00 L of 0.050 M $\\ce{CH3COOH}$ to produce a solution with the same pH as the original buffer.",
+        "key_md": "To achieve the same pH, one would need the same ratio of conjugate acid to conjugate base, so $(\\text{mol } \\ce{CH3COOH})/(\\text{mol } \\ce{CH3COO-}) = 1.64$.\n\nIf $x$ is the number of mol NaOH added, then $(0.0500\\ \\text{mol} - x)/x = 1.64$\n\n$0.0500\\ \\text{mol} = 2.64x$\n\n$x = 0.0189\\ \\text{mol NaOH}$\n\n$0.0189\\ \\text{mol NaOH} \\times 40.0\\ \\text{g mol}^{-1} = 0.756\\ \\text{g NaOH}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes the same pH requires the same acid/base ratio (1.64)"
+          },
+          {
+            "points": 1,
+            "criterion": "Sets up $(0.0500 - x)/x = 1.64$ accounting for NaOH converting acid to acetate"
+          },
+          {
+            "points": 1,
+            "criterion": "$x = 0.0189$ mol NaOH (±0.001)"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass = 0.756 g NaOH (±0.03 g)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "Suppose the buffer had been made with 1.00 L of 0.0500 M chloroacetic acid, $\\ce{ClCH2COOH}$, and 2.50 g sodium chloroacetate, $\\ce{Na(ClCH2COO)}$. Compared to the original buffer, would this buffer have a lower pH, a higher pH, or the same pH, or can one not draw a qualitative conclusion without quantitative information about the $K_\\text{a}$ of $\\ce{ClCH2COOH}$? Justify your answer.",
+        "key_md": "The electron-withdrawing character of Cl compared with H means that $\\ce{ClCH2COOH}$ will be more acidic (have a lower $\\text{p}K_\\text{a}$) than $\\ce{CH3COOH}$. The higher molar mass of $\\ce{Na(ClCH2COO)}$ means that one is adding fewer moles of base to the chloroacetic acid buffer than one did to the acetic acid buffer (the number of moles of acid are the same in both cases). Both these factors will contribute to a lower pH of the $\\ce{ClCH2COOH}/\\ce{ClCH2COO-}$ buffer.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the pH is lower"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies with electron-withdrawing Cl lowering $\\text{p}K_\\text{a}$ (and/or fewer moles of conjugate base due to higher molar mass of the salt)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2016 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2016-N-P3",
+    "year": 2016,
+    "level": "national",
+    "number": 3,
+    "title": "Lead acid battery thermodynamics and Nernst equation",
+    "topic_id": "redox",
+    "intro_md": "The lead acid storage battery is commonly used in cars. In dilute solutions, the overall reaction of a cell in this battery is:\n\n$\\ce{Pb(s) + PbO2(s) + 4 H+(aq) + 2 SO4^2-(aq) -> 2 PbSO4(s) + 2 H2O(l)}$\n\nThe variation of the standard cell potential $E^\\circ$ with temperature is shown below (plot of $E^\\circ$, V, from about 1.98 V to 2.08 V versus $T$, K, from 250 K to 320 K; the data fall on the straight line $y = 1.64 + 0.00138x$, with $y = E^\\circ$ in V and $x = T$ in K).",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Sketch the setup of a cell of the lead acid storage battery, clearly showing the location of all components. Label the cathode and the anode and indicate the direction of flow of electrons through the external circuit as the cell is discharged. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "A drawing of a single container holding aqueous $\\ce{H2SO4}$, with two electrodes dipping into it: a $\\ce{PbO2}$ electrode labeled **cathode** and a $\\ce{Pb}$ electrode labeled **anode**. Both electrodes are coated with deposits of $\\ce{PbSO4}(s)$ (shown as small circles on the electrode surfaces). The two electrodes are connected by an external wire, and the arrow on the wire shows electrons ($e^-$) flowing from the Pb anode to the $\\ce{PbO2}$ cathode through the external circuit.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Both electrodes identified in the same aqueous $\\ce{H2SO4}$ electrolyte: $\\ce{PbO2}$ and $\\ce{Pb}$ (with $\\ce{PbSO4}$ deposits acceptable/expected)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{PbO2}$ labeled as cathode and $\\ce{Pb}$ labeled as anode"
+          },
+          {
+            "points": 1,
+            "criterion": "External circuit drawn with electron flow indicated from the Pb anode to the $\\ce{PbO2}$ cathode"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate ∆Gº for the reaction at 298 K.",
+        "key_md": "$E^\\circ = 1.64\\ \\text{V} + (0.00138\\ \\text{V K}^{-1})T$\n\nAt 298 K, $E^\\circ = 2.05$ V\n\n$\\Delta G^\\circ = -nFE^\\circ = -(2)(96500\\ \\text{J V}^{-1}\\text{mol}^{-1})(2.05\\ \\text{V}) = -396\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$E^\\circ$ at 298 K obtained from the line as 2.05 V"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = -nFE^\\circ$ with $n = 2$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ = -396\\ \\text{kJ mol}^{-1}$ (±2 kJ), negative sign required"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate ∆Hº for the reaction.",
+        "key_md": "Since $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ = -nFE^\\circ$:\n\n$E^\\circ = -(\\Delta H^\\circ/nF) + T(\\Delta S^\\circ/nF) = 1.64\\ \\text{V} + T(0.00138\\ \\text{V K}^{-1})$\n\nThus $\\Delta H^\\circ = -(2)(96500\\ \\text{J V}^{-1}\\text{mol}^{-1})(1.64\\ \\text{V}) = -317\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Identifies the intercept 1.64 V with $-\\Delta H^\\circ/nF$ (from $E^\\circ = -\\Delta H^\\circ/nF + T\\Delta S^\\circ/nF$)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ = -317\\ \\text{kJ mol}^{-1}$ (±2 kJ)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Calculate ∆Sº for the reaction.",
+        "key_md": "From the analysis in (c), $\\Delta S^\\circ = (2)(96500\\ \\text{J V}^{-1}\\text{mol}^{-1})(0.00138\\ \\text{V K}^{-1}) = +266\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the slope 0.00138 V K$^{-1}$ with $\\Delta S^\\circ/nF$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ = +266\\ \\text{J mol}^{-1}\\text{K}^{-1}$ (±5), positive sign"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Calculate the cell potential E for the reaction at 5 ºC at pH = 5.0 and 0.10 M sulfate ion concentration.",
+        "key_md": "$E = E^\\circ - \\dfrac{RT}{nF}\\ln Q$\n\n$E = \\left(1.64\\ \\text{V} + (0.00138\\ \\text{V K}^{-1})(278\\ \\text{K})\\right) - \\dfrac{(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(278\\ \\text{K})}{(2)(96500\\ \\text{J V}^{-1}\\text{mol}^{-1})}\\ln\\left(\\dfrac{1}{[\\ce{H+}]^4[\\ce{SO4^2-}]^2}\\right)$\n\n$E = 2.024\\ \\text{V} - (0.0120\\ \\text{V})\\ln\\left(\\dfrac{1}{[1.0\\times10^{-5}]^4[0.10]^2}\\right)$\n\n$E = 1.42\\ \\text{V}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$E^\\circ$ at 278 K computed as 2.024 V from the line"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct reaction quotient $Q = 1/([\\ce{H+}]^4[\\ce{SO4^2-}]^2)$ with $[\\ce{H+}] = 1.0\\times10^{-5}$ M and $[\\ce{SO4^2-}] = 0.10$ M, used in the Nernst equation with $n = 2$ and $T = 278$ K"
+          },
+          {
+            "points": 1,
+            "criterion": "$E = 1.42$ V (±0.02 V)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2016 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2016-N-P4",
+    "year": 2016,
+    "level": "national",
+    "number": 4,
+    "title": "Hydrolysis kinetics of acetylsalicylate ion",
+    "topic_id": "kinetics",
+    "intro_md": "Acetylsalicylate ion (derived from aspirin and shown as **X** in the equation below) hydrolyzes in the presence of hydroxide ion:\n\n$\\ce{X + OH^- ->}$ salicylate ion (2-hydroxybenzoate) $\\ce{+ CH3COO^-}$\n\n(**X** = the benzoate ion bearing an acetyl ester group in the 2-position; the product is the 2-hydroxybenzoate ion.)\n\nThe reaction was studied at 60 ºC and was found to be first-order in **X** under all conditions. The amount of **X** was monitored over time in two different buffer solutions and the following data were obtained:\n\nTime, s | [**X**], M (pH = 10.10 buffer) | [**X**], M (pH = 10.60 buffer)\n0 | $3.61 \\times 10^{-4}$ | $3.59 \\times 10^{-4}$\n600 | — | $1.78 \\times 10^{-4}$\n740 | $2.75 \\times 10^{-4}$ | —",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Since the reaction is first-order in **X**, and the concentration of hydroxide ion is held constant by the buffer solution, then for each individual run the rate can be written\n\nrate = $k'[\\mathbf{X}]$\n\nDetermine the value of $k'$ for each of the two runs.",
+        "key_md": "Under these \"pseudo\" first-order conditions, $\\ln([\\mathbf{X}]/[\\mathbf{X}]_0) = -k't$.\n\nAt pH = 10.10, $\\ln([2.75 \\times 10^{-4}]/[3.61 \\times 10^{-4}]) = -k'(740\\ \\text{s})$, so $k' = 3.68 \\times 10^{-4}\\ \\text{s}^{-1}$.\n\nAt pH = 10.60, $\\ln([1.78 \\times 10^{-4}]/[3.59 \\times 10^{-4}]) = -k'(600\\ \\text{s})$, so $k' = 1.17 \\times 10^{-3}\\ \\text{s}^{-1}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses the first-order integrated rate law $\\ln([\\mathbf{X}]/[\\mathbf{X}]_0) = -k't$"
+          },
+          {
+            "points": 2,
+            "criterion": "$k' = 3.68 \\times 10^{-4}\\ \\text{s}^{-1}$ (±2%) for the pH = 10.10 run"
+          },
+          {
+            "points": 1,
+            "criterion": "$k' = 1.17 \\times 10^{-3}\\ \\text{s}^{-1}$ (±2%) for the pH = 10.60 run"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "What is the reaction order in hydroxide ion? Give your reasoning.",
+        "key_md": "At pH = 10.10, $[\\ce{OH^-}] = 10^{10.10-14} = 1.26 \\times 10^{-4}$ M\n\nAt pH = 10.60, $[\\ce{OH^-}] = 10^{10.60-14} = 3.98 \\times 10^{-4}$ M\n\nBetween the two runs, $[\\ce{OH^-}]$ increases by a factor of 3.16; the pseudo-first-order rate constant $k'$ increases by a factor of 3.18. Thus, $k'$ is directly proportional to $[\\ce{OH^-}]$. Since\n\nRate = $k'[\\mathbf{X}] = k[\\ce{OH^-}]^m[\\mathbf{X}]$\n\nwhere $m$ is the reaction order in hydroxide, we thus have $m = 1$.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Correct hydroxide concentrations from pH ($1.26 \\times 10^{-4}$ M and $3.98 \\times 10^{-4}$ M)"
+          },
+          {
+            "points": 1,
+            "criterion": "Compares the factor increase in $[\\ce{OH^-}]$ (3.16) with that in $k'$ (≈3.18), showing direct proportionality"
+          },
+          {
+            "points": 1,
+            "criterion": "States the order in hydroxide is first order ($m = 1$)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "c",
+        "stem_md": "Give the full rate law for the reaction and calculate the rate constant $k$.",
+        "key_md": "Rate = $k[\\ce{OH^-}][\\mathbf{X}]$\n\nSince $k[\\ce{OH^-}] = k'$ for either run, we have $k = (3.68 \\times 10^{-4}\\ \\text{s}^{-1})/(1.26 \\times 10^{-4}\\ \\text{M}) = 2.92\\ \\text{M}^{-1}\\ \\text{s}^{-1}$. (Using the data from the second run gives $k = 2.94\\ \\text{M}^{-1}\\ \\text{s}^{-1}$, in good agreement.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Rate law given as Rate = $k[\\ce{OH^-}][\\mathbf{X}]$"
+          },
+          {
+            "points": 2,
+            "criterion": "$k \\approx 2.9\\ \\text{M}^{-1}\\text{s}^{-1}$ (2.9–3.0) obtained from $k = k'/[\\ce{OH^-}]$, with correct units"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The following mechanism is proposed for this reaction:\n\n$\\mathbf{X} + \\ce{H2O} \\ \\underset{k_{-1}}{\\overset{k_1}{\\rightleftharpoons}}\\ $ (2-hydroxyphenyl carboxylate–acetic anhydride, i.e. the mixed anhydride of salicylic acid and acetic acid bearing a free $\\ce{OH}$) $+\\ \\ce{OH^-}$\n\n(mixed anhydride) $+\\ \\ce{OH^-} \\ \\overset{k_2}{\\longrightarrow}\\ $ salicylate ion $+\\ \\ce{CH3COOH}$\n\n$\\ce{CH3COOH + OH^- ->[\\text{fast}] CH3COO^- + H2O}$\n\nIs this mechanism consistent with the observed rate law?  If so, state which step(s) could be rate-determining.  If not, explain why not.",
+        "key_md": "If the first step of the mechanism were rate-limiting, then Rate = $k_1[\\mathbf{X}]$.  This is inconsistent with the first-order dependence on $\\ce{OH^-}$.  If the second step is rate-limiting, then Rate = $K_1k_2[\\mathbf{X}]$, also inconsistent with the first-order dependence on $\\ce{OH^-}$.  So, regardless of the rate-limiting step this mechanism is predicted to have a zeroth-order dependence on $\\ce{OH^-}$, so it is not consistent with the experimental data.  (More generally, if one applies the steady-state approximation to the intermediate, one concludes that Rate = $k_1k_2[\\mathbf{X}]/(k_{-1} + k_2)$, which is always zeroth-order in $\\ce{OH^-}$.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the mechanism is NOT consistent with the observed rate law"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows that with step 1 rate-limiting, Rate = $k_1[\\mathbf{X}]$ (zeroth order in $\\ce{OH^-}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows that with step 2 rate-limiting (pre-equilibrium), Rate = $K_1k_2[\\mathbf{X}]$, still zeroth order in $\\ce{OH^-}$ because $\\ce{OH^-}$ is a product of step 1"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes that any rate-determining choice (or the steady-state result $k_1k_2[\\mathbf{X}]/(k_{-1}+k_2)$) predicts zero order in $\\ce{OH^-}$, contradicting the experimental first-order dependence"
+          }
+        ],
+        "max_points": 4,
+        "figure_url": "/figures/2016-N-P4-f2.png"
+      }
+    ],
+    "source": "USNCO 2016 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2016-N-P4-f1.png"
+  },
+  {
+    "id": "2016-N-P5",
+    "year": 2016,
+    "level": "national",
+    "number": 5,
+    "title": "Net Ionic Equations for Six Reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances. You need not balance the equations.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "A strip of copper metal is heated strongly with concentrated sulfuric acid.",
+        "key_md": "$\\ce{Cu(s) + H2SO4(l) -> CuSO4(s) + SO2(g) + H2O(l)}$\n\n($\\ce{Cu^2+ + SO4^2-}$ [or $\\ce{HSO4^-}$] is OK in lieu of $\\ce{CuSO4}$; $\\ce{H3O+ + HSO4^-}$ is OK in lieu of $\\ce{H2O}$)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants and identification of $\\ce{SO2}$ as the reduction product"
+          },
+          {
+            "points": 1,
+            "criterion": "Complete equation giving $\\ce{Cu^2+}$ (or $\\ce{CuSO4}$), $\\ce{SO2}$ and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Solid dinitrogen pentoxide is added to water.",
+        "key_md": "$\\ce{N2O5(s) + H2O(l) -> H3O+(aq) + NO3^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes formation of nitric acid ($\\ce{NO3^-}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct equation with $\\ce{H3O+}$ (or $\\ce{H+}$) and $\\ce{NO3^-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Lead(II) carbonate is added to hydrobromic acid.",
+        "key_md": "$\\ce{PbCO3(s) + H3O+(aq) + Br^-(aq) -> PbBr2(s) + CO2(g) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Products include $\\ce{CO2}$ and $\\ce{H2O}$ from carbonate + acid"
+          },
+          {
+            "points": 1,
+            "criterion": "Insoluble $\\ce{PbBr2(s)}$ given as product with $\\ce{Br-}$ included as a reactant"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Freshly precipitated manganese(IV) oxide is added to a solution of hydrogen peroxide.",
+        "key_md": "$\\ce{H2O2(aq) -> H2O(l) + O2(g)}$ [$\\ce{MnO2(s)}$ catalyzes the reaction]",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Equation shows decomposition of $\\ce{H2O2}$ to $\\ce{H2O}$ and $\\ce{O2}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{MnO2}$ omitted from the net equation / identified as catalyst"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Chlorine is combined with toluene (methylbenzene) in the presence of ultraviolet light. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Toluene $\\ce{+ Cl2}$ $\\xrightarrow{h\\nu}$ benzyl chloride (the drawn product is a benzene ring bearing a $\\ce{CH2Cl}$ group) $\\ce{+ HCl}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product is the side-chain (benzylic) chlorination product $\\ce{C6H5CH2Cl}$, drawn as a structure, not ring chlorination"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{HCl}$ given as the other product"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Tritium ($^3$H) undergoes radioactive decay.",
+        "key_md": "$\\ce{^3H -> ^3He + \\beta}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\ce{^3He}$ identified as the daughter nuclide"
+          },
+          {
+            "points": 1,
+            "criterion": "Beta particle (electron) emitted, equation balanced in mass/charge"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2016 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2016-N-P6",
+    "year": 2016,
+    "level": "national",
+    "number": 6,
+    "title": "H–H Potential Energy Curve and Vibration",
+    "topic_id": "bonding",
+    "intro_md": "The plot below shows the energy of two hydrogen atoms as a function of their internuclear separation $r$:\n\n(The curve rises steeply above $+1000$ kJ mol$^{-1}$ at small $r$, passes through a minimum at $r = 74$ pm, $E = -432$ kJ mol$^{-1}$, and approaches $E = 0$ asymptotically as $r$ increases toward 200 pm.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Explain why the potential energy decreases as the internuclear separation decreases from 120 pm to 80 pm.",
+        "key_md": "The attraction of the electrons for the nucleus of the other atom causes the energy to decrease as the separation decreases, in this range.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States that electron–nucleus (electron of one atom attracted to the other atom's nucleus) attraction dominates in this range, lowering the energy"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Explain why the potential energy increases as the internuclear separation decreases from 70 pm to 60 pm.",
+        "key_md": "As the nuclei get very close, the nuclear-nuclear repulsion overwhelms the electron-nucleus attraction, causing the energy to increase as the internuclear separation gets closer than the equilibrium distance.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States that nucleus–nucleus repulsion overwhelms electron–nucleus attraction at separations shorter than the equilibrium distance"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the longest wavelength of light that has sufficient energy to break a H–H bond.",
+        "key_md": "BDE = 432 kJ mol$^{-1}$ = $7.17 \\times 10^{-19}$ J/molecule\n\n$7.17 \\times 10^{-19}$ J = $hc/\\lambda$, so $\\lambda = (6.626 \\times 10^{-34}\\ \\text{J s})(2.998 \\times 10^{8}\\ \\text{m s}^{-1})/(7.17 \\times 10^{-19}\\ \\text{J})$\n\n$\\lambda = 2.77 \\times 10^{-7}$ m = 277 nm",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Converts 432 kJ mol$^{-1}$ to $7.17 \\times 10^{-19}$ J per molecule using $N_\\text{A}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $E = hc/\\lambda$ correctly"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer $\\lambda = 2.77 \\times 10^{-7}$ m (277 nm), ±2 nm"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The vibrational frequency of H2(g) is 1.32 × 10^14 Hz. What percentage of the H–H bond dissociation energy is required to excite a molecular vibration of H2?",
+        "key_md": "$E = h\\nu = (6.626 \\times 10^{-34}\\ \\text{J s})(1.32 \\times 10^{14}\\ \\text{s}^{-1}) = 8.75 \\times 10^{-20}$ J. This is $\\{(8.75 \\times 10^{-20}\\ \\text{J})/(7.17 \\times 10^{-19}\\ \\text{J})\\}\\cdot 100\\% = 12.2\\%$ of the BDE.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Computes vibrational quantum $E = h\\nu = 8.75 \\times 10^{-20}$ J (or 52.7 kJ mol$^{-1}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Divides by the bond dissociation energy per molecule ($7.17 \\times 10^{-19}$ J or 432 kJ mol$^{-1}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer 12.2% (±0.3%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Will H2(g) absorb infrared radiation due to its molecular vibration? Explain why or why not.",
+        "key_md": "While the frequency is in the infrared range, there will be no absorption of light because absorption of IR light requires a change in dipole moment of the molecule as it vibrates. H2 is symmetrical and always has a zero dipole moment, regardless of its vibrational excitation.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Answers no (H2 does not absorb IR)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that IR absorption requires a change in dipole moment, and symmetric H2 has zero dipole moment throughout the vibration"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2016 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2016-N-P7",
+    "year": 2016,
+    "level": "national",
+    "number": 7,
+    "title": "Bonding and Properties of Group 15 Halides",
+    "topic_id": "bonding",
+    "intro_md": "Explain the following observations about the properties of the Group 15 halides.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Phosphorus pentachloride in the gas phase has two different kinds of P–Cl bonds: three P–Cl bonds that are relatively short (202 pm) and two that are relatively long (214 pm).",
+        "key_md": "$\\ce{PCl5}$ adopts a pentagonal bipyramidal structure, with two axial and three equatorial bonds. The two axial bonds are best described as three-center, four-electron bonds, and so are longer than the more covalent equatorial bonds.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the trigonal(pentagonal)-bipyramidal geometry with two axial and three equatorial P–Cl bonds"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes the longer axial bonds to three-center, four-electron bonding (less covalent) versus the more covalent equatorial bonds"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "In the solid state, phosphorus pentachloride is an ionic compound.",
+        "key_md": "$\\ce{PCl5}$ disproportionates to $\\ce{PCl4+}$ and $\\ce{PCl6-}$ in the solid state.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the solid consists of ions rather than molecules (disproportionation/autoionization of $\\ce{PCl5}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correctly identifies both ions as $\\ce{PCl4+}$ and $\\ce{PCl6-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "The F–N–F bond angle in nitrogen trifluoride is larger than the F–P–F bond angle in phophorus trifluoride (102.5 º vs. 96.3 º).",
+        "key_md": "The 2$p$ orbitals are anomalously contracted because there are no 1$p$ orbitals to shield them. This makes them similar in size to the 2$s$ orbitals, so both $s$ and $p$ orbitals are significantly involved in bonding of the $n = 2$ elements like N. In contrast, the 3$s$ orbitals are much less involved in the bonding of phosphorus compounds than the 3$p$ orbitals. Pure $p$ orbitals would form an ideal angle of 90º between bonds, while pure $sp^3$ hybrids would form angles of 109.5º. Neither $\\ce{NF3}$ nor $\\ce{PF3}$ is ideal in this respect, but the larger angle in $\\ce{NF3}$ is consistent with greater $s$ orbital participation in bonding.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes that 2$s$ and 2$p$ orbitals are similar in size (2$p$ contracted, no 1$p$ to shield), so both participate in N bonding, while for P the 3$s$ orbital is much less involved than 3$p$"
+          },
+          {
+            "points": 1,
+            "criterion": "States the limiting angles: pure $p$ bonding gives ~90º, $sp^3$ hybrids give 109.5º"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes the larger angle in $\\ce{NF3}$ reflects greater $s$-orbital participation (more hybridization) than in $\\ce{PF3}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Arsenic trifluoride is a volatile liquid (mp –8.5 ºC, bp 60.4 ºC), while antimony trifluoride is a nonvolatile solid (mp 292 ºC, bp 376 ºC).",
+        "key_md": "Sb is larger and less electronegative than As. This means that there is greater ionic character in the Sb–F bond, and a greater possibility of forming close Sb–F--Sb contacts, increasing the intermolecular forces between $\\ce{SbF3}$ units in the solid.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States Sb is larger and less electronegative than As, giving greater ionic character to the Sb–F bond"
+          },
+          {
+            "points": 1,
+            "criterion": "Links this to stronger intermolecular interactions (bridging Sb–F···Sb contacts) and hence low volatility"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Antimony trichloride reacts with chlorine to form antimony pentachloride, while bismuth trichloride does not react with chlorine.",
+        "key_md": "The 6$s$ orbital in Bi is anomalously contracted and low in energy, due to the lanthanide contraction and relativistic effects. Thus Bi(V) is much more oxidizing than is Sb(V), and $\\ce{Cl2}$ is an insufficiently strong oxidant to oxidize $\\ce{BiCl3}$ to $\\ce{BiCl5}$ (the latter compound is unknown).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Cites the contracted, low-energy 6$s$ orbital of Bi (inert pair effect; lanthanide contraction/relativistic effects)"
+          },
+          {
+            "points": 1,
+            "criterion": "States Bi(V) is far more strongly oxidizing than Sb(V)"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes $\\ce{Cl2}$ is too weak an oxidant to convert $\\ce{BiCl3}$ to $\\ce{BiCl5}$ (unknown compound)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2016 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2016-N-P8",
+    "year": 2016,
+    "level": "national",
+    "number": 8,
+    "title": "HBr addition to a branched alkene",
+    "topic_id": "organic",
+    "intro_md": "Consider the reaction below:\n\n$\\ce{CH2=C(CH2CH3)CH(CH3)2}$ (2-ethyl-3-methyl-1-butene) $\\ce{+ HBr(g) ->}$ **A**\n\n(The alkene is drawn as a central carbon C doubly bonded to $\\ce{CH2}$, bearing a $\\ce{CH2CH3}$ group and a $\\ce{CH(CH3)2}$ group.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "When conducted in the dark, the reaction gives rise to a product **A** that consists of a single structural isomer. Draw the structure for **A** and account for the selectivity of its formation in terms of the reaction mechanism. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The mechanism is drawn as electrophilic addition: the alkene $\\pi$ bond attacks $\\ce{H-Br}$.\n\n- Protonation at the substituted carbon would give a **primary carbocation** ($\\ce{...CH2+}$ adjacent to the $\\ce{CH(CH3)2}$/ethyl-bearing carbon) — *disfavored* (this pathway is crossed out in the key).\n- Protonation at the terminal $\\ce{CH2}$ gives the **tertiary carbocation** — *favored*.\n\nAttack of $\\ce{Br-}$ on the tertiary cation gives\n\n**A** $= \\ce{CH3-C(Br)(CH2CH3)-CH(CH3)2}$ (2-bromo-2-ethyl-3-methylbutane), i.e., Markovnikov addition with Br on the more substituted (tertiary) carbon.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Correct structure of A: Br on the former alkene carbon bearing the ethyl and isopropyl groups, i.e. $\\ce{CH3C(Br)(CH2CH3)CH(CH3)2}$ (2-bromo-2-ethyl-3-methylbutane)"
+          },
+          {
+            "points": 1,
+            "criterion": "States that $\\ce{H+}$ (from HBr) adds to the terminal $\\ce{CH2}$ and that bromide then attacks the carbocation (Markovnikov addition)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains selectivity by the greater stability of the tertiary carbocation compared with the alternative primary carbocation"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "Does **A** exist in stereoisomeric forms? If so, draw structures of the stereoisomers of **A**, clearly showing their stereochemistry. If not, explain why not. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "**A** exists as a pair of enantiomers: the Br-bearing carbon carries four different groups ($\\ce{CH3}$, $\\ce{CH2CH3}$, $\\ce{CH(CH3)2}$, $\\ce{Br}$), so it is a stereocenter. The key shows the two mirror-image structures, one with the C–Br bond drawn as a hashed (dashed) wedge and the other with the C–Br bond drawn as a bold wedge.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that A is chiral / exists as a pair of enantiomers (one stereocenter)"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows both enantiomers with explicit stereochemistry (wedge and dash at the C–Br carbon), or equivalently identifies them as R and S"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Carrying out the reaction in the light or in the presence of peroxides results in significant amounts of an isomeric product **B**. Draw the structure of **B** and explain why it is formed under these conditions. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "**B** $= \\ce{BrCH2-CH(CH2CH3)-CH(CH3)2}$ (1-bromo-2-ethyl-3-methylbutane; Br on the terminal $\\ce{CH2}$).\n\nIn the presence of light or peroxides, a radical chain mechanism can take place. $\\ce{Br^.}$ is the chain carrier, and it adds preferentially to the less substituted carbon of the alkene, since that generates the more stable tertiary alkyl radical. Abstraction of $\\ce{H^.}$ from HBr by this radical forms **B** and reforms $\\ce{Br^.}$, which continues the chain.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct structure of B: Br on the terminal carbon, $\\ce{BrCH2CH(CH2CH3)CH(CH3)2}$ (anti-Markovnikov product)"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies a radical chain mechanism with $\\ce{Br^.}$ as chain carrier initiated by light/peroxides"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that $\\ce{Br^.}$ adds to the less substituted carbon because that gives the more stable tertiary radical, which then abstracts H from HBr"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Treatment of **A** with strong bases results in the formation of four isomeric alkenes. Draw structures of the four alkenes and indicate which is the predominant product. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The four alkenes drawn in the key are:\n\n1. $\\ce{CH2=C(CH2CH3)CH(CH3)2}$ (2-ethyl-3-methyl-1-butene, the terminal alkene)\n2. *(E)*-$\\ce{CH3CH=C(CH3)CH(CH3)2}$ (3,4-dimethyl-2-pentene, one geometric isomer)\n3. *(Z)*-$\\ce{CH3CH=C(CH3)CH(CH3)2}$ (3,4-dimethyl-2-pentene, the other geometric isomer)\n4. $\\ce{CH3CH2C(CH3)=C(CH3)2}$ (the tetrasubstituted alkene, 2,3-dimethyl-2-pentene) — boxed in the key as the **major product (most substituted alkene)**",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "All four isomeric alkenes drawn correctly, including the E and Z forms of the trisubstituted alkene and the terminal alkene"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies the tetrasubstituted (most substituted) alkene as the predominant product (Zaitsev)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2016 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

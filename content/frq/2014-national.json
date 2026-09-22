@@ -1,0 +1,774 @@
+[
+  {
+    "id": "2014-N-P1",
+    "year": 2014,
+    "level": "national",
+    "number": 1,
+    "title": "Metal Carbonate/Oxide Mixture and CO2 Vibrations",
+    "topic_id": "stoichiometry",
+    "intro_md": "When a mixture of a metal carbonate, $\\ce{MCO3}$, and its oxide, $\\ce{MO}$, is heated it releases carbon dioxide gas and is converted completely to the metallic oxide, $\\ce{MO}$.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "If a 0.6500 g sample of $\\ce{MCO3}$ and $\\ce{MO}$ forms 0.1575 L of carbon dioxide gas at 25.0 °C and a barometric pressure of 700.0 mm Hg, determine the number of moles of $\\ce{CO2}$ formed.",
+        "key_md": "$n = PV/RT = (700.0\\text{ mm Hg}/760\\text{ mm Hg atm}^{-1})(0.1575\\text{ L}) / [(0.0821\\ \\text{L atm mol}^{-1}\\text{K}^{-1})(298\\text{ K})] = 0.00593$ mol $\\ce{CO2}$\n\nAlternate approach: $0.6500\\text{ g} - 0.3891\\text{ g} = 0.2609$ g $\\ce{CO2}$\n\n$0.2609\\text{ g }\\ce{CO2} / 44.0\\text{ g/mole} = 0.00593$ mole $\\ce{CO2}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct use of ideal gas law with P converted to atm (700.0/760) and T = 298 K (or valid mass-difference approach)"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer $n(\\ce{CO2}) = 0.00593$ mol (±0.00005)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "When the 0.3891 g of $\\ce{MO}$ resulting from the process in 1.a. is titrated with 0.500 M HCl, 38.60 mL are required. Determine the number of moles of $\\ce{MO}$ in 0.3891 g.",
+        "key_md": "$(0.500\\text{ mol/L})(0.03860\\text{ L}) = 0.01930$ mol HCl\n\n$(0.01930\\text{ mol HCl})(1\\text{ mol MO} / 2\\text{ mol HCl}) = 0.00965$ mol MO",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Moles HCl = 0.01930 mol and use of 1 mol MO : 2 mol HCl stoichiometry"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer $n(\\ce{MO}) = 0.00965$ mol"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Determine the atomic mass of the metal M and give its symbol.",
+        "key_md": "$(0.3891\\text{ g MO}) / 0.00965\\text{ mol MO} = 40.32$ g/mol MO\n\n$40.32\\text{ g/mol MO} - 16.0\\text{ g/mol O} = 24.32$ g/mol M, M = $\\ce{Mg^2+}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Molar mass of MO = 40.32 g/mol and subtraction of 16.0 g/mol O to give ~24.3 g/mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies M as magnesium (Mg)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Determine the mole percentages of $\\ce{MCO3}$ and $\\ce{MO}$ in the original sample.",
+        "key_md": "Parts 1a–1c give three constraints on the number of moles of $\\ce{MgO}$ and $\\ce{MgCO3}$ present. From 1a, the total mass of the sample was 0.6500 g, so $(40.32\\text{ g/mol})(n[\\ce{MgO}]) + (84.32\\text{ g/mol})(n[\\ce{MgCO3}]) = 0.6500$ g. From 1b, the total number of moles of magnesium $= 0.00965$ mol $= n(\\ce{MgO}) + n(\\ce{MgCO3})$. From 1c, 0.00593 mol $\\ce{CO2}$ implies $n(\\ce{MgCO3}) = 0.005928$ mol. Thus $n(\\ce{MgO}) = 0.00965\\text{ mol} - 0.005928\\text{ mol} = 0.00372$ mol. Since one has three linear equations in two unknowns, one may use any two of the constraints to solve:\n\n$n(\\ce{MgO}) = 0.00372$ mol, $n(\\ce{MgCO3}) = 0.00593$ mol\n\nMol % $\\ce{MgO}$ = 0.00372 mol MgO / 0.00965 moles total = $0.385 \\times 100\\%$ = 38.5 mol% $\\ce{MgO}$\n\nMol % $\\ce{MgCO3}$ = 0.00593 mol MgCO3 / 0.00965 moles total = $0.615 \\times 100\\%$ = 61.5 mol% $\\ce{MgCO3}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $n(\\ce{MgCO3}) = n(\\ce{CO2}) = 0.00593$ mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains $n(\\ce{MgO}) = 0.00965 - 0.00593 = 0.00372$ mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Mol % $\\ce{MgCO3}$ = 61.5% (±0.5)"
+          },
+          {
+            "points": 1,
+            "criterion": "Mol % $\\ce{MgO}$ = 38.5% (±0.5)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "e(i)",
+        "stem_md": "The gas formed in 1.a. can be identified as $\\ce{CO2}$ by means of infrared spectroscopy.\n\ni. Sketch or describe the normal vibrations for the $\\ce{CO2}$ molecule. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Three normal vibrations are drawn for the linear $\\ce{O=C=O}$ molecule:\n\n- **symmetric stretch**: both oxygen atoms move outward (away from the central C) simultaneously, and then both inward — arrows on the two O atoms point in opposite directions, away from C.\n- **asymmetric stretch**: one C–O bond lengthens while the other shortens — arrows on both O atoms point in the same direction along the molecular axis (equivalently, the two O atoms move to the right while C moves left).\n- **bend**: the carbon atom moves perpendicular to the molecular axis in one direction while both oxygen atoms move perpendicular in the opposite direction (the doubly degenerate bending mode).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Shows/describes symmetric stretch and asymmetric stretch with correct relative atomic motions"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows/describes the bending mode (C moving perpendicular to axis opposite to the two O atoms)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e(ii)",
+        "stem_md": "ii. Identify the vibrations that are infrared active and outline your reasoning.",
+        "key_md": "The asymmetric stretch and bend are IR active because of change in dipole moment; the symmetric stretch is IR-inactive because it does not produce a change in dipole moment.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States asymmetric stretch and bend are IR active while symmetric stretch is inactive, justified by change (or no change) in dipole moment"
+          }
+        ],
+        "max_points": 1
+      }
+    ],
+    "source": "USNCO 2014 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2014-N-P2",
+    "year": 2014,
+    "level": "national",
+    "number": 2,
+    "title": "Nitrogen Oxides: Thermodynamics and Equilibrium",
+    "topic_id": "thermodynamics",
+    "intro_md": "Nitrogen forms many oxides, some of which are significant in the formation of photochemical smog. The $\\Delta H_\\text{f}^\\circ$ and $\\Delta G_\\text{f}^\\circ$ values for several of these nitrogen oxides are given in the table below.\n\n$\\Delta H_\\text{f}^\\circ$, kJ•mol$^{-1}$ / $\\Delta G_\\text{f}^\\circ$ kJ•mol$^{-1}$\n\n- $\\ce{NO2(g)}$: 33.85 / 51.84\n- $\\ce{N2O4(g)}$: 9.66 / 98.29\n- $\\ce{NO(g)}$: 90.37 / 86.71",
+    "parts": [
+      {
+        "label": "a(i)",
+        "stem_md": "Calculate the enthalpy and free energy changes at 25.0 °C for the formation of $\\ce{NO2(g)}$ from $\\ce{NO(g)}$ and $\\ce{O2(g)}$.",
+        "key_md": "$\\ce{NO(g) + 1/2 O2(g) -> NO2(g)}$\n\n$\\Delta H^\\circ_\\text{rxn} = 33.85\\ \\text{kJ/mol} - 90.37\\ \\text{kJ/mol} = -56.52\\ \\text{kJ/mol}$\n\n$\\Delta G^\\circ_\\text{rxn} = 51.84\\ \\text{kJ/mol} - 86.71\\ \\text{kJ/mol} = -34.87\\ \\text{kJ/mol}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{rxn} = -56.52$ kJ/mol (±0.1)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ_\\text{rxn} = -34.87$ kJ/mol (±0.1)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "a(ii)",
+        "stem_md": "Calculate the enthalpy and free energy changes at 25.0 °C for the dimerization of $\\ce{NO2(g)}$ to form $\\ce{N2O4(g)}$.",
+        "key_md": "$\\ce{2 NO2(g) -> N2O4(g)}$\n\n$\\Delta H^\\circ_\\text{rxn} = 9.66\\ \\text{kJ/mol} - 2(33.85\\ \\text{kJ/mol}) = -58.04\\ \\text{kJ/mol}$\n\n$\\Delta G^\\circ_\\text{rxn} = 98.29\\ \\text{kJ/mol} - 2(51.84\\ \\text{kJ/mol}) = -5.39\\ \\text{kJ/mol}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{rxn} = -58.04$ kJ/mol (±0.1)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ_\\text{rxn} = -5.39$ kJ/mol (±0.1)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the equilibrium constant for the dimerization of $\\ce{NO2(g)}$ at 25.0 °C.",
+        "key_md": "$\\Delta G^\\circ = -RT \\ln K_\\text{eq}$. Since the standard state for gases is 1 atm pressure, $K_\\text{eq} = K_\\text{p}$.\n\n$-5390\\ \\text{J/mol} = -(8.314\\ \\text{J/mol•K})(298\\ \\text{K}) \\ln K_\\text{p}$\n\n$2.176 = \\ln K_\\text{p}$\n\n$K_\\text{p} = 8.81$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = -RT\\ln K$ with $\\Delta G^\\circ = -5.39$ kJ/mol and $T = 298$ K"
+          },
+          {
+            "points": 2,
+            "criterion": "$K_\\text{p} = 8.8$ (±0.2)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "For an atmospheric concentration of $\\ce{NO2}$ equal to 30. ppb ($1.2 \\times 10^{-9}$ M) at 298 K, calculate the equilibrium concentration of $\\ce{N2O4}$.",
+        "key_md": "$K_\\text{p} = p(\\ce{N2O4})/p(\\ce{NO2})^2 = 8.81$. If there is 30 ppb $\\ce{NO2}$, $p(\\ce{NO2}) = (30 \\times 10^{-9}) \\times (1\\ \\text{atm}) = 3.0 \\times 10^{-8}$ atm\n\n$p(\\ce{N2O4}) = 8.81 \\times (3.0 \\times 10^{-8})^2 = 7.9 \\times 10^{-15}$ atm $= 7.9 \\times 10^{-6}$ ppb\n\n$[\\ce{N2O4}] = n/V = P/(RT) = 7.9 \\times 10^{-15}\\ \\text{atm}/(0.0821\\ \\text{L atm mol}^{-1}\\text{K}^{-1})(298\\ \\text{K}) = 3.2 \\times 10^{-16}$ mol/L",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Converts 30 ppb $\\ce{NO2}$ to $p(\\ce{NO2}) = 3.0 \\times 10^{-8}$ atm (or uses $K_\\text{c}$ correctly)"
+          },
+          {
+            "points": 1,
+            "criterion": "$p(\\ce{N2O4}) = 7.9 \\times 10^{-15}$ atm (±10%)"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{N2O4}] = 3.2 \\times 10^{-16}$ M (±10%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "If the atmospheric temperature increases to 43.0 °C and equilibrium is established, does the new concentration of nitrogen dioxide formed from conversion of $\\ce{N2O4}$ exceed the EPA limit of 53 ppb ($2.2 \\times 10^{-9}$ M)? Explain.",
+        "key_md": "No. There is so little $\\ce{N2O4}$ (about 10 parts per billion of the total $\\ce{NO2}$!) that even if it all dissociates, it will have a negligible effect on the $[\\ce{NO2}]$, which will remain 30 ppb (all the gases in the atmosphere change volume with temperature to approximately the same extent).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Answers \"No\" — the limit is not exceeded"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that the amount of $\\ce{N2O4}$ present is negligibly small, so complete dissociation leaves $[\\ce{NO2}]$ essentially 30 ppb"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "The positive $\\Delta G_\\text{f}^\\circ$ for $\\ce{NO2}$ indicates that its decomposition to form the elements $\\ce{N2}$ and $\\ce{O2}$ is spontaneous. Suggest a reason that this process does not occur to a significant extent in the atmosphere once $\\ce{NO2}$ has been formed.",
+        "key_md": "While the decomposition may be thermodynamically favorable, the reaction may be kinetically limited. That is, the reaction could lack a sufficient pathway (mechanism) to allow it to proceed.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the reaction is kinetically limited/slow despite being thermodynamically favorable"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes this to a high activation energy / lack of an accessible mechanism or pathway"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2014 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2014-N-P3",
+    "year": 2014,
+    "level": "national",
+    "number": 3,
+    "title": "Solubility Equilibria of Barium and Lead Fluorides",
+    "topic_id": "equilibrium",
+    "intro_md": "When solid $\\ce{BaF2}$ is added to $\\ce{H2O}$ the following equilibrium is established.\n\n$\\ce{BaF2(s) <=> Ba^2+(aq) + 2 F^-(aq)}$   $K_\\text{sp} = 1.5\\times10^{-6}$ at 25 °C",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate the molar solubility of barium fluoride at 25 °C.",
+        "key_md": "If $S$ = molar solubility of $\\ce{BaF2(s)}$, then $[\\ce{Ba^2+}] = S$, $[\\ce{F^-}] = 2S$\n\n$K_\\text{sp} = [\\ce{Ba^2+}][\\ce{F^-}]^2 = (S)(2S)^2 = 4S^3 = 1.5 \\times 10^{-6}$\n\n$S = 0.00721$ mol/L",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up $K_\\text{sp} = (S)(2S)^2 = 4S^3$ with correct stoichiometric factor of 2 for fluoride"
+          },
+          {
+            "points": 2,
+            "criterion": "Correct molar solubility $S = 7.2 \\times 10^{-3}$ mol/L (±2%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b(i)",
+        "stem_md": "Explain how adding each of the following substances affects the solubility of $\\ce{BaF2}$ in water.\n\ni. 0.10 M $\\ce{Ba(NO3)2}$",
+        "key_md": "Adding $\\ce{Ba^2+}$ ion will decrease the molar solubility of $\\ce{BaF2}$ due to the common ion effect.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States solubility decreases and attributes it to the common ion effect (added $\\ce{Ba^2+}$)"
+          }
+        ],
+        "max_points": 1
+      },
+      {
+        "label": "b(ii)",
+        "stem_md": "ii. 0.10 M $\\ce{HNO3}$",
+        "key_md": "Adding $\\ce{H+}$ will increase the molar solubility of $\\ce{BaF2}$ as the $\\ce{F^-}$ ion will react with $\\ce{H+}$ to form HF, thereby causing more $\\ce{BaF2}$ to dissolve by Le Chatelier's Principle.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States solubility increases"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that $\\ce{H+}$ reacts with $\\ce{F^-}$ to form HF, removing fluoride and shifting the equilibrium (Le Chatelier)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "In an experiment to determine the $K_\\text{sp}$ of $\\ce{PbF2}$ a student starts with 0.10 M $\\ce{Pb(NO3)2}$ and 0.10 M KF and uses the method of serial dilutions to find the lowest $[\\ce{Pb^2+}]$ and $[\\ce{F^-}]$ that form a precipitate when mixed. If the student uses the concentration of the ions in the combined solution to determine $K_\\text{sp}$, will the value of $K_\\text{sp}$ calculated be too large, too small or just right? Explain.\n\n$K_\\text{sp}$ for $\\ce{PbF2} = 4.0 \\times 10^{-8}$",
+        "key_md": "The calculated $K_\\text{sp}$ will be too large because the student is relying on seeing the formation of a precipitate at the moment that $Q$ exceeds $K_\\text{sp}$. The student will miss the exact moment that happens, so the calculated value of $K_\\text{sp}$ will be too large.\n\nOther possible issues: Protolysis will decrease the concentration of fluoride, so more fluoride will need to be added to cause precipitation; therefore measured $K_\\text{sp}$ will be too large. Likewise, some complex ions such as $\\ce{PbF+}$ or $\\ce{PbF2(aq)}$ may form, again leading to an experimental value that is too large.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Answers \"too large\""
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies: precipitate is only visible after $Q$ has already exceeded $K_\\text{sp}$ (or protolysis of $\\ce{F^-}$/complex ion formation requires excess ions)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d(i)",
+        "stem_md": "i. In a solution of 0.010 M barium nitrate and 0.010 M lead(II) nitrate, which will precipitate first, $\\ce{BaF2}$ or $\\ce{PbF2}$, as $\\ce{NaF(s)}$ is added? Assume volume changes are negligible. Explain (support your answer with calculations).",
+        "key_md": "As both $\\ce{BaF2}$ and $\\ce{PbF2}$ are 1:2 compounds, and the concentrations of the metal ions are both 0.010 M, you can tell that $\\ce{PbF2}$ will precipitate first, because it has the lower $K_\\text{sp}$. For calculations to support this:\n\nFor $\\ce{PbF2}$, $4.0 \\times 10^{-8} = (0.01)[\\ce{F^-}]^2$  $[\\ce{F^-}]^2 = 4.0 \\times 10^{-6}$  $[\\ce{F^-}] = 2.0 \\times 10^{-3}$ M\n\nFor $\\ce{BaF2}$, $1.5 \\times 10^{-6} = (0.01)[\\ce{F^-}]^2$  $[\\ce{F^-}]^2 = 1.5 \\times 10^{-4}$  $[\\ce{F^-}] = 1.2 \\times 10^{-2}$ M\n\nThe $\\ce{PbF2}$ will precipitate first because a lower value for the concentration of fluoride is needed.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies $\\ce{PbF2}$ as precipitating first"
+          },
+          {
+            "points": 2,
+            "criterion": "Calculates $[\\ce{F^-}]$ needed: $2.0 \\times 10^{-3}$ M for $\\ce{PbF2}$ and $1.2 \\times 10^{-2}$ M for $\\ce{BaF2}$ (±2%)"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes from the calculations that the lower required $[\\ce{F^-}]$ (lower $K_\\text{sp}$ at equal cation concentration) means $\\ce{PbF2}$ precipitates first"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d(ii)",
+        "stem_md": "ii. When the more soluble fluoride begins to precipitate, what is the concentration of the cation for the less soluble fluoride that remains in solution?",
+        "key_md": "From part (i) we know that the $\\ce{BaF2}$ precipitates second, when the $[\\ce{F^-}]$ reaches $1.2 \\times 10^{-2}$ M\n\nSince $\\ce{PbF2(s)}$ is present, then $[\\ce{Pb^2+}][\\ce{F^-}]^2 = K_\\text{sp} = 4.0 \\times 10^{-8}$\n\n$[\\ce{Pb^2+}](1.2 \\times 10^{-2})^2 = 4.0 \\times 10^{-8}$\n\n$[\\ce{Pb^2+}] = 2.8 \\times 10^{-4}$ M",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $[\\ce{F^-}] = 1.2 \\times 10^{-2}$ M in the $K_\\text{sp}$ expression for $\\ce{PbF2}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains $[\\ce{Pb^2+}] = 2.8 \\times 10^{-4}$ M (±5%)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2014 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2014-N-P4",
+    "year": 2014,
+    "level": "national",
+    "number": 4,
+    "title": "Amine structure, hybridization and basicity",
+    "topic_id": "organic",
+    "intro_md": "Amines are organic bases. Methylamine ($\\ce{CH3NH2}$) is the simplest amine.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Write Lewis structures for methylamine and its conjugate acid, the methylammonium ion. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Methylamine: H–C(–H)(–H)–N(–H)(–H) with a lone pair (two dots) on N; i.e. a carbon bonded to three H atoms and to N, and N bonded to two H atoms plus one lone pair.\n\nMethylammonium ion: the same carbon (three H's) bonded to N, with N now bonded to three H atoms and bearing a formal $+$ charge (no lone pair on N); the whole species is drawn as a cation.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Correct Lewis structure of methylamine: C with 3 H and bond to N, N with 2 H and one lone pair, all octets satisfied"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct Lewis structure of $\\ce{CH3NH3+}$: N bonded to three H and to C, no lone pair, positive formal charge shown"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Describe the local geometry and hybridization of nitrogen in methylamine and the methylammonium ion.",
+        "key_md": "In methylamine: N is trigonal pyramidal with $sp^3$ hybridization.\n\nIn methylammonium ion: N is tetrahedral with $sp^3$ hybridization.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Methylamine: trigonal pyramidal N, $sp^3$"
+          },
+          {
+            "points": 1,
+            "criterion": "Methylammonium ion: tetrahedral N, $sp^3$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Methylamine is a much stronger base than aniline ($\\ce{C6H5NH2}$). Account for this observation on the basis of structure and bonding.",
+        "key_md": "In aniline, the lone pair is less accessible for donation, due to resonance between the lone pair on N and the benzene ring (delocalization of the N lone pair into the ring, giving structures with C=N and a negative charge in the ring). This resonance interaction is lost on protonation, which destabilizes the conjugate acid form and thus makes aniline less basic.\n\nLess important considerations include: (1) A phenyl group is less electron donating than methyl since the $sp^2$-hybridized carbon is more electronegative than the $sp^3$ carbon in methylamine. (2) The slightly larger size of phenyl vs. methyl might interfere with solvation of the charged conjugate acid, destabilizing the conjugate acid form of aniline relative to methylamine.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States that the N lone pair in aniline is delocalized into the benzene ring by resonance, making it less available for donation"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes that this resonance stabilization is lost upon protonation (destabilizing the anilinium conjugate acid), or equivalent electron-withdrawing/$sp^2$ argument"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "There are four isomeric amines with the formula $\\ce{C3H9N}$. Write condensed structural formulas for each and identify each structure as a primary, secondary, or tertiary amine. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{CH3CH2CH2NH2}$ : primary amine (propylamine)\n\n$\\ce{CH3CH(CH3)NH2}$ : primary amine (isopropylamine)\n\n$\\ce{CH3NHCH2CH3}$ : secondary amine (ethyl methyl amine)\n\n$\\ce{(CH3)3N}$ : tertiary amine (trimethylamine)",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "All four correct condensed structures given: $\\ce{CH3CH2CH2NH2}$, $\\ce{(CH3)2CHNH2}$, $\\ce{CH3NHCH2CH3}$, $\\ce{(CH3)3N}$ (1 point if only two or three correct)"
+          },
+          {
+            "points": 2,
+            "criterion": "Correct classification of each: two primary, one secondary, one tertiary"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "USNCO 2014 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2014-N-P5",
+    "year": 2014,
+    "level": "national",
+    "number": 5,
+    "title": "Rate law for NO oxidation",
+    "topic_id": "kinetics",
+    "intro_md": "Consider the gas-phase reaction between nitric oxide and oxygen showing the initial concentrations of the reactants at a certain temperature, T:\n\n$\\ce{2 NO(g) + O2(g) -> 2 NO2(g)}$\n\nExperiment | [NO], M | [O2], M | Initial Rate of NO2 formation, M•s$^{-1}$\n1 | 0.020 | 0.020 | 0.057\n2 | 0.040 | 0.040 | 0.455\n3 | 0.040 | 0.020 | 0.228",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Determine the order with respect to NO.",
+        "key_md": "Comparing Expt. 1 and 3, doubling [NO] while keeping [O$_2$] constant shows a quadrupling of the rate. So reaction is second order in NO.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States order in NO = 2 (second order)"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies by comparing Expts. 1 and 3 (doubling [NO] at constant [O2] quadruples rate)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Determine the order with respect to O$_2$.",
+        "key_md": "Comparing Expt. 3 to Expt. 2, doubling [O$_2$] while keeping [NO] constant shows a doubling of the rate. So reaction is first order in O$_2$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States order in O2 = 1 (first order)"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies by comparing Expts. 2 and 3 (doubling [O2] at constant [NO] doubles rate)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the rate constant and give its units at this temperature.",
+        "key_md": "rate = $k[\\ce{NO}]^2[\\ce{O2}]^1$\n\n0.057 M/s = $k$(0.020 M)$^2$(0.020 M)$^1$\n\n$k = 7.1 \\times 10^3\\ \\text{M}^{-2}\\text{s}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Writes rate law rate = $k[\\ce{NO}]^2[\\ce{O2}]$ and substitutes one experiment's data"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains $k \\approx 7.1 \\times 10^3$ (±5%)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct units $\\text{M}^{-2}\\text{s}^{-1}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Calculate the initial rate of disappearance of O$_2$(g) in units of M•s$^{-1}$ for experiment 3.",
+        "key_md": "Rate of disappearance of O$_2$ is half of the rate of formation of NO$_2$, so 0.114 M s$^{-1}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes rate of O2 disappearance = ½ × rate of NO2 formation"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer 0.114 M•s$^{-1}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e(i)",
+        "stem_md": "If this reaction follows a two-step mechanism with the first step being $\\ce{2 NO <=> N2O2}$\n\ni. Write an equation for the second step of the mechanism.",
+        "key_md": "Step 1: $\\ce{2 NO <=> N2O2}$\n\nStep 2: $\\ce{N2O2 + O2 -> 2 NO2}$\n\n----\n\nOverall: $\\ce{2 NO + O2 -> 2 NO2}$",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Second step written as $\\ce{N2O2 + O2 -> 2 NO2}$ (steps sum to the overall reaction)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e(ii)",
+        "stem_md": "ii. Identify the rate determining step of this mechanism and outline your reasoning.",
+        "key_md": "If step 1 is rate-limiting, then the predicted rate law is $k[\\ce{NO}]^2[\\ce{O2}]^0$. If step 2 is rate-limiting, then the predicted rate law is $k[\\ce{NO}]^2[\\ce{O2}]^1$. The latter is observed experimentally.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies step 2 as the rate-determining step"
+          },
+          {
+            "points": 1,
+            "criterion": "Reasoning: only step 2 as RDS predicts the experimentally observed rate law $k[\\ce{NO}]^2[\\ce{O2}]$ (step 1 would give zero order in O2)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2014 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2014-N-P6",
+    "year": 2014,
+    "level": "national",
+    "number": 6,
+    "title": "Net ionic, organic and nuclear equations",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use ionic or molecular formulas as appropriate and omit formulas for any ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances. You need not balance the equations or specify physical states.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Aqueous silver acetate is mixed with aqueous sodium chromate.",
+        "key_md": "$\\ce{Ag+(aq) + CrO4^2-(aq) -> Ag2CrO4(s)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactant ions $\\ce{Ag+}$ and $\\ce{CrO4^2-}$ only (spectator ions omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct product $\\ce{Ag2CrO4}$ (precipitate)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Excess aqueous sodium oxalate is added to an aqueous solution of iron(III) nitrate.",
+        "key_md": "$\\ce{C2O4^2- + Fe^3+(aq) -> [Fe(C2O4)3]^3-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants given as $\\ce{C2O4^2-}$ and $\\ce{Fe^3+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Product given as the complex ion $\\ce{[Fe(C2O4)3]^3-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Carbon dioxide is bubbled into an aqueous solution of calcium nitrate.",
+        "key_md": "Any of the following are reasonable:\n\n- No reaction\n- $\\ce{CO2(g) + H2O(l) -> H2CO3(aq)}$\n- $\\ce{CO2(g) + H2O(l) -> H+(aq) + HCO3^-(aq)}$\n- $\\ce{CaCO3(s)}$ will NOT precipitate in the absence of base.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States no reaction (no $\\ce{CaCO3}$ precipitate without base) OR gives $\\ce{CO2 + H2O -> H2CO3}$ (or $\\ce{H+ + HCO3-}$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "A solution of bromine in CHCl₃ is mixed with a solution of 1-butene in CHCl₃. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{Br2}$ + 1-butene ($\\ce{CH2=CHCH2CH3}$) $\\rightarrow$ 1,2-dibromobutane, drawn as a four-carbon chain with Br on C1 and Br on C2: $\\ce{BrCH2-CHBr-CH2CH3}$ (anti addition of $\\ce{Br2}$ across the double bond).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Shows $\\ce{Br2}$ adding across the C=C double bond (addition, not substitution)"
+          },
+          {
+            "points": 1,
+            "criterion": "Product structure is 1,2-dibromobutane, $\\ce{BrCH2CHBrCH2CH3}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Uranium-235 is bombarded with a neutron to form one nucleus containing 54 protons and 83 neutrons plus a second nucleus and two neutrons.",
+        "key_md": "$\\ce{^{235}_{92}U + ^{1}_{0}n -> ^{137}_{54}Xe + 2 ^{1}_{0}n + ^{97}_{38}Sr}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the first nucleus as $\\ce{^{137}_{54}Xe}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies the second nucleus as $\\ce{^{97}_{38}Sr}$ with mass and charge balanced (including the 2 neutrons)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2014 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2014-N-P7",
+    "year": 2014,
+    "level": "national",
+    "number": 7,
+    "title": "Group 13 ionization energies, oxidation states, Lewis acidity",
+    "topic_id": "atomic-structure",
+    "intro_md": "This question concerns the chemistry of the Group 13 elements (B - Tl). Base your answers on principles of atomic structure and bonding.",
+    "parts": [
+      {
+        "label": "a(i)",
+        "stem_md": "The first ionization energies (IE) of most main group elements decrease steadily upon descending the family whereas the first IE of B-Tl are [B 801, Al 578, Ga 579, In 558, Tl 589 ] $\\text{kJ•mol}^{-1}$.\n\nExplain briefly why the IEs for most families decrease steadily upon descending a family.",
+        "key_md": "When you descend families on the periodic table, the ionization of the electron occurs from higher $n$ values that are (usually) further from the nucleus.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the electron removed comes from a shell of higher principal quantum number $n$ / larger orbital"
+          },
+          {
+            "points": 1,
+            "criterion": "States that this electron is farther from the nucleus (and/or more shielded), so it is held less tightly"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "a(ii)",
+        "stem_md": "Suggest a reason that the IE for Ga is essentially the same as that for Al and the IE for Tl is greater than that for In.",
+        "key_md": "The $3d$ subshell fills just before Ga. There is no $2d$ subshell to fill prior to Al. The 10 added protons are not completely screened by the 10 $d$ electrons, resulting in a higher effective nuclear charge and smaller radius than expected for Ga, hence a higher IE than expected. For Tl, the newly added subshell is the $4f$ subshell, and a similar effect is observed. [Relativistic effects also contribute to the higher IE of Tl.]",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies insertion of the filled $3d$ subshell before Ga (no $2d$ before Al) and poor screening by $d$ electrons → higher $Z_\\text{eff}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Extends the argument to Tl with the $4f$ subshell (lanthanide contraction / poor $f$ screening; relativistic effects accepted)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b(i)",
+        "stem_md": "The members of this family exhibit oxidation states of +1 and/or +3.\n\nAccount for the fact that the stable oxidation states are +1 and +3 and a +2 oxidation state is not observed.",
+        "key_md": "The +1 ion corresponds to the loss of the $np^1$ electron, while +3 corresponds to the loss of the $ns^2$ and $np^1$ electrons. If 2 electrons were lost, a partially filled subshell would be present, which would interfere with bonding and would thus not be energetically favorable.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "+1 = loss of the single $np^1$ electron; +3 = loss of both $ns^2$ and the $np^1$ electrons"
+          },
+          {
+            "points": 1,
+            "criterion": "+2 would leave a partially filled (half-filled $ns^1$) subshell, which is not energetically favorable / an unpaired electron remains"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b(ii)",
+        "stem_md": "Account for the fact that B and Al show the +3 oxidation state exclusively while the +3 state for Tl is a strong oxidizing agent.",
+        "key_md": "As one descends a column, the s electrons are more penetrating, held more tightly, and are therefore more difficult to lose. This is often called the \"inert pair effect.\"",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the $ns^2$ electrons become more penetrating/held more tightly and harder to remove going down the group"
+          },
+          {
+            "points": 1,
+            "criterion": "Names or describes the inert pair effect, making Tl(III) readily reduced to Tl(I) (i.e., a strong oxidizing agent)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c(i)",
+        "stem_md": "$\\ce{BCl3}$ and $\\ce{AlCl3}$ are strong Lewis acids.\n\nWrite an equation to illustrate $\\ce{BCl3}$ acting as a Lewis acid with an appropriate Lewis base. Explains what occurs in a Lewis acid-base reaction.",
+        "key_md": "In a Lewis acid-base reaction, the Lewis base donates a pair of electrons to the Lewis acid, forming a new bond. Example (many others possible): $\\ce{BCl3 + NH3 -> BCl3-NH3}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct equation showing $\\ce{BCl3}$ plus a Lewis base (e.g. $\\ce{NH3}$) giving the adduct $\\ce{Cl3B-NH3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that the base donates an electron pair to the acid to form a new (coordinate covalent) bond"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c(ii)",
+        "stem_md": "Account for the fact that the Lewis acidity of the other tri-chlorides decreases down the family.",
+        "key_md": "The effectiveness of orbital overlap decreases down the family, so the bond between Lewis Acid and Lewis Base would weaken as the central atom of the acid gets larger.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes that the central atom gets larger / uses more diffuse orbitals down the group"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes that poorer orbital overlap gives a weaker acid–base (adduct) bond, hence weaker Lewis acidity"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2014 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2014-N-P8",
+    "year": 2014,
+    "level": "national",
+    "number": 8,
+    "title": "Acid Strength and Leveling Effects",
+    "topic_id": "equilibrium",
+    "intro_md": "Explain each of the following observations using acid-base principles.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "The acids HCl and HBr appear equally strong in $\\ce{H2O}$ but HBr is a stronger acid in 100% (glacial) acetic acid.",
+        "key_md": "In water, both HCl and HBr are equally strong, because both are 100% ionized. Water is a \"good enough\" base to pull the hydrogen ion from those two molecules to about 100% efficiency (this is called \"leveling\"). In 100% (glacial) acetic acid the acetic acid is a much much weaker base than water. HCl only partially protonates acetic acid, while HBr more fully protonates it.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States that in water both acids are essentially 100% ionized, i.e. water levels their strengths (mentions leveling effect / water is a strong enough base)"
+          },
+          {
+            "points": 2,
+            "criterion": "States that acetic acid is a much weaker base than water, so the acids are only partially ionized and their intrinsic difference shows: HBr protonates acetic acid more fully than HCl"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "The acidity of anhydrous $\\ce{H2SO4}$ is much less than the acidity of fuming $\\ce{H2SO4}$ (a saturated solution of $\\ce{SO3}$ in $\\ce{H2SO4}$).",
+        "key_md": "$\\ce{H2SO4 + SO3 -> H2S2O7}$ (fuming sulfuric acid)\n\n$\\ce{H2S2O7}$ is a stronger acid than $\\ce{H2SO4}$ because there are more oxygens around the S holding the –OH bonds so the effective polarity of the –OH bond increases, making the molecule a stronger acid.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Gives the reaction $\\ce{H2SO4 + SO3 -> H2S2O7}$ (disulfuric/pyrosulfuric acid formed)"
+          },
+          {
+            "points": 2,
+            "criterion": "Explains that the additional electron-withdrawing oxygens (greater polarity/weakening of the O–H bond, stabilization of the anion) make $\\ce{H2S2O7}$ the stronger acid"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "c",
+        "stem_md": "The first and second ionization constants for sulfurous acid, $\\ce{H2SO3}$(aq), differ by a factor of ~$2 \\times 10^{5}$ while the first and second ionization constants of hydrosulfuric acid, $\\ce{H2S}$(aq), differ by a much greater factor (~$1 \\times 10^{12}$).",
+        "key_md": "In $\\ce{H2SO3}$, the two hydrogens to be ionized are initially bonded to different atoms. Thus the negative charge left behind when the first $\\ce{H+}$ is lost is (on average) farther away from the second $\\ce{H+}$ and attracts it more weakly. In $\\ce{H2S}$, both hydrogens to be lost are bonded to the same atom.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Notes that in $\\ce{H2SO3}$ the two ionizable H atoms are on different (oxygen) atoms, while in $\\ce{H2S}$ both are on the same atom"
+          },
+          {
+            "points": 2,
+            "criterion": "Explains that the negative charge from the first ionization is farther from the second proton in $\\ce{H2SO3}$, so it is held less strongly (smaller drop between $K_1$ and $K_2$); in $\\ce{H2S}$ the charge acts at the same atom, greatly suppressing the second ionization"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "USNCO 2014 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

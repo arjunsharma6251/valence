@@ -11,6 +11,18 @@ import seedB from "../../../content/questions/seed-b.json";
 import seedAExpl from "../../../content/explanations/seed-a.json";
 import seedBExpl from "../../../content/explanations/seed-b.json";
 import seedFrq from "../../../content/frq/seed.json";
+import frq2014 from "../../../content/frq/2014-national.json";
+import frq2016 from "../../../content/frq/2016-national.json";
+import frq2017 from "../../../content/frq/2017-national.json";
+import frq2018 from "../../../content/frq/2018-national.json";
+import frq2019 from "../../../content/frq/2019-national.json";
+import frq2020 from "../../../content/frq/2020-national.json";
+import frq2021 from "../../../content/frq/2021-national.json";
+import frq2022 from "../../../content/frq/2022-national.json";
+import frq2023 from "../../../content/frq/2023-national.json";
+import frq2024 from "../../../content/frq/2024-national.json";
+import frq2025 from "../../../content/frq/2025-national.json";
+import frq2026 from "../../../content/frq/2026-national.json";
 import q2016Local from "../../../content/questions/2016-local.json";
 import q2017Local from "../../../content/questions/2017-local.json";
 import q2018Local from "../../../content/questions/2018-local.json";
@@ -54,7 +66,10 @@ export const explanations: Explanation[] = [
   ...(seedAExpl as Explanation[]),
   ...(seedBExpl as Explanation[]),
 ];
-export const frq: FrqProblem[] = seedFrq as FrqProblem[];
+export const frq: FrqProblem[] = [
+  ...(seedFrq as FrqProblem[]),
+  ...([frq2014, frq2016, frq2017, frq2018, frq2019, frq2020, frq2021, frq2022, frq2023, frq2024, frq2025, frq2026].flat() as FrqProblem[]),
+];
 
 export const bundle: ContentBundle = { topics, questions, explanations, frq };
 

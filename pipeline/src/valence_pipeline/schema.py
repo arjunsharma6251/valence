@@ -49,6 +49,7 @@ class Question(BaseModel):
     """One multiple-choice question, exactly as the app expects it."""
 
     model_config = ConfigDict(extra="forbid")
+    polished: bool = False  # set by `polish`; ignored downstream
 
     id: str
     year: int

@@ -13,31 +13,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1.0 L H2 and 4.0 L O2"
+        "text_md": "1.0 L $\\ce{H2}$ and 4.0 L $\\ce{O2}$"
       },
       {
         "label": "B",
-        "text_md": "2.0 L H2 and 3.0 L O2"
+        "text_md": "2.0 L $\\ce{H2}$ and 3.0 L $\\ce{O2}$"
       },
       {
         "label": "C",
-        "text_md": "3.0 L H2 and 2.0 L O2"
+        "text_md": "3.0 L $\\ce{H2}$ and 2.0 L $\\ce{O2}$"
       },
       {
         "label": "D",
-        "text_md": "4.0 L H2 and 1.0 L O2"
+        "text_md": "4.0 L $\\ce{H2}$ and 1.0 L $\\ce{O2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-02",
     "year": 2021,
     "level": "national",
     "number": 2,
-    "stem_md": "Potassium hydrogen phthalate (KHP, M = 204) is a monoprotic acid used as a primary standard in acid-base titrations. It takes 28.15 mL of a solution of Sr(OH)2 to neutralize 0.402 g KHP. What is the concentration of the Sr(OH)2 solution?",
+    "stem_md": "Potassium hydrogen phthalate (KHP, M = 204) is a monoprotic acid used as a primary standard in acid-base titrations. It takes 28.15 mL of a solution of $\\ce{Sr(OH)2}$ to neutralize 0.402 g KHP. What is the concentration of the $\\ce{Sr(OH)2}$ solution?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -63,14 +64,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 2. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-03",
     "year": 2021,
     "level": "national",
     "number": 3,
-    "stem_md": "20.0 mL of 0.15 M aqueous Pb(NO3)2 and 10.0 mL of 0.35 M aqueous NaBr are mixed, giving a white precipitate. Which ion is LEAST abundant in the supernatant?",
+    "stem_md": "20.0 mL of 0.15 M aqueous $\\ce{Pb(NO3)2}$ and 10.0 mL of 0.35 M aqueous $\\ce{NaBr}$ are mixed, giving a white precipitate. Which ion is LEAST abundant in the supernatant?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -79,24 +81,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Pb2+"
+        "text_md": "$\\ce{Pb^2+}$"
       },
       {
         "label": "B",
-        "text_md": "Na+"
+        "text_md": "$\\ce{Na+}$"
       },
       {
         "label": "C",
-        "text_md": "NO3–"
+        "text_md": "$\\ce{NO3-}$"
       },
       {
         "label": "D",
-        "text_md": "Br–"
+        "text_md": "$\\ce{Br-}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-04",
@@ -112,31 +115,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "PbO"
+        "text_md": "$\\ce{PbO}$"
       },
       {
         "label": "B",
-        "text_md": "Pb2O3"
+        "text_md": "$\\ce{Pb2O3}$"
       },
       {
         "label": "C",
-        "text_md": "Pb3O4"
+        "text_md": "$\\ce{Pb3O4}$"
       },
       {
         "label": "D",
-        "text_md": "Pb12O19"
+        "text_md": "$\\ce{Pb12O19}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-05",
     "year": 2021,
     "level": "national",
     "number": 5,
-    "stem_md": "A mixture of K2S, K2SO3, and K2SO4 is found to contain 60.0% K by mass. What is the mass percent of oxygen in the mixture?",
+    "stem_md": "A mixture of $\\ce{K2S}$, $\\ce{K2SO3}$, and $\\ce{K2SO4}$ is found to contain 60.0% $\\ce{K}$ by mass. What is the mass percent of oxygen in the mixture?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -162,14 +166,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 5. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-06",
     "year": 2021,
     "level": "national",
     "number": 6,
-    "stem_md": "A solution of 5.00 g oxalic acid (H2C2O4, M = 90.04) in 100.0 g H2O has a freezing point of –1.31 °C. What is the percent ionization of oxalic acid in this solution? The freezing point depression constant of water is Kf = 1.86 °C m-1.",
+    "stem_md": "A solution of 5.00 g oxalic acid ($\\ce{H2C2O4}$, M = 90.04) in 100.0 g $\\ce{H2O}$ has a freezing point of –1.31 °C. What is the percent ionization of oxalic acid in this solution? The freezing point depression constant of water is $K_f$ = 1.86 °C m$^{-1}$.",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -195,7 +200,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 6. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-07",
@@ -228,14 +234,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 7. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-08",
     "year": 2021,
     "level": "national",
     "number": 8,
-    "stem_md": "A solution that may contain either 0.1 M Ag+(aq), 0.1 M Pb2+(aq), or both, is treated with 1 M aqueous HCl. A white precipitate forms which does not appear to dissolve in hot water. Which conclusion about the cations present may be drawn?",
+    "stem_md": "A solution that may contain either 0.1 M $\\ce{Ag+(aq)}$, 0.1 M $\\ce{Pb^2+(aq)}$, or both, is treated with 1 M aqueous $\\ce{HCl}$. A white precipitate forms which does not appear to dissolve in hot water. Which conclusion about the cations present may be drawn?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -244,24 +251,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Only Ag+ is present."
+        "text_md": "Only $\\ce{Ag+}$ is present."
       },
       {
         "label": "B",
-        "text_md": "Only Pb2+ is present."
+        "text_md": "Only $\\ce{Pb^2+}$ is present."
       },
       {
         "label": "C",
-        "text_md": "Ag+ is present, and Pb2+ may be present."
+        "text_md": "$\\ce{Ag+}$ is present, and $\\ce{Pb^2+}$ may be present."
       },
       {
         "label": "D",
-        "text_md": "Pb2+ is present, and Ag+ may be present."
+        "text_md": "$\\ce{Pb^2+}$ is present, and $\\ce{Ag+}$ may be present."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 8. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-09",
@@ -277,24 +285,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "KMnO4"
+        "text_md": "$\\ce{KMnO4}$"
       },
       {
         "label": "B",
-        "text_md": "FeCl3"
+        "text_md": "$\\ce{FeCl3}$"
       },
       {
         "label": "C",
-        "text_md": "Co(NO3)2"
+        "text_md": "$\\ce{Co(NO3)2}$"
       },
       {
         "label": "D",
-        "text_md": "CuSO4"
+        "text_md": "$\\ce{CuSO4}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-10",
@@ -327,14 +336,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-11",
     "year": 2021,
     "level": "national",
     "number": 11,
-    "stem_md": "When blue solid CuSO4•5 H2O is heated, it turns white. Which is the best explanation for this observation?",
+    "stem_md": "When blue solid $\\ce{CuSO4.5H2O}$ is heated, it turns white. Which is the best explanation for this observation?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -360,14 +370,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 11. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-12",
     "year": 2021,
     "level": "national",
     "number": 12,
-    "stem_md": "A student performs an experiment to determine the concentration of a colored salt solution by measuring the absorbance of the solution at the wavelength of maximum absorbance of the salt (λmax) and using Beer’s Law to calculate the concentration. Which of the following could cause the measured concentration to be higher than the actual concentration?",
+    "stem_md": "A student performs an experiment to determine the concentration of a colored salt solution by measuring the absorbance of the solution at the wavelength of maximum absorbance of the salt ($\\lambda_\\text{max}$) and using Beer’s Law to calculate the concentration. Which of the following could cause the measured concentration to be higher than the actual concentration?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -388,19 +399,54 @@
       },
       {
         "label": "D",
-        "text_md": "The spectrometer is set to a wavelength different from λmax."
+        "text_md": "The spectrometer is set to a wavelength different from $\\lambda_\\text{max}$."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2021-N-13",
+    "year": 2021,
+    "level": "national",
+    "number": 13,
+    "stem_md": "Which C3H6O isomer has the lowest normal boiling point?",
+    "figure_url": "/figures/2021-N-13.png",
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2021 National Part I exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-14",
     "year": 2021,
     "level": "national",
     "number": 14,
-    "stem_md": "Dichloromethane (CH2Cl2, M = 84.93) is a volatile liquid with a vapor pressure of 0.53 atm at 24 °C. 13.8 g of dichloromethane is introduced into a 5.0-L evacuated container maintained at 24 °C. Which is the best description of the system at equilibrium?",
+    "stem_md": "Dichloromethane ($\\ce{CH2Cl2}$, M = 84.93) is a volatile liquid with a vapor pressure of 0.53 atm at 24 °C. 13.8 g of dichloromethane is introduced into a 5.0-L evacuated container maintained at 24 °C. Which is the best description of the system at equilibrium?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -409,32 +455,33 @@
     "options": [
       {
         "label": "A",
-        "text_md": "One-third of the CH2Cl2 has evaporated."
+        "text_md": "One-third of the $\\ce{CH2Cl2}$ has evaporated."
       },
       {
         "label": "B",
-        "text_md": "Two-thirds of the CH2Cl2 has evaporated."
+        "text_md": "Two-thirds of the $\\ce{CH2Cl2}$ has evaporated."
       },
       {
         "label": "C",
-        "text_md": "All of the CH2Cl2 has evaporated to give a pressure of 0.53 atm."
+        "text_md": "All of the $\\ce{CH2Cl2}$ has evaporated to give a pressure of 0.53 atm."
       },
       {
         "label": "D",
-        "text_md": "All of the CH2Cl2 has evaporated to give a pressure of 0.79 atm."
+        "text_md": "All of the $\\ce{CH2Cl2}$ has evaporated to give a pressure of 0.79 atm."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-15",
     "year": 2021,
     "level": "national",
     "number": 15,
-    "stem_md": "A piece of solid CO2 initially at –78 °C is placed in a small plastic container, which is then sealed and allowed to warm up in a room whose temperature is 22 °C. Ultimately the plastic container explodes, ending any further observations. Which statement best describes the possibility of observing liquid CO2 before the container explodes? (The phase diagram of CO2 is shown below.)",
-    "figure_url": null,
+    "stem_md": "A piece of solid $\\ce{CO2}$ initially at –78 °C is placed in a small plastic container, which is then sealed and allowed to warm up in a room whose temperature is 22 °C. Ultimately the plastic container explodes, ending any further observations. Which statement best describes the possibility of observing liquid $\\ce{CO2}$ before the container explodes? (The phase diagram of $\\ce{CO2}$ is shown below.)",
+    "figure_url": "/figures/2021-N-15.png",
     "topic_id": "states-of-matter",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -442,31 +489,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Liquid CO2 must be observable, since the explosion is driven by hydrostatic pressure of liquid CO2."
+        "text_md": "Liquid $\\ce{CO2}$ must be observable, since the explosion is driven by hydrostatic pressure of liquid $\\ce{CO2}$."
       },
       {
         "label": "B",
-        "text_md": "Liquid CO2 may be observed, since the triple point may be reached during this experiment."
+        "text_md": "Liquid $\\ce{CO2}$ may be observed, since the triple point may be reached during this experiment."
       },
       {
         "label": "C",
-        "text_md": "Liquid CO2 may not be observed, since only sublimation of solid CO2 is possible under the conditions of the experiment."
+        "text_md": "Liquid $\\ce{CO2}$ may not be observed, since only sublimation of solid $\\ce{CO2}$ is possible under the conditions of the experiment."
       },
       {
         "label": "D",
-        "text_md": "Liquid CO2 may not be observed, but supercritical CO2 may be observed."
+        "text_md": "Liquid $\\ce{CO2}$ may not be observed, but supercritical $\\ce{CO2}$ may be observed."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-16",
     "year": 2021,
     "level": "national",
     "number": 16,
-    "stem_md": "A solid calcium boride CaBx has a density of 2.45 g cm–3. It has a primitive cubic lattice with an edge length a = 415 pm and with one calcium atom per unit cell. What is the value of x?",
+    "stem_md": "A solid calcium boride $\\ce{CaB_x}$ has a density of 2.45 g cm$^{-3}$. It has a primitive cubic lattice with an edge length a = 415 pm and with one calcium atom per unit cell. What is the value of x?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -492,14 +540,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-17",
     "year": 2021,
     "level": "national",
     "number": 17,
-    "stem_md": "The lattice enthalpy of Na2O is –2600 kJ mol–1 while the lattice enthalpy of MgO is –3900 kJ mol–1. Which factors contribute to the larger magnitude of the lattice enthalpy of MgO? I. Mg2+ has a larger charge than Na+. II. Mg2+ is smaller than Na+.",
+    "stem_md": "The lattice enthalpy of $\\ce{Na2O}$ is –2600 kJ mol$^{-1}$ while the lattice enthalpy of $\\ce{MgO}$ is –3900 kJ mol$^{-1}$. Which factors contribute to the larger magnitude of the lattice enthalpy of $\\ce{MgO}$?\n\nI. $\\ce{Mg^2+}$ has a larger charge than $\\ce{Na+}$.\n\nII. $\\ce{Mg^2+}$ is smaller than $\\ce{Na+}$.",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -525,14 +574,49 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2021-N-18",
+    "year": 2021,
+    "level": "national",
+    "number": 18,
+    "stem_md": "A sample of benzene ($\\ce{C6H6}$) is heated at a constant rate. Which graph most accurately represents how the temperature changes with time?",
+    "figure_url": "/figures/2021-N-18.png",
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2021 National Part I exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-19",
     "year": 2021,
     "level": "national",
     "number": 19,
-    "stem_md": "An insulated container holds 100.0 g of water at 25.0 °C. A 100.0 g piece of copper at 50.0 °C is added to the container. What is the final temperature of the mixture in the container at equilibrium? The specific heat capacity of copper is 0.385 J g-1 K-1.",
+    "stem_md": "An insulated container holds 100.0 g of water at 25.0 °C. A 100.0 g piece of copper at 50.0 °C is added to the container. What is the final temperature of the mixture in the container at equilibrium? The specific heat capacity of copper is 0.385 J g$^{-1}$ K$^{-1}$.",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -558,7 +642,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-20",
@@ -591,14 +676,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-21",
     "year": 2021,
     "level": "national",
     "number": 21,
-    "stem_md": "The standard enthalpy of formation of NO2(g) is 33.1 kJ mol-1. What is the average bond dissociation enthalpy of a nitrogen-oxygen bond in NO2(g)? Bond Bond dissociation enthalpy, kJ mol-1 N≡N 945.4 O=O 498.4",
+    "stem_md": "The standard enthalpy of formation of $\\ce{NO2(g)}$ is 33.1 kJ mol$^{-1}$. What is the average bond dissociation enthalpy of a nitrogen-oxygen bond in $\\ce{NO2(g)}$? Bond Bond dissociation enthalpy, kJ mol$^{-1}$ $\\ce{N#N}$ 945.4 $\\ce{O=O}$ 498.4",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -607,31 +693,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "469.0 kJ mol-1"
+        "text_md": "469.0 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "502.1 kJ mol-1"
+        "text_md": "502.1 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "705.4 kJ mol-1"
+        "text_md": "705.4 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "738.5 kJ mol-1"
+        "text_md": "738.5 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-22",
     "year": 2021,
     "level": "national",
     "number": 22,
-    "stem_md": "The formation of ammonia from nitrogen and hydrogen has a standard free energy change of –32.8 kJ mol-1 at 298 K. N2(g) + 3 H2(g) → 2 NH3(g) ∆G° = –32.8 kJ mol-1 What is ∆G at 298 K if the partial pressures of all three gases are 3.00 bar?",
+    "stem_md": "The formation of ammonia from nitrogen and hydrogen has a standard free energy change of –32.8 kJ mol$^{-1}$ at 298 K. $\\ce{N2(g) + 3 H2(g) -> 2 NH3(g)}$ $\\Delta G^\\circ = -32.8$ kJ mol$^{-1}$ What is $\\Delta G$ at 298 K if the partial pressures of all three gases are 3.00 bar?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -640,31 +727,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–30.1 kJ mol-1"
+        "text_md": "–30.1 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "–32.8 kJ mol-1"
+        "text_md": "–32.8 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "–35.5 kJ mol-1"
+        "text_md": "–35.5 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "–38.2 kJ mol-1"
+        "text_md": "–38.2 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-23",
     "year": 2021,
     "level": "national",
     "number": 23,
-    "stem_md": "What is Kp for the dissociation of PCl5(g) at 298 K? PCl5(g) → PCl3(g) + Cl2(g) Kp = ??? Substance ∆G°f, kJ mol-1 PCl5(g) –325 PCl3(g) –286",
+    "stem_md": "What is $K_p$ for the dissociation of $\\ce{PCl5(g)}$ at 298 K? $\\ce{PCl5(g) -> PCl3(g) + Cl2(g)}$ $K_p$ = ??? Substance $\\Delta G^\\circ_f$, kJ mol$^{-1}$ $\\ce{PCl5(g)}$ –325 $\\ce{PCl3(g)}$ –286",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -673,31 +761,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1.8 × 10-16"
+        "text_md": "$1.8 \\times 10^{-16}$"
       },
       {
         "label": "B",
-        "text_md": "5.9 × 10-11"
+        "text_md": "$5.9 \\times 10^{-11}$"
       },
       {
         "label": "C",
-        "text_md": "6.0 × 10-9"
+        "text_md": "$6.0 \\times 10^{-9}$"
       },
       {
         "label": "D",
-        "text_md": "1.5 × 10-7"
+        "text_md": "$1.5 \\times 10^{-7}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-24",
     "year": 2021,
     "level": "national",
     "number": 24,
-    "stem_md": "A reaction has Keq = 0.10 at 300 K and Keq = 0.50 at 330 K. Which statements about this reaction in this temperature range must be correct? I. ∆H°rxn > 0 II. ∆S°rxn > 0",
+    "stem_md": "A reaction has $K_\\text{eq} = 0.10$ at 300 K and $K_\\text{eq} = 0.50$ at 330 K. Which statements about this reaction in this temperature range must be correct?\n\nI. $\\Delta H^\\circ_\\text{rxn} > 0$\n\nII. $\\Delta S^\\circ_\\text{rxn} > 0$",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -723,15 +812,16 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-25",
     "year": 2021,
     "level": "national",
     "number": 25,
-    "stem_md": "The time course of a reaction in which a reactant R is converted to a product P is shown below. Which statements about the reaction are correct? I. The reaction is first order in R. II. Two moles of P are formed for every mole of R that reacts.",
-    "figure_url": null,
+    "stem_md": "The time course of a reaction in which a reactant R is converted to a product P is shown below. Which statements about the reaction are correct?\n\nI. The reaction is first order in R.\n\nII. Two moles of P are formed for every mole of R that reacts.",
+    "figure_url": "/figures/2021-N-25.png",
     "topic_id": "kinetics",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -756,14 +846,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-26",
     "year": 2021,
     "level": "national",
     "number": 26,
-    "stem_md": "In a reaction A + 2 B → C + D, initial rates were measured as shown in the table. What is the initial rate of the reaction with [A]0 = 0.200 M and [B]0 = 0.400 M? [A]0, M [B]0, M Initial rate, M s-1 0.120 0.300 1.80 × 10-5 0.180 0.450 4.05 × 10-5 0.080 0.200 8.00 × 10-6 0.200 0.400 ???",
+    "stem_md": "In a reaction $\\ce{A + 2 B -> C + D}$, initial rates were measured as shown in the table. What is the initial rate of the reaction with $[A]_0 = 0.200$ M and $[B]_0 = 0.400$ M? $[A]_0$, M $[B]_0$, M Initial rate, M s$^{-1}$ 0.120 0.300 $1.80 \\times 10^{-5}$ 0.180 0.450 $4.05 \\times 10^{-5}$ 0.080 0.200 $8.00 \\times 10^{-6}$ 0.200 0.400 ???",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -772,15 +863,15 @@
     "options": [
       {
         "label": "A",
-        "text_md": "3.20 × 10-5 M s-1"
+        "text_md": "$3.20 \\times 10^{-5}$ M s$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "4.00 × 10-5 M s-1"
+        "text_md": "$4.00 \\times 10^{-5}$ M s$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "5.00 × 10-5 M s-1"
+        "text_md": "$5.00 \\times 10^{-5}$ M s$^{-1}$"
       },
       {
         "label": "D",
@@ -789,14 +880,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-27",
     "year": 2021,
     "level": "national",
     "number": 27,
-    "stem_md": "The temperature-dependence of the rate constants of a series of six related reactions are studied, and the reactions are all found to have the same rate constant at 370 K (their isokinetic temperature). Which statement best describes the relationship between the reactions’ Arrhenius pre-factors A and their activation energies Ea?",
+    "stem_md": "The temperature-dependence of the rate constants of a series of six related reactions are studied, and the reactions are all found to have the same rate constant at 370 K (their isokinetic temperature). Which statement best describes the relationship between the reactions’ Arrhenius pre-factors $A$ and their activation energies $E_a$?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -805,32 +897,33 @@
     "options": [
       {
         "label": "A",
-        "text_md": "The reactions share a common pre-factor A but differ in their activation energies Ea."
+        "text_md": "The reactions share a common pre-factor $A$ but differ in their activation energies $E_a$."
       },
       {
         "label": "B",
-        "text_md": "The reactions share a common activation energy Ea but differ in their pre-factors A."
+        "text_md": "The reactions share a common activation energy $E_a$ but differ in their pre-factors $A$."
       },
       {
         "label": "C",
-        "text_md": "As the reactions’ pre-factors A increase, their activation energies Ea increase."
+        "text_md": "As the reactions’ pre-factors $A$ increase, their activation energies $E_a$ increase."
       },
       {
         "label": "D",
-        "text_md": "As the reactions’ pre-factors A increase, their activation energies Ea decrease."
+        "text_md": "As the reactions’ pre-factors $A$ increase, their activation energies $E_a$ decrease."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-28",
     "year": 2021,
     "level": "national",
     "number": 28,
-    "stem_md": "Which properties of the reaction whose reaction coordinate is shown below increase with increasing temperature? I. The forward rate constant of the reaction, kf II. The equilibrium constant of the reaction, Keq",
-    "figure_url": null,
+    "stem_md": "Which properties of the reaction whose reaction coordinate is shown below increase with increasing temperature?\n\nI. The forward rate constant of the reaction, $k_f$\n\nII. The equilibrium constant of the reaction, $K_\\text{eq}$",
+    "figure_url": "/figures/2021-N-28.png",
     "topic_id": "kinetics",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -855,14 +948,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-29",
     "year": 2021,
     "level": "national",
     "number": 29,
-    "stem_md": "The hydrolysis of formamide to formate ion in basic aqueous solution is proposed to proceed by the following steps: HCONH2 + OH–  HCO(OH)(NH2)– unfavorable HCO(OH)(NH2)– + OH–  HCO2(NH2)2– + H2O fast, unfavorable HCO2(NH2)2– → HCO2– + NH2– irreversible NH2– + H2O → NH3 + OH– fast, favorable Which of the following statements is necessarily true, given this mechanism?",
+    "stem_md": "The hydrolysis of formamide to formate ion in basic aqueous solution is proposed to proceed by the following steps:\n\n$\\ce{HCONH2 + OH- <=> HCO(OH)(NH2)-}$ unfavorable\n\n$\\ce{HCO(OH)(NH2)- + OH- <=> HCO2(NH2)2^- + H2O}$ fast, unfavorable\n\n$\\ce{HCO2(NH2)2^- -> HCO2- + NH2-}$ irreversible\n\n$\\ce{NH2- + H2O -> NH3 + OH-}$ fast, favorable\n\nWhich of the following statements is necessarily true, given this mechanism?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -871,7 +965,7 @@
     "options": [
       {
         "label": "A",
-        "text_md": "The reaction is first-order in HCONH2."
+        "text_md": "The reaction is first-order in $\\ce{HCONH2}$."
       },
       {
         "label": "B",
@@ -879,7 +973,7 @@
       },
       {
         "label": "C",
-        "text_md": "HCO2– is an intermediate in this reaction."
+        "text_md": "$\\ce{HCO2-}$ is an intermediate in this reaction."
       },
       {
         "label": "D",
@@ -888,14 +982,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-30",
     "year": 2021,
     "level": "national",
     "number": 30,
-    "stem_md": "An irreversible reaction A + B → C is first-order in both A and B. In a solution with [A]0 = 0.20 M, it takes 37 s for the concentration of B to decrease from its initial value of 0.010 M to 0.0050 M. How long will it take the concentration of B to decrease from an initial value of 0.010 M to 0.0050 M if the initial concentration of A is 0.010 M?",
+    "stem_md": "An irreversible reaction A + B → C is first-order in both A and B. In a solution with $[A]_0$ = 0.20 M, it takes 37 s for the concentration of B to decrease from its initial value of 0.010 M to 0.0050 M. How long will it take the concentration of B to decrease from an initial value of 0.010 M to 0.0050 M if the initial concentration of A is 0.010 M?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -921,14 +1016,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-31",
     "year": 2021,
     "level": "national",
     "number": 31,
-    "stem_md": "What is the percent ionization of a 0.10 M solution of nitrous acid (HNO2, Ka = 7.2 × 10-4)?",
+    "stem_md": "What is the percent ionization of a 0.10 M solution of nitrous acid ($\\ce{HNO2}$, $K_a = 7.2 \\times 10^{-4}$)?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -954,15 +1050,16 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-32",
     "year": 2021,
     "level": "national",
     "number": 32,
-    "stem_md": "The reaction mixture below represents the reaction A2(g) + B2(g)  2 AB(g) with Keq = 2.5. Which statement correctly describes the situation?",
-    "figure_url": null,
+    "stem_md": "The reaction mixture below represents the reaction $\\ce{A2(g) + B2(g) <=> 2 AB(g)}$ with $K_\\text{eq} = 2.5$. Which statement correctly describes the situation?",
+    "figure_url": "/figures/2021-N-32.png",
     "topic_id": "equilibrium",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -987,14 +1084,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-33",
     "year": 2021,
     "level": "national",
     "number": 33,
-    "stem_md": "The hydrogenation of carbon monoxide represented below is exothermic. CO(g) + 2 H2(g)  CH3OH(l) ∆H°rxn < 0 Which changes will increase the equilibrium yield of CH3OH? I. Increasing the temperature of the system II. Removing some of the CH3OH(l)",
+    "stem_md": "The hydrogenation of carbon monoxide represented below is exothermic. $\\ce{CO(g) + 2 H2(g) <=> CH3OH(l)}$ $\\Delta H^\\circ_\\text{rxn} < 0$ Which changes will increase the equilibrium yield of $\\ce{CH3OH}$?\n\nI. Increasing the temperature of the system\n\nII. Removing some of the $\\ce{CH3OH(l)}$",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1020,14 +1118,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-34",
     "year": 2021,
     "level": "national",
     "number": 34,
-    "stem_md": "To a solution that is 0.010 M each in fluoride, sulfite, and phosphate ions is added dropwise a 1.00 M solution of CaCl2. In what order will the solids precipitate? Solid Ksp CaSO3 6.8 × 10-8 CaF2 5.3 × 10-9 Ca3(PO4)2 1.0 × 10-25",
+    "stem_md": "To a solution that is 0.010 M each in fluoride, sulfite, and phosphate ions is added dropwise a 1.00 M solution of $\\ce{CaCl2}$. In what order will the solids precipitate? Solid $K_\\text{sp}$ $\\ce{CaSO3}$ $6.8 \\times 10^{-8}$ $\\ce{CaF2}$ $5.3 \\times 10^{-9}$ $\\ce{Ca3(PO4)2}$ $1.0 \\times 10^{-25}$",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1036,24 +1135,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "First Ca3(PO4)2, then CaF2, last CaSO3"
+        "text_md": "First $\\ce{Ca3(PO4)2}$, then $\\ce{CaF2}$, last $\\ce{CaSO3}$"
       },
       {
         "label": "B",
-        "text_md": "First Ca3(PO4)2, then CaSO3, last CaF2"
+        "text_md": "First $\\ce{Ca3(PO4)2}$, then $\\ce{CaSO3}$, last $\\ce{CaF2}$"
       },
       {
         "label": "C",
-        "text_md": "First CaSO3, then CaF2, last Ca3(PO4)2"
+        "text_md": "First $\\ce{CaSO3}$, then $\\ce{CaF2}$, last $\\ce{Ca3(PO4)2}$"
       },
       {
         "label": "D",
-        "text_md": "First CaF2, then CaSO3, last Ca3(PO4)2"
+        "text_md": "First $\\ce{CaF2}$, then $\\ce{CaSO3}$, last $\\ce{Ca3(PO4)2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-35",
@@ -1061,7 +1161,7 @@
     "level": "national",
     "number": 35,
     "stem_md": "The graph shows the logarithm of the molar solubility S of an ionic solid as a function of pH. Which solid is it?",
-    "figure_url": null,
+    "figure_url": "/figures/2021-N-35.png",
     "topic_id": "equilibrium",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -1069,31 +1169,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Ag2C2O4"
+        "text_md": "$\\ce{Ag2C2O4}$"
       },
       {
         "label": "B",
-        "text_md": "AlPO4"
+        "text_md": "$\\ce{AlPO4}$"
       },
       {
         "label": "C",
-        "text_md": "SrSO4"
+        "text_md": "$\\ce{SrSO4}$"
       },
       {
         "label": "D",
-        "text_md": "BaF2"
+        "text_md": "$\\ce{BaF2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-36",
     "year": 2021,
     "level": "national",
     "number": 36,
-    "stem_md": "Some solid silver nitrate is dissolved in 100.0 mL of 1.00 M NH3 solution. To this solution, 50.0 mL of 1.00 M NaCl solution must be added to see the first sign of cloudiness. How much AgNO3 was present? The Ksp of AgCl is 1.8 × 10-10 and the Kf of Ag(NH3)2+ is 1.0 × 108.",
+    "stem_md": "Some solid silver nitrate is dissolved in 100.0 mL of 1.00 M $\\ce{NH3}$ solution. To this solution, 50.0 mL of 1.00 M $\\ce{NaCl}$ solution must be added to see the first sign of cloudiness. How much $\\ce{AgNO3}$ was present? The $K_\\text{sp}$ of $\\ce{AgCl}$ is $1.8 \\times 10^{-10}$ and the $K_\\text{f}$ of $\\ce{Ag(NH3)2+}$ is $1.0 \\times 10^{8}$.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1102,31 +1203,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "8.1 × 10-11 mol"
+        "text_md": "$8.1 \\times 10^{-11}$ mol"
       },
       {
         "label": "B",
-        "text_md": "2.1 × 10-3 mol"
+        "text_md": "$2.1 \\times 10^{-3}$ mol"
       },
       {
         "label": "C",
-        "text_md": "3.2 × 10-3 mol"
+        "text_md": "$3.2 \\times 10^{-3}$ mol"
       },
       {
         "label": "D",
-        "text_md": "4.9 × 10-3 mol"
+        "text_md": "$4.9 \\times 10^{-3}$ mol"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 36. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-37",
     "year": 2021,
     "level": "national",
     "number": 37,
-    "stem_md": "In basic solution, Cl2(g) disproportionates to form Cl–(aq) and ClO3–(aq). What is the mole ratio of Cl–(aq) to ClO3– (aq) produced in this reaction?",
+    "stem_md": "In basic solution, $\\ce{Cl2(g)}$ disproportionates to form $\\ce{Cl-(aq)}$ and $\\ce{ClO3-(aq)}$. What is the mole ratio of $\\ce{Cl-(aq)}$ to $\\ce{ClO3-(aq)}$ produced in this reaction?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1152,14 +1254,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-38",
     "year": 2021,
     "level": "national",
     "number": 38,
-    "stem_md": "What are the oxidation states of the sulfur atoms in the thiosulfate ion, S2O32-?",
+    "stem_md": "What are the oxidation states of the sulfur atoms in the thiosulfate ion, $\\ce{S2O3^2-}$?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1185,14 +1288,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-39",
     "year": 2021,
     "level": "national",
     "number": 39,
-    "stem_md": "A new electrode material is being tested for its ability to selectively reduce oxygen gas to hydrogen peroxide. After running an electrolytic cell using this electrode for 110.0 minutes at a current of 0.150 A, the solution in the cathode compartment is analyzed and is found to contain 2.00 × 10-3 mol H2O2. What is the percent yield of H2O2 based on the current passed through the cell (the faradaic yield)?",
+    "stem_md": "A new electrode material is being tested for its ability to selectively reduce oxygen gas to hydrogen peroxide. After running an electrolytic cell using this electrode for 110.0 minutes at a current of 0.150 A, the solution in the cathode compartment is analyzed and is found to contain $2.00 \\times 10^{-3}$ mol $\\ce{H2O2}$. What is the percent yield of $\\ce{H2O2}$ based on the current passed through the cell (the faradaic yield)?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1218,14 +1322,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-40",
     "year": 2021,
     "level": "national",
     "number": 40,
-    "stem_md": "What is the Ksp of AgI at 298 K? Half-reaction E°, V Ag+(aq) + e– → Ag(s) +0.80 AgI(s) + e– → Ag(s) + I–(aq) –0.15",
+    "stem_md": "What is the $K_\\text{sp}$ of $\\ce{AgI}$ at 298 K? Half-reaction $E^\\circ$, V $\\ce{Ag+(aq) + e- -> Ag(s)}$ +0.80 $\\ce{AgI(s) + e- -> Ag(s) + I-(aq)}$ –0.15",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1251,15 +1356,50 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2021-N-41",
+    "year": 2021,
+    "level": "national",
+    "number": 41,
+    "stem_md": "In the diagram below, an electrochemical cell's anode and cathode are linked by a semi-permeable membrane that allows only water to pass. The concentrations of $\\ce{Zn(NO3)2(aq)}$ and $\\ce{Cu(NO3)2(aq)}$ are initially each 0.10 M. Which of the following diagrams best shows the water levels in each cell at equilibrium?",
+    "figure_url": "/figures/2021-N-41.png",
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2021 National Part I exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-42",
     "year": 2021,
     "level": "national",
     "number": 42,
-    "stem_md": "Consider the voltaic cell below at 25 °C with 1.00 L of solution in each half-cell. When the switch is closed, the mass of the Cr(s) electrode increases until the cell is fully discharged (i.e., ΔE = 0 V). If the final mass of Cr(s) is 24.50 g, what is ΔE° at 25 °C for the reaction shown below? 2 Cr3+(aq) + 3 Zn(s) → 2 Cr(s) + 3 Zn2+(aq) ΔE° = ???",
-    "figure_url": null,
+    "stem_md": "Consider the voltaic cell below at 25 °C with 1.00 L of solution in each half-cell. When the switch is closed, the mass of the $\\ce{Cr(s)}$ electrode increases until the cell is fully discharged (i.e., $\\Delta E$ = 0 V). If the final mass of $\\ce{Cr(s)}$ is 24.50 g, what is $\\Delta E^\\circ$ at 25 °C for the reaction shown below? $\\ce{2 Cr^3+(aq) + 3 Zn(s) -> 2 Cr(s) + 3 Zn^2+(aq)}$ $\\Delta E^\\circ$ = ???",
+    "figure_url": "/figures/2021-N-42.png",
     "topic_id": "redox",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -1284,7 +1424,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-43",
@@ -1317,7 +1458,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-44",
@@ -1350,7 +1492,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-45",
@@ -1366,24 +1509,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Cr2+"
+        "text_md": "$\\ce{Cr^2+}$"
       },
       {
         "label": "B",
-        "text_md": "Co2+"
+        "text_md": "$\\ce{Co^2+}$"
       },
       {
         "label": "C",
-        "text_md": "Ni2+"
+        "text_md": "$\\ce{Ni^2+}$"
       },
       {
         "label": "D",
-        "text_md": "Zn2+"
+        "text_md": "$\\ce{Zn^2+}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-46",
@@ -1416,7 +1560,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-47",
@@ -1449,14 +1594,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-48",
     "year": 2021,
     "level": "national",
     "number": 48,
-    "stem_md": "Despite the fact that atomic radius generally increases with period, the palladium-chlorine distance in PdCl42- is essentially identical to the platinum-chlorine distance in PtCl42- (2.30 Å). Which is the best explanation of why the two bond lengths are the same?",
+    "stem_md": "Despite the fact that atomic radius generally increases with period, the palladium-chlorine distance in $\\ce{PdCl4^2-}$ is essentially identical to the platinum-chlorine distance in $\\ce{PtCl4^2-}$ (2.30 Å). Which is the best explanation of why the two bond lengths are the same?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1469,7 +1615,7 @@
       },
       {
         "label": "B",
-        "text_md": "PdCl42- is tetrahedral, while PtCl42- is square planar and so has shorter bonds than expected."
+        "text_md": "$\\ce{PdCl4^2-}$ is tetrahedral, while $\\ce{PtCl4^2-}$ is square planar and so has shorter bonds than expected."
       },
       {
         "label": "C",
@@ -1482,7 +1628,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-49",
@@ -1498,31 +1645,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NO2"
+        "text_md": "$\\ce{NO2}$"
       },
       {
         "label": "B",
-        "text_md": "N2O4"
+        "text_md": "$\\ce{N2O4}$"
       },
       {
         "label": "C",
-        "text_md": "NO2–"
+        "text_md": "$\\ce{NO2-}$"
       },
       {
         "label": "D",
-        "text_md": "NO3–"
+        "text_md": "$\\ce{NO3-}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-50",
     "year": 2021,
     "level": "national",
     "number": 50,
-    "stem_md": "Which best describes the isomer of the ion with the formula [CNO]– that is the most stable?",
+    "stem_md": "Which best describes the isomer of the ion with the formula $\\ce{[CNO]-}$ that is the most stable?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1548,7 +1696,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-51",
@@ -1581,7 +1730,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-52",
@@ -1605,7 +1755,7 @@
       },
       {
         "label": "C",
-        "text_md": "Its nitrogen-nitrogen bond is longer than that in N2F4."
+        "text_md": "Its nitrogen-nitrogen bond is longer than that in $\\ce{N2F4}$."
       },
       {
         "label": "D",
@@ -1614,14 +1764,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-53",
     "year": 2021,
     "level": "national",
     "number": 53,
-    "stem_md": "A four-coordinate transition metal complex M(CO)2(Br)(Cl) can be isolated as two geometric isomers. With which geometries at the metal center is this observation consistent? I. Square planar II. Tetrahedral",
+    "stem_md": "A four-coordinate transition metal complex $\\ce{M(CO)2(Br)(Cl)}$ can be isolated as two geometric isomers. With which geometries at the metal center is this observation consistent?\n\nI. Square planar\n\nII. Tetrahedral",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1647,7 +1798,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-54",
@@ -1680,14 +1832,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-55",
     "year": 2021,
     "level": "national",
     "number": 55,
-    "stem_md": "Which of these could have the formula C6H12O? I. An acyclic ester II. A cyclic ether",
+    "stem_md": "Which of these could have the formula $\\ce{C6H12O}$?\n\nI. An acyclic ester\n\nII. A cyclic ether",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1713,7 +1866,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 55. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-56",
@@ -1746,7 +1900,76 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 56. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2021-N-58",
+    "year": 2021,
+    "level": "national",
+    "number": 58,
+    "stem_md": "Which compound would have the lowest C=O stretching frequency in its infrared spectrum?",
+    "figure_url": "/figures/2021-N-58.png",
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2021 National Part I exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2021-N-59",
+    "year": 2021,
+    "level": "national",
+    "number": 59,
+    "stem_md": "Which compound reacts fastest with aqueous acid?",
+    "figure_url": "/figures/2021-N-59.png",
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2021 National Part I exam, question 59. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2021-N-60",
@@ -1774,11 +1997,12 @@
       },
       {
         "label": "D",
-        "text_md": "400 END OF TEST"
+        "text_md": "400"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2021 National Part I exam, question 60. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   }
 ]

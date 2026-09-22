@@ -1,0 +1,811 @@
+[
+  {
+    "id": "2020-N-P1",
+    "year": 2020,
+    "level": "national",
+    "number": 1,
+    "title": "Identifying a Halogenated Carbon Oxide Gas",
+    "topic_id": "stoichiometry",
+    "intro_md": "A substance **X** is 18.93% C, 25.21% O, and 55.86% a halogen by mass. **X** is a gas at 70 °C and 1.00 bar pressure, with a vapor density of 4.45 g/L.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What is the molar mass of **X**?",
+        "key_md": "At 70 °C and 1.00 bar pressure, a 1-L gas sample would contain:\n\n$n = PV/RT = (1.00\\ \\text{bar})(1.00\\ \\text{L})/(0.08314\\ \\text{L bar mol}^{-1}\\text{K}^{-1})(343.15\\ \\text{K})$\n\n$n = 0.03505$ mol\n\nThe molar mass is thus 4.45 g/0.03505 mol = 127.0 g/mol",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $n = PV/RT$ with $T = 343\\ \\text{K}$ to find moles in a 1-L sample ($0.0350$ mol)"
+          },
+          {
+            "points": 2,
+            "criterion": "Molar mass = 127 g/mol (accept 126–128 g/mol)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "What is the molecular formula of **X**?",
+        "key_md": "C: $0.1893 \\times 127.0$ g/mol = 24.0 g/mol C = 2 mol C/mol **X**\n\nO: $0.2521 \\times 127.0$ g/mol = 32.0 g/mol O = 2 mol O/mol **X**\n\nHalogen: $0.5586 \\times 127.0$ g/mol = 70.9 g halogen/mol **X**\n\nThis would correspond to 3.73 mol F, 2.00 mol Cl, 0.887 mol Br, or 0.559 mol I. The halogen must therefore be Cl, and the molecular formula is $\\ce{C2O2Cl2}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Converts mass percents with the molar mass to 2 mol C and 2 mol O per mol X"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows 70.9 g halogen corresponds to a whole number only for Cl (2 Cl)"
+          },
+          {
+            "points": 1,
+            "criterion": "Molecular formula $\\ce{C2O2Cl2}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Draw the Lewis structure of **X**. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The Lewis structure drawn is oxalyl chloride: two carbon atoms joined by a C–C single bond; each carbon bears a doubly bonded O (with two lone pairs on each O) and a singly bonded Cl (with three lone pairs on each Cl). All atoms obey the octet rule.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct connectivity: C–C bond with one O and one Cl on each carbon"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct bonding/lone pairs: C=O double bonds, C–Cl single bonds, octets complete (2 lone pairs on each O, 3 on each Cl)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "A 1.00 g sample of **X** is added to an excess of aqueous sodium hydroxide, which causes evolution of a colorless gas. The gas is collected over water at an ambient pressure of 1.00 bar and a temperature of 21 °C, and the volume of the gas is found to be 197 mL. Addition of a dilute solution of barium nitrate to the aqueous solution results in the formation of a white precipitate.\n\nHow many moles of gas are evolved in this reaction? (The vapor pressure of water at 21 °C is 18.7 mm Hg.)",
+        "key_md": "$P = 1.000\\ \\text{bar} - 18.7\\ \\text{mm Hg} \\cdot (1.013\\ \\text{bar}/760\\ \\text{mm Hg}) = 0.975$ bar\n\n$n = PV/RT = (0.975\\ \\text{bar})(0.197\\ \\text{L})/(0.08314\\ \\text{L bar mol}^{-1}\\text{K}^{-1})(294.15\\ \\text{K}) = 7.85 \\times 10^{-3}$ mol gas",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Corrects for water vapor pressure: $P_\\text{gas} = 0.975$ bar"
+          },
+          {
+            "points": 2,
+            "criterion": "$n = 7.85 \\times 10^{-3}$ mol (accept $7.8$–$7.9 \\times 10^{-3}$ mol) using $T = 294$ K"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Write a balanced net ionic equation for the reaction of **X** with aqueous sodium hydroxide, and explain how this reaction is consistent with the number of moles of gas calculated in part (d), and with the observation of a precipitate upon addition of barium nitrate.",
+        "key_md": "The only reasonable colorless gases that could be produced would be CO and $\\ce{CO2}$; the latter would immediately form carbonate ion, which would explain the white precipitate with $\\ce{Ba^2+}$ ($\\ce{BaCO3}$). The production of $7.85 \\times 10^{-3}$ mol gas per (1.00 g/127.0 g/mol) = $7.87 \\times 10^{-3}$ mol **X** is consistent with production of one mol CO per mol of **X**, suggesting the other C in $\\ce{C2O2Cl2}$ forms carbonate. In the absence of an oxidant and in basic solution, the only reasonable fate of Cl is $\\ce{Cl-}(aq)$, giving a net balanced reaction of:\n\n$\\ce{C2O2Cl2 + 4 OH^-(aq) -> 2 Cl^-(aq) + CO3^2-(aq) + CO(g) + 2 H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Balanced net ionic equation $\\ce{C2O2Cl2 + 4 OH^- -> 2 Cl^- + CO3^2- + CO(g) + 2 H2O}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes that moles of gas ($7.85\\times10^{-3}$) equals moles of X ($7.87\\times10^{-3}$), i.e. 1 mol CO per mol X"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains the white precipitate as $\\ce{BaCO3}$ from carbonate formed from the other carbon (and Cl ends up as $\\ce{Cl-}$)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2020 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2020-N-P2",
+    "year": 2020,
+    "level": "national",
+    "number": 2,
+    "title": "Fluorescent indicator HPTS and phosphate buffers",
+    "topic_id": "equilibrium",
+    "intro_md": "1-Hydroxypyrene-3,6,8-trisulfonate (HPTS) is a monoprotic acid that can be used as a fluorescent acid-base indicator because its conjugate acid form does not emit light (on excitation at $\\lambda$ = 454 nm), while its conjugate base form does. The fluorescence intensity (at 520 nm) of an HPTS solution was measured in seven different phosphate buffers of differing pH, giving the relative fluorescence intensities shown below.\n\n*(Graph: fluorescence intensity (arbitrary units, vertical axis) vs. pH (horizontal axis, 0 to 14). Seven points: very low, nearly zero intensity at pH ≈ 2 and 3; slightly higher at pH ≈ 6; roughly half-maximal at pH ≈ 7.4; near-maximal at pH ≈ 8.5; maximal and constant at pH ≈ 11.5 and 12.5.)*",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "How much energy is lost as heat when a photon with $\\lambda$ = 454 nm is absorbed by HPTS and a photon with $\\lambda$ = 520 nm is emitted?",
+        "key_md": "$E = hc/\\lambda$, so\n\n$E = (6.626 \\times 10^{-34}\\ \\text{J s})(2.998 \\times 10^{8}\\ \\text{m s}^{-1})/(454 \\times 10^{-9}\\ \\text{m}) = 4.38 \\times 10^{-19}$ J excitation\n\n$E = (6.626 \\times 10^{-34}\\ \\text{J s})(2.998 \\times 10^{8}\\ \\text{m s}^{-1})/(520 \\times 10^{-9}\\ \\text{m}) = 3.82 \\times 10^{-19}$ J emission\n\nEnergy lost $= 4.38 \\times 10^{-19}\\ \\text{J} - 3.82 \\times 10^{-19}\\ \\text{J} = 5.6 \\times 10^{-20}$ J\n\n$(5.6 \\times 10^{-20}\\ \\text{J})(6.022 \\times 10^{23}\\ \\text{mol}^{-1}) = 34$ kJ mol$^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $E = hc/\\lambda$ to obtain both photon energies ($4.38 \\times 10^{-19}$ J and $3.82 \\times 10^{-19}$ J)"
+          },
+          {
+            "points": 1,
+            "criterion": "Difference reported as $5.6 \\times 10^{-20}$ J per photon (or equivalently ~34 kJ mol$^{-1}$), ±5%"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "What is the p$K_a$ of HPTS?  Explain your answer.",
+        "key_md": "At pH = p$K_\\text{a}$, half of the HPTS will be in the conjugate base form and so the fluorescence will be at half-maximal intensity.  Inspection of the curve gives the half-maximal fluorescence at pH = 7.4.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that at pH = p$K_a$ the acid and conjugate base are present in equal amounts, so the fluorescence is half of its maximal value"
+          },
+          {
+            "points": 1,
+            "criterion": "Reads p$K_a \\approx 7.4$ (accept 7.2-7.6) from the half-maximal point of the plotted curve"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c(i)",
+        "stem_md": "The phosphate buffers used in this experiment were prepared by adding solid NaOH to 100 mL of a 0.100 M solution of $\\ce{H3PO4}$. How many moles of NaOH would be required to make buffers with each of the following pH values? You may assume that the volume remains 100 mL. $\\ce{H3PO4}$ has p$K_1$ = 2.12, p$K_2$ = 7.21, and p$K_3$ = 12.32.\n\ni. pH = 6.50",
+        "key_md": "Since 6.50 >> 2.12, almost all the first proton of $\\ce{H3PO4}$ will have been neutralized, requiring 0.0100 mol NaOH. The amount of $\\ce{H2PO4^-}$ and $\\ce{HPO4^2-}$ is given by the Henderson-Hasselbalch equation:\n\n$6.50 = 7.21 + \\log([\\ce{HPO4^2-}]/[\\ce{H2PO4^-}])$, so $[\\ce{HPO4^2-}]/[\\ce{H2PO4^-}] = 0.195$.\n\nThe total phosphate concentration is 0.100 M, so $[\\ce{HPO4^2-}] = (0.195/1.195)\\cdot 0.100\\ \\text{M} = 0.0163$ M, requiring an additional 0.00163 mol NaOH to achieve. Thus a total of 0.0116 mol of NaOH must be added.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes 0.0100 mol NaOH needed to neutralize the first proton"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses Henderson–Hasselbalch with p$K_2$ = 7.21 to get $[\\ce{HPO4^2-}]/[\\ce{H2PO4^-}] = 0.195$ (and $[\\ce{HPO4^2-}] = 0.0163$ M)"
+          },
+          {
+            "points": 1,
+            "criterion": "Total answer 0.0116 mol NaOH (±0.0002)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c(ii)",
+        "stem_md": "ii. pH = 13.00",
+        "key_md": "As in (i), the first two protons must be neutralized (requiring 0.0200 mol NaOH), then:\n\n$13.00 = 12.32 + \\log([\\ce{PO4^3-}]/[\\ce{HPO4^2-}])$, so $[\\ce{PO4^3-}]/[\\ce{HPO4^2-}] = 4.79$\n\n$[\\ce{PO4^3-}] = 0.100\\ \\text{M}\\cdot(4.79/5.79) = 0.0827$ M\n\nThis requires an additional 0.00827 mol NaOH to remove the third proton from $\\ce{H3PO4}$.\n\nBUT WAIT! At pH = 13.00, $[\\ce{OH-}] = 0.100$ M. This must come from yet more NaOH, another 0.0100 mol of it. (This was not an issue at pH = 6.5, where the $\\ce{OH-}$ concentration was much smaller than the concentrations of the phosphate ions and so made a negligible difference in the amount of hydroxide one needed to add.) So the total amount of NaOH one must add is 0.0200 mol + 0.00827 mol + 0.0100 mol = 0.0383 mol NaOH.\n\nAn alternative approach to this problem would involve charge balance considerations. The anions present in significant concentration at pH = 13 are $\\ce{HPO4^2-}$ (0.0173 M), $\\ce{PO4^3-}$ (0.0827 M), and $\\ce{OH-}$ (0.100 M). The only cation present in significant concentration is $\\ce{Na+}$, so $[\\ce{Na+}] = 2[\\ce{HPO4^2-}] + 3[\\ce{PO4^3-}] + [\\ce{OH-}] = 2[0.0173] + 3[0.0827] + [0.100] = 0.383$ M. It would require adding 0.0383 mol NaOH to 100 mL to achieve this concentration of $\\ce{Na+}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "0.0200 mol NaOH for the first two protons"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses p$K_3$ = 12.32 to get $[\\ce{PO4^3-}]/[\\ce{HPO4^2-}] = 4.79$, i.e. an additional 0.00827 mol NaOH"
+          },
+          {
+            "points": 1,
+            "criterion": "Includes the extra 0.0100 mol NaOH needed to give $[\\ce{OH-}] = 0.100$ M at pH 13 (or equivalent charge-balance argument)"
+          },
+          {
+            "points": 1,
+            "criterion": "Total answer 0.0383 mol NaOH (±0.0005)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "Explain why one cannot prepare an effective buffer solution at pH = 10.0 using only 0.100 M $\\ce{H3PO4}$ and solid NaOH.",
+        "key_md": "At pH = 10.0, almost all the phosphate must be in the form of $\\ce{HPO4^2-}$, with less than 1% in the form of either $\\ce{H2PO4^-}$ or $\\ce{PO4^3-}$. So any addition of acid will result in a significant increase of $[\\ce{H2PO4^-}]$ and hence a significant drop in pH, and addition of base will result in a significant increase in $[\\ce{PO4^3-}]$ and a significant rise in pH. Without a significant concentration of *both* an acid *and* its conjugate base, buffering is ineffective.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes pH 10.0 lies far from both p$K_2$ (7.21) and p$K_3$ (12.32), so essentially all phosphate is $\\ce{HPO4^2-}$ (<1% of the other forms)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that effective buffering requires significant concentrations of both a weak acid and its conjugate base, so added acid or base changes the pH substantially"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2020 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2020-N-P2-f1.png"
+  },
+  {
+    "id": "2020-N-P3",
+    "year": 2020,
+    "level": "national",
+    "number": 3,
+    "title": "Mond process thermodynamics of nickel carbonyl",
+    "topic_id": "thermodynamics",
+    "intro_md": "The Mond process was used in the late 19th and early 20th centuries to purify nickel metal away from impurities such as iron and cobalt. The process relies on the facile reaction of nickel with carbon monoxide to form volatile nickel tetracarbonyl, which can be separated from the solid impurities:\n\n$$\\ce{Ni(s) + 4 CO(g) -> Ni(CO)4(g)}$$\n\n| | Ni(s) | Ni(g) | CO(g) | Ni(CO)$_4$(g) |\n|---|---|---|---|---|\n| $\\Delta H^\\circ_\\text{f}$ (kJ mol$^{-1}$) | 0 | 430.1 | –110.5 | –607 |\n| $S^\\circ$ (J mol$^{-1}$ K$^{-1}$) | 30 | 182.2 | 198 | 417 |",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw or clearly describe the three-dimensional arrangement of the atoms in Ni(CO)$_4$. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The nickel center is tetrahedral and the Ni–C–O bond is linear: the four carbon atoms of the CO ligands are arranged tetrahedrally around Ni, with each Ni–C≡O unit linear (C bound to Ni, O terminal).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States/draws a tetrahedral arrangement of the four CO ligands about Ni"
+          },
+          {
+            "points": 1,
+            "criterion": "States/draws linear Ni–C–O linkages (carbon bound to nickel)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the average bond dissociation enthalpy for the nickel-carbon bonds in Ni(CO)$_4$(g).",
+        "key_md": "For the gas-phase reaction\n\n$$\\ce{Ni(CO)4(g) -> Ni(g) + 4 CO(g)}$$\n\n$\\Delta H^\\circ = 4\\cdot(-110.5\\ \\text{kJ mol}^{-1}) + 430\\ \\text{kJ mol}^{-1} - (-607\\ \\text{kJ mol}^{-1}) = 595\\ \\text{kJ mol}^{-1}$\n\nSince this reaction involves breaking four nickel-CO bonds, the average BDE is $(595\\ \\text{kJ mol}^{-1})/4 = 149\\ \\text{kJ mol}^{-1}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up the dissociation reaction $\\ce{Ni(CO)4(g) -> Ni(g) + 4 CO(g)}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ = 595$ kJ mol$^{-1}$ (±2)"
+          },
+          {
+            "points": 1,
+            "criterion": "Divides by 4 to give average BDE = 149 kJ mol$^{-1}$ (±2)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate ∆H°$_\\text{rxn}$ and ∆S°$_\\text{rxn}$ for the production of Ni(CO)$_4$(g) by the Mond process.",
+        "key_md": "$\\Delta H^\\circ_\\text{rxn} = (-607\\ \\text{kJ mol}^{-1}) - 4\\cdot(-110.5\\ \\text{kJ mol}^{-1}) = -165\\ \\text{kJ mol}^{-1}$\n\n$\\Delta S^\\circ_\\text{rxn} = (417\\ \\text{J mol}^{-1}\\text{K}^{-1}) - 4\\cdot(198\\ \\text{J mol}^{-1}\\text{K}^{-1}) - 30\\ \\text{J mol}^{-1}\\text{K}^{-1} = -405\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{rxn} = -165$ kJ mol$^{-1}$ (±2)"
+          },
+          {
+            "points": 2,
+            "criterion": "$\\Delta S^\\circ_\\text{rxn} = -405$ J mol$^{-1}$ K$^{-1}$ (±3), including the $S^\\circ$ of Ni(s)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The boiling point of Ni(CO)$_4$ at 1 bar pressure is 42 °C and its heat of vaporization is 29.0 kJ mol$^{-1}$. Calculate ∆H°$_\\text{f}$ and S° for Ni(CO)$_4$(l).",
+        "key_md": "For:\n\n$$\\ce{Ni(CO)4(l) -> Ni(CO)4(g)}$$\n\n$\\Delta G^\\circ_\\text{vap} = 0$ at the boiling point at 1 bar pressure and $T$ = 315 K. $\\Delta H^\\circ_\\text{vap} = 29.0$ kJ mol$^{-1}$. So:\n\n$0 = 29000\\ \\text{J mol}^{-1} - (315\\ \\text{K})(\\Delta S^\\circ_\\text{vap})$\n\n$\\Delta S^\\circ_\\text{vap} = 92.1\\ \\text{J mol}^{-1}\\text{K}^{-1}$\n\n$\\Delta H^\\circ_\\text{f}(\\ce{Ni(CO)4}(l))$: $-607\\ \\text{kJ mol}^{-1} - \\Delta H^\\circ_\\text{f}(\\ce{Ni(CO)4}(l)) = 29.0\\ \\text{kJ mol}^{-1}$, so $\\Delta H^\\circ_\\text{f}(\\ce{Ni(CO)4}(l)) = -636\\ \\text{kJ mol}^{-1}$\n\n$S^\\circ(\\ce{Ni(CO)4}(g)) - S^\\circ(\\ce{Ni(CO)4}(l)) = \\Delta S^\\circ_\\text{vap}$: $417\\ \\text{J mol}^{-1}\\text{K}^{-1} - S^\\circ(\\ce{Ni(CO)4}(l)) = 92.1\\ \\text{J mol}^{-1}\\text{K}^{-1}$, so $S^\\circ(\\ce{Ni(CO)4}(l)) = 325\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ_\\text{vap} = 0$ at 315 K to get $\\Delta S^\\circ_\\text{vap} = 92.1$ J mol$^{-1}$ K$^{-1}$ (±1)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{f}(\\ce{Ni(CO)4}(l)) = -636$ kJ mol$^{-1}$ (±2)"
+          },
+          {
+            "points": 1,
+            "criterion": "$S^\\circ(\\ce{Ni(CO)4}(l)) = 325$ J mol$^{-1}$ K$^{-1}$ (±2)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "After the Ni(CO)$_4$ vapor has been separated from the solid impurities, Ni metal is recovered by heating the Ni(CO)$_4$ to high temperature, causing it to re-form nickel metal and carbon monoxide. At 230 °C, what is the equilibrium pressure of Ni(CO)$_4$(g) in the presence of nickel metal, assuming that the carbon monoxide pressure is maintained at 0.10 bar?",
+        "key_md": "At 230 °C = 503 K, $\\Delta G^\\circ_\\text{rxn} = -165\\ \\text{kJ mol}^{-1} - (503\\ \\text{K})(-405\\ \\text{J mol}^{-1}\\text{K}^{-1}) = 39\\ \\text{kJ mol}^{-1}$\n\n$K_\\text{eq} = e^{-(39000\\ \\text{J mol}^{-1})/(503\\ \\text{K}\\,\\cdot\\,8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})} = 9.5 \\times 10^{-5}$\n\n$9.5 \\times 10^{-5} = \\dfrac{p(\\ce{Ni(CO)4})}{p(\\ce{CO})^4} = \\dfrac{p(\\ce{Ni(CO)4})}{(0.1)^4}$\n\n$p(\\ce{Ni(CO)4}) = 9.5 \\times 10^{-9}$ bar",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ_\\text{rxn}$ at 503 K = +39 kJ mol$^{-1}$ and $K_\\text{eq} \\approx 9.5 \\times 10^{-5}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct $K$ expression with $p(\\ce{CO})^4$ giving $p(\\ce{Ni(CO)4}) \\approx 9.5 \\times 10^{-9}$ bar (within a factor of 2)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2020 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2020-N-P4",
+    "year": 2020,
+    "level": "national",
+    "number": 4,
+    "title": "BrO Decomposition Kinetics with Ozone",
+    "topic_id": "kinetics",
+    "intro_md": "Gas-phase bromine monoxide, BrO, decomposes according to two possible pathways:\n\n$\\ce{2 BrO(g) -> O2(g) + 2 Br(g)}$  (4a)\n\n$\\ce{2 BrO(g) -> O2(g) + Br2(g)}$  (4b)\n\nThe reaction can be studied by generating BrO($g$) by using a laser. If this is carried out in the presence of excess ozone, then any Br($g$) that is present reacts with ozone to produce bromine monoxide much more rapidly than either reaction 4a or 4b.\n\n$\\ce{Br(g) + O3(g) -> BrO(g) + O2(g)}$  *fast*\n\nThe disappearance of BrO($g$) was studied spectrophotometrically at both 267 K and 298 K, either in the absence of excess ozone (open squares) or in the presence of excess ozone (open circles). The reciprocal of the concentration of BrO as a function of time is graphed below for the four experiments.\n\nBoth graphs plot $1/[\\ce{BrO}]$ (in $\\ce{cm^3}$ molecule$^{-1}$) versus $t$ (in s) from $t = 0$ to $t = 0.05$ s; all four data sets are straight lines rising from the same small intercept at $t=0$:\n\nBrO decomposition, 267 K: without $\\ce{O3}$, slope $= 5.78 \\times 10^{-12}$; with $\\ce{O3}$, slope $= 8.64 \\times 10^{-13}$\n\nBrO decomposition, 298 K: without $\\ce{O3}$, slope $= 5.80 \\times 10^{-12}$; with $\\ce{O3}$, slope $= 6.24 \\times 10^{-13}$",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What is the reaction order in BrO for its decomposition in the absence of $\\ce{O3}$? Justify your answer based on the experimental data.",
+        "key_md": "Since $1/[\\ce{BrO}]$ increases linearly with time, the reaction is second-order in BrO.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the reaction is second order in BrO"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies using the linearity of the $1/[\\ce{BrO}]$ vs. $t$ plot"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "A sample of BrO in $\\ce{N2}$ at 298 K with an initial concentration of $4.0 \\times 10^{14}$ molecules $\\ce{cm^{-3}}$ is prepared. How much time will it take for the BrO concentration to decay to half its original value?",
+        "key_md": "$1/[\\ce{BrO}]_t = 1/[\\ce{BrO}]_0 + kt$\n\n$1/[2.0 \\times 10^{14}\\ \\text{molecule cm}^{-3}] = 1/[4.0 \\times 10^{14}\\ \\text{molecule cm}^{-3}] + (5.80 \\times 10^{-12}\\ \\text{cm}^3\\ \\text{molecule}^{-1})t$\n\n$t = 4.3 \\times 10^{-4}$ s",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses second-order integrated rate law with the 298 K without-$\\ce{O3}$ slope $5.80 \\times 10^{-12}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains $t \\approx 4.3 \\times 10^{-4}$ s (±5%)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Is the observed decomposition of BrO faster or slower in the presence of ozone? Justify your answer based on the experimental data and provide a chemical explanation for the observed difference.",
+        "key_md": "The steeper the slope of the plot, the faster BrO is disappearing. Thus the rates are slower in the presence of ozone than in its absence. The reason is that in the presence of ozone, Br($g$) reacts rapidly to form equimolar BrO($g$), so reaction 4a does not result in the net disappearance of BrO($g$)—it is regenerated from the Br($g$) and $\\ce{O3}$($g$). In the presence of ozone, $k_\\text{obs} = 2k_\\text{4a}$... i.e. in the presence of ozone $k_\\text{obs} = 2k_\\text{4b}$, while in its absence $k_\\text{obs} = 2k_\\text{4a} + 2k_\\text{4b}$, which must be larger.\n\n[The factor of two is because the reaction consumes two moles of BrO($g$); this convention will be used in part (d), but students will not be penalized for answers that omit the factor of 2.]",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States decomposition is slower with ozone"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies from the smaller slope of the with-$\\ce{O3}$ line"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that Br produced in 4a is rapidly converted back to BrO by $\\ce{O3}$, so only pathway 4b gives net loss of BrO"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Calculate the values of $k_\\text{4a}$ and $k_\\text{4b}$ at 298 K.",
+        "key_md": "The slopes of the second-order plots are equal to the $k_\\text{obs}$ for the reaction. From part b, the reaction in the presence of $\\ce{O3}$ gives\n\n$k_\\text{4b} = 0.5(6.24 \\times 10^{-13}\\ \\text{cm}^3\\ \\text{molecule}^{-1}\\ \\text{s}^{-1}) = 3.12 \\times 10^{-13}\\ \\text{cm}^3\\ \\text{molecule}^{-1}\\ \\text{s}^{-1}$\n\nIn the absence of $\\ce{O3}$,\n\n$k_\\text{4a} + k_\\text{4b} = 0.5(5.80 \\times 10^{-12}\\ \\text{cm}^3\\ \\text{molecule}^{-1}\\ \\text{s}^{-1}) = 2.90 \\times 10^{-12}\\ \\text{cm}^3\\ \\text{molecule}^{-1}\\ \\text{s}^{-1}$\n\n$k_\\text{4a} = (2.90 \\times 10^{-12} - 3.12 \\times 10^{-13})\\ \\text{cm}^3\\ \\text{molecule}^{-1}\\ \\text{s}^{-1} = 2.59 \\times 10^{-12}\\ \\text{cm}^3\\ \\text{molecule}^{-1}\\ \\text{s}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies with-$\\ce{O3}$ slope as giving $k_\\text{4b}$ and without-$\\ce{O3}$ slope as giving $k_\\text{4a} + k_\\text{4b}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$k_\\text{4b} = 3.12 \\times 10^{-13}$ (or $6.24 \\times 10^{-13}$ without factor of 2) $\\ce{cm^3}$ molecule$^{-1}$ s$^{-1}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$k_\\text{4a} = 2.59 \\times 10^{-12}$ (or $5.18 \\times 10^{-12}$ without factor of 2) $\\ce{cm^3}$ molecule$^{-1}$ s$^{-1}$ by subtraction"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Calculate the activation energy for the decomposition of BrO in the presence of ozone.",
+        "key_md": "$\\ln(k_2/k_1) = (E_a/R)(1/T_1 - 1/T_2)$\n\n$\\ln(6.24 \\times 10^{-13}/8.64 \\times 10^{-13}) = (E_a/8.314\\ \\text{J mol}^{-1}\\ \\text{K}^{-1})(1/267\\ \\text{K} - 1/298\\ \\text{K})$\n\n$E_a = -6.94$ kJ mol$^{-1}$\n\nThe reaction goes *slower* at higher temperatures, so it has a negative activation energy! This is rare, but sometimes is observed in reactions where there is a lot of bond-forming to make the activated complex. Here, the reaction is hypothesized to involve side-on combination of the two OBr molecules to form an $\\ce{O2Br2}$ square, which then fragments to give the $\\ce{O2 + Br2}$ products.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correctly substitutes the with-$\\ce{O3}$ rate constants at 267 K and 298 K into the Arrhenius two-point equation"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains $E_a \\approx -6.9$ kJ mol$^{-1}$ (negative sign required)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2020 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2020-N-P5",
+    "year": 2020,
+    "level": "national",
+    "number": 5,
+    "title": "Net equations for six reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances. You need not balance the equations.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Chlorine gas is bubbled through cold aqueous sodium hydroxide.",
+        "key_md": "$\\ce{Cl2(g) + OH^-(aq) -> OCl^-(aq) + Cl^-(aq) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{OCl^-}$ and $\\ce{Cl^-}$ (disproportionation) identified"
+          },
+          {
+            "points": 1,
+            "criterion": "Net ionic equation written with $\\ce{Cl2}$ and $\\ce{OH^-}$ as reactants (spectator $\\ce{Na+}$ omitted)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Solid calcium carbonate is roasted.",
+        "key_md": "$\\ce{CaCO3(s) -> CaO(s) + CO2(g)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\ce{CaO}$ identified as product"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{CO2}$ identified as product in a correct equation"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Solutions of iron(III) nitrate and potassium thiocyanate are mixed.",
+        "key_md": "$\\ce{Fe^3+(aq) + SCN^-(aq) -> Fe(SCN)^2+(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants given as $\\ce{Fe^3+}$ and $\\ce{SCN^-}$ only (spectators omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Product given as the thiocyanato complex $\\ce{Fe(SCN)^2+}$ (or $\\ce{Fe(SCN)_n^{3-n}}$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Ethyl formate (ethyl methanoate) is heated with aqueous potassium hydroxide. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Structural equation: ethyl formate, $\\ce{HC(=O)OCH2CH3}$, drawn with the formyl H on the carbonyl carbon and the ethyl group on the ester oxygen, plus $\\ce{OH^-}(aq)$, gives the formate anion, $\\ce{HC(=O)O^-}$ (drawn with a negative charge on oxygen), plus ethanol, $\\ce{CH3CH2OH}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Formate ion $\\ce{HCO2^-}$ shown as product (structural formula, deprotonated)"
+          },
+          {
+            "points": 1,
+            "criterion": "Ethanol $\\ce{CH3CH2OH}$ shown as the other product from reaction with $\\ce{OH^-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Nitrous oxide (dinitrogen monoxide) is heated with solid sodium amide.",
+        "key_md": "$\\ce{NaNH2(s) + N2O(g) -> NaN3(s) + NaOH(s) + NH3(g)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sodium azide $\\ce{NaN3}$ identified as product"
+          },
+          {
+            "points": 1,
+            "criterion": "Remaining products $\\ce{NaOH}$ and $\\ce{NH3}$ given in a correct equation"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Boron-10 captures a neutron to produce an alpha particle and another species.",
+        "key_md": "$\\ce{^{10}B + ^{1}n -> ^{4}He + ^{7}Li}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Other species correctly identified as $\\ce{^{7}Li}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Balanced nuclear equation with $\\ce{^{10}B}$, neutron and $\\ce{^{4}He}$ (mass and charge conserved)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2020 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2020-N-P6",
+    "year": 2020,
+    "level": "national",
+    "number": 6,
+    "title": "Electrolysis of acidified copper sulfate solution",
+    "topic_id": "redox",
+    "intro_md": "A solution is made by adding some $\\ce{CuSO4*5H2O}$ to water, followed by enough sulfuric acid to make the pH = 1.00. Two platinum electrodes are then placed in the solution (which has a total volume of 0.500 L) and the solution is electrolyzed at a constant current of 0.120 A, separately capturing any gases that are evolved at the two electrodes.\n\nInitially, gas is evolved at the anode, but no gas is evolved at the cathode. However, after 10.0 min of electrolysis, gas evolution begins at the cathode as well, and eventually the total volume of gas evolved at the cathode is equal to the total volume of gas evolved at the anode.\n\nHalf-Reaction / $E^\\circ$, V\n\n$\\ce{Cu+(aq) + e- -> Cu(s)}$ — 0.518\n\n$\\ce{Cu^2+(aq) + 2 e- -> Cu(s)}$ — 0.337\n\n$\\ce{O2(g) + 2 H+(aq) + 2 e- -> H2O2(aq)}$ — 1.780\n\n$\\ce{O2(g) + 4 H+(aq) + 4 e- -> 2 H2O(l)}$ — 1.229\n\n$\\ce{2 H+(aq) + e- -> H2(g)}$ — 0.000",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Write the balanced reaction that takes place initially in this electrolytic cell.",
+        "key_md": "$\\ce{2 Cu^2+(aq) + 2 H2O(l) -> 2 Cu(s) + O2(g) + 4 H+(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies $\\ce{Cu^2+}$ reduction to $\\ce{Cu(s)}$ and water oxidation to $\\ce{O2}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correctly balanced overall equation $\\ce{2 Cu^2+ + 2 H2O -> 2 Cu + O2 + 4 H+}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "How many moles of copper(II) sulfate pentahydrate were initially added to the solution?",
+        "key_md": "Gas evolution begins at the cathode when the Cu(II) is exhausted from the solution.\n\n$0.120\\ \\text{A} \\times 600.\\ \\text{s} = 72.0\\ \\text{C}$\n\n$72.0\\ \\text{C} / 96500\\ \\text{C mol}^{-1} = 7.46 \\times 10^{-4}$ mol electrons\n\nSince each mol of $\\ce{Cu(s)}$ deposited requires 2 mol electrons, there must have initially been $(7.46 \\times 10^{-4}\\ \\text{mol})/2 = 3.73 \\times 10^{-4}$ mol $\\ce{CuSO4}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes cathodic gas evolution begins when $\\ce{Cu^2+}$ is exhausted (uses t = 10.0 min = 600 s)"
+          },
+          {
+            "points": 1,
+            "criterion": "Charge/mol electrons: $72.0$ C giving $7.46 \\times 10^{-4}$ mol e-"
+          },
+          {
+            "points": 1,
+            "criterion": "Divides by 2 to get $3.73 \\times 10^{-4}$ mol $\\ce{CuSO4*5H2O}$ (±2%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "What is the initial cell potential for this reaction at 298 K? (In air, the partial pressure of $\\ce{O2}(g)$ is 0.20 bar and the partial pressure of $\\ce{H2}(g)$ may be taken to be $10^{-4}$ bar.)",
+        "key_md": "$E^\\circ = 0.337\\ \\text{V} - 1.229\\ \\text{V} = -0.892\\ \\text{V}$\n\nFrom the Nernst equation, $E = E^\\circ - (RT/nF)\\ln([P_{\\ce{O2}}][\\ce{H+}]^4/[\\ce{Cu^2+}]^2)$\n\n$= -0.892\\ \\text{V} - (0.0591/4)\\log([0.20][0.1]^4/[7.46 \\times 10^{-4}]^2)$\n\n$= -0.915\\ \\text{V}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$E^\\circ = 0.337 - 1.229 = -0.892$ V"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct Q with $n = 4$: $Q = P_{\\ce{O2}}[\\ce{H+}]^4/[\\ce{Cu^2+}]^2$ using $[\\ce{Cu^2+}] = 7.46 \\times 10^{-4}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "$E = -0.915$ V (±0.01 V)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "As the electrolysis proceeds (before $t = 10.0$ min), will this cell potential become more positive, more negative, or remain unchanged? Explain your answer.",
+        "key_md": "As electrolysis proceeds, the reactants are depleted and the products increase in concentration. These will both contribute to an increasingly negative cell potential.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the potential becomes more negative"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that $[\\ce{Cu^2+}]$ decreases while $[\\ce{H+}]$ (and $Q$) increases"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "What gas is evolved at the anode? What gas is evolved at the cathode (after $t = 10.0$ min)?",
+        "key_md": "Oxygen is evolved at the anode and hydrogen at the cathode.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\ce{O2}$ at anode and $\\ce{H2}$ at cathode (both required)"
+          }
+        ],
+        "max_points": 1
+      },
+      {
+        "label": "f",
+        "stem_md": "At what time will the total volumes of evolved gases at the two electrodes be equal?",
+        "key_md": "One mole of $\\ce{O2}$ is evolved for every four electrons, while one mole of $\\ce{H2}$ is evolved for every two moles of electrons. Thus, once $\\ce{H2}$ evolution begins, in ten minutes as much volume of $\\ce{H2}$ will be evolved as $\\ce{O2}$ is evolved in twenty minutes. In other words, the two volumes will be equal at $t = 20.0$ min.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses 4 e- per $\\ce{O2}$ vs 2 e- per $\\ce{H2}$ so $\\ce{H2}$ accumulates twice as fast"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer $t = 20.0$ min"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2020 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2020-N-P7",
+    "year": 2020,
+    "level": "national",
+    "number": 7,
+    "title": "Silicon Structure, Bonding, and Periodic Trends",
+    "topic_id": "bonding",
+    "intro_md": "Silicon and its compounds have a number of interesting features.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Elemental silicon adopts a structure analogous to diamond. Describe this structure and explain why no form of elemental silicon analogous to graphite is known.",
+        "key_md": "In elemental Si, each Si is σ-bonded to four other Si atoms, arranged as a tetrahedron. A graphite-like structure would require Si–Si π bonds, which are very weak compared to carbon–carbon π bonds.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Describes each Si σ-bonded to four other Si atoms in a tetrahedral (diamond-like) network"
+          },
+          {
+            "points": 1,
+            "criterion": "States a graphite-like structure would require Si–Si π bonds, which are very weak compared to C–C π bonds"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Explain why elemental silicon is a much better conductor of electricity than diamond.",
+        "key_md": "Si–Si σ bonding is weaker than C–C σ bonding. These elements have electrons in nominally filled valence bands separated from nominally empty conduction bands by an energy gap that is larger the stronger the σ bonding (since the valence band is σ bonding in character and the conduction band σ antibonding). In silicon, this gap is small enough in energy that a small number of electrons are promoted from the valence band to the conduction band; these electrons and vacancies in the valence band (\"holes\") are mobile charge carriers and allow electrical conductivity. The much larger band gap in diamond gives rise to a negligible number of such carriers.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Invokes filled valence band / empty conduction band separated by a band gap"
+          },
+          {
+            "points": 1,
+            "criterion": "States Si has a smaller band gap (weaker Si–Si σ bonding) than diamond"
+          },
+          {
+            "points": 1,
+            "criterion": "States thermal promotion of electrons gives mobile carriers (electrons and holes) in Si, while diamond's large gap gives negligible carriers"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Silicon tetrafluoride readily reacts with fluoride ion to form species such as $\\ce{SiF5^-}$ and $\\ce{SiF6^2-}$. Sketch or describe the three-dimensional shapes of these fluorosilicate anions, and explain why $\\ce{SiF4}$ readily reacts with fluoride ion while $\\ce{Si(CH3)4}$ does not. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{SiF5^-}$ is drawn as a trigonal bipyramidal anion (Si with two axial F and three equatorial F, charge $1-$); $\\ce{SiF6^2-}$ is drawn as an octahedral anion (Si with six F, charge $2-$).\n\nThe Lewis acidity of $\\ce{SiX4}$ relies on donation of the lone pair from the Lewis base to the σ* orbital of the Si–X bond. The more electronegative F atom lowers this in energy and thus enhances the Lewis acidity of the silicon.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\ce{SiF5^-}$ identified/drawn as trigonal bipyramidal"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{SiF6^2-}$ identified/drawn as octahedral"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains greater Lewis acidity of $\\ce{SiF4}$: electronegative F lowers the Si–X σ* acceptor orbital in energy (donation of fluoride lone pair into σ*)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Explain why the ionization energy of a ground-state gas-phase silicon atom (787 kJ mol$^{-1}$) is smaller than that of a phosphorus atom (1012 kJ mol$^{-1}$), but the amount of energy released on adding an electron to a gas-phase Si atom (144 kJ mol$^{-1}$) is greater than that of a P atom (71 kJ mol$^{-1}$).",
+        "key_md": "P has one more proton than Si, and that proton is only incompletely shielded by its additional electron. Thus P has a greater attraction for its highest-energy valence electron than Si and a correspondingly higher ionization energy. Addition of an electron to P requires it to enter an orbital that is already singly occupied, whereas Si can accept an electron into an empty 3p orbital. For phosphorus, the additional electron–electron repulsion outweighs its higher $Z_\\text{eff}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Ionization energy: P has higher $Z_\\text{eff}$ (extra proton incompletely shielded), so it holds its valence electron more tightly"
+          },
+          {
+            "points": 1,
+            "criterion": "Electron affinity: added electron must pair in a half-filled 3p orbital of P (electron–electron repulsion), while Si has an empty 3p orbital"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Explain why $\\ce{SiH2}(g)$ in its ground state has no unpaired electrons, while $\\ce{CH2}(g)$ in its ground state has two unpaired electrons.",
+        "key_md": "In carbon compounds, the 2s orbital and 2p orbital both interact strongly with other atoms. So the two nonbonding electrons in $\\ce{CH2}$ must occupy a p orbital and what is effectively an $sp^2$ orbital, which are close enough in energy that it is preferable to occupy each orbital singly than to put both electrons in the lower-energy $sp^2$ orbital. In Si compounds, the s orbital is too small to interact strongly with the H atoms, which bond to essentially pure p orbitals. The 3s orbital is much lower in energy than the 3p orbital, so both nonbonding electrons occupy it.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "For $\\ce{CH2}$: the two nonbonding orbitals ($sp^2$-like and p) are close in energy, so electrons occupy them singly (triplet)"
+          },
+          {
+            "points": 1,
+            "criterion": "For $\\ce{SiH2}$: little s–p mixing (bonds nearly pure 3p); the much lower-energy 3s holds both nonbonding electrons paired (singlet)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2020 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2020-N-P8",
+    "year": 2020,
+    "level": "national",
+    "number": 8,
+    "title": "C5H10 Isomers, Hydration, Stability, Chirality",
+    "topic_id": "organic",
+    "intro_md": "Two hydrocarbons with the formula $\\ce{C5H10}$ are cyclopentane and 2-methyl-2-butene.\n\n(Structures shown: cyclopentane, a five-membered carbon ring; 2-methyl-2-butene, $\\ce{(CH3)2C=CHCH3}$.)",
+    "parts": [
+      {
+        "label": "a(i)",
+        "stem_md": "One can imagine replacing one hydrogen in each of these compounds to form new compounds with the formula $\\ce{C5H9Cl}$. Draw clear structures of all the possible distinct $\\ce{C5H9Cl}$ isomers that can be formed in this way from\n\ni. cyclopentane *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Only one isomer: chlorocyclopentane — a cyclopentane ring bearing a single $\\ce{Cl}$ substituent (all ten hydrogens of cyclopentane are equivalent).",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Gives chlorocyclopentane (cyclopentane ring with one Cl) as the only isomer; no extra (incorrect) structures"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "a(ii)",
+        "stem_md": "ii. 2-methyl-2-butene *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Four distinct isomers are drawn:\n\n1. $\\ce{ClCH2-C(CH3)=CH-CH3}$ (1-chloro-2-methyl-2-butene) with the $\\ce{ClCH2}$ group cis to the $\\ce{CH3}$ on the other alkene carbon (Cl on the methyl drawn on the lower side of the double bond).\n2. The other geometric isomer of $\\ce{ClCH2-C(CH3)=CH-CH3}$, with the $\\ce{ClCH2}$ group trans to that $\\ce{CH3}$ (Cl on the methyl drawn on the upper side of the double bond).\n3. $\\ce{(CH3)2C=C(Cl)CH3}$ (2-chloro-3-methyl-2-butene), Cl on the alkene carbon that bore the vinyl H.\n4. $\\ce{(CH3)2C=CH-CH2Cl}$ (1-chloro-3-methyl-2-butene), Cl on the terminal methyl.",
+        "rubric": [
+          {
+            "points": 4,
+            "criterion": "All four isomers correct: both geometric (E and Z) isomers of $\\ce{ClCH2C(CH3)=CHCH3}$, $\\ce{(CH3)2C=C(Cl)CH3}$, and $\\ce{(CH3)2C=CHCH2Cl}$ (1 point each)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "One of the two compounds (cyclopentane or 2-methyl-2-butene) reacts readily with water in the presence of an acid catalyst to give an alcohol. Indicate which compound reacts, and give the structure of the alcohol formed. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "2-methyl-2-butene reacts to form 2-methylbutanol: the structure drawn is the tertiary alcohol $\\ce{(CH3)2C(OH)CH2CH3}$ (2-methyl-2-butanol), i.e. an $\\ce{OH}$ on the more substituted alkene carbon.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that 2-methyl-2-butene is the compound that reacts"
+          },
+          {
+            "points": 2,
+            "criterion": "Gives the alcohol as $\\ce{(CH3)2C(OH)CH2CH3}$ (2-methyl-2-butanol, Markovnikov/tertiary product)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Which is more thermodynamically stable, cyclopentane or 2-methyl-2-butene? Explain your answer.",
+        "key_md": "Cyclopentane is more stable. Both compounds contain ten C–H bonds, but cyclopentane contains five C–C single bonds, while 2-methyl-2-butene contains three C–C single bonds and one C=C double bond. The bond strength of a C=C double bond is less than that of two C–C single bonds.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies cyclopentane as more stable"
+          },
+          {
+            "points": 1,
+            "criterion": "Bond-count comparison: both have ten C–H bonds; cyclopentane has five C–C single bonds vs. three C–C plus one C=C"
+          },
+          {
+            "points": 1,
+            "criterion": "States that a C=C bond is weaker than two C–C single bonds"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Clearly draw the structure of a chiral compound with the formula $\\ce{C5H10}$. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "trans-1,2-Dimethylcyclopropane: a cyclopropane ring with methyl groups on adjacent carbons, one drawn as a wedge and the other as a dash (or its enantiomer).",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Draws a chiral $\\ce{C5H10}$ structure, e.g. trans-1,2-dimethylcyclopropane with the two methyls on opposite faces (wedge/dash) of the ring"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2020 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

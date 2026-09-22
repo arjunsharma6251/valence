@@ -1,0 +1,727 @@
+[
+  {
+    "id": "2017-N-P1",
+    "year": 2017,
+    "level": "national",
+    "number": 1,
+    "title": "Fertilizer combustion analysis and freezing point",
+    "topic_id": "stoichiometry",
+    "intro_md": "A compound used as a fertilizer contains only the elements C, H, N, and O.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Combustion of 1.000 g of the fertilizer in an oxygen atmosphere produces 0.5637 g $\\ce{CO2}$, 0.6924 g $\\ce{H2O}$, and 0.3589 g $\\ce{N2}$. What are the mass percentages of C, H, and N in the fertilizer?",
+        "key_md": "0.5637 g $\\ce{CO2}$ × (12.01 g C/44.01 g $\\ce{CO2}$) = 0.1538 g C, **15.38% C**\n\n0.6924 g $\\ce{H2O}$ × (2.016 g H/18.016 g $\\ce{H2O}$) = 0.07748 g H, **7.75% H**\n\n0.3589 g $\\ce{N2}$ = **35.89% N**",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "15.38% C (±0.05%) computed from mass of $\\ce{CO2}$"
+          },
+          {
+            "points": 1,
+            "criterion": "7.75% H (±0.05%) computed from mass of $\\ce{H2O}$"
+          },
+          {
+            "points": 1,
+            "criterion": "35.89% N"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Give the empirical formula of the fertilizer.",
+        "key_md": "%O = 100% – (15.38% + 7.75% + 35.89%) = 40.98% O\n\nSo in 100 g fertilizer there would be:\n\n15.38 g C/(12.01 g mol$^{-1}$) = 1.28 mol C\n\n7.748 g H/(1.008 g mol$^{-1}$) = 7.69 mol H\n\n35.89 g N/(14.01 g mol$^{-1}$) = 2.56 mol N\n\n40.98 g O/(16.00 g mol$^{-1}$) = 2.56 mol O\n\nDividing by 1.28 mol gives an empirical formula $\\ce{CH6N2O2}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Oxygen found by difference (40.98% O) and moles of each element computed"
+          },
+          {
+            "points": 2,
+            "criterion": "Empirical formula $\\ce{CH6N2O2}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "A solution of 1.000 g of the fertilizer dissolved in 20.00 g water has a freezing point of –2.38 ºC. What is the apparent molar mass of the fertilizer? Combined with the result in (b), what is the implication of this molar mass? (For water, the freezing point depression constant $K_\\text{f}$ = 1.86 ºC/$m$.)",
+        "key_md": "2.38 ºC/(1.86 ºC/$m$) = 1.28 $m$ solution\n\n(1.28 mol/1000 g $\\ce{H2O}$)•(20 g $\\ce{H2O}$) = 0.0256 mol solute\n\n1.000 g solute/0.0256 mol solute = 39.1 g mol$^{-1}$.\n\nFrom the empirical formula, the formula mass is 78.1 g mol$^{-1}$! This says that the molar mass appears to be half the formula mass; the only way this is possible is if each mol of fertilizer gives rise to *two* moles of particles. Thus, the fertilizer is likely an ionic compound.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Molality 1.28 $m$ and 0.0256 mol solute obtained from $\\Delta T_\\text{f}/K_\\text{f}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Apparent molar mass 39.1 g mol$^{-1}$ (±0.5)"
+          },
+          {
+            "points": 2,
+            "criterion": "Notes formula mass 78.1 g mol$^{-1}$ is twice the apparent molar mass, so each formula unit gives two particles — the compound is ionic"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "Propose a structure for the fertilizer compound. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The most likely cation given the formula is ammonium ion, which leaves an ion with the formula $\\ce{CH2NO2}$. Several chemically plausible structures can be written, but the only one where the anion is not so basic that it would deprotonate the ammonium ion is carbamate, $\\ce{NH2CO2-}$. (The only other chemically reasonable alternative is hydrazinium formate, $\\ce{(NH2NH3+)(HCOO-)}$.) Ammonium carbamate is a common fertilizer.\n\nFertilizer = $\\ce{NH4+}$ paired with the carbamate anion: drawn Lewis structure of $\\ce{[H2N-C(=O)-O]^-}$, i.e. a carbon bearing a doubly bonded O (with two lone pairs), a singly bonded O carrying three lone pairs and the negative charge, and an $\\ce{NH2}$ group with one lone pair on N.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the compound as an ionic salt containing $\\ce{NH4+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Gives carbamate $\\ce{NH2CO2-}$ (ammonium carbamate) or the acceptable alternative hydrazinium formate, with a correct Lewis structure"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2017 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2017-N-P2",
+    "year": 2017,
+    "level": "national",
+    "number": 2,
+    "title": "Copper–Iodide Solubility, Complexation, Disproportionation",
+    "topic_id": "equilibrium",
+    "intro_md": "Consider these reactions among copper and iodine compounds (all reactions at 298 K):\n\n$\\ce{CuI(s) <=> Cu+(aq) + I^-(aq)}$    $K_\\text{sp} = 1.2 \\times 10^{-12}$\n\n$\\ce{Cu+(aq) + 2 I^-(aq) <=> CuI2^-(aq)}$    $K_\\text{f} = 7.1 \\times 10^{8}$\n\n$\\ce{Cu^2+(aq) + 2 e^- -> Cu(s)}$    $E^\\circ = +0.337\\ \\text{V}$\n\n$\\ce{Cu^2+(aq) + e^- -> Cu+(aq)}$    $E^\\circ = +0.159\\ \\text{V}$\n\n$\\ce{I2(s) + 2 e^- -> 2 I^-(aq)}$    $E^\\circ = +0.540\\ \\text{V}$",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate the number of moles of copper that dissolve if $1.00 \\times 10^{-3}$ mol $\\ce{CuI}$(s) is suspended in 1.00 L of solution.",
+        "key_md": "$[\\ce{Cu+}] = [\\ce{I^-}]$ in this solution, and $[\\ce{Cu+}][\\ce{I^-}] = K_\\text{sp} = 1.2 \\times 10^{-12}$\n\n$[\\ce{Cu+}] = 1.1 \\times 10^{-6}\\ \\text{M}$, so $1.1 \\times 10^{-6}$ mol Cu dissolve in 1.00 L.\n\n(Because the $[\\ce{I^-}]$ is so low, there is a negligible amount of $\\ce{CuI2^-}$ present: $\\dfrac{[\\ce{CuI2^-}]}{[\\ce{Cu+}][\\ce{I^-}]^2} = 7.1 \\times 10^{8}$, so $[\\ce{CuI2^-}]/[\\ce{Cu+}] = 8.6 \\times 10^{-4}$ if $[\\ce{I^-}] = 1.1 \\times 10^{-6}\\ \\text{M}$)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets $[\\ce{Cu+}] = [\\ce{I^-}]$ and uses $[\\ce{Cu+}][\\ce{I^-}] = K_\\text{sp}$"
+          },
+          {
+            "points": 2,
+            "criterion": "Obtains $1.1 \\times 10^{-6}$ mol Cu dissolved (accept $1.0$–$1.1 \\times 10^{-6}$)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the minimum number of moles of $\\ce{NaI}$ that would need to be added to the mixture in (a) to fully dissolve the $\\ce{CuI}$. You may assume that the volume remains 1.00 L.",
+        "key_md": "The major reaction that takes place is\n\n$\\ce{CuI(s) + I^-(aq) <=> CuI2^-(aq)}$    $K_\\text{eq} = K_\\text{sp} \\cdot K_\\text{f} = 8.5 \\times 10^{-4}$\n\nSince almost all the Cu in solution is complexed, $[\\ce{CuI2^-}] = 1.00 \\times 10^{-3}\\ \\text{M}$.\n\n$\\dfrac{[\\ce{CuI2^-}]}{[\\ce{I^-}]} = \\dfrac{[1.00 \\times 10^{-3}]}{[\\ce{I^-}]} = 8.5 \\times 10^{-4}$\n\n$[\\ce{I^-}] = 1.18\\ \\text{M}$\n\nOnly $1.00 \\times 10^{-3}$ mol iodide has bonded to the copper, which is negligible compared to the amount found free in solution. So 1.18 mol $\\ce{NaI}$ needs to be added to dissolve the CuI.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Writes $\\ce{CuI(s) + I^- <=> CuI2^-}$ with $K_\\text{eq} = K_\\text{sp}K_\\text{f} = 8.5 \\times 10^{-4}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Sets $[\\ce{CuI2^-}] = 1.00 \\times 10^{-3}\\ \\text{M}$ and solves for free $[\\ce{I^-}]$"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer 1.18 mol NaI (accept 1.1–1.2 mol), noting complexed iodide is negligible"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate $K_\\text{eq}$ for the (favorable) disproportionation of aqueous $\\ce{Cu+}$ ion in neutral solution:\n\n$\\ce{2 Cu+(aq) <=> Cu^2+(aq) + Cu(s)}$",
+        "key_md": "$\\ce{2 Cu+(aq) -> 2 Cu^2+(aq) + 2 e^-}$    $E^\\circ = -0.159\\ \\text{V}$\n\n$\\ce{Cu^2+(aq) + 2 e^- -> Cu(s)}$    $E^\\circ = +0.337\\ \\text{V}$\n\n$\\ce{2 Cu+(aq) -> Cu(s) + Cu^2+(aq)}$    $E^\\circ = 0.178\\ \\text{V}$\n\n$\\Delta G^\\circ = -nFE^\\circ = -(2)(96.485\\ \\text{kJ V}^{-1}\\text{mol}^{-1})(0.178\\ \\text{V}) = -34.3\\ \\text{kJ mol}^{-1}$\n\n$K_\\text{eq} = e^{-\\Delta G^\\circ/RT} = e^{(34300\\ \\text{J mol}^{-1})/(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})} = 1.05 \\times 10^{6}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct cell potential $E^\\circ = 0.178\\ \\text{V}$ from the two half-reactions"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = -nFE^\\circ$ with $n = 2$ (or Nernst equivalent) giving $\\approx -34.3\\ \\text{kJ mol}^{-1}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{eq} \\approx 1.0 \\times 10^{6}$ (accept $0.9$–$1.2 \\times 10^{6}$)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Copper(II) iodide, $\\ce{CuI2}$, is not stable. Write a reasonable chemical reaction that describes the decomposition of $\\ce{CuI2}$ in aqueous solution, and show that this is a spontaneous reaction under standard conditions.",
+        "key_md": "Net reaction: $\\ce{Cu^2+(aq) + 2 I^-(aq) -> CuI(s) + 0.5 I2(s)}$\n\nThis can be written as a sum of two reactions:\n\n(I) A redox reaction:\n\n$\\ce{Cu^2+(aq) + I^-(aq) -> Cu+(aq) + 0.5 I2}$\n\n$\\Delta G^\\circ = -(1)(96.485\\ \\text{kJ V}^{-1}\\text{mol}^{-1})(0.159\\ \\text{V} - 0.540\\ \\text{V}) = +36.8\\ \\text{kJ mol}^{-1}$\n\n(II) A precipitation reaction:\n\n$\\ce{Cu+(aq) + I^-(aq) -> CuI(s)}$\n\n$\\Delta G^\\circ = -RT\\ln(K_\\text{eq}) = -(0.008314\\ \\text{kJ mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})\\ln(1/K_\\text{sp}) = -68.0\\ \\text{kJ mol}^{-1}$\n\nThus the net reaction has $\\Delta G^\\circ = +36.8\\ \\text{kJ mol}^{-1} + (-68.0\\ \\text{kJ mol}^{-1}) = -31.2\\ \\text{kJ mol}^{-1}$, and is spontaneous (under standard conditions).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Net decomposition equation $\\ce{Cu^2+ + 2 I^- -> CuI(s) + 1/2 I2}$ (equivalently $\\ce{CuI2 -> CuI + 1/2 I2}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes $\\Delta G^\\circ$ for the redox step from $E^\\circ$ values ($\\approx +36.8\\ \\text{kJ mol}^{-1}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes $\\Delta G^\\circ$ for precipitation from $K_\\text{sp}$ ($\\approx -68\\ \\text{kJ mol}^{-1}$) and concludes net $\\Delta G^\\circ \\approx -31\\ \\text{kJ mol}^{-1} < 0$, spontaneous"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2017 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2017-N-P3",
+    "year": 2017,
+    "level": "national",
+    "number": 3,
+    "title": "Ozone decomposition kinetics and mechanism",
+    "topic_id": "kinetics",
+    "intro_md": "The initial rate of decomposition of ozone to molecular oxygen has been examined under a variety of conditions by measuring the change in pressure as the reaction takes place.\n\n$\\ce{2 O3(g) -> 3 O2(g)}$\n\nAt 90 ºC, in the presence of relatively small amounts of $\\ce{O3}$ compared to $\\ce{O2}$ (present in constant amount), the following data were obtained:\n\n$p(\\ce{O3})$, mm Hg — $\\Delta P/\\Delta t$, (mm Hg) s$^{-1}$\n\n7.9 — $1.21 \\times 10^{-3}$\n\n17.7 — $5.8 \\times 10^{-3}$",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "If the pressure changes at a rate of $1.21 \\times 10^{-3}$ (mm Hg) s$^{-1}$ at 90 ºC, what is the rate of disappearance of $\\ce{O3}$ in mol L$^{-1}$ s$^{-1}$?",
+        "key_md": "With each mol of $\\ce{O3}$ that reacts of the reaction, 0.5 mol of additional total gas is produced. So if the total pressure is increasing by $1.21 \\times 10^{-3}$ (mm Hg) s$^{-1}$, then the pressure of $\\ce{O3}$ is decreasing by twice this, or $2.42 \\times 10^{-3}$ (mm Hg) s$^{-1}$. To convert to mol L$^{-1}$ s$^{-1}$, one needs to convert mm Hg to mol L$^{-1}$ at 90 ºC:\n\n$PV = nRT$\n\n$n/V = P/RT$\n\n$n/V = (2.42 \\times 10^{-3}\\text{ mm Hg})/(62.4\\ [\\text{mm Hg}]\\text{ L mol}^{-1}\\text{ K}^{-1})(363\\text{ K})$\n\n$n/V = 1.07 \\times 10^{-7}$ mol L$^{-1}$\n\nSo the rate of disappearance of $\\ce{O3}$ is $1.07 \\times 10^{-7}$ mol L$^{-1}$ s$^{-1}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes that $\\Delta p(\\ce{O3})/\\Delta t$ is twice the total pressure change rate, i.e. $2.42 \\times 10^{-3}$ (mm Hg) s$^{-1}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Converts pressure rate to concentration rate using $PV = nRT$ at 363 K"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer $1.07 \\times 10^{-7}$ mol L$^{-1}$ s$^{-1}$ (±5%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "What is the order in $\\ce{O3}$ under these conditions?",
+        "key_md": "When $\\ce{O3}$ pressure increases by a factor of 2.24, the rate increases by a factor of 4.79, close to $(2.24)^2 = 5.01$. So the reaction is second order in $\\ce{O3}$ under these conditions.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Compares rate ratio (4.79) to pressure ratio (2.24)"
+          },
+          {
+            "points": 1,
+            "criterion": "States second order in $\\ce{O3}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Under slightly different conditions, with the initial pressures of $\\ce{O3}$ held constant, the initial rates were measured as a function of $\\ce{O2}$ pressure at 90 ºC and at 100 ºC:\n\n$p(\\ce{O2})$, mm Hg — $\\Delta P/\\Delta t$, (mm Hg) s$^{-1}$, at 90 °C — $\\Delta P/\\Delta t$, (mm Hg) s$^{-1}$, at 100 °C\n\n200 — $3.30 \\times 10^{-3}$ — $7.4 \\times 10^{-3}$\n\n400 — $1.45 \\times 10^{-3}$ — $3.64 \\times 10^{-3}$\n\nWhat is the order in $\\ce{O2}$?",
+        "key_md": "Doubling the $\\ce{O2}$ pressure results in roughly a factor of two *decrease* in the rate. Thus the order in $\\ce{O2}$ is –1.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes that doubling $p(\\ce{O2})$ roughly halves the rate"
+          },
+          {
+            "points": 1,
+            "criterion": "States order in $\\ce{O2}$ is –1"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "What is the activation energy for the reaction?",
+        "key_md": "$\\ln(k_2/k_1) = (E_a/R)(1/T_1 - 1/T_2)$\n\n$\\ln(3.64 \\times 10^{-3}/1.45 \\times 10^{-3}) = (E_a/8.314\\text{ J mol}^{-1}\\text{ K}^{-1})(1/363\\text{ K} - 1/373\\text{ K})$\n\n$E_a = 104$ kJ mol$^{-1}$ (using the data from 200 mm Hg $\\ce{O2}$ gives 90.9 kJ mol$^{-1}$)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct use of the Arrhenius two-temperature equation with $T_1 = 363$ K and $T_2 = 373$ K and rate ratio at fixed $p(\\ce{O2})$"
+          },
+          {
+            "points": 2,
+            "criterion": "$E_a = 104$ kJ mol$^{-1}$ (or 90.9 kJ mol$^{-1}$ from the 200 mm Hg data), ±5%"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "The following mechanism has been proposed for the reaction:\n\n$\\ce{O3(g) <=>[k_1][k_{-1}] O2(g) + O(g)}$\n\n$\\ce{O(g) + O3(g) ->[k_2] 2 O2(g)}$\n\nUsing the steady-state approximation, derive the rate law predicted by this mechanism. Under what circumstances, if any, is this consistent with the experimental data?",
+        "key_md": "Applying the steady-state approximation to [O] gives:\n\n$k_1[\\ce{O3}] = k_{-1}[\\ce{O}][\\ce{O2}] + k_2[\\ce{O}][\\ce{O3}]$\n\n$[\\ce{O}] = \\dfrac{k_1[\\ce{O3}]}{k_{-1}[\\ce{O2}] + k_2[\\ce{O3}]}$\n\nRate $= k_2[\\ce{O3}][\\ce{O}] = \\dfrac{k_1k_2[\\ce{O3}]^2}{k_{-1}[\\ce{O2}] + k_2[\\ce{O3}]}$\n\nThis is consistent with the experimental data if $k_{-1}[\\ce{O2}] \\gg k_2[\\ce{O3}]$. This is likely to be fulfilled under these conditions of relatively high $\\ce{O2}$ pressure and low $\\ce{O3}$ pressure.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up steady-state expression $k_1[\\ce{O3}] = k_{-1}[\\ce{O}][\\ce{O2}] + k_2[\\ce{O}][\\ce{O3}]$ and solves for [O]"
+          },
+          {
+            "points": 1,
+            "criterion": "Rate $= k_1k_2[\\ce{O3}]^2/(k_{-1}[\\ce{O2}] + k_2[\\ce{O3}])$"
+          },
+          {
+            "points": 1,
+            "criterion": "States consistency requires $k_{-1}[\\ce{O2}] \\gg k_2[\\ce{O3}]$ (high $\\ce{O2}$, low $\\ce{O3}$), giving second order in $\\ce{O3}$ and –1 order in $\\ce{O2}$"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2017 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2017-N-P4",
+    "year": 2017,
+    "level": "national",
+    "number": 4,
+    "title": "Thermodynamics of NO2 dimerization",
+    "topic_id": "thermodynamics",
+    "intro_md": "Consider the dimerization of nitrogen dioxide:\n\n$$\\ce{2 NO2(g) <=> N2O4(g)}$$\n\nThermodynamic data are given below for the gaseous species at 298 K, except for the heats of vaporization, which are for the liquids:\n\n| | $\\ce{NO2}$ | $\\ce{N2O4}$ |\n|---|---|---|\n| $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ | 33.2 | 11.1 |\n| $S^\\circ$, J mol$^{-1}$ K$^{-1}$ | 240.1 | 304.4 |\n| $C_\\text{p}$, J mol$^{-1}$ K$^{-1}$ | 37.2 | 79.2 |\n| $\\Delta H^\\circ_\\text{vap}$, kJ mol$^{-1}$ | 27.7 | 38.1 |",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate $\\Delta H^\\circ_\\text{rxn}$, $\\Delta S^\\circ_\\text{rxn}$, and $\\Delta G^\\circ_\\text{rxn}$ for the dimerization of $\\ce{NO2(g)}$ at 298 K.",
+        "key_md": "$\\Delta H^\\circ = 11.1\\ \\text{kJ mol}^{-1} - 2(33.2\\ \\text{kJ mol}^{-1}) = -55.3\\ \\text{kJ mol}^{-1}$\n\n$\\Delta S^\\circ = 304.4\\ \\text{J mol}^{-1}\\text{K}^{-1} - 2(240.1\\ \\text{J mol}^{-1}\\text{K}^{-1}) = -175.8\\ \\text{J mol}^{-1}\\text{K}^{-1}$\n\n$\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ = -55.3\\ \\text{kJ mol}^{-1} - (298\\ \\text{K})(-0.1758\\ \\text{kJ mol}^{-1}\\text{K}^{-1}) = -2.9\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ_\\text{rxn} = -55.3$ kJ mol$^{-1}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ_\\text{rxn} = -175.8$ J mol$^{-1}$ K$^{-1}$"
+          },
+          {
+            "points": 2,
+            "criterion": "$\\Delta G^\\circ_\\text{rxn} = -2.9$ kJ mol$^{-1}$ (±0.3) from $\\Delta H^\\circ - T\\Delta S^\\circ$"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate $K_\\text{eq}$ for the dimerization of $\\ce{NO2(g)}$ at 298 K.",
+        "key_md": "$\\Delta G^\\circ = -RT\\ln(K_\\text{eq})$\n\n$\\ln(K_\\text{eq}) = -(-2900\\ \\text{J mol}^{-1})/(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K}) = 1.17$\n\n$K_\\text{eq} = 3.2$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta G^\\circ = -RT\\ln K$ correctly"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{eq} \\approx 3.2$ (consistent with their $\\Delta G^\\circ$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Would $K_\\text{eq}$ for the dimerization at 308 K be greater than, less than, or equal to $K_\\text{eq}$ at 298 K? Justify your answer based on the above data.",
+        "key_md": "The reaction is exothermic, so $K_\\text{eq}$ will decrease as the temperature is increased.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States $K_\\text{eq}$ will be less at 308 K"
+          },
+          {
+            "points": 1,
+            "criterion": "Justification: reaction is exothermic ($\\Delta H^\\circ < 0$), so K decreases with increasing T"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Would $\\Delta H^\\circ_\\text{rxn}$ at 308 K be greater than, less than, or equal to $\\Delta H^\\circ_\\text{rxn}$ at 298 K? Justify your answer based on the above data.",
+        "key_md": "From the thermochemical cycle (2 $\\ce{NO2}$(g) at 298 K → $\\ce{N2O4}$(g) at 298 K, connected to the 308 K reaction by heating/cooling steps $\\Delta H = -2C_\\text{p}(\\ce{NO2})\\cdot(10\\ \\text{K})$ and $\\Delta H = C_\\text{p}(\\ce{N2O4})\\cdot(10\\ \\text{K})$):\n\n$\\Delta H^\\circ_\\text{rxn}(308\\ \\text{K}) = \\Delta H^\\circ_\\text{rxn}(298\\ \\text{K}) + 10\\ \\text{K}(C_\\text{p}[\\ce{N2O4}] - 2C_\\text{p}[\\ce{NO2}])$\n\nSince $C_\\text{p}[\\ce{N2O4}] - 2C_\\text{p}[\\ce{NO2}] = 4.8\\ \\text{J mol}^{-1}\\text{K}^{-1}$ is positive, then $\\Delta H^\\circ_\\text{rxn}(308\\ \\text{K})$ will be greater (more positive) than $\\Delta H^\\circ_\\text{rxn}(298\\ \\text{K})$, although the difference is rather small.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up the thermochemical cycle / relation $\\Delta H^\\circ(308) = \\Delta H^\\circ(298) + \\Delta C_\\text{p}\\cdot 10\\ \\text{K}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes $\\Delta C_\\text{p} = 79.2 - 2(37.2) = +4.8$ J mol$^{-1}$ K$^{-1}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes $\\Delta H^\\circ_\\text{rxn}$ at 308 K is greater (more positive, only slightly)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Would $\\Delta H^\\circ_\\text{rxn}$ in the liquid phase be greater than, less than, or equal to $\\Delta H^\\circ_\\text{rxn}$ in the gas phase? Justify your answer based on the above data.",
+        "key_md": "An analogous thermochemical cycle (2 $\\ce{NO2}$(l) → 2 $\\ce{NO2}$(g) with $\\Delta H = 2\\Delta H_\\text{vap}(\\ce{NO2})$, and $\\ce{N2O4}$(g) → $\\ce{N2O4}$(l) with $\\Delta H = -\\Delta H_\\text{vap}(\\ce{N2O4})$) establishes that\n\n$\\Delta H^\\circ_\\text{rxn}(l) = \\Delta H^\\circ_\\text{rxn}(g) + 2\\Delta H_\\text{vap}(\\ce{NO2}) - \\Delta H_\\text{vap}(\\ce{N2O4})$\n\nSince $2\\Delta H_\\text{vap}(\\ce{NO2}) - \\Delta H_\\text{vap}(\\ce{N2O4}) = 17.3\\ \\text{kJ mol}^{-1}$ is positive, then $\\Delta H^\\circ_\\text{rxn}(l)$ will be greater (more positive) than $\\Delta H^\\circ_\\text{rxn}(g)$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct cycle/relation $\\Delta H^\\circ_\\text{rxn}(l) = \\Delta H^\\circ_\\text{rxn}(g) + 2\\Delta H_\\text{vap}(\\ce{NO2}) - \\Delta H_\\text{vap}(\\ce{N2O4})$"
+          },
+          {
+            "points": 1,
+            "criterion": "Evaluates $2(27.7) - 38.1 = +17.3$ kJ mol$^{-1}$"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2017 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2017-N-P5",
+    "year": 2017,
+    "level": "national",
+    "number": 5,
+    "title": "Net ionic equations for six reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas but omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances. You need not balance the equations.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Solutions of sodium sulfate and lead(II) nitrate are mixed.",
+        "key_md": "$\\ce{Pb^2+(aq) + SO4^2-(aq) -> PbSO4(s)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactant ions $\\ce{Pb^2+}$ and $\\ce{SO4^2-}$ only (spectator ions omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct product $\\ce{PbSO4(s)}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Aluminum foil is added to concentrated sodium hydroxide solution.",
+        "key_md": "$\\ce{Al(s) + 3 H2O(l) + OH^-(aq) -> Al(OH)4^-(aq) + 3/2 H2(g)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{Al(s)}$ with $\\ce{OH^-}$ (and $\\ce{H2O}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Al(OH)4^-(aq)}$ (or $\\ce{AlO2^-}$/aluminate) and $\\ce{H2(g)}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Mercury(II) oxide is heated.",
+        "key_md": "$\\ce{HgO(s) -> Hg(l) + 1/2 O2(g)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactant $\\ce{HgO(s)}$ decomposing"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Hg(l)}$ and $\\ce{O2(g)}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Sodium is added to 2-butanol. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{Na(s)}$ + 2-butanol (structural formula: $\\ce{CH3CH(OH)CH2CH3}$, drawn as a four-carbon chain with OH on C2) $\\longrightarrow$ the 2-butoxide anion (same skeleton with $\\ce{O^-}$ in place of OH) $+\\ \\ce{Na+} + \\tfrac{1}{2}\\,\\ce{H2}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Structural formula of 2-butanol shown as reactant with Na"
+          },
+          {
+            "points": 1,
+            "criterion": "Products: 2-butoxide structure (alkoxide anion) plus $\\ce{Na+}$ and $\\ce{H2}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Nitrosyl fluoride and boron trifluoride vapors are co-condensed.",
+        "key_md": "$\\ce{NOF(g) + BF3(g) -> [NO][BF4](s)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes fluoride transfer giving $\\ce{BF4^-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct product written as the salt $\\ce{[NO][BF4](s)}$ (nitrosyl cation)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Fluorine-18 emits a positron.",
+        "key_md": "$\\ce{^18F -> ^18O + \\beta+}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product nuclide $\\ce{^18O}$ correct"
+          },
+          {
+            "points": 1,
+            "criterion": "Positron ($\\beta^+$) included in the equation"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2017 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2017-N-P6",
+    "year": 2017,
+    "level": "national",
+    "number": 6,
+    "title": "Silicon unit cell and semiconductor bands",
+    "topic_id": "states-of-matter",
+    "intro_md": "Silicon is an industrially important semiconductor with the cubic unit cell shown below (Si atoms represented as black spheres):\n\n[Figure: cubic (diamond-type) unit cell of silicon with Si atoms shown as black spheres]",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "How many Si atoms are contained in this unit cell?",
+        "key_md": "There are 8 Si atoms in the unit cell.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States that the unit cell contains 8 Si atoms (correct counting of corner, face and interior atoms)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "The length of the edge of the unit cell is 0.543 nm. Calculate the density of silicon in g cm$^{-3}$.",
+        "key_md": "$V = (0.543 \\times 10^{-7}\\ \\text{cm})^3 = 1.60 \\times 10^{-22}\\ \\text{cm}^3$\n\nmass $= 8 \\times (28.09\\ \\text{g mol}^{-1})/(6.022 \\times 10^{23}\\ \\text{mol}^{-1}) = 3.73 \\times 10^{-22}\\ \\text{g}$\n\ndensity $= 3.73 \\times 10^{-22}\\ \\text{g}/1.60 \\times 10^{-22}\\ \\text{cm}^3 = 2.33\\ \\text{g cm}^{-3}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Computes cell volume $1.60 \\times 10^{-22}\\ \\text{cm}^3$ (correct nm → cm conversion)"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes mass of 8 Si atoms $= 3.73 \\times 10^{-22}$ g using molar mass and $N_A$"
+          },
+          {
+            "points": 2,
+            "criterion": "Density $= 2.33\\ \\text{g cm}^{-3}$ (±0.03) with correct units"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "c",
+        "stem_md": "Diamond, silicon, and germanium all have the same structure, but the band gap decreases in the order C (diamond) >> Si > Ge. Explain the trend in the size of the band gap.",
+        "key_md": "The filled valence band consists of $\\sigma$-bonding orbitals, while the empty conduction band consists of $\\sigma$-antibonding orbitals. Thus, the stronger the bonding, the larger the band gap. The smaller elements form shorter, stronger bonds (C–C >> Si–Si > Ge–Ge), so the band gaps also decrease in this order.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Identifies valence band as $\\sigma$-bonding and conduction band as $\\sigma$-antibonding orbitals, so stronger bonding gives a larger gap"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes smaller atoms form shorter/stronger bonds (C–C >> Si–Si > Ge–Ge), accounting for the decreasing gap"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Substituting just a few parts per million of B into Si results in a dramatic increase of electrical conductivity compared to ultrapure Si. Explain why.",
+        "key_md": "Replacing a Si atom (with 4 valence electrons) with a B atom (3 valence electrons) decreases the electron count by one without changing the number or type of orbitals. Thus each B atom leads to a vacancy in the valence band. These \"holes\" are good charge carriers, and so even a small number of boron atoms lead to a relatively large number of charge carriers (and hence high conductivity) compared to pure Si, where the only charge carriers arise from thermal excitation.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes B has one fewer valence electron than Si, so the electron count drops without changing the orbitals"
+          },
+          {
+            "points": 1,
+            "criterion": "States that this creates holes (vacancies) in the valence band"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that these holes are efficient charge carriers, far more numerous than the few thermally excited carriers in pure Si"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2017 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2017-N-P6-f1.png"
+  },
+  {
+    "id": "2017-N-P7",
+    "year": 2017,
+    "level": "national",
+    "number": 7,
+    "title": "Oxygen and Sulfur Binary Fluorides",
+    "topic_id": "bonding",
+    "intro_md": "Oxygen and sulfur form a number of binary fluorides.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw the Lewis structure of dioxygen difluoride, $\\ce{O2F2}$, and sketch or describe the three-dimensional shape of this polar molecule. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Lewis structure: $\\ce{:\\overset{..}{F}-\\overset{..}{O}-\\overset{..}{O}-\\overset{..}{F}:}$ — a chain F–O–O–F with two lone pairs on each O and three lone pairs on each F (all atoms obey the octet rule).\n\nIn FOOF, each oxygen is bent, and the two FOO planes are roughly perpendicular to one another (a gauche/skewed, non-planar structure, like $\\ce{H2O2}$), which makes the molecule polar.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Correct Lewis structure: F–O–O–F connectivity with 2 lone pairs on each O and 3 lone pairs on each F (octets satisfied)"
+          },
+          {
+            "points": 1,
+            "criterion": "Describes/sketches the 3-D shape: bent at each O with the two FOO planes roughly perpendicular (skewed/gauche, non-planar)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Explain why the O–F bonds in dioxygen difluoride, $\\ce{O2F2}$ (157.5 pm) are much longer than those in oxygen difluoride, $\\ce{OF2}$ (140.5 pm).",
+        "key_md": "Electron donation from the oxygen lone pairs in FOOF into the O–F $\\sigma^*$ orbitals (\"negative hyperconjugation\") lengthens the O–F bond (and shortens the O–O bond, which at 121.7 pm is much shorter than the O–O single bond in $\\ce{H2O2}$, 147.4 pm, and is almost the same length as the double bond in $\\ce{O2}$, 121 pm!). This can be represented by resonance structures such as $\\ce{F-O=O+ \\bond{...} F-}$, i.e. structures having an O=O double bond with the fluoride essentially dissociated (formal charges $+$ on O and $-$ on F).",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Identifies donation of an oxygen lone pair into the O–F $\\sigma^*$ orbital (negative hyperconjugation / resonance with O=O and long O–F) as the cause of the lengthening"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes the accompanying O–O bond shortening (partial double-bond character) as supporting evidence"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Disulfur difluoride, $\\ce{S2F2}$, exists as two structural isomers. One isomer is analogous in structure to dioxygen difluoride, $\\ce{O2F2}$, but the second, more thermodynamically stable isomer, has a structure in which the two sulfur atoms are in different chemical environments. Draw a Lewis structure of the more stable isomer of disulfur difluoride, $\\ce{S2F2}$, and sketch or describe its three-dimensional shape. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The stable isomer of $\\ce{S2F2}$ is thiothionyl fluoride, $\\ce{F2S=S}$ (drawn as a central S bearing the two F atoms and a terminal S): a central sulfur bonded to two fluorines and to the terminal sulfur, with one lone pair on the central S (formal charge $+$) and three lone pairs on the terminal S (formal charge $-$); each F has three lone pairs.\n\nThe geometry about the central sulfur is pyramidal (three bonded groups: 2 F and the terminal S, plus one lone pair).",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Correct Lewis structure of $\\ce{F2S=S}$ (both F on the same S, terminal S; lone pairs/formal charges shown)"
+          },
+          {
+            "points": 1,
+            "criterion": "States the shape is pyramidal at the central (four-group) sulfur"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Sulfur difluoride, $\\ce{SF2}$, is very unstable, converting to disulfur tetrafluoride, $\\ce{S2F4}$, in which all four fluorines are in different environments. Clearly show a chemically reasonable three-dimensional structure of disulfur tetrafluoride, $\\ce{S2F4}$, and explain how the structure accounts for the inequivalence of all four fluorine atoms. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The structure is $\\ce{F3S-SF}$: one sulfur bears three fluorines plus the bond to the other sulfur (four-coordinate), and the other sulfur bears one fluorine and two lone pairs (bent).\n\nThe four-coordinated sulfur has a \"see-saw\" geometry, with the equatorial fluorine distinct from the two axial fluorines. (Obviously the fluorine on the divalent sulfur is distinct from the other three as well!) The two axial fluorines are not equivalent because the S–F bond on the divalent sulfur is pointed toward one of them and away from the other one.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Gives the 3-D structure $\\ce{F3S-SF}$ with a see-saw (trigonal bipyramidal, lone pair equatorial) four-coordinate S and a bent divalent S"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains inequivalence: axial vs. equatorial F on the see-saw S, the F on the divalent S is distinct, and the two axial F differ because the divalent S–F bond points toward one and away from the other"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Sulfur tetrafluoride, $\\ce{SF4}$ (bp –38 ºC), has a higher boiling point than sulfur hexafluoride, $\\ce{SF6}$ (bp –64 ºC). Explain why sulfur tetrafluoride, $\\ce{SF4}$, is less volatile than sulfur hexafluoride, $\\ce{SF6}$.",
+        "key_md": "$\\ce{SF4}$, because of its see-saw geometry, has a dipole moment, while $\\ce{SF6}$, which is octahedral, does not. The favorable dipole–dipole interactions increase the boiling point of $\\ce{SF4}$ compared to $\\ce{SF6}$. (The greater number of electrons in $\\ce{SF6}$ would be expected to give it greater London dispersion forces compared to $\\ce{SF4}$, but the lower polarizability due to the higher oxidation state in $\\ce{SF6}$ may make this effect smaller than one would expect.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States $\\ce{SF4}$ is polar (see-saw) while $\\ce{SF6}$ is nonpolar (octahedral)"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes the higher boiling point of $\\ce{SF4}$ to dipole–dipole attractions"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2017 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2017-N-P8",
+    "year": 2017,
+    "level": "national",
+    "number": 8,
+    "title": "Nitration of tert-Butylbenzene and Aniline Synthesis",
+    "topic_id": "organic",
+    "intro_md": "*tert*-Butylbenzene is nitrated to give predominantly *para-tert*-butylnitrobenzene (**A**), with only small amounts of the *meta* (**A'**) and *ortho* (**A''**) isomers.\n\n*tert*-butylbenzene $\\xrightarrow[\\ce{CH2Cl2}]{\\ce{CF3CO(ONO2)}}$ **A** (*para*, 83%) + **A'** (*meta*, 5%) + **A''** (*ortho*, 12%)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Explain why the *meta* isomer (**A'**) is a minor product in this reaction.",
+        "key_md": "The *tert*-butyl group is electron-donating compared to H, which stabilizes the key cationic intermediate in the *para* isomer compared to the *meta* isomer:\n\n(Structures shown: the arenium ion from *para* attack, with the $\\ce{C(CH3)3}$ group on the carbon bearing the positive charge — *more favorable*; versus the arenium ion from *meta* attack, where the positive charge cannot be delocalized onto the carbon bearing the *tert*-butyl group — *less favorable*.)",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "States that the tert-butyl (alkyl) group is electron-donating/activating and stabilizes the cationic (arenium/sigma-complex) intermediate"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes that this stabilization occurs for ortho/para attack but not for meta attack, so meta is minor"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Explain why the *ortho* isomer (**A''**) is a minor product in this reaction.",
+        "key_md": "The *ortho* isomer is electronically stabilized in much the same way as the *para* isomer, but the large size of the *tert*-butyl group impedes reactivity adjacent to it.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Attributes the low ortho yield to steric hindrance/bulk of the tert-butyl group blocking the adjacent positions (noting electronic stabilization is comparable to para)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Give a structure for synthetic intermediate **B** and propose a reagent or set of reagents **X** for the transformation of **B** to *para-tert*-butylacetanilide (**C**).\n\n**A** ($para$-$\\ce{C(CH3)3}$-nitrobenzene) $\\xrightarrow{\\ce{H2},\\ \\ce{Pt}}$ **B** $\\xrightarrow{\\textbf{X}}$ **C** (*para-tert*-butylacetanilide) *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "**B** is 4-*tert*-butylaniline (the $\\ce{NO2}$ group reduced to $\\ce{NH2}$: benzene ring bearing $\\ce{C(CH3)3}$ para to $\\ce{NH2}$).\n\nMany acetylating agents will serve the role as **X**; acetic anhydride, $\\ce{(CH3CO)2O}$, is shown in the scheme.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "B correctly identified as 4-tert-butylaniline (para-tert-butyl aminobenzene)"
+          },
+          {
+            "points": 2,
+            "criterion": "X is an acetylating agent such as acetic anhydride $\\ce{(CH3CO)2O}$ (or acetyl chloride/base)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "Propose a synthesis of *tert*-butylbenzene from benzene and any other necessary reagents. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Any source of *tert*-butyl cation ($\\ce{(CH3)3COH}/\\ce{H+}$, $\\ce{(CH3)3CCl}/\\ce{AlCl3}$, etc.) will react with benzene to give *tert*-butylbenzene:\n\nbenzene + 2-methylpropene (isobutylene), cat. $\\ce{H2SO4}$ $\\longrightarrow$ *tert*-butylbenzene",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Friedel–Crafts alkylation of benzene proposed (electrophilic aromatic substitution)"
+          },
+          {
+            "points": 1,
+            "criterion": "A valid tert-butyl cation source/catalyst pair given, e.g. $\\ce{(CH3)3CCl}/\\ce{AlCl3}$, $\\ce{(CH3)3COH}/\\ce{H+}$, or isobutylene/cat. $\\ce{H2SO4}$"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2017 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

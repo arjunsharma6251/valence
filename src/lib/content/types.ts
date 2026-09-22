@@ -88,6 +88,8 @@ export interface FrqPart {
   key_md: string;
   rubric: RubricLine[];
   max_points: number;
+  /** Cropped exam figure this part depends on, under /figures. */
+  figure_url?: string | null;
 }
 
 export interface FrqProblem {
@@ -100,6 +102,8 @@ export interface FrqProblem {
   topic_id: string;
   /** Shared context shown above all parts. */
   intro_md: string;
+  /** Cropped exam figure shared by the whole problem, under /figures. */
+  figure_url?: string | null;
   parts: FrqPart[];
   source: string;
 }

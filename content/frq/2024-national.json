@@ -1,0 +1,873 @@
+[
+  {
+    "id": "2024-N-P1",
+    "year": 2024,
+    "level": "national",
+    "number": 1,
+    "title": "Unknown Group 2 Metal Halide Identification",
+    "topic_id": "stoichiometry",
+    "intro_md": "An unknown salt $\\ce{MX2}$ is a group 2 metal halide.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "10.00 g $\\ce{MX2}$ dissolves in 50.0 g water to give a homogeneous solution. The freezing point of this solution is –4.50 °C. What is the molar mass of $\\ce{MX2}$? For water, $K_\\text{f}$ = 1.86 °C/$m$.",
+        "key_md": "(–4.50 °C)/(–1.86 °C/$m$) = 2.42 $m$\n\nSince $\\ce{MX2}$ gives 3 moles of ions per mole of compound, the solution is (2.42 $m$/3) = 0.807 $m$.\n\n(0.807 mol $\\ce{MX2}$/kg water) × (0.0500 kg water) = 0.0404 mol $\\ce{MX2}$\n\n10.00 g $\\ce{MX2}$/0.0404 mol = 248 g mol$^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Total molality from freezing point depression: 2.42 m (ΔT/K_f)"
+          },
+          {
+            "points": 1,
+            "criterion": "Divides by van't Hoff factor i = 3 to get 0.807 m and 0.0404 mol MX2"
+          },
+          {
+            "points": 1,
+            "criterion": "Molar mass = 248 g mol⁻¹ (±3)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "10.00 g $\\ce{Na2CO3}$ and 10.00 g $\\ce{MX2}$ are mixed in 200.0 mL of water. A precipitate of $\\ce{MCO3}$ forms. What is the pH of the supernatant? The $K_\\text{a}$ of $\\ce{H2CO3}$ is $4.3 \\times 10^{-7}$ and the $K_\\text{a}$ of $\\ce{HCO3-}$ is $4.7 \\times 10^{-11}$",
+        "key_md": "10.00 g $\\ce{Na2CO3}$/(105.99 g mol$^{-1}$) = 0.09435 mol $\\ce{Na2CO3}$.\n\nAfter reaction with 0.0404 mol $\\ce{MX2}$, approximately 0.0404 mol $\\ce{MCO3}$ will precipitate, leaving behind 0.0540 mol $\\ce{CO3^2-}$ in solution. In 200 mL, this gives a 0.270 M solution of $\\ce{CO3^2-}$. The carbonate ion reacts with water as follows:\n\n$\\ce{CO3^2-}(aq) + \\ce{H2O}(l) \\rightleftharpoons \\ce{HCO3-}(aq) + \\ce{OH-}(aq)$   $K_\\text{eq} = K_\\text{w}/(K_\\text{a}$ of $\\ce{HCO3-})$\n\n$\\dfrac{[\\ce{HCO3-}][\\ce{OH-}]}{[\\ce{CO3^2-}]} = 2.1 \\times 10^{-4}$\n\n$\\dfrac{[\\ce{OH-}]^2}{[0.270]} = 2.1 \\times 10^{-4}$\n\n$[\\ce{OH-}] = 7.6 \\times 10^{-3}$ M\n\npH = 14 + log$_{10}$[$\\ce{OH-}$] = 11.88",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Excess carbonate after precipitation: 0.0540 mol, i.e. 0.270 M CO3²⁻"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses K_b = K_w/K_a(HCO3⁻) = 2.1 × 10⁻⁴"
+          },
+          {
+            "points": 1,
+            "criterion": "[OH⁻] = 7.6 × 10⁻³ M and pH = 11.88 (±0.1)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "A solution of 10.00 g $\\ce{MX2}$ in water is treated with excess silver nitrate. The precipitate is dried; the mass of the dried compound is 15.2 g. What is the identity of $\\ce{MX2}$?",
+        "key_md": "15.2 g AgX/(0.0404 • 2 mol X) = 188 g mol$^{-1}$ of AgX\n\nSince the atomic mass of Ag is 107.9, the molar mass of X is 80 => X is Br.\n\nSubtracting the mass of 2 Br from 248 g mol$^{-1}$ molar mass of $\\ce{MX2}$ gives an atomic mass of M = 88. Thus M = Sr.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Molar mass of AgX = 188 g mol⁻¹ using 0.0808 mol X, giving X = Br"
+          },
+          {
+            "points": 1,
+            "criterion": "M = 248 – 2(80) = 88, so M = Sr; identifies MX2 as SrBr2"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "A sample of 10.00 g $\\ce{MX2}$ dissolved in 50 mL water is treated with increasing amounts of $\\ce{Na2SO4}$ up to 10 g in total. How will the mass of precipitate formed vary with the mass of added $\\ce{Na2SO4}$? Graph your answer on the grid provided. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "0.0404 mol $\\ce{SrSO4}$ × 183.69 g mol$^{-1}$ = 7.42 g $\\ce{SrSO4}$ is the maximum amount of precipitate that can form. The amount actually formed will increase linearly until 0.0404 mol $\\ce{Na2SO4}$ (= 5.74 g) are added, then will not increase further as $\\ce{Sr^2+}$ becomes the limiting reagent.\n\nGraph: a straight line rising from the origin (0,0) to the point (5.74 g $\\ce{Na2SO4}$, 7.42 g precipitate), then a horizontal line at 7.42 g out to 10 g added $\\ce{Na2SO4}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies break point at 0.0404 mol Na2SO4 = 5.74 g (±0.2 g)"
+          },
+          {
+            "points": 1,
+            "criterion": "Plateau mass of SrSO4 = 7.42 g (±0.2 g), with linear rise from origin then horizontal plateau"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "What color flame test does $\\ce{MX2}$ give?",
+        "key_md": "Sr gives a red flame test.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States red (crimson) flame"
+          }
+        ],
+        "max_points": 1
+      }
+    ],
+    "source": "USNCO 2024 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2024-N-P2",
+    "year": 2024,
+    "level": "national",
+    "number": 2,
+    "title": "pH-dependent solubility of calcium fluoride",
+    "topic_id": "equilibrium",
+    "intro_md": "A sample of solid calcium fluoride is suspended in water in an unreactive container and stirred until it achieves equilibrium. The pH of the solution is lowered by careful addition of nitric acid, and the pH and concentration of $\\ce{Ca^2+}(aq)$ are noted at several points as shown on the graph below. Note that the units on the $y$ axis are millimoles per liter.\n\n(Graph: $[\\ce{Ca^2+}]$ in mmol L$^{-1}$ vs. pH, with points at approximately pH 2, 1.36; pH 2.5, 0.67; pH 3, 0.39; pH 3.5, 0.26; pH 4, 0.22; pH 4.5, 0.21; pH 5, 0.21; pH 6, 0.21; pH 7, 0.21.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Determine the $K_\\text{sp}$ of $\\ce{CaF2}$ from the data provided.",
+        "key_md": "From the graph, the molar solubility of $\\ce{CaF2}$ at high pH is about 0.21 mmol/L, so $[\\ce{Ca^2+}] = 2.1 \\times 10^{-4}$ M and $[\\ce{F-}] = 2[\\ce{Ca^2+}]$.\n\n$K_\\text{sp} = [\\ce{Ca^2+}][\\ce{F-}]^2 = (2.1 \\times 10^{-4})(4.2 \\times 10^{-4})^2 = 3.7 \\times 10^{-11}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reads $[\\ce{Ca^2+}] \\approx 2.1 \\times 10^{-4}$ M (0.21 mmol/L) from the high-pH plateau of the graph"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $[\\ce{F-}] = 2[\\ce{Ca^2+}] = 4.2 \\times 10^{-4}$ M in $K_\\text{sp} = [\\ce{Ca^2+}][\\ce{F-}]^2$"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{sp} \\approx 3.7 \\times 10^{-11}$ (accept $3\\text{–}4 \\times 10^{-11}$)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Qualitatively, what is the cause for the increase in solubility of $\\ce{CaF2}$ at low pH?",
+        "key_md": "$\\ce{F-}$ reacts with $\\ce{H+}$ to form HF, lowering the concentration of $\\ce{F-}$ and shifting the solubility equilibrium to cause more solid $\\ce{CaF2}$ to dissolve.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that $\\ce{H+}$ protonates $\\ce{F-}$ to HF, removing fluoride and shifting the solubility equilibrium toward dissolution"
+          }
+        ],
+        "max_points": 1
+      },
+      {
+        "label": "c",
+        "stem_md": "From the data provided, determine the $K_\\text{a}$ of HF.",
+        "key_md": "Choosing any low-pH point should work, but it is better to choose a point with pH < 3 so that the error from reading the plot is minimized.  As an example, we can use pH = 2 ($1.36 \\times 10^{-3}$ M $= [\\ce{Ca^2+}]$).  At this point, $[\\ce{H3O+}] = 10^{-\\text{pH}} = 0.010$ M.  One can determine the concentration of $\\ce{F-}$ from the $K_\\text{sp}$:\n\n$K_\\text{sp} = [\\ce{Ca^2+}][\\ce{F-}]^2$\n\n$3.7 \\times 10^{-11} = [1.36 \\times 10^{-3}][\\ce{F-}]^2$\n\n$[\\ce{F-}] = 1.65 \\times 10^{-4}$ M\n\nSince each $\\ce{Ca^2+}$ in solution must be accompanied by two fluorines (in whatever form),\n\n$[\\ce{F-}] + [\\ce{HF}] = 2[\\ce{Ca^2+}]$\n\n$[1.65 \\times 10^{-4}] + [\\ce{HF}] = 2[1.36 \\times 10^{-3}]$\n\n$[\\ce{HF}] = 2.56 \\times 10^{-3}$ M\n\nOne can then solve for $K_\\text{a}$:\n\n$K_\\text{a} = \\dfrac{[\\ce{H3O+}][\\ce{F-}]}{[\\ce{HF}]} = \\dfrac{[0.01][1.65\\times10^{-4}]}{[2.56\\times10^{-3}]} = 6.4 \\times 10^{-4}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Picks a low-pH data point (e.g. pH = 2, $[\\ce{Ca^2+}] = 1.36 \\times 10^{-3}$ M) and $[\\ce{H3O+}] = 10^{-\\text{pH}}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Obtains $[\\ce{F-}]$ from $K_\\text{sp}$ ($\\approx 1.65 \\times 10^{-4}$ M at pH 2)"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses mass balance $[\\ce{F-}] + [\\ce{HF}] = 2[\\ce{Ca^2+}]$ to get $[\\ce{HF}] \\approx 2.56 \\times 10^{-3}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{a} \\approx 6.4 \\times 10^{-4}$ (accept $4\\text{–}9 \\times 10^{-4}$)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "How many moles of $\\ce{HNO3}$ must be added to the $\\ce{CaF2}$/water mixture to achieve a pH = 3.00 in this experiment?  The volume of solution is 1.00 L.",
+        "key_md": "At pH = 3, from the graph, $[\\ce{Ca^2+}] = 3.9 \\times 10^{-4}$ M, so $[\\ce{F-}] + [\\ce{HF}] = 7.8 \\times 10^{-4}$ M.  At this pH, $[\\ce{H3O+}] = 1.0 \\times 10^{-3}$ M, so\n\n$6.4 \\times 10^{-4} = \\dfrac{[0.001][\\ce{F-}]}{[\\ce{HF}]}$\n\n$[\\ce{F-}]/[\\ce{HF}] = 0.64$\n\n$(7.8 \\times 10^{-4} - [\\ce{HF}]) = 0.64[\\ce{HF}]$\n\n$[\\ce{HF}] = 4.8 \\times 10^{-4}$ M\n\nThe added nitric acid either protonates fluoride ion or produces $\\ce{H3O+}$.  So\n\nmol added $\\ce{HNO3}$ = mol HF + mol $\\ce{H3O+}$\n\nmol added $\\ce{HNO3} = 4.8 \\times 10^{-4} + 1.0 \\times 10^{-3}$\n\nTotal of $1.5 \\times 10^{-3}$ mol added $\\ce{HNO3}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reads $[\\ce{Ca^2+}] = 3.9 \\times 10^{-4}$ M at pH 3 and sets $[\\ce{F-}]+[\\ce{HF}] = 7.8 \\times 10^{-4}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{a}$ with $[\\ce{H3O+}] = 1.0 \\times 10^{-3}$ M to find $[\\ce{HF}] \\approx 4.8 \\times 10^{-4}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Adds mol HF and mol $\\ce{H3O+}$ to get $\\approx 1.5 \\times 10^{-3}$ mol $\\ce{HNO3}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Carbon dioxide dissolves in water at 25 °C and 1 atm pressure to the extent of 0.0345 mol L$^{-1}$.  An aliquot of the solution taken from the above experiment at pH = 5 is stirred under 1 atm $\\ce{CO2}$ and the pH slowly raised by addition of solid NaOH until $\\ce{CaCO3}$ just begins to precipitate.  What is the pH of the solution at this point?  The $K_\\text{sp}$ of $\\ce{CaCO3}$ is $8.7 \\times 10^{-9}$, the $K_\\text{a}$ of aqueous $\\ce{CO2}$ (\"$\\ce{H2CO3}$\") is $4.3 \\times 10^{-7}$, and the $K_\\text{a}$ of $\\ce{HCO3-}$ is $4.7 \\times 10^{-11}$.",
+        "key_md": "$[\\ce{Ca^2+}] = 2.1 \\times 10^{-4}$ M.  From the $K_\\text{sp}$,\n\n$[\\ce{Ca^2+}][\\ce{CO3^2-}] = 8.7 \\times 10^{-9}$\n\n$[\\ce{CO3^2-}] = 4.1 \\times 10^{-5}$ M\n\nOne can relate the concentration of $\\ce{CO3^2-}$ to the concentration of $\\ce{H2CO3}$ by combining the two acid-base dissociations:\n\n$\\ce{H2CO3 + 2 H2O <=> CO3^2- + 2 H3O+}$\n\n$K_\\text{eq} = (K_\\text{a}\\text{ of }\\ce{H2CO3})(K_\\text{a}\\text{ of }\\ce{HCO3-}) = 2.0 \\times 10^{-17}$\n\n$\\dfrac{[\\ce{CO3^2-}][\\ce{H3O+}]^2}{[\\ce{H2CO3}]} = 2.0 \\times 10^{-17}$\n\n$\\dfrac{[4.1\\times10^{-5}][\\ce{H3O+}]^2}{[0.0345]} = 2.0 \\times 10^{-17}$\n\n$[\\ce{H3O+}] = 1.3 \\times 10^{-7}$ M\n\npH = 6.88",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $[\\ce{Ca^2+}] = 2.1 \\times 10^{-4}$ M with $K_\\text{sp}$ to get $[\\ce{CO3^2-}] \\approx 4.1 \\times 10^{-5}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Combines the two $K_\\text{a}$ values ($K_\\text{eq} = 2.0 \\times 10^{-17}$) with $[\\ce{H2CO3}] = 0.0345$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{H3O+}] \\approx 1.3 \\times 10^{-7}$ M, pH $\\approx 6.9$"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2024 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2024-N-P2-f1.png"
+  },
+  {
+    "id": "2024-N-P3",
+    "year": 2024,
+    "level": "national",
+    "number": 3,
+    "title": "Ethene polymerization kinetics and thermodynamics",
+    "topic_id": "kinetics",
+    "intro_md": "Ethene, $\\ce{C2H4}$, can react in the gas phase in the presence of radicals $R$ to form polyethylene as shown in the equation below. Here $n$ is the degree of polymerization. The forward reaction is second-order while the reverse reaction is first-order. The values of these rate constants are independent of the degree of polymerization $n$ and the identity of $R$.\n\n$\\ce{C2H4}(g) + \\ce{^{\\bullet}CH2(CH2)_{2\\mathit{n}}CH2}R \\ \\underset{k_\\text{r}}{\\overset{k_\\text{f}}{\\rightleftharpoons}}\\ \\ce{^{\\bullet}CH2(CH2)_{(2\\mathit{n}+2)}CH2}R$\n\nAn Arrhenius plot of $\\ln(k)$ versus $1/T$ (in $\\text{K}^{-1}$, from 0.0010 to 0.0020) is provided, with the following best-fit lines:\n\n$k_\\text{f}$ ($\\text{bar}^{-1}\\,\\text{s}^{-1}$): $y = -4010x + 15.2$\n\n$k_\\text{r}$ ($\\text{s}^{-1}$): $y = -14500x + 31.7$",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "A sample of polyethylene has an average degree of polymerization $n = 1200$. How many polymer chains are present in 1.0 g of this material?",
+        "key_md": "$M = 1200(28.05\\ \\text{g mol}^{-1}) = 3370\\ \\text{g mol}^{-1}$\n\nThus 1.0 g polymer $= 3.0 \\times 10^{-5}$ mol $= 1.8 \\times 10^{19}$ molecules",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Molar mass of chain $= 1200 \\times 28.05 = 3370\\ \\text{g mol}^{-1}$ (±10)"
+          },
+          {
+            "points": 1,
+            "criterion": "Number of chains $= 1.8 \\times 10^{19}$ (±0.2 × 10^19)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate ∆H° and ∆S° for the polymerization reaction.",
+        "key_md": "$K_\\text{eq} = k_\\text{f}/k_\\text{r}$, so $\\ln(K_\\text{eq}) = \\ln(k_\\text{f}) - \\ln(k_\\text{r}) = 10500(1/T) - 16.5$\n\nSince $\\Delta G^\\circ = -RT\\ln(K_\\text{eq}) = \\Delta H^\\circ - T\\Delta S^\\circ$, $\\ln(K_\\text{eq}) = -(\\Delta H^\\circ/R)(1/T) + (\\Delta S^\\circ/R)$\n\n$\\Delta H^\\circ = -10500R = -87.3\\ \\text{kJ mol}^{-1}$\n\n$\\Delta S^\\circ = -16.5R = -137\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $\\ln K = \\ln k_\\text{f} - \\ln k_\\text{r} = 10500(1/T) - 16.5$"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ = -87.3\\ \\text{kJ mol}^{-1}$ (±2)"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ = -137\\ \\text{J mol}^{-1}\\text{K}^{-1}$ (±3)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "The bond dissociation enthalpy (BDE) for a typical carbon-carbon single bond is 345 kJ mol⁻¹. From the data given, what is the BDE of the carbon-carbon double bond in ethene?",
+        "key_md": "$\\Delta H^\\circ_\\text{rxn} = \\{\\text{BDE of C=C}\\} - 2\\times\\{\\text{BDE of C–C}\\} = -87.3\\ \\text{kJ mol}^{-1}$\n\n$\\{\\text{BDE of C=C}\\} - 2\\times(345\\ \\text{kJ mol}^{-1}) = -87.3\\ \\text{kJ mol}^{-1}$\n\n$\\{\\text{BDE of C=C}\\} = 603\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct bond bookkeeping: one C=C broken, two C–C formed ($\\Delta H = \\text{BDE(C=C)} - 2\\,\\text{BDE(C–C)}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "BDE(C=C) $= 603\\ \\text{kJ mol}^{-1}$ (±5)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Ethene is charged to a fixed vessel at 25 bar and 720 K. Traces of radical are then added to initiate polymerization. What is the percent conversion of ethene into polymer at equilibrium under these conditions?",
+        "key_md": "Since the properties of the shorter and longer polymer radicals are the same, their concentrations are effectively equal, so $K_\\text{p} = 1/P_{\\ce{C2H4}}$.\n\n$K_\\text{p} = k_\\text{f}/k_\\text{r} = 0.147$ at 720 K\n\nSo at equilibrium $P_{\\ce{C2H4}} = 6.8$ bar. Thus $6.8/25 \\times 100\\% = 27\\%$ unreacted ethene, 73% incorporation into polymer.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes radical concentrations cancel so $K_\\text{p} = 1/P_{\\ce{C2H4}}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{p} = k_\\text{f}/k_\\text{r} = 0.147$ at 720 K (±0.02) giving $P_{\\ce{C2H4}} = 6.8$ bar"
+          },
+          {
+            "points": 1,
+            "criterion": "Percent conversion $= 73\\%$ (±3%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "In the presence of a catalyst for the polymerization reaction, the forward rate constant as a function of temperature is ln(k_f) = –3050(1/T) + 21.0. By what factor does the catalyst accelerate the rate of the forward reaction at 500 K?",
+        "key_md": "From the equations:\n\n$k_\\text{f}$ (uncatalyzed, 500 K) $= 1310\\ \\text{bar}^{-1}\\text{s}^{-1}$\n\n$k_\\text{f}$ (catalyzed, 500 K) $= 2.96 \\times 10^{6}\\ \\text{bar}^{-1}\\text{s}^{-1}$\n\n$k_\\text{cat}/k_\\text{uncat} = 2300$\n\nThe catalyzed reaction is 2300 times faster than the uncatalyzed one.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Evaluates both rate constants at 500 K (uncatalyzed ≈ 1.3 × 10³, catalyzed ≈ 3 × 10⁶ bar⁻¹ s⁻¹)"
+          },
+          {
+            "points": 1,
+            "criterion": "Ratio $k_\\text{cat}/k_\\text{uncat} \\approx 2300$ (±200)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "By what factor does the catalyst change the rate of the reverse reaction at 500 K?",
+        "key_md": "Since addition of a catalyst cannot change $K_\\text{eq}$, the reverse reaction must also be accelerated by a factor of 2300 by the catalyst.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States reverse reaction is also accelerated by the same factor (≈2300) because the catalyst cannot change $K_\\text{eq}$"
+          }
+        ],
+        "max_points": 1
+      }
+    ],
+    "source": "USNCO 2024 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2024-N-P4",
+    "year": 2024,
+    "level": "national",
+    "number": 4,
+    "title": "Concentration Cell with Copper–Ammonia Complex",
+    "topic_id": "redox",
+    "intro_md": "Copper(II) forms a complex ion with ammonia, $\\ce{Cu(NH3)4^2+}$, with $K_\\text{f} = 1.7 \\times 10^{13}$.  An electrochemical cell is set up as shown below at 298 K.  Half-cell **A** contains 100 mL of 1.00 M $\\ce{Cu(NO3)2}$, while half-cell **B** contains 100 mL of a solution that contains a small amount of copper(II) and is 0.100 M in $\\ce{NH3}$.  A solution of nitric acid is slowly added to half-cell **B** and the potential measured by the voltmeter is recorded as a function of the added volume of $\\ce{HNO3}$.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Which half-cell is the cathode and which is the anode?  Justify your answer.",
+        "key_md": "Half-cell B has a much lower concentration of $\\ce{Cu^2+}(aq)$.  Not only is it stated that there is only a small amount of Cu(II), at $[\\ce{NH3}] = 0.1$ M, almost all copper will be in the form of $\\ce{Cu(NH3)4^2+}$.  Since current will flow spontaneously in a concentration cell in a direction that tends to equalize the concentrations in the two half-cells, reduction of Cu(II) will happen preferentially in half-cell A, which is thus the cathode.  Half-cell B is the anode.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies half-cell A as the cathode and half-cell B as the anode"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies by the much lower free $\\ce{Cu^2+}$ concentration in B (copper is complexed as $\\ce{Cu(NH3)4^2+}$), so current flows to equalize concentrations"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Qualitatively explain the shape of the graph.",
+        "key_md": "As $\\ce{HNO3}$ is added, it protonates $\\ce{NH3}$ and decreases its concentration.  Less $\\ce{NH3}$ means a higher concentration of uncomplexed $\\ce{Cu^2+}$ and hence a smaller voltage.  When all the $\\ce{NH3}$ is protonated, then all the Cu(II) is in the form of $\\ce{Cu^2+}(aq)$, which does not change further, so the voltage is stable after the endpoint.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that added $\\ce{HNO3}$ protonates $\\ce{NH3}$, lowering $[\\ce{NH3}]$ and raising free $[\\ce{Cu^2+}]$ in half-cell B, which lowers E"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains the flat region after the endpoint: all $\\ce{NH3}$ consumed, all copper present as $\\ce{Cu^2+}(aq)$, so E no longer changes"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "What is the total concentration of copper(II) in the solution in half-cell **B**?",
+        "key_md": "The easiest way to solve this is to use the potential past the endpoint, where the copper is in the form of $\\ce{Cu^2+}(aq)$.  From the graph, $E = 0.14$ V:\n\n$E = E^\\circ - (RT/nF)\\ln([\\ce{Cu^2+}]_\\text{B}/[\\ce{Cu^2+}]_\\text{A})$\n\nWith $n = 2$, $[\\ce{Cu^2+}]_\\text{A} = 1.00$:\n\n$0.14 = 0 - (0.0128)\\ln([\\ce{Cu^2+}]_\\text{B})$\n\n$[\\ce{Cu^2+}] = 1.8 \\times 10^{-5}$ M",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses the post-endpoint plateau potential $E = 0.14$ V where all copper is free $\\ce{Cu^2+}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct Nernst equation for the concentration cell with $n = 2$, $E^\\circ = 0$, $[\\ce{Cu^2+}]_\\text{A} = 1.00$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer $[\\ce{Cu^2+}] \\approx 1.8 \\times 10^{-5}$ M (±20%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "What is the concentration of nitric acid in the buret?",
+        "key_md": "The endpoint is at 3.15 mL, at which point the $\\ce{NH3}$ has been neutralized:\n\n$0.100$ L solution $\\times\\ 0.100$ mol L$^{-1}$ $\\ce{NH3}$ = $C \\times 0.00315$ L $\\ce{HNO3}$ solution\n\n$C = 3.2$ M",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reads the endpoint volume as about 3.15 mL and sets mol $\\ce{HNO3}$ = mol $\\ce{NH3}$ = 0.0100 mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Answer $C \\approx 3.2$ M (±10%)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Suppose that the experiment is set up again with silver metal in place of copper metal and silver(I) ion in place of copper(II) ion, but with all concentrations and all other reagents identical.  What would the graph of $E$ vs. mL added $\\ce{HNO3}$ look like in this experiment?  Sketch your result on the grid below (the graph shown above is redrawn for your convenience), and explain your answer.  Silver(I) forms a complex ion with ammonia, $\\ce{Ag(NH3)2+}$, with $K_\\text{f} = 1.7 \\times 10^{7}$. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "In the original titration, before the endpoint, the Cu(II) is almost all complexed, so:\n\n$K_\\text{f} = 1.7 \\times 10^{13} = \\dfrac{[\\ce{Cu(NH3)4^2+}]}{[\\ce{Cu^2+}][\\ce{NH3}]^4} = \\dfrac{[1.8 \\times 10^{-5}]}{[\\ce{Cu^2+}][\\ce{NH3}]^4}$\n\n$[\\ce{Cu^2+}] = 1.1 \\times 10^{-18}[\\ce{NH3}]^{-4}$\n\n$E = (-0.0128)\\ln((1.1 \\times 10^{-18})[\\ce{NH3}]^{-4})$\n\n$E = 0.53 + 0.51\\bullet\\ln[\\ce{NH3}]$\n\nRepeating the calculation for Ag(I), which differs in the magnitude and expression for $K_\\text{f}$ and has $n = 1$ rather than $n = 2$:\n\n$K_\\text{f} = 1.7 \\times 10^{7} = \\dfrac{[\\ce{Ag(NH3)2+}]}{[\\ce{Ag+}][\\ce{NH3}]^2} = \\dfrac{[1.8 \\times 10^{-5}]}{[\\ce{Ag+}][\\ce{NH3}]^2}$\n\n$[\\ce{Ag+}] = 1.1 \\times 10^{-12}[\\ce{NH3}]^{-2}$\n\n$E = (-0.0257)\\ln((1.1 \\times 10^{-12})[\\ce{NH3}]^{-2})$\n\n$E = 0.71 + 0.51\\bullet\\ln[\\ce{NH3}]$\n\nSo before the endpoint, the Ag experiment will give potentials that are 0.18 V higher than the corresponding values for the Cu experiment.\n\nAfter the endpoint, the only difference between the Cu and Ag experiments is that $n = 1$ for Ag (vs. $n = 2$ for Cu).  This results in a doubling of the cell potential for Ag.  So:\n\n[Sketch] The silver curve has the same shape as the copper curve but shifted up: it starts at about 0.58 V at 0.00 mL, declines slowly and then more steeply, reaching about 0.43 V just before the endpoint near 3.0–3.15 mL (i.e., 0.18 V above each corresponding copper point), then drops and levels off at a constant 0.27 V (twice the copper plateau of 0.14 V) from about 3.15 mL out to 4.00 mL.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Shows that before the endpoint the Ag potentials are about 0.18 V higher than the Cu potentials (using $K_\\text{f}$ of $\\ce{Ag(NH3)2+}$ with $n = 1$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows that after the endpoint the potential is doubled relative to Cu ($n = 1$ instead of $n = 2$), i.e. about 0.27 V"
+          },
+          {
+            "points": 1,
+            "criterion": "Sketched curve has the same overall shape, starting near 0.58 V and with a sharp break at the same endpoint volume (~3.1 mL)"
+          },
+          {
+            "points": 1,
+            "criterion": "Sketched plateau after the endpoint drawn flat at ~0.27 V"
+          }
+        ],
+        "max_points": 4,
+        "figure_url": "/figures/2024-N-P4-f2.png"
+      }
+    ],
+    "source": "USNCO 2024 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2024-N-P4-f1.png"
+  },
+  {
+    "id": "2024-N-P5",
+    "year": 2024,
+    "level": "national",
+    "number": 5,
+    "title": "Writing Net Ionic and Organic Equations",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances, and clearly show stereochemistry where relevant. You need not balance the equations or show the phase of the species.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Aqueous ammonia and acetic acid are mixed.",
+        "key_md": "$\\ce{NH3 + CH3COOH -> NH4+ + CH3COO^-}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants as $\\ce{NH3}$ and $\\ce{CH3COOH}$ (molecular, not ionized)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{NH4+}$ and $\\ce{CH3COO^-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Sodium iodate is added to an excess of hydriodic acid.",
+        "key_md": "$\\ce{IO3- + H+ + I- -> I3- + H2O}$ ($\\ce{I2}$ also acceptable in place of $\\ce{I3-}$)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants given as $\\ce{IO3-}$, $\\ce{H+}$ and $\\ce{I-}$ (sodium omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{I3-}$ (or $\\ce{I2}$) and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Manganese(IV) oxide is added to concentrated aqueous hydrochloric acid.",
+        "key_md": "$\\ce{MnO2 + H+ + Cl- -> Mn^2+ + H2O + Cl2}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{MnO2}$, $\\ce{H+}$, $\\ce{Cl-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Mn^2+}$, $\\ce{H2O}$, $\\ce{Cl2}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Propyl benzoate is heated with aqueous sodium hydroxide. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Structural equation: propyl benzoate (drawn as $\\ce{C6H5C(=O)O-CH2CH2CH3}$) $+\\ \\ce{OH-} \\longrightarrow$ 1-propanol ($\\ce{CH3CH2CH2OH}$) $+$ benzoate anion (drawn as $\\ce{C6H5C(=O)O^-}$).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Ester structure plus $\\ce{OH-}$ shown as reactants"
+          },
+          {
+            "points": 1,
+            "criterion": "Products drawn as 1-propanol and the benzoate anion (carboxylate, not benzoic acid)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Calcium oxide and graphite are heated to 2200 °C.",
+        "key_md": "$\\ce{CaO + C -> CaC2 + CO}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product $\\ce{CaC2}$ identified"
+          },
+          {
+            "points": 1,
+            "criterion": "Product $\\ce{CO}$ identified with correct reactants $\\ce{CaO + C}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Iodine-124 undergoes radioactive decay by electron capture.",
+        "key_md": "$\\ce{^{124}I -> ^{124}Te}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product identified as tellurium (Z decreases by 1)"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass number retained as 124 ($\\ce{^{124}Te}$)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2024 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2024-N-P6",
+    "year": 2024,
+    "level": "national",
+    "number": 6,
+    "title": "Group 1 elements: ionization, excited states, densities, decay",
+    "topic_id": "atomic-structure",
+    "intro_md": "Consider the properties of the group 1 elements, whose valence shell electron configuration is $ns^1$, in the table below.\n\nElement $M$ | $n$ | First ionization energy, kJ mol⁻¹ | Energy required to excite the valence electron to the $(n+1)s$ orbital, kJ mol⁻¹ | Molar density of solid $M$Cl, mol cm⁻³\nH | 1 | 1312 | 984 | 0.0403\nLi | 2 | 520 | 325 | 0.0507\nNa | 3 | 496 | 308 | 0.0371\nK | 4 | 420 | 252 | 0.0266\nRb | 5 | 403 | 241 | 0.0232\nCs | 6 | 376 | 222 | 0.0237",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Rationalize the observed trend in first ionization energies with increasing $n$.",
+        "key_md": "Electron energies are proportional to $-Z_\\text{eff}^2/n^2$. For the valence electrons, $Z_\\text{eff}$ only increases slightly going down a column of the periodic table, so electrons with larger values of $n$ have higher energies and thus are easier to ionize.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that energy depends on $-Z_\\text{eff}^2/n^2$ (or that larger $n$ means the electron is farther/less tightly bound)"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes $Z_\\text{eff}$ increases only slightly down the group, so higher $n$ electrons are higher in energy and easier to ionize"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Suppose a hydrogen atom were excited to its $2s^1$ state. If that excited state atom were to transfer its electron to $\\ce{Cs+}$ to form a ground-state Cs atom, how much energy would that reaction absorb or release?",
+        "key_md": "The $2s^1$ state of H has an energy $= -1312$ kJ mol⁻¹ $+ 984$ kJ mol⁻¹ $= -328$ kJ mol⁻¹. This is higher in energy than the valence electron in Cs at $-376$ kJ mol⁻¹, so the electron transfer to $\\ce{Cs+}$ will release 48 kJ mol⁻¹ of energy.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Computes the energy of the H $2s^1$ electron as $-1312 + 984 = -328$ kJ mol⁻¹"
+          },
+          {
+            "points": 1,
+            "criterion": "Compares with $-376$ kJ mol⁻¹ for Cs to obtain 48 kJ mol⁻¹, stated as released (exothermic)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "All but one of the atoms listed in the table have an excited state that is significantly lower in energy than the $(n+1)s^1$ state described in the table. Explain this observation, noting which atom is the exception and why.",
+        "key_md": "In all cases except H, the $ns$ electron can be promoted to an $np$ orbital, which is significantly lower in energy than the $(n+1)s$ orbital. There is no $1p$ orbital, so this is not possible for H.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the lower-energy excited state as the $np^1$ state (promotion to $np$, below $(n+1)s$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies H as the exception because no $1p$ orbital exists"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "All but one of the atoms listed in the table have an excited state that is modestly higher in energy (38 – 55 kJ mol⁻¹) than the $(n+1)s^1$ state described in the table. Explain this observation, noting which atom is the exception and why.",
+        "key_md": "In all cases except H, the $(n+1)p$ orbital is modestly higher in energy than the $(n+1)s$ orbital, giving rise to an excited state of modestly higher energy. For H, there is a $2p$ orbital, but in one-electron atoms the energy depends only on $n$, not $l$, so its energy is the same as that of the $2s$ state.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the state as $(n+1)p^1$, modestly above $(n+1)s$"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies H as the exception because in a one-electron atom the energy depends only on $n$, so $2p$ and $2s$ are degenerate"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "The compounds MCl(*s*) show a smooth decrease in their molar densities, except that HCl(*s*) is less dense than expected from the trend and CsCl(*s*) is more dense than expected. Explain this periodic trend, and give reasons for the two exceptions to the trend.",
+        "key_md": "For Li – Rb, the MCl(*s*) compounds form ionic lattices with the rock salt structure. As the cations increase in size going down the column, the lattices expand and hence the molar density decreases. HCl(*s*) is a molecular crystal, and the weaker intermolecular forces give relatively long intermolecular distances and hence a less dense packing. CsCl(*s*) adopts a different lattice than the rock salt lattice (it is commonly called the CsCl lattice), which allows it to pack more densely than the rock salt lattice with a cation the size of cesium would.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Explains the trend: rock salt ionic lattices expand as cation size increases down the group, lowering molar density"
+          },
+          {
+            "points": 1,
+            "criterion": "HCl(s) is a molecular (covalent) solid with weak intermolecular forces, giving less dense packing"
+          },
+          {
+            "points": 1,
+            "criterion": "CsCl(s) adopts the CsCl (8-coordinate) lattice rather than rock salt, packing more densely"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "f",
+        "stem_md": "$^{137}$Cs (136.9070895 amu) undergoes radioactive decay to give a stable product whose atomic mass is 136.9058274 amu. What type of radioactive decay is this, and what is the identity of the decay product?",
+        "key_md": "$\\beta^-$ decay forms $^{137}$Ba.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies $\\beta^-$ (beta minus) decay"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies the product as $^{137}\\ce{Ba}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "g",
+        "stem_md": "Calculate the energy, in kJ mol⁻¹, released by the radioactive decay of $^{137}$Cs.",
+        "key_md": "$E = \\Delta mc^2$. $\\Delta m = -1.26 \\times 10^{-3}$ amu $\\times (1.661 \\times 10^{-27}$ kg amu⁻¹$) = -2.09 \\times 10^{-30}$ kg\n\n$E = (2.09 \\times 10^{-30}\\ \\text{kg})(2.998 \\times 10^{8}\\ \\text{m s}^{-1})^2 = 1.88 \\times 10^{-13}$ J $= 1.88 \\times 10^{-16}$ kJ\n\n$(1.88 \\times 10^{-16}\\ \\text{kJ})(6.022 \\times 10^{23}\\ \\text{mol}^{-1}) = 1.13 \\times 10^{8}$ kJ mol⁻¹",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Mass defect $\\Delta m = 1.26 \\times 10^{-3}$ amu $= 2.09 \\times 10^{-30}$ kg"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $E = \\Delta mc^2$ to get $1.88 \\times 10^{-13}$ J per decay"
+          },
+          {
+            "points": 1,
+            "criterion": "Multiplies by $N_A$ to obtain $1.13 \\times 10^{8}$ kJ mol⁻¹ (±5%)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2024 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2024-N-P7",
+    "year": 2024,
+    "level": "national",
+    "number": 7,
+    "title": "Diazirinone: Lewis structures and bond enthalpies",
+    "topic_id": "bonding",
+    "intro_md": "Flash vacuum pyrolysis of carbonyl azide ($\\ce{CON6}$) at 420 °C gives low yields of a cyclic compound, diazirinone, as shown in the equation below. Note that the illustrations of carbonyl azide and diazirinone correctly show the connectivity of the atoms but are NOT correct Lewis structures. The bond dissociation enthalpies (BDE, in kJ mol$^{-1}$) of various bonds among carbon, oxygen, and nitrogen are given in the table.\n\nReaction (connectivity only, not correct Lewis structures):\n\ncarbonyl azide: $\\ce{N-N-N-C(-O)-N-N-N}$ (a central carbon bearing a terminal O and two $\\ce{N3}$ chains) $\\longrightarrow$ diazirinone: a three-membered $\\ce{C-N-N}$ ring with the carbon also bonded to O, $+\\ 2\\ \\ce{N2}$\n\nBond dissociation enthalpies, kJ mol$^{-1}$:\n\nC–O 350; C=O 741; C≡O 1080\n\nC–N 290; C=N 615; C≡N 891\n\nN–N 160; N=N 418; N≡N 949\n\nN–O 200; N=O 480",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw complete Lewis structures for carbonyl azide and for diazirinone, including all lone pairs and nonzero formal charges. You need only draw one Lewis structure for each molecule, even if there are multiple possible resonance structures. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Carbonyl azide: $\\ce{^{-}\\overset{..}{N}=\\overset{+}{N}=N-C(=O)-\\overset{+}{N}=\\overset{+}{N}=\\overset{-}{N}}$ — i.e. each azide chain drawn as $\\ce{^{-}N=N^{+}=N-}$ attached to the central carbon, which bears a terminal double-bonded O (with two lone pairs on O); terminal N atoms carry two lone pairs and a $-1$ formal charge, the central N of each azide carries $+1$ and no lone pairs, and the N attached to carbon carries one lone pair.\n\nDiazirinone: a three-membered ring of C, N, N in which the two ring nitrogens are joined by an N=N double bond and each ring N bears one lone pair; the carbon is doubly bonded to an exocyclic O (O with two lone pairs). All formal charges zero.\n\nOther resonance structures are acceptable in both cases.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Correct Lewis structure for carbonyl azide: octets satisfied, C=O, azide chains drawn with correct lone pairs and nonzero formal charges (e.g. $\\ce{^-N=N^+=N-}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct Lewis structure for diazirinone: three-membered C–N–N ring with N=N, C=O exocyclic, lone pairs shown, no formal charges"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Diazirinone decomposes in the gas phase over the course of several days at room temperature to give carbon monoxide and nitrogen gas. Based on the given BDEs, calculate ∆H° for this decomposition reaction.",
+        "key_md": "$\\Delta H^\\circ = \\Sigma(\\text{BDE of bonds broken}) - \\Sigma(\\text{BDE of bonds formed})$\n\n$\\Delta H^\\circ = \\{(\\ce{N=N}) + (\\ce{C=O}) + 2\\times(\\ce{C-N})\\} - \\{(\\ce{C#O}) + (\\ce{N#N})\\}$\n\n$\\Delta H^\\circ = \\{418 + 741 + 2\\times290\\} - \\{1080 + 949\\}$ kJ mol$^{-1}$\n\n$\\Delta H^\\circ = -290$ kJ mol$^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct bonds broken (N=N, C=O, 2 C–N) and bonds formed (C≡O, N≡N) identified"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta H^\\circ = -290$ kJ mol$^{-1}$ (±5)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "The actual ∆H° for the decomposition of diazirinone is –347 kJ mol-1. Comment on any discrepancy you find between this value and the value you determined in part b. Be sure your comment addresses the direction of deviation of the two values.",
+        "key_md": "The reaction is more exothermic than expected, indicating that the bonds are weaker in the reactant than would be expected based on typical bond dissociation enthalpies. This is likely due to the three-membered ring in the structure. This means that the bonds in the ring cannot achieve ideal bond angles, so they are not as strong as expected.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the actual reaction is more exothermic than the BDE estimate, i.e. the reactant bonds are weaker than typical"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes the difference to ring (angle) strain in the three-membered ring"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Will ∆G° for decomposition at 298 K be algebraically greater than, less than, or equal to ∆H° for decomposition? Briefly justify your answer.",
+        "key_md": "$\\Delta S^\\circ$ is highly positive since two molecules are produced from one. Since $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$, $\\Delta G^\\circ < \\Delta H^\\circ$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Answers $\\Delta G^\\circ$ less than $\\Delta H^\\circ$"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies with $\\Delta S^\\circ > 0$ (two gas molecules from one) and $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "There is an isomer of diazirinone that has a chain structure with the connectivity NCNO. Draw a Lewis structure for this molecule and clearly describe or sketch its geometry. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{:N#C-N(..)=O(..)}$ — i.e. a terminal nitrogen triply bonded to carbon (with one lone pair on the terminal N), the carbon singly bonded to the middle nitrogen, which bears one lone pair and is doubly bonded to the terminal oxygen (O with two lone pairs). The molecule is linear at carbon and bent at the middle nitrogen.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Valid Lewis structure of NCNO with N≡C, C–N, N=O and all lone pairs shown"
+          },
+          {
+            "points": 1,
+            "criterion": "Geometry stated: linear at carbon, bent at the middle nitrogen"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Would you expect acyclic NCNO to be more or less stable than diazirinone? Clearly justify your prediction.",
+        "key_md": "Entropically, there should be little difference between the molecules. Enthalpically, one can estimate $\\Delta H^\\circ$ of isomerization from the diazirinone to NCNO:\n\n$\\Delta H^\\circ = \\{(\\ce{N=N}) + (\\ce{C=O}) + 2\\times(\\ce{C-N})\\} - \\{(\\ce{C#N}) + (\\ce{C-N}) + (\\ce{N=O})\\}$\n\n$\\Delta H^\\circ = \\{418 + 741 + 2\\times290\\} - \\{891 + 290 + 480\\}$ kJ mol$^{-1}$\n\n$\\Delta H^\\circ = 78$ kJ mol$^{-1}$\n\nEven considering that diazirinone is ~57 kJ mol$^{-1}$ less stable than one would expect (from the results of b./c.), formation of NCNO is still expected to be endothermic, and thus diazirinone is expected to be more stable.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "BDE-based isomerization enthalpy computed, $\\Delta H^\\circ \\approx +78$ kJ mol$^{-1}$ (endothermic)"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes diazirinone is more stable, accounting for the ~57 kJ mol$^{-1}$ ring strain still leaving isomerization endothermic"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2024 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2024-N-P8",
+    "year": 2024,
+    "level": "national",
+    "number": 8,
+    "title": "Basicity and reactivity of C4H9NO2 isomers and azoles",
+    "topic_id": "organic",
+    "intro_md": "Consider the three isomers of $\\ce{C4H9NO2}$ shown below:\n\n- **I**: $\\ce{CH3O-CH2CH2-C(=O)NH2}$ (3-methoxypropanamide)\n- **II**: $\\ce{H2N-CH2CH2-C(=O)OCH3}$ (methyl 3-aminopropanoate)\n- **III**: $\\ce{HO-CH2CH2CH2-CH=N-OH}$ (the oxime of 4-hydroxybutanal)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Which compound is the most basic?  Justify your answer.",
+        "key_md": "Compound **II** is most basic.  Nitrogen is the least electronegative atom with a lone pair in each of the three structures, but in **I** that lone pair is engaged in resonance with the carbonyl group; since the resonance is lost on protonation, that nitrogen is not basic.  The oxime **III** is basic at nitrogen, but the greater amount of *s* character in the lone pair and the fact that the nitrogen is bonded to an electronegative oxygen atom, make it less basic than the amine in **II**.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies compound II (the primary amine/amino ester) as most basic"
+          },
+          {
+            "points": 1,
+            "criterion": "Justification: amide N lone pair in I is delocalized into the carbonyl (resonance lost on protonation), and oxime N in III is less basic (more s character / N bonded to electronegative O)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Draw the structures of the conjugate acids of the three compounds. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "- **I**: protonation occurs on the carbonyl oxygen, giving $\\ce{CH3O-CH2CH2-C(OH^+)=NH2}$ drawn as $\\ce{CH3OCH2CH2C(=O^+H)NH2}$ (O–H with + charge on oxygen), the methoxy chain unchanged.\n- **II**: protonation on the amine nitrogen, giving $\\ce{^+H3N-CH2CH2-C(=O)OCH3}$.\n- **III**: protonation on the oxime nitrogen, giving $\\ce{HO-CH2CH2CH2-CH=N^+(H)-OH}$ (positively charged N bearing both H and OH).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "I protonated at the carbonyl oxygen (positive charge on O), not at the amide N"
+          },
+          {
+            "points": 1,
+            "criterion": "II drawn as the ammonium ion $\\ce{^+H3NCH2CH2CO2CH3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "III protonated at the oxime nitrogen giving $\\ce{C=N^+(H)OH}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Draw the structure of a chiral isomer of $\\ce{C4H9NO2}$. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Many possible answers, including $\\ce{CH3CH(OCH3)C(=O)NH2}$ (2-methoxypropanamide, drawn with a wedge/dash at the stereocenter) or $\\ce{CH3CH(NH2)C(=O)OCH3}$ (methyl 2-aminopropanoate, alanine methyl ester, drawn with a wedge/dash at the stereocenter).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Structure has molecular formula $\\ce{C4H9NO2}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Structure contains a stereocenter (four different groups on one carbon) so that it is chiral"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Consider the two nitrogen heterocycles shown below: **IV** = 1-methylpyrrole ($N$-methylpyrrole) and **V** = 1-methylimidazole (a five-membered ring with an $\\ce{N-CH3}$ and a second, unmethylated N at the 3-position).\n\nWhich compound is more basic?  Draw the structure of its conjugate acid. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "The imidazole **V** is much more basic than the pyrrole **IV**.  Protonation of the imidazole at the unmethylated nitrogen results in better resonance in the conjugate acid than was present in the conjugate base.  No such enhancement of resonance is possible in **IV** (in fact, resonance that is present in the neutral compound is lost on protonation at nitrogen, which means that pyrrole actually protonates preferentially at carbon).\n\nThe conjugate acid is the 1-methylimidazolium cation: the five-membered ring with $\\ce{N-CH3}$ and the other nitrogen bearing an H, the positive charge delocalized between the two nitrogens (two equivalent resonance structures shown with a double-headed arrow).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that V (1-methylimidazole) is more basic"
+          },
+          {
+            "points": 1,
+            "criterion": "Draws the conjugate acid as the 1-methylimidazolium ion, protonated at the unmethylated (pyridine-type) nitrogen with + charge"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Which compound is more reactive towards $\\ce{Br2}$?  Explain why it is more reactive and draw the structure of a major product of its reaction with $\\ce{Br2}$. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Pyrrole **IV** is more reactive.  Since reaction with bromine takes place at carbon, the additional N in the imidazole **V** is electron-withdrawing and deactivating, since its lone pair is in the plane of the ring and so cannot stabilize the cationic intermediate in the reaction.  In contrast, the lone pair of the nitrogen on pyrrole is stabilizing to the intermediate (three resonance structures of the bromo-substituted cation are shown, including one with the positive charge on nitrogen).\n\nProduct: loss of HBr gives 2-bromo-1-methylpyrrole (the $N$-methylpyrrole ring with Br at the 2-position); 3-bromo-1-methylpyrrole or polybrominated products also OK.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies IV (1-methylpyrrole) as more reactive toward $\\ce{Br2}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that the pyrrole N lone pair is delocalized into the ring and stabilizes the cationic intermediate, while the imidazole's second N has an in-plane lone pair and is electron-withdrawing/deactivating"
+          },
+          {
+            "points": 1,
+            "criterion": "Draws 2-bromo-1-methylpyrrole (or 3-bromo- or polybrominated 1-methylpyrrole) as the product"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2024 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

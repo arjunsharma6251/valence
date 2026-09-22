@@ -98,7 +98,17 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
       <Link href="/part2" className="inline-flex items-center gap-0.5 text-accent text-[16px] min-h-[44px] -ml-2 pr-2"><IconBack size={20} /> Part II</Link>
       <LargeTitle className="pb-1">{problem.title}</LargeTitle>
       <p className="text-[13px] text-ink-soft pb-3">{problem.year} · Problem {problem.number} · {total} points · {graded ? <Tag tone="accent">AI-graded {graded.total}/{graded.max_total}</Tag> : "Saved on this device as you type"}</p>
-      {problem.intro_md && <Group><div className="py-3"><Md text={problem.intro_md} className="text-[16px] leading-relaxed" /></div></Group>}
+      {(problem.intro_md || problem.figure_url) && (
+        <Group>
+          <div className="py-3">
+            {problem.intro_md && <Md text={problem.intro_md} className="text-[16px] leading-relaxed" />}
+            {problem.figure_url && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={problem.figure_url} alt={`Figure for problem ${problem.number}`} className="figure-invert mt-3 rounded-[4px] max-w-full" loading="lazy" />
+            )}
+          </div>
+        </Group>
+      )}
 
       {problem.parts.map((p, i) => {
         const g = graded?.parts.find((x) => x.label === p.label);
@@ -106,7 +116,13 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
           <div key={p.label}>
             <GroupHeader caps={false} trailing={g ? <span className={`tnum font-semibold ${g.points === g.max_points ? "text-green" : "text-ink"}`}>{g.points} / {g.max_points}</span> : `${p.max_points} pt`}><span className="font-semibold text-ink">Part {p.label}</span></GroupHeader>
             <Group>
-              <div className="py-3"><Md text={p.stem_md} className="text-[16px] leading-relaxed" /></div>
+              <div className="py-3">
+                <Md text={p.stem_md} className="text-[16px] leading-relaxed" />
+                {p.figure_url && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={p.figure_url} alt={`Figure for part ${p.label}`} className="figure-invert mt-3 rounded-[4px] max-w-full" loading="lazy" />
+                )}
+              </div>
               <div className="py-3">
                 <label className="sr-only" htmlFor={`ans-${p.label}`}>Answer to part {p.label}</label>
                 <textarea

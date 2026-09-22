@@ -1,0 +1,816 @@
+[
+  {
+    "id": "2022-N-P1",
+    "year": 2022,
+    "level": "national",
+    "number": 1,
+    "title": "Chlorofluorocarbon molar mass, Cl titration, isomers",
+    "topic_id": "stoichiometry",
+    "intro_md": "Compound **A** contains only carbon, fluorine, and chlorine.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "The vapor density of **A** at 1.00 bar and 25.0 °C is 6.895 g L$^{-1}$. What is the molar mass of **A**?",
+        "key_md": "$PV = nRT$, so $n = PV/RT$. 1.000 L of gas will have\n\n$n = (1.000\\ \\text{bar})(1.000\\ \\text{L})/(298.15\\ \\text{K})(0.08314\\ \\text{L bar mol}^{-1}\\text{K}^{-1})$\n\n$n = 0.04034$ mol\n\nmolar mass $= (6.895\\ \\text{g L}^{-1})/(0.04034\\ \\text{mol L}^{-1}) = 170.9\\ \\text{g mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $PV = nRT$ to obtain $n = 0.0403$ mol per 1.000 L (or equivalent $M = dRT/P$ setup)"
+          },
+          {
+            "points": 1,
+            "criterion": "Molar mass = 170.9 g mol⁻¹ (± 0.5)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Chlorofluorocarbons such as **A** react with sodium metal to convert all the chlorine present into sodium chloride. The products from the reaction of sodium with 100.0 mL of gaseous **A** (at 1.00 bar and 25.0 °C) are dissolved in water and a few drops of sodium chromate solution are added. This solution is then titrated with 0.3540 M $\\ce{AgNO3}$ solution until a bright red precipitate appears, which requires 22.79 mL of the titrant. How many chlorine atoms are there in a molecule of **A**?",
+        "key_md": "0.02279 L titrant × 0.3540 mol L$^{-1}$ = 8.068 × 10$^{-3}$ mol chloride\n\n100.0 mL gas has $n = (1.000\\ \\text{bar})(0.1000\\ \\text{L})/(298.15\\ \\text{K})(0.08314\\ \\text{L bar mol}^{-1}\\text{K}^{-1}) = 4.034 \\times 10^{-3}$ mol **A**\n\n(8.068 × 10$^{-3}$ mol chloride)/(4.034 × 10$^{-3}$ mol **A**) = 2.000 mol Cl/mol **A**",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Moles of chloride from titration = 8.068 × 10⁻³ mol"
+          },
+          {
+            "points": 1,
+            "criterion": "Moles of A = 4.034 × 10⁻³ mol from the gas law"
+          },
+          {
+            "points": 1,
+            "criterion": "Ratio gives 2 Cl atoms per molecule of A"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "What is the molecular formula of **A**? Justify your answer.",
+        "key_md": "Since the molar mass of **A** is 170.9 and there are 2 mol Cl per mol **A**, the carbons and fluorines in **A** must have a combined mass of 170.9 – 2(35.45) = 100.0 amu. If **A** has only one carbon, it must have (100.0 – 12.01)/19.00 = 4.63 F atoms, which is impossible (it must have an integer number of each type of atom per formula unit, plus over six halogens per carbon atom is not chemically reasonable). Two carbons in **A** would imply (100.0 – 2×12.01)/19.00 = 4.00 atoms of F, which *is* possible. Each additional carbon in the formula would result in 0.63 fewer F atoms, which will not be especially close to an integer from 3-7 carbon atoms, at which point there would need to be fewer than one F atom. Thus the only possibility is $\\ce{C2F4Cl2}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Subtracts 2 Cl (70.90) to get 100.0 amu of C and F"
+          },
+          {
+            "points": 1,
+            "criterion": "Tests integer numbers of carbons and rejects C1 (4.63 F) and higher-carbon options"
+          },
+          {
+            "points": 1,
+            "criterion": "Molecular formula $\\ce{C2F4Cl2}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "There is only one known isomer of **A**, compound **B**. The two compounds have nearly identical boiling points, but can be distinguished by $^{19}$F NMR spectroscopy, a technique that is sensitive to small differences in the chemical environments of fluorine atoms in compounds. When analyzed by this method, compound **A** exhibits only a single type of chemical environment for fluorine, while compound **B** shows two distinct environments for its fluorine atoms. Draw structural formulas for compounds **A** and **B** that are consistent with these observations. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Isomer **A**: $\\ce{CClF2-CClF2}$ (1,2-dichlorotetrafluoroethane) — drawn as two carbons joined by a single bond, each carbon bearing one Cl and two F. All F atoms are in the same environment (each bonded to a carbon with 2 F's and 1 Cl).\n\nIsomer **B**: $\\ce{CCl2F-CF3}$ (1,1-dichlorotetrafluoroethane) — drawn as two carbons joined by a single bond, one carbon bearing two Cl and one F, the other bearing three F. Two different F environments (one F bonded to a carbon with 2 Cl's, three F's bonded to a C with no Cl's).",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Structure of A drawn as $\\ce{CClF2CClF2}$ (one Cl and two F on each carbon), giving one F environment"
+          },
+          {
+            "points": 1,
+            "criterion": "Structure of B drawn as $\\ce{CCl2F-CF3}$, giving two F environments"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2022 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2022-N-P2",
+    "year": 2022,
+    "level": "national",
+    "number": 2,
+    "title": "Ammonia/ammonium chloride buffer with silver",
+    "topic_id": "equilibrium",
+    "intro_md": "A chemist prepares an ammonia/ammonium chloride buffer from solid ammonium chloride, 0.80 M $\\ce{NH3}$, and distilled water.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What is the pH of the 0.80 M $\\ce{NH3}$ solution? (The $K_\\text{a}$ of $\\ce{NH4+}$ is $5.6 \\times 10^{-10}$.)",
+        "key_md": "The major reaction is:\n\n$\\ce{NH3(aq) + H2O(l) <=> NH4+(aq) + OH^-(aq)}$  $K_\\text{eq} = (K_\\text{w}/K_\\text{a}\\text{ of }\\ce{NH4+})$\n\n$K_\\text{eq} = (1 \\times 10^{-14})/(5.6 \\times 10^{-10})$\n\n$K_\\text{eq} = 1.8 \\times 10^{-5}$\n\nSince this is the major reaction, $[\\ce{NH4+}] \\approx [\\ce{OH-}]$, and since it is not very favorable, $[\\ce{NH3}] \\approx 0.80$ M.\n\n$\\dfrac{[\\ce{NH4+}][\\ce{OH-}]}{[\\ce{NH3}]} = \\dfrac{[\\ce{OH-}]^2}{[0.80]} = 1.8 \\times 10^{-5}$\n\n$[\\ce{OH-}]^2 = 1.44 \\times 10^{-5}$\n\n$[\\ce{OH-}] = 3.8 \\times 10^{-3}$ M\n\n$\\text{pH} = 14 + \\log[\\ce{OH-}] = 11.60$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{b} = K_\\text{w}/K_\\text{a} = 1.8 \\times 10^{-5}$ for $\\ce{NH3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct $[\\ce{OH-}] = 3.8 \\times 10^{-3}$ M (±5%)"
+          },
+          {
+            "points": 1,
+            "criterion": "pH = 11.60 (±0.05)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "What mole ratio of ammonia to ammonium chloride is required for the buffer to have pH = 9.20?",
+        "key_md": "$\\text{pH} = \\text{p}K_\\text{a}\\text{ of }\\ce{NH4+} + \\log([\\ce{NH3}]/[\\ce{NH4+}])$\n\n$9.20 = 9.25 + \\log([\\ce{NH3}]/[\\ce{NH4+}])$\n\n$\\log([\\ce{NH3}]/[\\ce{NH4+}]) = -0.05$\n\n$[\\ce{NH3}]/[\\ce{NH4+}] = 0.89$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses Henderson–Hasselbalch with p$K_\\text{a}$ = 9.25"
+          },
+          {
+            "points": 1,
+            "criterion": "Ratio $[\\ce{NH3}]/[\\ce{NH4+}] = 0.89$ (±0.03)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the volume of ammonia solution and mass of ammonium chloride needed to make up 500 mL of the pH = 9.20 buffer with a total concentration of nitrogen-containing species ($\\ce{NH3}$ or $\\ce{NH4+}$) of 0.50 mol L$^{-1}$.",
+        "key_md": "There are two constraints on the number of moles of $\\ce{NH3}$ and of $\\ce{NH4+}$. From the fact that the total concentration of nitrogen species is 0.500 M in 0.500 L,\n\n$(\\text{mol }\\ce{NH3}) + (\\text{mol }\\ce{NH4+}) = 0.250$ mol\n\nFrom the calculation in (b),\n\n$(\\text{mol }\\ce{NH3}) = 0.89(\\text{mol }\\ce{NH4+})$\n\nSolving the two simultaneous equations gives:\n\n$0.89(\\text{mol }\\ce{NH4+}) + (\\text{mol }\\ce{NH4+}) = 0.250$ mol\n\n$(\\text{mol }\\ce{NH4+}) = 0.132$ mol\n\n$0.132$ mol $\\ce{NH4+} \\times (53.49$ g $\\ce{NH4Cl}$/mol$) = 7.06$ g $\\ce{NH4Cl}$\n\n$(\\text{mol }\\ce{NH3}) = 0.89(0.132\\text{ mol}) = 0.117$ mol $\\ce{NH3}$\n\n$0.117$ mol $\\ce{NH3}$/(0.80 M $\\ce{NH3}$) = 0.147 L of the 0.80 M $\\ce{NH3}$ solution",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up total moles of N species = 0.250 mol with the ratio from (b)"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass of $\\ce{NH4Cl}$ = 7.06 g (±0.2 g)"
+          },
+          {
+            "points": 1,
+            "criterion": "Volume of 0.80 M $\\ce{NH3}$ = 0.147 L (147 mL, ±5 mL)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d(i)",
+        "stem_md": "To the solution described in (c) is added 10.0 mL of 0.10 M $\\ce{AgNO3}$.\n\ni. Some AgCl precipitates from this mixture. Justify that this is the case. The $K_\\text{sp}$ of AgCl is $1.8 \\times 10^{-10}$ and the $K_\\text{f}$ of $\\ce{Ag(NH3)2+}$ is $1.6 \\times 10^{7}$.",
+        "key_md": "mol $\\ce{Ag+}$ = (0.0100 L)×(0.10 mol/L) = 0.0010 mol $\\ce{Ag+}$. Since the amounts of both chloride and ammonia are over 100 times this amount, we can neglect the changes of these latter two species as $\\ce{AgCl}(s)$ and $\\ce{Ag(NH3)2+}$ form. So $[\\ce{Cl-}] = 0.132$ mol/(0.510 L) = 0.259 M and $[\\ce{NH3}] = 0.117$ mol/(0.510 L) = 0.229 M.\n\nThere are a number of ways to approach the analysis of whether a precipitate forms. Let us assume that no precipitate forms, so all of the $\\ce{Ag+}$ (initial concentration = 0.0010 mol/0.51 L = $1.96 \\times 10^{-3}$ M) remains in solution. Of course, much of it will be in the form of the complex ion:\n\n$\\dfrac{[\\ce{Ag(NH3)2+}]}{[\\ce{Ag+}][\\ce{NH3}]^2} = \\dfrac{[\\ce{Ag(NH3)2+}]}{[\\ce{Ag+}][0.229]^2} = K_\\text{f} = 1.6 \\times 10^{7}$\n\n$\\dfrac{[\\ce{Ag(NH3)2+}]}{[\\ce{Ag+}]} = 8.4 \\times 10^{5}$\n\nThis means that almost all the silver ion in solution is in the form of the complex ion, so $[\\ce{Ag+}] = [\\ce{Ag(NH3)2+}]/(8.4 \\times 10^{5}) = (1.96 \\times 10^{-3})/(8.4 \\times 10^{5}) = 2.3 \\times 10^{-9}$ M.\n\n$Q_\\text{sp} = [\\ce{Ag+}][\\ce{Cl-}] = [2.3 \\times 10^{-9}][0.259] = 6.0 \\times 10^{-10} > K_\\text{sp}$. This means that there will be a precipitate of AgCl.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Computes diluted $[\\ce{Cl-}] = 0.259$ M and $[\\ce{NH3}] = 0.229$ M (0.510 L total)"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{f}$ to find free $[\\ce{Ag+}] \\approx 2.3 \\times 10^{-9}$ M assuming no precipitate"
+          },
+          {
+            "points": 1,
+            "criterion": "Compares $Q_\\text{sp} = 6.0 \\times 10^{-10} > K_\\text{sp} = 1.8 \\times 10^{-10}$ and concludes AgCl precipitates"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d(ii)",
+        "stem_md": "ii. What is the final concentration of free $\\ce{Ag+}$ in solution after this mixture achieves equilibrium?",
+        "key_md": "Since there is a precipitate, $[\\ce{Ag+}][\\ce{Cl-}] = K_\\text{sp}$\n\n$[\\ce{Ag+}][0.259] = 1.8 \\times 10^{-10}$\n\n$[\\ce{Ag+}] = 6.95 \\times 10^{-10}$ M",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{sp}$ with $[\\ce{Cl-}] = 0.259$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{Ag+}] = 6.95 \\times 10^{-10}$ M (±10%)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d(iii)",
+        "stem_md": "iii. What is the mass of AgCl that precipitates from solution?",
+        "key_md": "From the complexation equilibrium,\n\n$\\dfrac{[\\ce{Ag(NH3)2+}]}{[\\ce{Ag+}][\\ce{NH3}]^2} = \\dfrac{[\\ce{Ag(NH3)2+}]}{[6.95\\times10^{-10}][0.229]^2} = K_\\text{f} = 1.6 \\times 10^{7}$\n\n$[\\ce{Ag(NH3)2+}] = 5.8 \\times 10^{-4}$ M\n\nThis accounts for $(5.8 \\times 10^{-4}$ mol/L$)\\times(0.510$ L$) = 3.0 \\times 10^{-4}$ mol of silver. The amount of free $\\ce{Ag+}$ is negligible, so the amount of silver that must have precipitated as AgCl is $(1.00 \\times 10^{-3}$ mol total Ag$) - (3.0 \\times 10^{-4}$ mol complexed Ag$) = 7.0 \\times 10^{-4}$ mol AgCl.\n\n$(7.0 \\times 10^{-4}$ mol AgCl$)\\times(143.4$ g mol$^{-1}) = 0.100$ g AgCl",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Finds $[\\ce{Ag(NH3)2+}] = 5.8 \\times 10^{-4}$ M from $K_\\text{f}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass balance: $1.00 \\times 10^{-3}$ mol total Ag − $3.0 \\times 10^{-4}$ mol complexed = $7.0 \\times 10^{-4}$ mol AgCl"
+          },
+          {
+            "points": 1,
+            "criterion": "Mass = 0.100 g AgCl (±10%)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2022 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2022-N-P3",
+    "year": 2022,
+    "level": "national",
+    "number": 3,
+    "title": "Bromine thermodynamics, bond dissociation and entropy",
+    "topic_id": "thermodynamics",
+    "intro_md": "Gaseous molecular and atomic bromine have the following thermodynamic properties:\n\nSpecies | $\\Delta H^\\circ_\\text{f}$ (kJ mol⁻¹) | $S^\\circ$ (J mol⁻¹ K⁻¹)\n$\\ce{Br2}(g)$ | 30.9 | 245.4\n$\\ce{Br}(g)$ | 111.9 | 175.0",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What is the bond dissociation enthalpy (BDE) of the bromine-bromine bond in $\\ce{Br2}(g)$?",
+        "key_md": "$\\ce{Br2}(g) -> 2 Br(g)$, $\\Delta H^\\circ_\\text{rxn}$ = BDE of Br–Br bond\n\n$\\Delta H^\\circ_\\text{rxn} = 2(111.9\\ \\text{kJ mol}^{-1}) - 30.9\\ \\text{kJ mol}^{-1} = 192.9\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up $\\Delta H^\\circ = 2\\Delta H^\\circ_\\text{f}(\\ce{Br}(g)) - \\Delta H^\\circ_\\text{f}(\\ce{Br2}(g))$ for $\\ce{Br2 -> 2Br}$"
+          },
+          {
+            "points": 1,
+            "criterion": "BDE = 192.9 kJ mol⁻¹ (±0.2)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "How many atoms of $\\ce{Br}(g)$ will be present at equilibrium in a 1.00-L container with 0.100 bar of $\\ce{Br2}(g)$ at 298 K?",
+        "key_md": "For $\\ce{Br2}(g) -> 2 Br(g)$, $\\Delta S^\\circ = 2(175.0\\ \\text{J mol}^{-1}\\text{K}^{-1}) - 245.4\\ \\text{J mol}^{-1}\\text{K}^{-1} = 104.6\\ \\text{J mol}^{-1}\\text{K}^{-1}$\n\n$\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ = (192.9\\ \\text{kJ mol}^{-1}) - (298\\ \\text{K})(0.1046\\ \\text{kJ mol}^{-1}\\text{K}^{-1}) = 161.7\\ \\text{kJ mol}^{-1}$\n\n$\\Delta G^\\circ = -RT\\ln K_\\text{eq}$\n\n$161700\\ \\text{J mol}^{-1} = -(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})\\ln K_\\text{eq}$\n\n$K_\\text{eq} = 4.5 \\times 10^{-29}$\n\nAt equilibrium: $\\dfrac{p_\\ce{Br}^2}{p_{\\ce{Br2}}} = \\dfrac{p_\\ce{Br}^2}{0.100} = 4.5 \\times 10^{-29}$\n\n$p_\\ce{Br} = 2.1 \\times 10^{-15}$ bar\n\nIn a 1.00 L container, $PV = nRT$:\n\n$(2.1 \\times 10^{-15}\\ \\text{bar})(1.00\\ \\text{L}) = n(0.08314\\ \\text{L bar mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})$\n\n$n = 8.6 \\times 10^{-17}$ mol\n\n$(8.6 \\times 10^{-17}\\ \\text{mol}) \\times (6.022 \\times 10^{23}\\ \\text{mol}^{-1}) = 5.2 \\times 10^{7}$ Br atoms",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta S^\\circ = 104.6$ J mol⁻¹ K⁻¹ and $\\Delta G^\\circ \\approx 161.7$ kJ mol⁻¹"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{eq} \\approx 4.5 \\times 10^{-29}$ from $\\Delta G^\\circ = -RT\\ln K$"
+          },
+          {
+            "points": 1,
+            "criterion": "$p_\\ce{Br} \\approx 2.1 \\times 10^{-15}$ bar from $p_\\ce{Br}^2/p_{\\ce{Br2}} = K$"
+          },
+          {
+            "points": 1,
+            "criterion": "Converts to $\\approx 5 \\times 10^{7}$ Br atoms (within a factor of 2)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "c",
+        "stem_md": "The ionization energy of $\\ce{Br}(g)$ is 1145.9 kJ mol⁻¹, while the ionization energy of $\\ce{Br2}(g)$ is 1025.1 kJ mol⁻¹. What is the bond dissociation enthalpy of $\\ce{Br2+}(g)$ (defined as the enthalpy of reaction of $\\ce{Br2+}(g)$ to form $\\ce{Br+}(g)$ and $\\ce{Br}(g)$)?",
+        "key_md": "Using Hess's Law (all species are gas-phase):\n\n$\\ce{Br2 -> 2 Br}$  $\\Delta H^\\circ = 192.9$ kJ mol⁻¹\n\n$\\ce{Br -> Br+ + e-}$  $\\Delta H^\\circ = 1145.9$ kJ mol⁻¹\n\n$\\ce{Br2+ + e- -> Br2}$  $\\Delta H^\\circ = -1025.1$ kJ mol⁻¹\n\n$\\ce{Br2+ -> Br + Br+}$  $\\Delta H^\\circ = \\text{BDE} = 313.7$ kJ mol⁻¹",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct Hess's law cycle combining BDE($\\ce{Br2}$), IE(Br) and −IE($\\ce{Br2}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "BDE($\\ce{Br2+}$) = 313.7 kJ mol⁻¹ (±1)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Propose an explanation for the difference in BDE between $\\ce{Br2}(g)$ and $\\ce{Br2+}(g)$ in terms of the bonding in these two species.",
+        "key_md": "The electron that is removed from $\\ce{Br2}$ is $\\pi^*$ in character, so the bond order of $\\ce{Br2+}$ is 1.5 compared to 1.0 for $\\ce{Br2}$. The higher bond order results in a greater bond strength.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the electron is removed from a $\\pi^*$ (antibonding) orbital"
+          },
+          {
+            "points": 1,
+            "criterion": "Bond order increases from 1.0 to 1.5, giving a stronger bond in $\\ce{Br2+}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "The vapor pressure of liquid bromine at 298 K is 0.283 bar. What is the absolute entropy $S^\\circ$ of $\\ce{Br2}(l)$?",
+        "key_md": "$\\Delta G^\\circ_{\\text{vap, 298K}} = -RT\\ln K_\\text{eq} = -(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})\\ln(0.283) = 3.13\\ \\text{kJ mol}^{-1}$\n\n$\\Delta G^\\circ_{\\text{vap, 298K}} = \\Delta H^\\circ_\\text{vap} - T\\Delta S^\\circ_\\text{vap}$\n\n$3.13\\ \\text{kJ mol}^{-1} = 30.9\\ \\text{kJ mol}^{-1} - (298\\ \\text{K})(\\Delta S^\\circ_\\text{vap})$\n\n$\\Delta S^\\circ_\\text{vap} = 93.2\\ \\text{J mol}^{-1}\\text{K}^{-1}$\n\n$\\Delta S^\\circ_\\text{vap} = (S^\\circ\\ \\text{of}\\ \\ce{Br2}(g)) - (S^\\circ\\ \\text{of}\\ \\ce{Br2}(l))$\n\n$93.2\\ \\text{J mol}^{-1}\\text{K}^{-1} = 245.4\\ \\text{J mol}^{-1}\\text{K}^{-1} - (S^\\circ\\ \\text{of}\\ \\ce{Br2}(l))$\n\n$S^\\circ$ of $\\ce{Br2}(l) = 152.2\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ_\\text{vap} = -RT\\ln(0.283) = 3.13$ kJ mol⁻¹"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $\\Delta H^\\circ_\\text{vap} = 30.9$ kJ mol⁻¹ to get $\\Delta S^\\circ_\\text{vap} \\approx 93.2$ J mol⁻¹ K⁻¹"
+          },
+          {
+            "points": 1,
+            "criterion": "$S^\\circ(\\ce{Br2}(l)) \\approx 152$ J mol⁻¹ K⁻¹"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "f",
+        "stem_md": "The absolute entropies of the gas-phase atoms of the fourth period given in the table exhibit a non-monotonic pattern. Explain why the absolute entropies of $\\ce{Se}(g)$ and $\\ce{Br}(g)$ are larger than the absolute entropies of either $\\ce{As}(g)$ or $\\ce{Kr}(g)$.\n\nAs(g) | Se(g) | Br(g) | Kr(g)\n$S^\\circ$, J mol⁻¹ K⁻¹: 163.2 | 176.7 | 175.0 | 164.1",
+        "key_md": "As and Kr have only one way of arranging their valence electrons (for As, each valence $p$ orbital is half-filled, while Kr has each valence $p$ orbital completely filled). In contrast, Se and Br have orbitally degenerate ground states, which gives them more ways of arranging their electrons. This increase in the number of possible arrangements corresponds to a higher entropy ($S = k_B\\ln\\Omega$).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Explains that As (half-filled p) and Kr (filled p) have only one electronic arrangement, while Se and Br have degenerate/multiple arrangements, giving higher entropy ($S = k_B\\ln\\Omega$)"
+          }
+        ],
+        "max_points": 1
+      }
+    ],
+    "source": "USNCO 2022 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2022-N-P4",
+    "year": 2022,
+    "level": "national",
+    "number": 4,
+    "title": "Iodine clock kinetics of peroxide-iodide reaction",
+    "topic_id": "kinetics",
+    "intro_md": "Iodide ion reacts with hydrogen peroxide in acidic solution according to the following equation:\n\n$$\\ce{2 I^-(aq) + H2O2(aq) + 2 H+(aq) -> I2(aq) + 2 H2O(l)}\\qquad (4)$$\n\nThe reaction is carried out at 18.8 °C in the presence of a mixture of $\\ce{CH3COOH}$ and $\\ce{NaOH}$ to regulate the pH, sodium thiosulfate (which reacts very rapidly with $\\ce{I2}$ to form tetrathionate ions), and starch. All the components except the hydrogen peroxide are premixed, and then the hydrogen peroxide solution is added and a stopwatch is started. The solution remains colorless until it suddenly turns blue, at which point the time $t$ is recorded. The following data are obtained:\n\nRun | 1.0 M CH3COOH, mL | 1.0 M NaOH, mL | 0.20 M KI, mL | 0.20 M H2O2, mL | 0.020 M Na2S2O3, mL | Distilled H2O, mL | t, s\nA | 2.0 | 1.0 | 2.0 | 2.0 | 1.0 | 2.0 | 68.2\nB | 4.0 | 1.0 | 2.0 | 2.0 | 1.0 | 0.0 | 68.9\nC | 2.0 | 1.0 | 4.0 | 2.0 | 1.0 | 0.0 | 33.2\nD | 2.0 | 1.0 | 2.0 | 4.0 | 1.0 | 0.0 | 32.9",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Give a qualitative explanation for why the solution suddenly turns blue after a certain amount of time has elapsed.",
+        "key_md": "$\\ce{I2}$ is produced in the reaction between $\\ce{H2O2}$ and $\\ce{I-}$. Initially, the $\\ce{I2}$ does not accumulate to a significant extent because it immediately reacts with the thiosulfate ion. Once the small amount of thiosulfate is consumed, then $\\ce{I2}$ begins to accumulate, and the solution turns blue because of the intensely blue complex formed between starch and iodine.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that $\\ce{I2}$ produced is immediately consumed by thiosulfate so it does not accumulate"
+          },
+          {
+            "points": 1,
+            "criterion": "States that once thiosulfate is exhausted, $\\ce{I2}$ accumulates and forms the intensely blue starch–iodine complex"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the initial $[\\ce{H+}]$ in runs A and B and explain why $[\\ce{H+}]$ will not change significantly over the course of the respective reactions. (The $K_\\text{a}$ of $\\ce{CH3COOH}$ is $1.8 \\times 10^{-5}$.)",
+        "key_md": "The $\\ce{NaOH}$ will immediately react with the $\\ce{CH3COOH}$ to form $\\ce{CH3COO^-}$. Taking into account the 10-fold dilution, this means that in run A, $[\\ce{CH3COOH}] = [\\ce{CH3COO^-}] = 0.1$ M. Since\n\n$$K_\\text{a} = 1.8 \\times 10^{-5} = \\frac{[\\ce{H+}][\\ce{CH3COO^-}]}{[\\ce{CH3COOH}]}$$\n\n$[\\ce{H+}] = 1.8 \\times 10^{-5}$ M\n\nIn run B, with $[\\ce{CH3COOH}] = 0.3$ M and $[\\ce{CH3COO^-}] = 0.1$ M, $[\\ce{H+}] = 5.4 \\times 10^{-5}$ M.\n\nThese solutions are buffers, with the $\\ce{H+}$ consumed in reaction 4 being replenished by the $\\ce{CH3COOH}$. Thus, at the point where the initially 0.0020 M $\\ce{S2O3^2-}$ is consumed, the concentration of $\\ce{CH3COOH}$ will fall to 0.098 M while $[\\ce{CH3COO^-}]$ rises to 0.102 M, and $[\\ce{H+}] = 1.73 \\times 10^{-5}$ M, a change of only 4%.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes $\\ce{NaOH}$ neutralizes part of the $\\ce{CH3COOH}$, giving in run A $[\\ce{CH3COOH}] = [\\ce{CH3COO^-}] = 0.1$ M (accounting for dilution)"
+          },
+          {
+            "points": 1,
+            "criterion": "Run A: $[\\ce{H+}] = 1.8 \\times 10^{-5}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Run B: $[\\ce{H+}] = 5.4 \\times 10^{-5}$ M (from 0.3 M acid / 0.1 M acetate)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains buffer action: $\\ce{H+}$ consumed is replenished by $\\ce{CH3COOH}$, so the small extent of reaction (0.0010 M) changes $[\\ce{H+}]$ by only a few percent"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "c",
+        "stem_md": "The rate law for reaction (4) has the form Rate = $k_4[\\ce{I-}]^m[\\ce{H2O2}]^n[\\ce{H+}]^p$, where $m$, $n$, and $p$ are integers. What are the values of $m$, $n$, and $p$ under these experimental conditions? Briefly explain your reasoning.",
+        "key_md": "In each case, $[\\ce{S2O3^2-}]_0 = 0.0020$ M, so at the point where the blue color appears, $\\Delta[\\ce{H2O2}] = -0.0010$ M (since two moles of thiosulfate react per mole of $\\ce{I2}$ produced). Since rate $= -\\Delta[\\ce{H2O2}]/\\Delta t$, the time recorded is inversely proportional to the initial rate of the reaction.\n\nComparing run B to run A, $[\\ce{H+}]$ increases by a factor of 3 while all other concentrations are the same. The rate is essentially unchanged, so $p = 0$.\n\nComparing run C to run A, $[\\ce{I-}]$ increases by a factor of 2 while all other concentrations are the same. The rate roughly doubles, so $m = 1$.\n\nComparing run D to run A, $[\\ce{H2O2}]$ increases by a factor of 2 while all other concentrations are the same. The rate roughly doubles, so $n = 1$.\n\nRate $= k_4[\\ce{I-}][\\ce{H2O2}]$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the recorded time is inversely proportional to the initial rate (fixed $\\Delta[\\ce{H2O2}]$ = 0.0010 M set by thiosulfate)"
+          },
+          {
+            "points": 1,
+            "criterion": "$m = 1$ justified by comparing run C to run A (doubling $[\\ce{I-}]$ halves $t$)"
+          },
+          {
+            "points": 1,
+            "criterion": "$n = 1$ justified by comparing run D to run A (doubling $[\\ce{H2O2}]$ halves $t$)"
+          },
+          {
+            "points": 1,
+            "criterion": "$p = 0$ justified by comparing run B to run A (tripling $[\\ce{H+}]$ leaves $t$ unchanged)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "What is the value of the rate constant $k_4$ for this reaction?",
+        "key_md": "$k_4 = (-\\Delta[\\ce{H2O2}]/\\Delta t)/([\\ce{I-}][\\ce{H2O2}])$. So:\n\nRun A, $k_4 = (0.0010\\ \\text{M}/68.2\\ \\text{s})/([0.040\\ \\text{M}][0.040\\ \\text{M}]) = 9.1 \\times 10^{-3}\\ \\text{M}^{-1}\\text{s}^{-1}$\n\nRun B, $k_4 = (0.0010\\ \\text{M}/68.9\\ \\text{s})/([0.040\\ \\text{M}][0.040\\ \\text{M}]) = 9.2 \\times 10^{-3}\\ \\text{M}^{-1}\\text{s}^{-1}$\n\nRun C, $k_4 = (0.0010\\ \\text{M}/33.2\\ \\text{s})/([0.080\\ \\text{M}][0.040\\ \\text{M}]) = 9.4 \\times 10^{-3}\\ \\text{M}^{-1}\\text{s}^{-1}$\n\nRun D, $k_4 = (0.0010\\ \\text{M}/32.9\\ \\text{s})/([0.040\\ \\text{M}][0.080\\ \\text{M}]) = 9.5 \\times 10^{-3}\\ \\text{M}^{-1}\\text{s}^{-1}$\n\n*Average* $= 9.3 \\times 10^{-3}\\ \\text{M}^{-1}\\text{s}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses correctly diluted concentrations (e.g. $[\\ce{I-}] = [\\ce{H2O2}] = 0.040$ M in run A) and rate $= 0.0010\\ \\text{M}/t$"
+          },
+          {
+            "points": 1,
+            "criterion": "$k_4 \\approx 9.3 \\times 10^{-3}\\ \\text{M}^{-1}\\text{s}^{-1}$ (accept $9.1$–$9.5 \\times 10^{-3}$), with correct units"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "The following mechanism for reaction (4) has been proposed:\n\n$\\ce{H2O2(aq) + H+(aq) <=> H3O2+(aq)}$  (*fast, unfavorable*)\n\n$\\ce{H3O2+(aq) + I^-(aq) -> HOI(aq) + H2O(l)}$  (*slow*)\n\n$\\ce{HOI(aq) + H+(aq) <=> H2OI+(aq)}$  (*fast, unfavorable*)\n\n$\\ce{H2OI+(aq) + I^-(aq) -> I2(aq) + H2O(l)}$  (*fast*)\n\nIs this mechanism consistent with the given data? Justify your answer.",
+        "key_md": "This mechanism predicts Rate $= k_2[\\ce{I-}][\\ce{H3O2+}] = k_2K_1[\\ce{I-}][\\ce{H2O2}][\\ce{H+}]$. This is *inconsistent* with the observed data under these conditions, since it predicts first-order dependence on $[\\ce{H+}]$ while a zero-order dependence is actually observed.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Derives predicted rate law Rate $= k_2K_1[\\ce{I-}][\\ce{H2O2}][\\ce{H+}]$ from the rate-determining step plus the fast pre-equilibrium"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes the mechanism is inconsistent because it predicts first order in $[\\ce{H+}]$ whereas zero order is observed"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "The experiments are repeated under the same conditions as Runs A and B above, except that phosphoric acid ($\\ce{H3PO4}$, $K_\\text{a} = 7.6 \\times 10^{-3}$) is substituted for acetic acid. The observed times for the solutions to turn blue with this substitution are 46.7 s and 31.5 s, respectively. Propose an interpretation for these observations.",
+        "key_md": "$\\ce{H3PO4}$ is a much stronger acid than $\\ce{CH3COOH}$, with $[\\ce{H+}] = 7.6 \\times 10^{-3}$ M and $2.3 \\times 10^{-2}$ M in the two new reactions. Even though there was no effect on the rate of reaction in the reactions run with acetic acid, now increasing $[\\ce{H+}]$ increases the rate! This indicates that there is an acid-catalyzed pathway for the reaction (perhaps by the mechanism proposed in (e)) that has become significant at the lower pH of the reactions run in the presence of phosphoric acid.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes $\\ce{H3PO4}$ gives much higher $[\\ce{H+}]$ ($7.6 \\times 10^{-3}$ M and $2.3 \\times 10^{-2}$ M) and that the rate now increases with $[\\ce{H+}]$"
+          }
+        ],
+        "max_points": 1
+      }
+    ],
+    "source": "USNCO 2022 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2022-N-P5",
+    "year": 2022,
+    "level": "national",
+    "number": 5,
+    "title": "Net ionic equations for six reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances. You need not balance the equations.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Diiodine pentoxide is added to a barium hydroxide solution.",
+        "key_md": "$\\ce{Ba^2+(aq) + OH^-(aq) + I2O5(s) -> Ba(IO3)2(s) + H2O(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants shown as $\\ce{Ba^2+}$, $\\ce{OH^-}$, and $\\ce{I2O5}$ (spectators omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct products $\\ce{Ba(IO3)2}$ (or $\\ce{IO3^-}$) and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Sulfur dioxide is bubbled through an acidified solution of potassium permanganate.",
+        "key_md": "$\\ce{MnO4^-(aq) + SO2(g) + H2O(l) -> Mn^2+(aq) + SO4^2-(aq) + H+(aq)}$\n\nor $\\ce{MnO4^-(aq) + SO2(g) + H2O(l) + H+(aq) -> Mn^2+(aq) + HSO4^-(aq)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{MnO4^-}$, $\\ce{SO2}$, $\\ce{H2O}$ (K+ omitted)"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Mn^2+}$ and $\\ce{SO4^2-}$ (or $\\ce{HSO4^-}$)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Iron(III) oxide is heated with carbon monoxide gas at 1200 °C.",
+        "key_md": "$\\ce{Fe2O3(s) + CO(g) -> Fe(s) + CO2(g)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{Fe2O3}$ and $\\ce{CO}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Fe}$ and $\\ce{CO2}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Aqueous hydrobromic acid is electrolyzed at platinum electrodes.",
+        "key_md": "$\\ce{H+(aq) + Br^-(aq) -> H2(g) + Br2(l)}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{H+}$ and $\\ce{Br^-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{H2}$ and $\\ce{Br2}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "1-Butanol reacts with an acidified solution of potassium dichromate. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{CH3CH2CH2CH2OH + Cr2O7^2-(aq) + H+(aq) -> CH3CH2CH2COOH + Cr^3+(aq) + H2O(l)}$ — the structural formula of 1-butanol (drawn as a four-carbon chain ending in OH) reacting with dichromate in acid to give butanoic acid (four-carbon chain ending in $\\ce{C(=O)OH}$), plus $\\ce{Cr^3+}$ and water.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Structural formula of 1-butanol with $\\ce{Cr2O7^2-}$ and $\\ce{H+}$ as reactants"
+          },
+          {
+            "points": 1,
+            "criterion": "Butanoic acid (structural formula) plus $\\ce{Cr^3+}$ (and $\\ce{H2O}$) as products"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Oganesson-294 undergoes alpha decay.",
+        "key_md": "$\\ce{^{294}Og -> ^{290}Lv + ^{4}He}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Alpha particle $\\ce{^4He}$ written as a product"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct daughter nuclide $\\ce{^{290}Lv}$"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2022 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2022-N-P6",
+    "year": 2022,
+    "level": "national",
+    "number": 6,
+    "title": "Ag/Cu galvanic cell with oxalate",
+    "topic_id": "redox",
+    "intro_md": "A galvanic cell is constructed at 298 K with one half-cell consisting of a 10.00 g silver wire immersed in 1.00 L of a 0.100 M solution of silver nitrate and the second half-cell consisting of a 20.00 g copper plate immersed in 1.00 L of a 0.200 M solution of copper(II) sulfate.\n\nHalf-reaction / $E^\\circ$, V\n\n$\\ce{Ag+(aq) + e- -> Ag(s)}$ — 0.800\n\n$\\ce{Cu^2+(aq) + 2e- -> Cu(s)}$ — 0.337",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What voltage is measured for this galvanic cell?",
+        "key_md": "The net cell reaction is\n\n$\\ce{2 Ag+(aq) + Cu(s) -> 2 Ag(s) + Cu^2+(aq)}$\n\nwith $E^\\circ = 0.800\\ \\text{V} - 0.337\\ \\text{V} = 0.463\\ \\text{V}$. The cell is not under standard conditions, so applying the Nernst equation gives:\n\n$E = E^\\circ - (RT/nF)\\ln([\\ce{Cu^2+}]/[\\ce{Ag+}]^2)$\n\n$E = (0.463\\ \\text{V}) - ((8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})/2(96500\\ \\text{J V}^{-1}\\text{mol}^{-1}))\\ln([0.200]/[0.100]^2)$\n\n$E = 0.425\\ \\text{V}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct net cell reaction $\\ce{2 Ag+ + Cu -> 2 Ag + Cu^2+}$ and $E^\\circ = 0.463$ V"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct Nernst expression with $n = 2$ and $Q = [\\ce{Cu^2+}]/[\\ce{Ag+}]^2 = 20$"
+          },
+          {
+            "points": 1,
+            "criterion": "$E = 0.425$ V (±0.005 V)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "The cell is discharged at a constant current of 0.150 A until the mass of the silver electrode is equal to the mass of the copper electrode. How much time does this take?",
+        "key_md": "Ag deposition will take place with $(107.9\\ \\text{g mol}^{-1})/(96500\\ \\text{C mol}^{-1}) = 1.118 \\times 10^{-3}\\ \\text{g C}^{-1}$. Cu dissolution will require $(63.55\\ \\text{g mol}^{-1})/2(96500\\ \\text{C mol}^{-1}) = 3.293 \\times 10^{-4}\\ \\text{g C}^{-1}$.\n\nSo if $x$ = the amount of charge passed in the discharge, then\n\n$10.00\\ \\text{g} + (1.118 \\times 10^{-3}\\ \\text{g C}^{-1})x = 20.00\\ \\text{g} - (3.293 \\times 10^{-4}\\ \\text{g C}^{-1})x$\n\n$10.00\\ \\text{g} = (1.447 \\times 10^{-3}\\ \\text{g C}^{-1})x$\n\n$x = 6909\\ \\text{C}$\n\nSince $q = it$,\n\n$6909\\ \\text{C} = (0.150\\ \\text{A})t$\n\n$t = 46100\\ \\text{s} = 12.8\\ \\text{h}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Mass per coulomb for Ag deposition ($1.118 \\times 10^{-3}$ g/C) and Cu dissolution ($3.293 \\times 10^{-4}$ g/C, with $n=2$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct equality set up (Ag mass increases, Cu mass decreases) giving $x \\approx 6909$ C"
+          },
+          {
+            "points": 1,
+            "criterion": "$t \\approx 4.61 \\times 10^4$ s (12.8 h), ±2%"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "A chemist wishes to add sodium oxalate to one of the half-cells in the original cell to decrease the measured voltage. To which cell should the sodium oxalate be added, and why?",
+        "key_md": "Decreasing the voltage means making the net reaction less favorable, which would involve either decreasing the concentration of the reactants or increasing the concentration of the products. Adding oxalate would cause precipitation of the insoluble oxalate salt, so one would need to do that to the silver-containing half-cell to decrease the voltage.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States oxalate should be added to the silver (Ag+) half-cell"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that precipitating $\\ce{Ag2C2O4}$ lowers $[\\ce{Ag+}]$ (a reactant), making the cell reaction less favorable / lowering E"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "What mass of sodium oxalate would need to be added to the appropriate half-cell to cause the voltage in the original cell to become 0.200 V? You may assume that there is no change in the volume of the solution. The $K_\\text{sp}$ of $\\ce{Ag2C2O4}$ is $3.5 \\times 10^{-11}$ and the $K_\\text{sp}$ of $\\ce{CuC2O4}$ is $3.0 \\times 10^{-8}$.",
+        "key_md": "Using the Nernst equation,\n\n$0.200\\ \\text{V} = (0.463\\ \\text{V}) - ((8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})/2(96500\\ \\text{J V}^{-1}\\text{mol}^{-1}))\\ln([0.200]/[\\ce{Ag+}]^2)$\n\n$-0.263\\ \\text{V} = 0.021\\ \\text{V} + 0.02567\\ln[\\ce{Ag+}]$\n\n$[\\ce{Ag+}] = 1.567 \\times 10^{-5}\\ \\text{M}$\n\nFrom the $K_\\text{sp}$ expression, $[\\ce{Ag+}]^2[\\ce{C2O4^2-}] = [1.567 \\times 10^{-5}]^2[\\ce{C2O4^2-}] = 3.5 \\times 10^{-11}$\n\n$[\\ce{C2O4^2-}] = 0.143\\ \\text{M}$\n\nThis requires the addition of 0.143 mol $\\ce{Na2C2O4}$ (to achieve this concentration in 1.00 L of solution) + 0.0500 mol $\\ce{Na2C2O4}$ (to precipitate 0.0500 mol $\\ce{Ag2C2O4}$) = 0.193 mol $\\ce{Na2C2O4}$. The molar mass of $\\ce{Na2C2O4}$ is 134.00 g mol$^{-1}$, so this is 0.193 mol × 134.00 g mol$^{-1}$ = 25.9 g $\\ce{Na2C2O4}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses Nernst equation with E = 0.200 V to obtain $[\\ce{Ag+}] = 1.57 \\times 10^{-5}$ M (±5%)"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{sp}$ of $\\ce{Ag2C2O4}$ to get $[\\ce{C2O4^2-}] \\approx 0.143$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Adds the 0.0500 mol oxalate consumed in precipitating the $\\ce{Ag+}$ (total 0.193 mol)"
+          },
+          {
+            "points": 1,
+            "criterion": "Final mass $\\approx 25.9$ g $\\ce{Na2C2O4}$ (±5%)"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "USNCO 2022 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2022-N-P7",
+    "year": 2022,
+    "level": "national",
+    "number": 7,
+    "title": "Formamide vs. glyoxal bonding and properties",
+    "topic_id": "bonding",
+    "intro_md": "Formamide and glyoxal are six-atom molecules with essentially planar structures as depicted below (these are *NOT* Lewis structures).\n\n(Depicted: formamide drawn as H and H attached to N, N single-bonded to C, C bearing O and H; glyoxal drawn as H and O attached to one C, that C bonded to a second C bearing O and H.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw complete Lewis structures for these two molecules, including all bonds, lone pairs, and nonzero formal charges. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "(Either resonance structure of formamide would be acceptable.)\n\n**Formamide:** $\\ce{H2N-CH=O}$ with the N bearing one lone pair, the C doubly bonded to O, and the O bearing two lone pairs; all formal charges zero. This is in resonance with the minor structure $\\ce{H2N^+=CH-O^-}$, in which the C–N bond is a double bond, nitrogen carries a $+$ formal charge, and the oxygen carries three lone pairs and a $-$ formal charge.\n\n**Glyoxal:** $\\ce{O=CH-CH=O}$, i.e. two carbons joined by a single bond, each carbon bearing one H and one doubly bonded O, each oxygen having two lone pairs; all formal charges zero.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Correct formamide Lewis structure: C=O double bond, C–N single bond (or the charge-separated resonance form with $\\ce{C=N+}$ and $\\ce{O-}$), lone pairs on N and O shown, formal charges correct"
+          },
+          {
+            "points": 2,
+            "criterion": "Correct glyoxal Lewis structure: C–C single bond with two C=O double bonds, two lone pairs on each O, no nonzero formal charges"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "One of these compounds has a normal boiling point of 51 °C, while the other has a normal boiling point of 210 °C. Assign which compound has which boiling point, and propose an explanation for the large difference.",
+        "key_md": "Formamide has the higher normal boiling point (210 °C; glyoxal boils at 51 °C) because it is capable of forming strong intermolecular N–H•••O hydrogen bonds.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Assigns 210 °C to formamide (and 51 °C to glyoxal)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains via intermolecular N–H•••O hydrogen bonding possible only for formamide"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "The H–N–H bond angle in formamide (122°) is much larger than the H–N–H angle in ammonia (107°). Explain this difference.",
+        "key_md": "In order to form a partial C–N π bond, as indicated by the minor resonance structure shown above, the nitrogen must have an unhybridized $p$ orbital and thus must be $sp^2$-hybridized. The bond angles will be close to 120°. In $\\ce{NH3}$, the nitrogen is $sp^3$-hybridized and has bond angles close to 109.5°.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States N in formamide is $sp^2$-hybridized (trigonal planar, ~120°) because of partial C–N π bonding/resonance delocalization of the N lone pair"
+          },
+          {
+            "points": 1,
+            "criterion": "States N in $\\ce{NH3}$ is $sp^3$-hybridized with angles near 109.5°"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Rotation of the central bond in the two molecules (the C-N bond in formamide or the C-C bond in glyoxal) occurs at very different rates, with the barrier to rotation in formamide being much larger (74 kJ mol$^{-1}$ vs. 25 kJ mol$^{-1}$). Explain why rotation is much more difficult in formamide than in glyoxal.",
+        "key_md": "The partial π bond in formamide requires the unhybridized $p$ orbital on nitrogen to be parallel to the $p$ orbital on carbon. Rotating about the carbon-nitrogen bond causes the two $p$ orbitals to lose overlap and thus diminishes the bonding, leading to a large energetic cost. No such cost is incurred in glyoxal, where the carbon-carbon bond is purely σ in character.",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Explains that rotation about the C–N bond breaks the parallel p-orbital overlap of the partial π bond (loss of amide resonance), costing energy"
+          },
+          {
+            "points": 2,
+            "criterion": "Notes that the C–C bond in glyoxal is purely σ, so rotation about it incurs no loss of π bonding"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "USNCO 2022 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2022-N-P8",
+    "year": 2022,
+    "level": "national",
+    "number": 8,
+    "title": "C3H6O2 isomers: boiling points, chirality, hydration",
+    "topic_id": "organic",
+    "intro_md": "Consider the following isomers with the formula $\\ce{C3H6O2}$.\n\n- **A**: methoxyacetaldehyde, $\\ce{CH3-O-CH2-CHO}$\n- **B**: propanoic acid, $\\ce{CH3CH2-COOH}$\n- **C**: methyl acetate, $\\ce{CH3-CO-O-CH3}$",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Rank the three compounds in order of increasing normal boiling point, and justify your ordering.",
+        "key_md": "**C** (bp 57 °C) < **A** (bp 92 °C) < **B** (bp 141 °C)\n\nOnly **B** is capable of forming hydrogen bonds, so it has by far the highest boiling point. **C** has a more compact structure than **A**, which leads to weaker London dispersion forces and a lower boiling point. (The ester is also less polarizable than the ketone + ether.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct order C < A < B"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies that only B can hydrogen bond, giving it the highest boiling point"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains A above C by greater London dispersion forces / less compact (more polarizable) structure"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Compounds **A**–**C** are all optically inactive. Draw the structure of an optically active isomer of $\\ce{C3H6O2}$. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Examples include lactaldehyde, $\\ce{CH3-CH(OH)-CHO}$ (2-hydroxypropanal, with a stereocenter at the carbon bearing the OH), or glycidol (2,3-epoxy-1-propanol: an epoxide ring with a $\\ce{CH2OH}$ substituent on one ring carbon, which is a stereocenter).",
+        "rubric": [
+          {
+            "points": 2,
+            "criterion": "Draws a valid C3H6O2 isomer containing a stereocenter (e.g. CH3CH(OH)CHO or glycidol); structure must have the correct molecular formula"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Compounds **A** and **B** react reversibly with water in the presence of a suitable catalyst as shown below:\n\n$\\ce{CH3OCH2CHO + H2O <=> CH3OCH2CH(OH)2}$\n\n$\\ce{CH3CH2COOH + H2O <=> CH3CH2C(OH)3}$\n\nWhich reaction has the larger equilibrium constant?  Explain your answer in terms of the structure or bonding of the species in the reactions.",
+        "key_md": "The equilibrium constant is much larger for compound **A**.  Aldehydes are more electrophilic than carboxylic acids, because the carboxylic acid is stabilized by donation from the OH oxygen into the $\\ce{C=O}$ $\\pi^*$ orbital, as illustrated by the resonance structures shown below.  This resonance stabilization is lost when the carbonyl carbon goes from $sp^2$ to $sp^3$ hybridization:\n\nFor propanoic acid, the neutral structure $\\ce{CH3CH2C(=O)OH}$ is in resonance with the charge-separated structure having $\\ce{C-O^-}$ and $\\ce{C=OH+}$ (stabilizing resonance is possible); in the hydrate $\\ce{CH3CH2C(OH)3}$ no resonance is possible.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the reaction of **A** (the aldehyde) has the larger equilibrium constant"
+          },
+          {
+            "points": 2,
+            "criterion": "Explains that the carboxylic acid carbonyl is resonance-stabilized by lone-pair donation from the OH oxygen into the C=O π* (making it less electrophilic), and that this stabilization is lost on going to the sp³ hydrate"
+          }
+        ],
+        "max_points": 3,
+        "figure_url": "/figures/2022-N-P8-f2.png"
+      },
+      {
+        "label": "d",
+        "stem_md": "Compound **C** reacts with water in the presence of a strong acid to form two new organic compounds. Write a balanced equation for this reaction, including structural formulas for the two organic products. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{CH3C(=O)OCH3 + H2O <=> CH3C(=O)OH + CH3OH}$\n\ni.e. methyl acetate (**C**) plus water gives acetic acid (structural formula: $\\ce{CH3COOH}$, drawn with the $\\ce{C=O}$ and $\\ce{OH}$) and methanol ($\\ce{CH3OH}$).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies both organic products as acetic acid and methanol, drawn with structural formulas"
+          },
+          {
+            "points": 1,
+            "criterion": "Balanced equation with water as reactant (equilibrium/reversible arrow acceptable)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "In the presence of excess strong base, compound **C** reacts with water irreversibly. Explain why this reaction is irreversible while the reaction in the presence of acid is reversible.",
+        "key_md": "$K_\\text{eq}$ for the reaction in (d) is close to 1. A strong base will react with the carboxylic acid to form the carboxylate anion. This reaction is so favorable ($K_\\text{eq} > 10^9$) that it renders the overall reaction essentially irreversible.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that the strong base deprotonates the carboxylic acid to give the carboxylate anion"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes that this acid-base step is so favorable (large K) that it drives/renders the overall hydrolysis irreversible (acid case has K near 1)"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2022 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice.",
+    "figure_url": "/figures/2022-N-P8-f1.png"
+  }
+]

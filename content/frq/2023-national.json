@@ -1,0 +1,819 @@
+[
+  {
+    "id": "2023-N-P1",
+    "year": 2023,
+    "level": "national",
+    "number": 1,
+    "title": "Identifying an Ionic H-N-O Compound",
+    "topic_id": "stoichiometry",
+    "intro_md": "**A** is an ionic compound that contains only the elements hydrogen, nitrogen, and oxygen.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "A 1.000-g sample of **A** is dissolved in 20 mL water and titrated with 0.5000 M NaOH solution, giving the data shown below.  What is the molar mass of **A**?",
+        "key_md": "The endpoint is at 25.0 mL added NaOH, and from the shape of the titration curve the compound is a monoprotic acid.  So $n = (0.0250\\ \\text{L})(0.5000\\ \\text{mol L}^{-1}) = 0.0125$ mol.  $1.000\\ \\text{g}/0.0125\\ \\text{mol} = 80.0\\ \\text{g mol}^{-1}$.",
+        "rubric": [
+          {
+            "points": 3,
+            "criterion": "Identifies the endpoint (equivalence point) at 25.0 mL of added NaOH from the curve"
+          },
+          {
+            "points": 3,
+            "criterion": "Recognizes from the shape of the curve (single inflection) that A is a monoprotic acid"
+          },
+          {
+            "points": 3,
+            "criterion": "Computes moles of acid: $n = (0.0250\\ \\text{L})(0.5000\\ \\text{M}) = 0.0125$ mol"
+          },
+          {
+            "points": 3,
+            "criterion": "Reports molar mass $= 1.000\\ \\text{g}/0.0125\\ \\text{mol} = 80.0\\ \\text{g mol}^{-1}$ (±0.5)"
+          }
+        ],
+        "max_points": 12,
+        "figure_url": "/figures/2023-N-P1-f1.png"
+      },
+      {
+        "label": "b",
+        "stem_md": "When a 1.000-g sample of **A** is heated at 230 °C in an evacuated 1.50 L vessel, it decomposes into gaseous products, giving a final pressure of 784 mm Hg. How many moles of gas are formed in this reaction?",
+        "key_md": "$PV = nRT$\n\n$(784\\ \\text{torr})(1.50\\ \\text{L}) = n(62.4\\ \\text{L torr mol}^{-1}\\ \\text{K}^{-1})(503.15\\ \\text{K})$\n\n$n = 0.0375$ mol\n\nThis is 3 mol gas per mol **A**, given the answer to part a.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct use of $PV = nRT$ at 503 K"
+          },
+          {
+            "points": 1,
+            "criterion": "$n = 0.0375$ mol (±0.001), noted as 3 mol gas per mol A"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "If the gases produced from the decomposition of 1.000 g of **A** are instead first passed through a column packed with magnesium perchlorate (which strongly absorbs water vapor) and then collected at 25 °C and a pressure of 755 mm Hg, the total volume of gas is 308 mL. How many moles of gas are collected in this experiment?",
+        "key_md": "$PV = nRT$\n\n$(755\\ \\text{torr})(0.308\\ \\text{L}) = n(62.4\\ \\text{L torr mol}^{-1}\\ \\text{K}^{-1})(298.15\\ \\text{K})$\n\n$n = 0.0125$ mol\n\nThis is 1 mol gas per mol **A**, so the decomposition must have produced 2 mol $\\ce{H2O}$ per mol **A**.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$n = 0.0125$ mol (±0.0005) from $PV=nRT$ at 298 K"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes 1 mol non-water gas and 2 mol $\\ce{H2O}$ per mol A"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "What is the formula of **A**? Explain your reasoning.",
+        "key_md": "Each mol of **A** produces two mol $\\ce{H2O}$ when it decomposes, so the formula unit must contain at least four H's and two O's. The molar mass of the gas produced in part c. is thus $80 - 2(18) = 44$. The titration in part a indicates that the acid has a $\\text{p}K_\\text{a}$ of 9.25; the only reasonable possibility is ammonium ion, $\\ce{NH4+}$. This means that the gas observed in part c. must contain at least one N. The only possible formulas of the gas in c. ($M = 44$, at least one N, only possible elements H, N, O) are $\\ce{NH30}$, $\\ce{H14NO}$, $\\ce{N2H16}$, $\\ce{N2O}$, and $\\ce{N3H2}$. The only chemically reasonable option in this list is $\\ce{N2O}$, nitrous oxide.\n\nThe overall formula of **A** is thus $\\ce{N2O} + 2(\\ce{H2O}) = \\ce{H4N2O3}$. Given the presence of ammonium ion, this translates to $\\ce{(NH4)NO3}$, ammonium nitrate.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Deduces non-water gas has $M = 44$ and identifies it as $\\ce{N2O}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses the titration $\\text{p}K_\\text{a} \\approx 9.25$ to identify $\\ce{NH4+}$ as the cation"
+          },
+          {
+            "points": 1,
+            "criterion": "Gives formula $\\ce{NH4NO3}$ (i.e. $\\ce{H4N2O3}$), ammonium nitrate"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Write Lewis structures for the cation and the anion present in **A** and for the product(s) of its decomposition at 230 °C. Your Lewis structures should include all bonds, lone pairs, and nonzero formal charges. You should show all significant resonance structures for each species. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "**Cation** $\\ce{NH4+}$: N bonded by four single bonds to four H atoms, no lone pairs on N, formal charge $+1$ on N.\n\n**Anion** $\\ce{NO3-}$: three equivalent resonance structures, each with one N=O double bond (that O has two lone pairs, formal charge 0) and two N–O single bonds (each of those O has three lone pairs and formal charge $-1$); N carries formal charge $+1$ in each structure.\n\n**Decomposition products:**\n\n$\\ce{H2O}$: O single-bonded to two H atoms with two lone pairs on O, bent, no formal charges.\n\n$\\ce{N2O}$: two significant resonance structures, $\\ce{^{-}N=N^{+}=O}$ (terminal N has two lone pairs and formal charge $-1$, central N formal charge $+1$, O has two lone pairs, formal charge 0) and $\\ce{N#N^{+}-O^{-}}$ (terminal N has one lone pair, central N formal charge $+1$, O has three lone pairs and formal charge $-1$); the molecule is linear with N–N–O connectivity.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct $\\ce{NH4+}$ Lewis structure with $+1$ formal charge on N"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct $\\ce{NO3-}$ with all three resonance structures and formal charges shown"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct bent $\\ce{H2O}$ with two lone pairs on O"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2023 National Part II exam, problem 1. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2023-N-P2",
+    "year": 2023,
+    "level": "national",
+    "number": 2,
+    "title": "Acidity and Solubility of Zinc Species",
+    "topic_id": "equilibrium",
+    "intro_md": "When water is bound to a metal ion, its acidity increases. For example, the p$K_\\text{a}$ of $\\ce{Zn^2+}(aq)$ is 8.96.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate the pH of a 0.010 M solution of zinc nitrate, $\\ce{Zn(NO3)2}$.",
+        "key_md": "The major reaction is\n\n$\\ce{Zn(OH2)^2+}(aq) + \\ce{H2O}(l) \\rightleftharpoons \\ce{Zn(OH)+}(aq) + \\ce{H3O+}(aq)$\n\n$K_\\text{eq} = 10^{-8.96} = 1.10 \\times 10^{-9} = \\dfrac{[\\ce{Zn(OH)+}][\\ce{H3O+}]}{[\\ce{Zn(OH2)^2+}]}$\n\nSince $[\\ce{Zn(OH)+}]$ and $[\\ce{H3O+}]$ are approximately equal, and $[\\ce{Zn(OH2)^2+}] \\approx 0.010$ (since the reaction is quite unfavorable), then\n\n$[\\ce{H3O+}]^2 = 1.10 \\times 10^{-11}$\n\n$[\\ce{H3O+}] = 3.31 \\times 10^{-6}$ M\n\npH $= -\\log_{10}[\\ce{H3O+}] = 5.48$\n\nThis pH is much lower than that of pure water, so the assumption of $[\\ce{Zn(OH)+}] \\approx [\\ce{H3O+}]$ is justified.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Writes the hydrolysis equilibrium of hydrated $\\ce{Zn^2+}$ with $K_\\text{a} = 10^{-8.96} = 1.1 \\times 10^{-9}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Sets up $[\\ce{H3O+}]^2 = K_\\text{a}(0.010)$ giving $[\\ce{H3O+}] = 3.3 \\times 10^{-6}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "pH = 5.48 (±0.05)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the pH of a 0.010 M solution of zinc acetate, $\\ce{Zn(CH3COO)2}$. The p$K_\\text{a}$ of $\\ce{CH3COOH}$ is 4.75.",
+        "key_md": "Now the major reaction is\n\n$\\ce{Zn(OH2)^2+}(aq) + \\ce{CH3COO-}(aq) \\rightleftharpoons \\ce{Zn(OH)+}(aq) + \\ce{CH3COOH}(aq)$\n\n$K_\\text{eq} = \\dfrac{10^{-8.96}}{10^{-4.75}} = 6.17 \\times 10^{-5} = \\dfrac{[\\ce{Zn(OH)+}][\\ce{CH3COOH}]}{[\\ce{Zn(OH2)^2+}][\\ce{CH3COO-}]}$\n\nSimilarly to above, $[\\ce{Zn(OH)+}] \\approx [\\ce{CH3COOH}]$. Because the reaction is again rather unfavorable, $[\\ce{Zn(OH2)^2+}]$ and $[\\ce{CH3COO-}]$ will be little changed from the initial solution, so $[\\ce{Zn(OH2)^2+}] = 0.5[\\ce{CH3COO-}]$. Thus:\n\n$6.17 \\times 10^{-5} = \\dfrac{[\\ce{CH3COOH}]^2}{0.5[\\ce{CH3COO-}]^2}$\n\n$3.08 \\times 10^{-5} = [\\ce{CH3COOH}]^2/[\\ce{CH3COO-}]^2$\n\n$5.55 \\times 10^{-3} = [\\ce{CH3COOH}]/[\\ce{CH3COO-}]$\n\nThe ratio of acetate ion to acetic acid determines the pH:\n\npH $= \\text{p}K_\\text{a} + \\log([\\ce{CH3COO-}]/[\\ce{CH3COOH}])$\n\npH $= 4.75 + \\log(180)$\n\npH $= 7.01$\n\nNote that the initial concentration of zinc acetate was never used in this calculation! So as long as it is high enough to justify the assumptions made, the pH is the same.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Writes the proton-transfer reaction between hydrated $\\ce{Zn^2+}$ and acetate with $K_\\text{eq} = 10^{-8.96}/10^{-4.75} = 6.2 \\times 10^{-5}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $[\\ce{Zn(OH)+}] \\approx [\\ce{CH3COOH}]$ and $[\\ce{Zn^2+}] = 0.5[\\ce{CH3COO-}]$ to get $[\\ce{CH3COOH}]/[\\ce{CH3COO-}] = 5.6 \\times 10^{-3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Applies Henderson–Hasselbalch to obtain pH = 7.01 (±0.05)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Zinc hydroxide is sparingly soluble, with $K_\\text{sp} = 4.5 \\times 10^{-17}$. Calculate the pH of a solution of water saturated with solid $\\ce{Zn(OH)2}$.",
+        "key_md": "$[\\ce{Zn^2+}] \\approx 0.5[\\ce{OH-}]$ in this solution, so:\n\n$K_\\text{sp} = 4.5 \\times 10^{-17} = [\\ce{Zn^2+}][\\ce{OH-}]^2 = 0.5[\\ce{OH-}]^3$\n\n$[\\ce{OH-}] = 4.48 \\times 10^{-6}$ M\n\npOH $= -\\log[\\ce{OH-}] = 5.35$\n\npH $= 14 - \\text{pOH} = 8.65$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $[\\ce{Zn^2+}] = 0.5[\\ce{OH-}]$ so that $K_\\text{sp} = 0.5[\\ce{OH-}]^3$"
+          },
+          {
+            "points": 1,
+            "criterion": "$[\\ce{OH-}] = 4.5 \\times 10^{-6}$ M and pH = 8.65 (±0.05)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Under what circumstances, if any, will a solution of zinc acetate spontaneously form a precipitate of $\\ce{Zn(OH)2}$? If precipitation is possible, specify the circumstances under which it is spontaneous. If it is not possible, justify why not.",
+        "key_md": "From part b, the pH of the solution is 7.01 (independent of the amount of zinc acetate), so $[\\ce{OH-}] = 1.02 \\times 10^{-7}$. Precipitation of $\\ce{Zn(OH)2}$ is spontaneous if $Q_\\text{sp} > K_\\text{sp}$, so:\n\n$[\\ce{Zn^2+}][\\ce{OH-}]^2 > 4.5 \\times 10^{-17}$\n\n$[\\ce{Zn^2+}][1.02 \\times 10^{-7}]^2 > 4.5 \\times 10^{-17}$\n\n$[\\ce{Zn^2+}] > 4.3 \\times 10^{-3}$ M\n\nThus precipitation is spontaneous if the concentration of zinc acetate is greater than 0.0043 M.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes pH (7.01) of zinc acetate solution is independent of concentration, giving $[\\ce{OH-}] = 1.0 \\times 10^{-7}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Applies the criterion $Q_\\text{sp} > K_\\text{sp}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes precipitation occurs when zinc acetate concentration exceeds ~$4.3 \\times 10^{-3}$ M (±10%)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Zinc also forms a complex ion, $\\ce{Zn(OH)4^2-}$, with $K_\\text{f} = 5.0 \\times 10^{14}$. Calculate the solubility of $\\ce{Zn(OH)2}$ in a solution with pH = 12.00.",
+        "key_md": "At pH = 12.00, $[\\ce{OH-}] = 0.010$ M. From the solubility equilibrium:\n\n$[\\ce{Zn^2+}][\\ce{OH-}]^2 = [\\ce{Zn^2+}][0.010]^2 = 4.5 \\times 10^{-17}$\n\n$[\\ce{Zn^2+}] = 4.5 \\times 10^{-13}$\n\nFrom the complex ion equilibrium:\n\n$K_\\text{f} = 5.0 \\times 10^{14} = \\dfrac{[\\ce{Zn(OH)4^2-}]}{[\\ce{Zn^2+}][\\ce{OH-}]^4}$\n\n$[\\ce{Zn(OH)4^2-}] = (5.0 \\times 10^{14})[4.5 \\times 10^{-13}][0.010]^4$\n\n$[\\ce{Zn(OH)4^2-}] = 2.25 \\times 10^{-6}$\n\nObviously, almost all the zinc in solution is in the form of the complex ion, so $2.3 \\times 10^{-6}$ moles of $\\ce{Zn(OH)2}$ will dissolve per liter of pH 12 solution.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "At pH 12, $[\\ce{OH-}] = 0.010$ M and $[\\ce{Zn^2+}] = 4.5 \\times 10^{-13}$ M from $K_\\text{sp}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses $K_\\text{f}$ correctly to get $[\\ce{Zn(OH)4^2-}] = 2.25 \\times 10^{-6}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "States solubility $\\approx 2.3 \\times 10^{-6}$ mol L$^{-1}$, dominated by the complex ion"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2023 National Part II exam, problem 2. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2023-N-P3",
+    "year": 2023,
+    "level": "national",
+    "number": 3,
+    "title": "Hydrogen Combustion Thermodynamics and Flammability",
+    "topic_id": "thermodynamics",
+    "intro_md": "Hydrogen gas reacts with oxygen gas to give water vapor with $\\Delta H^\\circ_\\text{rxn} = -241.8\\ \\text{kJ mol}^{-1}$ and $\\Delta S^\\circ_\\text{rxn} = -44.5\\ \\text{J mol}^{-1}\\text{K}^{-1}$.\n\n$\\ce{H2(g) + 0.5 O2(g) -> H2O(g)}$\n\nSpecies — $S^\\circ$, J mol⁻¹ K⁻¹ — $C_\\text{p}$, J g⁻¹ K⁻¹\n\n$\\ce{H2O}(g)$ — ??? — 4.18\n\n$\\ce{H2}(g)$ — 130.7 — 14.4\n\n$\\ce{O2}(g)$ — 205.2 — 0.92",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate $S^\\circ$ of $\\ce{H2O}(g)$.",
+        "key_md": "$\\Delta S^\\circ_\\text{rxn} = S^\\circ(\\ce{H2O}(g)) - S^\\circ(\\ce{H2}(g)) - 0.5\\cdot S^\\circ(\\ce{O2}(g))$\n\n$-44.5\\ \\text{J mol}^{-1}\\text{K}^{-1} = S^\\circ(\\ce{H2O}(g)) - (130.7\\ \\text{J mol}^{-1}\\text{K}^{-1}) - 0.5\\cdot(205.2\\ \\text{J mol}^{-1}\\text{K}^{-1})$\n\n$S^\\circ(\\ce{H2O}(g)) = 188.8\\ \\text{J mol}^{-1}\\text{K}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets up $\\Delta S^\\circ_\\text{rxn} = S^\\circ(\\ce{H2O}) - S^\\circ(\\ce{H2}) - \\tfrac12 S^\\circ(\\ce{O2})$ with the 0.5 coefficient on $\\ce{O2}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$S^\\circ(\\ce{H2O}(g)) = 188.8$ J mol⁻¹ K⁻¹ (±0.5)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "The bond dissociation enthalpy (BDE) of an average O–H bond in water is 463 kJ mol⁻¹ and the BDE of the H–H bond in $\\ce{H2}$ is 436 kJ mol⁻¹. What is the BDE of the O=O bond in $\\ce{O2}$?",
+        "key_md": "$\\Delta H^\\circ_\\text{rxn} = 0.5\\times\\text{BDE(O=O)} + \\text{BDE(H–H)} - 2\\times\\text{BDE(O–H)}$\n\n$-242\\ \\text{kJ mol}^{-1} = 0.5\\times\\text{BDE(O=O)} + 436\\ \\text{kJ mol}^{-1} - 2\\times(463\\ \\text{kJ mol}^{-1})$\n\n$\\text{BDE(O=O)} = 496\\ \\text{kJ mol}^{-1}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct bond-enthalpy balance: $\\Delta H^\\circ = 0.5\\,\\text{BDE(O=O)} + \\text{BDE(H-H)} - 2\\,\\text{BDE(O-H)}$"
+          },
+          {
+            "points": 1,
+            "criterion": "BDE(O=O) = 496 kJ mol⁻¹ (±3)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "0.100 mol $\\ce{H2}(g)$ and 0.100 mol $\\ce{O2}(g)$, both initially at 100 °C, react completely in a sealed vessel that is maintained at 1 bar pressure. The vessel is machined as part of a 1.00-kg block of aluminum ($C_\\text{p} = 0.89$ J g⁻¹ K⁻¹), which efficiently absorbs the heat generated in the reaction but which is well insulated from its surroundings. What is the final temperature of the aluminum block and the contents of the reaction vessel? Assume that $C_\\text{p}$ and $\\Delta H^\\circ_\\text{rxn}$ are independent of temperature.",
+        "key_md": "Reacting 0.1 mol $\\ce{H2}$ (the limiting reagent) will produce 24.18 kJ of heat (at constant pressure). The contents of the vessel after reaction are 0.1 mol $\\ce{H2O}$ and 0.05 mol $\\ce{O2}$, so the total heat capacity of the reaction contents plus the Al block is $(1.802\\ \\text{g H2O})\\times(4.18\\ \\text{J g}^{-1}\\text{K}^{-1}) + (1.60\\ \\text{g O2})\\times(0.92\\ \\text{J g}^{-1}\\text{K}^{-1}) + (1000\\ \\text{g})\\times(0.89\\ \\text{J g}^{-1}\\text{K}^{-1}) = 899\\ \\text{J K}^{-1}$.\n\n$\\Delta T = q/C_\\text{p} = (24180\\ \\text{J})/(899.0\\ \\text{J K}^{-1}) = 26.9\\ \\text{K}$\n\nSince the initial temperature is 373 K, the final temperature is 400 K (127 °C).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies $\\ce{H2}$ as limiting and $q = 24.18$ kJ released"
+          },
+          {
+            "points": 1,
+            "criterion": "Total heat capacity includes 0.1 mol $\\ce{H2O}$ (1.802 g), 0.05 mol excess $\\ce{O2}$ (1.60 g) and 1000 g Al, giving ≈899 J K⁻¹"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\Delta T \\approx 26.9$ K and final $T \\approx 400$ K (127 °C) (±3 K)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Humid air at 298 K has an overall pressure of 1.0 bar and is 20. vol% $\\ce{O2}$ and 3.1 vol% $\\ce{H2O}$. What is the minimum volume percentage of $\\ce{H2}(g)$ in humid air necessary for its combustion to be spontaneous?",
+        "key_md": "$\\Delta G = \\Delta G^\\circ + RT\\ln Q$. At 298 K, $\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ = -241.8\\ \\text{kJ mol}^{-1} - (298\\ \\text{K})(-0.0445\\ \\text{kJ mol}^{-1}\\text{K}^{-1}) = -228.5\\ \\text{kJ mol}^{-1}$.\n\nFor the reaction to just be spontaneous, $\\Delta G = 0$, so $Q = e^{-\\Delta G^\\circ/RT} = 1.1 \\times 10^{40}$.\n\n$Q = 1.1\\times10^{40} = \\dfrac{p(\\ce{H2O})}{p(\\ce{H2})\\cdot p(\\ce{O2})^{1/2}}$\n\nSubstituting in $p(\\ce{H2O}) = 0.031$ bar and $p(\\ce{O2}) = 0.20$ bar gives\n\n$p(\\ce{H2}) = 6.1 \\times 10^{-42}$ bar\n\nThis corresponds to $6.1 \\times 10^{-40}$ volume% of $\\ce{H2}$. (This is much, much less than one molecule per liter, so any amount of hydrogen in humid air would react spontaneously to form water vapor.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\Delta G^\\circ = -228.5$ kJ mol⁻¹ at 298 K (±1)"
+          },
+          {
+            "points": 1,
+            "criterion": "Sets $\\Delta G = 0$ to obtain $Q = e^{-\\Delta G^\\circ/RT} \\approx 1.1\\times10^{40}$ with the correct expression $Q = p(\\ce{H2O})/[p(\\ce{H2})p(\\ce{O2})^{1/2}]$"
+          },
+          {
+            "points": 1,
+            "criterion": "$p(\\ce{H2}) \\approx 6\\times10^{-42}$ bar, i.e. $\\approx 6\\times10^{-40}$ vol% $\\ce{H2}$"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "The lower flammability limit (LFL) of a substance is its minimum volumetric concentration needed to propagate a flame under a given set of conditions. The LFL of hydrogen gas in humid air is approximately 4%. Account for the difference between your answer in part d and the experimental value for the LFL.",
+        "key_md": "The *thermodynamic* spontaneity of the reaction need not correspond to the *kinetic* conditions required to support a self-sustaining flame. Evidently at concentrations below about 4 vol%, the reaction cannot proceed rapidly enough to produce enough reactive intermediates to support continued rapid reaction.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States that thermodynamic spontaneity does not determine rate — the LFL is a kinetic criterion"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that below ~4 vol% the reaction is too slow / cannot generate enough reactive intermediates (radicals) to sustain a flame"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2023 National Part II exam, problem 3. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2023-N-P4",
+    "year": 2023,
+    "level": "national",
+    "number": 4,
+    "title": "Vapor Pressure and Freezing Point of MgCl2 Solution",
+    "topic_id": "states-of-matter",
+    "intro_md": "The vapor pressure of pure water at its melting point, 0.0 °C, is 611 Pa ($6.11 \\times 10^{-3}$ bar).",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "0.880 mol $\\ce{MgCl2}$ is added to 1.00 kg liquid water at 0.0 °C. Calculate the vapor pressure of this solution.",
+        "key_md": "$P_\\text{vap,soln} = (x_{\\ce{H2O}})(P_{\\text{vap }\\ce{H2O}\\text{, pure}})$\n\n$n_{\\ce{H2O}} = 1000\\ \\text{g} \\times 1\\ \\text{mol}/18.02\\ \\text{g} = 55.49\\ \\text{mol}$\n\nBecause each mol $\\ce{MgCl2}$ forms 3 moles of ions, the total moles are 55.49 mol $\\ce{H2O}$ + 3(0.880) mol ions = 58.13 mol. So $x_{\\ce{H2O}} = 55.49/58.13 = 0.955$.\n\n$P_\\text{vap,soln} = (0.955)(611\\ \\text{Pa}) = 584\\ \\text{Pa}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses Raoult's law with the mole fraction of water counting 3 mol of ions per mol $\\ce{MgCl2}$ (total 58.13 mol)"
+          },
+          {
+            "points": 1,
+            "criterion": "$x_{\\ce{H2O}} = 0.955$ and $P = 584$ Pa (±3 Pa)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "The enthalpy of sublimation of ice is 51.1 kJ mol$^{-1}$ at 0.0 °C and the enthalpy of vaporization of liquid water is 45.1 kJ mol$^{-1}$ at 0.0 °C. Assuming these enthalpies are independent of temperature, calculate the temperature at which pure ice has the same vapor pressure as the magnesium chloride solution at 0.0 °C calculated in part a.",
+        "key_md": "$\\ln(P_2/P_1) = (-\\Delta H^\\circ_\\text{subl}/R)(1/T_2 - 1/T_1)$\n\n$\\ln(584\\ \\text{Pa}/611\\ \\text{Pa}) = (-51100\\ \\text{J mol}^{-1}/8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(1/T_2 - 1/273.15\\ \\text{K})$\n\n$7.353 \\times 10^{-6}\\ \\text{K}^{-1} = 1/T_2 - 1/273.15\\ \\text{K}$\n\n$T_2 = 272.6\\ \\text{K} = -0.5\\ ^\\circ\\text{C}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Applies Clausius–Clapeyron with $\\Delta H_\\text{subl} = 51.1$ kJ mol$^{-1}$ between 611 Pa and 584 Pa"
+          },
+          {
+            "points": 1,
+            "criterion": "$T_2 = 272.6$ K = $-0.5$ °C (±0.2 K)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "At the freezing point temperature of the aqueous magnesium chloride solution, the vapor pressure of the solution is equal to the vapor pressure of pure ice. Explain why this statement is true.",
+        "key_md": "When the solution freezes, the solid formed is pure ice. Unlike the flexible structure of water in solution, the ice crystal has a rigid structure that cannot accommodate impurities such as magnesium or chloride ions. If pure ice is in equilibrium with the aqueous solution, then the vapor in equilibrium with ice must be in equilibrium with the vapor in equilibrium with the solution. This is the same as saying that the vapor pressures are equal.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the solid that forms is pure ice (excludes the ions from the rigid crystal)"
+          },
+          {
+            "points": 2,
+            "criterion": "Argues that ice in equilibrium with solution means both are in equilibrium with the same vapor, so their vapor pressures must be equal"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Using the principle enunciated in part c, calculate the freezing point temperature of the solution of 0.880 mol $\\ce{MgCl2}$ dissolved in 1.00 kg water.",
+        "key_md": "At the freezing point temperature, the vapor pressure of pure ice is equal to the vapor pressure of the solution, which is 0.955 times the vapor pressure of pure water at this temperature (as in part a). If we call this vapor pressure $P_\\text{f}$, then:\n\nFrom the temperature-dependence of the vapor pressure of ice:\n\n$\\ln(P_\\text{f}/611\\ \\text{Pa}) = (-\\Delta H^\\circ_\\text{subl}/R)(1/T_\\text{f} - 1/273.15\\ \\text{K})$\n\n$\\ln(P_\\text{f}) = (-\\Delta H^\\circ_\\text{subl}/R)(1/T_\\text{f} - 1/273.15\\ \\text{K}) + \\ln(611\\ \\text{Pa})$\n\nThe vapor pressure of pure water at this temperature is $P_\\text{f}/0.955$, so:\n\n$\\ln(1.047 \\cdot P_\\text{f}/611\\ \\text{Pa}) = (-\\Delta H^\\circ_\\text{vap}/R)(1/T_\\text{f} - 1/273.15\\ \\text{K})$\n\n$\\ln(P_\\text{f}) = (-\\Delta H^\\circ_\\text{vap}/R)(1/T_\\text{f} - 1/273.15\\ \\text{K}) + \\ln(611\\ \\text{Pa}) - \\ln(1.047)$\n\nEquating the two expressions for $\\ln(P_\\text{f})$ gives:\n\n$\\ln(1.047) = ([\\Delta H^\\circ_\\text{subl} - \\Delta H^\\circ_\\text{vap}]/R)\\cdot(1/T_\\text{f} - 1/273.15\\ \\text{K})$\n\n$6.36 \\times 10^{-5}\\ \\text{K}^{-1} = (1/T_\\text{f} - 1/273.15\\ \\text{K})$\n\n$T_\\text{f} = 268.5\\ \\text{K} = -4.7\\ ^\\circ\\text{C}$\n\nNote that this number is slightly different from the value obtained from the molal freezing point depression equation ($-4.9\\ ^\\circ$C), as the derivation of that equation assumes that $\\ln(1 - x) \\approx -x$ and that $1/T_2 - 1/T_1 \\approx (\\Delta T)/T_1^2$. Those assumptions are fine at the limit of dilute concentrations but they introduce small errors as concentration is increased.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Sets the vapor pressure of ice equal to $0.955\\times$ the vapor pressure of pure (supercooled) water at $T_\\text{f}$"
+          },
+          {
+            "points": 2,
+            "criterion": "Writes Clausius–Clapeyron expressions for ice (using $\\Delta H_\\text{subl}$) and liquid (using $\\Delta H_\\text{vap}$) and combines them to get $\\ln(1.047) = [(\\Delta H_\\text{subl} - \\Delta H_\\text{vap})/R](1/T_\\text{f} - 1/273.15)$"
+          },
+          {
+            "points": 1,
+            "criterion": "$T_\\text{f} = 268.5$ K = $-4.7$ °C (±0.3 K)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "e",
+        "stem_md": "The temperature calculated in part d is the temperature of the system when the first solid appears at equilibrium as the system is cooled. As more solid is formed, do you expect the temperature to increase, decrease, or remain constant? Briefly justify your choice.",
+        "key_md": "As more pure ice crystallizes from the solution, the concentration of ions in solution increases, further depressing the freezing point. Thus the temperature will decrease as more solid forms.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the temperature decreases"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies: removing pure ice concentrates the ions in the remaining solution, further depressing the freezing point"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2023 National Part II exam, problem 4. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2023-N-P5",
+    "year": 2023,
+    "level": "national",
+    "number": 5,
+    "title": "Net ionic equations for six reactions",
+    "topic_id": "descriptive",
+    "intro_md": "Write net equations for each of the reactions below. Use appropriate ionic and molecular formulas and omit formulas for all ions or molecules that do not take part in a reaction. Write structural formulas for all organic substances, and clearly show stereochemistry where relevant. You need not balance the equations or show the phase of the species.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Aqueous hydrochloric acid is added to a solution of sodium hypochlorite.",
+        "key_md": "$\\ce{H+ + Cl- + OCl- -> Cl2 + H2O}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{H+}$, $\\ce{Cl-}$ and $\\ce{OCl-}$ identified"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Cl2}$ and $\\ce{H2O}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "Aluminum foil is added to concentrated aqueous potassium hydroxide solution.",
+        "key_md": "$\\ce{Al + OH- + H2O -> Al(OH)4- + H2}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{Al}$, $\\ce{OH-}$ (and $\\ce{H2O}$)"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Al(OH)4-}$ and $\\ce{H2}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Metallic sodium is added to liquid ammonia in the presence of a trace amount of iron(III) nitrate.",
+        "key_md": "$\\ce{Na + NH3 -> Na+ + NH2- + H2}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Reactants $\\ce{Na}$ and $\\ce{NH3}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Products $\\ce{Na+}$, $\\ce{NH2-}$ and $\\ce{H2}$ (amide, not solvated electron)"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Potassium tetrachloroplatinate is heated with two equivalents of aqueous ammonia. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{PtCl4^2- + NH3 ->}$ *cis*-$\\ce{Pt(NH3)2Cl2}$ + $\\ce{Cl-}$\n\nThe drawn product is the square planar platinum(II) complex with two $\\ce{NH3}$ ligands adjacent to each other and two $\\ce{Cl}$ ligands adjacent to each other (*cis* isomer), plus free $\\ce{Cl-}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct reactants and product $\\ce{Pt(NH3)2Cl2}$ with $\\ce{Cl-}$ released"
+          },
+          {
+            "points": 1,
+            "criterion": "Square planar geometry with *cis* arrangement shown"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Sodium *tert*-butoxide is added to 3-bromo-3-ethylpentane in *N,N*-dimethylformamide (DMF) solution. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{(CH3)3CO- + }$ 3-bromo-3-ethylpentane $\\ce{->}$ 3-ethyl-2-pentene (drawn as the trisubstituted alkene $\\ce{CH3CH=C(CH2CH3)CH2CH3}$) + $\\ce{(CH3)3COH}$ + $\\ce{Br-}$\n\nElimination (E2) gives the alkene, *tert*-butyl alcohol, and bromide ion.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes elimination and gives the alkene 3-ethyl-2-pentene as organic product"
+          },
+          {
+            "points": 1,
+            "criterion": "Also shows $\\ce{(CH3)3COH}$ and $\\ce{Br-}$"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Cobalt-57 undergoes radioactive decay by electron capture.",
+        "key_md": "$\\ce{^57Co -> ^57Fe + \\gamma}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Product nuclide $\\ce{^57Fe}$ (mass number conserved, Z decreases by 1)"
+          },
+          {
+            "points": 1,
+            "criterion": "Equation written including electron capture/gamma emission"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2023 National Part II exam, problem 5. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2023-N-P6",
+    "year": 2023,
+    "level": "national",
+    "number": 6,
+    "title": "Platinum chloro complexes and electrolysis potentials",
+    "topic_id": "redox",
+    "intro_md": "The standard reduction potentials of some compounds of platinum and silver at 298 K are given below.\n\nHalf-reaction — $E^\\circ$, V\n\n$\\ce{Pt^2+(aq) + 2e- -> Pt(s)}$ — +1.188\n\n$\\ce{PtCl4^2-(aq) + 2e- -> Pt(s) + 4 Cl-(aq)}$ — +0.758\n\n$\\ce{PtCl6^2-(aq) + 2e- -> PtCl4^2-(aq) + 2 Cl-(aq)}$ — +0.726\n\n$\\ce{Ag+(aq) + e- -> Ag(s)}$ — +0.799\n\n(After part b:) An electrolytic cell is set up as shown below. The cell consists of a Pt electrode immersed in a solution that is 0.0010 M $\\ce{PtCl4^2-}$ and 0.10 M $\\ce{Cl-}$, and an Ag electrode immersed in 0.10 M $\\ce{Ag+}$; the two half-cells are joined by a salt bridge, and the electrodes are connected through a battery with the Pt electrode attached to the positive (+) terminal and the Ag electrode to the negative (–) terminal.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "What is $K_\\text{f}$ for the $\\ce{PtCl4^2-}$ ion?",
+        "key_md": "$\\ce{Pt^2+(aq) + 2e- -> Pt(s)}$  $\\Delta G^\\circ = -2F(1.188\\ \\text{V})$\n\n$\\ce{Pt(s) + 4 Cl-(aq) -> PtCl4^2-(aq) + 2e-}$  $\\Delta G^\\circ = -2F(-0.758\\ \\text{V})$\n\n$\\ce{Pt^2+(aq) + 4 Cl-(aq) -> PtCl4^2-(aq)}$  $\\Delta G^\\circ = -2F(1.188 - 0.758\\ \\text{V}) = -83.0\\ \\text{kJ mol}^{-1}$\n\n$K_\\text{f} = e^{-\\Delta G^\\circ/RT} = e^{-(-83000\\ \\text{J mol}^{-1})/(8.314\\ \\text{J mol}^{-1}\\text{K}^{-1})(298\\ \\text{K})}$\n\n$K_\\text{f} = 3.5 \\times 10^{14}$",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Combines the two half-reactions to give $E^\\circ = 1.188 - 0.758 = 0.430$ V (n = 2) for $\\ce{Pt^2+ + 4 Cl- -> PtCl4^2-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Computes $\\Delta G^\\circ = -nFE^\\circ = -83.0$ kJ mol⁻¹ (or uses $\\ln K = nFE^\\circ/RT$)"
+          },
+          {
+            "points": 1,
+            "criterion": "$K_\\text{f} = 3.5 \\times 10^{14}$ (accept $3\\text{–}4 \\times 10^{14}$)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "What is $E^\\circ$ for the reduction of hexachloroplatinate(IV) to give platinum metal?\n\n$\\ce{PtCl6^2-(aq) + 4e- -> Pt(s) + 6 Cl-(aq)}$",
+        "key_md": "$\\ce{PtCl6^2-(aq) + 2e- -> PtCl4^2-(aq) + 2 Cl-(aq)}$  $\\Delta G^\\circ = -2F(0.726\\ \\text{V})$\n\n$\\ce{PtCl4^2-(aq) + 2e- -> Pt(s) + 4 Cl-(aq)}$  $\\Delta G^\\circ = -2F(0.758\\ \\text{V})$\n\n$\\ce{PtCl6^2-(aq) + 4e- -> Pt(s) + 6 Cl-(aq)}$  $\\Delta G^\\circ = -2F(0.726 + 0.758\\ \\text{V})$\n\nFor the summed half-reaction, $\\Delta G^\\circ = -4FE^\\circ$. So $E^\\circ = (0.726 + 0.758\\ \\text{V})/2 = 0.742$ V.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Adds the two half-reactions using $\\Delta G^\\circ$ (free energies), not by simply adding potentials"
+          },
+          {
+            "points": 1,
+            "criterion": "$E^\\circ = 0.742$ V"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "What is the minimum potential that would need to be applied in order to cause the platinum electrode to dissolve to form $\\ce{PtCl4^2-}(aq)$ and the $\\ce{Ag+}(aq)$ to deposit on the Ag electrode?",
+        "key_md": "The net reaction of the electrolysis is:\n\n$\\ce{2 Ag+(aq) + Pt(s) + 4 Cl-(aq) -> 2 Ag(s) + PtCl4^2-(aq)}$\n\nFor this reaction, $E^\\circ = 0.799\\ \\text{V} - 0.758\\ \\text{V} = 0.041$ V\n\nUnder the nonstandard conditions of the electrolysis setup:\n\n$E = E^\\circ - \\dfrac{RT}{2F}\\ln\\dfrac{[\\ce{PtCl4^2-}]}{[\\ce{Ag+}]^2[\\ce{Cl-}]^4}$\n\n$E = 0.041\\ \\text{V} - 0.01284\\ \\text{V}\\cdot\\ln\\dfrac{[0.001]}{[0.1]^2[0.1]^4}$\n\n$E = -0.048$ V\n\nThus, at least 0.048 V of potential must be applied for electrons to flow spontaneously to oxidize the Pt and reduce the $\\ce{Ag+}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Writes the net cell reaction $\\ce{2 Ag+ + Pt + 4 Cl- -> 2 Ag + PtCl4^2-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "$E^\\circ = 0.799 - 0.758 = 0.041$ V"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct Nernst expression with $n = 2$ and $Q = [\\ce{PtCl4^2-}]/([\\ce{Ag+}]^2[\\ce{Cl-}]^4)$ using 0.0010, 0.10, 0.10 M"
+          },
+          {
+            "points": 1,
+            "criterion": "$E = -0.048$ V, so a minimum applied potential of about 0.048 V (±0.005 V) is required"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "As electrolysis is carried out, is it thermodynamically possible for a significant amount of hexachloroplatinate(IV) to be produced at the anode? Justify your answer.",
+        "key_md": "There are several ways to analyze this situation. One is to consider the electrolytic oxidation to form $\\ce{PtCl6^2-}$:\n\n$\\ce{4 Ag+(aq) + Pt(s) + 6 Cl-(aq) -> 4 Ag(s) + PtCl6^2-(aq)}$\n\n$E^\\circ = 0.799\\ \\text{V} - 0.742\\ \\text{V} = 0.057$ V\n\nThis reaction is thus even more favorable under standard conditions than formation of $\\ce{PtCl4^2-}$! Under these nonstandard conditions,\n\n$E = E^\\circ - \\dfrac{RT}{4F}\\ln\\dfrac{[\\ce{PtCl6^2-}]}{[\\ce{Ag+}]^4[\\ce{Cl-}]^6}$\n\n$E = 0.057\\ \\text{V} - (0.00642\\ \\text{V})\\ln\\dfrac{[\\ce{PtCl6^2-}]}{[0.1]^4[0.1]^6}$\n\n$E = -0.091\\ \\text{V} - (0.00642\\ \\text{V})\\ln([\\ce{PtCl6^2-}])$\n\nUnder the conditions of the electrolysis, this will be spontaneous if $E > -0.048$ V, which corresponds to $[\\ce{PtCl6^2-}] < 1.3 \\times 10^{-3}$ M. So in fact $\\ce{PtCl6^2-}$ will (thermodynamically) be produced exclusively at the beginning of the electrolysis and will continue to be produced until its concentration is quite similar to that of the initial concentration of $\\ce{PtCl4^2-}$ (there will be some slight effect of the changing $\\ce{Cl-}$ and $\\ce{Ag+}$ concentrations). This is definitely significant! (There may be kinetic factors at play that would favor one form over the other, but that is more difficult to predict, and the question specifically asked about the thermodynamic possibilities.)",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Answers yes — significant $\\ce{PtCl6^2-}$ production is thermodynamically possible"
+          },
+          {
+            "points": 1,
+            "criterion": "Compares the $\\ce{PtCl6^2-}$-forming cell reaction ($E^\\circ = 0.799 - 0.742 = 0.057$ V, n = 4) with that for $\\ce{PtCl4^2-}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Uses the Nernst equation to show it remains spontaneous at the applied 0.048 V until $[\\ce{PtCl6^2-}] \\approx 1.3 \\times 10^{-3}$ M, comparable to the initial $[\\ce{PtCl4^2-}]$"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "USNCO 2023 National Part II exam, problem 6. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2023-N-P7",
+    "year": 2023,
+    "level": "national",
+    "number": 7,
+    "title": "Fluoride vs methyl compounds: boiling points and bond lengths",
+    "topic_id": "bonding",
+    "intro_md": "Fluorine atoms and methyl groups each form one bond, so there are often analogous compounds with the formulas $\\ce{AF}_n$ and $\\ce{A(CH3)}_n$. In the graphs below, the normal boiling points and the A–X bond distances of a series of $\\ce{AX}_n$ molecules are compared (A = 2p element; X = F or $\\ce{CH3}$).\n\nBoiling point comparison (normal boiling point, °C, vs. species $\\ce{BX3}$, $\\ce{CX4}$, $\\ce{NX3}$, $\\ce{OX2}$, FX): the X = $\\ce{CH3}$ curve runs from about –20 °C ($\\ce{BX3}$) up to about +8 °C ($\\ce{CX4}$, $\\ce{NX3}$), about –15 °C ($\\ce{OX2}$), then down to about –75 °C (FX); the X = F curve runs from about –100 °C ($\\ce{BX3}$) to –128 °C ($\\ce{CX4}$), –129 °C ($\\ce{NX3}$), –145 °C ($\\ce{OX2}$), and –188 °C (FX).\n\nBond length comparison (bond length, pm, same species): the X = $\\ce{CH3}$ curve decreases from about 158 pm ($\\ce{BX3}$) to 154 pm ($\\ce{CX4}$), 145 pm ($\\ce{NX3}$), 141 pm ($\\ce{OX2}$), 138 pm (FX); the X = F curve increases from about 131 pm ($\\ce{BX3}$) to 132 pm ($\\ce{CX4}$), 137 pm ($\\ce{NX3}$), 141 pm ($\\ce{OX2}$), 142 pm (FX).",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw or clearly describe the shapes of the molecules $\\ce{BF3}$ and $\\ce{NF3}$. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "$\\ce{BF3}$ is trigonal planar, $\\ce{NF3}$ is trigonal pyramidal.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "$\\ce{BF3}$ identified/drawn as trigonal planar"
+          },
+          {
+            "points": 1,
+            "criterion": "$\\ce{NF3}$ identified/drawn as trigonal pyramidal"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "b",
+        "stem_md": "In all cases, the normal boiling points of the $\\ce{AF}_n$ molecules are lower than those of the $\\ce{A(CH3)}_n$ molecules. Explain this observation.",
+        "key_md": "In all of the molecules, the major type of intermolecular forces at play are London dispersion forces. F and $\\ce{CH3}$ have the same number of electrons, but the extremely high electronegativity of F means that it holds its electrons tightly and thus has an unusually low polarizability. This means that the ability of a spontaneous dipole in one molecule to induce a dipole in a neighboring molecule is low, and hence the LDF are relatively weak, leading to low boiling points.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States London dispersion forces dominate and F vs $\\ce{CH3}$ have the same electron count"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes weaker LDF (lower boiling points) to the low polarizability of F due to its high electronegativity"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Not counting the boron compounds, the trend in boiling points is that they decrease as the central atom A moves to the right in the periodic table. Explain this trend.",
+        "key_md": "As one moves to the right, from $\\ce{CX4}$ to FX, the number of electrons per molecule decreases as the number of X groups decreases. Since the London dispersion forces increase with increasing numbers of electrons, this leads to a general decline in normal boiling points.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Notes fewer X groups / fewer electrons per molecule moving right"
+          },
+          {
+            "points": 1,
+            "criterion": "Connects fewer electrons to weaker London dispersion forces and lower boiling points"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "d",
+        "stem_md": "Explain why $\\ce{BF3}$ has a higher boiling point than $\\ce{CF4}$, while $\\ce{B(CH3)3}$ has a lower boiling point than $\\ce{C(CH3)4}$.",
+        "key_md": "Based on the reasoning in c., the relatively low boiling point of $\\ce{B(CH3)3}$ is expected since it has fewer electrons than $\\ce{C(CH3)4}$. $\\ce{BF3}$'s relatively high boiling point is surprising on these grounds. The Lewis acidity of $\\ce{BF3}$ means that there are weak intermolecular attractions based on the weakly Lewis basic lone pairs on F interacting with the empty $p$ orbital on the boron of a neighboring molecule. This type of interaction is not possible in any of the other molecules.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Explains $\\ce{B(CH3)3}$ < $\\ce{C(CH3)4}$ by fewer electrons / weaker LDF as in part c"
+          },
+          {
+            "points": 2,
+            "criterion": "Attributes the anomalously high $\\ce{BF3}$ boiling point to Lewis acid–base (donor–acceptor) interaction of F lone pairs with the empty p orbital on B of a neighboring molecule"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "Explain why the A–C bond distances decrease as A moves to the right in the periodic table.",
+        "key_md": "As one moves to the right in the 2p block, the atomic radius of A becomes smaller because the increasing effective nuclear charge (since the added electrons only incompletely shield the added protons). The contracted orbitals around A thus form bonds at shorter interatomic distances.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States increasing effective nuclear charge / incomplete shielding across the period"
+          },
+          {
+            "points": 1,
+            "criterion": "Concludes smaller atomic radius (contracted orbitals) gives shorter A–C bonds"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "f",
+        "stem_md": "Explain why the A–F bond distances increase as A moves to the right in the periodic table.",
+        "key_md": "The decreasing atomic size of A is offset by increasing lone pair–lone pair repulsions between A and F as one goes to the right in the periodic table. (At the left, $\\ce{BF3}$ actually has an attractive interaction between the empty $p$ orbital on B and the filled $p$ orbitals on F.) This weakens the bonds and pushes the atoms farther apart.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes the decreasing atomic size is offset by another effect"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies increasing lone pair–lone pair repulsion between A and F (or loss of B–F p-donation) as weakening/lengthening the bond"
+          }
+        ],
+        "max_points": 2
+      }
+    ],
+    "source": "USNCO 2023 National Part II exam, problem 7. © American Chemical Society; reproduced for non-commercial practice."
+  },
+  {
+    "id": "2023-N-P8",
+    "year": 2023,
+    "level": "national",
+    "number": 8,
+    "title": "Cyclopentanone vs 1-methylcyclopentene reactivity",
+    "topic_id": "organic",
+    "intro_md": "Consider the two cyclic compounds cyclopentanone and 1-methylcyclopentene.\n\n(Structures shown: cyclopentanone, a five-membered ring with a C=O; 1-methylcyclopentene, a cyclopentene ring bearing a $\\ce{CH3}$ group on one of the alkene carbons.)",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Which compound has the higher normal boiling point?  Justify your choice.",
+        "key_md": "Cyclopentanone has the higher normal boiling point (131 °C vs. 76 °C). Both compounds have the same number of electrons and roughly the same shape, so London dispersion forces should be very similar in the two compounds. Neither substance forms hydrogen bonds in the pure liquids. 1-Methylcyclopentene contains only nonpolar carbon-carbon and carbon-hydrogen bonds, while cyclopentanone has a very polar $\\ce{C=O}$ bond. So cyclopentanone experiences significant dipole-dipole interactions, which strengthens its intramolecular attractions compared to 1-methylcyclopentene.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies cyclopentanone as having the higher boiling point"
+          },
+          {
+            "points": 1,
+            "criterion": "Notes that London dispersion forces (similar electron count/shape) are comparable and no hydrogen bonding occurs in either pure liquid"
+          },
+          {
+            "points": 1,
+            "criterion": "Attributes the higher bp to dipole–dipole attractions from the polar C=O bond, absent in the nonpolar alkene"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "One of the two compounds will rapidly decolorize bromine in carbon tetrachloride solvent.  Which one?  Draw the structure of the major product formed in the reaction, clearly showing stereochemistry if relevant. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "1-Methylcyclopentene reacts with $\\ce{Br2}$. The product is 1,2-dibromo-1-methylcyclopentane: a cyclopentane ring with $\\ce{CH3}$ and $\\ce{Br}$ on C1 and $\\ce{Br}$ on C2, with the two bromines *trans* to one another (anti addition), formed as a racemic mixture.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies 1-methylcyclopentene as the reactive compound"
+          },
+          {
+            "points": 1,
+            "criterion": "Draws/describes 1,2-dibromo-1-methylcyclopentane as the product"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows trans (anti) stereochemistry, racemic"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "One of the two compounds will react rapidly with the Grignard reagent methylmagnesium bromide.  Which one?  Draw the structure of the major organic product formed in the reaction (as isolated after workup with dilute aqueous acid), clearly showing stereochemistry if relevant. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Cyclopentanone reacts with $\\ce{CH3MgBr}$; after aqueous workup the product is 1-methylcyclopentanol (cyclopentane ring bearing both $\\ce{OH}$ and $\\ce{CH3}$ on the same carbon). No stereochemistry is relevant (the carbinol carbon is not a stereocenter).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies cyclopentanone as the reactive compound"
+          },
+          {
+            "points": 2,
+            "criterion": "Draws/describes 1-methylcyclopentanol as the product after aqueous workup"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The product of the reaction in part c can be transformed into either cyclopentanone or 1-methylcyclopentene in good yield in a single reaction.  Specify which compound is the product and the reagent(s) needed to accomplish this transformation.",
+        "key_md": "1-Methylcyclopentanol is dehydrated to 1-methylcyclopentene using $\\ce{H2SO4}$ with heat.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States the product is 1-methylcyclopentene"
+          },
+          {
+            "points": 1,
+            "criterion": "Gives acid (e.g. $\\ce{H2SO4}$) with heat as the reagent for dehydration"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "e",
+        "stem_md": "Both cyclopentanone and 1-methylcyclopentene are achiral.  Draw the structure of an acyclic isomer of 1-methylcyclopentene that is chiral. *Type the structure as a name, condensed formula or SMILES; describe plots in words.*",
+        "key_md": "Either of the following $\\ce{C6H10}$ isomers is acceptable:\n\n- 3-methyl-1-pentyne, $\\ce{HC#C-CH(CH3)CH2CH3}$, drawn with a defined configuration at the stereogenic C3 (H shown with a wedge/dash).\n- A chiral (axially chiral) allene, $\\ce{CH3(H)C=C=C(H)CH2CH3}$ (2,3-hexadiene), drawn with the substituents in perpendicular planes.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Structure drawn is acyclic and an isomer of 1-methylcyclopentene ($\\ce{C6H10}$)"
+          }
+        ],
+        "max_points": 1
+      }
+    ],
+    "source": "USNCO 2023 National Part II exam, problem 8. © American Chemical Society; reproduced for non-commercial practice."
+  }
+]

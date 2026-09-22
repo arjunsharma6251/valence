@@ -40,7 +40,17 @@ Grade each sub-part strictly against its rubric:
 - If an answer is blank, award 0 and say "No answer given."
 - "missing" names exactly which rubric criteria were not met, in one or two sentences a student can act on.
 - "common_mistakes" names the specific misconception if the error matches a common one; otherwise leave it empty.
-Keep all text short and plain. Do not restate the key; the student sees the model answer separately.`;
+Keep all text short and plain. Do not restate the key; the student sees the model answer separately.
+Return one entry per sub-part, in order, with "label" exactly as printed after "Part" (for example "a" or "e(i)"), nothing else.`;
+
+/** Match a graded part back to the problem's part despite label drift ("(a)", "Part a", "A"). */
+export function matchGradedPart<T extends { label: string }>(graded: T[], parts: { label: string }[], index: number): T | undefined {
+  const norm = (s: string) => s.toLowerCase().replace(/part/g, "").replace(/[^a-z0-9]/g, "");
+  const want = norm(parts[index].label);
+  const byLabel = graded.find((g) => norm(g.label) === want);
+  if (byLabel) return byLabel;
+  return graded.length === parts.length ? graded[index] : undefined;
+}
 
 export function buildGradePrompt(problem: FrqProblem, answers: Record<string, string>): string {
   const parts = problem.parts

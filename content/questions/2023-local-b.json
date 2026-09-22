@@ -13,31 +13,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CH4"
+        "text_md": "$\\ce{CH4}$"
       },
       {
         "label": "B",
-        "text_md": "C3H6"
+        "text_md": "$\\ce{C3H6}$"
       },
       {
         "label": "C",
-        "text_md": "C6H14"
+        "text_md": "$\\ce{C6H14}$"
       },
       {
         "label": "D",
-        "text_md": "C8H18"
+        "text_md": "$\\ce{C8H18}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 1. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-02b",
     "year": 2023,
     "level": "local",
     "number": 2,
-    "stem_md": "Rhenium (Re) consists of two stable isotopes, 185Re and 187Re. The average atomic mass of Re is 186.2 amu. What is the mole percent of 185Re in rhenium?",
+    "stem_md": "Rhenium (Re) consists of two stable isotopes, $^{185}\\ce{Re}$ and $^{187}\\ce{Re}$. The average atomic mass of Re is 186.2 amu. What is the mole percent of $^{185}\\ce{Re}$ in rhenium?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -63,14 +64,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 2. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-03b",
     "year": 2023,
     "level": "local",
     "number": 3,
-    "stem_md": "A 10.00 g sample of a soluble barium salt is treated with an excess of sodium sulfate to precipitate 8.93 g BaSO4 (M = 233.4). Which barium salt is it?",
+    "stem_md": "A 10.00 g sample of a soluble barium salt is treated with an excess of sodium sulfate to precipitate 8.93 g $\\ce{BaSO4}$ (M = 233.4). Which barium salt is it?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -79,31 +81,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "BaCl2 (M = 208.2)"
+        "text_md": "$\\ce{BaCl2}$ (M = 208.2)"
       },
       {
         "label": "B",
-        "text_md": "Ba(O2CH)2 (M = 227.3)"
+        "text_md": "$\\ce{Ba(O2CH)2}$ (M = 227.3)"
       },
       {
         "label": "C",
-        "text_md": "Ba(NO3)2 (M = 261.3)"
+        "text_md": "$\\ce{Ba(NO3)2}$ (M = 261.3)"
       },
       {
         "label": "D",
-        "text_md": "BaBr2 (M = 297.1)"
+        "text_md": "$\\ce{BaBr2}$ (M = 297.1)"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 3. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-04b",
     "year": 2023,
     "level": "local",
     "number": 4,
-    "stem_md": "How much Sr(OH)2 • 8 H2O (M = 265.76) is needed to prepare 150.0 mL of solution in which [OH-] = 0.100 M?",
+    "stem_md": "How much $\\ce{Sr(OH)2 . 8 H2O}$ (M = 265.76) is needed to prepare 150.0 mL of solution in which $[\\ce{OH-}]$ = 0.100 M?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -129,14 +132,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 4. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-05b",
     "year": 2023,
     "level": "local",
     "number": 5,
-    "stem_md": "Which procedure produces a 0.2 M solution of Na2SO4?",
+    "stem_md": "Which procedure produces a 0.2 M solution of $\\ce{Na2SO4}$?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -145,31 +149,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Mixing 500 mL of 0.4 M NaOH with 500 mL of 0.2 M Na2SO4"
+        "text_md": "Mixing 500 mL of 0.4 M $\\ce{NaOH}$ with 500 mL of 0.2 M $\\ce{Na2SO4}$"
       },
       {
         "label": "B",
-        "text_md": "Mixing 300 mL of 1.2 M NaOH with 600 mL of 0.3 M H2SO4"
+        "text_md": "Mixing 300 mL of 1.2 M $\\ce{NaOH}$ with 600 mL of 0.3 M $\\ce{H2SO4}$"
       },
       {
         "label": "C",
-        "text_md": "Dissolving 0.2 mol solid Na2SO4 in 500 mL water"
+        "text_md": "Dissolving 0.2 mol solid $\\ce{Na2SO4}$ in 500 mL water"
       },
       {
         "label": "D",
-        "text_md": "Diluting 400 mL of 0.3 M Na2SO4 to a final volume of 1.0 L"
+        "text_md": "Diluting 400 mL of 0.3 M $\\ce{Na2SO4}$ to a final volume of 1.0 L"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 5. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-06b",
     "year": 2023,
     "level": "local",
     "number": 6,
-    "stem_md": "10.0 g of an alkali metal chloride salt is dissolved in 90.0 g H2O. This solution has a vapor pressure that is 3.2% lower than that of pure water at the same temperature. What is the salt?",
+    "stem_md": "10.0 g of an alkali metal chloride salt is dissolved in 90.0 g $\\ce{H2O}$. This solution has a vapor pressure that is 3.2% lower than that of pure water at the same temperature. What is the salt?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -178,24 +183,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "LiCl"
+        "text_md": "$\\ce{LiCl}$"
       },
       {
         "label": "B",
-        "text_md": "NaCl"
+        "text_md": "$\\ce{NaCl}$"
       },
       {
         "label": "C",
-        "text_md": "KCl"
+        "text_md": "$\\ce{KCl}$"
       },
       {
         "label": "D",
-        "text_md": "RbCl"
+        "text_md": "$\\ce{RbCl}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 6. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-07b",
@@ -228,7 +234,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 7. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-08b",
@@ -244,24 +251,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "HBrO"
+        "text_md": "$\\ce{HBrO}$"
       },
       {
         "label": "B",
-        "text_md": "HBrO2"
+        "text_md": "$\\ce{HBrO2}$"
       },
       {
         "label": "C",
-        "text_md": "HBrO3"
+        "text_md": "$\\ce{HBrO3}$"
       },
       {
         "label": "D",
-        "text_md": "HBrO4"
+        "text_md": "$\\ce{HBrO4}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 8. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-09b",
@@ -277,24 +285,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "SO3"
+        "text_md": "$\\ce{SO3}$"
       },
       {
         "label": "B",
-        "text_md": "H2O2"
+        "text_md": "$\\ce{H2O2}$"
       },
       {
         "label": "C",
-        "text_md": "MgCl2"
+        "text_md": "$\\ce{MgCl2}$"
       },
       {
         "label": "D",
-        "text_md": "NH4Br"
+        "text_md": "$\\ce{NH4Br}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 9. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-10b",
@@ -310,24 +319,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Aluminum (Al)"
+        "text_md": "Aluminum ($\\ce{Al}$)"
       },
       {
         "label": "B",
-        "text_md": "Zinc (Zn)"
+        "text_md": "Zinc ($\\ce{Zn}$)"
       },
       {
         "label": "C",
-        "text_md": "Cesium (Cs)"
+        "text_md": "Cesium ($\\ce{Cs}$)"
       },
       {
         "label": "D",
-        "text_md": "Mercury (Hg)"
+        "text_md": "Mercury ($\\ce{Hg}$)"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 10. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-11b",
@@ -360,14 +370,49 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 11. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-L-12b",
+    "year": 2023,
+    "level": "local",
+    "number": 12,
+    "stem_md": "Which 50-mL container would be most suitable for measuring and dispensing 37 mL of an aqueous solution?",
+    "figure_url": "/figures/2023-L-12b.png",
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 Local exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-13b",
     "year": 2023,
     "level": "local",
     "number": 13,
-    "stem_md": "What is the partial pressure of Ar in a gaseous mixture of 3.25 g Ar and 2.28 g Kr in a 5.00 L container at 15.0 °C?",
+    "stem_md": "What is the partial pressure of $\\ce{Ar}$ in a gaseous mixture of 3.25 g $\\ce{Ar}$ and 2.28 g $\\ce{Kr}$ in a 5.00 L container at 15.0 °C?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -393,14 +438,49 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 13. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-L-14b",
+    "year": 2023,
+    "level": "local",
+    "number": 14,
+    "stem_md": "Which isomer of $\\ce{C4H10O2}$ has the highest normal boiling point?",
+    "figure_url": "/figures/2023-L-14b.png",
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 Local exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-15b",
     "year": 2023,
     "level": "local",
     "number": 15,
-    "stem_md": "Which statements about the behavior of gaseous H2 molecules in a container at 1 atm and 298 K are correct? I. All H2 molecules are moving at the same speed. II. The H2 molecules are colliding more frequently with the walls of the container than they would in the same container at 398 K.",
+    "stem_md": "Which statements about the behavior of gaseous $\\ce{H2}$ molecules in a container at 1 atm and 298 K are correct?\n\nI. All $\\ce{H2}$ molecules are moving at the same speed.\n\nII. The $\\ce{H2}$ molecules are colliding more frequently with the walls of the container than they would in the same container at 398 K.",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -426,15 +506,16 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 15. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-16b",
     "year": 2023,
     "level": "local",
     "number": 16,
-    "stem_md": "A portion of the phase diagram of uranium hexafluoride (UF6) is shown below. Which statements are correct? I. UF6 sublimes, rather than melts, at 1 atm pressure. II. At 2 atm and 45 °C, only solid UF6 is present at equilibrium.",
-    "figure_url": null,
+    "stem_md": "A portion of the phase diagram of uranium hexafluoride ($\\ce{UF6}$) is shown below. Which statements are correct?\n\nI. $\\ce{UF6}$ sublimes, rather than melts, at 1 atm pressure.\n\nII. At 2 atm and 45 °C, only solid $\\ce{UF6}$ is present at equilibrium.",
+    "figure_url": "/figures/2023-L-16b.png",
     "topic_id": "states-of-matter",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -459,14 +540,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 16. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-17b",
     "year": 2023,
     "level": "local",
     "number": 17,
-    "stem_md": "How many nearest neighbors does each silicon atom have in a crystal of Si?",
+    "stem_md": "How many nearest neighbors does each silicon atom have in a crystal of $\\ce{Si}$?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -492,14 +574,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 17. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-18b",
     "year": 2023,
     "level": "local",
     "number": 18,
-    "stem_md": "A sample of methanol, CH3OH, is introduced into an evacuated chamber with a movable piston. The pressure is measured as a function of the volume of the container while the temperature is maintained at 50 °C, and the graph below is obtained. Which statement best describes this system?",
+    "stem_md": "A sample of methanol, $\\ce{CH3OH}$, is introduced into an evacuated chamber with a movable piston. The pressure is measured as a function of the volume of the container while the temperature is maintained at 50 °C, and the graph below is obtained. Which statement best describes this system?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -520,12 +603,13 @@
       },
       {
         "label": "D",
-        "text_md": "If more methanol were added to the container, the pressure at V = 20 mL would increase."
+        "text_md": "If more methanol were added to the container, the pressure at $V = 20$ mL would increase."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 18. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-19b",
@@ -558,14 +642,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 19. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-20b",
     "year": 2023,
     "level": "local",
     "number": 20,
-    "stem_md": "What is ∆G°f of NO(g) at 298 K? Substance ∆H°f , kJ mol-1 S°, J mol-1 K-1 N2(g) 0 191.6 O2(g) 0 205.2 NO(g) 90.3 210.8",
+    "stem_md": "What is $\\Delta G^\\circ_\\text{f}$ of $\\ce{NO(g)}$ at 298 K? Substance $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ $S^\\circ$, J mol$^{-1}$ K$^{-1}$ $\\ce{N2(g)}$ 0 191.6 $\\ce{O2(g)}$ 0 205.2 $\\ce{NO(g)}$ 90.3 210.8",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -574,31 +659,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "27.5 kJ mol-1"
+        "text_md": "27.5 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "86.6 kJ mol-1"
+        "text_md": "86.6 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "145.7 kJ mol-1"
+        "text_md": "145.7 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "153.1 kJ mol-1"
+        "text_md": "153.1 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 20. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-21b",
     "year": 2023,
     "level": "local",
     "number": 21,
-    "stem_md": "Which statements about entropy, enthalpy, and energy are correct for the reaction below? C5H12(g) + 8 O2(g) → 5 CO2(g) + 6 H2O(g) I. ∆S° > 0 II. ∆H° > ∆E°",
+    "stem_md": "Which statements about entropy, enthalpy, and energy are correct for the reaction below? $\\ce{C5H12(g) + 8 O2(g) -> 5 CO2(g) + 6 H2O(g)}$\n\nI. $\\Delta S^\\circ > 0$\n\nII. $\\Delta H^\\circ > \\Delta E^\\circ$",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -624,14 +710,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 21. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-22b",
     "year": 2023,
     "level": "local",
     "number": 22,
-    "stem_md": "4.00 mL of 2.00 M aqueous NaOH is added to 100.0 mL of 0.200 M aqueous NaHSO4, all initially at 25.00 °C, in a well-insulated flask. Neglecting the effects of dilution, and assuming that volumes are additive and that all solutions have the same density and specific heat capacity as pure water, what is the final temperature of the mixture? Species ∆H°f, kJ mol-1 OH–(aq) –230 HSO4–(aq) –886 SO42–(aq) –909 H2O(l) –286",
+    "stem_md": "4.00 mL of 2.00 M aqueous $\\ce{NaOH}$ is added to 100.0 mL of 0.200 M aqueous $\\ce{NaHSO4}$, all initially at 25.00 °C, in a well-insulated flask. Neglecting the effects of dilution, and assuming that volumes are additive and that all solutions have the same density and specific heat capacity as pure water, what is the final temperature of the mixture?\n\n| Species | $\\Delta H^\\circ_f$, kJ mol$^{-1}$ |\n|---|---|\n| $\\ce{OH-(aq)}$ | –230 |\n| $\\ce{HSO4-(aq)}$ | –886 |\n| $\\ce{SO4^2-(aq)}$ | –909 |\n| $\\ce{H2O(l)}$ | –286 |",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -657,14 +744,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 22. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-23b",
     "year": 2023,
     "level": "local",
     "number": 23,
-    "stem_md": "The Ksp of Al(OH)3 is 2.0 × 10-31 at 298 K. What is ∆G° (at 298 K) for the precipitation of Al(OH)3 according to the equation below? Al3+(aq) + 3 OH–(aq) → Al(OH)3(s)",
+    "stem_md": "The $K_\\text{sp}$ of $\\ce{Al(OH)3}$ is $2.0 \\times 10^{-31}$ at 298 K. What is $\\Delta G^\\circ$ (at 298 K) for the precipitation of $\\ce{Al(OH)3}$ according to the equation below? $\\ce{Al^3+(aq) + 3 OH-(aq) -> Al(OH)3(s)}$",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -673,32 +761,33 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–175 kJ mol-1"
+        "text_md": "–175 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "14.7 kJ mol-1"
+        "text_md": "14.7 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "70.6 kJ mol-1"
+        "text_md": "70.6 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "175 kJ mol-1"
+        "text_md": "175 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 23. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-24b",
     "year": 2023,
     "level": "local",
     "number": 24,
-    "stem_md": "The vapor pressure of solid I2 is measured (in bar) over the temperature range 0–55 °C. The natural logarithms of these vapor pressures are plotted as a function of the reciprocal of the absolute temperature as shown below. What is the standard enthalpy of sublimation (∆H°subl) of I2(s)?",
-    "figure_url": null,
+    "stem_md": "The vapor pressure of solid $\\ce{I2}$ is measured (in bar) over the temperature range 0–55 °C. The natural logarithms of these vapor pressures are plotted as a function of the reciprocal of the absolute temperature as shown below. What is the standard enthalpy of sublimation ($\\Delta H^\\circ_\\text{subl}$) of $\\ce{I2(s)}$?",
+    "figure_url": "/figures/2023-L-24b.png",
     "topic_id": "thermodynamics",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -706,24 +795,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "7.53 kJ mol-1"
+        "text_md": "7.53 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "17.4 kJ mol-1"
+        "text_md": "17.4 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "19.4 kJ mol-1"
+        "text_md": "19.4 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "62.6 kJ mol-1"
+        "text_md": "62.6 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 24. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-25b",
@@ -756,14 +846,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 25. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-26b",
     "year": 2023,
     "level": "local",
     "number": 26,
-    "stem_md": "Under certain conditions, the rate of decomposition of hydrogen peroxide is first order in H2O2. It is observed that the concentration of H2O2 decreases by 1.00% in 300.0 s. What is the rate constant for the reaction?",
+    "stem_md": "Under certain conditions, the rate of decomposition of hydrogen peroxide is first order in $\\ce{H2O2}$. It is observed that the concentration of $\\ce{H2O2}$ decreases by 1.00% in 300.0 s. What is the rate constant for the reaction?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -772,24 +863,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "3.35 × 10-5 s-1"
+        "text_md": "$3.35 \\times 10^{-5}$ s$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "2.31 × 10-3 s-1"
+        "text_md": "$2.31 \\times 10^{-3}$ s$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "3.33 × 10-3 s-1"
+        "text_md": "$3.33 \\times 10^{-3}$ s$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "300 s-1"
+        "text_md": "300 s$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 26. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-27b",
@@ -822,14 +914,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 27. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-28b",
     "year": 2023,
     "level": "local",
     "number": 28,
-    "stem_md": "For the aqueous reaction I2 + HPO(OH)2 + H2O → PO(OH)3 + 2 I– + 2 H+ the following mechanism is proposed: HPO(OH)2 ⇄ P(OH)3 fast, unfavorable P(OH)3 + I2 → IP(OH)3+ + I– slow, irreversible IP(OH)3+ + H2O → PO(OH)3 + I– + 2 H+ fast Which observation is consistent with this mechanism?",
+    "stem_md": "For the aqueous reaction $\\ce{I2 + HPO(OH)2 + H2O -> PO(OH)3 + 2I- + 2H+}$ the following mechanism is proposed:\n\n$\\ce{HPO(OH)2 <=> P(OH)3}$ fast, unfavorable\n\n$\\ce{P(OH)3 + I2 -> IP(OH)3+ + I-}$ slow, irreversible\n\n$\\ce{IP(OH)3+ + H2O -> PO(OH)3 + I- + 2H+}$ fast\n\nWhich observation is consistent with this mechanism?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -838,31 +931,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "The reaction is first order in both HPO(OH)2 and I2."
+        "text_md": "The reaction is first order in both $\\ce{HPO(OH)2}$ and $\\ce{I2}$."
       },
       {
         "label": "B",
-        "text_md": "The reaction rate is independent of the I2 concentration."
+        "text_md": "The reaction rate is independent of the $\\ce{I2}$ concentration."
       },
       {
         "label": "C",
-        "text_md": "The reaction goes faster as the concentration of H+ is increased."
+        "text_md": "The reaction goes faster as the concentration of $\\ce{H+}$ is increased."
       },
       {
         "label": "D",
-        "text_md": "The reaction goes slower as the concentration of I– is increased."
+        "text_md": "The reaction goes slower as the concentration of $\\ce{I-}$ is increased."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 28. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-29b",
     "year": 2023,
     "level": "local",
     "number": 29,
-    "stem_md": "In which ways may a catalyst increase the rate of a reaction? I. It may alter the rate law of the reaction. II. It may make the overall reaction more exothermic.",
+    "stem_md": "In which ways may a catalyst increase the rate of a reaction?\n\nI. It may alter the rate law of the reaction.\n\nII. It may make the overall reaction more exothermic.",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -888,7 +982,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 29. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-30b",
@@ -904,31 +999,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1.5 kJ mol-1"
+        "text_md": "1.5 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "9.7 kJ mol-1"
+        "text_md": "9.7 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "76.5 kJ mol-1"
+        "text_md": "76.5 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "80.9 kJ mol-1"
+        "text_md": "80.9 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 30. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-31b",
     "year": 2023,
     "level": "local",
     "number": 31,
-    "stem_md": "What mass of lead(II) fluoride (Ksp = 4.0 × 10-8) will dissolve in 1.00 L of water?",
+    "stem_md": "What mass of lead(II) fluoride ($K_\\text{sp}$ = 4.0 × 10$^{-8}$) will dissolve in 1.00 L of water?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -954,14 +1050,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 31. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-32b",
     "year": 2023,
     "level": "local",
     "number": 32,
-    "stem_md": "The Ka of the pyridinium ion, C5H5NH+, is 5.9 × 10-6. What is the pH of a 0.170 M solution of pyridine, C5H5N?",
+    "stem_md": "The $K_\\text{a}$ of the pyridinium ion, $\\ce{C5H5NH+}$, is 5.9 × 10$^{-6}$. What is the pH of a 0.170 M solution of pyridine, $\\ce{C5H5N}$?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -987,7 +1084,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 32. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-33b",
@@ -1003,31 +1101,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "AgNO3"
+        "text_md": "$\\ce{AgNO3}$"
       },
       {
         "label": "B",
-        "text_md": "AgCl"
+        "text_md": "$\\ce{AgCl}$"
       },
       {
         "label": "C",
-        "text_md": "NH3"
+        "text_md": "$\\ce{NH3}$"
       },
       {
         "label": "D",
-        "text_md": "H2O Problems 34 and 35 are about the exothermic reaction of iodine with iodide ion shown below. I2(aq) + I–(aq) ⇄ I3–(aq) Keq = 750 (at 25 °C)"
+        "text_md": "$\\ce{H2O}$ Problems 34 and 35 are about the exothermic reaction of iodine with iodide ion shown below. $\\ce{I2(aq) + I- (aq) <=> I3- (aq)}$ $K_\\text{eq} = 750$ (at 25 °C)"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 33. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-34b",
     "year": 2023,
     "level": "local",
     "number": 34,
-    "stem_md": "1.0 × 10-4 mol I2 and 4.0 × 10-3 mol KI are dissolved in water at 25 °C to give 100.0 mL of solution. What is the equilibrium concentration of I2 in this solution?",
+    "stem_md": "$1.0 \\times 10^{-4}$ mol $\\ce{I2}$ and $4.0 \\times 10^{-3}$ mol $\\ce{KI}$ are dissolved in water at 25 °C to give 100.0 mL of solution. What is the equilibrium concentration of $\\ce{I2}$ in this solution?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1036,31 +1135,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1.3 × 10-6 M"
+        "text_md": "$1.3 \\times 10^{-6}$ M"
       },
       {
         "label": "B",
-        "text_md": "3.4 × 10-5 M"
+        "text_md": "$3.4 \\times 10^{-5}$ M"
       },
       {
         "label": "C",
-        "text_md": "5.0 × 10-4 M"
+        "text_md": "$5.0 \\times 10^{-4}$ M"
       },
       {
         "label": "D",
-        "text_md": "5.3 × 10-3 M"
+        "text_md": "$5.3 \\times 10^{-3}$ M"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 34. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-35b",
     "year": 2023,
     "level": "local",
     "number": 35,
-    "stem_md": "Which changes will result in an increase in the number of moles of I2(aq) present at equilibrium? I. Increasing the temperature II. Replacing the KI with an equal mass of NaI",
+    "stem_md": "Which changes will result in an increase in the number of moles of $\\ce{I2(aq)}$ present at equilibrium?\n\nI. Increasing the temperature\n\nII. Replacing the $\\ce{KI}$ with an equal mass of $\\ce{NaI}$",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1086,15 +1186,16 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 35. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-36b",
     "year": 2023,
     "level": "local",
     "number": 36,
-    "stem_md": "A 0.100 M aqueous solution of H2SeO3 is titrated with 1.000 M NaOH solution. At the point marked with a circle on the titration curve, which species comprise at least 10% of the total selenium in solution?",
-    "figure_url": null,
+    "stem_md": "A 0.100 M aqueous solution of $\\ce{H2SeO3}$ is titrated with 1.000 M $\\ce{NaOH}$ solution. At the point marked with a circle on the titration curve, which species comprise at least 10% of the total selenium in solution?",
+    "figure_url": "/figures/2023-L-36b.png",
     "topic_id": "equilibrium",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -1102,31 +1203,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2SeO3 only"
+        "text_md": "$\\ce{H2SeO3}$ only"
       },
       {
         "label": "B",
-        "text_md": "H2SeO3 and HSeO3–"
+        "text_md": "$\\ce{H2SeO3}$ and $\\ce{HSeO3-}$"
       },
       {
         "label": "C",
-        "text_md": "HSeO3– and SeO32-"
+        "text_md": "$\\ce{HSeO3-}$ and $\\ce{SeO3^2-}$"
       },
       {
         "label": "D",
-        "text_md": "SeO32- only"
+        "text_md": "$\\ce{SeO3^2-}$ only"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 36. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-37b",
     "year": 2023,
     "level": "local",
     "number": 37,
-    "stem_md": "What is the average oxidation state of iron in riebeckite, Na2Fe5Si8O22(OH)2?",
+    "stem_md": "What is the average oxidation state of iron in riebeckite, $\\ce{Na2Fe5Si8O22(OH)2}$?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1152,7 +1254,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 37. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-38b",
@@ -1168,24 +1271,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CdCl2"
+        "text_md": "$\\ce{CdCl2}$"
       },
       {
         "label": "B",
-        "text_md": "InBr3"
+        "text_md": "$\\ce{InBr3}$"
       },
       {
         "label": "C",
-        "text_md": "TlNO3"
+        "text_md": "$\\ce{TlNO3}$"
       },
       {
         "label": "D",
-        "text_md": "Pb(NO3)2"
+        "text_md": "$\\ce{Pb(NO3)2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 38. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-39b",
@@ -1193,7 +1297,7 @@
     "level": "local",
     "number": 39,
     "stem_md": "A galvanic cell using an unknown metal M is arranged as shown below. What can be concluded about this cell?",
-    "figure_url": null,
+    "figure_url": "/figures/2023-L-39b.png",
     "topic_id": "redox",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -1213,19 +1317,20 @@
       },
       {
         "label": "D",
-        "text_md": "Which cell is the cathode depends on the standard reduction potential of M2+(aq)."
+        "text_md": "Which cell is the cathode depends on the standard reduction potential of $\\ce{M^2+ (aq)}$."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 39. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-40b",
     "year": 2023,
     "level": "local",
     "number": 40,
-    "stem_md": "When manganese metal is placed in a solution containing silver(I) ion in acidic solution, metallic silver deposits on the manganese. Which half-reactions are taking place? I. Ag+(aq) + e– → Ag(s) II. Mn(s) + 4 H2O(l) → MnO4–(aq) + 8 H+(aq) + 7e–",
+    "stem_md": "When manganese metal is placed in a solution containing silver(I) ion in acidic solution, metallic silver deposits on the manganese. Which half-reactions are taking place?\n\nI. $\\ce{Ag+ (aq) + e- -> Ag(s)}$\n\nII. $\\ce{Mn(s) + 4 H2O(l) -> MnO4^- (aq) + 8 H+ (aq) + 7e-}$",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1251,14 +1356,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 40. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-41b",
     "year": 2023,
     "level": "local",
     "number": 41,
-    "stem_md": "What is E° for the following redox reaction? 5 Te(s) + 4 MnO4–(aq) + 12 H+(aq) → 5 TeO2(s) + 4 Mn2+(aq) + 6 H2O(l) Half-reaction E°, V TeO2(s) + 4 H+(aq) + 4e– → Te(s) + 2 H2O(l) +0.59 MnO4–(aq) + 8 H+(aq)+ 5e– → Mn2+(aq) + 4 H2O +1.51",
+    "stem_md": "What is $E^\\circ$ for the following redox reaction?\n\n$\\ce{5 Te(s) + 4 MnO4^- (aq) + 12 H+ (aq) -> 5 TeO2(s) + 4 Mn^2+ (aq) + 6 H2O(l)}$\n\nHalf-reaction | $E^\\circ$, V\n--- | ---\n$\\ce{TeO2(s) + 4 H+ (aq) + 4e- -> Te(s) + 2 H2O(l)}$ | +0.59\n$\\ce{MnO4^- (aq) + 8 H+ (aq) + 5e- -> Mn^2+ (aq) + 4 H2O(l)}$ | +1.51",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1284,14 +1390,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 41. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-42b",
     "year": 2023,
     "level": "local",
     "number": 42,
-    "stem_md": "The reduction of O2 to H2O in acidic solution has a standard reduction potential of +1.23 V. What is the effect on the half-cell potential at 25 °C when the pH of the solution is decreased by one unit? O2(g) + 4 H+(aq) + 4e– → 2 H2O(l)",
+    "stem_md": "The reduction of $\\ce{O2}$ to $\\ce{H2O}$ in acidic solution has a standard reduction potential of $+1.23$ V. What is the effect on the half-cell potential at 25 °C when the pH of the solution is decreased by one unit?\n\n$\\ce{O2(g) + 4 H+ (aq) + 4e- -> 2 H2O(l)}$",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1317,7 +1424,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 42. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-43b",
@@ -1345,12 +1453,13 @@
       },
       {
         "label": "D",
-        "text_md": "O releases more energy than S because O has a larger effective nuclear charge Zeff than S."
+        "text_md": "O releases more energy than S because O has a larger effective nuclear charge $Z_\\text{eff}$ than S."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 43. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-44b",
@@ -1383,14 +1492,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 44. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-45b",
     "year": 2023,
     "level": "local",
     "number": 45,
-    "stem_md": "What is the largest number of electrons that can have both a principal quantum number n = 4 and an orbital angular momentum quantum number l = 2 in a given atom?",
+    "stem_md": "What is the largest number of electrons that can have both a principal quantum number $n = 4$ and an orbital angular momentum quantum number $l = 2$ in a given atom?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1416,14 +1526,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 45. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-46b",
     "year": 2023,
     "level": "local",
     "number": 46,
-    "stem_md": "Which best represents the arrangement of electrons in a ground-state gas-phase Ni2+ ion? 4s 3d",
+    "stem_md": "Which best represents the arrangement of electrons in a ground-state gas-phase $\\ce{Ni^2+}$ ion? 4s 3d",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1449,14 +1560,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 46. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-47b",
     "year": 2023,
     "level": "local",
     "number": 47,
-    "stem_md": "What is the wavelength of a photon whose energy is 334 kJ mol-1?",
+    "stem_md": "What is the wavelength of a photon whose energy is 334 kJ mol$^{-1}$?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1482,14 +1594,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 47. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-48b",
     "year": 2023,
     "level": "local",
     "number": 48,
-    "stem_md": "What nuclide decays by alpha emission to form 219Rn?",
+    "stem_md": "What nuclide decays by alpha emission to form $\\ce{^{219}Rn}$?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1498,24 +1611,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "215Po"
+        "text_md": "$\\ce{^{215}Po}$"
       },
       {
         "label": "B",
-        "text_md": "219At"
+        "text_md": "$\\ce{^{219}At}$"
       },
       {
         "label": "C",
-        "text_md": "219Fr"
+        "text_md": "$\\ce{^{219}Fr}$"
       },
       {
         "label": "D",
-        "text_md": "223Ra"
+        "text_md": "$\\ce{^{223}Ra}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 48. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-49b",
@@ -1531,31 +1645,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2"
+        "text_md": "$\\ce{H2}$"
       },
       {
         "label": "B",
-        "text_md": "N2"
+        "text_md": "$\\ce{N2}$"
       },
       {
         "label": "C",
-        "text_md": "O2"
+        "text_md": "$\\ce{O2}$"
       },
       {
         "label": "D",
-        "text_md": "F2"
+        "text_md": "$\\ce{F2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 49. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-50b",
     "year": 2023,
     "level": "local",
     "number": 50,
-    "stem_md": "What is the geometry of the iodate ion, IO3–?",
+    "stem_md": "What is the geometry of the iodate ion, $\\ce{IO3-}$?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1581,7 +1696,42 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 50. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2023-L-51b",
+    "year": 2023,
+    "level": "local",
+    "number": 51,
+    "stem_md": "Which is NOT a valid resonance structure of N- formylurea?",
+    "figure_url": "/figures/2023-L-51b.png",
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2023 Local exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-52b",
@@ -1597,31 +1747,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NH3"
+        "text_md": "$\\ce{NH3}$"
       },
       {
         "label": "B",
-        "text_md": "HCN"
+        "text_md": "$\\ce{HCN}$"
       },
       {
         "label": "C",
-        "text_md": "H2CNH"
+        "text_md": "$\\ce{H2CNH}$"
       },
       {
         "label": "D",
-        "text_md": "H3CNH2"
+        "text_md": "$\\ce{H3CNH2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 52. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-53b",
     "year": 2023,
     "level": "local",
     "number": 53,
-    "stem_md": "Nitric oxide, NO, has a smaller first ionization energy than either N atoms or O atoms. Which is the best explanation for this observation?",
+    "stem_md": "Nitric oxide, $\\ce{NO}$, has a smaller first ionization energy than either N atoms or O atoms. Which is the best explanation for this observation?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1630,15 +1781,15 @@
     "options": [
       {
         "label": "A",
-        "text_md": "The electron that is ionized in NO occupies an antibonding orbital."
+        "text_md": "The electron that is ionized in $\\ce{NO}$ occupies an antibonding orbital."
       },
       {
         "label": "B",
-        "text_md": "NO forms a strong bond, which lowers the ionization energy."
+        "text_md": "$\\ce{NO}$ forms a strong bond, which lowers the ionization energy."
       },
       {
         "label": "C",
-        "text_md": "NO has a large dipole moment, which increases electron-electron repulsion."
+        "text_md": "$\\ce{NO}$ has a large dipole moment, which increases electron-electron repulsion."
       },
       {
         "label": "D",
@@ -1647,14 +1798,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 53. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-54b",
     "year": 2023,
     "level": "local",
     "number": 54,
-    "stem_md": "How many stereoisomers does the octahedral complex Co(NH3)3(CN)3 have?",
+    "stem_md": "How many stereoisomers does the octahedral complex $\\ce{Co(NH3)3(CN)3}$ have?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1680,14 +1832,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 54. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-55b",
     "year": 2023,
     "level": "local",
     "number": 55,
-    "stem_md": "How many stable isomers have the formula C2H2ClBr?",
+    "stem_md": "How many stable isomers have the formula $\\ce{C2H2ClBr}$?",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1713,7 +1866,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 55. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-56b",
@@ -1721,7 +1875,7 @@
     "level": "local",
     "number": 56,
     "stem_md": "Which best describes the relationship between the two structures shown below?",
-    "figure_url": null,
+    "figure_url": "/figures/2023-L-56b.png",
     "topic_id": "organic",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -1746,14 +1900,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 56. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-57b",
     "year": 2023,
     "level": "local",
     "number": 57,
-    "stem_md": "Which compounds react readily with acidic dichromate solution (K2Cr2O7/aqueous H2SO4)? I. II.",
+    "stem_md": "Which compounds react readily with acidic dichromate solution ($\\ce{K2Cr2O7}$/aqueous $\\ce{H2SO4}$)?\n\nI.\n\nII.",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1779,7 +1934,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 57. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-58b",
@@ -1812,14 +1968,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 58. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-59b",
     "year": 2023,
     "level": "local",
     "number": 59,
-    "stem_md": "The amino acid lysine has the side chain R = CH2CH2CH2CH2NH2. A mutation of lysine to which amino acid is least likely to change the overall charge on a protein at pH = 8.0?",
+    "stem_md": "The amino acid lysine has the side chain R = $\\ce{CH2CH2CH2CH2NH2}$. A mutation of lysine to which amino acid is least likely to change the overall charge on a protein at pH = 8.0?",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1828,7 +1985,7 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Arginine, R = CH2CH2CH2NHC(=NH)NH2"
+        "text_md": "Arginine, R = $\\ce{CH2CH2CH2NHC(=NH)NH2}$"
       },
       {
         "label": "B",
@@ -1836,16 +1993,17 @@
       },
       {
         "label": "C",
-        "text_md": "Methionine, R = CH2CH2SCH3"
+        "text_md": "Methionine, R = $\\ce{CH2CH2SCH3}$"
       },
       {
         "label": "D",
-        "text_md": "Serine, R = CH2OH"
+        "text_md": "Serine, R = $\\ce{CH2OH}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 59. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2023-L-60b",
@@ -1873,11 +2031,12 @@
       },
       {
         "label": "D",
-        "text_md": "Ribose END OF TEST"
+        "text_md": "Ribose"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2023 Local exam (reissued), question 60. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   }
 ]

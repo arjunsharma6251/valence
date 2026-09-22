@@ -3,8 +3,26 @@
 from __future__ import annotations
 
 import os
+from pathlib import Path
 
 import anthropic
+
+
+def _load_dotenv() -> None:
+    """Read KEY=VALUE lines from pipeline/.env (git-ignored) into the environment
+    without overriding variables that are already set."""
+    for candidate in (Path.cwd() / ".env", Path(__file__).resolve().parents[2] / ".env"):
+        if candidate.is_file():
+            for line in candidate.read_text().splitlines():
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+            break
+
+
+_load_dotenv()
 
 EXTRACT_MODEL = os.environ.get("VALENCE_EXTRACT_MODEL", "claude-opus-5")
 DRAFT_MODEL = os.environ.get("VALENCE_DRAFT_MODEL", "claude-sonnet-5")

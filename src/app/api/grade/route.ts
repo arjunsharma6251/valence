@@ -3,7 +3,7 @@ import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { getFrq } from "@/lib/content";
-import { GRADER_SYSTEM, buildGradePrompt, cacheKey, estimateCostCents } from "@/lib/grading";
+import { GRADER_SYSTEM, buildGradePrompt, cacheKey, estimateCostCents, matchGradedPart } from "@/lib/grading";
 import { supabaseServer } from "@/lib/supabase/server";
 import { supabaseConfigured } from "@/lib/supabase/env";
 import { createClient } from "@supabase/supabase-js";
@@ -153,8 +153,8 @@ export async function POST(request: Request) {
       return NextResponse.json({ ok: false, reason: "model", message: "The grader couldn't produce a grade. Try again." }, { status: 502 });
     }
     const raw = response.parsed_output;
-    const parts = problem.parts.map((p) => {
-      const g = raw.parts.find((x) => x.label === p.label);
+    const parts = problem.parts.map((p, i) => {
+      const g = matchGradedPart(raw.parts, problem.parts, i);
       const points = Math.max(0, Math.min(p.max_points, Math.round((g?.points ?? 0) * 2) / 2));
       return { label: p.label, points, max_points: p.max_points, missing: g?.missing ?? "", common_mistakes: g?.common_mistakes ?? "" };
     });

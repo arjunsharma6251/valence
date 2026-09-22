@@ -30,14 +30,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-02",
     "year": 2024,
     "level": "local",
     "number": 2,
-    "stem_md": "When 3.00 g of NH3(g) (M = 17.03) reacts with 18.0 g of HCl(g) (M = 36.46), what is the theoretical yield of NH4Cl(s)?",
+    "stem_md": "When 3.00 g of $\\ce{NH3(g)}$ ($M$ = 17.03) reacts with 18.0 g of $\\ce{HCl(g)}$ ($M$ = 36.46), what is the theoretical yield of $\\ce{NH4Cl(s)}$?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -63,14 +64,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 2. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-03",
     "year": 2024,
     "level": "local",
     "number": 3,
-    "stem_md": "How many fluorine atoms are in 135 g of CF2Cl2?",
+    "stem_md": "How many fluorine atoms are in 135 g of $\\ce{CF2Cl2}$?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -79,31 +81,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "3.36 ´ 1023"
+        "text_md": "$3.36 \\times 10^{23}$"
       },
       {
         "label": "B",
-        "text_md": "6.72 ´ 1023"
+        "text_md": "$6.72 \\times 10^{23}$"
       },
       {
         "label": "C",
-        "text_md": "1.34 ´ 1024"
+        "text_md": "$1.34 \\times 10^{24}$"
       },
       {
         "label": "D",
-        "text_md": "4.28 ´ 1024"
+        "text_md": "$4.28 \\times 10^{24}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-04",
     "year": 2024,
     "level": "local",
     "number": 4,
-    "stem_md": "A 2024 US penny (which is a mixture of zinc and copper) is dissolved in dilute nitric acid, forming aqueous Cu2+ and Zn2+ ions. The resulting solution is treated with an excess of iodide ion, causing the Cu2+ to react to form CuI(s) and I3 –(aq). Subsequent titration with thiosulfate reveals that 4.93 ´ 10-4 mol of I3 –(aq) was formed. What is the mass of copper in the penny?",
+    "stem_md": "A 2024 US penny (which is a mixture of zinc and copper) is dissolved in dilute nitric acid, forming aqueous $\\ce{Cu^2+}$ and $\\ce{Zn^2+}$ ions. The resulting solution is treated with an excess of iodide ion, causing the $\\ce{Cu^2+}$ to react to form $\\ce{CuI(s)}$ and $\\ce{I3-(aq)}$. Subsequent titration with thiosulfate reveals that $4.93 \\times 10^{-4}$ mol of $\\ce{I3-(aq)}$ was formed. What is the mass of copper in the penny?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -129,14 +132,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-05",
     "year": 2024,
     "level": "local",
     "number": 5,
-    "stem_md": "1.22 g of benzoic acid (C7H6O2, M = 122.12) is dissolved in water to a total volume of 150.0 mL. A 10.0 mL sample of this solution is then withdrawn and diluted to 500.0 mL. What is the concentration of benzoic acid in the final solution?",
+    "stem_md": "1.22 g of benzoic acid ($\\ce{C7H6O2}$, $M$ = 122.12) is dissolved in water to a total volume of 150.0 mL. A 10.0 mL sample of this solution is then withdrawn and diluted to 500.0 mL. What is the concentration of benzoic acid in the final solution?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -162,7 +166,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 5. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-06",
@@ -178,24 +183,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "HF"
+        "text_md": "$\\ce{HF}$"
       },
       {
         "label": "B",
-        "text_md": "HI"
+        "text_md": "$\\ce{HI}$"
       },
       {
         "label": "C",
-        "text_md": "H3PO4"
+        "text_md": "$\\ce{H3PO4}$"
       },
       {
         "label": "D",
-        "text_md": "CH3COOH"
+        "text_md": "$\\ce{CH3COOH}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 6. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-07",
@@ -228,14 +234,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 7. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-08",
     "year": 2024,
     "level": "local",
     "number": 8,
-    "stem_md": "A solution is prepared by dissolving 10.00 g of a salt in 90.00 g of water. What additional information is needed to calculate the molarity of this solution? I. The molar mass of the salt II. The density of the solution",
+    "stem_md": "A solution is prepared by dissolving 10.00 g of a salt in 90.00 g of water. What additional information is needed to calculate the molarity of this solution?\n\nI. The molar mass of the salt\n\nII. The density of the solution",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -261,7 +268,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 8. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-09",
@@ -277,24 +285,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "KClO4"
+        "text_md": "$\\ce{KClO4}$"
       },
       {
         "label": "B",
-        "text_md": "K2CrO4"
+        "text_md": "$\\ce{K2CrO4}$"
       },
       {
         "label": "C",
-        "text_md": "KMnO4"
+        "text_md": "$\\ce{KMnO4}$"
       },
       {
         "label": "D",
-        "text_md": "K3Fe(CN)6"
+        "text_md": "$\\ce{K3Fe(CN)6}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-10",
@@ -310,24 +319,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NaOH"
+        "text_md": "$\\ce{NaOH}$"
       },
       {
         "label": "B",
-        "text_md": "KNO3"
+        "text_md": "$\\ce{KNO3}$"
       },
       {
         "label": "C",
-        "text_md": "H2SO4"
+        "text_md": "$\\ce{H2SO4}$"
       },
       {
         "label": "D",
-        "text_md": "CaO"
+        "text_md": "$\\ce{CaO}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-11",
@@ -343,31 +353,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NH4 +"
+        "text_md": "$\\ce{NH4+}$"
       },
       {
         "label": "B",
-        "text_md": "Al3+"
+        "text_md": "$\\ce{Al^3+}$"
       },
       {
         "label": "C",
-        "text_md": "Fe2+"
+        "text_md": "$\\ce{Fe^2+}$"
       },
       {
         "label": "D",
-        "text_md": "Pb2+"
+        "text_md": "$\\ce{Pb^2+}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 11. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-12",
     "year": 2024,
     "level": "local",
     "number": 12,
-    "stem_md": "Which measurement would be least able to distinguish between a sample of elemental bromine prepared using exclusively the 79Br isotope (79Br2) and one prepared using exclusively the 81Br isotope (81Br2)?",
+    "stem_md": "Which measurement would be least able to distinguish between a sample of elemental bromine prepared using exclusively the $\\ce{^{79}Br}$ isotope ($\\ce{^{79}Br2}$) and one prepared using exclusively the $\\ce{^{81}Br}$ isotope ($\\ce{^{81}Br2}$)?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -393,7 +404,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-13",
@@ -409,24 +421,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "LiOH"
+        "text_md": "$\\ce{LiOH}$"
       },
       {
         "label": "B",
-        "text_md": "C12H22O11"
+        "text_md": "$\\ce{C12H22O11}$"
       },
       {
         "label": "C",
-        "text_md": "SiO2"
+        "text_md": "$\\ce{SiO2}$"
       },
       {
         "label": "D",
-        "text_md": "Cu"
+        "text_md": "$\\ce{Cu}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-14",
@@ -459,7 +472,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-15",
@@ -467,7 +481,7 @@
     "level": "local",
     "number": 15,
     "stem_md": "A mixture of A (whose molecules are represented by rectangles) and B (whose molecules are represented by ovals) is represented schematically below. Which is the best description of this mixture?",
-    "figure_url": null,
+    "figure_url": "/figures/2024-L-15.png",
     "topic_id": "states-of-matter",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -492,7 +506,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-16",
@@ -525,7 +540,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-17",
@@ -541,24 +557,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "LiF"
+        "text_md": "$\\ce{LiF}$"
       },
       {
         "label": "B",
-        "text_md": "NaCl"
+        "text_md": "$\\ce{NaCl}$"
       },
       {
         "label": "C",
-        "text_md": "MgO"
+        "text_md": "$\\ce{MgO}$"
       },
       {
         "label": "D",
-        "text_md": "CaS"
+        "text_md": "$\\ce{CaS}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-18",
@@ -591,7 +608,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-19",
@@ -624,14 +642,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-20",
     "year": 2024,
     "level": "local",
     "number": 20,
-    "stem_md": "Based on the given bond dissociation enthalpies (BDEs), what is ∆H°rxn for the addition of methane to ethyne to give propene? CH4(g) + HCºCH(g) → CH3CH=CH2(g) ∆H°rxn = ??? Bond BDE, kJ mol-1 Bond BDE, kJ mol-1 C–H 415 C=C 611 C–C 345 CºC 837",
+    "stem_md": "Based on the given bond dissociation enthalpies (BDEs), what is $\\Delta H^\\circ_\\text{rxn}$ for the addition of methane to ethyne to give propene? $\\ce{CH4(g) + HC#CH(g) -> CH3CH=CH2(g)}$ $\\Delta H^\\circ_\\text{rxn}$ = ??? Bond BDE, kJ mol$^{-1}$ Bond BDE, kJ mol$^{-1}$ $\\ce{C-H}$ 415 $\\ce{C=C}$ 611 $\\ce{C-C}$ 345 $\\ce{C#C}$ 837",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -640,31 +659,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–119 kJ mol-1"
+        "text_md": "–119 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "–196 kJ mol-1"
+        "text_md": "–196 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "–259 kJ mol-1"
+        "text_md": "–259 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "–296 kJ mol-1"
+        "text_md": "–296 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-21",
     "year": 2024,
     "level": "local",
     "number": 21,
-    "stem_md": "Which statements must be true for a nonspontaneous gas- phase chemical reaction at constant temperature and pressure? I. ∆G > 0 II. Kp < 1",
+    "stem_md": "Which statements must be true for a nonspontaneous gas- phase chemical reaction at constant temperature and pressure? I. $\\Delta G > 0$\n\nII. $K_p < 1$",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -690,14 +710,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-22",
     "year": 2024,
     "level": "local",
     "number": 22,
-    "stem_md": "Benzene, C6H6, has ∆H°vap = 30.7 kJ mol-1 at its normal boiling point of 80.1 °C. What is ∆S°vap at this temperature?",
+    "stem_md": "Benzene, $\\ce{C6H6}$, has $\\Delta H^\\circ_\\text{vap} = 30.7$ kJ mol$^{-1}$ at its normal boiling point of 80.1 °C. What is $\\Delta S^\\circ_\\text{vap}$ at this temperature?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -706,31 +727,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "10.5 J mol-1 K-1"
+        "text_md": "10.5 J mol$^{-1}$ K$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "86.9 J mol-1 K-1"
+        "text_md": "86.9 J mol$^{-1}$ K$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "255 J mol-1 K-1"
+        "text_md": "255 J mol$^{-1}$ K$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "383 J mol-1 K-1"
+        "text_md": "383 J mol$^{-1}$ K$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-23",
     "year": 2024,
     "level": "local",
     "number": 23,
-    "stem_md": "Which reaction has ∆S° < 0 ?",
+    "stem_md": "Which reaction has $\\Delta S^\\circ < 0$ ?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -739,31 +761,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "C(s, graphite) → C(s, diamond)"
+        "text_md": "$\\ce{C(s, graphite) -> C(s, diamond)}$"
       },
       {
         "label": "B",
-        "text_md": "N2O4(g) → 2 NO2(g)"
+        "text_md": "$\\ce{N2O4(g) -> 2 NO2(g)}$"
       },
       {
         "label": "C",
-        "text_md": "I2(s) → I2(g)"
+        "text_md": "$\\ce{I2(s) -> I2(g)}$"
       },
       {
         "label": "D",
-        "text_md": "NH4 +(aq) + CH3COO–(aq) → NH3(aq) + CH3COOH(aq)"
+        "text_md": "$\\ce{NH4+(aq) + CH3COO-(aq) -> NH3(aq) + CH3COOH(aq)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-24",
     "year": 2024,
     "level": "local",
     "number": 24,
-    "stem_md": "What is the Ksp of PbCl2 at 298 K? Species ∆H°f, kJ mol-1 S°, J mol-1 K-1 Pb2+(aq) –1.7 10.5 PbCl2(s) –359.4 136.0 Cl–(aq) –167.2 56.5",
+    "stem_md": "What is the $K_\\text{sp}$ of $\\ce{PbCl2}$ at 298 K? Species $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ $S^\\circ$, J mol$^{-1}$ K$^{-1}$ $\\ce{Pb^2+(aq)}$ –1.7 10.5 $\\ce{PbCl2(s)}$ –359.4 136.0 $\\ce{Cl-(aq)}$ –167.2 56.5",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -772,31 +795,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "1.2 ´ 10-11"
+        "text_md": "$1.2 \\times 10^{-11}$"
       },
       {
         "label": "B",
-        "text_md": "1.8 ´ 10-5"
+        "text_md": "$1.8 \\times 10^{-5}$"
       },
       {
         "label": "C",
-        "text_md": "8.2 ´ 10-5"
+        "text_md": "$8.2 \\times 10^{-5}$"
       },
       {
         "label": "D",
-        "text_md": "3.7 ´ 10-4"
+        "text_md": "$3.7 \\times 10^{-4}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-25",
     "year": 2024,
     "level": "local",
     "number": 25,
-    "stem_md": "Ethanol (C2H5OH) is oxidized to acetaldehyde (CH3CHO) by dichromate ions in acidic solution according to the following equation: 3 C2H5OH(aq) + Cr2O7 2-(aq) + 8 H+(aq) → 3 CH3CHO(aq) + 2 Cr3+(aq) + 7 H2O(l) If the concentration of Cr3+(aq) is increasing at a rate of 0.18 M s-1, at what rate is the concentration of CH3CHO(aq) changing?",
+    "stem_md": "Ethanol ($\\ce{C2H5OH}$) is oxidized to acetaldehyde ($\\ce{CH3CHO}$) by dichromate ions in acidic solution according to the following equation: $\\ce{3 C2H5OH(aq) + Cr2O7^2-(aq) + 8 H+(aq) -> 3 CH3CHO(aq) + 2 Cr3+(aq) + 7 H2O(l)}$ If the concentration of $\\ce{Cr3+(aq)}$ is increasing at a rate of 0.18 M s$^{-1}$, at what rate is the concentration of $\\ce{CH3CHO(aq)}$ changing?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -805,24 +829,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Increasing at 0.12 M s-1"
+        "text_md": "Increasing at 0.12 M s$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "Increasing at 0.27 M s-1"
+        "text_md": "Increasing at 0.27 M s$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "Decreasing at 0.12 M s-1"
+        "text_md": "Decreasing at 0.12 M s$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "Decreasing at 0.27 M s-1"
+        "text_md": "Decreasing at 0.27 M s$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-26",
@@ -855,14 +880,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-27",
     "year": 2024,
     "level": "local",
     "number": 27,
-    "stem_md": "An irreversible reaction occurs as follows: 2 A(g) + B(g) → C(g) + D(g) What is the rate law for this reaction?",
+    "stem_md": "An irreversible reaction occurs as follows: $\\ce{2 A(g) + B(g) -> C(g) + D(g)}$ What is the rate law for this reaction?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -871,15 +897,15 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Rate = k[A][B]"
+        "text_md": "Rate = $k[A][B]$"
       },
       {
         "label": "B",
-        "text_md": "Rate = k[A]2[B]"
+        "text_md": "Rate = $k[A]^2[B]$"
       },
       {
         "label": "C",
-        "text_md": "Rate = k[2A][B]"
+        "text_md": "Rate = $k[2A][B]$"
       },
       {
         "label": "D",
@@ -888,14 +914,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-28",
     "year": 2024,
     "level": "local",
     "number": 28,
-    "stem_md": "The half-life of 90Sr is 28 years. How long is required for the level of radioactivity to drop to 1.5% of its initial value?",
+    "stem_md": "The half-life of $\\ce{^{90}Sr}$ is 28 years. How long is required for the level of radioactivity to drop to 1.5% of its initial value?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -921,14 +948,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-29",
     "year": 2024,
     "level": "local",
     "number": 29,
-    "stem_md": "An uncatalyzed reaction has an activation energy Ea = 50 kJ mol-1 and an enthalpy change ∆H° = –10 kJ mol-1. In the presence of a catalyst, what might these values become?",
+    "stem_md": "An uncatalyzed reaction has an activation energy $E_a$ = 50 kJ mol$^{-1}$ and an enthalpy change $\\Delta H^\\circ$ = –10 kJ mol$^{-1}$. In the presence of a catalyst, what might these values become?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -937,31 +965,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Ea = 30 kJ mol-1, ∆H° = –10 kJ mol-1"
+        "text_md": "$E_a$ = 30 kJ mol$^{-1}$, $\\Delta H^\\circ$ = –10 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "Ea = 50 kJ mol-1, ∆H° = –15 kJ mol-1"
+        "text_md": "$E_a$ = 50 kJ mol$^{-1}$, $\\Delta H^\\circ$ = –15 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "Ea = 60 kJ mol-1, ∆H° = –20 kJ mol-1"
+        "text_md": "$E_a$ = 60 kJ mol$^{-1}$, $\\Delta H^\\circ$ = –20 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "Ea = –10 kJ mol-1, ∆H° = 50 kJ mol-1"
+        "text_md": "$E_a$ = –10 kJ mol$^{-1}$, $\\Delta H^\\circ$ = 50 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-30",
     "year": 2024,
     "level": "local",
     "number": 30,
-    "stem_md": "Chlorine gas catalyzes the gas-phase decomposition of nitrous oxide according to the equation 2 N2O → 2 N2 + O2 The following mechanism is proposed for the catalyzed reaction: Cl2 ⇌ 2 Cl fast, unfavorable Cl + N2O → N2 + ClO slow ClO + N2O → N2 + ClO2 fast ClO2 + Cl → Cl2 + O2 fast What rate law is predicted by this mechanism?",
+    "stem_md": "Chlorine gas catalyzes the gas-phase decomposition of nitrous oxide according to the equation $\\ce{2 N2O -> 2 N2 + O2}$ The following mechanism is proposed for the catalyzed reaction: $\\ce{Cl2 <=> 2 Cl}$ fast, unfavorable\n$\\ce{Cl + N2O -> N2 + ClO}$ slow\n$\\ce{ClO + N2O -> N2 + ClO2}$ fast\n$\\ce{ClO2 + Cl -> Cl2 + O2}$ fast What rate law is predicted by this mechanism?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -970,31 +999,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Rate = k[N2O]"
+        "text_md": "Rate = $k[\\ce{N2O}]$"
       },
       {
         "label": "B",
-        "text_md": "Rate = k[N2O]2"
+        "text_md": "Rate = $k[\\ce{N2O}]^2$"
       },
       {
         "label": "C",
-        "text_md": "Rate = k[N2O][Cl2]"
+        "text_md": "Rate = $k[\\ce{N2O}][\\ce{Cl2}]$"
       },
       {
         "label": "D",
-        "text_md": "Rate = k[N2O][Cl2]1/2"
+        "text_md": "Rate = $k[\\ce{N2O}][\\ce{Cl2}]^{1/2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-31",
     "year": 2024,
     "level": "local",
     "number": 31,
-    "stem_md": "The Ka of formic acid is 1.8 × 10-4. What is the equilibrium constant for the reaction below? HCO2H + OH– ⇌ HCO2 – + H2O",
+    "stem_md": "The $K_\\text{a}$ of formic acid is $1.8 \\times 10^{-4}$. What is the equilibrium constant for the reaction below? $\\ce{HCO2H + OH- <=> HCO2- + H2O}$",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1003,31 +1033,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "5.6 ´ 10-11"
+        "text_md": "$5.6 \\times 10^{-11}$"
       },
       {
         "label": "B",
-        "text_md": "5.6 ´ 103"
+        "text_md": "$5.6 \\times 10^{3}$"
       },
       {
         "label": "C",
-        "text_md": "1.8 ´ 1010"
+        "text_md": "$1.8 \\times 10^{10}$"
       },
       {
         "label": "D",
-        "text_md": "5.6 ´ 1017"
+        "text_md": "$5.6 \\times 10^{17}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-32",
     "year": 2024,
     "level": "local",
     "number": 32,
-    "stem_md": "Solid calcium carbonate is in equilibrium as described below: Ca2+(aq) + 2HCO3 – (aq) ⇌ CaCO3(s) + CO2(g) +H2O(l) If CO2(g) is added to this system in a rigid container, which changes will take place? I. Additional CaCO3(s) will precipitate. II. The pH will increase.",
+    "stem_md": "Solid calcium carbonate is in equilibrium as described below: $\\ce{Ca^2+(aq) + 2 HCO3-(aq) <=> CaCO3(s) + CO2(g) + H2O(l)}$ If $\\ce{CO2(g)}$ is added to this system in a rigid container, which changes will take place?\n\nI. Additional $\\ce{CaCO3(s)}$ will precipitate.\n\nII. The pH will increase.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1053,14 +1084,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-33",
     "year": 2024,
     "level": "local",
     "number": 33,
-    "stem_md": "Calcium carbonate occurs in two common crystalline forms, calcite (Ksp = 3.4 × 10-9) and aragonite (Ksp= 6.0 × 10-9). Which of these is most thermodynamically stable?",
+    "stem_md": "Calcium carbonate occurs in two common crystalline forms, calcite ($K_\\text{sp} = 3.4 \\times 10^{-9}$) and aragonite ($K_\\text{sp} = 6.0 \\times 10^{-9}$). Which of these is most thermodynamically stable?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1081,19 +1113,20 @@
       },
       {
         "label": "D",
-        "text_md": "The relative stability cannot be determined from the Ksp values."
+        "text_md": "The relative stability cannot be determined from the $K_\\text{sp}$ values."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-34",
     "year": 2024,
     "level": "local",
     "number": 34,
-    "stem_md": "What is the pH of a 0.043 M solution of HI?",
+    "stem_md": "What is the pH of a 0.043 M solution of $\\ce{HI}$?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1119,14 +1152,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-35",
     "year": 2024,
     "level": "local",
     "number": 35,
-    "stem_md": "At 1200 K, the equilibrium constant for the reaction N2(g) + O2(g) ⇌ 2NO(g) is Kp = 2.9 ´ 10-7. A mixture of 0.79 bar N2 and 0.21 bar O2 is prepared at 300 K and heated to 1200 K while maintaining a constant total pressure of 1.00 bar. What is the equilibrium partial pressure of NO(g) at 1200 K?",
+    "stem_md": "At 1200 K, the equilibrium constant for the reaction $\\ce{N2(g) + O2(g) <=> 2 NO(g)}$ is $K_p = 2.9 \\times 10^{-7}$. A mixture of 0.79 bar $\\ce{N2}$ and 0.21 bar $\\ce{O2}$ is prepared at 300 K and heated to 1200 K while maintaining a constant total pressure of 1.00 bar. What is the equilibrium partial pressure of $\\ce{NO(g)}$ at 1200 K?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1135,31 +1169,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "2.4 ´ 10-8 bar"
+        "text_md": "$2.4 \\times 10^{-8}$ bar"
       },
       {
         "label": "B",
-        "text_md": "1.1 ´ 10-4 bar"
+        "text_md": "$1.1 \\times 10^{-4}$ bar"
       },
       {
         "label": "C",
-        "text_md": "2.2 ´ 10-4 bar"
+        "text_md": "$2.2 \\times 10^{-4}$ bar"
       },
       {
         "label": "D",
-        "text_md": "5.4 ´ 10-4 bar"
+        "text_md": "$5.4 \\times 10^{-4}$ bar"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-36",
     "year": 2024,
     "level": "local",
     "number": 36,
-    "stem_md": "Sodium sulfate is slowly added to 1.00 L of a solution that is 0.10 M in both Pb2+(aq) and Sr2+(aq). How much Na2SO4 must be added to induce precipitation of SrSO4? The Ksp of PbSO4 is 1.8 ´ 10-8 and the Ksp of SrSO4 is 3.5 ´ 10-7.",
+    "stem_md": "Sodium sulfate is slowly added to 1.00 L of a solution that is 0.10 M in both $\\ce{Pb^2+(aq)}$ and $\\ce{Sr^2+(aq)}$. How much $\\ce{Na2SO4}$ must be added to induce precipitation of $\\ce{SrSO4}$? The $K_\\text{sp}$ of $\\ce{PbSO4}$ is $1.8 \\times 10^{-8}$ and the $K_\\text{sp}$ of $\\ce{SrSO4}$ is $3.5 \\times 10^{-7}$.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1168,31 +1203,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "3.3 ´ 10-6 mol"
+        "text_md": "$3.3 \\times 10^{-6}$ mol"
       },
       {
         "label": "B",
-        "text_md": "5.9 ´ 10-4 mol"
+        "text_md": "$5.9 \\times 10^{-4}$ mol"
       },
       {
         "label": "C",
-        "text_md": "3.5 ´ 10-6 mol"
+        "text_md": "$3.5 \\times 10^{-6}$ mol"
       },
       {
         "label": "D",
-        "text_md": "9.5 ´ 10-2 mol"
+        "text_md": "$9.5 \\times 10^{-2}$ mol"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 36. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-37",
     "year": 2024,
     "level": "local",
     "number": 37,
-    "stem_md": "What is the oxidation number of carbon in methanol, CH3OH?",
+    "stem_md": "What is the oxidation number of carbon in methanol, $\\ce{CH3OH}$?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1218,14 +1254,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-38",
     "year": 2024,
     "level": "local",
     "number": 38,
-    "stem_md": "A standard galvanic cell is assembled from silver and platinum in 1 M solutions of the corresponding metal ions. Which metal would be labeled the cathode, and what is the voltage of the standard galvanic cell? Half-reaction E°, V Pt2+(aq) + 2e– → Pt(s) 1.20 Ag+(aq) + e– → Ag(s) 0.80",
+    "stem_md": "A standard galvanic cell is assembled from silver and platinum in 1 M solutions of the corresponding metal ions. Which metal would be labeled the cathode, and what is the voltage of the standard galvanic cell? Half-reaction $E^\\circ$, V $\\ce{Pt^2+(aq) + 2e- -> Pt(s)}$ 1.20 $\\ce{Ag+(aq) + e- -> Ag(s)}$ 0.80",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1234,24 +1271,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Ag cathode, E° = 1.60 V"
+        "text_md": "Ag cathode, $E^\\circ$ = 1.60 V"
       },
       {
         "label": "B",
-        "text_md": "Pt cathode, E° = 1.20 V"
+        "text_md": "Pt cathode, $E^\\circ$ = 1.20 V"
       },
       {
         "label": "C",
-        "text_md": "Ag cathode, E° = 0.80 V"
+        "text_md": "Ag cathode, $E^\\circ$ = 0.80 V"
       },
       {
         "label": "D",
-        "text_md": "Pt cathode, E° = 0.40 V"
+        "text_md": "Pt cathode, $E^\\circ$ = 0.40 V"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-39",
@@ -1284,14 +1322,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-40",
     "year": 2024,
     "level": "local",
     "number": 40,
-    "stem_md": "Aqueous sulfuric acid containing 1.0 M NaI is electrolyzed at glassy carbon electrodes. What is produced at the anode?",
+    "stem_md": "Aqueous sulfuric acid containing 1.0 M $\\ce{NaI}$ is electrolyzed at glassy carbon electrodes. What is produced at the anode?",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1300,24 +1339,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2"
+        "text_md": "$\\ce{H2}$"
       },
       {
         "label": "B",
-        "text_md": "O2"
+        "text_md": "$\\ce{O2}$"
       },
       {
         "label": "C",
-        "text_md": "I2"
+        "text_md": "$\\ce{I2}$"
       },
       {
         "label": "D",
-        "text_md": "SO2"
+        "text_md": "$\\ce{SO2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-41",
@@ -1333,31 +1373,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "∆H°rxn > 0"
+        "text_md": "$\\Delta H^\\circ_\\text{rxn} > 0$"
       },
       {
         "label": "B",
-        "text_md": "∆S°rxn > 0"
+        "text_md": "$\\Delta S^\\circ_\\text{rxn} > 0$"
       },
       {
         "label": "C",
-        "text_md": "∆G°rxn > 0"
+        "text_md": "$\\Delta G^\\circ_\\text{rxn} > 0$"
       },
       {
         "label": "D",
-        "text_md": "E° > 0"
+        "text_md": "$E^\\circ > 0$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-42",
     "year": 2024,
     "level": "local",
     "number": 42,
-    "stem_md": "What is the standard reduction potential under acidic conditions for the reduction of PbO2(s) to Pb(s)? PbO2(s) + 4 H+(aq) + 4e– → Pb(s) + 2 H2O(l) E° = ??? Half-reaction E°, V PbO2(s) + 4 H+(aq) + 2e– → Pb2+(aq) + 2 H2O(l) 1.468 Pb2+(aq) + 2e– → Pb(s) –0.126",
+    "stem_md": "What is the standard reduction potential under acidic conditions for the reduction of $\\ce{PbO2(s)}$ to $\\ce{Pb(s)}$? $\\ce{PbO2(s) + 4 H+(aq) + 4e- -> Pb(s) + 2 H2O(l)}$ $E^\\circ$ = ??? Half-reaction $E^\\circ$, V $\\ce{PbO2(s) + 4 H+(aq) + 2e- -> Pb^2+(aq) + 2 H2O(l)}$ 1.468 $\\ce{Pb^2+(aq) + 2e- -> Pb(s)}$ –0.126",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1383,7 +1424,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-43",
@@ -1416,7 +1458,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-44",
@@ -1449,14 +1492,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-45",
     "year": 2024,
     "level": "local",
     "number": 45,
-    "stem_md": "Two orbitals in an atom are both spherically symmetric but differ in size. Which statements about the orbitals’ quantum numbers must be correct? I. The two orbitals have different values of n. II. The two orbitals have the same value of ml.",
+    "stem_md": "Two orbitals in an atom are both spherically symmetric but differ in size. Which statements about the orbitals’ quantum numbers must be correct?\n\nI. The two orbitals have different values of $n$.\n\nII. The two orbitals have the same value of $m_l$.",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1482,7 +1526,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-46",
@@ -1498,31 +1543,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "V and Cr+"
+        "text_md": "$\\ce{V}$ and $\\ce{Cr+}$"
       },
       {
         "label": "B",
-        "text_md": "Mn+ and Fe–"
+        "text_md": "$\\ce{Mn+}$ and $\\ce{Fe-}$"
       },
       {
         "label": "C",
-        "text_md": "Ni and Pd"
+        "text_md": "$\\ce{Ni}$ and $\\ce{Pd}$"
       },
       {
         "label": "D",
-        "text_md": "Zn and Ga+"
+        "text_md": "$\\ce{Zn}$ and $\\ce{Ga+}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-47",
     "year": 2024,
     "level": "local",
     "number": 47,
-    "stem_md": "Which list arranges from highest to lowest the standard reduction potentials E° for reduction of the divalent group 10 metal ions M2+(aq) to M(s)?",
+    "stem_md": "Which list arranges from highest to lowest the standard reduction potentials $E^\\circ$ for reduction of the divalent group 10 metal ions $\\ce{M^2+ (aq)}$ to $\\ce{M(s)}$?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1548,14 +1594,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-48",
     "year": 2024,
     "level": "local",
     "number": 48,
-    "stem_md": "A nucleus absorbs a neutron and undergoes fission to produce Zr !\" #\"$ , Xe %! #$! , and three additional neutrons. What is the fissile nucleus?",
+    "stem_md": "A nucleus absorbs a neutron and undergoes fission to produce $\\ce{^{97}_{40}Zr}$, $\\ce{^{140}_{54}Xe}$, and three additional neutrons. What is the fissile nucleus?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1581,7 +1628,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-49",
@@ -1597,31 +1645,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "HCN"
+        "text_md": "$\\ce{HCN}$"
       },
       {
         "label": "B",
-        "text_md": "N2O4"
+        "text_md": "$\\ce{N2O4}$"
       },
       {
         "label": "C",
-        "text_md": "NO2"
+        "text_md": "$\\ce{NO2}$"
       },
       {
         "label": "D",
-        "text_md": "NO2 –"
+        "text_md": "$\\ce{NO2-}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-50",
     "year": 2024,
     "level": "local",
     "number": 50,
-    "stem_md": "How many lone pairs are there in a valid Lewis structure of ozone, O3?",
+    "stem_md": "How many lone pairs are there in a valid Lewis structure of ozone, $\\ce{O3}$?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1647,7 +1696,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-51",
@@ -1663,31 +1713,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2F+"
+        "text_md": "$\\ce{H2F+}$"
       },
       {
         "label": "B",
-        "text_md": "FCO+"
+        "text_md": "$\\ce{FCO+}$"
       },
       {
         "label": "C",
-        "text_md": "FNO"
+        "text_md": "$\\ce{FNO}$"
       },
       {
         "label": "D",
-        "text_md": "N2F2"
+        "text_md": "$\\ce{N2F2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-52",
     "year": 2024,
     "level": "local",
     "number": 52,
-    "stem_md": "Anionic NO– has a longer bond than neutral NO. Which is the best explanation for this difference?",
+    "stem_md": "Anionic $\\ce{NO-}$ has a longer bond than neutral $\\ce{NO}$. Which is the best explanation for this difference?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1696,31 +1747,66 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NO– has two unpaired electrons while NO has only one."
+        "text_md": "$\\ce{NO-}$ has two unpaired electrons while $\\ce{NO}$ has only one."
       },
       {
         "label": "B",
-        "text_md": "NO– has a double bond while NO has a triple bond."
+        "text_md": "$\\ce{NO-}$ has a double bond while $\\ce{NO}$ has a triple bond."
       },
       {
         "label": "C",
-        "text_md": "NO– has one more s antibonding electron than NO."
+        "text_md": "$\\ce{NO-}$ has one more s antibonding electron than $\\ce{NO}$."
       },
       {
         "label": "D",
-        "text_md": "NO– has one more π antibonding electron than NO."
+        "text_md": "$\\ce{NO-}$ has one more π antibonding electron than $\\ce{NO}$."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2024-L-53",
+    "year": 2024,
+    "level": "local",
+    "number": 53,
+    "stem_md": "Which is the best representation of the three-dimensional arrangement of the atoms in nitramide, $\\ce{H2NNO2}$?",
+    "figure_url": "/figures/2024-L-53.png",
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2024 Local exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-54",
     "year": 2024,
     "level": "local",
     "number": 54,
-    "stem_md": "How many stereoisomers are possible for the square planar complex Pt(NH2CH2CH2NH2)(C2O4)?",
+    "stem_md": "How many stereoisomers are possible for the square planar complex $\\ce{Pt(NH2CH2CH2NH2)(C2O4)}$?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1746,7 +1832,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-55",
@@ -1779,7 +1866,42 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 55. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2024-L-57",
+    "year": 2024,
+    "level": "local",
+    "number": 57,
+    "stem_md": "Which molecule is not aromatic?",
+    "figure_url": "/figures/2024-L-57.png",
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2024 Local exam, question 57. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-58",
@@ -1812,7 +1934,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-59",
@@ -1845,7 +1968,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 59. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2024-L-60",
@@ -1873,11 +1997,12 @@
       },
       {
         "label": "D",
-        "text_md": "Neither I nor II END OF TEST N S O H HO H HO H H OH H OH OH β-D-glucose O H HO H HO H H OH H OCH3 OH O H HO H HO H OCH3 OH H H OH I. II."
+        "text_md": "Neither I nor II"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2024 Local exam, question 60. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   }
 ]

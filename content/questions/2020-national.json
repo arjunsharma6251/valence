@@ -4,7 +4,7 @@
     "year": 2020,
     "level": "national",
     "number": 1,
-    "stem_md": "Iron(III) sulfide reacts with gaseous hydrogen chloride to produce iron(III) chloride and hydrogen sulfide. How much iron(III) sulfide would be required to react with 1.5 mol HCl?",
+    "stem_md": "Iron(III) sulfide reacts with gaseous hydrogen chloride to produce iron(III) chloride and hydrogen sulfide. How much iron(III) sulfide would be required to react with 1.5 mol $\\ce{HCl}$?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -30,14 +30,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-02",
     "year": 2020,
     "level": "national",
     "number": 2,
-    "stem_md": "How much CH4 remains after 10.0 g of CH4 reacts completely with 15.0 g of O2 according to the following equation? CH4(g) + 2 O2(g) → CO2(g) + 2 H2O(g)",
+    "stem_md": "How much $\\ce{CH4}$ remains after 10.0 g of $\\ce{CH4}$ reacts completely with 15.0 g of $\\ce{O2}$ according to the following equation? $\\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(g)}$",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -63,7 +64,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 2. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-03",
@@ -79,31 +81,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CO (M = 28.0)"
+        "text_md": "$\\ce{CO}$ (M = 28.0)"
       },
       {
         "label": "B",
-        "text_md": "C2H6 (M = 30.0)"
+        "text_md": "$\\ce{C2H6}$ (M = 30.0)"
       },
       {
         "label": "C",
-        "text_md": "C6H6 (M = 78.0)"
+        "text_md": "$\\ce{C6H6}$ (M = 78.0)"
       },
       {
         "label": "D",
-        "text_md": "Kr (M = 83.8)"
+        "text_md": "$\\ce{Kr}$ (M = 83.8)"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-04",
     "year": 2020,
     "level": "national",
     "number": 4,
-    "stem_md": "200.0 mL of aqueous nitric acid is mixed with 300.0 mL of 0.200 M Mg(NO3)2 solution to give a solution with a nitrate ion concentration of 0.500 M. What is the concentration of the nitric acid?",
+    "stem_md": "200.0 mL of aqueous nitric acid is mixed with 300.0 mL of 0.200 M $\\ce{Mg(NO3)2}$ solution to give a solution with a nitrate ion concentration of 0.500 M. What is the concentration of the nitric acid?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -129,14 +132,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-05",
     "year": 2020,
     "level": "national",
     "number": 5,
-    "stem_md": "A student wishes to prepare a solution with a final concentration of Na+ = 0.50 M and a final concentration of HCO3– = 0.10 M by taking some NaOH and some trona (Na2CO3•NaHCO3•2H2O) and diluting with water to a final volume of 1.00 L. How much NaOH and trona are required?",
+    "stem_md": "A student wishes to prepare a solution with a final concentration of $\\ce{Na+}$ = 0.50 M and a final concentration of $\\ce{HCO3-}$ = 0.10 M by taking some $\\ce{NaOH}$ and some trona ($\\ce{Na2CO3.NaHCO3.2H2O}$) and diluting with water to a final volume of 1.00 L. How much $\\ce{NaOH}$ and trona are required?",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -145,31 +149,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "0.05 mol NaOH, 0.15 mol trona"
+        "text_md": "0.05 mol $\\ce{NaOH}$, 0.15 mol trona"
       },
       {
         "label": "B",
-        "text_md": "0.20 mol NaOH, 0.10 mol trona"
+        "text_md": "0.20 mol $\\ce{NaOH}$, 0.10 mol trona"
       },
       {
         "label": "C",
-        "text_md": "0.35 mol NaOH, 0.05 mol trona"
+        "text_md": "0.35 mol $\\ce{NaOH}$, 0.05 mol trona"
       },
       {
         "label": "D",
-        "text_md": "A solution cannot be prepared with the desired concentrations of Na+ and HCO3– using only NaOH and trona."
+        "text_md": "A solution cannot be prepared with the desired concentrations of $\\ce{Na+}$ and $\\ce{HCO3-}$ using only $\\ce{NaOH}$ and trona."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 5. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-06",
     "year": 2020,
     "level": "national",
     "number": 6,
-    "stem_md": "As the concentration of an aqueous solution of sodium chloride increases from 1.0 M to 2.0 M, the values of which properties of the solution decrease? I. Density II. Freezing point",
+    "stem_md": "As the concentration of an aqueous solution of sodium chloride increases from 1.0 M to 2.0 M, the values of which properties of the solution decrease?\n\nI. Density\n\nII. Freezing point",
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
@@ -195,7 +200,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 6. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-07",
@@ -228,14 +234,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 7. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-08",
     "year": 2020,
     "level": "national",
     "number": 8,
-    "stem_md": "The equilibrium constant for the formation of CoCl42-, a species that is blue in solution, is to be measured using a colorimeter. The colorimeter has wavelength settings of 470 nm (“blue”), 565 nm (“green”), and 635 nm (“red”) to use in the experiment. What is the best setting to use?",
+    "stem_md": "The equilibrium constant for the formation of $\\ce{CoCl4^2-}$, a species that is blue in solution, is to be measured using a colorimeter. The colorimeter has wavelength settings of 470 nm (“blue”), 565 nm (“green”), and 635 nm (“red”) to use in the experiment. What is the best setting to use?",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -261,14 +268,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 8. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-09",
     "year": 2020,
     "level": "national",
     "number": 9,
-    "stem_md": "A student is using a coffee-cup calorimeter to determine the enthalpy change of the endothermic reaction of two aqueous solutions. After both solutions are added to the cup, the student neglects to put the lid on the cup. This would cause the magnitude of the calculated ΔH° value to be:",
+    "stem_md": "A student is using a coffee-cup calorimeter to determine the enthalpy change of the endothermic reaction of two aqueous solutions. After both solutions are added to the cup, the student neglects to put the lid on the cup. This would cause the magnitude of the calculated $\\Delta H^\\circ$ value to be:",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -294,7 +302,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-10",
@@ -310,31 +319,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NaN3"
+        "text_md": "$\\ce{NaN3}$"
       },
       {
         "label": "B",
-        "text_md": "Na2CO3"
+        "text_md": "$\\ce{Na2CO3}$"
       },
       {
         "label": "C",
-        "text_md": "NaClO4"
+        "text_md": "$\\ce{NaClO4}$"
       },
       {
         "label": "D",
-        "text_md": "Na2SO3"
+        "text_md": "$\\ce{Na2SO3}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-11",
     "year": 2020,
     "level": "national",
     "number": 11,
-    "stem_md": "When aqueous ethanol is treated with an acidified solution of potassium dichromate, what is observed? I. Color change II. Gas evolution",
+    "stem_md": "When aqueous ethanol is treated with an acidified solution of potassium dichromate, what is observed?\n\nI. Color change\n\nII. Gas evolution",
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
@@ -360,7 +370,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 11. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-12",
@@ -376,24 +387,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "BaCl2 and CH3COOH"
+        "text_md": "$\\ce{BaCl2}$ and $\\ce{CH3COOH}$"
       },
       {
         "label": "B",
-        "text_md": "BaCl2 and Na2CO3"
+        "text_md": "$\\ce{BaCl2}$ and $\\ce{Na2CO3}$"
       },
       {
         "label": "C",
-        "text_md": "CuCl2 and CH3COOH"
+        "text_md": "$\\ce{CuCl2}$ and $\\ce{CH3COOH}$"
       },
       {
         "label": "D",
-        "text_md": "CuCl2 and Na2CO3"
+        "text_md": "$\\ce{CuCl2}$ and $\\ce{Na2CO3}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-13",
@@ -409,31 +421,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "CHCl3"
+        "text_md": "$\\ce{CHCl3}$"
       },
       {
         "label": "B",
-        "text_md": "CFCl3"
+        "text_md": "$\\ce{CFCl3}$"
       },
       {
         "label": "C",
-        "text_md": "CCl4"
+        "text_md": "$\\ce{CCl4}$"
       },
       {
         "label": "D",
-        "text_md": "CBrCl3"
+        "text_md": "$\\ce{CBrCl3}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-14",
     "year": 2020,
     "level": "national",
     "number": 14,
-    "stem_md": "A sample of cyclohexane (C6H12, bp = 81 °C) is introduced into an evacuated container at 40 °C. One- third of the cyclohexane by mass is in the form of the liquid and two-thirds is in the form of the vapor. The volume of the container is then doubled, maintaining the temperature at 40 °C. What happens to the pressure as the volume is doubled?",
+    "stem_md": "A sample of cyclohexane ($\\ce{C6H12}$, bp = 81 °C) is introduced into an evacuated container at 40 °C. One- third of the cyclohexane by mass is in the form of the liquid and two-thirds is in the form of the vapor. The volume of the container is then doubled, maintaining the temperature at 40 °C. What happens to the pressure as the volume is doubled?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -459,14 +472,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-15",
     "year": 2020,
     "level": "national",
     "number": 15,
-    "stem_md": "The normal boiling points of ammonia, water, and hydrogen fluoride increase in the order NH3 (bp = –33 °C) < HF (bp = 19 °C) < H2O (bp = 100 °C). What is the best explanation for this ordering?",
+    "stem_md": "The normal boiling points of ammonia, water, and hydrogen fluoride increase in the order $\\ce{NH3}$ (bp = –33 °C) < $\\ce{HF}$ (bp = 19 °C) < $\\ce{H2O}$ (bp = 100 °C). What is the best explanation for this ordering?",
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
@@ -475,24 +489,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "H2O forms a greater number of hydrogen bonds per mol than NH3 or HF."
+        "text_md": "$\\ce{H2O}$ forms a greater number of hydrogen bonds per mol than $\\ce{NH3}$ or $\\ce{HF}$."
       },
       {
         "label": "B",
-        "text_md": "H2O forms stronger hydrogen bonds than NH3 or HF."
+        "text_md": "$\\ce{H2O}$ forms stronger hydrogen bonds than $\\ce{NH3}$ or $\\ce{HF}$."
       },
       {
         "label": "C",
-        "text_md": "H2O has a larger dipole moment than NH3 or HF."
+        "text_md": "$\\ce{H2O}$ has a larger dipole moment than $\\ce{NH3}$ or $\\ce{HF}$."
       },
       {
         "label": "D",
-        "text_md": "H2O has stronger London dispersion forces than NH3 or HF."
+        "text_md": "$\\ce{H2O}$ has stronger London dispersion forces than $\\ce{NH3}$ or $\\ce{HF}$."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-16",
@@ -508,24 +523,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "He"
+        "text_md": "$\\ce{He}$"
       },
       {
         "label": "B",
-        "text_md": "NH3"
+        "text_md": "$\\ce{NH3}$"
       },
       {
         "label": "C",
-        "text_md": "N2"
+        "text_md": "$\\ce{N2}$"
       },
       {
         "label": "D",
-        "text_md": "CO"
+        "text_md": "$\\ce{CO}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-17",
@@ -541,24 +557,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "OF2"
+        "text_md": "$\\ce{OF2}$"
       },
       {
         "label": "B",
-        "text_md": "MgF2"
+        "text_md": "$\\ce{MgF2}$"
       },
       {
         "label": "C",
-        "text_md": "SiO2"
+        "text_md": "$\\ce{SiO2}$"
       },
       {
         "label": "D",
-        "text_md": "ClO2"
+        "text_md": "$\\ce{ClO2}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-18",
@@ -566,7 +583,7 @@
     "level": "national",
     "number": 18,
     "stem_md": "A portion of the structure of solid potassium is shown below. In what type of unit cell are the atoms arranged?",
-    "figure_url": null,
+    "figure_url": "/figures/2020-N-18.png",
     "topic_id": "states-of-matter",
     "subtopic": "",
     "est_percent_correct": 0.59,
@@ -591,14 +608,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-19",
     "year": 2020,
     "level": "national",
     "number": 19,
-    "stem_md": "What is the standard enthalpy of formation of C2H2(g)? ∆H°rxn, kJ mol-1 C2H2(g) + 5/2 O2(g) → 2CO2(g) + H2O(l) −1229.6 C(s, graphite) + O2(g) → CO2(g) −393.5 H2(g) + ½ O2(g) → H2O(l) −285.9",
+    "stem_md": "What is the standard enthalpy of formation of $\\ce{C2H2(g)}$?\n\n$\\Delta H^\\circ_\\text{rxn}$, kJ mol$^{-1}$\n\n$\\ce{C2H2(g) + 5/2 O2(g) -> 2 CO2(g) + H2O(l)}$ −1229.6\n\n$\\ce{C(s, graphite) + O2(g) -> CO2(g)}$ −393.5\n\n$\\ce{H2(g) + 1/2 O2(g) -> H2O(l)}$ −285.9",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -607,24 +625,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–2302.5 kJ mol-1"
+        "text_md": "–2302.5 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "–1909.0 kJ mol-1"
+        "text_md": "–1909.0 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "156.7 kJ mol-1"
+        "text_md": "156.7 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "550.2 kJ mol-1"
+        "text_md": "550.2 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-20",
@@ -640,31 +659,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "ClF(s) → ClF(g)"
+        "text_md": "$\\ce{ClF(s) -> ClF(g)}$"
       },
       {
         "label": "B",
-        "text_md": "ClF(s) → ClF(l)"
+        "text_md": "$\\ce{ClF(s) -> ClF(l)}$"
       },
       {
         "label": "C",
-        "text_md": "ClF(l) → ClF(g)"
+        "text_md": "$\\ce{ClF(l) -> ClF(g)}$"
       },
       {
         "label": "D",
-        "text_md": "ClF(g) → 1/2 Cl2(g) + 1/2 F2(g)"
+        "text_md": "$\\ce{ClF(g) -> 1/2 Cl2(g) + 1/2 F2(g)}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-21",
     "year": 2020,
     "level": "national",
     "number": 21,
-    "stem_md": "A 2.00 g sample of solid RbClO4 (M = 184.92) is added to 100.0 g water, both initially at 23.00 °C, in a well- insulated container. The final temperature of the solution is 21.56 °C. What is ∆H°solution of RbClO4? (Assume that the specific heat capacity of the solution is the same as that of pure water and neglect the heat capacity of the insulated container.)",
+    "stem_md": "A 2.00 g sample of solid $\\ce{RbClO4}$ ($M = 184.92$) is added to 100.0 g water, both initially at 23.00 °C, in a well-insulated container. The final temperature of the solution is 21.56 °C. What is $\\Delta H^\\circ_\\text{solution}$ of $\\ce{RbClO4}$? (Assume that the specific heat capacity of the solution is the same as that of pure water and neglect the heat capacity of the insulated container.)",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -673,31 +693,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–0.615 kJ mol-1"
+        "text_md": "–0.615 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "0.615 kJ mol-1"
+        "text_md": "0.615 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "13.6 kJ mol-1"
+        "text_md": "13.6 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "56.8 kJ mol-1"
+        "text_md": "56.8 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-22",
     "year": 2020,
     "level": "national",
     "number": 22,
-    "stem_md": "For a reaction studied over a wide temperature range, plots of ∆G°rxn/T vs. 1/T and of ∆G°rxn vs. T are linear. Which of the following must be independent of temperature? I. ∆G°rxn II. ∆H°rxn",
+    "stem_md": "For a reaction studied over a wide temperature range, plots of $\\Delta G^\\circ_\\text{rxn}/T$ vs. $1/T$ and of $\\Delta G^\\circ_\\text{rxn}$ vs. $T$ are linear. Which of the following must be independent of temperature?\n\nI. $\\Delta G^\\circ_\\text{rxn}$\n\nII. $\\Delta H^\\circ_\\text{rxn}$",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -723,14 +744,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-23",
     "year": 2020,
     "level": "national",
     "number": 23,
-    "stem_md": "Elemental tin forms two allotropes, white tin and gray tin. For the conversion of white tin to gray tin, ∆H° = –2.02 kJ mol-1 and ∆S° = –7.04 J mol-1 K-1. Which statement best describes the stability of the two phases?",
+    "stem_md": "Elemental tin forms two allotropes, white tin and gray tin. For the conversion of white tin to gray tin, $\\Delta H^\\circ = -2.02$ kJ mol$^{-1}$ and $\\Delta S^\\circ = -7.04$ J mol$^{-1}$ K$^{-1}$. Which statement best describes the stability of the two phases?",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -756,15 +778,16 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-24",
     "year": 2020,
     "level": "national",
     "number": 24,
-    "stem_md": "The plot of the natural logarithm of the molar solubility (S) of Ag2SO4 as a function of the reciprocal of the absolute temperature is shown below. What is ∆H°rxn for the following reaction? Ag2SO4(s) → 2 Ag+(aq) + SO42-(aq)",
-    "figure_url": null,
+    "stem_md": "The plot of the natural logarithm of the molar solubility ($S$) of $\\ce{Ag2SO4}$ as a function of the reciprocal of the absolute temperature is shown below. What is $\\Delta H^\\circ_\\text{rxn}$ for the following reaction?\n\n$\\ce{Ag2SO4(s) -> 2 Ag+(aq) + SO4^2-(aq)}$",
+    "figure_url": "/figures/2020-N-24.png",
     "topic_id": "thermodynamics",
     "subtopic": "",
     "est_percent_correct": 0.28,
@@ -772,24 +795,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "–19.8 kJ mol-1"
+        "text_md": "–19.8 kJ mol$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "–10.5 kJ mol-1"
+        "text_md": "–10.5 kJ mol$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "5.74 kJ mol-1"
+        "text_md": "5.74 kJ mol$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "17.2 kJ mol-1"
+        "text_md": "17.2 kJ mol$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-25",
@@ -805,32 +829,33 @@
     "options": [
       {
         "label": "A",
-        "text_md": "0.03 M min-1"
+        "text_md": "0.03 M min$^{-1}$"
       },
       {
         "label": "B",
-        "text_md": "0.04 M min-1"
+        "text_md": "0.04 M min$^{-1}$"
       },
       {
         "label": "C",
-        "text_md": "0.06 M min-1"
+        "text_md": "0.06 M min$^{-1}$"
       },
       {
         "label": "D",
-        "text_md": "0.07 M min-1"
+        "text_md": "0.07 M min$^{-1}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-26",
     "year": 2020,
     "level": "national",
     "number": 26,
-    "stem_md": "An irreversible reaction A + B → products is monitored in buffered aqueous solution under conditions where [B] >> [A] by measuring the concentration of A as a function of time. The decay of A is found to be first-order under these conditions, with the half-life for its disappearance varying as shown. What is the rate law for this reaction? [B] pH Half-life for disappearance of A 0.100 M 1.00 120 s 0.200 M 1.00 60 s 0.200 M 1.50 190 s",
-    "figure_url": null,
+    "stem_md": "An irreversible reaction A + B → products is monitored in buffered aqueous solution under conditions where $[B] >> [A]$ by measuring the concentration of A as a function of time. The decay of A is found to be first-order under these conditions, with the half-life for its disappearance varying as shown. What is the rate law for this reaction? $[B]$ pH Half-life for disappearance of A 0.100 M 1.00 120 s 0.200 M 1.00 60 s 0.200 M 1.50 190 s",
+    "figure_url": "/figures/2020-N-26.png",
     "topic_id": "kinetics",
     "subtopic": "",
     "est_percent_correct": 0.57,
@@ -838,31 +863,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Rate = k[A][B][H+]"
+        "text_md": "Rate = $k[A][B][\\ce{H+}]$"
       },
       {
         "label": "B",
-        "text_md": "Rate = k[A]/[B]"
+        "text_md": "Rate = $k[A]/[B]$"
       },
       {
         "label": "C",
-        "text_md": "Rate = k[A][H+]2/[B]"
+        "text_md": "Rate = $k[A][\\ce{H+}]^2/[B]$"
       },
       {
         "label": "D",
-        "text_md": "Rate = k[A][B][H+]2"
+        "text_md": "Rate = $k[A][B][\\ce{H+}]^2$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-27",
     "year": 2020,
     "level": "national",
     "number": 27,
-    "stem_md": "The thermal decomposition of NOCl is a second-order process, and the rate constant k for the disappearance of NOCl at 160 °C is 0.0037 M-1 s-1. What is the concentration of NOCl, initially at 0.043 M, after 20.0 minutes at 160 °C?",
+    "stem_md": "The thermal decomposition of $\\ce{NOCl}$ is a second-order process, and the rate constant $k$ for the disappearance of $\\ce{NOCl}$ at 160 °C is 0.0037 M$^{-1}$ s$^{-1}$. What is the concentration of $\\ce{NOCl}$, initially at 0.043 M, after 20.0 minutes at 160 °C?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -888,7 +914,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-28",
@@ -921,14 +948,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-29",
     "year": 2020,
     "level": "national",
     "number": 29,
-    "stem_md": "A reaction A B is reversible, with Keq = 1.00. The forward reaction is first-order in A. In a reaction initially containing only A at an initial concentration of [A]0, which plot will be linear over the course of the reaction?",
+    "stem_md": "A reaction $\\ce{A <=> B}$ is reversible, with $K_\\text{eq} = 1.00$. The forward reaction is first-order in A. In a reaction initially containing only A at an initial concentration of $[A]_0$, which plot will be linear over the course of the reaction?",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -937,31 +965,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "ln([A]) vs. time"
+        "text_md": "$\\ln([A])$ vs. time"
       },
       {
         "label": "B",
-        "text_md": "ln([A]–0.5[A]0) vs. time"
+        "text_md": "$\\ln([A]–0.5[A]_0)$ vs. time"
       },
       {
         "label": "C",
-        "text_md": "1/[A] vs. time"
+        "text_md": "$1/[A]$ vs. time"
       },
       {
         "label": "D",
-        "text_md": "1/([A]–0.5[A]0) vs. time"
+        "text_md": "$1/([A]–0.5[A]_0)$ vs. time"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-30",
     "year": 2020,
     "level": "national",
     "number": 30,
-    "stem_md": "The decomposition of nitryl chloride takes place according to the following equation: 2 NO2Cl(g) → 2 NO2(g) + Cl2(g) The following mechanism is proposed for this reaction: NO2Cl(g) NO2(g) + Cl(g) NO2Cl(g) + Cl(g) → NO2(g) + Cl2(g) Which rate laws are INCONSISTENT with the proposed mechanism, regardless of the relative rates of the two steps? I. Rate = k[NO2Cl] II. Rate = k[NO2Cl]2",
+    "stem_md": "The decomposition of nitryl chloride takes place according to the following equation: $\\ce{2 NO2Cl(g) -> 2 NO2(g) + Cl2(g)}$ The following mechanism is proposed for this reaction: $\\ce{NO2Cl(g) <=> NO2(g) + Cl(g)}$ $\\ce{NO2Cl(g) + Cl(g) -> NO2(g) + Cl2(g)}$ Which rate laws are INCONSISTENT with the proposed mechanism, regardless of the relative rates of the two steps?\n\nI. Rate = $k[\\ce{NO2Cl}]$\n\nII. Rate = $k[\\ce{NO2Cl}]^2$",
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
@@ -987,14 +1016,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-31",
     "year": 2020,
     "level": "national",
     "number": 31,
-    "stem_md": "A sample of SO2Cl2 is introduced into a movable piston with the pressure maintained at 1.00 atm and the temperature at 450 K. The volume increases as the sulfuryl chloride equilibrates according to the following endothermic reaction: SO2Cl2(g) SO2(g) + Cl2(g) ∆H° > 0 Which changes would decrease the number of moles of SO2Cl2(g) present in the piston at equilibrium? In each case, the pressure is maintained at 1.00 atm. I. The temperature of the system is increased to 500 K. II. A sample of Ar(g) is injected into the piston.",
+    "stem_md": "A sample of $\\ce{SO2Cl2}$ is introduced into a movable piston with the pressure maintained at 1.00 atm and the temperature at 450 K. The volume increases as the sulfuryl chloride equilibrates according to the following endothermic reaction: $\\ce{SO2Cl2(g) <=> SO2(g) + Cl2(g)}$ $\\Delta H^\\circ > 0$ Which changes would decrease the number of moles of $\\ce{SO2Cl2(g)}$ present in the piston at equilibrium? In each case, the pressure is maintained at 1.00 atm.\n\nI. The temperature of the system is increased to 500 K.\n\nII. A sample of $\\ce{Ar(g)}$ is injected into the piston.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1020,14 +1050,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-32",
     "year": 2020,
     "level": "national",
     "number": 32,
-    "stem_md": "Equal volumes of 0.500 M HCO2H and 0.100 M Na(O2CCH3) are mixed. What is the pH of the resulting solution? The pKa of HCO2H is 3.75 and the pKa of CH3CO2H is 4.75.",
+    "stem_md": "Equal volumes of 0.500 M $\\ce{HCO2H}$ and 0.100 M $\\ce{Na(O2CCH3)}$ are mixed. What is the pH of the resulting solution? The p$K_\\text{a}$ of $\\ce{HCO2H}$ is 3.75 and the p$K_\\text{a}$ of $\\ce{CH3CO2H}$ is 4.75.",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1053,14 +1084,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-33",
     "year": 2020,
     "level": "national",
     "number": 33,
-    "stem_md": "The formation constant Kf of the hexamminecadmium ion, Cd(NH3)62+, is 2.6 × 105. In a solution whose ammonia concentration is 0.12 M, what percentage of the cadmium in solution is in the form of Cd(NH3)62+?",
+    "stem_md": "The formation constant $K_\\text{f}$ of the hexamminecadmium ion, $\\ce{Cd(NH3)6^2+}$, is $2.6 \\times 10^{5}$. In a solution whose ammonia concentration is 0.12 M, what percentage of the cadmium in solution is in the form of $\\ce{Cd(NH3)6^2+}$?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1086,14 +1118,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-34",
     "year": 2020,
     "level": "national",
     "number": 34,
-    "stem_md": "The Ksp of Sr(OH)2 is 2.0 × 10-3. What is the pH of a saturated solution of Sr(OH)2?",
+    "stem_md": "The $K_\\text{sp}$ of $\\ce{Sr(OH)2}$ is $2.0 \\times 10^{-3}$. What is the pH of a saturated solution of $\\ce{Sr(OH)2}$?",
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
@@ -1119,15 +1152,50 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2020-N-35",
+    "year": 2020,
+    "level": "national",
+    "number": 35,
+    "stem_md": "When 0.100 M HCl was added to a 10.0 mL sample of aqueous NaOH, it generated the titration curve shown as a solid line. If the same number of moles of NaOH, but initially at a volume of 20.0 mL, were titrated with 0.100 M HCl, which of the dashed curves would best describe this new titration?",
+    "figure_url": "/figures/2020-N-35.png",
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.62,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 National Part I exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-36",
     "year": 2020,
     "level": "national",
     "number": 36,
-    "stem_md": "A gas X reacts reversibly and independently to form two different gases, Y and Z: X(g) ⇄ Y(g) KY X(g) ⇄ Z(g) KZ At a certain temperature, the time evolution of the pressures of the three gases are shown. What is the equilibrium constant KY at this temperature? Time 0 1 2 3 4 5 Partial Pressure (atm) P X P Y P Z",
-    "figure_url": null,
+    "stem_md": "A gas X reacts reversibly and independently to form two different gases, Y and Z: $\\ce{X(g) <=> Y(g)}$ $K_Y$ $\\ce{X(g) <=> Z(g)}$ $K_Z$ At a certain temperature, the time evolution of the pressures of the three gases are shown. What is the equilibrium constant $K_Y$ at this temperature? Time 0 1 2 3 4 5 Partial Pressure (atm) $P_X$ $P_Y$ $P_Z$",
+    "figure_url": "/figures/2020-N-36.png",
     "topic_id": "equilibrium",
     "subtopic": "",
     "est_percent_correct": 0.08,
@@ -1152,14 +1220,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 36. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-37",
     "year": 2020,
     "level": "national",
     "number": 37,
-    "stem_md": "When the following reaction is balanced under basic conditions, what is the ratio of the coefficients of Mn(OH)2(s) to MnO42-(aq)? Mn(OH)2(s) + MnO4–(aq) → MnO42-(aq)",
+    "stem_md": "When the following reaction is balanced under basic conditions, what is the ratio of the coefficients of $\\ce{Mn(OH)2(s)}$ to $\\ce{MnO4^2-(aq)}$? $\\ce{Mn(OH)2(s) + MnO4^-(aq) -> MnO4^2-(aq)}$",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1185,14 +1254,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-38",
     "year": 2020,
     "level": "national",
     "number": 38,
-    "stem_md": "What is the standard reduction potential for the reduction of permanganate ion to managanese dioxide in acidic solution? Half-Reaction Eº, V MnO4–(aq) + 8 H+(aq) + 5 e– → Mn2+(aq) + 4 H2O(l) +1.51 MnO2(s) + 4 H+(aq) + 2 e– → Mn2+(aq) + 2 H2O(l) +1.23 MnO4–(aq) + 4 H+(aq) + 3 e– → MnO2(s) + 2 H2O(l) ???",
+    "stem_md": "What is the standard reduction potential for the reduction of permanganate ion to managanese dioxide in acidic solution?\n\nHalf-Reaction $E^\\circ$, V\n\n$\\ce{MnO4^-(aq) + 8 H+(aq) + 5 e- -> Mn^2+(aq) + 4 H2O(l)}$ +1.51\n\n$\\ce{MnO2(s) + 4 H+(aq) + 2 e- -> Mn^2+(aq) + 2 H2O(l)}$ +1.23\n\n$\\ce{MnO4^-(aq) + 4 H+(aq) + 3 e- -> MnO2(s) + 2 H2O(l)}$ ???",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1218,7 +1288,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-39",
@@ -1251,14 +1322,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-40",
     "year": 2020,
     "level": "national",
     "number": 40,
-    "stem_md": "Which changes will lead to an increase in the theoretical cell potential for a hydrogen-oxygen fuel cell? I. A more efficient catalyst is used at the cathode. II. The temperature is increased from 298 K to 320 K.",
+    "stem_md": "Which changes will lead to an increase in the theoretical cell potential for a hydrogen-oxygen fuel cell?\n\nI. A more efficient catalyst is used at the cathode.\n\nII. The temperature is increased from 298 K to 320 K.",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -1284,7 +1356,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-41",
@@ -1300,7 +1373,7 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Chloride ion complexes gold(III), stabilizing it as AuCl4–."
+        "text_md": "Chloride ion complexes gold(III), stabilizing it as $\\ce{AuCl4^-}$."
       },
       {
         "label": "B",
@@ -1308,24 +1381,25 @@
       },
       {
         "label": "C",
-        "text_md": "Nitric and hydrochloric acids react to form NO2Cl, which reacts readily with metallic gold."
+        "text_md": "Nitric and hydrochloric acids react to form $\\ce{NO2Cl}$, which reacts readily with metallic gold."
       },
       {
         "label": "D",
-        "text_md": "Nitric and hydrochloric acids react to form Cl2, which reacts readily with metallic gold."
+        "text_md": "Nitric and hydrochloric acids react to form $\\ce{Cl2}$, which reacts readily with metallic gold."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-42",
     "year": 2020,
     "level": "national",
     "number": 42,
-    "stem_md": "A concentration cell is set up with a metal M and aqueous solutions of the Mn+ ion. The cell potential at 298 K as a function of the logarithm of the [Mn+] in the anode is graphed below. What may be concluded about the value of n? M(s) | Mn+(aq, variable concentration) || Mn+(aq, 1.00 M) | M(s)",
-    "figure_url": null,
+    "stem_md": "A concentration cell is set up with a metal M and aqueous solutions of the $\\ce{M^{n+}}$ ion. The cell potential at 298 K as a function of the logarithm of the $[\\ce{M^{n+}}]$ in the anode is graphed below. What may be concluded about the value of n?\n\n$\\ce{M(s) | M^{n+}(aq, variable concentration) || M^{n+}(aq, 1.00 M) | M(s)}$",
+    "figure_url": "/figures/2020-N-42.png",
     "topic_id": "redox",
     "subtopic": "",
     "est_percent_correct": 0.4,
@@ -1333,31 +1407,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "n = 1"
+        "text_md": "$n = 1$"
       },
       {
         "label": "B",
-        "text_md": "n = 2"
+        "text_md": "$n = 2$"
       },
       {
         "label": "C",
-        "text_md": "n = 3"
+        "text_md": "$n = 3$"
       },
       {
         "label": "D",
-        "text_md": "n cannot be determined from the information given."
+        "text_md": "$n$ cannot be determined from the information given."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-43",
     "year": 2020,
     "level": "national",
     "number": 43,
-    "stem_md": "A hydrogen atom emits light as it changes from a state with a principal quantum number n+3 to a state with principal quantum number n. Which change causes the greatest change in the energy of the emitted photon?",
+    "stem_md": "A hydrogen atom emits light as it changes from a state with a principal quantum number $n+3$ to a state with principal quantum number $n$. Which change causes the greatest change in the energy of the emitted photon?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1366,31 +1441,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "The initial state is changed to n+4."
+        "text_md": "The initial state is changed to $n+4$."
       },
       {
         "label": "B",
-        "text_md": "The initial state is changed to n+2."
+        "text_md": "The initial state is changed to $n+2$."
       },
       {
         "label": "C",
-        "text_md": "The final state is changed to n+1."
+        "text_md": "The final state is changed to $n+1$."
       },
       {
         "label": "D",
-        "text_md": "The final state is changed to n–1."
+        "text_md": "The final state is changed to $n-1$."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-44",
     "year": 2020,
     "level": "national",
     "number": 44,
-    "stem_md": "The first three ionization energies (in kJ mol-1) of four metallic elements are listed below. Which element would form the chloride salt with the lattice energy that is largest in magnitude?",
+    "stem_md": "The first three ionization energies (in kJ mol$^{-1}$) of four metallic elements are listed below. Which element would form the chloride salt with the lattice energy that is largest in magnitude?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1416,7 +1492,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-45",
@@ -1449,7 +1526,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-46",
@@ -1465,24 +1543,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "TcO4–"
+        "text_md": "$\\ce{TcO4^-}$"
       },
       {
         "label": "B",
-        "text_md": "RuO4"
+        "text_md": "$\\ce{RuO4}$"
       },
       {
         "label": "C",
-        "text_md": "ReO4–"
+        "text_md": "$\\ce{ReO4^-}$"
       },
       {
         "label": "D",
-        "text_md": "OsO4"
+        "text_md": "$\\ce{OsO4}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-47",
@@ -1515,14 +1594,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-48",
     "year": 2020,
     "level": "national",
     "number": 48,
-    "stem_md": "A clean sample of magnesium metal is irradiated under vacuum with a 1 W laser. If the laser wavelength is 400 nm, nothing happens, but if the wavelength is 300 nm, then electrons with 45.6 kJ mol-1 of energy are ejected from the Mg surface. What happens if a 2 W laser is used instead?",
+    "stem_md": "A clean sample of magnesium metal is irradiated under vacuum with a 1 W laser. If the laser wavelength is 400 nm, nothing happens, but if the wavelength is 300 nm, then electrons with 45.6 kJ mol$^{-1}$ of energy are ejected from the Mg surface. What happens if a 2 W laser is used instead?",
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
@@ -1531,24 +1611,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "There is no change at 400 nm, but at 300 nm twice as many electrons are emitted at 45.6 kJ mol-1."
+        "text_md": "There is no change at 400 nm, but at 300 nm twice as many electrons are emitted at 45.6 kJ mol$^{-1}$."
       },
       {
         "label": "B",
-        "text_md": "There is no change at 400 nm, but at 300 nm, electrons are emitted at 91.2 kJ mol-1."
+        "text_md": "There is no change at 400 nm, but at 300 nm, electrons are emitted at 91.2 kJ mol$^{-1}$."
       },
       {
         "label": "C",
-        "text_md": "There is no change at 400 nm, but at 300 nm, electrons are emitted at 444 kJ mol-1."
+        "text_md": "There is no change at 400 nm, but at 300 nm, electrons are emitted at 444 kJ mol$^{-1}$."
       },
       {
         "label": "D",
-        "text_md": "At 400 nm, electrons are emitted at 245 kJ mol-1, while at 300 nm, electrons are emitted at 444 kJ mol-1."
+        "text_md": "At 400 nm, electrons are emitted at 245 kJ mol$^{-1}$, while at 300 nm, electrons are emitted at 444 kJ mol$^{-1}$."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-49",
@@ -1564,24 +1645,25 @@
     "options": [
       {
         "label": "A",
-        "text_md": "HF"
+        "text_md": "$\\ce{HF}$"
       },
       {
         "label": "B",
-        "text_md": "HCl"
+        "text_md": "$\\ce{HCl}$"
       },
       {
         "label": "C",
-        "text_md": "HBr"
+        "text_md": "$\\ce{HBr}$"
       },
       {
         "label": "D",
-        "text_md": "HI"
+        "text_md": "$\\ce{HI}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-50",
@@ -1597,31 +1679,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "NO3–"
+        "text_md": "$\\ce{NO3-}$"
       },
       {
         "label": "B",
-        "text_md": "NO2–"
+        "text_md": "$\\ce{NO2-}$"
       },
       {
         "label": "C",
-        "text_md": "FNO2"
+        "text_md": "$\\ce{FNO2}$"
       },
       {
         "label": "D",
-        "text_md": "NF3"
+        "text_md": "$\\ce{NF3}$"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-51",
     "year": 2020,
     "level": "national",
     "number": 51,
-    "stem_md": "Which ions are linear? I. N3– II. N2O22-",
+    "stem_md": "Which ions are linear?\n\nI. $\\ce{N3-}$\n\nII. $\\ce{N2O2^2-}$",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1647,14 +1730,49 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2020-N-52",
+    "year": 2020,
+    "level": "national",
+    "number": 52,
+    "stem_md": "Which is the most stable arrangement of the atoms in space in formamide, $\\ce{HC(O)NH2}$?",
+    "figure_url": "/figures/2020-N-52.png",
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.39,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 National Part I exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-53",
     "year": 2020,
     "level": "national",
     "number": 53,
-    "stem_md": "Molecular chlorine, Cl2, has a smaller ionization energy than atomic chlorine, Cl (IE = 1108 kJ mol-1 for Cl2 and 1256 kJ mol-1 for Cl). Which is the best explanation for this difference?",
+    "stem_md": "Molecular chlorine, $\\ce{Cl2}$, has a smaller ionization energy than atomic chlorine, $\\ce{Cl}$ (IE = 1108 kJ mol$^{-1}$ for $\\ce{Cl2}$ and 1256 kJ mol$^{-1}$ for $\\ce{Cl}$). Which is the best explanation for this difference?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1663,31 +1781,32 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Cl2 has a covalent bond while Cl does not."
+        "text_md": "$\\ce{Cl2}$ has a covalent bond while $\\ce{Cl}$ does not."
       },
       {
         "label": "B",
-        "text_md": "Cl2 has no unpaired electrons while Cl has one unpaired electron."
+        "text_md": "$\\ce{Cl2}$ has no unpaired electrons while $\\ce{Cl}$ has one unpaired electron."
       },
       {
         "label": "C",
-        "text_md": "The electron ionized from Cl2 comes from an orbital that has antibonding character."
+        "text_md": "The electron ionized from $\\ce{Cl2}$ comes from an orbital that has antibonding character."
       },
       {
         "label": "D",
-        "text_md": "The electron ionized from Cl2 comes from an orbital that has d orbital character."
+        "text_md": "The electron ionized from $\\ce{Cl2}$ comes from an orbital that has d orbital character."
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-54",
     "year": 2020,
     "level": "national",
     "number": 54,
-    "stem_md": "How many stereoisomers are possible for the complex ion [Co(NH3)2(CN)2Cl2]–?",
+    "stem_md": "How many stereoisomers are possible for the complex ion $\\ce{[Co(NH3)2(CN)2Cl2]-}$?",
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
@@ -1713,7 +1832,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-55",
@@ -1746,7 +1866,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 55. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-56",
@@ -1779,14 +1900,15 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 56. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-57",
     "year": 2020,
     "level": "national",
     "number": 57,
-    "stem_md": "What is the best description of the geometry at carbon in the transition state of the following reaction? OH– + CH3Br → CH3OH + Br–",
+    "stem_md": "What is the best description of the geometry at carbon in the transition state of the following reaction? $\\ce{OH- + CH3Br -> CH3OH + Br-}$",
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
@@ -1812,7 +1934,42 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 57. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
+  },
+  {
+    "id": "2020-N-58",
+    "year": 2020,
+    "level": "national",
+    "number": 58,
+    "stem_md": "Which compound will NOT react readily in aqueous sodium hydroxide solution?",
+    "figure_url": "/figures/2020-N-58.png",
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.28,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Shown in the figure (A)"
+      },
+      {
+        "label": "B",
+        "text_md": "Shown in the figure (B)"
+      },
+      {
+        "label": "C",
+        "text_md": "Shown in the figure (C)"
+      },
+      {
+        "label": "D",
+        "text_md": "Shown in the figure (D)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 National Part I exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-59",
@@ -1828,7 +1985,7 @@
     "options": [
       {
         "label": "A",
-        "text_md": "Half of the diethylamine is consumed by the neutralization of HCl produced in the reaction."
+        "text_md": "Half of the diethylamine is consumed by the neutralization of $\\ce{HCl}$ produced in the reaction."
       },
       {
         "label": "B",
@@ -1845,7 +2002,8 @@
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 59. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   },
   {
     "id": "2020-N-60",
@@ -1873,11 +2031,12 @@
       },
       {
         "label": "D",
-        "text_md": "D END OF TEST PLEASE ANSWER THE FOLLOWING FOUR QUESTIONS THANK YOU! When you have finished answering this examination or time has been called by the Examiner, please provide responses to the following 4 items. Your answers will not affect your score on the exam but will help with a study being conducted by the U.S. National Chemistry Olympiad (USNCO) Subcommittee. Questions on the next page."
+        "text_md": "D"
       }
     ],
     "acs_solution_md": null,
     "source": "USNCO 2020 National Part I exam, question 60. © American Chemical Society; reproduced for non-commercial practice.",
-    "verified_answer": true
+    "verified_answer": true,
+    "polished": true
   }
 ]
