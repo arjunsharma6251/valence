@@ -1,0 +1,1883 @@
+[
+  {
+    "id": "2018-N-01",
+    "year": 2018,
+    "level": "national",
+    "number": 1,
+    "stem_md": "Upon heating in a stream of hydrogen gas, 0.688 g of a manganese oxide is reduced to metallic manganese and forms 0.235 g water. What is the formula of the oxide?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.69,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "MnO"
+      },
+      {
+        "label": "B",
+        "text_md": "Mn2O3"
+      },
+      {
+        "label": "C",
+        "text_md": "Mn3O4"
+      },
+      {
+        "label": "D",
+        "text_md": "MnO2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-02",
+    "year": 2018,
+    "level": "national",
+    "number": 2,
+    "stem_md": "Which 1.00 g sample of an element contains the greatest number of molecules?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.86,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Buckminsterfullerene, C60"
+      },
+      {
+        "label": "B",
+        "text_md": "Ozone, O3"
+      },
+      {
+        "label": "C",
+        "text_md": "White phosphorus, P4"
+      },
+      {
+        "label": "D",
+        "text_md": "Sulfur, S8"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 2. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-03",
+    "year": 2018,
+    "level": "national",
+    "number": 3,
+    "stem_md": "Hydrogen gas reacts with 5.00 L of nitrogen gas under constant temperature and pressure conditions to form 10.0 L of ammonia gas. What is the minimum volume of hydrogen gas required to produce this amount of ammonia?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.86,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "5.00 L"
+      },
+      {
+        "label": "B",
+        "text_md": "7.50 L"
+      },
+      {
+        "label": "C",
+        "text_md": "15.0 L"
+      },
+      {
+        "label": "D",
+        "text_md": "30.0 L"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-04",
+    "year": 2018,
+    "level": "national",
+    "number": 4,
+    "stem_md": "Phosphoric acid can be manufactured according to the following reaction: Ca3(PO4)2 + 3 SiO2 + 5 C + 5 O2 + 3 H2O → 3 CaSiO3 + 5 CO2 + 2 H3PO4 If equal masses of calcium phosphate (M = 310.) and silica (M = 60.0) are reacted with excess carbon, oxygen, and water to produce 1.00 × 103 kg phosphoric acid (M = 98.0), what mass of calcium phosphate was used, assuming 100% yield?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.78,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "610. kg"
+      },
+      {
+        "label": "B",
+        "text_md": "800. kg"
+      },
+      {
+        "label": "C",
+        "text_md": "920. kg"
+      },
+      {
+        "label": "D",
+        "text_md": "1580 kg"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-05",
+    "year": 2018,
+    "level": "national",
+    "number": 5,
+    "stem_md": "After mixing 30.0 mL of 0.30 M Ca(NO3)2 solution and 15.0 mL of 0.60 M NaF solution, which ions are present in solution at concentrations of at least 0.10 M? I. Ca2+ II. F–",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.25,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 5. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-06",
+    "year": 2018,
+    "level": "national",
+    "number": 6,
+    "stem_md": "A salt whose formula is Na2SxOy is 47.5% sulfur by mass. What is the value of x in the formula?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.34,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1"
+      },
+      {
+        "label": "B",
+        "text_md": "2"
+      },
+      {
+        "label": "C",
+        "text_md": "3"
+      },
+      {
+        "label": "D",
+        "text_md": "4"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 6. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-07",
+    "year": 2018,
+    "level": "national",
+    "number": 7,
+    "stem_md": "Which salt is diamagnetic?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.31,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "K2[NO(SO3)2]"
+      },
+      {
+        "label": "B",
+        "text_md": "K4[Fe(CN)6]"
+      },
+      {
+        "label": "C",
+        "text_md": "Ce2(SO4)3"
+      },
+      {
+        "label": "D",
+        "text_md": "Hg[Co(SCN)4]"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 7. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-08",
+    "year": 2018,
+    "level": "national",
+    "number": 8,
+    "stem_md": "Which titration would NOT require the addition of an indicator?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Determination of oxalate ion by titration with permanganate ion in acidic solution"
+      },
+      {
+        "label": "B",
+        "text_md": "Determination of chloride ion by titration with silver ion"
+      },
+      {
+        "label": "C",
+        "text_md": "Determination of acetic acid by titration with sodium hydroxide"
+      },
+      {
+        "label": "D",
+        "text_md": "Determination of ammonia by titration with hydrochloric acid"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 8. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-09",
+    "year": 2018,
+    "level": "national",
+    "number": 9,
+    "stem_md": "A 1 mL sample of a 0.1 M solution of a divalent metal ion is pale pink. To it is added 1 mL of concentrated HCl, which causes a color change to bright blue. What is the metal ion?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.53,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Ca2+"
+      },
+      {
+        "label": "B",
+        "text_md": "Mn2+"
+      },
+      {
+        "label": "C",
+        "text_md": "Co2+"
+      },
+      {
+        "label": "D",
+        "text_md": "Cu2+"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-10",
+    "year": 2018,
+    "level": "national",
+    "number": 10,
+    "stem_md": "A copper-nickel alloy is analyzed by dissolving it in 8 M nitric acid, diluting the solution with water, and then adding 1 mL of this diluted solution to an excess of aqueous potassium iodide. What are the principal forms of copper and nickel in this final mixture?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.4,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Cu2+(aq), Ni3+(aq)"
+      },
+      {
+        "label": "B",
+        "text_md": "CuI2(s), NiI2(s)"
+      },
+      {
+        "label": "C",
+        "text_md": "CuI(s), Ni2+(aq)"
+      },
+      {
+        "label": "D",
+        "text_md": "Cu+(aq), Ni(s)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-12",
+    "year": 2018,
+    "level": "national",
+    "number": 12,
+    "stem_md": "Which is the best way to prepare 500 mL of a 2.00 M solution of aqueous H2SO4 from deionized water (M = 18.02, density = 1.00 g mL–1) and concentrated H2SO4 (M = 98.08, density = 1.84 g mL–1)?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.45,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Weigh 98.1 g concentrated sulfuric acid into a 500-mL beaker, then slowly add deionized water to the beaker, with occasional swirling, until the liquid reaches the 500 mL mark."
+      },
+      {
+        "label": "B",
+        "text_md": "Weigh 98.1 g concentrated sulfuric acid into a 500-mL volumetric flask, slowly add deionized water to the mark, and mix."
+      },
+      {
+        "label": "C",
+        "text_md": "Weigh 98.1 g concentrated sulfuric acid into a 100-mL beaker, then slowly pour the H2SO4 into a 500-mL beaker with about 250 mL deionized water in it. Pour this solution into a 500-mL volumetric flask and fill to the mark with deionized water and mix."
+      },
+      {
+        "label": "D",
+        "text_md": "Weigh 446.6 g deionized water into a 500-mL volumetric flask, fill to the mark with concentrated sulfuric acid, and mix."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-13",
+    "year": 2018,
+    "level": "national",
+    "number": 13,
+    "stem_md": "A substance has a density of 2.38 g mL–1 and is not significantly compressible. The substance is most likely in which physical state?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.64,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Solid"
+      },
+      {
+        "label": "B",
+        "text_md": "Liquid"
+      },
+      {
+        "label": "C",
+        "text_md": "Gas"
+      },
+      {
+        "label": "D",
+        "text_md": "Solid or liquid; there is not enough information given to distinguish between the two"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-14",
+    "year": 2018,
+    "level": "national",
+    "number": 14,
+    "stem_md": "Carbon tetrachloride, CCl4, has a higher normal boiling point than chloroform, CHCl3 (77 ºC vs. 61 ºC). Differences in which interactions contribute the most to this difference in boiling point?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.67,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Hydrogen bonding"
+      },
+      {
+        "label": "B",
+        "text_md": "Dipole-dipole interactions"
+      },
+      {
+        "label": "C",
+        "text_md": "London dispersion forces"
+      },
+      {
+        "label": "D",
+        "text_md": "Covalent bonding"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-15",
+    "year": 2018,
+    "level": "national",
+    "number": 15,
+    "stem_md": "The diagram represents a molecular view of a sample of liquid methanol, CH3OH. Which letters in the diagram show hydrogen bonds?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.87,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "A only"
+      },
+      {
+        "label": "B",
+        "text_md": "B only"
+      },
+      {
+        "label": "C",
+        "text_md": "C only"
+      },
+      {
+        "label": "D",
+        "text_md": "A and C"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-16",
+    "year": 2018,
+    "level": "national",
+    "number": 16,
+    "stem_md": "The triple point of ammonia is 195.40 K at 0.006 bar, while its melting point is 195.42 K at 1 bar pressure. Which statement about ammonia is correct?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.46,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Solid ammonia is denser than liquid ammonia at 195.4 K."
+      },
+      {
+        "label": "B",
+        "text_md": "Ammonia vapor cannot coexist with liquid ammonia at equilibrium at 195.5 K."
+      },
+      {
+        "label": "C",
+        "text_md": "Ammonia vapor cannot coexist with solid ammonia at equilibrium at 195.3 K."
+      },
+      {
+        "label": "D",
+        "text_md": "Solid ammonia and liquid ammonia cannot coexist at equilibrium at 195.5 K. Page 5"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-17",
+    "year": 2018,
+    "level": "national",
+    "number": 17,
+    "stem_md": "Acetone, C3H6O, has a vapor pressure of 0.307 bar at 25 ºC. A sample of 0.100 mol acetone is added to a container that contains 1.00 L of argon gas at 1.00 bar pressure and 25 ºC. The volume of the container is then increased to 4.00 L while maintaining the same temperature. What is the pressure in the container after the expansion?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.49,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.250 bar"
+      },
+      {
+        "label": "B",
+        "text_md": "0.307 bar"
+      },
+      {
+        "label": "C",
+        "text_md": "0.557 bar"
+      },
+      {
+        "label": "D",
+        "text_md": "0.870 bar"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-18",
+    "year": 2018,
+    "level": "national",
+    "number": 18,
+    "stem_md": "What is the formula of the oxide whose unit cell is shown?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.45,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Ce7O4"
+      },
+      {
+        "label": "B",
+        "text_md": "CeO"
+      },
+      {
+        "label": "C",
+        "text_md": "Ce2O3"
+      },
+      {
+        "label": "D",
+        "text_md": "CeO2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-19",
+    "year": 2018,
+    "level": "national",
+    "number": 19,
+    "stem_md": "A spontaneous endothermic chemical reaction takes place at constant pressure and volume in a well-insulated container. As the reaction proceeds, what happens to the temperature of the system and to the internal energy of the reactants as they are transformed into products?",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.66,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Both the temperature and the reactants’ internal energy increase."
+      },
+      {
+        "label": "B",
+        "text_md": "The temperature increases while the reactants’ internal energy decreases."
+      },
+      {
+        "label": "C",
+        "text_md": "The temperature decreases while the reactants’ internal energy increases."
+      },
+      {
+        "label": "D",
+        "text_md": "Both the temperature and the reactants’ internal energy decrease."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-20",
+    "year": 2018,
+    "level": "national",
+    "number": 20,
+    "stem_md": "What is the standard heat of formation (∆Hºf) of gaseous ethylene, C2H4(g)? H2(g) + ½ O2(g) → H2O(g) ∆Hº = –242 kJ mol–1 2 C(s, graphite) + 3 H2(g) + ½ O2 (g) → C2H5OH(l) ∆Hº = –278 kJ mol–1 C2H4(g) + H2O(g) → C2H5OH(l) ∆Hº = –88 kJ mol–1",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.9,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "16 kJ mol–1"
+      },
+      {
+        "label": "B",
+        "text_md": "52 kJ mol–1"
+      },
+      {
+        "label": "C",
+        "text_md": "83 kJ mol–1"
+      },
+      {
+        "label": "D",
+        "text_md": "285 kJ mol–1"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-21",
+    "year": 2018,
+    "level": "national",
+    "number": 21,
+    "stem_md": "The Ksp of AgBr is 5.0 × 10–13 at 25.0 ºC and 6.5 × 10–12 at 50.0 ºC. What is ∆Hºrxn for the precipitation of AgBr shown? Ag+(aq) + Br–(aq) → AgBr(s) ∆Hºrxn = ???",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.31,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "–82 kJ mol–1"
+      },
+      {
+        "label": "B",
+        "text_md": "–1.1 kJ mol–1"
+      },
+      {
+        "label": "C",
+        "text_md": "1.1 kJ mol–1"
+      },
+      {
+        "label": "D",
+        "text_md": "82 kJ mol–1"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-22",
+    "year": 2018,
+    "level": "national",
+    "number": 22,
+    "stem_md": "For benzene, C6H6, the heat of fusion is 9.9 kJ mol–1 at its melting point of 5 ºC, its heat of vaporization is 30.8 kJ mol–1 at its normal boiling point of 80 ºC, and the molar heat capacity of the liquid is 135 J mol–1 K–1. To a system consisting of 1.00 mol pure solid C6H6 at 5 ºC is added 20.0 kJ of heat while maintaining the pressure at 1 atm. In what phases is the benzene found?",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.62,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Mixture of solid and liquid"
+      },
+      {
+        "label": "B",
+        "text_md": "Liquid only"
+      },
+      {
+        "label": "C",
+        "text_md": "Mixture of liquid and gas"
+      },
+      {
+        "label": "D",
+        "text_md": "Gas only"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-23",
+    "year": 2018,
+    "level": "national",
+    "number": 23,
+    "stem_md": "The natural logarithm of the Ka of NH4+ is plotted below as a function of the reciprocal of the absolute temperature. Which statements are correct? I. The pH of a 0.100 M solution of NH4NO3 increases as the temperature is raised. II. ∆Sº for the acid dissociation of ammonium ion is positive.",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.15,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-24",
+    "year": 2018,
+    "level": "national",
+    "number": 24,
+    "stem_md": "The molar heat capacity of ice is 37 J mol–1 K–1 and the molar heat capacity of liquid water is 76 J mol–1 K–1. What can be concluded about the relative magnitudes of the heat of fusion of ice at 263 K (∆H263) compared to the heat of fusion of ice at 273 K (∆H273)?",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.34,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "∆H263 < ∆H273"
+      },
+      {
+        "label": "B",
+        "text_md": "∆H263 = ∆H273"
+      },
+      {
+        "label": "C",
+        "text_md": "∆H263 > ∆H273"
+      },
+      {
+        "label": "D",
+        "text_md": "No conclusion about the relative magnitudes of the heats of fusion can be drawn based on the information given."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-25",
+    "year": 2018,
+    "level": "national",
+    "number": 25,
+    "stem_md": "The rate constant k for the reaction shown is 1.63 × 10–6 M–1 s–1. What is the overall order of the reaction? 2 ICl(g) + H2(g) → 2 HCl(g) + I2(g)",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.73,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0"
+      },
+      {
+        "label": "B",
+        "text_md": "1"
+      },
+      {
+        "label": "C",
+        "text_md": "2"
+      },
+      {
+        "label": "D",
+        "text_md": "3"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-26",
+    "year": 2018,
+    "level": "national",
+    "number": 26,
+    "stem_md": "The initial rate of the reaction A + B → products varies with the initial concentrations of A and B as follows: [A], M [B], M Initial rate, M s–1 0.20 0.30 2.1 × 10–4 0.40 0.30 4.2 × 10–4 0.20 0.90 1.9 × 10–3 What is the rate law for this reaction?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.9,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Rate = k[A]"
+      },
+      {
+        "label": "B",
+        "text_md": "Rate = k[A][B]"
+      },
+      {
+        "label": "C",
+        "text_md": "Rate = k[A]2[B]"
+      },
+      {
+        "label": "D",
+        "text_md": "Rate = k[A][B]2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-27",
+    "year": 2018,
+    "level": "national",
+    "number": 27,
+    "stem_md": "Polonium-210 undergoes alpha decay with a half-life of 138 d, forming the stable isotope lead-206. How much time would it take for the activity of a 210Po sample to decrease to 15.0% of its initial value?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.88,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "138 d"
+      },
+      {
+        "label": "B",
+        "text_md": "182 d"
+      },
+      {
+        "label": "C",
+        "text_md": "276 d"
+      },
+      {
+        "label": "D",
+        "text_md": "377 d"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-28",
+    "year": 2018,
+    "level": "national",
+    "number": 28,
+    "stem_md": "An irreversible reaction A + B → products is studied under conditions where the initial concentrations of A and B are equal. Under these circumstances, a graph of ln([A]) as a function of time is linear. What is the order in A?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.07,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Zeroth order"
+      },
+      {
+        "label": "B",
+        "text_md": "First order"
+      },
+      {
+        "label": "C",
+        "text_md": "Second order"
+      },
+      {
+        "label": "D",
+        "text_md": "The order in A cannot be determined based on the information given."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-29",
+    "year": 2018,
+    "level": "national",
+    "number": 29,
+    "stem_md": "Nitric oxide reacts with hydrogen according to the following equation: 2 NO(g) + 2 H2(g) → N2(g) + 2 H2O(g) A possible mechanism for this reaction is 2 NO(g)  N2O2(g) fast, unfavorable N2O2(g) + H2(g) → N2O(g) + H2O(g) slow N2O(g) + H2(g) → N2(g) + H2O(g) fast What rate law is implied by this mechanism?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.78,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Rate = k[NO][H2]"
+      },
+      {
+        "label": "B",
+        "text_md": "Rate = k[NO]2[H2]"
+      },
+      {
+        "label": "C",
+        "text_md": "Rate = k[NO][H2]2"
+      },
+      {
+        "label": "D",
+        "text_md": "Rate = k[NO]2[H2]2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-30",
+    "year": 2018,
+    "level": "national",
+    "number": 30,
+    "stem_md": "The reaction A + B → C is represented by the energy diagram shown. Which statements about this reaction are correct? I. The overall reaction is endothermic. II. The activation enthalpy of the reaction is 40 kJ mol–1.",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.54,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-31",
+    "year": 2018,
+    "level": "national",
+    "number": 31,
+    "stem_md": "What is the pH of a saturated solution of Co(OH)2? The Ksp of Co(OH)2 is 5.9 × 10–15.",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.6,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "7.19"
+      },
+      {
+        "label": "B",
+        "text_md": "9.06"
+      },
+      {
+        "label": "C",
+        "text_md": "9.36"
+      },
+      {
+        "label": "D",
+        "text_md": "9.56"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-32",
+    "year": 2018,
+    "level": "national",
+    "number": 32,
+    "stem_md": "Which of the following solutions is capable of dissolving the most CaC2O4(s)?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.7,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Pure H2O"
+      },
+      {
+        "label": "B",
+        "text_md": "0.10 M CaCl2"
+      },
+      {
+        "label": "C",
+        "text_md": "0.10 M H2C2O4"
+      },
+      {
+        "label": "D",
+        "text_md": "0.10 M HCl"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-33",
+    "year": 2018,
+    "level": "national",
+    "number": 33,
+    "stem_md": "Silver ion forms a complex ion with thiosulfate ion, Ag(S2O3)23–, with Kf = 2.8 × 1013. How much AgBr (Ksp = 5.4 × 10–13) will dissolve in 1.00 L of 0.200 M Na2S2O3 solution?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.24,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.089 mol"
+      },
+      {
+        "label": "B",
+        "text_md": "0.10 mol"
+      },
+      {
+        "label": "C",
+        "text_md": "0.16 mol"
+      },
+      {
+        "label": "D",
+        "text_md": "0.78 mol Page 7"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-34",
+    "year": 2018,
+    "level": "national",
+    "number": 34,
+    "stem_md": "100.0 mL 0.15 M aqueous HF (Ka = 6.8 × 10–4) is mixed with 125.0 mL 0.23 M NaF. What is the pH of the resulting solution?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.53,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "2.17"
+      },
+      {
+        "label": "B",
+        "text_md": "3.17"
+      },
+      {
+        "label": "C",
+        "text_md": "3.35"
+      },
+      {
+        "label": "D",
+        "text_md": "3.45"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-35",
+    "year": 2018,
+    "level": "national",
+    "number": 35,
+    "stem_md": "For a given reaction, a graph of ln(Keq) vs. 1/T is linear and has a positive slope. Which statements about this reaction must be correct? I. ∆Hºrxn < 0 II. ∆Sºrxn > 0",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.47,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-36",
+    "year": 2018,
+    "level": "national",
+    "number": 36,
+    "stem_md": "The following reaction has Kp = 50.4 at 448 ºC. H2(g) + I2(g) 2 HI(g) If a 3.00 L flask initially contains 0.0500 moles each of H2 and I2, how many moles of HI are present when the contents have reached equilibrium at 448 °C?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.42,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.0130 mol"
+      },
+      {
+        "label": "B",
+        "text_md": "0.0146 mol"
+      },
+      {
+        "label": "C",
+        "text_md": "0.0260 mol"
+      },
+      {
+        "label": "D",
+        "text_md": "0.0780 mol"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 36. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-37",
+    "year": 2018,
+    "level": "national",
+    "number": 37,
+    "stem_md": "Iodide ion is oxidized to hypoiodite ion by permanganate ion in basic solution according to the following unbalanced equation: I–(aq) + MnO4–(aq) → IO–(aq) + MnO2(s) What is the ratio of hydroxide ions to iodide ions in the balanced equation?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.47,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "3 : 1"
+      },
+      {
+        "label": "B",
+        "text_md": "2 : 1"
+      },
+      {
+        "label": "C",
+        "text_md": "1 : 1"
+      },
+      {
+        "label": "D",
+        "text_md": "2 : 3"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-38",
+    "year": 2018,
+    "level": "national",
+    "number": 38,
+    "stem_md": "In the carbon monoxide complex Na[V(CO)6], what is the oxidation number of vanadium?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.35,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "–1"
+      },
+      {
+        "label": "B",
+        "text_md": "+3"
+      },
+      {
+        "label": "C",
+        "text_md": "+5"
+      },
+      {
+        "label": "D",
+        "text_md": "+6"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-39",
+    "year": 2018,
+    "level": "national",
+    "number": 39,
+    "stem_md": "What is the Ksp of Fe(OH)2 at 298 K? Half-Reaction Eº, V (at 298 K) Fe2+(aq) + 2e– → Fe(s) –0.44 Fe(OH)2(s) + 2e– → Fe(s) + 2 OH–(aq) –0.89",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.59,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "2.4 × 10–8"
+      },
+      {
+        "label": "B",
+        "text_md": "6.0 × 10–16"
+      },
+      {
+        "label": "C",
+        "text_md": "1.0 × 10–45"
+      },
+      {
+        "label": "D",
+        "text_md": "8.3 × 10–46"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-40",
+    "year": 2018,
+    "level": "national",
+    "number": 40,
+    "stem_md": "A 0.100-g sample of an alloy of copper and silver is dissolved in nitric acid to give a solution containing Cu2+ and Ag+ ions. This mixture is electrolyzed exhaustively to redeposit all the metal ions as the elemental metals, requiring a current of 0.150 A for 1429 s. What is the mass percent of copper in the alloy?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.37,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "20.0%"
+      },
+      {
+        "label": "B",
+        "text_md": "58.3%"
+      },
+      {
+        "label": "C",
+        "text_md": "70.6%"
+      },
+      {
+        "label": "D",
+        "text_md": "77.2%"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-41",
+    "year": 2018,
+    "level": "national",
+    "number": 41,
+    "stem_md": "Which electrochemical cell has the greatest (most positive) standard cell potential? Half-Reaction Eº, V Cd2+(aq) + 2e– → Cd(s) –0.40 Tl+(aq) + e– → Tl(s) –0.34 AgCl(s) + e– → Ag(s) + Cl–(aq) +0.22 Cu2+(aq) + 2e– → Cu(s) +0.34",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.54,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Cu(s) | Cu2+(aq) || Cd2+(aq) | Cd(s)"
+      },
+      {
+        "label": "B",
+        "text_md": "Tl(s) | Tl+(aq) || AgCl(s) | Ag(s), Cl–(aq)"
+      },
+      {
+        "label": "C",
+        "text_md": "Cd(s) | Cd2+(aq) || AgCl(s) | Ag(s), Cl–(aq)"
+      },
+      {
+        "label": "D",
+        "text_md": "Tl(s) | Tl+(aq) || Cu2+(aq) | Cu(s)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-42",
+    "year": 2018,
+    "level": "national",
+    "number": 42,
+    "stem_md": "The galvanic cell below has equal volumes in the two half- cells. As it is discharged at 25 ºC, the cell potential gradually decreases to zero, whereupon the discharge stops. What is the concentration of Cu2+(aq) when the discharge stops? Cu(s) | Cu2+(aq), 1.00 M || Fe(CN)63–(aq), 0.200 M | Fe(CN)64-(aq), 0.200 M | Pt Half-Reaction Eº, V Cu2+(aq) + 2e– → Cu(s) +0.337 Fe(CN)63–(aq) + e– → Fe(CN)64–(aq) +0.360",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.44,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.80 M"
+      },
+      {
+        "label": "B",
+        "text_md": "0.96 M"
+      },
+      {
+        "label": "C",
+        "text_md": "1.04 M"
+      },
+      {
+        "label": "D",
+        "text_md": "1.20 M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-43",
+    "year": 2018,
+    "level": "national",
+    "number": 43,
+    "stem_md": "In which gas-phase atom are the 2s electrons closest on average to the nucleus?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "N"
+      },
+      {
+        "label": "B",
+        "text_md": "O"
+      },
+      {
+        "label": "C",
+        "text_md": "Al"
+      },
+      {
+        "label": "D",
+        "text_md": "Si"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-44",
+    "year": 2018,
+    "level": "national",
+    "number": 44,
+    "stem_md": "Which electron configuration corresponds to a gas-phase oxygen atom in an excited state?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.69,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1s21p22s22p2"
+      },
+      {
+        "label": "B",
+        "text_md": "1s22p6"
+      },
+      {
+        "label": "C",
+        "text_md": "1s22s22p3"
+      },
+      {
+        "label": "D",
+        "text_md": "1s22s22p4"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-45",
+    "year": 2018,
+    "level": "national",
+    "number": 45,
+    "stem_md": "Alkali metals (Group 1) differ from alkaline earth metals (Group 2) of the same period in which way?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.75,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Alkali metals have larger ionic radii."
+      },
+      {
+        "label": "B",
+        "text_md": "Alkali metals have higher melting points."
+      },
+      {
+        "label": "C",
+        "text_md": "Alkali metals have greater first ionization energies."
+      },
+      {
+        "label": "D",
+        "text_md": "Alkali metals have greater densities."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-46",
+    "year": 2018,
+    "level": "national",
+    "number": 46,
+    "stem_md": "Atoms of which element release the most energy when an electron is added to them in the gas phase?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.12,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "C"
+      },
+      {
+        "label": "B",
+        "text_md": "O"
+      },
+      {
+        "label": "C",
+        "text_md": "Si"
+      },
+      {
+        "label": "D",
+        "text_md": "S"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-47",
+    "year": 2018,
+    "level": "national",
+    "number": 47,
+    "stem_md": "How many unpaired electrons does a ground-state gas- phase Cr2+ ion have?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.51,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0"
+      },
+      {
+        "label": "B",
+        "text_md": "2"
+      },
+      {
+        "label": "C",
+        "text_md": "4"
+      },
+      {
+        "label": "D",
+        "text_md": "6"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-48",
+    "year": 2018,
+    "level": "national",
+    "number": 48,
+    "stem_md": "Which nuclide undergoes beta decay?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.6,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "11C"
+      },
+      {
+        "label": "B",
+        "text_md": "13N"
+      },
+      {
+        "label": "C",
+        "text_md": "19O"
+      },
+      {
+        "label": "D",
+        "text_md": "22Na"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-49",
+    "year": 2018,
+    "level": "national",
+    "number": 49,
+    "stem_md": "Which molecule has a nonzero dipole moment?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.8,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "BF3"
+      },
+      {
+        "label": "B",
+        "text_md": "CF4"
+      },
+      {
+        "label": "C",
+        "text_md": "NF3"
+      },
+      {
+        "label": "D",
+        "text_md": "SF6"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-50",
+    "year": 2018,
+    "level": "national",
+    "number": 50,
+    "stem_md": "What is the geometry of XeF4?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.68,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Square planar"
+      },
+      {
+        "label": "B",
+        "text_md": "Tetrahedral"
+      },
+      {
+        "label": "C",
+        "text_md": "See-saw"
+      },
+      {
+        "label": "D",
+        "text_md": "Square pyramidal"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-51",
+    "year": 2018,
+    "level": "national",
+    "number": 51,
+    "stem_md": "Which statements are correct about the cyanate ion, NCO–? I. Cyanate is more thermodynamically stable than its isomer fulminate (CNO–). II. The carbon-nitrogen bond is shorter than the carbon-oxygen bond in gas-phase cyanate ion.",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.42,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-52",
+    "year": 2018,
+    "level": "national",
+    "number": 52,
+    "stem_md": "Which statement best describes the results of attempted separation by fractional distillation of the two isomers of 1,2-dichloroethene?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.48,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "The two isomers can be separated by fractional distillation, with isomer 1 boiling at the lower temperature."
+      },
+      {
+        "label": "B",
+        "text_md": "The two isomers can be separated by fractional distillation, with isomer 2 boiling at the lower temperature."
+      },
+      {
+        "label": "C",
+        "text_md": "The two isomers cannot be separated by fractional distillation because both isomers have the same boiling point."
+      },
+      {
+        "label": "D",
+        "text_md": "The two isomers cannot be separated by fractional distillation because they interconvert rapidly at the temperatures at which they distill."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-53",
+    "year": 2018,
+    "level": "national",
+    "number": 53,
+    "stem_md": "What is the coordination geometry of cobalt in the complex ion [Co(H2NCH2CH2NH2)2Br2]+?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.27,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Tetrahedral"
+      },
+      {
+        "label": "B",
+        "text_md": "Square planar"
+      },
+      {
+        "label": "C",
+        "text_md": "Octahedral"
+      },
+      {
+        "label": "D",
+        "text_md": "Trigonal prismatic"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-54",
+    "year": 2018,
+    "level": "national",
+    "number": 54,
+    "stem_md": "Sulfur tetrafluoride adopts a see-saw geometry with two axial F atoms with a F–S–F angle of about 180º and two equatorial F atoms at about 90º from the axial fluorines. Which statement most accurately describes the axial and equatorial S–F bonds?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.11,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "The axial S–F bonds are longer because the two fluorines must share bonding to the same orbital on sulfur."
+      },
+      {
+        "label": "B",
+        "text_md": "The axial S–F bonds are longer because they experience greater repulsion from the other fluorine atoms in the molecule."
+      },
+      {
+        "label": "C",
+        "text_md": "The equatorial S–F bonds are longer because the equatorial F–S–F bond angle is the smallest in the molecule."
+      },
+      {
+        "label": "D",
+        "text_md": "The equatorial S–F bonds are longer because they experience greater repulsion from the lone pair on sulfur."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-55",
+    "year": 2018,
+    "level": "national",
+    "number": 55,
+    "stem_md": "Which statement about the branched hydrocarbon shown is correct?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.45,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Its IUPAC name is 4-methylhexane."
+      },
+      {
+        "label": "B",
+        "text_md": "It is chiral."
+      },
+      {
+        "label": "C",
+        "text_md": "It has six primary hydrogens."
+      },
+      {
+        "label": "D",
+        "text_md": "Radical chlorination gives 1-chloro-4-methylhexane as the major product."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 55. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-57",
+    "year": 2018,
+    "level": "national",
+    "number": 57,
+    "stem_md": "How many distinct acyclic compounds have the formula C5H10?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.18,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "3"
+      },
+      {
+        "label": "B",
+        "text_md": "4"
+      },
+      {
+        "label": "C",
+        "text_md": "5"
+      },
+      {
+        "label": "D",
+        "text_md": "6"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 57. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-58",
+    "year": 2018,
+    "level": "national",
+    "number": 58,
+    "stem_md": "When acetaldehyde (CH3CHO) reacts in methanol (CH3OH) solution under basic conditions, which compound is NOT formed?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.26,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "CH3CH(OH)(OCH3)"
+      },
+      {
+        "label": "B",
+        "text_md": "CH3CH(OCH3)2"
+      },
+      {
+        "label": "C",
+        "text_md": "CH3CH(OH)CH2CHO"
+      },
+      {
+        "label": "D",
+        "text_md": "CH3CH=CHCHO"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2018-N-59",
+    "year": 2018,
+    "level": "national",
+    "number": 59,
+    "stem_md": "In what way does the reactivity of CH3C≡CH differ from CH3CH=CH2?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.31,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Propyne is deprotonated by NaNH2, while propene is not."
+      },
+      {
+        "label": "B",
+        "text_md": "Propyne does not react with bromine, while propene reacts readily with bromine."
+      },
+      {
+        "label": "C",
+        "text_md": "Propyne undergoes catalytic hydrogenation over platinum, while propene does not."
+      },
+      {
+        "label": "D",
+        "text_md": "Propyne is readily hydrated at pH = 0, while propene is not."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2018 National Part I exam, question 59. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  }
+]

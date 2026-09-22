@@ -11,6 +11,29 @@ import seedB from "../../../content/questions/seed-b.json";
 import seedAExpl from "../../../content/explanations/seed-a.json";
 import seedBExpl from "../../../content/explanations/seed-b.json";
 import seedFrq from "../../../content/frq/seed.json";
+import q2016Local from "../../../content/questions/2016-local.json";
+import q2017Local from "../../../content/questions/2017-local.json";
+import q2018Local from "../../../content/questions/2018-local.json";
+import q2019Local from "../../../content/questions/2019-local.json";
+import q2020Local from "../../../content/questions/2020-local.json";
+import q2021Local from "../../../content/questions/2021-local.json";
+import q2022Local from "../../../content/questions/2022-local.json";
+import q2023Local from "../../../content/questions/2023-local.json";
+import q2023LocalB from "../../../content/questions/2023-local-b.json";
+import q2024Local from "../../../content/questions/2024-local.json";
+import q2025Local from "../../../content/questions/2025-local.json";
+import q2026Local from "../../../content/questions/2026-local.json";
+import q2016National from "../../../content/questions/2016-national.json";
+import q2017National from "../../../content/questions/2017-national.json";
+import q2018National from "../../../content/questions/2018-national.json";
+import q2019National from "../../../content/questions/2019-national.json";
+import q2020National from "../../../content/questions/2020-national.json";
+import q2021National from "../../../content/questions/2021-national.json";
+import q2022National from "../../../content/questions/2022-national.json";
+import q2023National from "../../../content/questions/2023-national.json";
+import q2024National from "../../../content/questions/2024-national.json";
+import q2025National from "../../../content/questions/2025-national.json";
+import q2026National from "../../../content/questions/2026-national.json";
 
 import type {
   ContentBundle,
@@ -24,7 +47,9 @@ export const topics: Topic[] = topicsJson as Topic[];
 export const questions: Question[] = [
   ...(seedA as Question[]),
   ...(seedB as Question[]),
+  ...([q2016Local, q2017Local, q2018Local, q2019Local, q2020Local, q2021Local, q2022Local, q2023Local, q2023LocalB, q2024Local, q2025Local, q2026Local, q2016National, q2017National, q2018National, q2019National, q2020National, q2021National, q2022National, q2023National, q2024National, q2025National, q2026National].flat() as Question[]),
 ];
+
 export const explanations: Explanation[] = [
   ...(seedAExpl as Explanation[]),
   ...(seedBExpl as Explanation[]),

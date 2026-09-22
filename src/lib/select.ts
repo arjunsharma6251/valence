@@ -47,13 +47,16 @@ export function selectNext(
   const weights = pool.map((q) => {
     const rating = skills[q.topic_id]?.rating ?? BASE_RATING;
     const qr = questionRating(q.est_percent_correct);
-    // Weakness: expected accuracy on this topic; 20% → 5.3×, 50% → 3.5×, 90% → 1.1×.
-    const weakness = 0.5 + 6 * (1 - expectedCorrect(rating, topicMean.get(q.topic_id) ?? BASE_RATING));
+    // Weakness: expected accuracy on this topic; 20% → 6.9×, 50% → 4.5×, 90% → 1.3×.
+    // Strong enough that a tanked topic outranks an untried one even when its
+    // questions sit above the student's rating (fit < 1).
+    const weakness = 0.5 + 8 * (1 - expectedCorrect(rating, topicMean.get(q.topic_id) ?? BASE_RATING));
     // Novelty: never seen 1.3×, seen and wrong 1.2×, seen and right 0.4×.
     const last = lastByQuestion.get(q.id);
     const novelty = !last ? 1.3 : last.correct ? 0.4 : 1.2;
-    // Fit: mild preference for questions near the user's level (σ ≈ 300 Elo).
-    const d = (qr - rating) / 300;
+    // Fit: mild preference for questions near the user's level (σ ≈ 300 Elo),
+    // clamped so a topic the student has tanked is not penalized as a whole.
+    const d = Math.max(-1, Math.min(1, (qr - rating) / 300));
     const fit = 0.7 + 0.6 * Math.exp(-d * d);
     return weakness * novelty * fit;
   });

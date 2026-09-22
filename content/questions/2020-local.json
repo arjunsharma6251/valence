@@ -1,0 +1,1817 @@
+[
+  {
+    "id": "2020-L-01",
+    "year": 2020,
+    "level": "local",
+    "number": 1,
+    "stem_md": "A 2.50 L sample of butane gas (C4H10), measured at 22.0 ºC and 1.20 atm pressure, is combusted completely and the carbon dioxide gas collected at the same pressure and temperature. What volume of CO2 is produced?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "2.50 L"
+      },
+      {
+        "label": "B",
+        "text_md": "9.00 L"
+      },
+      {
+        "label": "C",
+        "text_md": "10.0 L"
+      },
+      {
+        "label": "D",
+        "text_md": "22.5 L"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-02",
+    "year": 2020,
+    "level": "local",
+    "number": 2,
+    "stem_md": "How many hydrogen atoms are in 2.50 g of pharmacolite, CaHAsO4•2H2O (M = 216.0)?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "6.97 × 1021"
+      },
+      {
+        "label": "B",
+        "text_md": "2.09 × 1022"
+      },
+      {
+        "label": "C",
+        "text_md": "2.79 × 1022"
+      },
+      {
+        "label": "D",
+        "text_md": "3.48 × 1022"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 2. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-03",
+    "year": 2020,
+    "level": "local",
+    "number": 3,
+    "stem_md": "Methanol is produced industrially by catalytic hydrogenation of carbon monoxide according to the following equation: CO(g) + 2 H2(g) → CH3OH(l) If the yield of the reaction is 40%, what volume of CO (measured at STP) would be needed to produce 1.0 × 106 kg CH3OH?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "2.8 × 108 L"
+      },
+      {
+        "label": "B",
+        "text_md": "7.0 × 108 L"
+      },
+      {
+        "label": "C",
+        "text_md": "1.7 × 109 L"
+      },
+      {
+        "label": "D",
+        "text_md": "2.1 × 109 L"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-04",
+    "year": 2020,
+    "level": "local",
+    "number": 4,
+    "stem_md": "What volume of 18.0 M sulfuric acid must be diluted to 250.0 mL to afford a 0.55 M solution of sulfuric acid?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "3.1 mL"
+      },
+      {
+        "label": "B",
+        "text_md": "4.5 mL"
+      },
+      {
+        "label": "C",
+        "text_md": "7.6 mL"
+      },
+      {
+        "label": "D",
+        "text_md": "31 mL"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-05",
+    "year": 2020,
+    "level": "local",
+    "number": 5,
+    "stem_md": "What is the concentration of H2O2 in a solution that is 30.0% by mass hydrogen peroxide and has a density of 1.11 g cm-3?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "9.79 M"
+      },
+      {
+        "label": "B",
+        "text_md": "12.6 M"
+      },
+      {
+        "label": "C",
+        "text_md": "18.5 M"
+      },
+      {
+        "label": "D",
+        "text_md": "32.6 M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 5. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-06",
+    "year": 2020,
+    "level": "local",
+    "number": 6,
+    "stem_md": "A 5.00 g mixture of potassium sulfide and potassium chloride contains 2.80 g potassium. What percentage by mass of the mixture is potassium sulfide?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "13.8%"
+      },
+      {
+        "label": "B",
+        "text_md": "19.2%"
+      },
+      {
+        "label": "C",
+        "text_md": "44.0%"
+      },
+      {
+        "label": "D",
+        "text_md": "96.1%"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 6. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-07",
+    "year": 2020,
+    "level": "local",
+    "number": 7,
+    "stem_md": "Which salt dissolves in water to give a pink solution?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Co(CH3COO)2"
+      },
+      {
+        "label": "B",
+        "text_md": "CuSO4"
+      },
+      {
+        "label": "C",
+        "text_md": "Fe(NO3)3"
+      },
+      {
+        "label": "D",
+        "text_md": "ZnCl2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 7. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-08",
+    "year": 2020,
+    "level": "local",
+    "number": 8,
+    "stem_md": "A student is using a buret for a titration. What initial buret reading should be recorded?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "6.6 mL"
+      },
+      {
+        "label": "B",
+        "text_md": "7.4 mL"
+      },
+      {
+        "label": "C",
+        "text_md": "6.63 mL"
+      },
+      {
+        "label": "D",
+        "text_md": "7.37 mL"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 8. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-09",
+    "year": 2020,
+    "level": "local",
+    "number": 9,
+    "stem_md": "A strip of metallic zinc is placed in a beaker containing dilute aqueous copper(II) nitrate. Which statement correctly describes what takes place?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "No reaction takes place."
+      },
+      {
+        "label": "B",
+        "text_md": "The mass of the metal strip decreases as the zinc is oxidized."
+      },
+      {
+        "label": "C",
+        "text_md": "A white precipitate of CuNO3 is formed."
+      },
+      {
+        "label": "D",
+        "text_md": "Bubbles of NO(g) form as the nitrate ion is reduced."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-10",
+    "year": 2020,
+    "level": "local",
+    "number": 10,
+    "stem_md": "Which element does NOT have multiple allotropes?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Carbon"
+      },
+      {
+        "label": "B",
+        "text_md": "Oxygen"
+      },
+      {
+        "label": "C",
+        "text_md": "Fluorine"
+      },
+      {
+        "label": "D",
+        "text_md": "Phosphorus"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-11",
+    "year": 2020,
+    "level": "local",
+    "number": 11,
+    "stem_md": "Which reaction is not exothermic?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Dilution of concentrated hydrochloric acid in water."
+      },
+      {
+        "label": "B",
+        "text_md": "Dilution of concentrated sulfuric acid in water."
+      },
+      {
+        "label": "C",
+        "text_md": "Dissolution of solid sodium hydroxide in water."
+      },
+      {
+        "label": "D",
+        "text_md": "Dissolution of solid sodium bicarbonate in water."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 11. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-12",
+    "year": 2020,
+    "level": "local",
+    "number": 12,
+    "stem_md": "The molar mass of a volatile organic liquid is measured by weighing the mass of an empty flask of known volume, adding some of the liquid, heating the flask in a water bath until the liquid has just vaporized completely, then sealing the flask, letting it cool, and remeasuring the mass of the flask with the remaining organic compound. Which error will lead to a calculated value of the molar mass that is lower than the theoretical value?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "The flask is not sealed promptly after the last of the compound vaporizes."
+      },
+      {
+        "label": "B",
+        "text_md": "The organic compound dimerizes to an appreciable extent in the gas phase."
+      },
+      {
+        "label": "C",
+        "text_md": "The barometric pressure was assumed to be 1 atm but in fact was greater than 1 atm."
+      },
+      {
+        "label": "D",
+        "text_md": "The volume of the flask used in the calculation is smaller than the true volume."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-13",
+    "year": 2020,
+    "level": "local",
+    "number": 13,
+    "stem_md": "Which gas has an effusion rate closest to half that of oxygen gas at a given temperature?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "H2"
+      },
+      {
+        "label": "B",
+        "text_md": "He"
+      },
+      {
+        "label": "C",
+        "text_md": "SO2"
+      },
+      {
+        "label": "D",
+        "text_md": "Xe"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-14",
+    "year": 2020,
+    "level": "local",
+    "number": 14,
+    "stem_md": "Which compound has the highest normal boiling point?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1-butanol, CH3CH2CH2CH2OH"
+      },
+      {
+        "label": "B",
+        "text_md": "2-butanol, CH3CH2CH(CH3)OH"
+      },
+      {
+        "label": "C",
+        "text_md": "2-methyl-1-propanol, (CH3)2CHCH2OH"
+      },
+      {
+        "label": "D",
+        "text_md": "2-methyl-2-propanol, (CH3)3COH"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-15",
+    "year": 2020,
+    "level": "local",
+    "number": 15,
+    "stem_md": "A portion of the phase diagram of elemental sulfur is shown below. Which statement about sulfur is correct?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Rhombic sulfur cannot be sublimed without first converting to monoclinic sulfur."
+      },
+      {
+        "label": "B",
+        "text_md": "The conversion of rhombic sulfur to monoclinic sulfur is exothermic."
+      },
+      {
+        "label": "C",
+        "text_md": "Rhombic sulfur is denser than monoclinic sulfur."
+      },
+      {
+        "label": "D",
+        "text_md": "At atmospheric pressure, monoclinic sulfur cannot be in equilibrium with liquid sulfur."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-16",
+    "year": 2020,
+    "level": "local",
+    "number": 16,
+    "stem_md": "In which are the ionic compounds listed in order of increasing magnitude of their lattice energy?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "CaO < RbI < LiF < LiI"
+      },
+      {
+        "label": "B",
+        "text_md": "RbI < CaO < LiI < LiF"
+      },
+      {
+        "label": "C",
+        "text_md": "LiI < LiF < CaO < RbI"
+      },
+      {
+        "label": "D",
+        "text_md": "RbI < LiI < LiF < CaO"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-17",
+    "year": 2020,
+    "level": "local",
+    "number": 17,
+    "stem_md": "Sodium halides crystallize in the rock salt structure, which has a cubic unit cell with four formula units per unit cell. A sodium halide has a density of 2.83 g cm-3 and a unit cell edge length of 462 pm. Which compound is it?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "NaF"
+      },
+      {
+        "label": "B",
+        "text_md": "NaCl"
+      },
+      {
+        "label": "C",
+        "text_md": "NaBr"
+      },
+      {
+        "label": "D",
+        "text_md": "NaI"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-18",
+    "year": 2020,
+    "level": "local",
+    "number": 18,
+    "stem_md": "The tetragonal unit cell of white tin is shown below. Each circle represents a tin atom, with the gray circles sitting on the four vertical faces of the unit cell. How many tin atoms are contained in this unit cell?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "2"
+      },
+      {
+        "label": "B",
+        "text_md": "4"
+      },
+      {
+        "label": "C",
+        "text_md": "8"
+      },
+      {
+        "label": "D",
+        "text_md": "13"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-19",
+    "year": 2020,
+    "level": "local",
+    "number": 19,
+    "stem_md": "For which reaction is ∆Hºrxn equal to ∆Hºf of CaSO3(s)?",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Ca(s) + 1/8 S8(s) + 3/2 O2(g) → CaSO3(s)"
+      },
+      {
+        "label": "B",
+        "text_md": "8 Ca(s) + S8(s) + 12 O2(g) → 8 CaSO3(s)"
+      },
+      {
+        "label": "C",
+        "text_md": "8 Ca(s) + S8(g) + 12 O2(g) → 8 CaSO3(s)"
+      },
+      {
+        "label": "D",
+        "text_md": "CaO(s) + SO2(g) → CaSO3(s)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-20",
+    "year": 2020,
+    "level": "local",
+    "number": 20,
+    "stem_md": "A 2.00 g sample of ice at 0.0 ºC is placed in 50.0 g of water initially at 25.0 °C in an insulated container. What is the final temperature after the system has achieved equilibrium? (For ice, ΔHºfusion = 6.01 kJ mol-1.)",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "21.0 ºC"
+      },
+      {
+        "label": "B",
+        "text_md": "21.8 ºC"
+      },
+      {
+        "label": "C",
+        "text_md": "22.5 ºC"
+      },
+      {
+        "label": "D",
+        "text_md": "24.0 ºC"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-21",
+    "year": 2020,
+    "level": "local",
+    "number": 21,
+    "stem_md": "Ethanol has a normal boiling point of 78.3 ºC and a standard heat of vaporization (ΔHºvap) of 38.6 kJ mol-1. What is the vapor pressure of ethanol at 45.0 ºC?",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.25 atm"
+      },
+      {
+        "label": "B",
+        "text_md": "0.57 atm"
+      },
+      {
+        "label": "C",
+        "text_md": "0.87 atm"
+      },
+      {
+        "label": "D",
+        "text_md": "0.91 atm"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-22",
+    "year": 2020,
+    "level": "local",
+    "number": 22,
+    "stem_md": "If the average carbon-hydrogen bond dissociation enthalpy in ethane is 416 kJ mol-1, what is the bond dissociation enthalpy of the carbon-carbon bond in ethane? Species ∆H°f, kJ mol-1 C2H6(g) –84.7 H(g) 217.9 C(g) 718.4",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "164 kJ mol-1"
+      },
+      {
+        "label": "B",
+        "text_md": "333 kJ mol-1"
+      },
+      {
+        "label": "C",
+        "text_md": "386 kJ mol-1"
+      },
+      {
+        "label": "D",
+        "text_md": "404 kJ mol-1"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-23",
+    "year": 2020,
+    "level": "local",
+    "number": 23,
+    "stem_md": "A reaction has Keq = 20 at 298 K, and Keq increases with increasing temperature between 298 K and 350 K. What may be concluded from these observations? I. ∆G°rxn < 0 at 330 K II. ∆S°rxn > 0 at 330 K",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-24",
+    "year": 2020,
+    "level": "local",
+    "number": 24,
+    "stem_md": "A sample of water in a movable piston is maintained at 100.0 ºC with an external pressure p. Which statement best describes the transformation of some of the liquid water into water vapor?",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "It is spontaneous if p ≥ 1 atm."
+      },
+      {
+        "label": "B",
+        "text_md": "It is reversible if p = 1 atm and spontaneous if p > 1 atm."
+      },
+      {
+        "label": "C",
+        "text_md": "It is nonspontaneous if p ≥ 1 atm."
+      },
+      {
+        "label": "D",
+        "text_md": "It is reversible if p = 1 atm and nonspontaneous if p > 1 atm."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-25",
+    "year": 2020,
+    "level": "local",
+    "number": 25,
+    "stem_md": "In a study of the reaction below, the concentration of O2(g) is found to be decreasing by 0.042 M min-1. At what rate is the concentration of nitrogen dioxide gas changing? 2 NO(g) + O2(g) → 2 NO2(g)",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Increasing by 0.021 M min-1"
+      },
+      {
+        "label": "B",
+        "text_md": "Increasing by 0.042 M min-1"
+      },
+      {
+        "label": "C",
+        "text_md": "Increasing by 0.084 M min-1"
+      },
+      {
+        "label": "D",
+        "text_md": "It cannot be determined without knowing the rate law for the reaction."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-26",
+    "year": 2020,
+    "level": "local",
+    "number": 26,
+    "stem_md": "The rate constant for an elementary chemical reaction can be affected by which of the following? I. Reactant concentrations II. Product concentrations",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-27",
+    "year": 2020,
+    "level": "local",
+    "number": 27,
+    "stem_md": "Sulfuryl chloride (SO2Cl2) decomposes via first-order kinetics. The half-life is 4.1 minutes at a certain temperature. How long does it take for 30% of the SO2Cl2 in a sample to decompose at this temperature?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.6 min"
+      },
+      {
+        "label": "B",
+        "text_md": "2.1 min"
+      },
+      {
+        "label": "C",
+        "text_md": "2.5 min"
+      },
+      {
+        "label": "D",
+        "text_md": "7.1 min"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-28",
+    "year": 2020,
+    "level": "local",
+    "number": 28,
+    "stem_md": "The rate constant of a chemical reaction increases 26% when the temperature is raised from 50 ºC to 55 ºC. What is the activation energy of this reaction?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1.1 kJ mol-1"
+      },
+      {
+        "label": "B",
+        "text_md": "18 kJ mol-1"
+      },
+      {
+        "label": "C",
+        "text_md": "41 kJ mol-1"
+      },
+      {
+        "label": "D",
+        "text_md": "220 kJ mol-1"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-29",
+    "year": 2020,
+    "level": "local",
+    "number": 29,
+    "stem_md": "The graph below shows the forward and reverse rates for a reaction as a function of time. At time t, a catalyst is added to the system, and the forward reaction rate is observed to change as indicated by the solid curve. Which dashed curve best indicates how the reverse reaction rate changes?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "A"
+      },
+      {
+        "label": "B",
+        "text_md": "B"
+      },
+      {
+        "label": "C",
+        "text_md": "C"
+      },
+      {
+        "label": "D",
+        "text_md": "D"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-30",
+    "year": 2020,
+    "level": "local",
+    "number": 30,
+    "stem_md": "The following mechanism is proposed for the oxidation of I– by OCl– in aqueous solution: OCl– + H2O HOCl + OH– fast, reversible HOCl + I– → HOI + Cl– slow HOI + OH– OI– + H2O fast, reversible What reaction orders for OCl–, I–, and OH– are consistent with this mechanism? Order in OCl– Order in I– Order in OH–",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1 1 1"
+      },
+      {
+        "label": "B",
+        "text_md": "1 1 0"
+      },
+      {
+        "label": "C",
+        "text_md": "1 0 0"
+      },
+      {
+        "label": "D",
+        "text_md": "1 1 -1"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-31",
+    "year": 2020,
+    "level": "local",
+    "number": 31,
+    "stem_md": "The endothermic reaction shown below is at equilibrium in a sealed flask, with significant amounts of both Ca(OH)2(s) and CaO(s) present. Which action will increase the amount of Ca(OH)2(s) at equilibrium? Ca(OH)2(s) CaO(s) + H2O(g) ∆H° > 0",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Crushing the Ca(OH)2(s) into smaller pieces"
+      },
+      {
+        "label": "B",
+        "text_md": "Decreasing the temperature of the flask"
+      },
+      {
+        "label": "C",
+        "text_md": "Adding more CaO(s) to the flask"
+      },
+      {
+        "label": "D",
+        "text_md": "Adding N2(g) to the flask"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-32",
+    "year": 2020,
+    "level": "local",
+    "number": 32,
+    "stem_md": "A solution of ammonia, NH3, has pH = 11.50. What is the ammonia concentration? (The pKa of NH4+ is 9.24.)",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1.7 × 10-5 M"
+      },
+      {
+        "label": "B",
+        "text_md": "3.2 × 10-3 M"
+      },
+      {
+        "label": "C",
+        "text_md": "5.5 × 10-3 M"
+      },
+      {
+        "label": "D",
+        "text_md": "0.58 M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-33",
+    "year": 2020,
+    "level": "local",
+    "number": 33,
+    "stem_md": "At equilibrium, a solution contains 0.50 mol each of Cd2+(aq), SCN–(aq), and Cd(SCN)42–(aq). What is the solution’s volume? Cd2+(aq) + 4 SCN–(aq) Cd(SCN)42-(aq) Kf = 1.0 × 103",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "2.0 L"
+      },
+      {
+        "label": "B",
+        "text_md": "2.2 L"
+      },
+      {
+        "label": "C",
+        "text_md": "2.8 L"
+      },
+      {
+        "label": "D",
+        "text_md": "8.0 L"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-34",
+    "year": 2020,
+    "level": "local",
+    "number": 34,
+    "stem_md": "Barium fluoride has Ksp = 1.8 × 10-7. What is the maximum fluoride ion concentration possible in a solution with [Ba2+] = 5.0 × 10-4 M?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "3.6 × 10-4 M"
+      },
+      {
+        "label": "B",
+        "text_md": "3.6 × 10-3 M"
+      },
+      {
+        "label": "C",
+        "text_md": "9.5 × 10-3 M"
+      },
+      {
+        "label": "D",
+        "text_md": "1.9 × 10-2 M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-35",
+    "year": 2020,
+    "level": "local",
+    "number": 35,
+    "stem_md": "Trimesic acid is a triprotic acid with pK1 = 3.1, pK2 = 3.9, and pK3 = 4.7. 100.0 mL of 0.100 M trimesic acid is titrated with 0.500 M NaOH(aq) to give the graph below. What volume of NaOH(aq) has been added at the point marked V on the graph?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "5 mL"
+      },
+      {
+        "label": "B",
+        "text_md": "10 mL"
+      },
+      {
+        "label": "C",
+        "text_md": "20 mL"
+      },
+      {
+        "label": "D",
+        "text_md": "30 mL"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-36",
+    "year": 2020,
+    "level": "local",
+    "number": 36,
+    "stem_md": "A solution containing Co(H2O)62+(aq), CoCl42–(aq), and Cl–(aq) at equilibrium at room temperature is initially pink. When heated, the solution turns blue. Then, when Ag+(aq) is added, the solution turns back to pink. Which statements are correct? I. Co(H2O)62+(aq) is pink. II. Formation of CoCl42-(aq) from Co(H2O)62+(aq) and Cl–(aq) is exothermic.",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 36. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-37",
+    "year": 2020,
+    "level": "local",
+    "number": 37,
+    "stem_md": "What is the average oxidation state of tungsten in sodium phosphotungstate, Na3PW12O40?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "+6.00"
+      },
+      {
+        "label": "B",
+        "text_md": "+6.17"
+      },
+      {
+        "label": "C",
+        "text_md": "+6.42"
+      },
+      {
+        "label": "D",
+        "text_md": "+6.67"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-38",
+    "year": 2020,
+    "level": "local",
+    "number": 38,
+    "stem_md": "Bromate ion and bromide ion react to form bromine in acidic solution. When the reaction is balanced, which statement about H+(aq) is correct? H+(aq) + BrO3–(aq) + Br–(aq) → Br2(aq) + H2O(l)",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Its coefficient is twice the coefficient of Br–(aq)."
+      },
+      {
+        "label": "B",
+        "text_md": "Its coefficient is twice the coefficient of Br2(aq)."
+      },
+      {
+        "label": "C",
+        "text_md": "Its coefficient is twice the coefficient of BrO3–(aq)."
+      },
+      {
+        "label": "D",
+        "text_md": "Its coefficient is the sum of the coefficients of BrO3– (aq) and H2O(l)."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-39",
+    "year": 2020,
+    "level": "local",
+    "number": 39,
+    "stem_md": "Which reactions are spontaneous under standard conditions? Half-Reaction Eº, V Cu+(aq) + e– → Cu(s) +0.52 Co2+(aq) + 2 e– → Co(s) –0.28 In3+(aq) + 3 e– → In(s) –0.34 I. 2 Cu+(aq) + Co(s) → Co2+(aq) + 2 Cu(s) II. 3 Co2+(aq) + 2 In(s) → 2 In3+(aq) + 3 Co(s)",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "I only"
+      },
+      {
+        "label": "B",
+        "text_md": "II only"
+      },
+      {
+        "label": "C",
+        "text_md": "Both I and II"
+      },
+      {
+        "label": "D",
+        "text_md": "Neither I nor II"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-40",
+    "year": 2020,
+    "level": "local",
+    "number": 40,
+    "stem_md": "An electrolytic cell consists of two copper electrodes immersed in a solution of copper(II) sulfate. What is the result of passing 0.35 A of current through this cell for 1300 s?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "The mass of the anode increases by 0.15 g."
+      },
+      {
+        "label": "B",
+        "text_md": "The mass of the anode increases by 0.30 g."
+      },
+      {
+        "label": "C",
+        "text_md": "The mass of the anode decreases by 0.15 g."
+      },
+      {
+        "label": "D",
+        "text_md": "The mass of the anode decreases by 0.30 g."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-41",
+    "year": 2020,
+    "level": "local",
+    "number": 41,
+    "stem_md": "What is the change in standard free energy at 298 K for the conversion of ozone to molecular oxygen as shown in the equation below? 2 O3(g) → 3 O2(g) ∆G° = ??? Half-Reaction Eº, V O3(g) + 2 H+(aq) + 2 e– → O2(g) + H2O(l) +2.08 O2(g) + 4 H+(aq) + 4 e– → 2 H2O(l) +1.23",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "–164 kJ mol-1"
+      },
+      {
+        "label": "B",
+        "text_md": "–328 kJ mol-1"
+      },
+      {
+        "label": "C",
+        "text_md": "–401 kJ mol-1"
+      },
+      {
+        "label": "D",
+        "text_md": "–492 kJ mol-1"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-42",
+    "year": 2020,
+    "level": "local",
+    "number": 42,
+    "stem_md": "What is the cell potential of the following galvanic cell under the stated conditions at 298 K? Zn(s) | Zn2+(aq, 1.0 × 10-4 M) || AgCl(s) | Ag(s), Cl–(aq, 0.50 M) Half-Reaction Eº, V Zn2+(aq) + 2 e– → Zn(s) –0.762 AgCl(s) + e– → Ag(s) + Cl–(aq) +0.222",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "+0.884 V"
+      },
+      {
+        "label": "B",
+        "text_md": "+0.984 V"
+      },
+      {
+        "label": "C",
+        "text_md": "+1.084 V"
+      },
+      {
+        "label": "D",
+        "text_md": "+1.120 V"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-43",
+    "year": 2020,
+    "level": "local",
+    "number": 43,
+    "stem_md": "For which element is the +2 oxidation state LEAST common?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Al"
+      },
+      {
+        "label": "B",
+        "text_md": "V"
+      },
+      {
+        "label": "C",
+        "text_md": "Fe"
+      },
+      {
+        "label": "D",
+        "text_md": "Sm"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-44",
+    "year": 2020,
+    "level": "local",
+    "number": 44,
+    "stem_md": "How many completely filled p orbitals are present in a ground state Cl atom?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1"
+      },
+      {
+        "label": "B",
+        "text_md": "2"
+      },
+      {
+        "label": "C",
+        "text_md": "4"
+      },
+      {
+        "label": "D",
+        "text_md": "5"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-45",
+    "year": 2020,
+    "level": "local",
+    "number": 45,
+    "stem_md": "Which atom has the highest first ionization energy?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "N"
+      },
+      {
+        "label": "B",
+        "text_md": "O"
+      },
+      {
+        "label": "C",
+        "text_md": "P"
+      },
+      {
+        "label": "D",
+        "text_md": "S"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-46",
+    "year": 2020,
+    "level": "local",
+    "number": 46,
+    "stem_md": "The electronegativity of gallium (1.8) is greater than that of aluminum (1.6). Which is the best explanation for this difference?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Ga is larger than Al, so its valence electrons experience less electron-electron repulsion."
+      },
+      {
+        "label": "B",
+        "text_md": "Ga has more protons than Al, so its valence electrons are more attracted to the nucleus."
+      },
+      {
+        "label": "C",
+        "text_md": "Ga has a filled 3d subshell, whose electrons incompletely screen the nucleus."
+      },
+      {
+        "label": "D",
+        "text_md": "Ga experiences significant relativistic effects, which contract the valence orbitals."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-47",
+    "year": 2020,
+    "level": "local",
+    "number": 47,
+    "stem_md": "Which set of quantum numbers could NOT correspond to an electron in a ground-state gas phase Pd atom?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "n = 2, l = 1, ml = –1, ms = 1/2"
+      },
+      {
+        "label": "B",
+        "text_md": "n = 3, l = 3, ml = –1, ms = –1/2"
+      },
+      {
+        "label": "C",
+        "text_md": "n = 4, l = 0, ml = 0, ms = –1/2"
+      },
+      {
+        "label": "D",
+        "text_md": "n = 4, l = 2, ml = 2, ms = 1/2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-48",
+    "year": 2020,
+    "level": "local",
+    "number": 48,
+    "stem_md": "A certain nuclide undergoes beta decay to form 70Ge. If the same nuclide undergoes electron capture instead, what daughter nuclide forms?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "70Zn"
+      },
+      {
+        "label": "B",
+        "text_md": "70Ga"
+      },
+      {
+        "label": "C",
+        "text_md": "70Ge"
+      },
+      {
+        "label": "D",
+        "text_md": "70As"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-49",
+    "year": 2020,
+    "level": "local",
+    "number": 49,
+    "stem_md": "Which molecule is planar?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "CF4"
+      },
+      {
+        "label": "B",
+        "text_md": "COF2"
+      },
+      {
+        "label": "C",
+        "text_md": "SF4"
+      },
+      {
+        "label": "D",
+        "text_md": "SOF2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-50",
+    "year": 2020,
+    "level": "local",
+    "number": 50,
+    "stem_md": "Which molecule has no unpaired electrons?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "NO"
+      },
+      {
+        "label": "B",
+        "text_md": "O2"
+      },
+      {
+        "label": "C",
+        "text_md": "SO2"
+      },
+      {
+        "label": "D",
+        "text_md": "ClO2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-52",
+    "year": 2020,
+    "level": "local",
+    "number": 52,
+    "stem_md": "One Lewis structure of squarate ion, C4O42-, is shown below. Which statement best describes the bond distances in the squarate ion?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "All carbon-carbon bond distances are the same, and all carbon-oxygen bond distances are the same."
+      },
+      {
+        "label": "B",
+        "text_md": "There are two distinct carbon-carbon bond distances, but all carbon-oxygen bond distances are the same."
+      },
+      {
+        "label": "C",
+        "text_md": "There are two distinct carbon-carbon bond distances, and two distinct carbon-oxygen bond distances."
+      },
+      {
+        "label": "D",
+        "text_md": "There are three distinct carbon-carbon bond distances, and two distinct carbon-oxygen bond distances."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-53",
+    "year": 2020,
+    "level": "local",
+    "number": 53,
+    "stem_md": "The bond distance in CO is 112.8 pm, while the bond distance in NO is 115 pm. Which is the best explanation for the shorter bond in CO?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Carbon has one fewer valence electron than nitrogen."
+      },
+      {
+        "label": "B",
+        "text_md": "Carbon is less electronegative than nitrogen."
+      },
+      {
+        "label": "C",
+        "text_md": "Carbon has a smaller atomic radius than nitrogen."
+      },
+      {
+        "label": "D",
+        "text_md": "Carbon can form up to four bonds, while nitrogen can form only three."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-54",
+    "year": 2020,
+    "level": "local",
+    "number": 54,
+    "stem_md": "How many stereoisomers does the square planar complex Pt(NH3)2(Br)(Cl) have?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "One"
+      },
+      {
+        "label": "B",
+        "text_md": "Two"
+      },
+      {
+        "label": "C",
+        "text_md": "Three"
+      },
+      {
+        "label": "D",
+        "text_md": "Four"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-58",
+    "year": 2020,
+    "level": "local",
+    "number": 58,
+    "stem_md": "How many distinct compounds have the formula C5H12?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "One"
+      },
+      {
+        "label": "B",
+        "text_md": "Two"
+      },
+      {
+        "label": "C",
+        "text_md": "Three"
+      },
+      {
+        "label": "D",
+        "text_md": "Four"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  },
+  {
+    "id": "2020-L-60",
+    "year": 2020,
+    "level": "local",
+    "number": 60,
+    "stem_md": "Which statement about unsaturated fats is NOT correct?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Unsaturated fats contain carbon-carbon double bonds."
+      },
+      {
+        "label": "B",
+        "text_md": "Unsaturated fats generally have higher melting points than saturated fats with the same number of carbon atoms."
+      },
+      {
+        "label": "C",
+        "text_md": "Unsaturated fats can be converted to saturated fats by treatment with H2 in the presence of a metal catalyst."
+      },
+      {
+        "label": "D",
+        "text_md": "Unsaturated fats must contain oxygen. END OF TEST"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "USNCO 2020 Local exam, question 60. © American Chemical Society; reproduced for non-commercial practice.",
+    "verified_answer": true
+  }
+]
