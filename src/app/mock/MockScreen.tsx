@@ -1,8 +1,9 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
-import { Button, Card, Eyebrow, LinkButton, Pill, Skeleton } from "@/components/ui";
+import { Button, Group, GroupFooter, GroupHeader, LargeTitle, LinkButton, Row, Skeleton, Tag, usePageTitle } from "@/components/ui";
+import { IconPause, IconShare } from "@/components/icons";
+import { shareImage } from "@/lib/share";
 import { getQuestion, getTopic, questions, topics } from "@/lib/content";
 import type { Level } from "@/lib/content/types";
 import { MOCK_SPECS, buildMock, pauseMock, remainingSeconds, resumeMock, scoreMock, type MockSession } from "@/lib/mock";
@@ -18,10 +19,6 @@ function fmt(s: number) {
   return `${m}:${r.toString().padStart(2, "0")}`;
 }
 
-/**
- * Mock exams. The session (question ids, answers, start time) is persisted
- * on every change, so a refresh restores the exact clock. One pause allowed.
- */
 export function MockScreen() {
   const hydrated = useHydrated();
   const mocks = useStore((s) => s.mocks);
@@ -30,10 +27,8 @@ export function MockScreen() {
 
   if (!hydrated) return <Skeleton className="h-64" />;
   if (active) return <Running mock={active} onSubmitted={(id) => setReportId(id)} />;
-
   const report = reportId ? mocks.find((m) => m.id === reportId) : null;
   if (report?.score) return <Report mock={report} onClose={() => setReportId(null)} />;
-
   return <Lobby mocks={mocks} onOpen={setReportId} />;
 }
 
@@ -45,49 +40,35 @@ function Lobby({ mocks, onOpen }: { mocks: MockSession[]; onOpen: (id: string) =
   };
   const past = [...mocks].filter((m) => m.submitted_at).reverse();
   return (
-    <div className="space-y-5">
-      <header className="animate-rise">
-        <h1 className="text-[24px] font-semibold tracking-tight">Mock exam</h1>
-        <p className="mt-1 text-[15px] text-muted">Timed, drawn to match the real topic mix. No feedback until you submit; misses go to Review.</p>
-      </header>
-      <div className="grid gap-3 animate-rise [animation-delay:60ms]">
+    <div>
+      <LargeTitle className="pt-1 pb-4">Mock exam</LargeTitle>
+      <Group>
         {(Object.keys(MOCK_SPECS) as Level[]).map((level) => {
           const spec = MOCK_SPECS[level];
           return (
-            <Card key={level} className="flex items-center gap-4">
-              <div className="flex-1">
-                <p className="text-[17px] font-semibold">{spec.name}</p>
-                <p className="text-[13px] text-muted">{spec.questions} questions · {spec.minutes} minutes</p>
-              </div>
-              <Button onClick={() => start(level)}>Start</Button>
-            </Card>
+            <Row key={level} title={spec.name} detail={`${spec.questions} questions · ${spec.minutes} minutes`}>
+              <Button size="compact" onClick={() => start(level)}>Start</Button>
+            </Row>
           );
         })}
-      </div>
-      {questions.length < 60 && (
-        <p className="text-[13px] text-faint">The bank has {questions.length} questions right now, so a mock repeats the whole set. It fills out as exams are added.</p>
-      )}
+      </Group>
+      <GroupFooter>Drawn to match the real topic mix. No feedback until you submit; misses go to Review.{questions.length < 60 ? ` The bank has ${questions.length} questions right now, so a mock repeats the set.` : ""}</GroupFooter>
       {past.length > 0 && (
-        <Card className="animate-rise [animation-delay:120ms]">
-          <Eyebrow>Past mocks</Eyebrow>
-          <ul className="mt-2 divide-y divide-line">
+        <>
+          <GroupHeader>Past mocks</GroupHeader>
+          <Group>
             {past.map((m) => (
-              <li key={m.id}>
-                <button onClick={() => onOpen(m.id)} className="w-full min-h-12 flex items-center gap-3 text-left text-[15px]">
-                  <span className="flex-1">{MOCK_SPECS[m.level].name}</span>
-                  <span className="text-[13px] text-faint">{new Date(m.started_at).toLocaleDateString()}</span>
-                  <span className="font-semibold">{m.score?.correct}/{m.score?.total}</span>
-                </button>
-              </li>
+              <Row key={m.id} onClick={() => onOpen(m.id)} chevron title={MOCK_SPECS[m.level].name} detail={new Date(m.started_at).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })} value={<span className="font-semibold text-label">{m.score?.correct}/{m.score?.total}</span>} />
             ))}
-          </ul>
-        </Card>
+          </Group>
+        </>
       )}
     </div>
   );
 }
 
 function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: string) => void }) {
+  usePageTitle(MOCK_SPECS[mock.level].name);
   const [i, setI] = useState(() => Math.max(0, mock.question_ids.findIndex((id) => !mock.answers[id])));
   const [left, setLeft] = useState(() => remainingSeconds(mock));
   const [confirm, setConfirm] = useState(false);
@@ -108,7 +89,6 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
     return () => clearInterval(t);
   }, [mock]);
 
-  // Time's up → submit automatically.
   useEffect(() => {
     if (left <= 0 && !mock.paused_at) submit();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -118,35 +98,43 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
 
   if (mock.paused_at) {
     return (
-      <Card className="animate-rise text-center">
-        <Eyebrow>Paused</Eyebrow>
-        <p className="mt-2 text-[34px] font-semibold tracking-tight">{fmt(left)}</p>
-        <p className="mt-1 text-[14px] text-muted">{answered} of {mock.question_ids.length} answered. This was your one pause.</p>
-        <div className="mt-4 flex justify-center gap-2">
-          <Button onClick={() => saveMock(resumeMock(mock))}>Resume</Button>
-          <Button variant="ghost" onClick={() => discardMock(mock.id)}>Discard mock</Button>
+      <div>
+        <LargeTitle className="pt-1 pb-4">Paused</LargeTitle>
+        <Group>
+          <div className="px-4 py-5 text-center">
+            <p className="text-large-title font-bold tracking-[-0.02em] tnum">{fmt(left)}</p>
+            <p className="mt-1 text-footnote text-label-2 tnum">{answered} of {mock.question_ids.length} answered. This was your one pause.</p>
+          </div>
+        </Group>
+        <div className="pt-4 space-y-2">
+          <Button className="w-full" onClick={() => saveMock(resumeMock(mock))}>Resume</Button>
+          <Button variant="destructive" className="w-full" onClick={() => discardMock(mock.id)}>Discard mock</Button>
         </div>
-      </Card>
+      </div>
     );
   }
 
   return (
     <div>
-      <div className="sticky top-14 z-10 -mx-4 px-4 py-2 bg-bg/90 backdrop-blur border-b border-line flex items-center gap-3 text-[14px]">
-        <span className={`font-semibold tabular-nums ${left < 300 ? "text-bad" : ""}`} aria-live="off">{fmt(left)}</span>
-        <span className="text-faint">{answered}/{mock.question_ids.length}</span>
-        <div className="ml-auto flex gap-1">
-          {mock.pauses_used === 0 && <Button variant="ghost" className="min-h-9 px-3 text-[13px]" onClick={() => saveMock(pauseMock(mock))}>Pause</Button>}
-          <Button variant="secondary" className="min-h-9 px-3 text-[13px]" onClick={() => setConfirm(true)}>Submit</Button>
+      <div className="sticky top-[52px] z-20 -mx-4 px-4 py-1.5 bg-ground/92 backdrop-blur-xl border-b border-sep flex items-center gap-3">
+        <span className={`text-headline font-semibold tnum ${left < 300 ? "text-red" : ""}`}>{fmt(left)}</span>
+        <span className="text-footnote text-label-2 tnum">{answered}/{mock.question_ids.length}</span>
+        <div className="ml-auto flex items-center gap-1">
+          {mock.pauses_used === 0 && (
+            <Button variant="plain" size="compact" onClick={() => saveMock(pauseMock(mock))} aria-label="Pause"><IconPause size={18} /> Pause</Button>
+          )}
+          <Button variant="tinted" size="compact" onClick={() => setConfirm(true)}>Submit</Button>
         </div>
       </div>
 
       {confirm && (
-        <Card className="mt-3 animate-pop flex flex-wrap items-center gap-3">
-          <p className="flex-1 text-[15px]">Submit with {mock.question_ids.length - answered} unanswered?</p>
-          <Button onClick={submit}>Submit</Button>
-          <Button variant="ghost" onClick={() => setConfirm(false)}>Keep going</Button>
-        </Card>
+        <Group className="mt-3 animate-rise">
+          <Row title={`Submit with ${mock.question_ids.length - answered} unanswered?`} detail="You can't return to the exam after submitting." />
+          <div className="flex gap-2 px-4 py-3">
+            <Button size="compact" onClick={submit}>Submit</Button>
+            <Button variant="plain" size="compact" onClick={() => setConfirm(false)}>Keep going</Button>
+          </div>
+        </Group>
       )}
 
       <div className="mt-4">
@@ -162,21 +150,24 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
         />
       </div>
 
-      <div className="mt-6 grid grid-cols-10 gap-1.5" aria-label="Question grid">
-        {mock.question_ids.map((qid, idx) => (
-          <button
-            key={qid}
-            onClick={() => setI(idx)}
-            aria-current={idx === i}
-            className={`h-9 rounded-lg text-[12px] font-medium border transition-colors ${
-              idx === i ? "border-accent text-accent bg-accent-wash" : mock.answers[qid] ? "border-line bg-accent-wash text-fg" : "border-line text-faint"
-            }`}
-          >
-            {idx + 1}
-          </button>
-        ))}
-      </div>
-      {i > 0 && <Button variant="ghost" className="mt-3" onClick={() => setI((x) => x - 1)}>Previous</Button>}
+      <GroupHeader>Questions</GroupHeader>
+      <Group>
+        <div className="grid grid-cols-10 gap-1.5 p-3" aria-label="Question grid">
+          {mock.question_ids.map((qid, idx) => (
+            <button
+              key={qid}
+              onClick={() => setI(idx)}
+              aria-current={idx === i}
+              className={`h-9 rounded-[8px] text-caption font-semibold tnum transition-colors ${
+                idx === i ? "bg-accent text-accent-on" : mock.answers[qid] ? "bg-accent-tint text-accent" : "bg-fill text-label-2"
+              }`}
+            >
+              {idx + 1}
+            </button>
+          ))}
+        </div>
+      </Group>
+      {i > 0 && <div className="pt-3"><Button variant="plain" size="compact" onClick={() => setI((x) => x - 1)}>Previous</Button></div>}
     </div>
   );
 }
@@ -184,46 +175,50 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
 function Report({ mock, onClose }: { mock: MockSession; onClose: () => void }) {
   const s = mock.score!;
   const pct = Math.round((100 * s.correct) / s.total);
+  const [shareState, setShareState] = useState<"idle" | "busy" | "done">("idle");
+  const shareQuery = `l=${mock.level}&c=${s.correct}&t=${s.total}&b=${encodeURIComponent(topics.map((t) => { const r = s.by_topic[t.id]; return r ? `${r.correct}-${r.total}` : "0-0"; }).join(","))}`;
+  const shareScore = async () => {
+    setShareState("busy");
+    await shareImage(`/api/og/mock?${shareQuery}`, `valence-mock-${s.correct}-of-${s.total}.png`, `/s/mock?${shareQuery}`, `${s.correct}/${s.total} on a USNCO ${MOCK_SPECS[mock.level].name.toLowerCase()} mock`);
+    setShareState("done");
+    setTimeout(() => setShareState("idle"), 2200);
+  };
   const rows = Object.entries(s.by_topic).sort((a, b) => a[1].correct / a[1].total - b[1].correct / b[1].total);
   return (
-    <div className="space-y-5">
-      <Card className="animate-rise">
-        <Eyebrow>{MOCK_SPECS[mock.level].name} · {new Date(mock.started_at).toLocaleDateString()}</Eyebrow>
-        <p className="mt-1 text-[40px] font-semibold tracking-tight leading-none">{s.correct}<span className="text-[18px] text-faint font-normal"> / {s.total}</span></p>
-        <p className="mt-1 text-[14px] text-muted">{pct}% · {s.wrong_ids.length} added to Review</p>
-      </Card>
-      <Card className="animate-rise [animation-delay:60ms]">
-        <Eyebrow>By topic</Eyebrow>
-        <ul className="mt-2 divide-y divide-line">
-          {rows.map(([tid, r]) => (
-            <li key={tid} className="py-2.5 flex items-center gap-3 text-[15px]">
-              <Link href={`/practice?topic=${tid}`} className="flex-1 hover:text-accent">{getTopic(tid)?.name ?? tid}</Link>
-              <div className="w-24 h-1.5 rounded-full bg-line overflow-hidden"><div className="h-full bg-accent rounded-full" style={{ width: `${(100 * r.correct) / r.total}%` }} /></div>
-              <span className="w-10 text-right tabular-nums">{r.correct}/{r.total}</span>
-            </li>
-          ))}
-        </ul>
-      </Card>
-      <Card className="animate-rise [animation-delay:120ms]">
-        <Eyebrow>Missed</Eyebrow>
-        <ul className="mt-2 divide-y divide-line">
-          {s.wrong_ids.map((id) => {
-            const q = getQuestion(id);
-            if (!q) return null;
-            return (
-              <li key={id} className="py-2">
-                <Link href={`/q/${id}`} className="block text-[14px] hover:text-accent">
-                  <Pill tone="neutral" className="mr-2">{getTopic(q.topic_id)?.name}</Pill>
-                  <span className="text-muted">you: {mock.answers[id] ?? "—"} · answer: {q.correct_option}</span>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-      </Card>
-      <div className="flex gap-2">
-        <LinkButton href="/review">Review misses</LinkButton>
-        <Button variant="secondary" onClick={onClose}>Back</Button>
+    <div>
+      <LargeTitle className="pt-1 pb-4">Score report</LargeTitle>
+      <Group>
+        <div className="px-4 py-4">
+          <p className="text-large-title font-bold tracking-[-0.02em] leading-none tnum">{s.correct}<span className="text-title text-label-2 font-medium"> / {s.total}</span></p>
+          <p className="mt-1.5 text-footnote text-label-2">{MOCK_SPECS[mock.level].name} · {new Date(mock.started_at).toLocaleDateString(undefined, { month: "short", day: "numeric" })} · {pct}% · {s.wrong_ids.length} added to Review</p>
+        </div>
+      </Group>
+      <GroupHeader>By topic</GroupHeader>
+      <Group>
+        {rows.map(([tid, r]) => (
+          <Row key={tid} href={`/practice?topic=${tid}`} title={getTopic(tid)?.name ?? tid} value={<span className="tnum">{r.correct}/{r.total}</span>}>
+            <span className="w-20 h-1.5 rounded-full bg-fill overflow-hidden shrink-0"><span className="block h-full bg-accent rounded-full" style={{ width: `${(100 * r.correct) / r.total}%` }} /></span>
+          </Row>
+        ))}
+      </Group>
+      {s.wrong_ids.length > 0 && (
+        <>
+          <GroupHeader>Missed</GroupHeader>
+          <Group>
+            {s.wrong_ids.map((id) => {
+              const q = getQuestion(id);
+              if (!q) return null;
+              return <Row key={id} href={`/q/${id}`} title={getTopic(q.topic_id)?.name} detail={`You: ${mock.answers[id] ?? "—"} · Answer: ${q.correct_option}`} value={<Tag tone={mock.answers[id] ? "red" : "neutral"}>{mock.answers[id] ? "wrong" : "blank"}</Tag>} />;
+            })}
+          </Group>
+        </>
+      )}
+      <div className="pt-4 space-y-2">
+        <LinkButton href="/review" className="w-full">Review misses</LinkButton>
+        <Button variant="tinted" className="w-full" onClick={shareScore} disabled={shareState === "busy"}>
+          <IconShare size={18} /> {shareState === "done" ? "Shared" : shareState === "busy" ? "Preparing card…" : "Share score card"}
+        </Button>
+        <Button variant="plain" className="w-full" onClick={onClose}>Back</Button>
       </div>
     </div>
   );

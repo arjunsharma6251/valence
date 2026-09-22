@@ -47,3 +47,11 @@ AGENTS.md
 # pipeline
 pipeline/work/
 pipeline/.venv/
+
+# Impeccable session artifacts (screenshots, mocks); config, surfaces and design.json are committed
+.impeccable/review
+.impeccable/mocks
+.impeccable/build
+
+# temporary screenshot harness
+public/review-frame.html

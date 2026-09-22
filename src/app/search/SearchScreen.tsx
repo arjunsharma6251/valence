@@ -3,7 +3,8 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 import { Md } from "@/components/Md";
-import { Pill } from "@/components/ui";
+import { Group, GroupFooter, LargeTitle } from "@/components/ui";
+import { IconSearch } from "@/components/icons";
 import { getTopic, questions, searchQuestions } from "@/lib/content";
 
 export function SearchScreen() {
@@ -11,20 +12,24 @@ export function SearchScreen() {
   const [q, setQ] = useState(params.get("q") ?? "");
   const results = useMemo(() => (q.trim() ? searchQuestions(q).slice(0, 50) : []), [q]);
   return (
-    <div className="space-y-4">
-      <label className="sr-only" htmlFor="search">Search questions</label>
-      <input id="search" autoFocus value={q} onChange={(e) => setQ(e.target.value)} placeholder={`Search ${questions.length} questions…`} className="w-full min-h-12 rounded-full border border-line bg-elev px-5 text-[16px]" />
-      <ul className="divide-y divide-line">
-        {results.map((r) => (
-          <li key={r.id}>
-            <Link href={`/q/${r.id}`} className="block py-3 hover:text-accent">
-              <p className="text-[12px] text-faint mb-1 flex gap-2 items-center"><Pill tone="neutral">{getTopic(r.topic_id)?.name}</Pill>{r.year} {r.level} · {r.subtopic}</p>
-              <Md text={r.stem_md.slice(0, 160) + (r.stem_md.length > 160 ? "…" : "")} className="text-[14px] line-clamp-3" />
+    <div>
+      <LargeTitle className="pt-1 pb-4">Search</LargeTitle>
+      <div className="relative">
+        <IconSearch size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-label-3" />
+        <label className="sr-only" htmlFor="search">Search questions</label>
+        <input id="search" autoFocus type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={`Search ${questions.length} questions`} className="w-full min-h-[44px] rounded-[10px] bg-fill/70 pl-10 pr-4 text-body focus:bg-group focus:ring-2 focus:ring-accent outline-none" />
+      </div>
+      {results.length > 0 && (
+        <Group className="mt-4">
+          {results.map((r) => (
+            <Link key={r.id} href={`/q/${r.id}`} className="block px-4 py-3 hover:bg-fill/60 active:bg-fill">
+              <p className="text-footnote text-label-2 mb-0.5">{getTopic(r.topic_id)?.name} · {r.year} {r.level} · {r.subtopic}</p>
+              <Md text={r.stem_md.slice(0, 160) + (r.stem_md.length > 160 ? "…" : "")} className="text-subhead line-clamp-3" />
             </Link>
-          </li>
-        ))}
-        {q.trim() && results.length === 0 && <li className="py-3 text-[14px] text-muted">No matches.</li>}
-      </ul>
+          ))}
+        </Group>
+      )}
+      {q.trim() && results.length === 0 && <GroupFooter>No matches for “{q}”.</GroupFooter>}
     </div>
   );
 }

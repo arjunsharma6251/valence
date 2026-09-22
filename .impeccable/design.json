@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-21T00:00:00Z",
+  "title": "Design System: Valence",
+  "extensions": {
+    "themes": {
+      "note": "Two full token sets. Light lives on :root (color-scheme: light). Dark is applied under @media (prefers-color-scheme: dark) for :root:not([data-theme=\"light\"]) and unconditionally for :root[data-theme=\"dark\"]. ThemeScript sets data-theme before paint from localStorage; ThemeToggle (Segmented: Auto / Light / Dark) writes it. Frontmatter keys with a -dark suffix are the dark values of the same token.",
+      "selectors": [":root", "@media (prefers-color-scheme: dark) :root:not([data-theme=\"light\"])", ":root[data-theme=\"dark\"]"]
+    },
+    "colorMeta": {
+      "accent": { "role": "primary", "displayName": "System Blue", "canonical": "#0066cc", "dark": "#0a84ff", "tonalRamp": ["oklch(20% 0.08 255)", "oklch(30% 0.12 255)", "oklch(40% 0.16 255)", "oklch(52% 0.19 255)", "oklch(62% 0.18 255)", "oklch(73% 0.13 255)", "oklch(85% 0.07 255)", "oklch(95% 0.02 255)"] },
+      "green": { "role": "semantic", "displayName": "Correct Green", "canonical": "#187a3c", "dark": "#30d158", "tonalRamp": ["oklch(20% 0.06 150)", "oklch(30% 0.09 150)", "oklch(40% 0.12 150)", "oklch(51% 0.14 150)", "oklch(62% 0.16 150)", "oklch(74% 0.16 150)", "oklch(86% 0.10 150)", "oklch(95% 0.04 150)"] },
+      "red": { "role": "semantic", "displayName": "Wrong Red", "canonical": "#c5281f", "dark": "#ff453a", "tonalRamp": ["oklch(20% 0.08 28)", "oklch(30% 0.12 28)", "oklch(41% 0.16 28)", "oklch(52% 0.19 28)", "oklch(62% 0.21 28)", "oklch(72% 0.16 28)", "oklch(85% 0.08 28)", "oklch(95% 0.03 28)"] },
+      "orange": { "role": "semantic", "displayName": "Rough Orange", "canonical": "#a85a00", "dark": "#ff9f0a", "tonalRamp": ["oklch(20% 0.05 60)", "oklch(30% 0.08 60)", "oklch(40% 0.11 60)", "oklch(52% 0.13 60)", "oklch(64% 0.15 60)", "oklch(77% 0.17 60)", "oklch(88% 0.10 60)", "oklch(96% 0.03 60)"] },
+      "ground": { "role": "neutral", "displayName": "Grouped Ground", "canonical": "#f2f2f7", "dark": "#000000", "tonalRamp": ["oklch(15% 0.005 285)", "oklch(27% 0.005 285)", "oklch(39% 0.006 285)", "oklch(51% 0.006 285)", "oklch(63% 0.006 285)", "oklch(75% 0.006 285)", "oklch(87% 0.005 285)", "oklch(96% 0.004 285)"] },
+      "group": { "role": "neutral", "displayName": "Inset Group White", "canonical": "#ffffff", "dark": "#1c1c1e", "tonalRamp": ["oklch(15% 0.003 285)", "oklch(27% 0.003 285)", "oklch(39% 0.003 285)", "oklch(51% 0.003 285)", "oklch(63% 0.003 285)", "oklch(75% 0.003 285)", "oklch(87% 0.002 285)", "oklch(100% 0 0)"] },
+      "fill": { "role": "neutral", "displayName": "Control Fill", "canonical": "#e5e5ea", "dark": "#2c2c2e", "tonalRamp": ["oklch(15% 0.004 285)", "oklch(27% 0.004 285)", "oklch(39% 0.004 285)", "oklch(51% 0.005 285)", "oklch(63% 0.005 285)", "oklch(75% 0.005 285)", "oklch(87% 0.005 285)", "oklch(92% 0.005 285)"] },
+      "label": { "role": "neutral", "displayName": "Label", "canonical": "#1c1c1e", "dark": "#f5f5f7", "tonalRamp": ["oklch(15% 0.003 285)", "oklch(22% 0.003 285)", "oklch(39% 0.003 285)", "oklch(51% 0.003 285)", "oklch(63% 0.003 285)", "oklch(75% 0.003 285)", "oklch(87% 0.003 285)", "oklch(97% 0.002 285)"] },
+      "label-2": { "role": "neutral", "displayName": "Secondary Label", "canonical": "#6e6e73", "dark": "#98989f", "tonalRamp": ["oklch(15% 0.004 285)", "oklch(27% 0.004 285)", "oklch(39% 0.005 285)", "oklch(51% 0.006 285)", "oklch(63% 0.006 285)", "oklch(69% 0.006 285)", "oklch(87% 0.005 285)", "oklch(95% 0.004 285)"] },
+      "sep": { "role": "neutral", "displayName": "Hairline Separator", "canonical": "rgba(60, 60, 67, 0.16)", "dark": "rgba(84, 84, 88, 0.6)", "tonalRamp": ["rgba(60,60,67,0.9)", "rgba(60,60,67,0.7)", "rgba(60,60,67,0.5)", "rgba(60,60,67,0.32)", "rgba(60,60,67,0.24)", "rgba(60,60,67,0.16)", "rgba(60,60,67,0.10)", "rgba(60,60,67,0.05)"] }
+    },
+    "typographyMeta": {
+      "large-title": { "displayName": "Large Title", "purpose": "The one h1 per screen; registers with the top bar and hands off when scrolled under it. Also the mock timer on pause and the final score." },
+      "title": { "displayName": "Title", "purpose": "Predicted score and per-topic score numerals inside groups." },
+      "headline": { "displayName": "Headline", "purpose": "Wordmark, the scroll-in top-bar title, the mock timer." },
+      "body": { "displayName": "Body", "purpose": "Question stem and options, row titles, button labels, input text." },
+      "subhead": { "displayName": "Subhead", "purpose": "Explanations and rubric feedback, compact buttons, segmented options, desktop nav pills." },
+      "footnote": { "displayName": "Footnote", "purpose": "Group headers (uppercase, 0.04em) and footers, row details, meta lines, attribution." },
+      "caption": { "displayName": "Caption", "purpose": "Tags, Kbd hints, mock grid cells." },
+      "mono": { "displayName": "Mono", "purpose": "Inline code in explanations and group join-codes." }
+    },
+    "shadows": [
+      { "name": "bar", "value": "0 1px 2px rgba(0, 0, 0, 0.05), 0 8px 24px -12px rgba(0, 0, 0, 0.18)", "dark": "0 1px 2px rgba(0, 0, 0, 0.5), 0 8px 24px -12px rgba(0, 0, 0, 0.7)", "purpose": "The one ambient shadow, reserved for fixed/sticky bars. Applied to the Part II symbol bar in the shipped build; top bar, tab bar and mock timer bar use hairline plus blur only." },
+      { "name": "segment", "value": "0 1px 2px rgba(0, 0, 0, 0.08)", "purpose": "Selected segment of a segmented control." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.2, 0.7, 0.2, 1)", "purpose": "Rise easing." },
+      { "name": "rise", "value": "rise 240ms cubic-bezier(0.2, 0.7, 0.2, 1) both; from { opacity: 0; transform: translateY(6px) }", "purpose": "Content appearing after an action: explanation, flag list, grade, score group." },
+      { "name": "spring", "value": "spring 180ms cubic-bezier(0.22, 1, 0.36, 1) both; from { transform: scale(0.7); opacity: 0 }", "purpose": "Check or cross glyph in the answer badge." },
+      { "name": "row-fill", "value": "transition: background-color 150ms", "purpose": "Answer row filling green/red/accent-tint; button state changes." },
+      { "name": "row-hover", "value": "transition: background-color 100ms", "purpose": "List row hover and press." },
+      { "name": "bar-title-fade", "value": "transition: opacity 150ms", "purpose": "Top-bar title appearing as the Large Title scrolls under it." },
+      { "name": "reduced-motion", "value": "@media (prefers-reduced-motion: reduce) { animation-duration: 0.01ms; transition-duration: 0.01ms }", "purpose": "Every animation and transition collapses to instant." },
+      { "name": "no-load-choreography", "value": "none", "purpose": "Nothing animates on page load; skeletons pulse only." }
+    ],
+    "breakpoints": [
+      { "name": "base", "value": "375px", "purpose": "Design width; bottom tab bar, 44px segments, no Kbd hints." },
+      { "name": "sm", "value": "640px", "purpose": "Container max-width; share-button label appears." },
+      { "name": "md", "value": "768px", "purpose": "Tab bar becomes top-bar pills; segments drop to 36px; Kbd hints appear; symbol bar sits at bottom-0." }
+    ],
+    "layout": {
+      "container": "max-width 640px, 16px side padding, 20px top padding",
+      "topBar": "52px sticky, ground at 92% + backdrop-blur-xl, bottom hairline",
+      "tabBar": "56px + env(safe-area-inset-bottom), fixed, phone only",
+      "row": "min-height 44px, padding 10px 16px, gap 12px",
+      "answerRow": "min-height 52px, padding 12px 16px",
+      "hairlineInset": "16px, or 56px with a 28px icon tile",
+      "tapTarget": "44px minimum everywhere; 50px primary capsule"
+    },
+    "shareCards": {
+      "size": "1200x630",
+      "renderer": "Satori via next/og",
+      "rules": ["Light tokens only (src/lib/og.tsx); no dark variant", "Text wordmark only (Valence, 30px 700, -0.5 tracking); no logo, no pill or Tag above content", "Sub/superscripts drawn structurally by ChemText (66% size, translateY in px), never Unicode glyphs", "Fonts: Noto Sans 400/700 + Noto Sans Math; passing any font drops Satori's bundled set", "Every multi-child container is display:flex; numbers stringified; no Fragment inside flex-wrap", "Group panel 24px radius, hairline borderTop between rows, 34px capsule badges outlined in sep"]
+    },
+    "chemistry": {
+      "rule": "KaTeX + mhchem output inherits color and size only; .md .katex { font-size: 1.04em }. No weight, color, tracking or font override targets KaTeX. Figures use .figure-invert: white plate, filter invert(0.92) hue-rotate(180deg) in dark."
+    },
+    "icons": {
+      "set": "src/components/icons.tsx",
+      "rule": "Authored 24px set, single 1.8 stroke, round caps and joins, currentColor. Check/cross at 2.2; active tab at 2.4. Rows show icons at 18px inside a 28px accent-tint tile."
+    }
+  },
+  "components": [
+    {
+      "name": "Filled Button",
+      "kind": "button",
+      "refersTo": "button-filled",
+      "description": "The one primary action per screen; 50px capsule.",
+      "html": "<button class=\"ds-btn ds-btn-filled\">Continue practicing <kbd class=\"ds-kbd ds-kbd-on\">↵</kbd></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px; padding: 0 20px; border: 0; border-radius: 9999px; font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, system-ui, sans-serif); font-size: 1.0625rem; font-weight: 600; line-height: 1.45; cursor: pointer; user-select: none; transition: background-color 150ms, filter 150ms, transform 150ms; } .ds-btn:active { transform: scale(0.985); } .ds-btn:disabled { opacity: 0.4; pointer-events: none; } .ds-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; } .ds-btn-filled { background: var(--accent); color: var(--accent-on); } .ds-btn-filled:hover { filter: brightness(1.05); } .ds-btn-filled:active { filter: brightness(0.95); } .ds-kbd { display: inline-flex; align-items: center; justify-content: center; min-width: 20px; height: 20px; padding: 0 4px; border-radius: 5px; font-size: 0.75rem; font-weight: 500; background: var(--fill); color: var(--label-2); } .ds-kbd-on { background: color-mix(in srgb, var(--accent-on) 20%, transparent); color: var(--accent-on); }"
+    },
+    {
+      "name": "Tinted Button (compact)",
+      "kind": "button",
+      "refersTo": "button-tinted",
+      "description": "Secondary action; accent wash with accent text. Compact size is 44px with Subhead label.",
+      "html": "<button class=\"ds-btn ds-btn-compact ds-btn-tinted\">Explanation <kbd class=\"ds-kbd\">E</kbd></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px; padding: 0 20px; border: 0; border-radius: 9999px; font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, system-ui, sans-serif); font-size: 1.0625rem; font-weight: 600; cursor: pointer; transition: background-color 150ms, filter 150ms, transform 150ms; } .ds-btn-compact { min-height: 44px; padding: 0 16px; font-size: 0.9375rem; white-space: nowrap; } .ds-btn-tinted { background: var(--accent-tint); color: var(--accent); } .ds-btn-tinted:hover { background: var(--accent-tint-2); } .ds-btn-tinted:active { background: var(--accent-tint); transform: scale(0.985); } .ds-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; } .ds-kbd { display: inline-flex; align-items: center; justify-content: center; min-width: 20px; height: 20px; padding: 0 4px; border-radius: 5px; font-size: 0.75rem; font-weight: 500; background: var(--fill); color: var(--label-2); }"
+    },
+    {
+      "name": "Plain Button (compact)",
+      "kind": "button",
+      "refersTo": "button-plain",
+      "description": "Tertiary action; accent text, wash on hover only.",
+      "html": "<button class=\"ds-btn ds-btn-compact ds-btn-plain\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 21V4h10l-1.5 3.5L16 11H6\"/></svg> Flag <kbd class=\"ds-kbd\">F</kbd></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 50px; padding: 0 20px; border: 0; border-radius: 9999px; background: transparent; font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, system-ui, sans-serif); font-size: 1.0625rem; font-weight: 600; cursor: pointer; transition: background-color 150ms, transform 150ms; } .ds-btn-compact { min-height: 44px; padding: 0 16px; font-size: 0.9375rem; white-space: nowrap; } .ds-btn-plain { color: var(--accent); } .ds-btn-plain:hover { background: var(--accent-tint); } .ds-btn-plain:active { background: var(--accent-tint-2); transform: scale(0.985); } .ds-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; } .ds-kbd { display: inline-flex; align-items: center; justify-content: center; min-width: 20px; height: 20px; padding: 0 4px; border-radius: 5px; font-size: 0.75rem; font-weight: 500; background: var(--fill); color: var(--label-2); }"
+    },
+    {
+      "name": "Grouped List",
+      "kind": "card",
+      "refersTo": "group",
+      "description": "Inset group with header, 44px rows, inset hairlines, icon tiles and chevrons; the page's basic unit.",
+      "html": "<div class=\"ds-group-header\"><h2>Topics</h2><span>Weakest first</span></div><section class=\"ds-group ds-inset-icon\"><a class=\"ds-row\" href=\"#\"><span class=\"ds-row-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"4\"/><path d=\"M8.5 12.5l2.5 2.5 4.5-5\"/></svg></span><span class=\"ds-row-text\"><span class=\"ds-row-title\">Practice</span><span class=\"ds-row-detail\">12 answered</span></span><svg class=\"ds-chevron\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 6l6 6-6 6\"/></svg></a><a class=\"ds-row\" href=\"#\"><span class=\"ds-row-icon\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 12a7.5 7.5 0 0 1 12.8-5.3L19.5 9\"/><path d=\"M19.5 4.5V9H15\"/><path d=\"M19.5 12a7.5 7.5 0 0 1-12.8 5.3L4.5 15\"/><path d=\"M4.5 19.5V15H9\"/></svg></span><span class=\"ds-row-text\"><span class=\"ds-row-title\">Review</span><span class=\"ds-row-detail\">Missed questions, spaced</span></span><span class=\"ds-tag ds-tag-red\">4 due</span><svg class=\"ds-chevron\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9 6l6 6-6 6\"/></svg></a></section><p class=\"ds-group-footer\">Tap a topic to practice only that topic.</p>",
+      "css": ".ds-group-header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 24px 16px 6px; font-family: var(--font-sans, -apple-system, system-ui, sans-serif); } .ds-group-header h2 { margin: 0; font-size: 0.8125rem; font-weight: 500; line-height: 1.38; color: var(--label-2); text-transform: uppercase; letter-spacing: 0.04em; } .ds-group-header span { font-size: 0.8125rem; color: var(--label-2); } .ds-group { display: block; background: var(--group); border-radius: 14px; overflow: hidden; font-family: var(--font-sans, -apple-system, system-ui, sans-serif); } .ds-group > * + * { position: relative; } .ds-group > * + *::before { content: \"\"; position: absolute; left: 16px; right: 0; top: 0; height: 1px; background: var(--sep); } .ds-group.ds-inset-icon > * + *::before { left: 56px; } .ds-row { display: flex; align-items: center; gap: 12px; width: 100%; box-sizing: border-box; min-height: 44px; padding: 10px 16px; color: var(--label); text-decoration: none; text-align: left; transition: background-color 100ms; } .ds-row:hover { background: color-mix(in srgb, var(--fill) 60%, transparent); } .ds-row:active { background: var(--fill); } .ds-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 10px; } .ds-row-icon { flex-shrink: 0; width: 28px; height: 28px; border-radius: 7px; background: var(--accent-tint); color: var(--accent); display: inline-flex; align-items: center; justify-content: center; } .ds-row-text { flex: 1; min-width: 0; display: flex; flex-direction: column; } .ds-row-title { font-size: 1.0625rem; line-height: 1.45; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-row-detail { font-size: 0.8125rem; line-height: 1.38; color: var(--label-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-chevron { flex-shrink: 0; color: var(--label-3); margin-right: -4px; } .ds-tag { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; line-height: 1.33; } .ds-tag-red { background: var(--red-tint); color: var(--red); } .ds-group-footer { margin: 0; padding: 6px 16px 0; font-size: 0.8125rem; line-height: 1.3; color: var(--label-2); font-family: var(--font-sans, -apple-system, system-ui, sans-serif); }"
+    },
+    {
+      "name": "Answer Row (signature)",
+      "kind": "custom",
+      "refersTo": "answer-row",
+      "description": "Question options as a grouped list. Row fills green or red on reveal (150ms) and the glyph springs in (180ms).",
+      "html": "<section class=\"ds-group ds-inset-icon\"><button class=\"ds-answer ds-answer-correct\" type=\"button\" aria-pressed=\"true\"><span class=\"ds-badge ds-badge-correct\"><svg class=\"ds-spring\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg></span><span class=\"ds-answer-text\">2.0 mol H<sub>2</sub>O</span><kbd class=\"ds-kbd\">1</kbd></button><button class=\"ds-answer ds-answer-wrong\" type=\"button\"><span class=\"ds-badge ds-badge-wrong\"><svg class=\"ds-spring\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 6l12 12M18 6L6 18\"/></svg></span><span class=\"ds-answer-text\">1.0 mol H<sub>2</sub>O</span><kbd class=\"ds-kbd\">2</kbd></button><button class=\"ds-answer\" type=\"button\"><span class=\"ds-badge\">C</span><span class=\"ds-answer-text\">0.5 mol H<sub>2</sub>O</span><kbd class=\"ds-kbd\">3</kbd></button><button class=\"ds-answer\" type=\"button\"><span class=\"ds-badge\">D</span><span class=\"ds-answer-text\">4.0 mol H<sub>2</sub>O</span><kbd class=\"ds-kbd\">4</kbd></button></section><p class=\"ds-verdict ds-rise\">Correct</p>",
+      "css": ".ds-group { display: block; background: var(--group); border-radius: 14px; overflow: hidden; font-family: var(--font-sans, -apple-system, system-ui, sans-serif); } .ds-group > * + * { position: relative; } .ds-group.ds-inset-icon > * + *::before { content: \"\"; position: absolute; left: 56px; right: 0; top: 0; height: 1px; background: var(--sep); } .ds-answer { display: flex; align-items: flex-start; gap: 12px; width: 100%; box-sizing: border-box; min-height: 52px; padding: 12px 16px; border: 0; background: transparent; color: var(--label); text-align: left; font: inherit; cursor: pointer; transition: background-color 150ms; } .ds-answer:hover { background: color-mix(in srgb, var(--fill) 60%, transparent); } .ds-answer:active { background: var(--fill); } .ds-answer:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 10px; } .ds-answer-correct, .ds-answer-correct:hover { background: var(--green-tint); } .ds-answer-wrong, .ds-answer-wrong:hover { background: var(--red-tint); } .ds-badge { flex-shrink: 0; margin-top: 2px; width: 28px; height: 28px; border-radius: 9999px; box-sizing: border-box; border: 1px solid var(--sep-strong); color: var(--label-2); display: inline-flex; align-items: center; justify-content: center; font-size: 0.8125rem; font-weight: 600; transition: background-color 150ms, border-color 150ms; } .ds-badge-correct { background: var(--green); border-color: var(--green); color: #fff; } .ds-badge-wrong { background: var(--red); border-color: var(--red); color: #fff; } .ds-answer-text { flex: 1; padding-top: 2px; font-size: 1.0625rem; line-height: 1.625; } .ds-kbd { display: inline-flex; align-items: center; justify-content: center; min-width: 20px; height: 20px; padding: 0 4px; border-radius: 5px; font-size: 0.75rem; font-weight: 500; background: var(--fill); color: var(--label-2); } .ds-verdict { margin: 12px 4px 0; font-family: var(--font-sans, -apple-system, system-ui, sans-serif); font-size: 1.0625rem; font-weight: 600; color: var(--green); } @keyframes ds-rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } } @keyframes ds-spring { from { transform: scale(0.7); opacity: 0; } to { transform: scale(1); opacity: 1; } } .ds-rise { animation: ds-rise 240ms cubic-bezier(0.2, 0.7, 0.2, 1) both; } .ds-spring { animation: ds-spring 180ms cubic-bezier(0.22, 1, 0.36, 1) both; } @media (prefers-reduced-motion: reduce) { .ds-rise, .ds-spring { animation-duration: 0.01ms; } }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "chip",
+      "refersTo": "segmented",
+      "description": "Native-style radio group; the theme toggle and mode pickers.",
+      "html": "<div class=\"ds-seg\" role=\"radiogroup\" aria-label=\"Appearance\"><button class=\"ds-seg-opt ds-seg-on\" role=\"radio\" aria-checked=\"true\" type=\"button\">Auto</button><button class=\"ds-seg-opt\" role=\"radio\" aria-checked=\"false\" type=\"button\">Light</button><button class=\"ds-seg-opt\" role=\"radio\" aria-checked=\"false\" type=\"button\">Dark</button></div>",
+      "css": ".ds-seg { display: inline-flex; padding: 2px; border-radius: 12px; background: var(--fill); font-family: var(--font-sans, -apple-system, system-ui, sans-serif); } .ds-seg-opt { min-height: 44px; min-width: 44px; padding: 0 12px; border: 0; border-radius: 8px; background: transparent; color: var(--label-2); font-size: 0.9375rem; font-weight: 500; cursor: pointer; transition: background-color 150ms, box-shadow 150ms, color 150ms; } .ds-seg-opt:hover { color: var(--label); } .ds-seg-opt:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; } .ds-seg-on, .ds-seg-on:hover { background: var(--group); color: var(--label); box-shadow: 0 1px 2px rgba(0,0,0,0.08); } @media (min-width: 768px) { .ds-seg { border-radius: 10px; } .ds-seg-opt { min-height: 36px; } }"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag-neutral",
+      "description": "Static status capsule in five tones; never a filter.",
+      "html": "<span class=\"ds-tag ds-tag-neutral\">draft</span> <span class=\"ds-tag ds-tag-accent\">Resume</span> <span class=\"ds-tag ds-tag-green\">graded</span> <span class=\"ds-tag ds-tag-red\">12 due</span> <span class=\"ds-tag ds-tag-orange\">rough</span>",
+      "css": ".ds-tag { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px; font-family: var(--font-sans, -apple-system, system-ui, sans-serif); font-size: 0.75rem; font-weight: 600; line-height: 1.33; } .ds-tag-neutral { background: var(--fill); color: var(--label-2); } .ds-tag-accent { background: var(--accent-tint); color: var(--accent); } .ds-tag-green { background: var(--green-tint); color: var(--green); } .ds-tag-red { background: var(--red-tint); color: var(--red); } .ds-tag-orange { background: var(--orange-tint); color: var(--orange); }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Filled field that turns white with an accent ring on focus.",
+      "html": "<div class=\"ds-field-wrap\"><svg class=\"ds-field-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"6.5\"/><path d=\"M16 16l4 4\"/></svg><input class=\"ds-field ds-field-search\" type=\"search\" placeholder=\"Search 80 questions\" aria-label=\"Search questions\"></div>",
+      "css": ".ds-field-wrap { position: relative; font-family: var(--font-sans, -apple-system, system-ui, sans-serif); } .ds-field-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--label-3); pointer-events: none; } .ds-field { width: 100%; box-sizing: border-box; min-height: 44px; padding: 0 16px; border: 0; border-radius: 10px; background: color-mix(in srgb, var(--fill) 70%, transparent); color: var(--label); font: inherit; font-size: 1.0625rem; outline: none; caret-color: var(--accent); transition: background-color 150ms, box-shadow 150ms; } .ds-field-search { padding-left: 40px; } .ds-field::placeholder { color: var(--label-2); } .ds-field:focus { background: var(--group); box-shadow: 0 0 0 2px var(--accent); }"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "top-bar",
+      "description": "52px translucent bar: wordmark, desktop destination pills, account glyph. On phones the four destinations move to a bottom tab bar.",
+      "html": "<header class=\"ds-topbar\"><div class=\"ds-topbar-inner\"><a class=\"ds-wordmark\" href=\"#\">Valence</a><nav class=\"ds-pills\" aria-label=\"Primary\"><a class=\"ds-pill ds-pill-on\" href=\"#\">Practice</a><a class=\"ds-pill\" href=\"#\">Mock</a><a class=\"ds-pill\" href=\"#\">Review</a><a class=\"ds-pill\" href=\"#\">Part II</a></nav><a class=\"ds-account\" href=\"#\" aria-label=\"Account\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8.5\" r=\"4\"/><path d=\"M4.5 20.5a7.5 7.5 0 0 1 15 0\"/></svg></a></div></header>",
+      "css": ".ds-topbar { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--ground) 92%, transparent); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border-bottom: 1px solid var(--sep); font-family: var(--font-sans, -apple-system, system-ui, sans-serif); } .ds-topbar-inner { max-width: 640px; margin: 0 auto; padding: 0 16px; height: 52px; display: flex; align-items: center; gap: 8px; } .ds-wordmark { min-height: 44px; display: inline-flex; align-items: center; padding-right: 8px; color: var(--label); text-decoration: none; font-size: 1.0625rem; font-weight: 600; letter-spacing: -0.01em; } .ds-pills { display: flex; align-items: center; gap: 2px; margin-left: 16px; } .ds-pill { min-height: 36px; padding: 0 12px; border-radius: 9999px; display: inline-flex; align-items: center; color: var(--label-2); text-decoration: none; font-size: 0.9375rem; font-weight: 500; transition: background-color 150ms; } .ds-pill:hover { color: var(--label); background: color-mix(in srgb, var(--fill) 70%, transparent); } .ds-pill-on, .ds-pill-on:hover { background: var(--accent-tint); color: var(--accent); } .ds-account { margin-left: auto; margin-right: -8px; min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; color: var(--accent); } .ds-wordmark:focus-visible, .ds-pill:focus-visible, .ds-account:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 10px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Settings Screen for Chemistry",
+    "overview": "Valence is a native-feeling utility in the Apple Notes / Health / Reminders tradition, rebuilt on the web. The question is the content; everything else is grouped, hairlined furniture around it. A screen is one column, at most 640px wide, made of inset white groups on a pale grey ground, each group a stack of 44px rows separated by 1px hairlines inset from the leading edge. There is one page heading (a Large Title that hands off to the top bar when it scrolls away), one primary action, and four destinations, ever.\n\nThe palette is system-derived and nearly monochrome: one accent (system blue) reserved for the primary action, the selected state, and the current tab; green, red and orange appear only as answer feedback and status. Type is the platform's own sans at Apple's fixed scale, with tabular numerals wherever a number can change. Depth is conveyed by hairlines and translucency, not shadow. Motion exists only to confirm what the student just did: an answer row fills, a glyph springs in, the explanation rises. Nothing animates on load.\n\nThe build refuses the SaaS-dashboard arrangement (icon + heading + text cards, gradient buttons, a second accent) and the study-app arrangement (mascots, streaks, confetti, playful copy). Progress is shown, never celebrated.",
+    "keyCharacteristics": [
+      "Inset grouped lists on a grey ground; hairline separators, never full-bleed borders between rows",
+      "One accent, used for action, selection and the current tab only; semantic colors carry answer feedback only",
+      "System font stack at Apple's fixed seven-step scale; tabular numerals for anything countable",
+      "Every control is at least 44px tall; the primary capsule is 50px",
+      "Two full token sets (light, dark), switched by system preference or a manual pin on data-theme",
+      "Motion is feedback-only: 150ms fill, 180ms glyph spring, 240ms rise; reduced-motion collapses all of it to instant",
+      "Rendered chemistry (KaTeX + mhchem) is never restyled beyond inherited color and a 1.04em size bump"
+    ],
+    "rules": [
+      { "name": "The One Accent Rule", "body": "Blue is the only chromatic color that is not a verdict. It marks the primary action, selection, the current tab, and links; it never decorates.", "section": "colors" },
+      { "name": "The Verdict-Only Rule", "body": "Green, red and orange say correct, wrong, rough (or due/danger). They never appear as a section color, an illustration, or a chart theme; a bar goes red only when the number it shows is weak (under 60%).", "section": "colors" },
+      { "name": "The Two-Set Rule", "body": "Every color token has a light value on :root and a dark value under @media (prefers-color-scheme: dark) :root:not([data-theme=\"light\"]) and :root[data-theme=\"dark\"]. New colors are added to all three blocks or not at all; no component may hardcode a hex outside src/lib/og.tsx and the viewport theme-color.", "section": "colors" },
+      { "name": "The Fixed Scale Rule", "body": "Type uses only the seven named steps (text-large-title through text-caption). No arbitrary text-[Npx] outside the tab bar; no clamp().", "section": "typography" },
+      { "name": "The Tabular Number Rule", "body": "Any number that can change (scores, counts, timers, ratings, percentages, question positions) carries .tnum; body text does not.", "section": "typography" },
+      { "name": "The Untouched KaTeX Rule", "body": "Rendered chemistry inherits color and size only (.md .katex { font-size: 1.04em }); no weight, color, letter-spacing or font override ever targets KaTeX output. Figures invert in dark mode with filter: invert(0.92) hue-rotate(180deg) on a white plate.", "section": "typography" },
+      { "name": "The Hairline-Not-Shadow Rule", "body": "A group never carries a shadow or an outer border; it is a white shape on grey. Shadows belong to bars and the selected segment only.", "section": "elevation" },
+      { "name": "The Feedback Motion Rule", "body": "The only animations are responses to an action: the answer row's background fills over 150ms, the check or cross springs in over 180ms (scale(0.7)→1, cubic-bezier(0.22,1,0.36,1)), and the explanation, flag list, grade, or score group rises over 240ms (translateY(6px)→0, cubic-bezier(0.2,0.7,0.2,1)). Row hover and press transition background over 100–150ms; the top-bar title fades over 150ms. Nothing animates on page load, and prefers-reduced-motion reduces every duration to 0.01ms.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do build every screen as one column of Groups on the ground, headed by one LargeTitle, with one filled capsule as the primary action.",
+      "Do keep every interactive element at least 44px tall (50px for the primary capsule, 52px for answer rows) and give it hover, press, focus-visible and disabled states.",
+      "Do use the seven fixed type steps and .tnum on any number that can change.",
+      "Do add every new color to all three token blocks (light, dark media, dark pin) and reference it through the --color-* Tailwind theme.",
+      "Do use hairlines (sep, inset 16px or 56px) to separate rows and ground at 92% with backdrop-blur-xl for bars.",
+      "Do animate only in response to an action, with animate-rise (240ms) for content that appears and animate-spring (180ms) for a verdict glyph; transition background-color on rows, never color on elements whose text color is inherited (Chrome theme-flip repaint).",
+      "Do render chemistry through Md and leave KaTeX output alone; wrap figures in .figure-invert.",
+      "Do keep share cards on the light token set with a text wordmark and structural sub/superscripts."
+    ],
+    "donts": [
+      "Don't introduce a second accent, gradients, or a colored section theme; blue is for action and selection, green/red/orange are verdicts.",
+      "Don't put a shadow, outer border, or hover lift on a Group; the only shadows are the bar shadow and the selected-segment lift.",
+      "Don't compose icon + heading + text feature cards, eyebrow labels above content, or hero sections; GroupHeader is the only small-caps label and it sits above a group, never above a headline.",
+      "Don't add gamification: no streak chips, confetti, badges, mascots, or celebratory copy. \"Correct\" is the whole reward.",
+      "Don't animate on page load or stagger content in; skeletons pulse, nothing else moves until the student acts.",
+      "Don't use arbitrary pixel type sizes, fluid clamp() type, a webfont, or a display face; the system stack is the brand.",
+      "Don't open a modal between questions; flag reasons and explanations are inline groups.",
+      "Don't hardcode hex values in components; the share-card palette in src/lib/og.tsx is the one sanctioned exception because Satori cannot read CSS custom properties."
+    ]
+  }
+}

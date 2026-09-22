@@ -27,7 +27,11 @@ export type EventName =
   | "explanation_expanded"
   | "sign_up"
   | "sign_in"
-  | "theme_changed";
+  | "theme_changed"
+  | "share"
+  | "challenge_opened"
+  | "group_created"
+  | "group_joined";
 
 let ready = false;
 

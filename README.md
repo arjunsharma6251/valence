@@ -35,9 +35,24 @@ With no environment variables the app is fully usable: progress is stored in the
 
 ### Pages
 
-`/` home (progress, weak topics, prediction) · `/practice` · `/mock` · `/review` · `/part2` and `/part2/[id]` · `/q/[id]` question detail with contributor editor · `/signin` · `/search` · `/feedback`.
+`/` home (progress, weak topics, prediction) · `/practice` · `/mock` · `/review` · `/part2` and `/part2/[id]` · `/q/[id]` question detail with contributor editor (`?c=1` renders it as a friend's challenge) · `/s/mock` shared score card · `/signin` (account, study groups, profile) · `/search` · `/feedback`.
 
 Keyboard: `1–4` answer, `Enter` next, `E` explanation, `F` flag.
+
+### Design
+
+iOS grouped-table language on the web, built to the Apple Notes / Health bar: system font stack, one accent, hairline-separated inset groups, capsule buttons, light and dark by system with a manual toggle. Tokens live in `src/app/globals.css`; primitives in `src/components/ui.tsx`; the icon set in `src/components/icons.tsx`. Product truth is in `PRODUCT.md`, the visual system in `DESIGN.md`.
+
+### Growth loops
+
+| Loop | Where | How |
+| --- | --- | --- |
+| Shareable question links | every `/q/[id]` | Server-rendered page plus a generated Open Graph card (`opengraph-image.tsx`) so a pasted link previews as the question. |
+| Challenge a friend | "Challenge" after answering | Share sheet / clipboard link to `/q/[id]?c=1`; the receiver answers in practice mode with no account, then flows into adaptive practice. |
+| Mock score card | score report → "Share score card" | `/api/og/mock` renders a PNG from the score in the URL; shared as a file on phones, downloaded on desktop; `/s/mock` is the landing page. |
+| Study groups | Account → Study group | Six-character codes; members compare answered / accuracy / last mock / weakest topic via a security-definer function (`supabase/migrations/0002_groups.sql`). Signed-in only. |
+
+Events for all of these go to PostHog as `share`, `challenge_opened`, `group_created`, `group_joined`.
 
 ## Adding content
 
@@ -51,7 +66,7 @@ The seed set (`content/*/seed-*.json`) is 80 original USNCO-style questions and 
 
 ## Deploy
 
-Vercel: import the repo, set the env vars, done. Apply `supabase/migrations/0001_init.sql` in the Supabase SQL editor and enable Google + email (magic link) providers with `https://<domain>/auth/callback` as a redirect URL.
+Vercel: import the repo, set the env vars, done. Apply `supabase/migrations/*.sql` in order in the Supabase SQL editor and enable Google + email (magic link) providers with `https://<domain>/auth/callback` as a redirect URL.
 
 ## Metrics
 
