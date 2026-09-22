@@ -104,13 +104,18 @@ export function HomeScreen() {
               </div>
             </div>
             <Trend data={trend} />
+            <div className="mt-12">
+              <Leaderboard userId={userId} />
+            </div>
           </div>
         </div>
       )}
 
-      <div className="md:max-w-[680px]">
-        <Leaderboard userId={userId} />
-      </div>
+      {total === 0 && (
+        <div className="md:max-w-[680px]">
+          <Leaderboard userId={userId} />
+        </div>
+      )}
     </div>
   );
 }
