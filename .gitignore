@@ -55,3 +55,6 @@ pipeline/.venv/
 
 # temporary screenshot harness
 public/review-frame.html
+
+# ACS exam PDFs are copyrighted; keep them local
+pipeline/exams/
