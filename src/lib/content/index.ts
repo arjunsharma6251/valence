@@ -33,7 +33,6 @@ import expl2025Local from "../../../content/explanations/2025-local.json";
 import expl2025National from "../../../content/explanations/2025-national.json";
 import expl2026Local from "../../../content/explanations/2026-local.json";
 import expl2026National from "../../../content/explanations/2026-national.json";
-import seedFrq from "../../../content/frq/seed.json";
 import frq2014 from "../../../content/frq/2014-national.json";
 import frq2016 from "../../../content/frq/2016-national.json";
 import frq2017 from "../../../content/frq/2017-national.json";
@@ -91,7 +90,6 @@ export const explanations: Explanation[] = [
   ...([expl2016Local, expl2016National, expl2017Local, expl2017National, expl2018Local, expl2018National, expl2019Local, expl2019National, expl2020Local, expl2020National, expl2021Local, expl2021National, expl2022Local, expl2022National, expl2023Local, expl2023LocalB, expl2023National, expl2024Local, expl2024National, expl2025Local, expl2025National, expl2026Local, expl2026National].flat() as Explanation[]),
 ];
 export const frq: FrqProblem[] = [
-  ...(seedFrq as FrqProblem[]),
   ...([frq2014, frq2016, frq2017, frq2018, frq2019, frq2020, frq2021, frq2022, frq2023, frq2024, frq2025, frq2026].flat() as FrqProblem[]),
 ];
 

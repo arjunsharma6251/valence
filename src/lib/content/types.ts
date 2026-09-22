@@ -93,7 +93,7 @@ export interface FrqPart {
 }
 
 export interface FrqProblem {
-  /** `${year}-N-P${number}` for real exams, `seed-frq-...` for originals. */
+  /** `${year}-N-P${number}`. */
   id: string;
   year: number;
   level: "national";

@@ -14,7 +14,7 @@ export default function Page() {
   const years = real.map((q) => q.year);
   const span = `${Math.min(...years)}–${Math.max(...years)}`;
   const figures = real.filter((q) => q.figure_url).length;
-  const problems = frq.filter((p) => !p.id.startsWith("seed-")).length;
+  const problems = frq.length;
   const explained = explanations.filter((e) => !e.question_id.startsWith("seed-")).length;
   const items = [
     {
