@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import { topics } from "@/lib/content";
-import { Frame, Group, OG, og } from "@/lib/og";
+import { Frame, Group, Mono, OG, og } from "@/lib/og";
+import { OG_SERIF } from "@/lib/og-fonts";
 import { loadOgFonts } from "@/lib/og-fonts";
 
 /**
@@ -24,23 +25,24 @@ export async function GET(request: Request) {
   return new ImageResponse(
     (
       <Frame meta={`${level} · timed mock`} footer="60 questions drawn to the real topic mix · usevalence.app">
-        <div style={{ display: "flex", alignItems: "flex-end", gap: 18, marginTop: 4 }}>
-          <div style={{ fontSize: 112, fontWeight: 700, letterSpacing: -4, lineHeight: 1 }}>{String(correct)}</div>
-          <div style={{ fontSize: 44, color: og.label2, paddingBottom: 14 }}>{`/ ${total} · ${pct}%`}</div>
+        <div style={{ display: "flex", alignItems: "flex-end", gap: 18 }}>
+          <div style={{ fontFamily: OG_SERIF, fontSize: 124, letterSpacing: -4, lineHeight: 1 }}>{String(correct)}</div>
+          <div style={{ fontFamily: OG_SERIF, fontSize: 44, color: og.inkSoft, paddingBottom: 12 }}>{`/ ${total} · ${pct}%`}</div>
         </div>
+        <div style={{ display: "flex", marginTop: 10 }}><Mono>Mock score</Mono></div>
         {by.length > 0 && (
-          <Group style={{ marginTop: 20, padding: "6px 0" }}>
+          <Group style={{ marginTop: 26, padding: "6px 0" }}>
             <div style={{ display: "flex", flexWrap: "wrap" }}>
               {by.slice(0, 10).map(([c, t], i) => {
                 const name = (topics[i]?.name ?? `Topic ${i + 1}`).split(" and ")[0];
                 const w = t ? (100 * c) / t : 0;
                 return (
-                  <div key={i} style={{ display: "flex", alignItems: "center", gap: 14, width: "50%", padding: "5px 20px", fontSize: 20 }}>
-                    <div style={{ display: "flex", width: 220, color: og.label2, overflow: "hidden", whiteSpace: "nowrap" }}>{name}</div>
-                    <div style={{ display: "flex", flex: 1, height: 8, borderRadius: 999, background: "#e5e5ea" }}>
-                      <div style={{ display: "flex", width: `${w}%`, height: 8, borderRadius: 999, background: w < 60 ? og.red : og.accent }} />
+                  <div key={i} style={{ display: "flex", alignItems: "center", gap: 14, width: "50%", padding: "7px 20px 7px 0", fontSize: 20 }}>
+                    <div style={{ display: "flex", width: 220, color: og.inkSoft, overflow: "hidden", whiteSpace: "nowrap" }}>{name}</div>
+                    <div style={{ display: "flex", flex: 1, height: 2, background: og.line }}>
+                      <div style={{ display: "flex", width: `${w}%`, height: 2, background: w < 60 ? og.red : og.ink }} />
                     </div>
-                    <div style={{ display: "flex", width: 54, justifyContent: "flex-end", fontWeight: 600 }}>{`${c}/${t}`}</div>
+                    <div style={{ display: "flex", width: 54, justifyContent: "flex-end", fontWeight: 500 }}>{`${c}/${t}`}</div>
                   </div>
                 );
               })}

@@ -13,10 +13,20 @@ const items = [
   { href: "/part2", label: "Part II", Icon: IconPartII },
 ];
 
+/**
+ * Wordmark: "valence" in Fraunces with the wonky letterforms, followed by a
+ * lone pair (two stacked accent dots), the way valence electrons are drawn
+ * in a Lewis structure.
+ */
 export function Wordmark({ size = 22 }: { size?: number }) {
+  const dot = Math.max(3, Math.round(size * 0.17));
   return (
-    <span className="serif font-[620] tracking-[-0.015em] leading-none" style={{ fontSize: size }}>
-      valence<span className="text-accent">.</span>
+    <span className="inline-flex items-baseline gap-[0.12em] leading-none" style={{ fontSize: size }}>
+      <span className="wordmark">valence</span>
+      <span aria-hidden="true" className="inline-flex flex-col gap-[0.13em] self-center translate-y-[-0.04em]">
+        <span className="rounded-full bg-accent" style={{ width: dot, height: dot }} />
+        <span className="rounded-full bg-accent" style={{ width: dot, height: dot }} />
+      </span>
     </span>
   );
 }

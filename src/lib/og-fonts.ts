@@ -8,12 +8,14 @@
 // (400 + 700) and the equilibrium arrow / true minus from Noto Sans Math.
 // Sub/superscripts are drawn structurally (see ChemText), not as Unicode glyphs.
 const SOURCES = [
-  { name: "Noto Sans", weight: 400 as const, url: "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans@5/files/noto-sans-latin-400-normal.woff" },
-  { name: "Noto Sans", weight: 700 as const, url: "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans@5/files/noto-sans-latin-700-normal.woff" },
+  { name: "Inter", weight: 400 as const, url: "https://cdn.jsdelivr.net/npm/@fontsource/inter@5/files/inter-latin-400-normal.woff" },
+  { name: "Inter", weight: 500 as const, url: "https://cdn.jsdelivr.net/npm/@fontsource/inter@5/files/inter-latin-500-normal.woff" },
+  { name: "Fraunces", weight: 500 as const, url: "https://cdn.jsdelivr.net/npm/@fontsource/fraunces@5/files/fraunces-latin-500-normal.woff" },
+  { name: "JetBrains Mono", weight: 400 as const, url: "https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5/files/jetbrains-mono-latin-400-normal.woff" },
   { name: "Noto Sans Math", weight: 400 as const, url: "https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-math@5/files/noto-sans-math-math-400-normal.woff" },
 ];
 
-type OgFont = { name: string; data: ArrayBuffer; weight: 400 | 700; style: "normal" };
+type OgFont = { name: string; data: ArrayBuffer; weight: 400 | 500 | 700; style: "normal" };
 let cache: Promise<OgFont[]> | null = null;
 
 export function loadOgFonts(): Promise<OgFont[]> {
@@ -33,4 +35,6 @@ export function loadOgFonts(): Promise<OgFont[]> {
 }
 
 /** Font stack for card text: Latin from Noto Sans, symbols fall through to Noto Sans Math. */
-export const OG_FONT_FAMILY = '"Noto Sans", "Noto Sans Math"';
+export const OG_FONT_FAMILY = 'Inter, "Noto Sans Math"';
+export const OG_SERIF = 'Fraunces, Inter';
+export const OG_MONO = '"JetBrains Mono", Inter';

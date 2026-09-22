@@ -4,39 +4,52 @@
  * Colors mirror the light theme tokens in globals.css.
  */
 import type { ReactNode } from "react";
-import { OG_FONT_FAMILY } from "./og-fonts";
+import { OG_FONT_FAMILY, OG_MONO, OG_SERIF } from "./og-fonts";
 
 export const OG = { width: 1200, height: 630 };
 export const og = {
-  ground: "#f2f2f7",
-  group: "#ffffff",
-  label: "#1c1c1e",
-  label2: "#6e6e73",
-  sep: "rgba(60,60,67,0.16)",
-  accent: "#0066cc",
-  accentTint: "rgba(0,102,204,0.12)",
-  green: "#187a3c",
-  red: "#c5281f",
+  canvas: "#faf8f5",
+  canvas2: "#f3efe8",
+  ink: "#16130f",
+  inkSoft: "#57514a",
+  grey: "#97907f",
+  line: "#eae5db",
+  accent: "#1d4ed8",
+  green: "#1a7a45",
+  red: "#c8302a",
 };
 
+/** Mono label, the card's equivalent of the site's `.mono`. */
+export function Mono({ children, color = og.inkSoft }: { children: ReactNode; color?: string }) {
+  return <div style={{ display: "flex", fontFamily: OG_MONO, fontSize: 18, letterSpacing: 1, textTransform: "uppercase", color }}>{children}</div>;
+}
+
+/** Card frame in the site's editorial language: warm canvas, hairlines, serif wordmark with the lone-pair dots. */
 export function Frame({ children, footer, meta }: { children: ReactNode; footer?: string; meta?: string }) {
   return (
-    <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: og.ground, padding: 56, fontFamily: OG_FONT_FAMILY, color: og.label }}>
-      <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-        <div style={{ display: "flex", alignItems: "baseline", gap: 18, lineHeight: 1 }}>
-          <div style={{ fontSize: 30, fontWeight: 700, letterSpacing: -0.5 }}>Valence</div>
-          {meta && <div style={{ fontSize: 22, color: og.label2 }}>{meta}</div>}
+    <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: og.canvas, padding: 56, fontFamily: OG_FONT_FAMILY, color: og.ink }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", paddingBottom: 22, borderBottom: `1px solid ${og.line}` }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 22 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+            <div style={{ display: "flex", fontFamily: OG_SERIF, fontSize: 34, letterSpacing: -1, lineHeight: 1 }}>valence</div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
+              <div style={{ width: 6, height: 6, borderRadius: 999, background: og.accent }} />
+              <div style={{ width: 6, height: 6, borderRadius: 999, background: og.accent }} />
+            </div>
+          </div>
+          {meta && <Mono>{meta}</Mono>}
         </div>
-        <div style={{ fontSize: 22, color: og.label2 }}>Free USNCO practice</div>
+        <Mono color={og.grey}>Free USNCO practice</Mono>
       </div>
-      <div style={{ display: "flex", flexDirection: "column", flex: 1, marginTop: 36 }}>{children}</div>
-      {footer && <div style={{ fontSize: 20, color: og.label2, marginTop: 24 }}>{footer}</div>}
+      <div style={{ display: "flex", flexDirection: "column", flex: 1, marginTop: 34 }}>{children}</div>
+      {footer && <div style={{ display: "flex", paddingTop: 18, borderTop: `1px solid ${og.line}` }}><Mono color={og.grey}>{footer}</Mono></div>}
     </div>
   );
 }
 
+/** Hairline list: rows separated by 1px lines, no box. */
 export function Group({ children, style = {} }: { children: ReactNode; style?: Record<string, string | number> }) {
-  return <div style={{ display: "flex", flexDirection: "column", background: og.group, borderRadius: 24, overflow: "hidden", ...style }}>{children}</div>;
+  return <div style={{ display: "flex", flexDirection: "column", borderTop: `1px solid ${og.line}`, borderBottom: `1px solid ${og.line}`, ...style }}>{children}</div>;
 }
 
 const SUBS = "₀₁₂₃₄₅₆₇₈₉₊₋₍₎";
