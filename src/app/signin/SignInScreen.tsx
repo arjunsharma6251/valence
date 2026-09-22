@@ -86,6 +86,19 @@ export function SignInScreen() {
 
       {sb && <GroupsPanel signedIn={Boolean(user)} />}
 
+      <GroupHeader>Leaderboard</GroupHeader>
+      <Group>
+        <Row title="Show me on the weekly board" detail={user ? "Name, answered, accuracy and best mock only" : "Sign in first"}>
+          <Segmented label="Leaderboard" value={profile.public ? "on" : "off"} onChange={(v) => { if (!user) return; setProfile({ public: v === "on" }); if (v === "on") track("leaderboard_optin"); }} options={[{ value: "off", label: "Off" }, { value: "on", label: "On" }]} />
+        </Row>
+        {profile.public && (
+          <div className="py-3 flex gap-2 items-center">
+            <label className="sr-only" htmlFor="dname">Display name</label>
+            <input id="dname" value={profile.display_name ?? ""} onChange={(e) => setProfile({ display_name: e.target.value.slice(0, 24) })} placeholder="Display name" maxLength={24} className="flex-1 min-h-[44px] rounded-[4px] border border-line bg-canvas px-3 text-[16px] focus:border-ink outline-none" />
+          </div>
+        )}
+      </Group>
+
       <GroupHeader>Profile</GroupHeader>
       <Group>
         <Row title="Target exam">

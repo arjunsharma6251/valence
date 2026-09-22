@@ -15,7 +15,7 @@ export async function GET() {
   if (!user) return NextResponse.json({ state: null }, { status: 401 });
 
   const [profile, attempts, cards, mocks, flags, frq] = await Promise.all([
-    sb.from("profiles").select("grade_year,target").eq("id", user.id).maybeSingle(),
+    sb.from("profiles").select("grade_year,target,display_name,public").eq("id", user.id).maybeSingle(),
     sb.from("attempts").select("id,question_id,topic_id,chosen,correct,ms_taken,context,created_at"),
     sb.from("srs_cards").select("question_id,interval,ease,reps,due_at,updated_at"),
     sb.from("mock_sessions").select("id,level,question_ids,answers,started_at,duration_s,paused_at,pauses_used,submitted_at,score"),
@@ -25,7 +25,7 @@ export async function GET() {
 
   const state: UserState = {
     ...emptyState(user.id),
-    profile: { grade_year: profile.data?.grade_year ?? null, target: profile.data?.target ?? null },
+    profile: { grade_year: profile.data?.grade_year ?? null, target: profile.data?.target ?? null, display_name: profile.data?.display_name ?? null, public: profile.data?.public ?? false },
     attempts: (attempts.data ?? []) as UserState["attempts"],
     cards: Object.fromEntries(((cards.data ?? []) as UserState["cards"][string][]).map((c) => [c.question_id, c])),
     mocks: (mocks.data ?? []) as UserState["mocks"],
@@ -48,7 +48,7 @@ export async function POST(request: Request) {
 
   const uid = user.id;
   const results = await Promise.all([
-    sb.from("profiles").upsert({ id: uid, grade_year: s.profile.grade_year, target: s.profile.target }),
+    sb.from("profiles").upsert({ id: uid, grade_year: s.profile.grade_year, target: s.profile.target, display_name: s.profile.display_name ?? null, public: s.profile.public ?? false }),
     s.attempts.length
       ? sb.from("attempts").upsert(s.attempts.map((a) => ({ ...a, user_id: uid })), { onConflict: "id", ignoreDuplicates: true })
       : null,

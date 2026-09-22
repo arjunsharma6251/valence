@@ -11,6 +11,10 @@ import type { Card } from "../srs";
 export interface Profile {
   grade_year: string | null; // "9" | "10" | "11" | "12" | "other"
   target: Level | null;
+  /** Leaderboard name; null = not shown. */
+  display_name?: string | null;
+  /** Opt-in to the public weekly leaderboard. */
+  public?: boolean;
 }
 
 export interface Flag {
@@ -94,6 +98,8 @@ export function mergeStates(a: UserState, b: UserState): UserState {
     profile: {
       grade_year: b.profile.grade_year ?? a.profile.grade_year,
       target: b.profile.target ?? a.profile.target,
+      display_name: b.profile.display_name ?? a.profile.display_name ?? null,
+      public: b.profile.public ?? a.profile.public ?? false,
     },
     attempts: byId(a.attempts, b.attempts).sort((x, y) => x.created_at.localeCompare(y.created_at)),
     cards,

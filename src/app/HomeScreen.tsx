@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Group, GroupHeader, Row, Skeleton, Tag } from "@/components/ui";
 import { CountUp } from "@/components/CountUp";
+import { Leaderboard } from "@/components/Leaderboard";
+import { supabaseBrowser } from "@/lib/supabase/client";
 import { getTopic, questions } from "@/lib/content";
 import { accuracyByDay } from "@/lib/mastery";
 import { PREDICTION_MIN } from "@/lib/predict";
@@ -22,6 +24,13 @@ export function HomeScreen() {
   const trend = useMemo(() => accuracyByDay(attempts, 30), [attempts]);
   const inProgress = mocks.find((m) => !m.submitted_at);
   const lastMock = [...mocks].reverse().find((m) => m.submitted_at);
+
+  const [userId, setUserId] = useState<string | null>(null);
+  useEffect(() => {
+    const sb = supabaseBrowser();
+    if (!sb) return;
+    sb.auth.getUser().then(({ data }) => setUserId(data.user?.id ?? null));
+  }, []);
 
   if (!hydrated) return <div className="space-y-3"><Skeleton className="h-10 w-48" /><Skeleton className="h-[220px]" /></div>;
 
@@ -95,6 +104,10 @@ export function HomeScreen() {
           </div>
         </div>
       )}
+
+      <div className="md:max-w-[680px]">
+        <Leaderboard userId={userId} />
+      </div>
     </div>
   );
 }

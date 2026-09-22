@@ -31,7 +31,8 @@ export type EventName =
   | "share"
   | "challenge_opened"
   | "group_created"
-  | "group_joined";
+  | "group_joined"
+  | "leaderboard_optin";
 
 let ready = false;
 
