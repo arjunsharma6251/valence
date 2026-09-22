@@ -20,7 +20,7 @@ export default function Page() {
           />
         ))}
       </Group>
-      <GroupFooter>Type an answer to each part and get it graded against a rubric, with what you missed and the model answer. Grades are AI-generated and labeled as such. Five graded submissions per day.</GroupFooter>
+      <GroupFooter>Graded against a rubric, with the model answer. Five per day.</GroupFooter>
     </Narrow>
   );
 }

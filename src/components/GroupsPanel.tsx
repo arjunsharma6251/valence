@@ -47,7 +47,7 @@ export function GroupsPanel({ signedIn }: { signedIn: boolean }) {
     );
   }
 
-  const field = "flex-1 min-h-[44px] rounded-[10px] bg-fill/70 px-3 text-body focus:bg-group focus:ring-2 focus:ring-accent outline-none";
+  const field = "flex-1 min-h-[44px] rounded-[4px] border border-line bg-canvas px-3 text-[16px] focus:border-ink outline-none";
 
   return (
     <>
@@ -56,7 +56,7 @@ export function GroupsPanel({ signedIn }: { signedIn: boolean }) {
         <div key={g.id} className="mb-3">
           <Group>
             <Row title={g.name} detail={`Code ${g.code} · ${g.members.length} member${g.members.length === 1 ? "" : "s"}`}>
-              <Button variant="tinted" size="compact" onClick={async () => { const r = await shareLink({ title: `Join ${g.name} on Valence`, text: `Join my USNCO study group on Valence with code ${g.code}`, url: `/signin?join=${g.code}`, kind: "group" }); setMsg(r === "copied" ? "Invite link copied." : null); }}>Invite</Button>
+              <Button variant="outline" size="compact" onClick={async () => { const r = await shareLink({ title: `Join ${g.name} on Valence`, text: `Join my USNCO study group on Valence with code ${g.code}`, url: `/signin?join=${g.code}`, kind: "group" }); setMsg(r === "copied" ? "Invite link copied." : null); }}>Invite</Button>
             </Row>
             {g.members.map((m) => (
               <Row
@@ -66,7 +66,7 @@ export function GroupsPanel({ signedIn }: { signedIn: boolean }) {
                 value={m.last_mock ? <span className="tnum">{m.last_mock.correct}/{m.last_mock.total}</span> : <Tag tone="neutral">no mock</Tag>}
               />
             ))}
-            <button type="button" onClick={() => post({ action: "leave", group_id: g.id })} className="w-full text-left px-4 min-h-[44px] text-body text-red hover:bg-fill/60">Leave group</button>
+            <button type="button" onClick={() => post({ action: "leave", group_id: g.id })} className="w-full text-left min-h-[44px] text-[16px] text-red hover:bg-canvas-2">Leave group</button>
           </Group>
         </div>
       ))}
@@ -78,7 +78,7 @@ export function GroupsPanel({ signedIn }: { signedIn: boolean }) {
           </>
         )}
         {mode === "create" && (
-          <form onSubmit={(e) => { e.preventDefault(); post({ action: "create", name }); }} className="px-4 py-3 flex gap-2">
+          <form onSubmit={(e) => { e.preventDefault(); post({ action: "create", name }); }} className="py-3 flex gap-2">
             <label className="sr-only" htmlFor="gname">Group name</label>
             <input id="gname" value={name} onChange={(e) => setName(e.target.value)} placeholder="Group name, e.g. Ridge HS Chem" maxLength={40} className={field} autoFocus />
             <Button type="submit" size="compact" disabled={busy || !name.trim()}>Create</Button>
@@ -86,7 +86,7 @@ export function GroupsPanel({ signedIn }: { signedIn: boolean }) {
           </form>
         )}
         {mode === "join" && (
-          <form onSubmit={(e) => { e.preventDefault(); post({ action: "join", code }); }} className="px-4 py-3 flex gap-2">
+          <form onSubmit={(e) => { e.preventDefault(); post({ action: "join", code }); }} className="py-3 flex gap-2">
             <label className="sr-only" htmlFor="gcode">Group code</label>
             <input id="gcode" value={code} onChange={(e) => setCode(e.target.value.toUpperCase())} placeholder="ABC234" maxLength={7} className={`${field} tracking-[0.15em] font-mono uppercase`} autoFocus />
             <Button type="submit" size="compact" disabled={busy || code.replace(/[^A-Z0-9]/gi, "").length !== 6}>Join</Button>

@@ -114,35 +114,35 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
   return (
     <article aria-live="polite" className={`animate-rise ${mode === "mock" ? "" : "lg:grid lg:grid-cols-[minmax(0,1fr)_400px] lg:gap-x-8"}`}>
       <div className="lg:col-start-1">
-      <div className="flex items-center gap-2 text-footnote text-label-2 min-h-6 mb-2 whitespace-nowrap">
-        {position && <span className="font-semibold text-label tnum shrink-0">{position}</span>}
+      <div className="flex items-center gap-3 mono min-h-6 mb-4 whitespace-nowrap">
+        {position && <span className="text-ink tnum shrink-0">{position}</span>}
         {topic && <span className="truncate min-w-0">{topic.name}</span>}
         <span className="ml-auto shrink-0">{question.level === "local" ? "Local" : "National"} {question.year}</span>
       </div>
 
-      <div className="text-body leading-relaxed">
+      <div className="text-[17px] leading-relaxed">
         <Md text={question.stem_md} className="lg:text-[19px]" />
         {question.figure_url && (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={question.figure_url} alt="Figure for this question" className="figure-invert mt-3 rounded-[10px] max-w-full" loading="lazy" />
+          <img src={question.figure_url} alt="Figure for this question" className="figure-invert mt-3 rounded-[4px] max-w-full" loading="lazy" />
         )}
       </div>
 
-      <Group className="mt-4 stagger" insetIcon>
+      <Group className="mt-6 stagger">
         {question.options.map((o, i) => {
           const isChosen = chosen === o.label;
           const isCorrect = o.label === question.correct_option;
           const showCorrect = revealed && isCorrect;
           const showWrong = revealed && isChosen && !isCorrect;
           const dim = revealed && !isCorrect && !isChosen ? "opacity-60" : "";
-          const tone = showCorrect ? "bg-green-tint" : showWrong ? "bg-red-tint" : isChosen ? "bg-accent-tint" : "hover:bg-fill/60 active:bg-fill";
+          const tone = showCorrect ? "bg-green-wash" : showWrong ? "bg-red-wash" : isChosen ? "bg-accent-wash" : "hover:bg-canvas-2";
           const badge = showCorrect
-            ? "bg-green text-white"
+            ? "bg-green text-canvas border-green"
             : showWrong
-              ? "bg-red text-white"
+              ? "bg-red text-canvas border-red"
               : isChosen
-                ? "bg-accent text-accent-on"
-                : "border border-sep-strong text-label-2";
+                ? "bg-ink text-canvas border-ink"
+                : "border-line-strong text-ink-soft";
           return (
             <button
               key={o.label}
@@ -150,12 +150,12 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
               onClick={() => choose(o.label)}
               disabled={mode !== "mock" && mode !== "detail" && answered}
               aria-pressed={isChosen}
-              className={`w-full text-left flex items-start gap-3 px-4 py-3 min-h-[52px] transition-[background-color,opacity,transform] duration-200 active:scale-[0.995] disabled:cursor-default ${tone} ${dim}`}
+              className={`text-left flex items-start gap-4 px-3 -mx-3 w-[calc(100%+24px)] py-3 min-h-[52px] rounded-[4px] transition-[background-color,opacity,transform] duration-200 active:scale-[0.995] disabled:cursor-default ${tone} ${dim}`}
             >
-              <span className={`mt-0.5 shrink-0 w-7 h-7 rounded-full inline-flex items-center justify-center text-footnote font-semibold transition-[background-color,border-color] duration-150 ${badge}`}>
+              <span className={`mt-0.5 shrink-0 w-7 h-7 rounded-[3px] border inline-flex items-center justify-center font-mono text-[12px] transition-[background-color,border-color] duration-150 ${badge}`}>
                 {showCorrect ? <IconCheck size={16} className="animate-spring" /> : showWrong ? <IconX size={16} className="animate-spring" /> : o.label}
               </span>
-              <span className="flex-1 text-body leading-relaxed pt-0.5"><Md text={o.text_md} /></span>
+              <span className="flex-1 text-[16px] leading-relaxed pt-0.5"><Md text={o.text_md} /></span>
               <Kbd>{i + 1}</Kbd>
             </button>
           );
@@ -163,14 +163,14 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
       </Group>
 
       {revealed && mode !== "detail" && (
-        <p className={`mt-3 px-1 text-body font-semibold animate-rise ${correct ? "text-green" : "text-red"}`}>
+        <p className={`mt-4 text-[15px] font-medium animate-rise ${correct ? "text-green" : "text-red"}`}>
           {correct ? "Correct" : `Not quite. The answer is ${question.correct_option}.`}
         </p>
       )}
 
       <div className="mt-3 flex items-center gap-2">
         {revealed && (
-          <Button variant="tinted" size="compact" onClick={() => { setShowExpl((v) => !v); if (!showExpl) track("explanation_expanded", { question_id: question.id }); }} aria-expanded={showExpl}>
+          <Button variant="outline" size="compact" onClick={() => { setShowExpl((v) => !v); if (!showExpl) track("explanation_expanded", { question_id: question.id }); }} aria-expanded={showExpl}>
             {showExpl ? "Hide" : "Explanation"} <Kbd>E</Kbd>
           </Button>
         )}
@@ -194,7 +194,7 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
       {flagOpen && (
         <Group className="mt-3 animate-rise lg:col-start-1" aria-label="Flag reason">
           {FLAG_REASONS.map((r) => (
-            <button key={r.value} type="button" onClick={() => flag(r.value)} className="w-full text-left px-4 min-h-[44px] text-body text-accent hover:bg-fill/60 active:bg-fill">
+            <button key={r.value} type="button" onClick={() => flag(r.value)} className="w-full text-left min-h-[44px] text-[15px] hover:text-accent">
               {r.label}
             </button>
           ))}
@@ -202,37 +202,37 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
       )}
 
       {revealed && showExpl && (
-        <div className="animate-rise lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-[76px] lg:self-start lg:[&>div:first-child]:pt-0 lg:[&_h2]:pt-0">
+        <div className="animate-rise lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-[88px] lg:self-start lg:border-l lg:border-line lg:pl-10 lg:[&>div:first-child]:pt-0">
           {question.acs_solution_md && (
             <>
               <GroupHeader>Official solution</GroupHeader>
-              <Group><div className="px-4 py-3"><Md text={question.acs_solution_md} className="text-subhead leading-relaxed" /></div></Group>
+              <Group><div className="py-3"><Md text={question.acs_solution_md} className="text-[15px] leading-relaxed" /></div></Group>
             </>
           )}
           <GroupHeader trailing={explanation && !explanation.verified ? <Tag tone="neutral">draft</Tag> : undefined}>Explanation</GroupHeader>
           <Group>
             {explanation ? (
               <>
-                <div className="px-4 py-3"><Md text={explanation.body_md} className="text-subhead leading-relaxed" /></div>
+                <div className="py-3"><Md text={explanation.body_md} className="text-[15px] leading-relaxed" /></div>
                 {LABELS.map((l) => (
-                  <div key={l} className={`px-4 py-2.5 flex gap-3 text-subhead leading-relaxed ${l === question.correct_option ? "text-green" : chosen === l ? "text-red" : "text-label-2"}`}>
-                    <span className="font-semibold w-4 shrink-0 tnum">{l}</span>
+                  <div key={l} className={`px-4 py-2.5 flex gap-3 text-[15px] leading-relaxed ${l === question.correct_option ? "text-green" : chosen === l ? "text-red" : "text-ink-soft"}`}>
+                    <span className="font-mono text-[12px] w-4 shrink-0 pt-0.5">{l}</span>
                     <Md text={explanation.distractor_notes[l]} />
                   </div>
                 ))}
                 {explanation.concept_ref && (
-                  <Link href={`/search?q=${encodeURIComponent(explanation.concept_ref)}`} className="block px-4 min-h-[44px] py-2.5 text-subhead text-accent hover:bg-fill/60">
-                    Concept: {explanation.concept_ref}
+                  <Link href={`/search?q=${encodeURIComponent(explanation.concept_ref)}`} className="block min-h-[44px] py-2.5 text-[14px] text-ink-soft hover:text-accent">
+                    Concept · {explanation.concept_ref}
                   </Link>
                 )}
               </>
             ) : (
-              <div className="px-4 py-3 text-subhead text-label-2">No explanation yet for this question.</div>
+              <div className="py-3 text-[14px] text-ink-soft">No explanation yet.</div>
             )}
           </Group>
-          <p className="px-4 pt-1.5 text-footnote text-label-2 flex flex-wrap gap-x-3">
+          <p className="pt-3 mono normal-case flex flex-wrap gap-x-4">
             <span>{question.source}</span>
-            {mode !== "detail" && <Link href={`/q/${question.id}`} className="text-accent">Open question page</Link>}
+            {mode !== "detail" && <Link href={`/q/${question.id}`} className="hover:text-ink">Open page</Link>}
           </p>
         </div>
       )}

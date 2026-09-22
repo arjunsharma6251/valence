@@ -449,3 +449,15 @@ Icons are an authored 24px set (`src/components/icons.tsx`) at a single 1.8 stro
 - Accent: indigo (#4338ca light, #a5b4fc dark with #14123a on-accent text) replaces system blue so the selection state no longer collides with the "Apple default" reading. Tints derive from it; green/red/orange stay verdict-only.
 - Layout: the shell is 1040px on desktop. Home shows the four destinations as tiles (2×2 on phones, 4-across from md) and Topics/Prediction side by side; Practice, Review, and the question page split into question (left) and a sticky explanation column (right, 400px) from lg; Mock puts the question grid in the right column. Form-like screens (Account, Search, Feedback, Part II list, mock lobby/report) stay 640px via `Narrow`.
 - Motion: entrance stagger (`.stagger`, 360ms rise, 40ms apart) on Home, lists, and options; `CountUp` on scores; bars draw in (`.grow`, 700ms); tiles lift on hover; the answer feedback grammar is unchanged. Everything collapses to 0.01ms under prefers-reduced-motion.
+
+
+## Revision 2026-09-21 (night): editorial re-skin after Fermata
+
+Arjun asked for SF Pro-level elegance, less copy, and Fermata's graphic language. The iOS grouped-table look is replaced by Fermata's "forensic editorial" language; the structure (four destinations, split practice, mock grid) is unchanged.
+
+- Canvas: warm off-white #faf8f5 (dark: #151311); ink #16130f (dark #f1ece4); ink-soft, grey, hairline `--line #eae5db`. No filled groups anywhere: lists are hairline-separated rows on the canvas; inputs are hairline-bordered.
+- Type: system stack first (SF Pro on Apple) with Inter Variable as the fallback; Fraunces Variable for the wordmark ("valence." with an accent period), page titles, destination names and big numbers; JetBrains Mono at 11.5px uppercase, 0.04em for section labels, meta rows, option letters, chips and the tab bar.
+- Accent: one rare cobalt (#1d4ed8 light, #8fb0ff dark) for the wordmark period, the active nav underline, links on hover, the selected answer wash and the review badge. Green/red remain verdict-only. Primary button is ink on canvas; secondary is a hairline outline.
+- Chrome: canvas-colored top bar that earns a whisper of shadow once scrolled; phone tab bar on canvas with a hairline top and mono labels. Radii 3–6px.
+- Copy: every group footer cut to one clause or removed; Home has no title and no explanatory list, only the four destinations (numbered 01–04 in mono) and, once there is data, Topics and Prediction side by side.
+- Gotcha recorded: base resets and helper classes (`.mono`, `.serif`, `.list`) live in `@layer base` / `@layer components`; anything unlayered would out-rank Tailwind utilities (the Next button lost its text color that way).

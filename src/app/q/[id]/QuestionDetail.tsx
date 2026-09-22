@@ -45,7 +45,7 @@ export function QuestionDetail({ question, challenge = false }: { question: Ques
     else setMsg(d.error ?? "Could not save.");
   };
 
-  const field = "w-full rounded-[10px] bg-fill/70 px-3 py-2.5 text-body focus:bg-group focus:ring-2 focus:ring-accent outline-none";
+  const field = "w-full rounded-[4px] border border-line bg-canvas px-3 py-2.5 text-[16px] focus:border-ink outline-none";
 
   return (
     <div>
@@ -54,42 +54,42 @@ export function QuestionDetail({ question, challenge = false }: { question: Ques
           <Row title="A friend sent you this question" detail="Answer it, then keep going. No account needed." />
         </Group>
       ) : (
-        <Link href="/practice" className="inline-flex items-center gap-0.5 text-accent text-body min-h-[44px] -ml-2 pr-2 mb-1"><IconBack size={20} /> Practice</Link>
+        <Link href="/practice" className="inline-flex items-center gap-0.5 text-accent text-[16px] min-h-[44px] -ml-2 pr-2 mb-1"><IconBack size={20} /> Practice</Link>
       )}
       <QuestionCard question={question} mode={challenge ? "practice" : "detail"} onNext={challenge ? () => router.push("/practice") : undefined} nextLabel="Keep practicing" />
       {override && <GroupFooter>Showing a contributor edit by {override.author} ({new Date(override.updated_at).toLocaleDateString()}){override.verified ? ", verified" : ", unverified"}.</GroupFooter>}
-      {canEdit && !editing && <div className="pt-4"><Button variant="tinted" className="w-full" onClick={startEdit}>Edit explanation</Button></div>}
+      {canEdit && !editing && <div className="pt-4"><Button variant="outline" className="w-full" onClick={startEdit}>Edit explanation</Button></div>}
       {msg && <GroupFooter>{msg}</GroupFooter>}
 
       {editing && draft && (
         <div className="animate-rise">
           <GroupHeader trailing={<Tag tone={draft.verified ? "green" : "neutral"}>{draft.verified ? "verified" : "draft"}</Tag>}>Edit explanation</GroupHeader>
           <Group>
-            <div className="px-4 py-3 space-y-3">
-              <label className="block text-footnote text-label-2">Step by step
-                <textarea value={draft.body_md} onChange={(e) => setDraft({ ...draft, body_md: e.target.value })} rows={8} className={`${field} mt-1 font-mono text-subhead`} />
+            <div className="py-3 space-y-3">
+              <label className="block text-[13px] text-ink-soft">Step by step
+                <textarea value={draft.body_md} onChange={(e) => setDraft({ ...draft, body_md: e.target.value })} rows={8} className={`${field} mt-1 font-mono text-[15px]`} />
               </label>
               {LABELS.map((l) => (
-                <label key={l} className="block text-footnote text-label-2">Option {l}
+                <label key={l} className="block text-[13px] text-ink-soft">Option {l}
                   <input value={draft.distractor_notes[l]} onChange={(e) => setDraft({ ...draft, distractor_notes: { ...draft.distractor_notes, [l]: e.target.value } })} className={`${field} mt-1 min-h-[44px]`} />
                 </label>
               ))}
-              <label className="block text-footnote text-label-2">Concept
+              <label className="block text-[13px] text-ink-soft">Concept
                 <input value={draft.concept_ref} onChange={(e) => setDraft({ ...draft, concept_ref: e.target.value })} className={`${field} mt-1 min-h-[44px]`} />
               </label>
-              <label className="flex items-center gap-3 text-body min-h-[44px]">
+              <label className="flex items-center gap-3 text-[16px] min-h-[44px]">
                 <input type="checkbox" checked={draft.verified} onChange={(e) => setDraft({ ...draft, verified: e.target.checked })} className="h-5 w-5 accent-[var(--accent)]" />
                 Mark as verified
               </label>
             </div>
-            <div className="px-4 py-3">
-              <p className="text-footnote text-label-2 mb-1">Preview</p>
-              <Md text={draft.body_md} className="text-subhead" />
+            <div className="py-3">
+              <p className="text-[13px] text-ink-soft mb-1">Preview</p>
+              <Md text={draft.body_md} className="text-[15px]" />
             </div>
           </Group>
           <div className="pt-4 flex gap-2">
             <Button onClick={save} className="flex-1">Save</Button>
-            <Button variant="tinted" onClick={() => setEditing(false)}>Cancel</Button>
+            <Button variant="outline" onClick={() => setEditing(false)}>Cancel</Button>
           </div>
         </div>
       )}

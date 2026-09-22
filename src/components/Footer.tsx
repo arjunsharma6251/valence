@@ -2,15 +2,13 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="mx-auto max-w-[1040px] px-4 md:px-6 pt-8 pb-[calc(56px+env(safe-area-inset-bottom)+24px)] md:pb-10 text-footnote text-label-2 leading-snug">
-      <p>
-        Valence is a free, independent practice tool and is not affiliated with or endorsed by the American Chemical Society. Exam-derived questions are attributed to their source; original questions are marked as such.
-      </p>
-      <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
-        <Link href="/feedback" className="text-accent">Feedback</Link>
-        <Link href="/search" className="text-accent">Search</Link>
-        <a href="https://github.com/arjunsharma6251/valence" className="text-accent">Source</a>
-      </p>
+    <footer className="mx-auto max-w-[1040px] px-5 md:px-7 pt-16 pb-[calc(56px+env(safe-area-inset-bottom)+28px)] md:pb-12">
+      <div className="hairline pt-4 flex flex-wrap items-baseline gap-x-6 gap-y-2 mono">
+        <span>Not affiliated with ACS</span>
+        <Link href="/feedback" className="hover:text-ink">Feedback</Link>
+        <Link href="/search" className="hover:text-ink">Search</Link>
+        <a href="https://github.com/arjunsharma6251/valence" className="hover:text-ink">Source</a>
+      </div>
     </footer>
   );
 }

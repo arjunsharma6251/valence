@@ -35,7 +35,7 @@ export default async function Page({ searchParams }: { searchParams: SP }) {
     <div>
       <LargeTitle className="pt-1 pb-4">Mock score</LargeTitle>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`/api/og/mock?${query}`} alt={`${correct} of ${total} on a ${level} mock`} width={1200} height={630} className="w-full h-auto rounded-[var(--radius-group)]" />
+      <img src={`/api/og/mock?${query}`} alt={`${correct} of ${total} on a ${level} mock`} width={1200} height={630} className="w-full h-auto rounded-[6px]" />
       {by.length > 0 && (
         <Group className="mt-4">
           {by.map(([c, t], i) => (

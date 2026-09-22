@@ -57,7 +57,7 @@ export function SignInScreen() {
       ) : user ? (
         <Group>
           <Row title={user.email ?? "Signed in"} detail="Progress syncs across your devices">
-            <Button variant="tinted" size="compact" onClick={signOut}>Sign out</Button>
+            <Button variant="outline" size="compact" onClick={signOut}>Sign out</Button>
           </Row>
         </Group>
       ) : (
@@ -66,21 +66,21 @@ export function SignInScreen() {
             <Group className="mb-3"><Row title={`Sign in to join group ${joinCode}`} detail="Your progress on this device merges into the account." /></Group>
           )}
           <Group>
-            <div className="px-4 py-3 space-y-2">
+            <div className="py-3 space-y-2">
               <Button onClick={google} disabled={busy} className="w-full">Continue with Google</Button>
               {sent ? (
-                <p className="text-body py-2">Check {email} for a sign-in link.</p>
+                <p className="text-[16px] py-2">Check {email} for a sign-in link.</p>
               ) : (
                 <form onSubmit={(e) => { e.preventDefault(); magic(); }} className="flex gap-2">
                   <label className="sr-only" htmlFor="email">Email</label>
-                  <input id="email" type="email" required autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@school.org" className="flex-1 min-h-[50px] rounded-[var(--radius-control)] bg-fill/70 px-4 text-body focus:bg-group focus:ring-2 focus:ring-accent outline-none" />
-                  <Button type="submit" variant="tinted" disabled={busy}>Email link</Button>
+                  <input id="email" type="email" required autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@school.org" className="flex-1 min-h-[50px] rounded-[6px] bg-canvas-2 px-4 text-[16px] focus:border-ink outline-none" />
+                  <Button type="submit" variant="outline" disabled={busy}>Email link</Button>
                 </form>
               )}
-              {err && <p className="text-footnote text-red" role="alert">{err}</p>}
+              {err && <p className="text-[13px] text-red" role="alert">{err}</p>}
             </div>
           </Group>
-          <GroupFooter>Everything works without an account. Sign in to keep progress across devices; this device’s {attempts} answers merge in.</GroupFooter>
+          <GroupFooter>Optional. Sign in to keep progress across devices; this device’s {attempts} answers merge in.</GroupFooter>
         </>
       )}
 
@@ -95,7 +95,7 @@ export function SignInScreen() {
           <Segmented label="Grade" value={profile.grade_year ?? ""} onChange={(v) => setProfile({ grade_year: v })} options={["9", "10", "11", "12"].map((g) => ({ value: g, label: g }))} />
         </Row>
       </Group>
-      <GroupFooter>That’s all we ask for.</GroupFooter>
+      
 
       <GroupHeader>Appearance</GroupHeader>
       <Group>

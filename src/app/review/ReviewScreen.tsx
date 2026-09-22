@@ -36,8 +36,8 @@ export function ReviewScreen() {
         <Group>
           <Row title={done ? `Done. ${done} reviewed.` : "Nothing due right now"} detail={total ? `${total} scheduled${nextDue ? ` · next ${nextDue.toLocaleDateString(undefined, { month: "short", day: "numeric" })}` : ""}` : "Questions you miss show up here on a spaced schedule."} />
         </Group>
-        <GroupFooter>Missed questions come back the same day, then after 1 day, 6 days, and longer each time you get them right.</GroupFooter>
-        <div className="pt-4"><LinkButton href="/practice" variant="tinted" className="w-full">Practice instead</LinkButton></div>
+        <GroupFooter>Misses come back the same day, then 1 day, 6 days, and longer.</GroupFooter>
+        <div className="pt-4"><LinkButton href="/practice" variant="outline" className="w-full">Practice instead</LinkButton></div>
       </Narrow>
     );
   }
@@ -46,8 +46,8 @@ export function ReviewScreen() {
   return (
     <div>
       <div className="flex items-center justify-between mb-3">
-        <span className="text-footnote text-label-2 tnum">{remaining.length} due</span>
-        <Button variant="plain" size="compact" className="min-h-[36px] text-footnote" onClick={() => dismissCard(currentId)}>Dismiss card</Button>
+        <span className="text-[13px] text-ink-soft tnum">{remaining.length} due</span>
+        <Button variant="plain" size="compact" className="min-h-[36px] text-[13px]" onClick={() => dismissCard(currentId)}>Dismiss card</Button>
       </div>
       <QuestionCard
         key={currentId}

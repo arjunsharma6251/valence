@@ -47,20 +47,20 @@ export function PracticeScreen() {
 
   return (
     <div>
-      <div className="mb-4 rounded-[var(--radius-group)] bg-group flex items-center px-4 min-h-[44px] relative lg:max-w-[calc(100%-432px)]">
-        <label htmlFor="topic" className="text-body">Topic</label>
+      <div className="mb-6 border-b border-line flex items-center min-h-[44px] relative lg:max-w-[calc(100%-432px)]">
+        <label htmlFor="topic" className="mono">Topic</label>
         <select
           id="topic"
           value={topicId ?? ""}
           onChange={(e) => router.replace(e.target.value ? `/practice?topic=${e.target.value}` : "/practice")}
-          className="row-select flex-1 min-h-[44px] text-body cursor-pointer"
+          className="row-select flex-1 min-h-[44px] text-[15px] cursor-pointer"
         >
           <option value="">All topics (adaptive)</option>
           {topics.map((t) => (
             <option key={t.id} value={t.id}>{t.name}</option>
           ))}
         </select>
-        <IconChevron size={18} className="absolute right-3 text-label-3 rotate-90 pointer-events-none" />
+        <IconChevron size={16} className="absolute right-0 text-grey rotate-90 pointer-events-none" />
         <span className="sr-only">{count} answered this session</span>
       </div>
       <QuestionCard key={current.id} question={getQuestion(current.id)!} mode="practice" onAnswer={() => setCount((c) => c + 1)} onNext={pick} position={count ? `${count} answered` : undefined} />
