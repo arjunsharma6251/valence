@@ -1,0 +1,800 @@
+[
+  {
+    "question_id": "2026-N-01",
+    "body_md": "**Step 1: Molar masses**\n$M(\\ce{CuSO4 \\cdot 5H2O}) = 63.55 + 32.07 + 4(16.00) + 5(18.02) = 249.68\\ \\text{g/mol}$\n\n$M(\\ce{CuSO4}) = 63.55 + 32.07 + 4(16.00) = 159.62\\ \\text{g/mol}$\n\n**Step 2: Moles of hydrate**\n$n = \\dfrac{10.00\\ \\text{g}}{249.68\\ \\text{g/mol}} = 0.04005\\ \\text{mol}$\n\n**Step 3: Mass of anhydrous salt**\nSince each mole of hydrate gives one mole of anhydrous $\\ce{CuSO4}$:\n\n$m = 0.04005\\ \\text{mol} \\times 159.62\\ \\text{g/mol} = 6.39\\ \\text{g}$\n\nSo **6.39 g** of white anhydrous $\\ce{CuSO4}$ remains after all 5 waters of hydration are driven off.",
+    "distractor_notes": {
+      "A": "This comes from treating the formula as if it had 6 total 'parts' (1 CuSO4 + 5 H2O) and dividing the sample mass by 6 instead of using actual molar masses: $10.00/6 = 1.67$ g. This ignores the real mass ratio contributed by each component.",
+      "B": "This is the mass of **water lost**, not the mass of solid that remains: $10.00 \\times \\dfrac{5(18.02)}{249.68} = 3.61$ g. A student who computes the water driven off and reports that value (instead of subtracting it from 10.00 g, or instead of computing the CuSO4 mass directly) lands here.",
+      "C": "Correct — this is the mass of anhydrous $\\ce{CuSO4}$ obtained using the proper molar-mass ratio $159.62/249.68$ applied to the 10.00 g sample.",
+      "D": "This value comes from an arithmetic slip, such as using an incorrect molar mass for water (e.g., 20 g/mol instead of 18.02 g/mol) or mis-subtracting the water mass from 10.00 g, giving an inflated residual mass of 8.99 g instead of the correct 6.39 g."
+    },
+    "concept_ref": "Stoichiometry of hydrate decomposition (mass percent composition)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-02",
+    "body_md": "**Setting up the mole balance.** At STP, 22.4 L = 1 mol total gas initially, so if $x$ = mol $\\ce{C2H6}$ and $y$ = mol $\\ce{O2}$, then $x + y = 1$.\n\nSince $\\ce{H2O}$ is produced as a liquid, it leaves the gas phase — this is what causes the volume to shrink from 22.4 L to 11.2 L (0.5 mol total gas remaining).\n\n**Case 1: $\\ce{C2H6}$ is limiting.** All $x$ mol of ethane react, consuming $\\tfrac{7}{2}x$ mol $\\ce{O2}$ and producing $2x$ mol $\\ce{CO2}$ (the water leaves as liquid). Leftover $\\ce{O2} = y - \\tfrac{7}{2}x$.\n\nFinal gas moles:\n$$\\left(y - \\tfrac{7}{2}x\\right) + 2x = y - \\tfrac{3}{2}x = 0.5$$\n\nUsing $y = 1-x$:\n$$1 - x - \\tfrac{3}{2}x = 0.5 \\Rightarrow 1 - \\tfrac{5}{2}x = 0.5 \\Rightarrow x = 0.20\\text{ mol}$$\n\nCheck: $y = 0.80$, $\\ce{O2}$ used $= 0.70$, leftover $\\ce{O2}=0.10 \\ge 0$ — **consistent**, so 0.20 mol ethane is one valid solution.\n\n**Case 2: $\\ce{O2}$ is limiting.** All $y$ mol $\\ce{O2}$ reacts, consuming $a = \\tfrac{2}{7}y$ mol ethane, leaving $x-a$ mol ethane unreacted, plus $2a$ mol $\\ce{CO2}$.\n\nFinal gas moles:\n$$(x-a) + 2a = x + a = 0.5$$\n\nWith $a = \\tfrac{2}{7}y = \\tfrac{2}{7}(1-x)$:\n$$x + \\tfrac{2}{7}(1-x) = 0.5 \\Rightarrow \\tfrac{5}{7}x + \\tfrac{2}{7} = 0.5 \\Rightarrow x = 0.30\\text{ mol}$$\n\nCheck: $y=0.70$, ethane used $a=0.20$, leftover ethane $=0.10 \\ge 0$ — **also consistent**.\n\n**Conclusion.** Both $x=0.20$ mol (with excess $\\ce{O2}$) and $x=0.30$ mol (with excess $\\ce{C2H6}$) satisfy every given constraint equally well. The problem gives no way to tell which reactant is in excess, so the original amount of ethane **cannot be uniquely determined** from the data given.",
+    "distractor_notes": {
+      "A": "This is the value obtained assuming $\\ce{O2}$ is left over (ethane is the limiting reagent) — a valid but not the only consistent scenario, so picking it alone ignores the other equally valid case.",
+      "B": "This is the value obtained assuming ethane is left over ($\\ce{O2}$ is the limiting reagent) — also valid, but again only one of two possible consistent scenarios.",
+      "C": "0.40 mol does not satisfy the gas-volume balance under either limiting-reagent case; it likely comes from mis-assigning the mole ratio (e.g., treating all 1 mol as ethane's stoichiometric partner incorrectly) rather than solving the two cases.",
+      "D": "Correct — the problem doesn't specify which reactant is in excess. Both possible cases ($\\ce{C2H6}$ limiting giving 0.20 mol, or $\\ce{O2}$ limiting giving 0.30 mol) satisfy the given volume data, so the original moles of ethane cannot be uniquely determined."
+    },
+    "concept_ref": "Limiting reagent ambiguity in gas-volume stoichiometry with a condensing product",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-03",
+    "body_md": "**Step 1: Moles of NaOH delivered**\n\n$n_{\\ce{NaOH}} = (0.03270\\text{ L})(0.1834\\text{ M}) = 5.997\\times10^{-3}\\text{ mol} \\approx 6.00\\times10^{-3}\\text{ mol}$\n\n**Step 2: Decide the acid–base stoichiometry**\n\nA phenolphthalein endpoint just tells you when the *last* acidic proton has been neutralized — it doesn't tell you how many protons that was. We must test the candidate formulas.\n\n- $\\ce{CHO2}$ (M = 45.02 g/mol) and $\\ce{CH2O2}$ (M = 46.03 g/mol) look like monoprotic acids (one $\\ce{-COOH}$ group).\n- $\\ce{C2H2O4}$ (M = 90.03 g/mol, oxalic acid) and $\\ce{C2H4O4}$ (M = 92.05 g/mol) each have **two** $\\ce{-COOH}$ groups, so they are diprotic and consume 2 mol NaOH per mole of acid.\n\n**Step 3: Test diprotic assumption (matches known diacid oxalic acid, $\\ce{C2H2O4}$):**\n\n$n_{acid} = \\dfrac{n_{\\ce{NaOH}}}{2} = \\dfrac{6.00\\times10^{-3}}{2} = 3.00\\times10^{-3}\\text{ mol}$\n\n$M = \\dfrac{0.2700\\text{ g}}{3.00\\times10^{-3}\\text{ mol}} = 90.0\\text{ g/mol}$\n\nThis matches $\\ce{C2H2O4}$ (oxalic acid, M = 90.03 g/mol) almost exactly, confirming the compound is diprotic and the formula is $\\ce{C2H2O4}$.\n\n**Answer: C**",
+    "distractor_notes": {
+      "A": "A student who assumes the acid is monoprotic gets $M = 0.2700/0.005997 = 45.0$ g/mol, which coincidentally matches $\\ce{CHO2}$ (M = 45.02). This ignores that the real acid is diprotic, so the calculated molar mass is exactly half the true value.",
+      "B": "This also comes from assuming one acidic proton per molecule (monoprotic), giving $M \\approx 45$–$46$ g/mol and matching $\\ce{CH2O2}$ (formic acid, M = 46.03). Like choice A, this halves the true molar mass because it ignores the second ionizable proton.",
+      "C": "Correctly treating the acid as diprotic (two $\\ce{-COOH}$ groups per molecule) gives $n_{acid} = n_{\\ce{NaOH}}/2 = 3.00\\times10^{-3}$ mol and $M = 0.2700/3.00\\times10^{-3} = 90.0$ g/mol, matching $\\ce{C2H2O4}$ (oxalic acid, M = 90.03 g/mol).",
+      "D": "This choice would require a molar mass of about 92 g/mol. A student might reach this by making a small arithmetic slip (e.g., using 0.1834 M incorrectly or rounding moles of NaOH down) while still assuming diprotic behavior, overshooting the true molar mass of 90.0 g/mol."
+    },
+    "concept_ref": "Acid-base titration stoichiometry (mono- vs diprotic acids) and molar mass determination",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-04",
+    "body_md": "**Setting up the physics:** When $\\ce{CO2}$ gas is admitted above the NaOH solution, some of it simply dissolves physically (Henry's law) and some reacts with $\\ce{OH-}$. Because excess $\\ce{CO2}$ is present in both trials, all the NaOH ends up converted to $\\ce{NaHCO3}$ (1 mol $\\ce{CO2}$ reacts per mol NaOH):\n$$\\ce{NaOH + CO2 -> NaHCO3}$$\n\n**Step 1 – total CO2 absorbed in Trial 1.**\nHeadspace volume $V=10.00\\text{ L}$, $\\Delta P_1 = 1.33-1.00=0.33\\text{ atm}$.\n$$n_{abs,1}=\\dfrac{\\Delta P_1 V}{RT}=\\dfrac{0.33(10.0)}{(0.08206)(298)}=0.135\\text{ mol}$$\n\n**Step 2 – split into reacted vs. physically dissolved CO2.**\nSince $n_{NaOH}=0.100$ mol reacts 1:1, the reacted CO2 is 0.100 mol, so the amount that is merely *dissolved* (Henry's law) at the final pressure $P_f=1.00$ atm is\n$$n_{phys}=0.135-0.100=0.035\\text{ mol}$$\nThis physical‑solubility amount depends only on the final $\\ce{CO2}$ pressure and solution volume (both unchanged in Trial 2), so it is the **same** in the second experiment.\n\n**Step 3 – total CO2 absorbed in Trial 2.**\n$\\Delta P_2 = 1.50-1.00=0.50\\text{ atm}$:\n$$n_{abs,2}=\\dfrac{0.50(10.0)}{(0.08206)(298)}=0.2045\\text{ mol}$$\n\n**Step 4 – CO2 that actually reacted with NaOH.**\n$$n_{reacted,2}=0.2045-0.035=0.1695\\text{ mol}$$\n\nSince this reacts 1:1 with NaOH in 1.00 L,\n$$[\\ce{NaOH}]=\\dfrac{0.1695\\text{ mol}}{1.00\\text{ L}}\\approx0.169\\text{ M}$$\n\n**Answer: (C) 0.169 M**",
+    "distractor_notes": {
+      "A": "Scales NaOH concentration by the ratio of the *initial* CO2 pressures instead of the pressure drops: $0.100\\times(1.50/1.33)=0.112\\text{ M}$. This ignores that the target final pressure is the same in both trials and that a fixed amount of CO2 is only physically dissolved, not reacted.",
+      "B": "Assumes the amount of NaOH scales linearly with the pressure drop $\\Delta P$ (treating all absorbed CO2 as if it reacted stoichiometrically with NaOH in direct proportion to $\\Delta P_1$): $0.100\\times(0.50/0.33)=0.152\\text{ M}$. This neglects that part of the absorbed CO2 is simply dissolved gas (Henry's law) and does not scale the same way with NaOH amount.",
+      "C": "Correctly separates the CO2 absorbed into a constant Henry's-law (physical) contribution at the common final pressure (1.00 atm) and the portion that reacts 1:1 with NaOH to form $\\ce{NaHCO3}$, giving 0.169 M.",
+      "D": "Ignores the physical solubility of CO2 entirely and assumes *all* the CO2 absorbed (from the full pressure drop) reacted with NaOH 1:1: $n_{NaOH}=n_{abs,2}=0.2045\\text{ mol}\\Rightarrow0.204\\text{ M}$. This overcounts NaOH because part of the absorbed CO2 never reacted—it was just dissolved gas."
+    },
+    "concept_ref": "Gas absorption with Henry's law solubility plus acid–base reaction stoichiometry (CO2/NaOH)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-05",
+    "body_md": "**Step 1: Find moles of Cl⁻ from each source.**\n\n- $\\ce{LiCl}$: $0.100\\text{ L} \\times 0.100\\text{ M} = 0.0100\\text{ mol Cl}^-$ (1 Cl⁻ per formula unit)\n- $\\ce{BaCl2}$: $0.200\\text{ L} \\times 0.200\\text{ M} = 0.0400\\text{ mol BaCl}_2 \\Rightarrow 0.0800\\text{ mol Cl}^-$ (2 Cl⁻ each)\n- $\\ce{CeCl3}$: $0.300\\text{ L} \\times 0.300\\text{ M} = 0.0900\\text{ mol CeCl}_3 \\Rightarrow 0.2700\\text{ mol Cl}^-$ (3 Cl⁻ each)\n\n**Step 2: Total moles of Cl⁻:**\n$$0.0100 + 0.0800 + 0.2700 = 0.3600\\text{ mol Cl}^-$$\n\n**Step 3: Total volume:**\n$$0.100 + 0.200 + 0.300 = 0.600\\text{ L}$$\n\n**Step 4: Concentration:**\n$$[\\ce{Cl-}] = \\frac{0.3600\\text{ mol}}{0.600\\text{ L}} = 0.600\\text{ M}$$\n\nSo the answer is **(D) 0.600 M**.",
+    "distractor_notes": {
+      "A": "0.200 M comes from simply averaging the three given molarities (0.100 + 0.200 + 0.300)/3, ignoring that each salt releases a different number of Cl⁻ ions and that the volumes/moles must be combined properly.",
+      "B": "0.233 M results from adding the moles of each *salt* (not the moles of Cl⁻ they release) — 0.0100 + 0.0400 + 0.0900 = 0.140 mol — and dividing by the total volume of 0.600 L, forgetting to multiply by the number of chloride ions per formula unit (1, 2, and 3 respectively).",
+      "C": "0.467 M arises from a partial stoichiometry error, such as using only 2 Cl⁻ per $\\ce{CeCl3}$ instead of 3 (treating Ce as if it were divalent) or miscombining the mole totals before dividing by the correct 0.600 L total volume, giving too few total moles of Cl⁻.",
+      "D": "Correct: each salt's moles are multiplied by its chloride stoichiometry (1, 2, 3), summed to give 0.360 mol Cl⁻, then divided by the total solution volume of 0.600 L to give 0.600 M."
+    },
+    "concept_ref": "Dilution and mixing of electrolyte solutions — stoichiometric ion concentration",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-07",
+    "body_md": "Two diagnostic tests are given, and each rules out a specific gas:\n\n- **Glowing splint extinguished**: this rules out $\\ce{O2}$, since oxygen supports combustion and would make a glowing splint burst into flame, not go out.\n- **Limewater stays clear**: bubbling the gas through limewater $\\ce{Ca(OH)2}$ produces no cloudy precipitate of $\\ce{CaCO3}$, which rules out $\\ce{CO2}$.\n\nSince neither test gives a positive result for $\\ce{O2}$ or $\\ce{CO2}$, the mixture must contain **neither** gas. (The extinguished splint just tells us the gas isn't a strong supporter of combustion — many gases such as $\\ce{N2}$ or noble gases would give this same result without being $\\ce{CO2}$ or $\\ce{O2}$.)\n\nTherefore, the correct answer is **(D)**.",
+    "distractor_notes": {
+      "A": "Incorrectly assumes the extinguished splint result (which only rules out $\\ce{O2}$) must instead confirm $\\ce{CO2}$ is present, ignoring that the limewater test was negative and would have turned cloudy if $\\ce{CO2}$ were truly there.",
+      "B": "Misreads the splint test as evidence for oxygen (perhaps confusing 'extinguishes' with 'reignites'), when in fact oxygen would cause a glowing splint to flare up, not go out.",
+      "C": "Combines both misinterpretations, assuming the splint result indicates $\\ce{CO2}$ and mistakenly believes oxygen must also be present without checking that the limewater test contradicts the presence of $\\ce{CO2}$ and the splint result contradicts $\\ce{O2}$.",
+      "D": "Correctly recognizes that an extinguished splint rules out $\\ce{O2}$ and clear limewater rules out $\\ce{CO2}$, so the mixture contains neither gas."
+    },
+    "concept_ref": "Gas identification tests: glowing splint (O2) and limewater (CO2)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-08",
+    "body_md": "The **Thiele tube** (B) is the classic apparatus for determining the melting point of a solid organic compound.\n\n- Its side-arm loop creates a convection current when the bottom is heated, circulating the oil bath evenly around the capillary tube holding the sample.\n- This gives a slow, uniform temperature rise so the melting point can be observed precisely with a thermometer inserted alongside the sample.\n\nThe other items are used for entirely different purposes:\n- (A) is a coil/condenser used to cool vapors during reflux or distillation, not for melting point work.\n- (C) is a graduated cylinder, used only for approximate volume measurement of liquids.\n- (D) is a burette, used for precise delivery of liquid volumes in titrations.\n\nNone of these can provide the controlled, even heating needed to observe a melting point transition.",
+    "distractor_notes": {
+      "A": "Mistakes the coiled condenser (used to cool vapors in reflux/distillation) for the melting-point apparatus; it has no way to hold or heat a solid sample.",
+      "B": "Correct: the Thiele tube's convection loop allows even, controlled heating of an oil bath, which is essential for accurately observing a solid's melting point.",
+      "C": "Confuses volume measurement (graduated cylinder) with melting point determination; a cylinder cannot heat or hold a capillary sample.",
+      "D": "Confuses a burette, used for titrations to deliver precise liquid volumes, with an apparatus for measuring melting temperature."
+    },
+    "concept_ref": "Laboratory glassware identification: Thiele tube for melting point determination",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-09",
+    "body_md": "**Ozone ($\\ce{O3}$)** condenses to a pale **blue liquid** at about $-112\\ ^\\circ\\text{C}$. This distinctive color arises from ozone's absorption in the visible spectrum (it absorbs strongly in the red region, transmitting blue light), which is also why liquid and even the gas at high concentration appear bluish.\n\nBy comparison:\n- $\\ce{CO2}$ condenses (sublimes) to a colorless solid/liquid.\n- $\\ce{H2}$ liquefies to a colorless liquid.\n- $\\ce{NO2}$ condenses to a liquid that is brownish/yellow-orange, not blue, and it's actually in equilibrium with colorless $\\ce{N2O4}$.\n\nSo the gas that condenses to a blue liquid is ozone, **(D)**.",
+    "distractor_notes": {
+      "A": "Incorrect: liquid/solid $\\ce{CO2}$ (dry ice) is colorless, not blue; student may be confusing it with another cold, colorless substance.",
+      "B": "Incorrect: liquid hydrogen is colorless; a student might assume all cryogenic liquids take on a blue tint (like liquid air scattering effects), but pure $\\ce{H2}$ is not blue.",
+      "C": "Incorrect: liquid $\\ce{NO2}$ (in equilibrium with $\\ce{N2O4}$) is yellow-brown/orange, not blue; students often confuse its brown gas-phase color with a blue liquid property.",
+      "D": "Correct: ozone condenses to a pale blue liquid due to its visible-light absorption pattern (absorbing red, transmitting blue)."
+    },
+    "concept_ref": "Physical properties and color of ozone vs. other common gases",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-10",
+    "body_md": "Miscibility in all proportions requires similar intermolecular forces (\"like dissolves like\") and comparable polarity.\n\n- **B:** $\\ce{H2O}$ and $\\ce{(CH3)2CO}$ (acetone) are both polar, and acetone's carbonyl oxygen can hydrogen-bond with water's O–H. This strong, favorable interaction allows complete miscibility in all proportions.\n\n- **A:** $\\ce{CH2Cl2}$ is only weakly polar (dipole moment much smaller relative to size) and cannot hydrogen-bond with water. It is only partially soluble in water, not miscible in all proportions — a student might assume any polar-looking molecule mixes freely with water, ignoring the lack of H-bonding capability.\n\n- **C:** Cyclohexane ($\\ce{C6H12}$) is nonpolar while $\\ce{Hg}$ is a metallic liquid; there's no compatible bonding (dispersion forces vs. metallic bonding), so they are essentially immiscible. A student might wrongly think any two liquids can mix if both are \"nonpolar-like.\"\n\n- **D:** Cyclohexane is nonpolar while methanol is polar and hydrogen-bonds strongly with itself; the mismatch in polarity means they are only partially miscible, not miscible in all proportions. A student may mistakenly think methanol's small size and single OH group make it mix freely with nonpolar solvents.",
+    "distractor_notes": {
+      "A": "Assumes $\\ce{CH2Cl2}$ is polar enough to fully hydrogen-bond with water, but it lacks O–H/N–H groups and only weakly interacts, giving limited (not complete) solubility.",
+      "B": "Correct: both are polar molecules capable of hydrogen bonding with each other, giving complete miscibility.",
+      "C": "Assumes two liquids just need to both be 'nonpolar' to mix, ignoring that metallic bonding in $\\ce{Hg}$ is incompatible with the dispersion forces in cyclohexane.",
+      "D": "Overestimates methanol's compatibility with a nonpolar solvent, forgetting that its strong self-hydrogen-bonding network limits mixing with nonpolar cyclohexane."
+    },
+    "concept_ref": "Miscibility and intermolecular forces (like dissolves like)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-11",
+    "body_md": "**Goal:** make 0.5 L of 1 M $\\ce{H2SO4}$, i.e. 0.5 mol of acid dissolved in a final volume of 500 mL.\n\nConcentrated $\\ce{H2SO4}$ dissolving in water is **strongly exothermic**. The safety rule is \"add acid to water,\" never the reverse, because if water is added to concentrated acid, the heat released can boil the water violently and splash corrosive acid. Also, mixing should be started in a larger, robust vessel (not a narrow-necked volumetric flask) so the heat can dissipate and the operator can add the acid slowly with stirring/cooling.\n\n**(B)** follows this rule exactly: 0.5 mol of concentrated acid is added slowly to a large volume of water (about 300 mL) in a sturdy flask, then diluted to the final 500 mL mark. This is the standard, safe laboratory procedure for preparing a dilute strong acid solution of known molarity.\n\nSo **B** is correct.",
+    "distractor_notes": {
+      "A": "This reverses the safety order — concentrated acid is placed in the flask first and water is added afterward. Adding water to concentrated $\\ce{H2SO4}$ (or filling a narrow volumetric flask with acid before dilution) causes violent local boiling and spattering; the amount of acid (0.5 mol) is right, but the procedure is unsafe.",
+      "B": "Correct: acid is added slowly to a large volume of water in a robust flask, then diluted to the calibrated 500 mL volume, giving 0.5 mol acid in 0.5 L = 1 M safely.",
+      "C": "A student assumes bubbling $\\ce{SO3}$ gas into water is equivalent and calculates 11.2 L at STP as 0.5 mol (correct mole count), but ignores that $\\ce{SO3}$ is highly reactive/corrosive and would violently fume with water, plus the water is already at 500 mL before reaction, so the final volume would exceed 500 mL — the resulting concentration would not be exactly 1 M, and the method is impractical/unsafe.",
+      "D": "A student sets up the double-displacement stoichiometry correctly ($\\ce{Ag2SO4 + 2HCl -> 2AgCl + H2SO4}$, needing 1.0 mol HCl for 0.5 mol Ag2SO4 to give 0.5 mol H2SO4) but overlooks that this method introduces silver and chloride contamination, requires filtering off precipitate, and is far less practical/pure than simply diluting concentrated sulfuric acid."
+    },
+    "concept_ref": "Safe dilution of concentrated acids (add acid to water)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-12",
+    "body_md": "**Reaction chemistry.** Any $\\ce{Mg3N2}$ in the ash reacts with water to release ammonia:\n\n$$\\ce{Mg3N2 + 6H2O -> 3Mg(OH)2 + 2NH3}$$\n\nThe $\\ce{NH3}$ is distilled into a *known excess* of standard $\\ce{HCl}$, where it is trapped as $\\ce{NH4Cl}$. The unreacted (excess) $\\ce{HCl}$ is then back‑titrated with standardized $\\ce{NaOH}$ (methyl orange endpoint, since the solution contains the weak acid $\\ce{NH4+}$ and we only want to titrate the strong acid).\n\n**Key relationship:**\n$$n_{\\ce{NH3}} = n_{\\ce{HCl, initial}} - n_{\\ce{HCl, excess}} = n_{\\ce{HCl, initial}} - n_{\\ce{NaOH}}$$\n\nThe fraction of $\\ce{Mg3N2}$ formed is calculated from $n_{\\ce{NH3}}$, so **anything that makes the calculated $n_{\\ce{HCl,initial}}$ too large (while the NaOH titration itself is measured correctly) makes $n_{\\ce{NH3}}$, and hence the fraction of $\\ce{Mg3N2}$, come out too high.**\n\n**Why (D) causes this:** A volumetric pipet delivers a fixed, calibrated *liquid* volume. If a large air bubble is present when the $\\ce{HCl}$ is drawn up, the pipet actually dispenses **less** true $\\ce{HCl}$ solution than its nominal volume, but the chemist still calculates $n_{\\ce{HCl,initial}}$ using the pipet's rated (nominal) volume. This overstates the true initial moles of $\\ce{HCl}$ used. Since the excess acid is titrated correctly with $\\ce{NaOH}$, the difference $n_{\\ce{HCl,initial}} - n_{\\ce{NaOH}}$ (assigned to $\\ce{NH3}$) is artificially inflated, making the computed fraction of $\\ce{Mg3N2}$ **too high** — matching the required error.",
+    "distractor_notes": {
+      "A": "Collecting the distillate in a separate flask before adding it to the $\\ce{HCl}$ does not change the amount of $\\ce{NH3}$ that ultimately reacts with the acid (assuming quantitative transfer), so it introduces no systematic error in $n_{\\ce{HCl,initial}}$ or $n_{\\ce{NaOH}}$; the calculated fraction is unaffected.",
+      "B": "Phenolphthalein changes color at a higher pH (~8–10) than methyl orange, so it would also begin neutralizing the weak acid $\\ce{NH4+}$, not just the excess strong $\\ce{HCl}$. This causes **more** $\\ce{NaOH}$ to be used, making the calculated excess $\\ce{HCl}$ too large and the calculated $n_{\\ce{NH3}}$ (and fraction of $\\ce{Mg3N2}$) **too low**, not too high.",
+      "C": "Hydrated KHP has extra mass from absorbed water but the student still divides by the molar mass of pure KHP, overestimating moles of KHP and thus overestimating the true molarity of the standardized $\\ce{NaOH}$. Using this inflated $\\ce{NaOH}$ concentration in the back-titration overstates the excess $\\ce{HCl}$, which makes the calculated $n_{\\ce{NH3}}$ (and hence the $\\ce{Mg3N2}$ fraction) **too low**, the opposite of what's asked.",
+      "D": "A bubble in the pipet means the actual delivered volume of $\\ce{HCl}$ is less than the pipet's rated volume, but the calculation still assumes the full nominal volume was delivered. This overstates $n_{\\ce{HCl,initial}}$, which overstates $n_{\\ce{NH3}} = n_{\\ce{HCl,initial}} - n_{\\ce{NaOH}}$, making the calculated fraction of $\\ce{Mg3N2}$ **too high** — the correct answer."
+    },
+    "concept_ref": "Back-titration stoichiometry and volumetric measurement error",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-13",
+    "body_md": "Boiling point depends on the total strength of intermolecular attractions holding the liquid together, which for these molecules is dominated by hydrogen bonding.\n\n- Each $\\ce{HF}$ molecule has only **one** H available to donate and three lone pairs on F, but geometrically it can only fully engage in about **2 hydrogen bonds per molecule** on average (limited by having just one acidic H).\n- Each $\\ce{H2O}$ molecule has **two** H atoms to donate and two lone pairs to accept, allowing it to form up to **4 hydrogen bonds per molecule** in an extended, tetrahedral hydrogen-bonded network.\n- Even though the individual $\\ce{O-H\\cdots O}$ hydrogen bond is actually *weaker* than the individual $\\ce{F-H\\cdots F}$ hydrogen bond (HF has a larger dipole and higher electronegativity difference), water's ability to form roughly twice as many hydrogen bonds per molecule results in a **greater total cohesive energy**, raising its boiling point above that of HF.\n\nSo the correct explanation is the number of hydrogen bonds each molecule can form, not the strength of a single bond or general polarity/polarizability arguments.",
+    "distractor_notes": {
+      "A": "Incorrect: this compares molecular dipole moments, but $\\ce{HF}$ actually has a larger dipole moment than $\\ce{H2O}$, so this reasoning even gets the direction wrong and dipole moment alone doesn't explain hydrogen-bonded network strength.",
+      "B": "Incorrect: polarizability (related to London dispersion forces) is not the dominant factor for these small, strongly hydrogen-bonding molecules; a student choosing this confuses dispersion-force reasoning (useful for nonpolar species) with hydrogen-bonding behavior.",
+      "C": "Incorrect: this reverses the actual trend—individual $\\ce{F-H\\cdots F}$ hydrogen bonds are stronger than $\\ce{O-H\\cdots O}$ ones because F is more electronegative, so a student assuming water's individual H-bonds are stronger has the comparison backward.",
+      "D": "Correct: water can form up to 4 hydrogen bonds per molecule (2 donor, 2 acceptor) versus about 2 for HF, giving a more extensively bonded liquid network and higher net cohesive energy despite HF's individually stronger single hydrogen bond."
+    },
+    "concept_ref": "Hydrogen bonding network extent vs. individual bond strength",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-14",
+    "body_md": "When a pure liquid or solution is cooled and shows **supercooling**, the correct freezing point is *not* the lowest temperature reached during the dip, nor is it just any point on the flat plateau. It is obtained by:\n\n- Plotting temperature vs. time.\n- Drawing the extrapolated straight line for the steady cooling of the liquid (before freezing starts) and the extrapolated flat/plateau line where solid and liquid coexist.\n- The freezing point is the temperature at the **intersection of these two extrapolated lines**, which corrects for the supercooling dip and gives the true equilibrium freezing point.\n\nFor this cooling curve, that extrapolated intersection occurs at **4.98 °C**, which is the value that should be reported as the freezing point of the camphor/benzene solution.\n\nThe supercooling minimum itself (a lower reading) and simple averages of plateau points are *not* correct because they don't represent true thermodynamic equilibrium — only the back-extrapolated intersection does.",
+    "distractor_notes": {
+      "A": "This corresponds to reading the lowest point of the supercooling dip, which is a kinetic artifact (the liquid cooled below its true freezing point before crystallization began) rather than the true equilibrium freezing point.",
+      "B": "This value comes from averaging the supercooled minimum with a plateau temperature, an invalid ad-hoc correction that doesn't reflect the proper extrapolation method.",
+      "C": "This is close to reading a point partway along the plateau where the temperature has already started to level off but before full extrapolation back to the intersection point — it slightly underestimates the true freezing point.",
+      "D": "Correct: this is the temperature at which the extrapolated cooling-curve line (steady liquid cooling) intersects the extrapolated flat plateau line, correcting for supercooling and giving the true freezing point."
+    },
+    "concept_ref": "Cooling curve extrapolation and supercooling correction",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-15",
+    "body_md": "**Step 1 — Would all the liquid fit as vapor at 0 °C?**\n\nIf all 0.100 mol vaporized and stayed at 0 °C, the pressure would be:\n\n$P = \\dfrac{nRT}{V} = \\dfrac{(0.100)(0.0821)(273)}{2.25} \\approx 1.00\\ \\text{atm}$\n\nThis is essentially equal to the vapor pressure of butane at 0 °C, so the system sits right at the saturation point — a knife-edge case.\n\n**Step 2 — Energy balance in an insulated container**\n\nVaporization is endothermic: converting liquid butane to gas requires energy. Since the container is well-insulated, no heat can flow in from outside to supply this energy. The energy needed to vaporize any butane must come from the internal energy of the system itself, so the **temperature of the remaining liquid/vapor mixture must drop**.\n\n**Step 3 — Consequence of cooling**\n\nAs temperature drops below 0 °C, the vapor pressure of butane also drops (vapor pressure decreases with decreasing $T$). A lower vapor pressure means less gas is needed to saturate the container, so **not all of the liquid can evaporate** — some liquid butane remains at equilibrium.\n\n**Conclusion**\n\n- Statement I is correct: the temperature ends up lower than 0 °C, because vaporization draws energy from the system with no outside heat source.\n- Statement II is incorrect: because the temperature (and hence vapor pressure) drops, only part of the butane vaporizes; some liquid remains.\n\nThe correct answer is **(A) I only**.",
+    "distractor_notes": {
+      "A": "Correct: the insulated container cannot supply the energy needed for vaporization, so temperature (and vapor pressure) fall below 0 °C, leaving some liquid butane behind — I is true, II is false.",
+      "B": "This choice assumes the temperature stays fixed at 0 °C and that because the initial calculated vapor pressure (~1 atm) matches equilibrium vapor pressure, all liquid must vaporize — it ignores that vaporization cools the system in an insulated container, so full vaporization can't actually occur.",
+      "C": "This assumes both that cooling occurs (correct) and that all the liquid still fully vaporizes despite the temperature drop — but a lower temperature means a lower vapor pressure, so less vapor (not all) can exist in equilibrium with the remaining liquid.",
+      "D": "This assumes the insulated container has no effect on temperature (treating the process as isothermal) and that the calculated ~1 atm pressure shows equilibrium is reached without any phase or temperature change — it overlooks that evaporation is endothermic and must lower the system's temperature since no heat enters from outside."
+    },
+    "concept_ref": "Phase equilibrium and energy balance in an insulated (adiabatic) system: vaporization cooling",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-16",
+    "body_md": "At the triple point (0.73 bar, 116 K), solid, liquid, and gas of $\\ce{Kr}$ all coexist. Moving away from the triple point at **constant pressure** (0.73 bar) and **lowering the temperature** to 90 K moves the system straight down the phase diagram at fixed $P$.\n\n- Since 90 K < 116 K, the sample is cooler than the triple point at the same pressure.\n- On a typical phase diagram, below the triple-point temperature at the same pressure, only the **solid phase** is stable (the solid–gas coexistence line lies below the triple point, but 90 K corresponds to a point *inside* the solid region, not exactly on that line).\n- Therefore at 0.73 bar and 90 K, $\\ce{Kr}$ exists entirely as a solid.\n\nNo coexistence occurs unless the point lies exactly on a phase boundary line, and 90 K at 0.73 bar is not stated to be on the sublimation curve—it's simply cooler, placing it in the single-phase solid region.",
+    "distractor_notes": {
+      "A": "Incorrectly assumes that lower temperature favors the gas phase, or confuses the direction of cooling with vaporization; in reality cooling favors condensed phases, not gas.",
+      "B": "Correct: at the same pressure as the triple point but a lower temperature, the system lies in the solid region of the phase diagram, so only solid $\\ce{Kr}$ is stable.",
+      "C": "Mistakenly assumes any point below the triple point sits exactly on the solid–gas coexistence curve, forgetting that coexistence only occurs on the boundary line itself, not throughout the entire region below the triple point.",
+      "D": "Confuses the solid–liquid boundary (which lies at higher pressure than the triple point, not lower temperature at constant pressure) with the effect of cooling at constant pressure; solid–liquid coexistence requires being on that specific line, not simply a lower temperature at the triple-point pressure."
+    },
+    "concept_ref": "Phase diagrams and the triple point",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-17",
+    "body_md": "Boiling point trends depend on **surface area/branching** and **intermolecular forces**.\n\n**Statement I:** Butane and 2-methylpropane (isobutane) are both nonpolar alkanes with only London dispersion forces. Butane is a straight chain, giving it more surface area for contact between molecules, so it has stronger dispersion forces and a **higher** boiling point than the branched isomer 2-methylpropane. So Statement I is **false**.\n\n**Statement II:** 1-Butanol and 2-methyl-1-propanol (isobutanol) are both alcohols capable of hydrogen bonding, with the same molecular formula ($\\ce{C4H10O}$). Since 1-butanol is unbranched (straight chain), it has greater surface area and stronger van der Waals interactions than the branched 2-methyl-1-propanol, in addition to similar H-bonding capability. Thus 1-butanol has the **higher** boiling point, making Statement II **false** as well.\n\nIn both cases, branching lowers the boiling point relative to the straight-chain isomer, so neither statement is correct.\n\n**Answer: (D) Neither I nor II**",
+    "distractor_notes": {
+      "A": "Incorrectly assumes branching increases boiling point, thinking branched isobutane packs less efficiently and thus imagines stronger interactions — actually branching decreases surface contact and lowers boiling point.",
+      "B": "Incorrectly assumes branching raises boiling point for the alcohols by analogy to boiling point of tertiary vs primary alcohols in unrelated contexts, ignoring that decreased surface area from branching lowers dispersion forces even with H-bonding present.",
+      "C": "Combines both errors above, wrongly concluding that branching increases boiling point in both the alkane and alcohol pairs, when in fact branching decreases boiling point in each case due to reduced surface area for dispersion interactions.",
+      "D": "Correctly recognizes that in both pairs, the straight-chain isomer has greater surface area and thus stronger London dispersion forces, giving it the higher boiling point, so both statements as given (branched > straight-chain) are false."
+    },
+    "concept_ref": "Effect of branching on boiling point (surface area & dispersion forces)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-18",
+    "body_md": "**Step 1: Find the edge length $a$ from density.**\n\nFor FCC, there are 4 atoms per unit cell, so:\n$$\\rho = \\frac{4M}{N_A a^3}$$\n\nSolve for $a^3$:\n$$a^3 = \\frac{4M}{N_A \\rho} = \\frac{4(196.97\\text{ g/mol})}{(6.022\\times10^{23}\\text{ mol}^{-1})(19.31\\text{ g/cm}^3)}$$\n\n$$a^3 = \\frac{787.9}{1.163\\times10^{25}} = 6.78\\times10^{-23}\\text{ cm}^3$$\n\n$$a = (6.78\\times10^{-23})^{1/3} = 4.077\\times10^{-8}\\text{ cm} = 407.7\\text{ pm}$$\n\n**Step 2: Relate $a$ to atomic radius $r$ for FCC.**\n\nIn FCC, atoms touch along the face diagonal, so:\n$$4r = a\\sqrt{2}$$\n\n$$r = \\frac{a\\sqrt{2}}{4} = \\frac{407.7 \\times 1.4142}{4} = \\frac{576.5}{4} = 144.1\\text{ pm}$$\n\nThis matches choice **(A)**.",
+    "distractor_notes": {
+      "A": "Correct: uses the FCC geometric relation $4r = a\\sqrt{2}$ (atoms touch along the face diagonal) with the properly calculated edge length $a = 407.7$ pm, giving $r = 144.1$ pm.",
+      "B": "Uses the BCC touching relation $4r = a\\sqrt{3}$ instead of the correct FCC relation $4r = a\\sqrt{2}$, giving $407.7\\times1.732/4 = 176.5$ pm — the wrong packing geometry for this structure.",
+      "C": "Assumes a simple cubic arrangement where atoms touch along the cell edge ($r = a/2$), ignoring that gold is FCC and atoms actually touch along the face diagonal; $407.7/2 = 203.8$ pm.",
+      "D": "Correctly finds the face diagonal length $a\\sqrt{2} = 576.5$ pm but forgets that this diagonal equals $4r$ (four atomic radii), mistakenly dividing by 2 instead of 4 to get $288.2$ pm."
+    },
+    "concept_ref": "FCC unit cell density-radius relationship",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-19",
+    "body_md": "**Statement I:** $\\Delta G^\\circ = -150.$ J/mol for $\\ce{R -> P}$ is a fairly small negative value at 298 K. Using $\\Delta G^\\circ = -RT\\ln K$:\n\n$\\ln K = \\dfrac{150}{(8.314)(298)} \\approx 0.0605$, so $K \\approx 1.06$.\n\nThis $K$ is close to 1, meaning at equilibrium a significant amount of $\\ce{R}$ remains — it is **not** fully converted (mass of $\\ce{R}$ is not 0.0 g). So Statement I is **false**.\n\n**Statement II:** Compare the two isomerization steps from $\\ce{P}$:\n\n- $\\ce{P -> P1}$: $\\Delta G^\\circ = +50.$ J/mol (unfavorable, small $K_1 < 1$)\n- $\\ce{P -> P2}$: $\\Delta G^\\circ = -50.$ J/mol (favorable, small $K_2 > 1$)\n\nSince $K_2 > K_1$ (in fact $K_2 = 1/K_1$ roughly, since the magnitudes are equal and opposite), at equilibrium $[\\ce{P2}] > [\\ce{P1}]$. Because both are formed from the same $\\ce{P}$ pool and have similar molar masses (isomers, same molecular formula), the mass of $\\ce{P1}$ is less than the mass of $\\ce{P2}$. So Statement II is **true**.\n\nTherefore, only Statement II is correct — answer **(B)**.",
+    "distractor_notes": {
+      "A": "Assumes that any negative $\\Delta G^\\circ$ drives a reaction to completion, ignoring that $K \\approx 1$ for a small $\\Delta G^\\circ$ means significant reactant remains at equilibrium; incorrectly concludes R is fully consumed while missing that II is actually true.",
+      "B": "Correctly recognizes that $\\Delta G^\\circ = -150$ J/mol gives $K$ close to 1 (not extreme), so R is not completely consumed (I false), and correctly compares the +50 vs -50 J/mol steps to show P2 is favored over P1, making its mass greater (II true).",
+      "C": "Mistakenly treats both branches as going to completion because R is assumed fully consumed, and misjudges the sign convention for the isomerization step, concluding both statements are true.",
+      "D": "Incorrectly assumes the small magnitude of $\\Delta G^\\circ$ for R→P still means R is completely consumed (misapplying reaction extent), and also misreads the signs of the +50/-50 J/mol values, concluding P1 mass exceeds P2 mass, so rejects both statements."
+    },
+    "concept_ref": "Relationship between ΔG° and equilibrium constant K",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-20",
+    "body_md": "**Step 1: Find limiting reagent (moles of each reactant).**\n- $n_{HCOOH}=0.0600\\text{ L}\\times0.60\\text{ M}=0.036\\text{ mol}$\n- $n_{CH_3NH_2}=0.0400\\text{ L}\\times0.80\\text{ M}=0.032\\text{ mol}$\n\nMethylamine is limiting (0.032 mol), so the reaction can only produce 0.032 mol of product — this is the amount to use for $\\Delta H_{rxn}$.\n\n**Step 2: Heat released by the reaction (absorbed by solution).**\nTotal volume = 60.0 + 40.0 = 100.0 mL → mass ≈ 100.0 g (density = 1.00 g/mL).\n\n$q_{soln}=mc\\Delta T=(100.0\\text{ g})(4.184\\text{ J g}^{-1}\\text{K}^{-1})(27.9-22.0)\\text{K}$\n\n$q_{soln}=100.0\\times4.184\\times5.9=2.47\\times10^3\\text{ J}=2.47\\text{ kJ}$\n\nSince the temperature rose, the reaction released heat, so $q_{rxn}=-2.47\\text{ kJ}$.\n\n**Step 3: Convert to per-mole basis using the limiting reagent.**\n\n$\\Delta H^\\circ_{rxn}=\\dfrac{-2.47\\text{ kJ}}{0.032\\text{ mol}}=-77\\text{ kJ mol}^{-1}$\n\nThis matches choice **(D)**.",
+    "distractor_notes": {
+      "A": "This value comes from using only the 40.0 mL of methylamine solution as the mass in $q=mc\\Delta T$ (instead of the total 100.0 g of combined solution), giving $q\\approx0.987$ kJ, then dividing by the correct limiting moles (0.032 mol): $0.987/0.032\\approx31$ kJ/mol — the error is neglecting to add both solution volumes for the mass.",
+      "B": "This results from using only the 60.0 mL of formic acid solution as the mass (60.0 g) in $q=mc\\Delta T$, giving $q\\approx1.48$ kJ, and then dividing by the non-limiting reagent's moles (0.036 mol, formic acid) instead of the limiting methylamine: $1.48/0.036\\approx41$ kJ/mol. Two errors compound here: wrong mass and wrong mole reference.",
+      "C": "This uses the correct total mass (100.0 g) and correct $q=2.47$ kJ, but divides by the moles of the reactant present in excess (formic acid, 0.036 mol) instead of the limiting methylamine (0.032 mol): $2.47/0.036\\approx69$ kJ/mol. The mistake is identifying the wrong limiting reagent.",
+      "D": "Correct: total mass of solution (100.0 g) is used with $q=mc\\Delta T$ to get $q=2.47$ kJ, and this is divided by the moles of the limiting reagent (methylamine, 0.032 mol) to give $\\Delta H^\\circ_{rxn}=-77$ kJ/mol, consistent with the exothermic temperature rise."
+    },
+    "concept_ref": "Calorimetry and limiting reagent determination for solution reaction enthalpy",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-23",
+    "body_md": "For gases, molar entropy $S^\\circ$ increases with molecular complexity and molar mass, since heavier/more complex molecules have more closely spaced translational, rotational, and vibrational energy levels, giving more ways to distribute energy (higher **microstate count**).\n\n- Monatomic gases (He, Xe) have only translational modes, no rotation or vibration.\n- Diatomic gases (H2, Cl2) additionally have rotational and vibrational modes, adding extra entropy.\n\nComparing the two diatomics: $\\ce{Cl2}$ is much heavier ($\\sim$71 g/mol) than $\\ce{H2}$ ($\\sim$2 g/mol), giving it more closely spaced energy levels and a larger moment of inertia (more rotational states populated at 298 K).\n\nActual standard values confirm this ranking:\n- $S^\\circ(\\ce{H2}) \\approx 131$ J/(mol·K)\n- $S^\\circ(\\ce{He}) \\approx 126$ J/(mol·K)\n- $S^\\circ(\\ce{Xe}) \\approx 170$ J/(mol·K)\n- $S^\\circ(\\ce{Cl2}) \\approx 223$ J/(mol·K)\n\nSo $\\ce{Cl2(g)}$ has the greatest molar entropy, combining both a heavy mass and rotational/vibrational degrees of freedom.",
+    "distractor_notes": {
+      "A": "Assumes diatomic molecules always beat monatomic ones regardless of mass, ignoring that $\\ce{H2}$ is very light and thus has widely spaced, less accessible rotational/translational energy levels.",
+      "B": "Confuses 'noble gas' simplicity with low entropy in general, but doesn't account for its light mass; still lower than $\\ce{Cl2}$'s combined mass and rotational/vibrational contributions.",
+      "C": "Correctly recognizes that $\\ce{Cl2}$ combines a large molar mass with rotational and vibrational degrees of freedom, giving it the highest molar entropy among these gases.",
+      "D": "Overweights molar mass alone (Xe is heaviest atom) while forgetting that $\\ce{Cl2}$, despite lower mass than Xe, gains additional entropy from rotational and vibrational modes absent in monatomic Xe."
+    },
+    "concept_ref": "Trends in standard molar entropy of gases (mass and molecular complexity)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-24",
+    "body_md": "For a reversible adiabatic process, $q_{rev} = 0$, so by the definition of entropy change:\n\n$$\\Delta S = \\int \\frac{dq_{rev}}{T} = 0$$\n\nThis is why reversible adiabatic processes are also called **isentropic** processes.\n\nStatement I ($\\Delta H = 0$) is **not** generally true. Since $q=0$ (adiabatic) but work can still be done (e.g., $\\Delta U = w \\neq 0$ for expansion/compression), $\\Delta H = \\Delta U + \\Delta(PV)$ is generally nonzero. For example, adiabatic compression of a gas raises its temperature, increasing $H$.\n\nSo only statement II is correct — answer **(B)**.",
+    "distractor_notes": {
+      "A": "Incorrectly assumes that because $q=0$, enthalpy must be unchanged, confusing $q$ (heat) with $\\Delta H$; ignores that adiabatic work changes internal energy and temperature, so $\\Delta H \\neq 0$ in general.",
+      "B": "Correct: reversible adiabatic means $q_{rev}=0$, so $\\Delta S = \\int dq_{rev}/T = 0$, while $\\Delta H$ generally changes due to temperature/volume changes from work done.",
+      "C": "Mistakenly believes both energy-like state functions must vanish whenever no heat is exchanged, not distinguishing that $\\Delta S=0$ follows from the *reversible* heat integral while $\\Delta H$ depends on work-driven temperature change, which is nonzero.",
+      "D": "Assumes adiabatic implies no change in any thermodynamic quantity, failing to recognize that $\\Delta S=0$ is a direct consequence of reversibility (isentropic process definition)."
+    },
+    "concept_ref": "Reversible adiabatic (isentropic) process",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-25",
+    "body_md": "For a reaction with Rate $=k[A]^n$, the half-life depends on order $n$ as follows:\n\n- **Zero order** ($n=0$): $t_{1/2}=\\dfrac{[A]_0}{2k}$ — depends on $[A]_0$.\n- **First order** ($n=1$): $t_{1/2}=\\dfrac{\\ln 2}{k}$ — independent of $[A]_0$.\n- **Second order** ($n=2$): $t_{1/2}=\\dfrac{1}{k[A]_0}$ — depends on $[A]_0$.\n\nSince the problem states the half-life is independent of $[A]$, this matches the first-order case exactly, where the constant $\\ln 2/k$ contains no concentration term.\n\nThus $n=1$.",
+    "distractor_notes": {
+      "A": "Zero order actually gives $t_{1/2}=[A]_0/2k$, which *depends* on initial concentration — the opposite of what's needed, so this is incorrect.",
+      "B": "Correct: first-order kinetics gives $t_{1/2}=\\ln2/k$, a constant independent of $[A]_0$, matching the given condition.",
+      "C": "Second order gives $t_{1/2}=1/(k[A]_0)$, which depends on concentration; choosing this confuses second-order rate law dependence with the half-life independence condition.",
+      "D": "Incorrect — the half-life expressions for each order can be derived analytically, so the order is determinable from the given condition; this choice reflects not recalling the standard half-life formulas."
+    },
+    "concept_ref": "Half-life dependence on reaction order",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-26",
+    "body_md": "Since the reaction is first-order in $\\ce{H+}$, $\\text{rate} = k[\\ce{H+}]$, so the rate is directly proportional to $[\\ce{H+}]$.\n\n- At pH 5.0: $[\\ce{H+}] = 10^{-5.0}\\ \\text{M}$\n- At pH 5.5: $[\\ce{H+}] = 10^{-5.5}\\ \\text{M}$\n\nThe ratio of concentrations (and thus rates) is:\n$$\\frac{[\\ce{H+}]_{5.5}}{[\\ce{H+}]_{5.0}} = 10^{-5.5-(-5.0)} = 10^{-0.5} = 0.316$$\n\nSo the new rate is:\n$$\\text{rate}_{5.5} = (5.0\\times10^{-6}\\ \\text{M s}^{-1})(0.316) \\approx 1.6\\times10^{-6}\\ \\text{M s}^{-1}$$\n\nThis makes sense: raising the pH lowers $[\\ce{H+}]$, which slows the acid-catalyzed reaction.",
+    "distractor_notes": {
+      "A": "Correct: recognizes rate $\\propto [\\ce{H+}]$ and correctly computes $10^{-0.5}\\approx0.316$ scaling factor, giving $1.6\\times10^{-6}$ M s$^{-1}$.",
+      "B": "Incorrectly assumes a linear (additive) relationship between pH and rate rather than an exponential one in $[\\ce{H+}]$, e.g. scaling by $(5.0/5.5)$ instead of using $10^{-\\Delta\\text{pH}}$.",
+      "C": "Mistakenly treats the reaction as pH-independent or assumes only a small correction is needed, giving a rate close to the original value instead of accounting for the actual drop in $[\\ce{H+}]$.",
+      "D": "Inverts the direction of the pH effect, treating an increase in pH as increasing $[\\ce{H+}]$ (using $10^{+0.5}$ instead of $10^{-0.5}$), which raises rather than lowers the rate."
+    },
+    "concept_ref": "Acid-catalyzed reaction kinetics and pH dependence",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-27",
+    "body_md": "**Key insight:** $\\ce{I-}$ is a **catalyst**, so its concentration does not change during the reaction — it stays at 0.300 M throughout. This means the rate law\n\n$$\\text{Rate}=k[\\ce{H2O2}][\\ce{I-}]$$\n\nbecomes a **pseudo-first-order** expression in $[\\ce{H2O2}]$:\n\n$$\\text{Rate}=k'[\\ce{H2O2}],\\qquad k'=k[\\ce{I-}]=(1.05\\text{ M}^{-1}\\text{min}^{-1})(0.300\\text{ M})=0.315\\text{ min}^{-1}$$\n\nUsing the first-order integrated rate law:\n\n$$[\\ce{H2O2}]=[\\ce{H2O2}]_0\\,e^{-k't}=0.300\\,e^{-(0.315)(5.00)}=0.300\\,e^{-1.575}$$\n\n$$e^{-1.575}\\approx0.207\\ \\Rightarrow\\ [\\ce{H2O2}]\\approx0.300\\times0.207=0.0621\\text{ M}$$",
+    "distractor_notes": {
+      "A": "This value comes from forgetting that $[\\ce{I-}]$ must multiply $k$ to give the true pseudo-first-order constant. Using $k'=k=1.05\\text{ min}^{-1}$ directly gives $[\\ce{H2O2}]=0.300e^{-(1.05)(5.00)}=0.300(0.00524)=0.00157\\text{ M}$, which drastically overestimates how fast the peroxide decays because it ignores that the effective rate constant should be scaled by the (constant) catalyst concentration.",
+      "B": "Correct. Recognizing $\\ce{I-}$ as a catalyst whose concentration stays fixed at 0.300 M converts the rate law into a pseudo-first-order process with $k'=k[\\ce{I-}]=0.315\\text{ min}^{-1}$. Applying $[\\ce{H2O2}]=[\\ce{H2O2}]_0e^{-k't}$ gives $0.300e^{-1.575}=0.0621\\text{ M}$.",
+      "C": "This results from mistakenly treating the reaction as truly second order overall (as if $[\\ce{I-}]$ were a reactant that decreases along with $[\\ce{H2O2}]$, since both start at 0.300 M). Applying the second-order integrated law $1/[\\ce{H2O2}]=1/[\\ce{H2O2}]_0+kt$ gives $1/[\\ce{H2O2}]=3.33+5.25=8.58$, so $[\\ce{H2O2}]=0.117\\text{ M}$ — but this ignores that iodide is regenerated and never actually depletes.",
+      "D": "This answer typically comes from an arithmetic slip in evaluating the exponential decay expression—for example, using an incorrect exponent (such as $k't\\approx0.73$ instead of the correct $1.575$) when computing $e^{-k't}$. The conceptual setup (pseudo-first-order decay) may be right, but a computational error in the exponent or in evaluating $e^{-1.575}$ leads to this too-large concentration."
+    },
+    "concept_ref": "Pseudo-first-order kinetics with a catalyst",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-28",
+    "body_md": "For a reaction following the Arrhenius law, $k = A e^{-E_a/RT}$. Comparing this with the given expression $k = (1.72\\times10^{-11})e^{-1189/T}$, the exponent's coefficient corresponds to $E_a/R$:\n\n$$\\frac{E_a}{R} = 1189\\ \\text{K}$$\n\nSolving for $E_a$ using $R = 8.314\\ \\text{J mol}^{-1}\\text{K}^{-1}$:\n\n$$E_a = 1189\\ \\text{K} \\times 8.314\\ \\text{J mol}^{-1}\\text{K}^{-1} = 9885\\ \\text{J mol}^{-1} \\approx 9.89\\ \\text{kJ mol}^{-1}$$\n\nThus the activation energy is about **9.89 kJ mol⁻¹**, corresponding to option B.",
+    "distractor_notes": {
+      "A": "This value comes from simply dividing the exponent constant (1189) by 1000 to convert 'K' units directly to kJ, forgetting to multiply by the gas constant $R$ at all.",
+      "B": "Correct: recognizing that the exponent in the Arrhenius equation equals $E_a/RT$, so $E_a = 1189\\,\\text{K} \\times R = 9.89\\ \\text{kJ mol}^{-1}$.",
+      "C": "This results from using an incorrect or extra conversion factor (e.g., multiplying by 4.184 to convert cal to J when R was already in J, effectively double-converting units), inflating the true value of $E_a$.",
+      "D": "This large value arises from mistakenly multiplying $E_a/R$ by Avogadro's number or a similar large factor, treating the exponent as if it were per-molecule rather than per-mole energy already implied by using $R$ (not $k_B$)."
+    },
+    "concept_ref": "Arrhenius equation and activation energy determination",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-29",
+    "body_md": "This is the acid-catalyzed hydrolysis of methyl formate, $\\ce{HCO2CH3}$, which proceeds by a two-step mechanism:\n\n**Step 1 (fast, pre-equilibrium):** $\\ce{HCO2CH3 + H+ <=> HCO2CH3H+}$\n\n**Step 2 (slow, rate-determining):** $\\ce{HCO2CH3H+ + H2O -> products}$\n\nThe rate law is written from the slow step:\n$$\\text{Rate} = k_2[\\ce{HCO2CH3H+}][\\ce{H2O}]$$\n\nSince water is the solvent and present in vast excess, its concentration is essentially constant and absorbed into the rate constant.\n\nThe intermediate $\\ce{HCO2CH3H+}$ is not a reactant we can measure directly, so we use the fast equilibrium of Step 1 to express it in terms of reactants:\n$$K_1 = \\frac{[\\ce{HCO2CH3H+}]}{[\\ce{HCO2CH3}][\\ce{H+}]} \\implies [\\ce{HCO2CH3H+}] = K_1[\\ce{HCO2CH3}][\\ce{H+}]$$\n\nSubstituting back:\n$$\\text{Rate} = k_2 K_1 [\\ce{H2O}][\\ce{HCO2CH3}][\\ce{H+}] = k[\\ce{HCO2CH3}][\\ce{H+}]$$\n\nThis matches option (B).",
+    "distractor_notes": {
+      "A": "This assumes only the slow step's organic substrate matters and ignores that the intermediate concentration depends on $[\\ce{H+}]$ through the pre-equilibrium, dropping the catalyst dependence entirely.",
+      "B": "Correct: substituting the fast-equilibrium expression for the protonated intermediate into the slow-step rate law shows the overall rate depends on both $[\\ce{HCO2CH3}]$ and $[\\ce{H+}]$ to the first power each.",
+      "C": "This results from incorrectly inverting the equilibrium expression for $K_1$, placing $[\\ce{H+}]$ in the denominator instead of multiplying it into the rate law.",
+      "D": "This comes from mistakenly treating $\\ce{H+}$ as the sole rate-determining species and ignoring the substrate concentration, as if the ester were in large excess and not a reactant in the rate-limiting step."
+    },
+    "concept_ref": "Acid-catalyzed ester hydrolysis: steady-state/pre-equilibrium rate law derivation",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-30",
+    "body_md": "A multi-step mechanism is represented by a reaction-coordinate diagram with one **hump (transition state) per elementary step**, and each valley between humps is a real, isolable **intermediate**.\n\n- Count the elementary steps in the proposed mechanism — this tells you how many peaks (activation-energy barriers) the diagram must show.\n- The relative heights of the peaks tell you which step is rate-determining (the tallest barrier).\n- The overall $\\Delta G^\\circ$ (start vs. finish energy) must match whether the overall reaction is exergonic or endergonic as given/implied by the mechanism (e.g., products lower than reactants for an overall exergonic process).\n- Diagram **(C)** has the correct number of peaks matching the number of elementary steps, the correct relative ordering of barrier heights (showing which step is rate-limiting), and an overall $G^\\circ$ drop consistent with the mechanism's net thermodynamics — so it is the right choice.\n\nThe other diagrams fail one of these criteria: wrong number of steps, wrong final energy level, or wrong step being rate-determining.",
+    "distractor_notes": {
+      "A": "Has the right general shape but ends with products at nearly the same $G^\\circ$ as reactants, ignoring the net thermodynamic drop required by the mechanism — a student picks this by only counting peaks and forgetting to check the overall $\\Delta G^\\circ$.",
+      "B": "Shows too large a final drop in $G^\\circ$ and/or the wrong step as highest-energy (rate-determining), suggesting a student misidentified which intermediate step has the largest barrier rather than checking the mechanism's actual slow step.",
+      "C": "Correct: right number of peaks (one per elementary step), consistent relative barrier heights identifying the rate-determining step, and an overall $G^\\circ$ decrease matching the mechanism's net exergonicity.",
+      "D": "Has an extra peak/valley pair, i.e., more elementary steps than the proposed mechanism actually contains — a student miscounts steps or confuses a stable intermediate with an additional reaction step."
+    },
+    "concept_ref": "Reaction coordinate diagrams and multistep reaction mechanisms",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-31",
+    "body_md": "**Setup:** $\\ce{NaH2PO4}$ is the conjugate base of $\\ce{H3PO4}$, so this is a Henderson–Hasselbalch buffer for the first dissociation:\n\n$\\ce{H3PO4 <=> H+ + H2PO4-}$, with p$K_{a1}$ = 2.12.\n\n**Moles of weak acid already present:**\n$n(\\ce{H3PO4}) = 0.4000\\ \\text{L} \\times 0.200\\ \\text{M} = 0.0800\\ \\text{mol}$\n\n**Henderson–Hasselbalch equation:**\n$\\text{pH} = pK_{a1} + \\log\\dfrac{[\\ce{H2PO4-}]}{[\\ce{H3PO4}]}$\n\nSince both species share the same solution volume, the concentration ratio equals the mole ratio:\n\n$2.30 = 2.12 + \\log\\dfrac{n(\\ce{H2PO4-})}{0.0800}$\n\n$\\log\\dfrac{n(\\ce{H2PO4-})}{0.0800} = 0.18$\n\n$\\dfrac{n(\\ce{H2PO4-})}{0.0800} = 10^{0.18} = 1.51$\n\n$n(\\ce{H2PO4-}) = 0.0800 \\times 1.51 = 0.121\\ \\text{mol}$\n\nSince $\\ce{NaH2PO4\\cdot 2H2O}$ dissolves to give one mole of $\\ce{H2PO4-}$ per mole of solid, **0.121 mol** of the dihydrate salt must be added.",
+    "distractor_notes": {
+      "A": "This value comes from mishandling the antilog step twice (e.g., treating $10^{0.18}$ as its reciprocal and also mixing up which species goes in the numerator), effectively computing $0.0800 \\times 10^{-0.86}$-type errors instead of the correct $0.0800\\times10^{0.18}$, giving an artificially small mole count.",
+      "B": "This is the classic 'inverted ratio' mistake: writing the Henderson–Hasselbalch equation as $\\text{pH}=pK_{a1}+\\log([\\ce{HA}]/[\\ce{A^-}])$ instead of $[\\ce{A^-}]/[\\ce{HA}]$. Solving $2.30=2.12+\\log(0.0800/x)$ gives $x=0.0800/1.51=0.0529$ mol — the base/acid roles are swapped.",
+      "C": "Correct. Using p$K_{a1}$ (since $\\ce{H2PO4-}$ is the conjugate base of $\\ce{H3PO4}$) and solving $10^{0.18}=1.51$ for the mole ratio gives $n(\\ce{H2PO4-})=0.0800\\times1.51=0.121$ mol.",
+      "D": "This answer arises from misevaluating the antilog, taking $10^{0.18}\\approx3.78$ (confusing it with $10^{0.58}$ or a similar exponent) instead of the correct $1.51$, which inflates the required moles to about $0.0800\\times3.78\\approx0.303$ mol."
+    },
+    "concept_ref": "Henderson–Hasselbalch buffer calculation (polyprotic acid, correct pKa selection)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-32",
+    "body_md": "Let the initial amount of $\\ce{PCl5}$ be 1 mol, and consider the equilibrium $\\ce{PCl5(g) <=> PCl3(g) + Cl2(g)}$.\n\n**At 20% decomposition (volume $V_1$):**\n- $n(\\ce{PCl5})=0.80$, $n(\\ce{PCl3})=0.20$, $n(\\ce{Cl2})=0.20$\n\n$$K_c=\\dfrac{[\\ce{PCl3}][\\ce{Cl2}]}{[\\ce{PCl5}]}=\\dfrac{(0.20/V_1)(0.20/V_1)}{0.80/V_1}=\\dfrac{0.05}{V_1}$$\n\n**At 50% decomposition (volume $V_2$):**\n- $n(\\ce{PCl5})=0.50$, $n(\\ce{PCl3})=0.50$, $n(\\ce{Cl2})=0.50$\n\n$$K_c=\\dfrac{(0.50/V_2)(0.50/V_2)}{0.50/V_2}=\\dfrac{0.50}{V_2}$$\n\nSince $K_c$ is the same at this fixed temperature:\n\n$$\\dfrac{0.05}{V_1}=\\dfrac{0.50}{V_2}\\ \\Rightarrow\\ \\dfrac{V_2}{V_1}=\\dfrac{0.50}{0.05}=10.0$$\n\nSo the volume must be increased by a factor of **10.0** to shift the equilibrium (more moles of gas favored by larger volume) to 50% decomposition.",
+    "distractor_notes": {
+      "A": "2.50 results from mixing up the ratio of decomposition percentages (50/20 = 2.5) instead of properly setting up the $K_c$ expressions with mole fractions and volumes—this ignores the squared concentration dependence in $K_c$.",
+      "B": "4.00 comes from squaring the ratio of decomposed amounts incorrectly (e.g., treating $(0.5/0.2)^2$ without properly canceling volume terms), missing the actual $K_c$ balance.",
+      "C": "6.25 arises from an arithmetic slip computing $(0.5/0.2)^2$ = 6.25 as if $K_c$ depended only on the square of the extent of reaction, forgetting to divide by the correct total-mole normalization.",
+      "D": "Correct. Writing $K_c$ in terms of moles and volume at each extent of reaction and setting the two expressions equal (since $K_c$ is constant at fixed $T$) gives $V_2/V_1 = 10.0$."
+    },
+    "concept_ref": "Le Chatelier's principle and $K_c$ for gas-phase decomposition with variable volume",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-33",
+    "body_md": "**Setup:** The equilibrium $\\ce{CaCO3(s) <=> CaO(s) + CO2(g)}$ has $K_p = P_{\\ce{CO2}} = 0.12\\text{ bar}$, which is fixed by temperature alone (as long as *both* solids are present). So while some $\\ce{CaCO3}$ remains, the pressure must stay pinned at exactly 0.12 bar, no matter what the piston volume is — this is the defining feature of a heterogeneous solid-gas equilibrium.\n\n**How much gas can be produced?**\nMoles of $\\ce{CaCO3}$ available:\n$$n = \\frac{1.00\\text{ g}}{100.09\\text{ g/mol}} = 0.00999\\text{ mol} \\approx 0.0100\\text{ mol}$$\nIf every mole of solid decomposed, it could supply at most 0.0100 mol of $\\ce{CO2}$ gas.\n\n**Volume at which solid runs out:**\nAs long as solid remains, $P=0.12$ bar is enforced, so the moles of gas present at a given $V$ are $n = PV/RT$. The solid is fully consumed exactly when this required $n$ equals the total available (0.0100 mol):\n$$V = \\frac{nRT}{P} = \\frac{(0.0100\\text{ mol})(0.08314\\text{ L·bar/mol·K})(1200\\text{ K})}{0.12\\text{ bar}} \\approx 8.3\\text{ L}$$\n\n**Behavior:**\n- For $V < 8.3$ L: solid $\\ce{CaCO3}$ (and $\\ce{CaO}$) coexist, so $P$ stays flat at 0.12 bar.\n- For $V > 8.3$ L: all the carbonate has decomposed; only a fixed amount of $\\ce{CO2}$ gas (0.0100 mol) remains, so further expansion just follows the ideal gas law, $P = nRT/V$, giving a smooth decreasing (hyperbolic-looking) curve.\n\nThis flat-then-decreasing shape is exactly graph **(A)**.",
+    "distractor_notes": {
+      "A": "Correct: pressure is buffered at $K_p=0.12$ bar while solid $\\ce{CaCO3}$ remains, then falls as $1/V$ once all the solid is consumed (at $V\\approx8.3$ L).",
+      "B": "This assumes pressure builds up linearly from zero as gas is produced and only saturates at the equilibrium value at large volume — this ignores that $K_p$ fixes the pressure immediately once any solid and gas coexist, and gets the direction of the transition backwards.",
+      "C": "This treats the pressure as constant at 0.12 bar for all volumes, forgetting that the limited amount of $\\ce{CaCO3}$ (only 0.0100 mol) can eventually be completely consumed, after which the gas must obey $PV=nRT$ and $P$ must fall as $V$ increases further.",
+      "D": "This mistakenly has the pressure rise above the equilibrium value of 0.12 bar before dropping, as if the system could be driven past $K_p$ before settling — but $K_p$ caps the pressure at 0.12 bar at every volume where solid is present, so it can never exceed that value."
+    },
+    "concept_ref": "Heterogeneous equilibrium and Kp buffering with a limiting solid reactant",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-34",
+    "body_md": "**Setting up the titration.** In the mixture, $\\ce{HOC6H4COOH}$ (call it $\\text{HA}$, moles $=a$) is the fully‑protonated acid and $\\ce{Na[HOC6H4COO]}$ (call it $\\text{NaA}^-$, moles $=b$) is the mono‑deprotonated salt. Adding $\\ce{NaOH}$ first converts the free $\\text{HA}$ into $\\text{A}^-$ (using $a$ mol of $\\ce{OH-}$), giving the **first equivalence point**. After that, all of the $\\text{A}^-$ present (the original $b$ plus the $a$ just formed) is titrated to the dianion $\\text{A}^{2-}$, using $(a+b)$ mol of $\\ce{OH-}$ for the **second equivalence‑point interval**.\n\n**Reading the curve.** From the volumes of $0.100\\ M$ $\\ce{NaOH}$ needed for the two stages:\n\n- First stage volume $V_1 = 10.0\\ \\text{mL}\\Rightarrow a = (0.100\\ M)(0.0100\\ L) = 1.0\\times10^{-3}\\ \\text{mol}$\n- Second stage volume $V_2-V_1 = 30.0\\ \\text{mL}\\Rightarrow a+b = (0.100\\ M)(0.0300\\ L) = 3.0\\times10^{-3}\\ \\text{mol}$\n\nSo $b = 3.0\\times10^{-3} - 1.0\\times10^{-3} = 2.0\\times10^{-3}\\ \\text{mol}$.\n\n$$\\frac{n(\\text{NaA}^-)}{n(\\text{HA})}=\\frac{b}{a}=\\frac{2.0\\times10^{-3}}{1.0\\times10^{-3}}=2:1$$\n\nThis matches **(A)**.\n\n**Checking the other quantities.** Total moles of the two forms $= a+b = 1.0\\times10^{-3}+2.0\\times10^{-3}=3.0\\times10^{-3}\\ \\text{mol}$, not $0.008$ mol, so (B) is inconsistent with the volumes read from the curve. The p$K_{a}$ values are obtained from the pH at the **half‑equivalence** points of each buffering region (at $V_1/2$ and at $V_1+\\tfrac{1}{2}(V_2-V_1)$); the pH values quoted in (C) and (D), $5.3$ and $9.2$, correspond to points that are *not* the half‑equivalence points on this curve, so they are not the correct p$K_{a1}$/p$K_{a2}$ for this acid.",
+    "distractor_notes": {
+      "A": "Correct: using the volumes of NaOH needed to convert HA→A⁻ (first segment) and A⁻→A²⁻ (second segment) gives moles a = 1.0×10⁻³ and b = 2.0×10⁻³ mol, a ratio of NaA⁻:HA = 2:1.",
+      "B": "This comes from simply adding the two equivalence-point *volumes* (or using total NaOH concentration × total volume incorrectly) instead of converting each stage's volume to moles and summing a+b; the correct total is 3.0×10⁻³ mol, not 0.008 mol.",
+      "C": "This value is obtained by reading the pH at the first *equivalence* point (where the color/inflection occurs) rather than at the *half*-equivalence point of the first buffer region, which is where pH = pKa1.",
+      "D": "This value comes from misreading the graph at a volume past the true half-equivalence point of the second buffering region (e.g., using the point corresponding to some other landmark such as the endpoint indicator color change), rather than the volume exactly halfway between V1 and V2, where pH = pKa2."
+    },
+    "concept_ref": "Diprotic acid titration curves: equivalence points, half-equivalence points, and Henderson–Hasselbalch determination of pKa",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-35",
+    "body_md": "The key idea is that AgCl(s) can be converted to the far less soluble AgBr(s) by exchange with Br⁻ ions:\n\n$\\ce{AgCl(s) + Br-(aq) -> AgBr(s) + Cl-(aq)}$\n\nThe equilibrium constant for this exchange is\n\n$K = \\dfrac{K_{sp}(\\ce{AgCl})}{K_{sp}(\\ce{AgBr})} = \\dfrac{1.8\\times10^{-10}}{4.9\\times10^{-13}} \\approx 370$\n\nSince $K$ is large, the reaction goes essentially to completion until the limiting reagent, $\\ce{Br-}$ (0.100 mol), is used up. This converts 0.100 mol of the 0.50 mol AgCl(s) into AgBr(s), releasing 0.100 mol $\\ce{Cl-}$ into solution, and leaving **0.40 mol AgCl(s) still undissolved** along with 0.100 mol AgBr(s).\n\nBecause solid AgCl remains in contact with the solution, the solution must still be saturated with respect to AgCl:\n\n$K_{sp}(\\ce{AgCl}) = [\\ce{Ag+}][\\ce{Cl-}]$\n\nWith $[\\ce{Cl-}] \\approx 0.100\\ M$ (essentially all the Br⁻ has been converted to Cl⁻, and Br⁻ left in solution is negligible because AgBr is so insoluble):\n\n$[\\ce{Ag+}] = \\dfrac{1.8\\times10^{-10}}{0.100} = 1.8\\times10^{-9}\\ M$\n\nThis is consistent with the AgBr equilibrium too, since $[\\ce{Br-}]$ works out to be tiny (≈$2.7\\times10^{-4}\\,M$), confirming that Cl⁻ dominates and controls the Ag⁺ level.",
+    "distractor_notes": {
+      "A": "This comes from $K_{sp}(\\ce{AgBr})/0.100\\,M = 4.9\\times10^{-13}/0.100 = 4.9\\times10^{-12}$, which incorrectly assumes the Br⁻ concentration stays at its original 0.100 M value, ignoring that nearly all Br⁻ is consumed as it precipitates as AgBr(s).",
+      "B": "Correct: since solid AgCl remains present, the solution stays saturated in AgCl with $[\\ce{Cl-}]\\approx0.100\\,M$ (from the Br⁻/Cl⁻ exchange), giving $[\\ce{Ag+}]=K_{sp}(\\ce{AgCl})/0.100 = 1.8\\times10^{-9}\\,M$.",
+      "C": "This equals $\\sqrt{K_{sp}(\\ce{AgBr})} = \\sqrt{4.9\\times10^{-13}} = 7.0\\times10^{-7}$, the result of treating AgBr as if it were dissolving alone in pure water (ignoring the NaBr already present and the leftover solid AgCl/Cl⁻ in solution).",
+      "D": "This equals $\\sqrt{K_{sp}(\\ce{AgCl})} = \\sqrt{1.8\\times10^{-10}} = 1.3\\times10^{-5}$, treating AgCl as dissolving simply in pure water and ignoring the common-ion/exchange effect from the NaBr solution."
+    },
+    "concept_ref": "Solubility equilibrium with competing precipitates (common-ion exchange between AgCl and AgBr)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-36",
+    "body_md": "**Step 1: Relate [S²⁻] to pH.**\n\nCombining the two acid dissociations of $\\ce{H2S}$:\n$$K_{a1}K_{a2}=\\frac{[\\ce{H+}]^2[\\ce{S^2-}]}{[\\ce{H2S}]}=8.9\\times10^{-8}\\times1.0\\times10^{-19}=8.9\\times10^{-27}$$\n\nWith $[\\ce{H2S}]=0.10$ M held constant:\n$$[\\ce{S^2-}]=\\frac{8.9\\times10^{-27}(0.10)}{[\\ce{H+}]^2}=\\frac{8.9\\times10^{-28}}{[\\ce{H+}]^2}$$\n\n**Step 2: Minimum pH — quantitative removal of $\\ce{Cd^2+}$.**\n\n\"Quantitative\" precipitation means only 0.1% remains: $[\\ce{Cd^2+}]=1.0\\times10^{-4}$ M. The $[\\ce{S^2-}]$ needed is\n$$[\\ce{S^2-}]=\\frac{K_{sp}(\\ce{CdS})}{[\\ce{Cd^2+}]}=\\frac{1.0\\times10^{-27}}{1.0\\times10^{-4}}=1.0\\times10^{-23}\\text{ M}$$\n\nSolve for $[\\ce{H+}]$:\n$$[\\ce{H+}]^2=\\frac{8.9\\times10^{-28}}{1.0\\times10^{-23}}=8.9\\times10^{-5}\\Rightarrow[\\ce{H+}]=9.4\\times10^{-3}\\text{ M}\\Rightarrow \\text{pH}=2.0$$\n\nThis is the *minimum* pH required — below it, not enough sulfide is present to drop $\\ce{Cd^2+}$ below the 0.1% threshold.\n\n**Step 3: Maximum pH — $\\ce{Tl+}$ must stay fully in solution.**\n\n$\\ce{Tl2S}$ must not begin to precipitate, so with $[\\ce{Tl+}]=0.10$ M we need\n$$[\\ce{S^2-}]<\\frac{K_{sp}(\\ce{Tl2S})}{[\\ce{Tl+}]^2}=\\frac{6.0\\times10^{-22}}{(0.10)^2}=6.0\\times10^{-20}\\text{ M}$$\n\nSolve for $[\\ce{H+}]$:\n$$[\\ce{H+}]^2=\\frac{8.9\\times10^{-28}}{6.0\\times10^{-20}}=1.48\\times10^{-8}\\Rightarrow[\\ce{H+}]=1.22\\times10^{-4}\\text{ M}\\Rightarrow \\text{pH}=3.9$$\n\nAbove this pH, sulfide concentration becomes high enough that $\\ce{Tl2S}$ starts to precipitate too.\n\n**Conclusion:** Selective, quantitative precipitation of $\\ce{Cd^2+}$ (with $\\ce{Tl+}$ fully retained) occurs for pH between **2.0 and 3.9**.",
+    "distractor_notes": {
+      "A": "Uses the wrong reference concentration (e.g. mixes up 0.1% remaining with total initial 0.10 M in the Ksp/[S2-] ratio) and mis-locates both boundaries, giving too wide a range (0.5–6.8) instead of the correctly calculated 2.0–3.9.",
+      "B": "Correct: lower bound set by requiring [Cd2+] drop to 0.1% of 0.10 M via Ksp(CdS), upper bound set by keeping [Tl+] at full 0.10 M just below Ksp(Tl2S); both solved through the combined Ka1Ka2 expression for [S2-] vs [H+].",
+      "C": "Forgets that quantitative precipitation of Cd2+ requires reaching [Cd2+]=1×10⁻⁴ M (not just any precipitation), overestimating the minimum pH to 4.0 by using an incorrect leftover concentration, while still getting the upper bound near 6.8 by misapplying Ksp(Tl2S) with the wrong exponent of [Tl+].",
+      "D": "Incorrectly assumes the sulfide concentration range needed to precipitate Cd2+ quantitatively already exceeds the level that precipitates Tl2S at every pH, failing to solve the two inequalities separately and thus wrongly concluding no valid window exists."
+    },
+    "concept_ref": "Selective sulfide precipitation using pH control (Ksp and H2S diprotic equilibrium)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-37",
+    "body_md": "**Assign oxidation states.** In $\\ce{NO}$, N is $+2$. In $\\ce{N2O}$, N is $+1$ (reduced). In $\\ce{NO2-}$, N is $+3$ (oxidized). So $\\ce{NO}$ disproportionates: some N atoms gain 1 e⁻ (→ N₂O), others lose 1 e⁻ (→ NO₂⁻).\n\n**Half-reactions (basic medium):**\n\nReduction: $2\\ce{NO} + \\ce{H2O} + 2e^- \\rightarrow \\ce{N2O} + 2\\ce{OH-}$\n\nOxidation: $\\ce{NO} + 2\\ce{OH-} \\rightarrow \\ce{NO2-} + \\ce{H2O} + e^-$\n\n**Balance electrons:** multiply the oxidation half-reaction by 2 so both involve 2 e⁻:\n\n$2\\ce{NO} + 4\\ce{OH-} \\rightarrow 2\\ce{NO2-} + 2\\ce{H2O} + 2e^-$\n\n**Add the two half-reactions** and cancel the 2 e⁻:\n\n$4\\ce{NO} + 4\\ce{OH-} + \\ce{H2O} \\rightarrow 2\\ce{NO2-} + \\ce{N2O} + 2\\ce{H2O} + 2\\ce{OH-}$\n\nCancel duplicate $\\ce{OH-}$ and $\\ce{H2O}$:\n\n$$4\\ce{NO} + 2\\ce{OH-} \\rightarrow 2\\ce{NO2-} + \\ce{N2O} + \\ce{H2O}$$\n\n**Check:** N: $4 = 2+2$ ✓; O: $4+2 = 4+1+1 = 6$ ✓; H: $2 = 2$ ✓; charge: $-2 = -2$ ✓.\n\nThe coefficient of $\\ce{NO}$ in the smallest whole-number balanced equation is **4**.",
+    "distractor_notes": {
+      "A": "Coefficient 2 comes from balancing only one half-reaction (e.g. the reduction step alone, $2\\ce{NO}\\rightarrow \\ce{N2O}$) without combining it with the oxidation step, so the electron transfer and overall atom balance are incomplete.",
+      "B": "Coefficient 3 results from an incorrect electron count, such as assuming a 1:1:1 ratio of electrons lost to gained (treating the oxidation and reduction half-reactions as needing equal electron totals without properly scaling), which never yields a consistent whole-number balance.",
+      "C": "Correct: combining the reduction ($2\\ce{NO}+\\ce{H2O}+2e^-\\rightarrow \\ce{N2O}+2\\ce{OH-}$) and doubled oxidation ($2\\ce{NO}+4\\ce{OH-}\\rightarrow 2\\ce{NO2-}+2\\ce{H2O}+2e^-$) half-reactions and simplifying gives $4\\ce{NO}+2\\ce{OH-}\\rightarrow 2\\ce{NO2-}+\\ce{N2O}+\\ce{H2O}$, with atoms and charge balanced.",
+      "D": "Coefficient 5 arises from over-counting oxygen atoms when adding $\\ce{OH-}$ and $\\ce{H2O}$ terms without canceling the species that appear on both sides, inflating the total NO needed."
+    },
+    "concept_ref": "Disproportionation redox balancing in basic solution (half-reaction method)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-38",
+    "body_md": "This is a classic **thermodynamic cycle for reduction potentials**, where we must weight each half-reaction by its number of electrons since $\\Delta G = -nFE$ is additive, but $E$ alone is not.\n\n**Step 1:** $\\ce{MnO4-} + e^- \\rightarrow \\ce{MnO4^2-}$, $n_1 = 1$, $E_1 = 0.543\\text{ V}$\n\n**Step 2 (overall):** $\\ce{MnO4-} + 3e^- \\rightarrow \\ce{MnO2}$, $n_{tot} = 3$, $E_{tot} = 0.595\\text{ V}$\n\n**Target:** $\\ce{MnO4^2-} + 2e^- \\rightarrow \\ce{MnO2}$, $n_2 = 2$, $E_2 = ?$\n\nSince free energies add along the path:\n$$n_{tot}E_{tot} = n_1E_1 + n_2E_2$$\n$$3(0.595) = 1(0.543) + 2E_2$$\n$$1.785 - 0.543 = 2E_2$$\n$$E_2 = \\frac{1.242}{2} = 0.621\\text{ V}$$\n\nSo the correct value is **0.621 V**, matching choice (C).",
+    "distractor_notes": {
+      "A": "0.052 V comes from simply subtracting the two given potentials (0.595 − 0.543) without weighting by electron number, ignoring that $\\Delta G$ (not $E$) is additive.",
+      "B": "0.569 V is the simple arithmetic average of 0.543 V and 0.595 V, incorrectly assuming potentials average directly instead of combining via $nE$ products.",
+      "C": "Correct: using $n_{tot}E_{tot} = n_1E_1 + n_2E_2$ with $n_1=1$, $n_{tot}=3$, $n_2=2$ gives $E_2 = (1.785-0.543)/2 = 0.621\\text{ V}$.",
+      "D": "0.647 V results from mismatching the electron counts (e.g., treating the first step as a 2-electron process instead of 1), which skews the weighted subtraction and overestimates $E_2$."
+    },
+    "concept_ref": "Additivity of Gibbs free energies in electrochemical cycles (Latimer diagrams)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-39",
+    "body_md": "The overall reaction is $\\ce{2Cr + 6Ag+ -> 2Cr^3+ + 6Ag}$, with $Q=\\dfrac{[Cr^{3+}]^2}{[Ag^+]^6}$.\n\nBy the Nernst equation, $E=E^\\circ-\\dfrac{RT}{nF}\\ln Q$. Anything that **lowers the free $[Ag^+]$** increases $Q$ (since $[Ag^+]$ is in the denominator with a large exponent), which decreases $E$.\n\nBubbling $\\ce{NH3}$ into the $Ag^+$ half-cell forms the stable complex $\\ce{Ag(NH3)2+}$:\n$$\\ce{Ag+ + 2NH3 -> Ag(NH3)2+}$$\nThis drastically lowers the free $[Ag^+]$, raising $Q$ and lowering $E_{cell}$. Hence **(B)** is correct.",
+    "distractor_notes": {
+      "A": "Adding $\\ce{HNO3}$ does not appreciably change $[Ag^+]$ (no reaction occurs between $\\ce{H+}$ and $\\ce{Ag+}$, and the volume change is negligible), so the cell potential is essentially unaffected — a student picking this wrongly assumes acid somehow reduces $Ag^+$ concentration.",
+      "B": "Correct: complexation of $Ag^+$ by $NH_3$ sharply lowers free $[Ag^+]$, increasing $Q$ and decreasing $E_{cell}$ via the Nernst equation.",
+      "C": "Diluting the $Cr^{3+}$ half-cell lowers $[Cr^{3+}]$, which actually *decreases* $Q=[Cr^{3+}]^2/[Ag^+]^6$, making $E$ increase, not decrease — a student mistakenly assumes dilution of the anode compartment always lowers the cell potential without checking the direction of Q's dependence.",
+      "D": "Electrode size (a solid, pure metal) does not appear in the Nernst equation or affect $E^\\circ$ or activities, so it has no effect on cell potential; choosing this confuses electrode surface area/kinetics with thermodynamic cell potential."
+    },
+    "concept_ref": "Nernst equation and complex-ion equilibria affecting electrode potential",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-40",
+    "body_md": "**Setting up the cell reaction**\n\nSubtracting the two given half‑reactions gives the dissolution reaction:\n\n$\\ce{PbSO4(s) -> Pb^2+(aq) + SO4^2-(aq)}$\n\nThis is obtained by adding the reduction $\\ce{PbSO4 + 2e- -> Pb + SO4^2-}$ ($E^\\circ=-0.359\\text{ V}$) to the reverse (oxidation) of $\\ce{Pb^2+ + 2e- -> Pb}$ ($E^\\circ=+0.126\\text{ V}$):\n\n$E^\\circ_{cell} = -0.359 + 0.126 = -0.233\\text{ V}$\n\n**Relating $E^\\circ$ to $K_{sp}$**\n\n$\\Delta G^\\circ = -nFE^\\circ = -2(96485)(-0.233) = +4.50\\times10^{4}\\ \\text{J/mol}$\n\n$\\ln K_{sp} = -\\dfrac{\\Delta G^\\circ}{RT} = -\\dfrac{4.50\\times10^{4}}{(8.314)(298)} = -18.16$\n\n$K_{sp} = e^{-18.16} = 1.3\\times10^{-8}$\n\n**Molar solubility**\n\nSince $\\ce{PbSO4 <=> Pb^2+ + SO4^2-}$, $K_{sp}=s^2$:\n\n$s = \\sqrt{1.3\\times10^{-8}} = 1.14\\times10^{-4}\\ \\text{mol L}^{-1}$\n\nThis matches option **D**.",
+    "distractor_notes": {
+      "A": "This value equals $K_{sp}$ itself ($1.3\\times10^{-8}$); the student forgot to take the square root to convert $K_{sp}$ into the molar solubility $s$.",
+      "B": "This arises from using $n=1$ instead of $n=2$ electrons in the $\\Delta G^\\circ = -nFE^\\circ$ step, which understates $\\Delta G^\\circ$ and gives an artificially small $K_{sp}$ (and hence a solubility that's too low) before taking the square root.",
+      "C": "This comes from subtracting the half‑reaction potentials in the wrong order (using $E^\\circ_{cell}=-0.359-(-0.126)=-0.485\\text{ V}$ or a similar sign mix‑up), which changes $\\Delta G^\\circ$ and yields a $K_{sp}$ too small, giving a solubility about half the correct value.",
+      "D": "Correct: combining the half‑reactions gives $E^\\circ_{cell}=-0.233\\text{ V}$, from which $K_{sp}=1.3\\times10^{-8}$ and $s=\\sqrt{K_{sp}}=1.14\\times10^{-4}\\ \\text{mol/L}$."
+    },
+    "concept_ref": "Relating standard reduction potentials to Ksp (Nernst/thermodynamic link) and solving for molar solubility",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-41",
+    "body_md": "**Step 1: Find moles of O₂ (anode gas).**\n$n_{O_2} = \\dfrac{0.265\\text{ L}}{22.4\\text{ L/mol}} = 0.01183\\text{ mol}$\n\n**Step 2: Relate O₂ to electrons transferred.**\nAt the anode, water is oxidized:\n$$2\\ce{H2O} \\rightarrow \\ce{O2} + 4\\ce{H+} + 4e^-$$\nSo each mole of $\\ce{O2}$ corresponds to 4 mol of electrons:\n$$n_{e^-} = 4(0.01183) = 0.04732\\text{ mol } e^-$$\n\n**Step 3: Find the equivalent weight of the metal.**\nSince the same charge passed through both electrodes, the metal ion $\\ce{M^{n+}}$ gains the same number of electrons at the cathode:\n$$\\ce{M^{n+} + n e^- -> M}$$\n$$\\text{Equivalent weight} = \\frac{\\text{mass}}{n_{e^-}} = \\frac{1.50\\text{ g}}{0.04732\\text{ mol }e^-} = 31.7\\text{ g/eq}$$\n\n**Step 4: Match to a metal/charge combination.**\n- Cu: atomic mass 63.55, if $n=2$: equivalent weight $= 63.55/2 = 31.8$ g/eq — excellent match.\n- Al ($n=3$): $27/3 = 9$ g/eq — too low.\n- Sn ($n=2$ or 4): $59.4$ or $29.7$ g/eq — not as close, and Sn(II) is less common in aqueous electrolysis.\n- U: no integer charge gives 31.7 g/eq (238/31.7 ≈ 7.5, not a valid oxidation state).\n\nOnly copper, as $\\ce{Cu^2+}$, fits the calculated equivalent weight, so the metal is **copper**.",
+    "distractor_notes": {
+      "A": "Assumes the equivalent weight matches Al³⁺ (27/3 = 9 g/eq), which is far from the calculated 31.7 g/eq; likely from mis-assigning n=3 without checking the mass balance.",
+      "B": "Correct: using n=2 for Cu²⁺ gives an equivalent weight of 63.55/2 ≈ 31.8 g/eq, matching the calculated value of 31.7 g/eq from the electron balance.",
+      "C": "Assumes Sn²⁺ or Sn⁴⁺ fits, but 118.7/2 = 59.4 g/eq and 118.7/4 = 29.7 g/eq don't match as precisely; likely chosen by guessing a charge without verifying against the O₂ data.",
+      "D": "Assumes uranium fits by picking an arbitrary or non-integer oxidation state (238/31.7 ≈ 7.5), which is not a valid ionic charge, revealing an error in solving for n."
+    },
+    "concept_ref": "Faraday's laws of electrolysis and equivalent weight",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-42",
+    "body_md": "In a Pourbaix diagram for mercury, the region labeled X sits at low pH, at a potential between the $\\ce{Hg^2+}/\\ce{Hg}$ line and the $\\ce{HgO}/\\ce{Hg}$ line — i.e., it is more oxidized than metallic $\\ce{Hg(l)}$ but exists only in the acidic, moderately oxidizing wedge before $\\ce{HgO(s)}$ becomes stable.\n\nMercury is well known to form the dimeric mercurous ion, $\\ce{Hg2^2+}$, which is an intermediate oxidation state ($\\mathrm{Hg}$ average oxidation number $+1$) between $\\ce{Hg(l)}$ (0) and $\\ce{Hg^2+}$ or $\\ce{HgO}$ (+2).\n\n- The boundary above X (separating X from $\\ce{Hg^2+}(aq)$) corresponds to the couple $\\ce{2Hg^2+ + 2e- -> Hg2^2+}$.\n- The boundary below X (separating X from $\\ce{Hg(l)}$) corresponds to $\\ce{Hg2^2+ + 2e- -> 2Hg(l)}$.\n- The sloped line to the right where X ends corresponds to disproportionation/precipitation forming $\\ce{HgO(s)}$ as pH rises.\n\nThus the small wedge X is the stability field of the mercurous ion, $\\ce{Hg2^2+(aq)}$.",
+    "distractor_notes": {
+      "A": "Correct: $\\ce{Hg2^2+}$ is the +1 (mercurous) dimeric ion, stable in the narrow acidic, intermediate-potential wedge between $\\ce{Hg^2+}$ and $\\ce{Hg(l)}$.",
+      "B": "Mistakes the small region for a solid oxide analogous to $\\ce{HgO}$; but no such $\\ce{Hg2O}$ solid phase appears in the mercury Pourbaix diagram, and X lies below the $\\ce{Hg^2+}/\\ce{HgO}$ boundary where dissolved species, not oxides, are stable.",
+      "C": "Assumes hydrolysis of $\\ce{Hg^2+}$ produces a hydroxo complex stable at low pH, but hydroxide species only become favorable at higher pH; this ignores that the region's boundaries match redox (electron transfer) lines, not acid-base equilibria.",
+      "D": "Confuses X with a mixed oxide-hydroxide solid analogous to basic mercury compounds; overlooks that solid phases in Pourbaix diagrams appear as large single-species domains, not thin wedges bounded by two nearly vertical redox lines."
+    },
+    "concept_ref": "Pourbaix diagram interpretation: mercury oxidation states and Hg2^2+ stability field",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-43",
+    "body_md": "Ionization energy (IE) trends depend on both the periodic trend (increasing across a period, decreasing down a group) **and** the extra stability of a half-filled $p^3$ subshell.\n\n- Down a group, IE decreases: $\\ce{P} < \\ce{N}$ and $\\ce{S} < \\ce{O}$ (larger atoms, more shielding, weaker attraction to outer electron).\n- Across a period, IE normally increases left→right, but Group 15 ($\\ce{N}, \\ce{P}$) has a half-filled $p^3$ configuration that is extra stable, so removing an electron from $\\ce{N}$ or $\\ce{P}$ is *harder* than from the neighboring Group 16 element with the same period. This reverses the naive trend: $\\ce{O} < \\ce{N}$ and $\\ce{S} < \\ce{P}$.\n\nApproximate real values (kJ/mol): $\\ce{S}=1000,\\ \\ce{P}=1012,\\ \\ce{O}=1314,\\ \\ce{N}=1402$.\n\nPutting the two trends together: $\\ce{S} < \\ce{P} < \\ce{O} < \\ce{N}$, which matches choice (D).",
+    "distractor_notes": {
+      "A": "Assumes IE simply increases across a period without accounting for the half-filled $p^3$ stability of N and P, so it wrongly places N below O and P below S in the same 'straight left-to-right' pattern.",
+      "B": "Groups the elements by period instead of comparing correctly across both groups and periods; ignores that P and S (period 3) should be lower than N and O (period 2), giving an order that's essentially backwards.",
+      "C": "Mixes up the group trend (P<N, S<O) with the period trend incorrectly, placing O highest but scrambling the middle order (N and S) instead of recognizing S<P<O<N.",
+      "D": "Correctly combines the group trend (IE decreases down a group: P<N, S<O) with the p3 half-filled stability trend (P>S, N>O), yielding the true increasing order S<P<O<N."
+    },
+    "concept_ref": "Periodic trends in first ionization energy, including half-filled subshell stability",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-44",
+    "body_md": "The Balmer series wavelengths follow the Rydberg formula for transitions to $n=2$:\n\n$$\\frac{1}{\\lambda} = R\\left(\\frac{1}{4}-\\frac{1}{n^2}\\right), \\quad R = 1.097\\times10^{7}\\,\\text{m}^{-1}$$\n\nCalculating for successive $n$:\n\n- $n=3$: $\\frac{1}{4}-\\frac{1}{9}=0.1389 \\Rightarrow \\lambda = 656\\text{ nm}$ (given, matches longest wavelength)\n- $n=4$: $\\frac{1}{4}-\\frac{1}{16}=0.1875 \\Rightarrow \\lambda = 486\\text{ nm}$\n- $n=5$: $\\frac{1}{4}-\\frac{1}{25}=0.21 \\Rightarrow \\lambda = 434\\text{ nm}$\n- $n=6$: $\\frac{1}{4}-\\frac{1}{36}=0.2222 \\Rightarrow \\lambda = 410\\text{ nm}$\n\nThese four values (656, 486, 434, 410 nm) are the genuine Balmer lines corresponding to $n=3,4,5,6\\to n=2$. No integer $n$ gives $\\lambda = 545\\text{ nm}$, so **545 nm is not a member of the Balmer series**.",
+    "distractor_notes": {
+      "A": "410 nm correctly corresponds to the $n=6\\to n=2$ transition, so it *is* a genuine Balmer line; a student picking this misidentifies it as the outlier.",
+      "B": "434 nm correctly corresponds to the $n=5\\to n=2$ transition, so it *is* a genuine Balmer line; choosing this confuses it with the odd value.",
+      "C": "486 nm correctly corresponds to the $n=4\\to n=2$ transition, so it *is* a genuine Balmer line; selecting this mistakes a valid series member for the exception.",
+      "D": "545 nm does not satisfy $\\frac{1}{\\lambda}=R\\left(\\frac14-\\frac1{n^2}\\right)$ for any integer $n$, so it cannot arise from a Balmer transition — this is the correct choice."
+    },
+    "concept_ref": "Hydrogen atom Balmer series / Rydberg formula",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-45",
+    "body_md": "The strength of metallic bonding depends on how many valence electrons each atom donates to the delocalized “electron sea” and how strongly the resulting metal cations are held by that sea.\n\n- For $\\ce{Cr}$, $\\ce{Mo}$, and $\\ce{W}$, going down the group the $(n-1)d$ and $ns$ orbitals become closer in energy, so a larger fraction of the valence electrons (up to all 6) can be delocalized into the metallic bonding band.\n- This means the metal cores left behind carry a larger effective positive charge as you move down the group.\n- A larger positive charge on the lattice cations means a stronger electrostatic attraction to the surrounding sea of delocalized electrons, which directly strengthens the metallic bond.\n- Stronger metallic bonding requires more thermal energy to disrupt, which raises the melting point: $\\ce{Cr} < \\ce{Mo} < \\ce{W}$.\n\nThis increasing effective nuclear/core charge felt by the delocalized electrons is the key factor, making (B) the correct explanation.",
+    "distractor_notes": {
+      "A": "Incorrect: this treats the bonding as increasingly \"covalent\" (localized shared pairs) rather than metallic, missing that the real driver is the increasing effective positive charge of the metal cores interacting with delocalized electrons.",
+      "B": "Correct: as more valence electrons are delocalized down the group, the metal cores in the lattice carry a greater effective positive charge, strengthening the electrostatic attraction to the electron sea and raising the melting point.",
+      "C": "Incorrect: while relativistic effects do contract orbitals for very heavy elements, this is a minor and often overstated effect for $\\ce{W}$ compared to the dominant electronic/bonding-electron-count explanation, and it does not correctly account for the smooth trend across all three metals.",
+      "D": "Incorrect: this assumes a change in crystal structure across the series, but $\\ce{Cr}$, $\\ce{Mo}$, and $\\ce{W}$ all adopt the same body-centered cubic structure, so packing density is not the source of the trend."
+    },
+    "concept_ref": "Metallic bonding strength and effective nuclear charge in transition metals",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-46",
+    "body_md": "Ground-state carbon is $1s^2\\,2s^2\\,2p^2$, with the two $2p$ electrons unpaired in separate orbitals (Hund's rule): $1s^2\\,2s^2\\,2p_x^1\\,2p_y^1$.\n\nThe **lowest-energy excited state** comes from the smallest possible perturbation of this ground state — promoting one electron the shortest distance in energy, which is moving one $2s$ electron up into the empty $2p$ orbital. This gives $1s^2\\,2s^1\\,2p_x^1\\,2p_y^1\\,2p_z^1$: four unpaired electrons total (one in $2s$, three in $2p$), each $2p$ orbital singly occupied.\n\nDiagram (C) shows exactly this: $1s$ filled, $2s$ with only one electron, and all three $2p$ orbitals singly occupied with parallel spins. This is the correct lowest excited-state configuration.\n\n- $1s^2$ (paired, unchanged)\n- $2s^1$ (one electron promoted out)\n- $2p_x^1\\,2p_y^1\\,2p_z^1$ (three unpaired, Hund's rule)",
+    "distractor_notes": {
+      "A": "This is $1s^2\\,2s^2\\,2p^3$ with an extra electron overall — it has one more electron than carbon (7 total), so it isn't even a valid carbon configuration; a student miscounted electrons while trying to fill all three $2p$ orbitals.",
+      "B": "This shows $1s^2\\,2s^2\\,2p^2$ but with the two $2p$ electrons paired in the same orbital (spins opposite) instead of following Hund's rule — this is actually a higher-energy, non-ground, non-lowest-excited arrangement of the *same* electron count, reflecting a violation of Hund's rule rather than a proper single-electron promotion.",
+      "C": "Correct: one $2s$ electron is promoted to the third $2p$ orbital, giving $1s^2\\,2s^1\\,2p_x^1\\,2p_y^1\\,2p_z^1$ with maximum spin multiplicity (Hund's rule) — the true lowest-energy excited state of carbon.",
+      "D": "This is simply the ground-state configuration $1s^2\\,2s^2\\,2p^2$ (with $2p$ electrons correctly unpaired) — a student picks this thinking it's already 'excited' compared to some baseline, but it has no promoted electron and is not an excited state at all."
+    },
+    "concept_ref": "Ground vs. excited electron configurations and Hund's rule for carbon",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-47",
+    "body_md": "**Setting up the comparison**\n\nFor the half‑reaction $\\ce{XO2 + 4H+ + 4e- -> X(s) + 2H2O}$, the standard reduction potentials for the group‑14 dioxides are (approximately):\n\n- $E^\\circ(\\ce{CO2/C}) \\approx +0.21\\ \\text{V}$\n- $E^\\circ(\\ce{SiO2/Si}) \\approx -0.89\\ \\text{V}$\n- $E^\\circ(\\ce{SnO2/Sn}) \\approx -0.12\\ \\text{V}$\n- $E^\\circ(\\ce{PbO2/Pb}) \\approx +1.46\\ \\text{V}$\n\n**Statement I:** $E^\\circ(\\ce{C}) < E^\\circ(\\ce{Si})$?\n\nBecause the $\\ce{Si-O}$ bonds in $\\ce{SiO2}$ are exceptionally strong (silica's rigid, highly covalent lattice), reducing $\\ce{SiO2}$ to $\\ce{Si}$ is thermodynamically very unfavorable, giving a strongly negative potential ($-0.89$ V). $\\ce{CO2}$, by contrast, is reduced far more easily (its potential is even positive, $+0.21$ V). So actually $E^\\circ(\\ce{C}) > E^\\circ(\\ce{Si})$, making statement I **false**.\n\n**Statement II:** $E^\\circ(\\ce{Sn}) < E^\\circ(\\ce{Pb})$?\n\nThis reflects the **inert-pair effect**: for the heavier post-transition elements, the +2 oxidation state becomes progressively more stable relative to +4 as you descend the group. $\\ce{Pb(IV)}$ (in $\\ce{PbO2}$) is therefore a much stronger oxidizer than $\\ce{Sn(IV)}$ (in $\\ce{SnO2}$), because $\\ce{PbO2}$ is eager to be reduced down to the more stable $\\ce{Pb(0)}$ (via the very stable +2 state pathway), giving a large positive $E^\\circ$ ($+1.46$ V) compared to Sn's mildly negative value ($-0.12$ V). So $E^\\circ(\\ce{Sn}) < E^\\circ(\\ce{Pb})$ is **true**.\n\n**Conclusion:** Only statement II is correct → answer **(B)**.",
+    "distractor_notes": {
+      "A": "Assumes the naive periodic trend (potential increases smoothly down the group, so C would be lowest) without realizing SiO2's strong covalent lattice makes its reduction far less favorable than CO2's, reversing the expected order for I; also incorrectly extends this reasoning to reject II.",
+      "B": "Correctly identifies that the inert-pair effect makes PbO2 a much stronger oxidizer than SnO2 (II true), and recognizes that SiO2's very strong Si–O bonding makes it harder to reduce than CO2, so E°(C) > E°(Si), making I false.",
+      "C": "Incorrectly assumes both trends (C/Si and Sn/Pb) follow the same simple increasing-down-the-group pattern, missing that the C/Si trend is dominated by bond strength (opposite direction) while the Sn/Pb trend is dominated by the inert-pair effect.",
+      "D": "Mistakenly believes the inert-pair effect makes Pb(IV) *more* stable (so PbO2 would be harder to reduce, lower E°), rejecting II, while also misjudging I as false for the wrong reason."
+    },
+    "concept_ref": "Standard reduction potentials, inert-pair effect, and bond-strength effects in group 14 dioxides",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-48",
+    "body_md": "**Determine the neutron-to-proton ratio for $^{92}\\ce{Tc}$.**\n\n- Technetium has $Z = 43$ protons.\n- Mass number $A = 92$, so neutrons $N = 92 - 43 = 49$.\n- $N/Z = 49/43 \\approx 1.14$, which is **lower** than the stable ratio for elements in this mass region (stable nuclei near $Z=43$ typically have $N/Z$ closer to 1.3).\n\n**Interpretation:**\n\nA nucleus with too few neutrons relative to protons (i.e., proton-rich) needs to convert a proton into a neutron to move toward the stability band. This is accomplished by:\n\n- Positron emission: $\\ce{p -> n + e+ + \\nu}$, or\n- Electron capture (not listed here).\n\nBoth increase $N$ and decrease $Z$, moving the nuclide toward stability. Since positron emission is an option, it is the correct decay mode for this proton-rich isotope.\n\n**Conclusion:** $^{92}\\ce{Tc}$ decays by **positron emission** to become $^{92}\\ce{Mo}$ ($Z=42$), which lies in the stable region.",
+    "distractor_notes": {
+      "A": "Alpha decay is typical for very heavy nuclei ($A > 200$) to reduce excess mass/charge; $^{92}\\ce{Tc}$ is far too light for alpha emission to be favorable.",
+      "B": "A student might assume any 'exotic' technetium isotope undergoes $\\beta^-$ decay (as many heavier Tc isotopes do), forgetting to check the $N/Z$ ratio—$\\beta^-$ decay is for neutron-rich nuclei, but $^{92}\\ce{Tc}$ is proton-rich.",
+      "C": "Gamma decay only releases energy from an excited nuclear state to a lower one of the same nuclide; it does not change $Z$ or $N$ and cannot by itself move a nucleus toward the stability band, so it isn't the primary decay mode here.",
+      "D": "Correct: with $N/Z \\approx 1.14$ (proton-rich relative to the stable region near $Z=43$), the nucleus converts a proton into a neutron via positron emission to approach the belt of stability, forming $^{92}\\ce{Mo}$."
+    },
+    "concept_ref": "Predicting decay mode from neutron-to-proton ratio",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-49",
+    "body_md": "Use VSEPR to determine molecular geometry from the central atom's electron domains.\n\n**$\\ce{CO2}$:** Carbon has 2 double bonds to oxygen and no lone pairs. With 2 bonding domains and 0 lone pairs, the electron geometry and molecular geometry are both linear, giving a bond angle of $180°$.\n\n**$\\ce{ClO2}$:** Chlorine is the central atom with 2 double bonds to oxygen atoms plus 1 lone pair (Cl has 7 valence electrons; forming 2 bonds uses electrons but leaves one unpaired electron, and the accepted Lewis structure gives Cl one lone electron/lone pair region). This gives 3 electron domains around Cl (2 bonding + 1 lone pair or radical electron), producing a **bent** shape (bond angle ≈ $117.6°$), not linear.\n\nSo only statement I is correct: $\\ce{CO2}$ is linear, $\\ce{ClO2}$ is bent.\n\n**Answer: (A) I only**",
+    "distractor_notes": {
+      "A": "Correctly identifies that $\\ce{CO2}$ has 2 bonding domains and no lone pairs on C (linear), while $\\ce{ClO2}$ has an extra lone pair/odd electron on Cl making it bent, not linear.",
+      "B": "This would result from mistakenly thinking $\\ce{CO2}$ is bent (perhaps confusing it with $\\ce{H2O}$ or $\\ce{SO2}$) while incorrectly assuming $\\ce{ClO2}$'s extra electron density doesn't distort geometry, making it linear.",
+      "C": "This comes from ignoring the lone pair/unpaired electron on Cl in $\\ce{ClO2}$ and assuming any molecule with only 2 terminal atoms must be linear, without checking electron domain geometry.",
+      "D": "This results from incorrectly assuming $\\ce{CO2}$ is bent (mistaking it for a molecule like $\\ce{O3}$ or $\\ce{SO2}$ with a lone pair on carbon) while correctly identifying $\\ce{ClO2}$ as bent, thus rejecting both."
+    },
+    "concept_ref": "VSEPR theory and molecular geometry (AXn notation)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-50",
+    "body_md": "**Step 1: Draw a resonance structure of $\\ce{NO2^-}$.**\nNitrite has 18 valence electrons total ($5+2(6)+1=18$). One correct Lewis structure has:\n- N double-bonded to one O\n- N single-bonded to the other O (which carries a lone pair making it $-1$)\n- N has **one lone pair**\n\n**Step 2: Formal charge formula**\n$$FC = (\\text{valence e}^-) - (\\text{nonbonding e}^-) - \\tfrac{1}{2}(\\text{bonding e}^-)$$\n\nFor N: valence $=5$, nonbonding $=2$ (one lone pair), bonding electrons $=6$ (4 from the double bond + 2 from the single bond).\n\n$$FC_N = 5 - 2 - \\tfrac{6}{2} = 5-2-3=0$$\n\n**Step 3: Check the other resonance structure**\nSwapping which O gets the double bond doesn't change N's bonding pattern (still one double bond, one single bond, one lone pair on N), so $FC_N=0$ in *both* resonance forms — the negative charge resides on the singly-bonded O in each structure, not on N.\n\nThus nitrogen's formal charge is consistently **0**.",
+    "distractor_notes": {
+      "A": "Correct: nitrogen keeps one lone pair, one double bond, and one single bond in every resonance structure, giving $FC_N = 5-2-3=0$.",
+      "B": "This comes from forgetting nitrogen's lone pair (treating N as having 0 nonbonding electrons), giving $5-0-3=+2$ or miscounting bonding electrons to get $+1$; either way an electron-counting slip on N's lone pair or bonds.",
+      "C": "This mistakenly assigns the ion's overall $-1$ charge directly to nitrogen instead of correctly placing it on the singly-bonded oxygen atom.",
+      "D": "This assumes the formal charge changes between resonance structures, but resonance only moves which oxygen holds the double bond/charge — nitrogen's local bonding pattern (and thus its formal charge) stays the same in both structures."
+    },
+    "concept_ref": "Formal charge and resonance structures",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-51",
+    "body_md": "Both $\\ce{CO}$ and $\\ce{CN^-}$ are isoelectronic with $\\ce{N2}$, each having 14 valence... actually let's count total electrons properly.\n\n**$\\ce{CO}$:** C has 4 valence e⁻, O has 6 valence e⁻, total = 10 valence electrons.\n\n**$\\ce{CN^-}$:** C has 4, N has 5, plus 1 extra electron for the negative charge = 10 valence electrons.\n\nBoth species have exactly 10 valence electrons, just like $\\ce{N2}$, so they share the same molecular orbital filling pattern:\n\n$\\sigma_{2s}^2\\ \\sigma_{2s}^{*2}\\ \\pi_{2p}^4\\ \\sigma_{2p}^2$\n\nBonding electrons = 8 (2 from $\\sigma_{2s}$, 4 from $\\pi$, 2 from $\\sigma_{2p}$), antibonding = 2 (from $\\sigma_{2s}^{*}$).\n\nBond order $= \\dfrac{(\\text{bonding} - \\text{antibonding})}{2} = \\dfrac{8-2}{2} = 3$\n\nThis matches the simple Lewis structure picture too: $\\ce{:C#O:}$ and $\\ce{[:C#N:]^-}$ both show a triple bond between the two atoms, confirming bond order 3 for each.\n\nTherefore **both I and II** have a bond order of 3.",
+    "distractor_notes": {
+      "A": "Incorrect—this assumes only $\\ce{CO}$ has a triple bond, overlooking that $\\ce{CN^-}$ is isoelectronic with $\\ce{CO}$ and $\\ce{N2}$ (10 valence electrons), so it also has bond order 3.",
+      "B": "Incorrect—this assumes only $\\ce{CN^-}$ has a triple bond, perhaps from miscounting $\\ce{CO}$'s valence electrons or thinking oxygen's higher electronegativity lowers the bond order, but $\\ce{CO}$ also has 10 valence electrons and bond order 3.",
+      "C": "Correct—both $\\ce{CO}$ and $\\ce{CN^-}$ have 10 valence electrons, isoelectronic with $\\ce{N2}$, giving each a triple bond (bond order 3) as confirmed by both Lewis structures and MO theory.",
+      "D": "Incorrect—this likely results from an electron-counting error (e.g., forgetting the extra electron in $\\ce{CN^-}$ or miscounting $\\ce{CO}$'s valence electrons) leading to the false conclusion that neither has a triple bond."
+    },
+    "concept_ref": "Molecular orbital theory and bond order in isoelectronic diatomics",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-52",
+    "body_md": "Allene is $\\ce{H2C=C=CH2}$, with the structure $\\ce{H2C=C=CH2}$ (central carbon $sp$-hybridized, terminal carbons $sp^2$).\n\n**Count the bonds:**\n\n- Each C–H bond is a single $\\sigma$ bond: there are 4 of these ($2$ H's on each terminal carbon).\n- Each C=C linkage consists of one $\\sigma$ bond plus one $\\pi$ bond; there are 2 such C=C linkages, giving 2 $\\sigma$ and 2 $\\pi$ bonds from the carbon skeleton.\n\n**Total:**\n\n- $\\sigma$ bonds: $4 \\text{ (C–H)} + 2 \\text{ (C–C)} = 6$\n- $\\pi$ bonds: $2$ (one from each C=C)\n\nSo allene has **6 $\\sigma$ bonds and 2 $\\pi$ bonds**, matching choice (D).",
+    "distractor_notes": {
+      "A": "This undercounts both totals — likely from missing one C–H bond and treating only one C=C as containing a $\\pi$ bond, forgetting that each double bond contributes its own $\\pi$ bond.",
+      "B": "This comes from correctly counting 2 $\\pi$ bonds but missing one $\\sigma$ bond, perhaps by forgetting one C–H bond or miscounting the C–C $\\sigma$ bonds.",
+      "C": "This results from correctly counting all 6 $\\sigma$ bonds but treating the two C=C double bonds as sharing/contributing only a single $\\pi$ bond overall, rather than recognizing each double bond has its own independent $\\pi$ bond.",
+      "D": "Correct: 4 C–H $\\sigma$ bonds + 2 C–C $\\sigma$ bonds = 6 $\\sigma$ bonds, and each of the two C=C double bonds supplies one $\\pi$ bond, giving 2 $\\pi$ bonds total."
+    },
+    "concept_ref": "Sigma and pi bond counting in cumulated dienes (allene)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-53",
+    "body_md": "**Key fact:** $\\ce{S2F4}$ (disulfur tetrafluoride) is *not* symmetric. Its real structure is $\\ce{F3S-SF}$: one sulfur is tetravalent (S(IV)) and carries three fluorines plus one lone pair, while the other sulfur is divalent (S(II)) and carries just one fluorine plus two lone pairs, the two sulfurs joined by a single $\\ce{S-S}$ bond.\n\n**Working out each S center:**\n- The $\\ce{SF3}$-sulfur has 4 electron domains (3 $\\ce{S-F}$ bonds + 1 $\\ce{S-S}$ bond) and one lone pair → $AX_4E$, giving a **see‑saw** local geometry (like $\\ce{SF4}$ with one F replaced by the $\\ce{-SF}$ group).\n- The $\\ce{SF}$-sulfur has only 2 bonding domains ($\\ce{S-F}$ and $\\ce{S-S}$) and two lone pairs → $AX_2E_2$, giving a **bent** local geometry.\n\nThis 1‑F/3‑F split (not 2‑F/2‑F) is the experimentally determined structure of $\\ce{S2F4}$, and it is the arrangement drawn in **(D)**: one sulfur bearing a single fluorine, bonded through the $\\ce{S-S}$ linkage to the other sulfur, which bears three fluorines in a see‑saw arrangement.\n\nSince none of the other drawings reproduce this asymmetric 1F/3F connectivity with the correct local geometries, (D) is the only structure consistent with the known bonding pattern of $\\ce{S2F4}$.",
+    "distractor_notes": {
+      "A": "This shows a four-membered $\\ce{S2F2}$ ring bridged by two extra F atoms, i.e., a cyclic structure with bridging fluorines. Students choosing this assume $\\ce{S2F4}$ forms a symmetric ring analogous to $\\ce{P4O10}$-type bridging, but sulfur does not form stable $\\ce{S-F-S}$ bridges here — the actual bonding is a direct $\\ce{S-S}$ bond with terminal F atoms only.",
+      "B": "This depicts a bridged/caged arrangement with fluorines bridging both sulfurs symmetrically. This mistake comes from assuming each F must be shared between the two sulfur centers (like a bridging halide in a dimer), but $\\ce{S2F4}$ has no bridging fluorines — all four F atoms are terminal, split unevenly (1 and 3) between the two S atoms.",
+      "C": "This shows a symmetric $\\ce{F2S-SF2}$ arrangement, i.e., two fluorines on each sulfur. This is the intuitive 'even split' guess based on the empirical formula, but it does not match the actual determined structure; a 2F/2F symmetric distribution would require both sulfurs to be equivalent (AX2E2 each), which is not what is observed experimentally.",
+      "D": "Correct: the real structure of $\\ce{S2F4}$ is $\\ce{F3S-SF}$, with an asymmetric 3F/1F split — one sulfur is a see-saw $AX_4E$ center (3 F + S-S bond + lone pair) and the other is a bent $AX_2E_2$ center (1 F + S-S bond + two lone pairs), joined by a single S–S bond."
+    },
+    "concept_ref": "VSEPR geometry and bonding pattern of S2F4 (F3S–SF asymmetric structure)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-54",
+    "body_md": "To decide geometry, count electron domains (bonding pairs + lone pairs) around the central atom using VSEPR/coordination logic.\n\n**I. $\\ce{W(CO)6}$:** Tungsten is in oxidation state 0, and each $\\ce{CO}$ is a neutral 2-electron donor ligand. With 6 ligands and no lone pairs on the metal (all d-electrons are non-bonding, not sterically active in an 18-electron octahedral complex), the coordination number is 6 with **AX6** arrangement → perfect **octahedral** geometry.\n\n**II. $\\ce{XeF6}$:** Xenon has 8 valence electrons; 6 are used in bonds to F, leaving **1 lone pair**. This gives an **AX6E1** system (7 electron domains total). The presence of a stereochemically active lone pair distorts the shape away from a regular octahedron - it is better described as a distorted octahedron (or capped octahedron), not a true octahedral geometry.\n\nTherefore only species I is truly octahedral, giving answer **(A)**.",
+    "distractor_notes": {
+      "A": "Correct: $\\ce{W(CO)6}$ has 6 identical ligands and no lone pair on W, giving a true AX6 octahedron; $\\ce{XeF6}$ has a lone pair that distorts the shape.",
+      "B": "This would result from assuming $\\ce{XeF6}$ is a clean AX6 octahedron while overlooking Xe's lone pair, and mistakenly thinking $\\ce{W(CO)6}$ is not octahedral (e.g., confusing it with a tetrahedral or square planar complex).",
+      "C": "This choice comes from ignoring the lone pair on Xe in $\\ce{XeF6}$, treating it as simple AX6 like $\\ce{W(CO)6}$, when in fact the lone pair makes its geometry distorted rather than a regular octahedron.",
+      "D": "This results from incorrectly assuming $\\ce{W(CO)6}$ has some steric activity from tungsten's d-electrons (making it non-octahedral) and also assuming $\\ce{XeF6}$'s lone pair prevents any octahedral-like symmetry at all."
+    },
+    "concept_ref": "VSEPR geometry and electron domain counting in coordination and main-group compounds",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-55",
+    "body_md": "**Setting up the stereocenters**\n\nIn 1,2,3‑trichlorocyclopentane, C1, C2, and C3 each bear one $\\ce{Cl}$, one $\\ce{H}$, and two different ring paths, so each is a stereocenter. Naively $2^3=8$ up/down arrangements exist, but the ring's symmetry (C1 and C3 are related by a mirror plane through C2) removes redundancy.\n\n**Using the ring's internal mirror symmetry**\n\nThe key symmetry element is a mirror plane passing through C2 (and the midpoint of the C4–C5 bond), which swaps C1 and C3 while leaving the up/down face unchanged. A *physical rotation* of the whole ring by 180° about the in‑plane axis through C2 also swaps C1↔C3 but flips every substituent's face (up↔down). Because rotation doesn't create a new molecule, applying this rotation shows several of the 8 raw labelings actually represent the *same* physical molecule.\n\nCarrying this out (label each Cl as U or D):\n\n- $\\{UUU, DDD\\}$ → one molecule (all three $\\ce{Cl}$ on the same face)\n- $\\{UDU, DUD\\}$ → one molecule (outer two $\\ce{Cl}$ cis to each other, middle one on the opposite face)\n- $\\{UUD, UDD\\}$ and $\\{DUU, DDU\\}$ → two more molecules, related to each other as mirror images (enantiomers)\n\nThis leaves **4 distinct rotation classes**.\n\n**Checking chirality (meso vs. enantiomeric pair)**\n\nTaking the true mirror image (flip every $\\ce{Cl}$ face, keep numbering):\n\n- $UUU \\to DDD$, which is the *same* rotation class → this isomer is **meso** (achiral, all‑cis).\n- $UDU \\to DUD$, again the *same* class → also **meso** (achiral, 1,3‑cis/2‑trans).\n- $UUD \\to DDU$, which lies in the *other* class ($DUU/DDU$) → these two remaining classes are a genuine **enantiomeric pair** (chiral, one asymmetric cis/trans pattern).\n\n**Total count**\n\n$$2\\ (\\text{meso forms}) + 2\\ (\\text{enantiomers}) = 4 \\text{ stereoisomers}$$\n\nSo there are **4** stereoisomers of 1,2,3‑trichlorocyclopentane — the correct answer is **(B)**.",
+    "distractor_notes": {
+      "A": "3 undercounts by treating the chiral (R,S) pair as a single isomer, forgetting that the asymmetric cis/trans arrangement gives two non‑superimposable enantiomers, not one.",
+      "B": "Correct: careful analysis of the ring's mirror symmetry through C2 shows two meso (achiral) diastereomers plus one pair of enantiomers, totaling 4 stereoisomers.",
+      "C": "6 comes from failing to recognize the ring symmetry that relates C1 and C3, treating all three stereocenters as fully independent (naively pairing 2^3=8 states into only 6 'classes' without properly accounting for the rotation that equates UUU with DDD, etc.).",
+      "D": "8 results from simply computing $2^3$ for three stereocenters without applying any symmetry reduction, ignoring that the molecule's internal mirror plane makes several of these raw combinations identical or meso."
+    },
+    "concept_ref": "Stereoisomer counting with internal symmetry (meso compounds and enantiomeric pairs) in cyclic polysubstituted systems",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-56",
+    "body_md": "Basicity of nitrogen depends on **availability of the lone pair** for protonation.\n\n- **(A) Pyrrole**: the N lone pair is delocalized into the aromatic $\\pi$ system (needed to satisfy Hückel's rule with 6 $\\pi$ electrons). Protonating this nitrogen would destroy aromaticity, so the lone pair is essentially unavailable — pyrrole is a very weak base ($pK_b$ very high, conjugate acid $pK_a \\approx -3.8$).\n\n- **(B) Imidazole**: has two nitrogens. The pyrrole-type N contributes its lone pair to the aromatic ring (like pyrrole), but the pyridine-type $sp^2$ N has a lone pair in an $sp^2$ orbital **not** part of the $\\pi$ system, so it is available for protonation. This makes imidazole a much stronger base than pyrrole.\n\n- **(C) Piperidine**: a saturated secondary amine with the N lone pair in an $sp^3$ orbital, fully available and not stabilized by any ring delocalization — a strong, simple aliphatic amine base.\n\n- **(D) Pyridine**: the N lone pair sits in an $sp^2$ orbital in the plane of the ring, perpendicular to the aromatic $\\pi$ system, so it does not participate in aromaticity and is available for protonation, though slightly less basic than aliphatic amines due to greater s-character.\n\nRanking basicity: piperidine > pyridine ≈ imidazole (N3) > pyrrole. Pyrrole is the weakest base because using its lone pair to bond a proton would destroy the aromatic stabilization of the ring.",
+    "distractor_notes": {
+      "A": "Correct: the pyrrole nitrogen's lone pair is part of the aromatic $\\pi$ system, so protonation destroys aromaticity, making it the weakest base.",
+      "B": "A student might think imidazole is weakest because it looks similar to pyrrole, missing that the second (pyridine-type) nitrogen has a non-delocalized lone pair that is readily available for protonation.",
+      "C": "A student might mistakenly think a cyclic amine is weaker than an aromatic amine, forgetting that piperidine's $sp^3$ nitrogen has a fully available lone pair with no aromatic system to disrupt, making it the strongest base, not the weakest.",
+      "D": "A student might confuse pyridine with pyrrole, not realizing pyridine's lone pair occupies an $sp^2$ orbital in-plane, separate from the aromatic $\\pi$ system, so it is available for protonation unlike pyrrole's."
+    },
+    "concept_ref": "Basicity and lone pair availability in aromatic vs. non-aromatic amines",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-57",
+    "body_md": "**Mechanism type is key.** Cyclohexene reacts with $\\ce{HBr}$ in the dark by the classic ionic (electrophilic addition) pathway:\n\n1. The alkene $\\pi$ electrons attack $\\ce{H+}$ (from $\\ce{HBr}$), protonating one alkene carbon and generating a **secondary carbocation** on the ring.\n2. $\\ce{Br-}$ then attacks this cation to give bromocyclohexane.\n\nThis stepwise ionic mechanism, with a discrete carbocation intermediate, is exactly what happens with $\\ce{HBr}$/dark (no peroxides, no light) — a textbook Markovnikov-type addition.\n\nThe other choices all avoid a true carbocation:\n- Radical-chain HBr addition (peroxide effect) goes through a bromine **radical**, not a cation.\n- $\\ce{Br2}$ additions (in $\\ce{MeOH}$ or $\\ce{CCl4}$) proceed through a bridged **bromonium ion**, which is delocalized over both carbons rather than a localized carbocation, and UV/$\\ce{CCl4}$ conditions instead promote radical allylic substitution.",
+    "distractor_notes": {
+      "A": "Correct: no light or peroxide initiator means the ionic mechanism operates — $\\ce{H+}$ adds first to form a discrete carbocation, then $\\ce{Br-}$ attacks it.",
+      "B": "Benzoyl peroxide initiates a **radical chain** (anti-Markovnikov) addition of $\\ce{HBr}$; the intermediate is a bromine/carbon radical, not a carbocation — students confuse radical and cationic intermediates.",
+      "C": "Br2 in methanol proceeds through a bridged **bromonium ion**, and methanol attacks this ion directly (giving a bromo ether); students mistakenly picture a free carbocation instead of the cyclic bromonium intermediate.",
+      "D": "UV light with $\\ce{Br2}$/$\\ce{CCl4}$ promotes **radical allylic bromination** (Wohl–Ziegler-type conditions without NBS), so the intermediate is an allylic radical, not a carbocation; students wrongly assume any Br2 addition is ionic."
+    },
+    "concept_ref": "Electrophilic addition vs radical addition mechanisms of alkenes",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-58",
+    "body_md": "This reaction is an $S_N2$ substitution (small anion nucleophile $\\ce{CN-}$, polar aprotic solvent acetone). $S_N2$ rate depends mainly on **steric accessibility** of the carbon bearing the leaving group, since the nucleophile must attack from the backside.\n\n- **(A)** $\\ce{CH3CH2Cl}$ — primary, but only a methyl group attached; small, but fewer carbons overall means less polarizable C–X bond and smaller alkyl chain than (C).\n- **(B)** neopentyl-type chloride ($\\ce{(CH3)3C-CH2Cl}$) — primary carbon, but the adjacent quaternary carbon creates severe steric hindrance blocking backside attack, drastically slowing $S_N2$ despite being primary.\n- **(C)** $\\ce{CH3CH2CH2CH2Br}$ (1-bromobutane) — a simple, unbranched primary alkyl bromide with no steric hindrance near the carbon bearing Br, and $\\ce{Br-}$ is an excellent leaving group. This gives the fastest $S_N2$ rate among the choices.\n- **(D)** a cyclopropyl bromide — the leaving group is on a small, rigid ring carbon; the strained, sp3-like but geometrically constrained ring carbon resists backside attack, and such halides are notoriously unreactive in $S_N2$.\n\nComparing (A) and (C): both are unhindered primary halides, but (C) has $\\ce{Br}$, a much better leaving group than $\\ce{Cl}$ in (A), so (C) reacts faster. (B) and (D) are both hindered (neopentyl-like and cyclopropyl, respectively) and react far slower.\n\n**Answer: (C)** — unhindered primary carbon with a good leaving group ($\\ce{Br-}$) maximizes $S_N2$ rate.",
+    "distractor_notes": {
+      "A": "Student picks the primary chloride, but overlooks that $\\ce{Cl-}$ is a much poorer leaving group than $\\ce{Br-}$, making this slower than (C) despite similar lack of steric hindrance.",
+      "B": "Student assumes 'primary carbon = fast $S_N2$' without checking neighboring substitution; the adjacent tert-butyl-like bulk (neopentyl structure) sterically blocks backside attack, making this one of the slowest, not fastest.",
+      "C": "Correct: unhindered primary carbon bearing $\\ce{Br}$, an excellent leaving group, gives the fastest backside attack and hence fastest $S_N2$ rate.",
+      "D": "Student assumes cyclopropane ring strain enhances reactivity like it does in addition reactions, forgetting that for $S_N2$ what matters is steric approach to the carbon–halogen bond, which is hindered by the rigid ring geometry."
+    },
+    "concept_ref": "SN2 reaction rate: steric hindrance and leaving group ability",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-59",
+    "body_md": "Myo-inositol is a cyclohexane ring with a hydroxyl group on each of its six carbons. Its unique stereochemistry means one $\\ce{OH}$ group is *cis* to the other five, while the remaining five hydroxyls are all mutually *cis* to each other in an alternating sense around the ring that allows them to occupy equatorial positions.\n\n- In the most stable chair conformation, the ring flips so that the maximum number of bulky $\\ce{OH}$ groups occupy equatorial positions (minimizing 1,3-diaxial strain).\n- Because five of the six hydroxyls have the correct alternating relative orientation, all five can simultaneously be equatorial in one chair form.\n- The sixth hydroxyl (the one *cis* to all the others) is forced into the axial position — it cannot flip to equatorial without forcing the other five axial, which would be far less stable.\n\nSo the most stable chair has **5 equatorial $\\ce{OH}$ groups and 1 axial $\\ce{OH}$ group**, giving answer (C).",
+    "distractor_notes": {
+      "A": "This corresponds to assuming only half the hydroxyls (3 of 6) can be equatorial, as if myo-inositol had an alternating all-cis/trans pattern like some other stereoisomers (e.g., confusing it with a less stable inositol isomer with more axial groups).",
+      "B": "This would result from misassigning the stereochemistry, thinking two of the hydroxyls are forced axial instead of just one, underestimating how favorable the myo configuration actually is.",
+      "C": "Correct: five of the six $\\ce{OH}$ groups have the alternating relative configuration allowing them all to be equatorial simultaneously, leaving only one (the unique cis-hydroxyl) axial.",
+      "D": "This assumes all six hydroxyls can be equatorial, which would require them to have a perfectly alternating relative stereochemistry around the entire ring — but myo-inositol has one hydroxyl with the opposite relative orientation, so all six cannot be equatorial at once."
+    },
+    "concept_ref": "Cyclohexane chair conformational analysis of myo-inositol",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  },
+  {
+    "question_id": "2026-N-60",
+    "body_md": "Protein folding buries **nonpolar, hydrophobic side chains** in the interior, away from water, while polar/charged residues stay on the surface where they can hydrogen-bond or ionize in the aqueous environment.\n\n- At pH 7, arginine's guanidinium group is protonated (+charged) → hydrophilic, surface-seeking.\n- Glutamic acid's carboxylic acid side chain is deprotonated (–charged) → hydrophilic, surface-seeking.\n- Lysine's ε-amino group is protonated (+charged) → hydrophilic, surface-seeking.\n- Methionine's side chain, $\\ce{CH2CH2SCH3}$, is a nonpolar thioether with no ionizable or strongly polar group at pH 7, making it hydrophobic and favoring burial in the protein interior.\n\nTherefore, **methionine** is the residue most likely found in the interior of a folded globular protein.",
+    "distractor_notes": {
+      "A": "Incorrect: student forgets that arginine's guanidinium group is a strong base and remains protonated (cationic) at pH 7, making it hydrophilic and surface-located, not buried.",
+      "B": "Incorrect: student overlooks that the carboxylic acid side chain of glutamic acid has a low pKa and is deprotonated (anionic) at physiological pH, so it is hydrophilic and stays on the surface.",
+      "C": "Incorrect: student fails to recognize that the terminal amine of lysine's side chain is protonated (cationic) at pH 7, giving it a hydrophilic character that favors surface exposure rather than burial.",
+      "D": "Correct: methionine's thioether side chain is nonpolar and uncharged at pH 7, so it is hydrophobic and preferentially buried in the protein's interior."
+    },
+    "concept_ref": "Amino acid side chain polarity and protein folding (hydrophobic core)",
+    "verified": false,
+    "author": "claude-batch-draft",
+    "updated_at": "2026-09-22"
+  }
+]

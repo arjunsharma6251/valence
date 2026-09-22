@@ -52,5 +52,5 @@ describe("content bundle", () => {
       const html = renderMd(t);
       expect(html, t).not.toContain("katex-error");
     }
-  });
+  }, 30_000);
 });

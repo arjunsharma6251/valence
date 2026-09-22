@@ -49,6 +49,10 @@ def main(argv: list[str] | None = None) -> None:
     ff.add_argument("--held", type=Path, required=True)
     ff.add_argument("--out", type=Path, default=Path("../public/figures"))
 
+    da = sub.add_parser("draft-all", help="incremental explanation drafts for every content/questions/20*.json (re-runnable)")
+    da.add_argument("--questions", type=Path, default=Path("../content/questions"))
+    da.add_argument("--out", type=Path, default=Path("../content/explanations"))
+
     r = sub.add_parser("review", help="summarize a work directory and list problems to fix")
     r.add_argument("work", type=Path)
 
@@ -86,6 +90,10 @@ def main(argv: list[str] | None = None) -> None:
         from .frqfig import run_frq_figures
 
         run_frq_figures(args.year, args.pdf, args.content, args.held, args.out)
+    elif args.cmd == "draft-all":
+        from .explain import run_draft_all
+
+        run_draft_all(args.questions, args.out)
     elif args.cmd == "review":
         from .review import run_review
 

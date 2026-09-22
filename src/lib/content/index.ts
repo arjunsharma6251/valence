@@ -10,6 +10,29 @@ import seedA from "../../../content/questions/seed-a.json";
 import seedB from "../../../content/questions/seed-b.json";
 import seedAExpl from "../../../content/explanations/seed-a.json";
 import seedBExpl from "../../../content/explanations/seed-b.json";
+import expl2016Local from "../../../content/explanations/2016-local.json";
+import expl2016National from "../../../content/explanations/2016-national.json";
+import expl2017Local from "../../../content/explanations/2017-local.json";
+import expl2017National from "../../../content/explanations/2017-national.json";
+import expl2018Local from "../../../content/explanations/2018-local.json";
+import expl2018National from "../../../content/explanations/2018-national.json";
+import expl2019Local from "../../../content/explanations/2019-local.json";
+import expl2019National from "../../../content/explanations/2019-national.json";
+import expl2020Local from "../../../content/explanations/2020-local.json";
+import expl2020National from "../../../content/explanations/2020-national.json";
+import expl2021Local from "../../../content/explanations/2021-local.json";
+import expl2021National from "../../../content/explanations/2021-national.json";
+import expl2022Local from "../../../content/explanations/2022-local.json";
+import expl2022National from "../../../content/explanations/2022-national.json";
+import expl2023Local from "../../../content/explanations/2023-local.json";
+import expl2023LocalB from "../../../content/explanations/2023-local-b.json";
+import expl2023National from "../../../content/explanations/2023-national.json";
+import expl2024Local from "../../../content/explanations/2024-local.json";
+import expl2024National from "../../../content/explanations/2024-national.json";
+import expl2025Local from "../../../content/explanations/2025-local.json";
+import expl2025National from "../../../content/explanations/2025-national.json";
+import expl2026Local from "../../../content/explanations/2026-local.json";
+import expl2026National from "../../../content/explanations/2026-national.json";
 import seedFrq from "../../../content/frq/seed.json";
 import frq2014 from "../../../content/frq/2014-national.json";
 import frq2016 from "../../../content/frq/2016-national.json";
@@ -65,6 +88,7 @@ export const questions: Question[] = [
 export const explanations: Explanation[] = [
   ...(seedAExpl as Explanation[]),
   ...(seedBExpl as Explanation[]),
+  ...([expl2016Local, expl2016National, expl2017Local, expl2017National, expl2018Local, expl2018National, expl2019Local, expl2019National, expl2020Local, expl2020National, expl2021Local, expl2021National, expl2022Local, expl2022National, expl2023Local, expl2023LocalB, expl2023National, expl2024Local, expl2024National, expl2025Local, expl2025National, expl2026Local, expl2026National].flat() as Explanation[]),
 ];
 export const frq: FrqProblem[] = [
   ...(seedFrq as FrqProblem[]),
