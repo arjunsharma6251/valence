@@ -94,7 +94,7 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
   const graded = status.kind === "graded" ? status.sub.grade : null;
 
   return (
-    <div className="pb-28">
+    <div className="pb-28 mx-auto w-full max-w-[760px]">
       <Link href="/part2" className="inline-flex items-center gap-0.5 text-accent text-body min-h-[44px] -ml-2 pr-2"><IconBack size={20} /> Part II</Link>
       <LargeTitle className="pb-1">{problem.title}</LargeTitle>
       <p className="text-footnote text-label-2 pb-3">{problem.year} · Problem {problem.number} · {total} points · {graded ? <Tag tone="accent">AI-graded {graded.total}/{graded.max_total}</Tag> : "Saved on this device as you type"}</p>
@@ -158,7 +158,7 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
       )}
 
       <div className="fixed bottom-[calc(56px+env(safe-area-inset-bottom))] md:bottom-0 inset-x-0 z-20 bg-ground/92 backdrop-blur-xl border-t border-sep shadow-bar">
-        <div className="mx-auto max-w-[640px] px-4 py-2.5 space-y-2">
+        <div className="mx-auto max-w-[760px] px-4 py-2.5 space-y-2">
           <div className="flex gap-1 overflow-x-auto [scrollbar-width:none]" aria-label="Insert symbol">
             {SYMBOLS.map((s) => (
               <button key={s} type="button" onMouseDown={(e) => e.preventDefault()} onClick={() => insert(s)} className="shrink-0 min-h-[36px] min-w-[36px] px-2 rounded-[8px] bg-fill text-subhead hover:bg-fill-2 active:bg-fill-2">{s}</button>

@@ -65,7 +65,7 @@ export function LargeTitle({ children, className = "" }: { children: ReactNode; 
     io.observe(el);
     return () => { io.disconnect(); setBarTitle(null, false); };
   }, [text]);
-  return <h1 ref={ref} className={`text-large-title font-bold tracking-[-0.02em] ${className}`}>{children}</h1>;
+  return <h1 ref={ref} className={`font-display text-large-title md:text-[2.5rem] font-bold tracking-[-0.025em] ${className}`}>{children}</h1>;
 }
 
 /** Screens without a Large Title (Practice, a running mock) name themselves in the bar. */
@@ -90,6 +90,11 @@ export function useBarTitle() {
     () => barTitle,
     () => EMPTY_BAR,
   );
+}
+
+/** Centers narrow, form-like screens (account, search, feedback) at phone width on desktop. */
+export function Narrow({ children, className = "" }: { children: ReactNode; className?: string }) {
+  return <div className={`mx-auto w-full max-w-[640px] ${className}`}>{children}</div>;
 }
 
 /** Section header for a grouped list (UITableView style): small, secondary, above the group. */

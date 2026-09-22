@@ -112,7 +112,8 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
   };
 
   return (
-    <article aria-live="polite">
+    <article aria-live="polite" className={`animate-rise ${mode === "mock" ? "" : "lg:grid lg:grid-cols-[minmax(0,1fr)_400px] lg:gap-x-8"}`}>
+      <div className="lg:col-start-1">
       <div className="flex items-center gap-2 text-footnote text-label-2 min-h-6 mb-2 whitespace-nowrap">
         {position && <span className="font-semibold text-label tnum shrink-0">{position}</span>}
         {topic && <span className="truncate min-w-0">{topic.name}</span>}
@@ -120,19 +121,20 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
       </div>
 
       <div className="text-body leading-relaxed">
-        <Md text={question.stem_md} />
+        <Md text={question.stem_md} className="lg:text-[19px]" />
         {question.figure_url && (
           // eslint-disable-next-line @next/next/no-img-element
           <img src={question.figure_url} alt="Figure for this question" className="figure-invert mt-3 rounded-[10px] max-w-full" loading="lazy" />
         )}
       </div>
 
-      <Group className="mt-4" insetIcon>
+      <Group className="mt-4 stagger" insetIcon>
         {question.options.map((o, i) => {
           const isChosen = chosen === o.label;
           const isCorrect = o.label === question.correct_option;
           const showCorrect = revealed && isCorrect;
           const showWrong = revealed && isChosen && !isCorrect;
+          const dim = revealed && !isCorrect && !isChosen ? "opacity-60" : "";
           const tone = showCorrect ? "bg-green-tint" : showWrong ? "bg-red-tint" : isChosen ? "bg-accent-tint" : "hover:bg-fill/60 active:bg-fill";
           const badge = showCorrect
             ? "bg-green text-white"
@@ -148,7 +150,7 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
               onClick={() => choose(o.label)}
               disabled={mode !== "mock" && mode !== "detail" && answered}
               aria-pressed={isChosen}
-              className={`w-full text-left flex items-start gap-3 px-4 py-3 min-h-[52px] transition-[background-color] duration-150 disabled:cursor-default ${tone}`}
+              className={`w-full text-left flex items-start gap-3 px-4 py-3 min-h-[52px] transition-[background-color,opacity,transform] duration-200 active:scale-[0.995] disabled:cursor-default ${tone} ${dim}`}
             >
               <span className={`mt-0.5 shrink-0 w-7 h-7 rounded-full inline-flex items-center justify-center text-footnote font-semibold transition-[background-color,border-color] duration-150 ${badge}`}>
                 {showCorrect ? <IconCheck size={16} className="animate-spring" /> : showWrong ? <IconX size={16} className="animate-spring" /> : o.label}
@@ -187,8 +189,10 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
         )}
       </div>
 
+      </div>
+
       {flagOpen && (
-        <Group className="mt-3 animate-rise" aria-label="Flag reason">
+        <Group className="mt-3 animate-rise lg:col-start-1" aria-label="Flag reason">
           {FLAG_REASONS.map((r) => (
             <button key={r.value} type="button" onClick={() => flag(r.value)} className="w-full text-left px-4 min-h-[44px] text-body text-accent hover:bg-fill/60 active:bg-fill">
               {r.label}
@@ -198,7 +202,7 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
       )}
 
       {revealed && showExpl && (
-        <div className="animate-rise">
+        <div className="animate-rise lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-[76px] lg:self-start lg:[&>div:first-child]:pt-0 lg:[&_h2]:pt-0">
           {question.acs_solution_md && (
             <>
               <GroupHeader>Official solution</GroupHeader>

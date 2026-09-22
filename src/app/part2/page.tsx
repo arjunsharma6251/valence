@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Group, GroupFooter, LargeTitle, Row } from "@/components/ui";
+import { Group, GroupFooter, LargeTitle, Narrow, Row } from "@/components/ui";
 import { frq, getTopic } from "@/lib/content";
 
 export const metadata: Metadata = { title: "Part II" };
@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Part II" };
 /** Server Component: static FRQ list, no client JS. */
 export default function Page() {
   return (
-    <div>
+    <Narrow className="stagger">
       <LargeTitle className="pt-1 pb-4">Part II</LargeTitle>
       <Group>
         {frq.map((p) => (
@@ -21,6 +21,6 @@ export default function Page() {
         ))}
       </Group>
       <GroupFooter>Type an answer to each part and get it graded against a rubric, with what you missed and the model answer. Grades are AI-generated and labeled as such. Five graded submissions per day.</GroupFooter>
-    </div>
+    </Narrow>
   );
 }

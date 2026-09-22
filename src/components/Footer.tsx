@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="mx-auto max-w-[640px] px-4 pt-8 pb-[calc(56px+env(safe-area-inset-bottom)+24px)] md:pb-10 text-footnote text-label-2 leading-snug">
+    <footer className="mx-auto max-w-[1040px] px-4 md:px-6 pt-8 pb-[calc(56px+env(safe-area-inset-bottom)+24px)] md:pb-10 text-footnote text-label-2 leading-snug">
       <p>
         Valence is a free, independent practice tool and is not affiliated with or endorsed by the American Chemical Society. Exam-derived questions are attributed to their source; original questions are marked as such.
       </p>

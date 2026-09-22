@@ -1,8 +1,9 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
-import { Button, Group, GroupFooter, GroupHeader, LargeTitle, LinkButton, Row, Skeleton, Tag, usePageTitle } from "@/components/ui";
+import { Button, Group, GroupFooter, GroupHeader, LargeTitle, LinkButton, Narrow, Row, Skeleton, Tag, usePageTitle } from "@/components/ui";
 import { IconPause, IconShare } from "@/components/icons";
+import { CountUp } from "@/components/CountUp";
 import { shareImage } from "@/lib/share";
 import { getQuestion, getTopic, questions, topics } from "@/lib/content";
 import type { Level } from "@/lib/content/types";
@@ -40,7 +41,7 @@ function Lobby({ mocks, onOpen }: { mocks: MockSession[]; onOpen: (id: string) =
   };
   const past = [...mocks].filter((m) => m.submitted_at).reverse();
   return (
-    <div>
+    <Narrow className="stagger">
       <LargeTitle className="pt-1 pb-4">Mock exam</LargeTitle>
       <Group>
         {(Object.keys(MOCK_SPECS) as Level[]).map((level) => {
@@ -63,7 +64,7 @@ function Lobby({ mocks, onOpen }: { mocks: MockSession[]; onOpen: (id: string) =
           </Group>
         </>
       )}
-    </div>
+    </Narrow>
   );
 }
 
@@ -98,7 +99,7 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
 
   if (mock.paused_at) {
     return (
-      <div>
+      <Narrow>
         <LargeTitle className="pt-1 pb-4">Paused</LargeTitle>
         <Group>
           <div className="px-4 py-5 text-center">
@@ -110,13 +111,13 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
           <Button className="w-full" onClick={() => saveMock(resumeMock(mock))}>Resume</Button>
           <Button variant="destructive" className="w-full" onClick={() => discardMock(mock.id)}>Discard mock</Button>
         </div>
-      </div>
+      </Narrow>
     );
   }
 
   return (
     <div>
-      <div className="sticky top-[52px] z-20 -mx-4 px-4 py-1.5 bg-ground/92 backdrop-blur-xl border-b border-sep flex items-center gap-3">
+      <div className="sticky top-[52px] md:top-[60px] z-20 -mx-4 px-4 md:-mx-6 md:px-6 py-1.5 bg-ground/92 backdrop-blur-xl border-b border-sep flex items-center gap-3">
         <span className={`text-headline font-semibold tnum ${left < 300 ? "text-red" : ""}`}>{fmt(left)}</span>
         <span className="text-footnote text-label-2 tnum">{answered}/{mock.question_ids.length}</span>
         <div className="ml-auto flex items-center gap-1">
@@ -137,7 +138,8 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
         </Group>
       )}
 
-      <div className="mt-4">
+      <div className="mt-4 lg:grid lg:grid-cols-[minmax(0,1fr)_400px] lg:gap-x-8 lg:items-start">
+      <div>
         <QuestionCard
           key={id}
           question={q}
@@ -148,8 +150,10 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
           onNext={() => setI((x) => Math.min(mock.question_ids.length - 1, x + 1))}
           nextLabel={i === mock.question_ids.length - 1 ? "Last question" : "Next"}
         />
+        {i > 0 && <div className="pt-3"><Button variant="plain" size="compact" onClick={() => setI((x) => x - 1)}>Previous</Button></div>}
       </div>
 
+      <div className="lg:sticky lg:top-[112px]">
       <GroupHeader>Questions</GroupHeader>
       <Group>
         <div className="grid grid-cols-10 gap-1.5 p-3" aria-label="Question grid">
@@ -167,7 +171,8 @@ function Running({ mock, onSubmitted }: { mock: MockSession; onSubmitted: (id: s
           ))}
         </div>
       </Group>
-      {i > 0 && <div className="pt-3"><Button variant="plain" size="compact" onClick={() => setI((x) => x - 1)}>Previous</Button></div>}
+      </div>
+      </div>
     </div>
   );
 }
@@ -185,11 +190,11 @@ function Report({ mock, onClose }: { mock: MockSession; onClose: () => void }) {
   };
   const rows = Object.entries(s.by_topic).sort((a, b) => a[1].correct / a[1].total - b[1].correct / b[1].total);
   return (
-    <div>
+    <Narrow className="stagger">
       <LargeTitle className="pt-1 pb-4">Score report</LargeTitle>
       <Group>
         <div className="px-4 py-4">
-          <p className="text-large-title font-bold tracking-[-0.02em] leading-none tnum">{s.correct}<span className="text-title text-label-2 font-medium"> / {s.total}</span></p>
+          <p className="font-display text-large-title font-bold tracking-[-0.02em] leading-none tnum"><CountUp value={s.correct} /><span className="text-title text-label-2 font-medium"> / {s.total}</span></p>
           <p className="mt-1.5 text-footnote text-label-2">{MOCK_SPECS[mock.level].name} · {new Date(mock.started_at).toLocaleDateString(undefined, { month: "short", day: "numeric" })} · {pct}% · {s.wrong_ids.length} added to Review</p>
         </div>
       </Group>
@@ -197,7 +202,7 @@ function Report({ mock, onClose }: { mock: MockSession; onClose: () => void }) {
       <Group>
         {rows.map(([tid, r]) => (
           <Row key={tid} href={`/practice?topic=${tid}`} title={getTopic(tid)?.name ?? tid} value={<span className="tnum">{r.correct}/{r.total}</span>}>
-            <span className="w-20 h-1.5 rounded-full bg-fill overflow-hidden shrink-0"><span className="block h-full bg-accent rounded-full" style={{ width: `${(100 * r.correct) / r.total}%` }} /></span>
+            <span className="w-20 h-1.5 rounded-full bg-fill overflow-hidden shrink-0"><span className="grow block h-full bg-accent rounded-full" style={{ width: `${(100 * r.correct) / r.total}%` }} /></span>
           </Row>
         ))}
       </Group>
@@ -220,6 +225,6 @@ function Report({ mock, onClose }: { mock: MockSession; onClose: () => void }) {
         </Button>
         <Button variant="plain" className="w-full" onClick={onClose}>Back</Button>
       </div>
-    </div>
+    </Narrow>
   );
 }

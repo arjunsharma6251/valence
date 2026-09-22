@@ -47,7 +47,7 @@ export function PracticeScreen() {
 
   return (
     <div>
-      <div className="mb-4 rounded-[var(--radius-group)] bg-group flex items-center px-4 min-h-[44px] relative">
+      <div className="mb-4 rounded-[var(--radius-group)] bg-group flex items-center px-4 min-h-[44px] relative lg:max-w-[calc(100%-432px)]">
         <label htmlFor="topic" className="text-body">Topic</label>
         <select
           id="topic"

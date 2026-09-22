@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
-import { Button, Group, GroupFooter, LargeTitle, LinkButton, Row, Skeleton } from "@/components/ui";
+import { Button, Group, GroupFooter, LargeTitle, LinkButton, Narrow, Row, Skeleton } from "@/components/ui";
 import { getQuestion } from "@/lib/content";
 import { dismissCard } from "@/lib/store/actions";
 import { useHydrated, useStore } from "@/lib/store";
@@ -31,14 +31,14 @@ export function ReviewScreen() {
 
   if (!currentId) {
     return (
-      <div>
+      <Narrow>
         <LargeTitle className="pt-1 pb-4">Review</LargeTitle>
         <Group>
           <Row title={done ? `Done. ${done} reviewed.` : "Nothing due right now"} detail={total ? `${total} scheduled${nextDue ? ` · next ${nextDue.toLocaleDateString(undefined, { month: "short", day: "numeric" })}` : ""}` : "Questions you miss show up here on a spaced schedule."} />
         </Group>
         <GroupFooter>Missed questions come back the same day, then after 1 day, 6 days, and longer each time you get them right.</GroupFooter>
         <div className="pt-4"><LinkButton href="/practice" variant="tinted" className="w-full">Practice instead</LinkButton></div>
-      </div>
+      </Narrow>
     );
   }
 

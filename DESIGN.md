@@ -11,17 +11,17 @@ colors:
   label-3: "#8e8e93"
   sep: "rgba(60, 60, 67, 0.16)"
   sep-strong: "rgba(60, 60, 67, 0.32)"
-  accent: "#0066cc"
+  accent: "#4338ca"
   accent-on: "#ffffff"
-  accent-tint: "rgba(0, 102, 204, 0.12)"
-  accent-tint-2: "rgba(0, 102, 204, 0.2)"
+  accent-tint: "rgba(67, 56, 202, 0.1)"
+  accent-tint-2: "rgba(67, 56, 202, 0.18)"
   green: "#187a3c"
   green-tint: "rgba(52, 199, 89, 0.16)"
   red: "#c5281f"
   red-tint: "rgba(255, 59, 48, 0.14)"
   orange: "#a85a00"
   orange-tint: "rgba(255, 149, 0, 0.16)"
-  selection: "rgba(10, 122, 255, 0.25)"
+  selection: "rgba(67, 56, 202, 0.22)"
   ground-dark: "#000000"
   group-dark: "#1c1c1e"
   fill-dark: "#2c2c2e"
@@ -31,8 +31,8 @@ colors:
   label-3-dark: "#8e8e93"
   sep-dark: "rgba(84, 84, 88, 0.6)"
   sep-strong-dark: "rgba(84, 84, 88, 0.9)"
-  accent-dark: "#0a84ff"
-  accent-on-dark: "#ffffff"
+  accent-dark: "#a5b4fc"
+  accent-on-dark: "#14123a"
   accent-tint-dark: "rgba(10, 132, 255, 0.18)"
   accent-tint-2-dark: "rgba(10, 132, 255, 0.28)"
   green-dark: "#30d158"
@@ -441,3 +441,11 @@ Icons are an authored 24px set (`src/components/icons.tsx`) at a single 1.8 stro
 - **Don't** use arbitrary pixel type sizes, fluid `clamp()` type, a webfont, or a display face; the system stack is the brand.
 - **Don't** open a modal between questions; flag reasons and explanations are inline groups.
 - **Don't** hardcode hex values in components; the share-card palette in `src/lib/og.tsx` is the one sanctioned exception because Satori cannot read CSS custom properties.
+
+
+## Revision 2026-09-21 (evening): typography, accent, desktop layout, motion
+
+- Type: display face is Bricolage Grotesque (Large Titles, the wordmark, tile names, big numbers); body/UI face is Hanken Grotesk. Both self-hosted through next/font with `--font-display` and `--font-hanken`; the system stack is the fallback only.
+- Accent: indigo (#4338ca light, #a5b4fc dark with #14123a on-accent text) replaces system blue so the selection state no longer collides with the "Apple default" reading. Tints derive from it; green/red/orange stay verdict-only.
+- Layout: the shell is 1040px on desktop. Home shows the four destinations as tiles (2×2 on phones, 4-across from md) and Topics/Prediction side by side; Practice, Review, and the question page split into question (left) and a sticky explanation column (right, 400px) from lg; Mock puts the question grid in the right column. Form-like screens (Account, Search, Feedback, Part II list, mock lobby/report) stay 640px via `Narrow`.
+- Motion: entrance stagger (`.stagger`, 360ms rise, 40ms apart) on Home, lists, and options; `CountUp` on scores; bars draw in (`.grow`, 700ms); tiles lift on hover; the answer feedback grammar is unchanged. Everything collapses to 0.01ms under prefers-reduced-motion.

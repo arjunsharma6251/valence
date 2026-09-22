@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useMemo, useState } from "react";
 import { Md } from "@/components/Md";
-import { Group, GroupFooter, LargeTitle } from "@/components/ui";
+import { Group, GroupFooter, LargeTitle, Narrow } from "@/components/ui";
 import { IconSearch } from "@/components/icons";
 import { getTopic, questions, searchQuestions } from "@/lib/content";
 
@@ -12,7 +12,7 @@ export function SearchScreen() {
   const [q, setQ] = useState(params.get("q") ?? "");
   const results = useMemo(() => (q.trim() ? searchQuestions(q).slice(0, 50) : []), [q]);
   return (
-    <div>
+    <Narrow>
       <LargeTitle className="pt-1 pb-4">Search</LargeTitle>
       <div className="relative">
         <IconSearch size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-label-3" />
@@ -30,6 +30,6 @@ export function SearchScreen() {
         </Group>
       )}
       {q.trim() && results.length === 0 && <GroupFooter>No matches for “{q}”.</GroupFooter>}
-    </div>
+    </Narrow>
   );
 }

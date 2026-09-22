@@ -16,10 +16,10 @@
   --label-3: #8e8e93;
   --sep: rgba(60, 60, 67, 0.16);
   --sep-strong: rgba(60, 60, 67, 0.32);
-  --accent: #0066cc;
+  --accent: #4338ca;
   --accent-on: #ffffff;
-  --accent-tint: rgba(0, 102, 204, 0.12);
-  --accent-tint-2: rgba(0, 102, 204, 0.2);
+  --accent-tint: rgba(67, 56, 202, 0.1);
+  --accent-tint-2: rgba(67, 56, 202, 0.18);
   --green: #187a3c;
   --green-tint: rgba(52, 199, 89, 0.16);
   --red: #c5281f;
@@ -27,7 +27,7 @@
   --orange: #a85a00;
   --orange-tint: rgba(255, 149, 0, 0.16);
   --bar-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 8px 24px -12px rgba(0, 0, 0, 0.18);
-  --selection: rgba(10, 122, 255, 0.25);
+  --selection: rgba(67, 56, 202, 0.22);
   color-scheme: light;
 }
 
@@ -42,10 +42,10 @@
     --label-3: #8e8e93;
     --sep: rgba(84, 84, 88, 0.6);
     --sep-strong: rgba(84, 84, 88, 0.9);
-    --accent: #0a84ff;
-    --accent-on: #ffffff;
-    --accent-tint: rgba(10, 132, 255, 0.18);
-    --accent-tint-2: rgba(10, 132, 255, 0.28);
+    --accent: #a5b4fc;
+    --accent-on: #14123a;
+    --accent-tint: rgba(165, 180, 252, 0.16);
+    --accent-tint-2: rgba(165, 180, 252, 0.26);
     --green: #30d158;
     --green-tint: rgba(48, 209, 88, 0.18);
     --red: #ff453a;
@@ -53,7 +53,7 @@
     --orange: #ff9f0a;
     --orange-tint: rgba(255, 159, 10, 0.18);
     --bar-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 8px 24px -12px rgba(0, 0, 0, 0.7);
-    --selection: rgba(10, 132, 255, 0.35);
+    --selection: rgba(165, 180, 252, 0.3);
     color-scheme: dark;
   }
 }
@@ -67,10 +67,10 @@
   --label-3: #8e8e93;
   --sep: rgba(84, 84, 88, 0.6);
   --sep-strong: rgba(84, 84, 88, 0.9);
-  --accent: #0a84ff;
-  --accent-on: #ffffff;
-  --accent-tint: rgba(10, 132, 255, 0.18);
-  --accent-tint-2: rgba(10, 132, 255, 0.28);
+  --accent: #a5b4fc;
+  --accent-on: #14123a;
+  --accent-tint: rgba(165, 180, 252, 0.16);
+  --accent-tint-2: rgba(165, 180, 252, 0.26);
   --green: #30d158;
   --green-tint: rgba(48, 209, 88, 0.18);
   --red: #ff453a;
@@ -78,7 +78,7 @@
   --orange: #ff9f0a;
   --orange-tint: rgba(255, 159, 10, 0.18);
   --bar-shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 8px 24px -12px rgba(0, 0, 0, 0.7);
-  --selection: rgba(10, 132, 255, 0.35);
+  --selection: rgba(165, 180, 252, 0.3);
   color-scheme: dark;
 }
 
@@ -103,8 +103,10 @@
   --color-orange: var(--orange);
   --color-orange-tint: var(--orange-tint);
   --shadow-bar: var(--bar-shadow);
-  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-hanken), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-display), var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
   --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  
   /* Apple's fixed type scale */
   --text-large-title: 2.125rem;   /* 34 */
   --text-large-title--line-height: 1.2;
@@ -123,13 +125,27 @@
   --radius-group: 14px;
   --radius-control: 12px;
   --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
-  --animate-rise: rise 240ms var(--ease-out) both;
+  --animate-rise: rise 320ms var(--ease-out) both;
+  --animate-grow: grow-x 700ms var(--ease-out) both;
+  --animate-pop: pop-in 220ms var(--ease-out) both;
   --animate-spring: spring 180ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes rise {
-  from { opacity: 0; transform: translateY(6px); }
+  from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
+}
+@keyframes grow-x {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@keyframes grow-y {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+@keyframes pop-in {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
 }
 @keyframes spring {
   from { transform: scale(0.7); opacity: 0; }
@@ -141,6 +157,7 @@ body {
   background: var(--ground);
   color: var(--label);
   font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
   font-size: 1.0625rem;
   line-height: 1.45;
   -webkit-tap-highlight-color: transparent;
@@ -174,6 +191,24 @@ textarea { caret-color: var(--accent); }
 .figure-invert { background: #fff; }
 :root[data-theme="dark"] .figure-invert { filter: invert(0.92) hue-rotate(180deg); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .figure-invert { filter: invert(0.92) hue-rotate(180deg); } }
+
+/* Orchestrated entrance: children of .stagger rise in sequence (40ms apart). */
+.stagger > * { animation: rise 360ms var(--ease-out) both; }
+.stagger > :nth-child(1) { animation-delay: 0ms; }
+.stagger > :nth-child(2) { animation-delay: 40ms; }
+.stagger > :nth-child(3) { animation-delay: 80ms; }
+.stagger > :nth-child(4) { animation-delay: 120ms; }
+.stagger > :nth-child(5) { animation-delay: 160ms; }
+.stagger > :nth-child(6) { animation-delay: 200ms; }
+.stagger > :nth-child(7) { animation-delay: 240ms; }
+.stagger > :nth-child(8) { animation-delay: 280ms; }
+.grow { transform-origin: left center; animation: var(--animate-grow); }
+.lift { transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out), background-color 150ms; }
+@media (hover: hover) { .lift:hover { transform: translateY(-2px); box-shadow: var(--bar-shadow); } }
+.lift:active { transform: translateY(0) scale(0.99); }
+
+/* Display face for titles and the wordmark */
+.font-display { font-family: var(--font-display); font-optical-sizing: auto; }
 
 /* Grouped list: hairline separators inset from the leading edge, like UITableView. */
 .group-list > * + * { position: relative; }

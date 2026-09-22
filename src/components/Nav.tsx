@@ -22,18 +22,18 @@ export function TopBar() {
   const bar = useBarTitle();
   return (
     <header className="sticky top-0 z-30 bg-ground/92 backdrop-blur-xl border-b border-sep">
-      <div className="mx-auto max-w-[640px] px-4 h-[52px] flex items-center gap-2 relative">
+      <div className="mx-auto max-w-[1040px] px-4 md:px-6 h-[52px] md:h-[60px] flex items-center gap-2 relative">
         <span aria-hidden="true" className={`md:hidden absolute left-1/2 -translate-x-1/2 max-w-[52%] truncate whitespace-nowrap text-headline font-semibold transition-opacity duration-150 pointer-events-none ${bar.visible && bar.text ? "opacity-100" : "opacity-0"}`}>
           {bar.text}
         </span>
-        <Link href="/" className="font-semibold tracking-[-0.01em] text-headline min-h-[44px] inline-flex items-center pr-2" aria-label="Valence home">
+        <Link href="/" className="font-display font-bold tracking-[-0.02em] text-[19px] min-h-[44px] inline-flex items-center pr-2" aria-label="Valence home">
           Valence
         </Link>
-        <nav className="hidden md:flex items-center gap-0.5 ml-4" aria-label="Primary">
+        <nav className="hidden md:flex items-center gap-0.5 ml-6" aria-label="Primary">
           {items.map(({ href, label }) => {
             const on = path === href || path.startsWith(href + "/");
             return (
-              <Link key={href} href={href} className={`min-h-[36px] px-3 rounded-full text-subhead font-medium inline-flex items-center transition-colors ${on ? "bg-accent-tint text-accent" : "text-label-2 hover:text-label hover:bg-fill/70"}`}>
+              <Link key={href} href={href} className={`min-h-[36px] px-3.5 rounded-full text-subhead font-medium inline-flex items-center transition-[background-color] ${on ? "bg-accent-tint text-accent" : "text-label-2 hover:text-label hover:bg-fill/70"}`}>
                 {label}
               </Link>
             );
@@ -58,7 +58,7 @@ export function TabBar() {
           return (
             <li key={href}>
               <Link href={href} aria-current={on ? "page" : undefined} className={`relative h-full flex flex-col items-center justify-center gap-0.5 text-[10px] font-medium ${on ? "text-accent" : "text-label-2"}`}>
-                <Icon size={24} strokeWidth={on ? 2.4 : 1.8} />
+                <Icon size={24} strokeWidth={on ? 2.4 : 1.8} className={on ? "animate-pop" : ""} />
                 {label}
                 {href === "/review" && due > 0 && (
                   <span className="absolute top-[7px] left-[calc(50%+6px)] min-w-[18px] h-[18px] px-1 rounded-full bg-red text-white text-[11px] leading-[18px] text-center font-semibold tnum">{due > 99 ? "99+" : due}</span>

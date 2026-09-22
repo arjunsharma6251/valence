@@ -2,7 +2,7 @@
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import type { User } from "@supabase/supabase-js";
-import { Button, Group, GroupFooter, GroupHeader, LargeTitle, Row, Segmented } from "@/components/ui";
+import { Button, Group, GroupFooter, GroupHeader, LargeTitle, Row, Segmented, Narrow } from "@/components/ui";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { GroupsPanel } from "@/components/GroupsPanel";
 import { supabaseBrowser } from "@/lib/supabase/client";
@@ -49,7 +49,7 @@ export function SignInScreen() {
   const signOut = async () => { await sb?.auth.signOut(); resetAnalytics(); setUser(null); };
 
   return (
-    <div>
+    <Narrow className="stagger">
       <LargeTitle className="pt-1 pb-4">Account</LargeTitle>
 
       {!sb ? (
@@ -101,6 +101,6 @@ export function SignInScreen() {
       <Group>
         <Row title="Theme"><ThemeToggle /></Row>
       </Group>
-    </div>
+    </Narrow>
   );
 }
