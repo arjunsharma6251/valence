@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { frq } from "../content";
-import { buildGradePrompt, cacheKey, estimateCostCents, matchGradedPart, normalizeAnswer } from "../grading";
+import { buildGradeContent, buildGradePrompt, cacheKey, estimateCostCents, imageMediaType, matchGradedPart, normalizeAnswer } from "../grading";
 
 describe("grading helpers", () => {
   it("cache key ignores whitespace and case", () => {
@@ -36,5 +36,28 @@ describe("matchGradedPart", () => {
   it("falls back to position only when the counts agree", () => {
     expect(matchGradedPart([{ label: "x" }, { label: "y" }, { label: "z" }], parts, 1)?.label).toBe("y");
     expect(matchGradedPart([{ label: "x" }], parts, 1)).toBeUndefined();
+  });
+});
+
+describe("photos", () => {
+  it("cache key changes with attached images", () => {
+    const a = cacheKey("seed-frq-01", { a: "pH 2.72" });
+    const b = cacheKey("seed-frq-01", { a: "pH 2.72" }, ["/9j/abc"]);
+    const c = cacheKey("seed-frq-01", { a: "pH 2.72" }, ["/9j/abd"]);
+    expect(a).not.toBe(b);
+    expect(b).not.toBe(c);
+    expect(cacheKey("seed-frq-01", { a: "pH 2.72" }, ["/9j/abc"])).toBe(b);
+  });
+  it("sniffs JPEG and PNG and rejects anything else", () => {
+    expect(imageMediaType("/9j/4AAQ")).toBe("image/jpeg");
+    expect(imageMediaType("iVBORw0KGgo")).toBe("image/png");
+    expect(imageMediaType("R0lGODlh")).toBeNull();
+    expect(imageMediaType("<script>")).toBeNull();
+  });
+  it("puts photos before the prompt and mentions them", () => {
+    const blocks = buildGradeContent(frq[0], { a: "" }, ["/9j/abc", "nope"]);
+    expect(blocks.map((b) => b.type)).toEqual(["image", "text"]);
+    const text = blocks[1].type === "text" ? blocks[1].text : "";
+    expect(text).toContain("1 photo");
   });
 });

@@ -11,12 +11,21 @@ export function normalizeAnswer(text: string): string {
   return text.toLowerCase().replace(/\s+/g, " ").replace(/[“”]/g, '"').replace(/[‘’]/g, "'").trim();
 }
 
-export function cacheKey(frqId: string, answers: Record<string, string>): string {
+export function cacheKey(frqId: string, answers: Record<string, string>, images: string[] = []): string {
   const parts = Object.keys(answers)
     .sort()
     .map((k) => `${k}=${normalizeAnswer(answers[k] ?? "")}`)
     .join("|");
-  return createHash("sha256").update(`${frqId}::${parts}`).digest("hex");
+  const h = createHash("sha256").update(`${frqId}::${parts}`);
+  for (const img of images) h.update("::img:").update(createHash("sha256").update(img).digest("hex"));
+  return h.digest("hex");
+}
+
+/** Base64 JPEG/PNG sniffing for uploaded photos; anything else is rejected. */
+export function imageMediaType(b64: string): "image/jpeg" | "image/png" | null {
+  if (b64.startsWith("/9j/")) return "image/jpeg";
+  if (b64.startsWith("iVBOR")) return "image/png";
+  return null;
 }
 
 /** Price per million tokens, in cents. Extend when adding models. */
@@ -40,6 +49,7 @@ Grade each sub-part strictly against its rubric:
 - If an answer is blank, award 0 and say "No answer given."
 - "missing" names exactly which rubric criteria were not met, in one or two sentences a student can act on.
 - "common_mistakes" names the specific misconception if the error matches a common one; otherwise leave it empty.
+The student may attach photos of handwritten work instead of, or as well as, typing. Read the photos carefully: chemical structures, equations, mechanisms, plots and calculations drawn by hand all count as answers. Match handwritten work to sub-parts by the labels the student wrote (a, b, c…) or by content. Where a part has both typed text and handwriting, grade both together. If the handwriting is illegible for a part, say so in "missing" rather than guessing.
 Keep all text short and plain. Do not restate the key; the student sees the model answer separately.
 Return one entry per sub-part, in order, with "label" exactly as printed after "Part" (for example "a" or "e(i)"), nothing else.`;
 
@@ -52,7 +62,8 @@ export function matchGradedPart<T extends { label: string }>(graded: T[], parts:
   return graded.length === parts.length ? graded[index] : undefined;
 }
 
-export function buildGradePrompt(problem: FrqProblem, answers: Record<string, string>): string {
+export function buildGradePrompt(problem: FrqProblem, answers: Record<string, string>, photoCount = 0): string {
+  const photos = photoCount ? `\n\n${photoCount} photo${photoCount > 1 ? "s" : ""} of the student's handwritten work ${photoCount > 1 ? "are" : "is"} attached above; parts marked (blank) may be answered there.` : "";
   const parts = problem.parts
     .map((p) => {
       const rubric = p.rubric.map((r) => `  - (${r.points} pt) ${r.criterion}`).join("\n");
@@ -64,5 +75,16 @@ ${rubric}
 Student answer: ${answers[p.label]?.trim() ? answers[p.label] : "(blank)"}`;
     })
     .join("\n\n");
-  return `# ${problem.title}\n${problem.intro_md}\n\n${parts}`;
+  return `# ${problem.title}\n${problem.intro_md}\n\n${parts}${photos}`;
+}
+
+/** Message content for the grader: any photos first, then the prompt text. */
+export function buildGradeContent(problem: FrqProblem, answers: Record<string, string>, images: string[]) {
+  const blocks: ({ type: "image"; source: { type: "base64"; media_type: "image/jpeg" | "image/png"; data: string } } | { type: "text"; text: string })[] = [];
+  for (const data of images) {
+    const media_type = imageMediaType(data);
+    if (media_type) blocks.push({ type: "image", source: { type: "base64", media_type, data } });
+  }
+  blocks.push({ type: "text", text: buildGradePrompt(problem, answers, blocks.length) });
+  return blocks;
 }

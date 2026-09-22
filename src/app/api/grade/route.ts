@@ -3,7 +3,8 @@ import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { getFrq } from "@/lib/content";
-import { GRADER_SYSTEM, buildGradePrompt, cacheKey, estimateCostCents, matchGradedPart } from "@/lib/grading";
+import { GRADER_SYSTEM, buildGradeContent, cacheKey, estimateCostCents, imageMediaType, matchGradedPart } from "@/lib/grading";
+import { PHOTO_MAX_COUNT } from "@/lib/image";
 import { supabaseServer } from "@/lib/supabase/server";
 import { supabaseConfigured } from "@/lib/supabase/env";
 import { createClient } from "@supabase/supabase-js";
@@ -19,7 +20,7 @@ import { createClient } from "@supabase/supabase-js";
  * when Supabase is configured; otherwise in process memory (dev only).
  */
 
-export const maxDuration = 30;
+export const maxDuration = 60;
 
 const GradeSchema = z.object({
   parts: z.array(
@@ -108,14 +109,24 @@ export async function POST(request: Request) {
   if (!process.env.ANTHROPIC_API_KEY) {
     return NextResponse.json({ ok: false, reason: "not_configured", message: "Grading is not set up on this server yet." }, { status: 503 });
   }
-  const body = (await request.json().catch(() => null)) as { frq_id?: string; answers?: Record<string, string>; anon_id?: string } | null;
+  const body = (await request.json().catch(() => null)) as { frq_id?: string; answers?: Record<string, string>; images?: unknown; anon_id?: string } | null;
   const problem = body?.frq_id ? getFrq(body.frq_id) : undefined;
   if (!problem || !body?.answers) return NextResponse.json({ ok: false, reason: "bad_request" }, { status: 400 });
 
   const answers: Record<string, string> = {};
   for (const p of problem.parts) answers[p.label] = String(body.answers[p.label] ?? "").slice(0, 4000);
-  if (Object.values(answers).every((a) => !a.trim())) {
-    return NextResponse.json({ ok: false, reason: "empty", message: "Write an answer to at least one part first." }, { status: 400 });
+  // Photos of handwritten work: base64 JPEG/PNG, at most PHOTO_MAX_COUNT, ~1.6 MB each. Never stored.
+  const images: string[] = [];
+  if (Array.isArray(body.images)) {
+    for (const img of body.images.slice(0, PHOTO_MAX_COUNT)) {
+      if (typeof img !== "string" || img.length > 2_200_000 || !imageMediaType(img)) {
+        return NextResponse.json({ ok: false, reason: "bad_image", message: "A photo couldn't be read. Use a JPEG or PNG under 1.5 MB." }, { status: 400 });
+      }
+      images.push(img);
+    }
+  }
+  if (Object.values(answers).every((a) => !a.trim()) && images.length === 0) {
+    return NextResponse.json({ ok: false, reason: "empty", message: "Write an answer to at least one part, or add a photo of your work." }, { status: 400 });
   }
 
   let userId: string | null = null;
@@ -128,7 +139,7 @@ export async function POST(request: Request) {
   const subjects = userId ? [`user:${userId}`] : [`anon:${body.anon_id ?? "none"}`, `ip:${ip}`];
   const ledger = serviceLedger() ?? memoryLedger;
 
-  const key = cacheKey(problem.id, answers);
+  const key = cacheKey(problem.id, answers, images);
   const cached = await ledger.cached(key);
   if (cached) return NextResponse.json({ ok: true, grade: cached, model: MODEL, cached: true });
 
@@ -145,7 +156,7 @@ export async function POST(request: Request) {
       model: MODEL,
       max_tokens: 4000,
       system: [{ type: "text", text: GRADER_SYSTEM, cache_control: { type: "ephemeral" } }],
-      messages: [{ role: "user", content: buildGradePrompt(problem, answers) }],
+      messages: [{ role: "user", content: buildGradeContent(problem, answers, images) }],
       thinking: { type: "adaptive" },
       output_config: { effort: "medium", format: zodOutputFormat(GradeSchema) },
     });

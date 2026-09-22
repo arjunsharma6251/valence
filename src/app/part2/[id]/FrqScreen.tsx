@@ -9,6 +9,7 @@ import { addFrqSubmission, saveFrqDraft } from "@/lib/store/actions";
 import { useHydrated, useStore } from "@/lib/store";
 import type { FrqSubmission } from "@/lib/store/state";
 import { track } from "@/lib/analytics";
+import { PHOTO_MAX_COUNT, fileToJpegBase64 } from "@/lib/image";
 
 const SYMBOLS = ["→", "⇌", "Δ", "°", "⁺", "⁻", "²", "³", "₂", "₃", "₄", "×10^", "λ", "μ", "π"];
 
@@ -33,6 +34,9 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [status, setStatus] = useState<Status>({ kind: "idle" });
   const [showKey, setShowKey] = useState(false);
+  const [photos, setPhotos] = useState<{ id: string; data: string }[]>([]);
+  const [photoNote, setPhotoNote] = useState<string | null>(null);
+  const fileInput = useRef<HTMLInputElement | null>(null);
   const [elapsed, setElapsed] = useState(0);
   const focused = useRef<HTMLTextAreaElement | null>(null);
   const loaded = useRef(false);
@@ -66,11 +70,27 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
     requestAnimationFrame(() => { el.focus(); el.setSelectionRange(start + sym.length, start + sym.length); });
   };
 
+  const addPhotos = async (files: FileList | null) => {
+    if (!files?.length) return;
+    const room = PHOTO_MAX_COUNT - photos.length;
+    const picked = Array.from(files).slice(0, Math.max(0, room));
+    setPhotoNote(picked.length < files.length ? `Up to ${PHOTO_MAX_COUNT} photos per submission.` : null);
+    for (const f of picked) {
+      try {
+        const data = await fileToJpegBase64(f);
+        setPhotos((p) => (p.length < PHOTO_MAX_COUNT ? [...p, { id: crypto.randomUUID(), data }] : p));
+      } catch {
+        setPhotoNote("Couldn't read that image. Try a JPEG or PNG.");
+      }
+    }
+    if (fileInput.current) fileInput.current.value = "";
+  };
+
   const grade = async () => {
     setStatus({ kind: "grading", startedAt: Date.now() });
     setElapsed(0);
     try {
-      const res = await fetch("/api/grade", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ frq_id: problem.id, answers, anon_id: anonId }) });
+      const res = await fetch("/api/grade", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ frq_id: problem.id, answers, images: photos.map((p) => p.data), anon_id: anonId }) });
       const data = await res.json();
       if (!data.ok) {
         track("frq_grade_failed", { frq_id: problem.id, reason: data.reason ?? "unknown" });
@@ -80,7 +100,7 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
       }
       const sub: FrqSubmission = { id: crypto.randomUUID(), frq_id: problem.id, answers, grade: data.grade, model: data.model, created_at: new Date().toISOString() };
       addFrqSubmission(sub);
-      track("frq_submitted", { frq_id: problem.id, score: data.grade.total, max: data.grade.max_total, cached: Boolean(data.cached) });
+      track("frq_submitted", { frq_id: problem.id, score: data.grade.total, max: data.grade.max_total, cached: Boolean(data.cached), photos: photos.length });
       setStatus({ kind: "graded", sub, cached: Boolean(data.cached) });
       setShowKey(true);
     } catch {
@@ -156,6 +176,32 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
           </div>
         );
       })}
+
+      <GroupHeader trailing={`${photos.length} / ${PHOTO_MAX_COUNT}`}>Written work</GroupHeader>
+      <Group>
+        <div className="py-3">
+          <p className="text-[15px] leading-relaxed">Prefer to write? Photograph your handwritten answer, labelled by part, and it is graded with anything you typed.</p>
+          {photos.length > 0 && (
+            <ul className="mt-3 flex flex-wrap gap-3">
+              {photos.map((ph, i) => (
+                <li key={ph.id} className="relative">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={`data:image/jpeg;base64,${ph.data}`} alt={`Photo ${i + 1} of written work`} className="h-24 w-24 object-cover rounded-[4px] border border-line" />
+                  <button type="button" onClick={() => setPhotos((p) => p.filter((x) => x.id !== ph.id))} aria-label={`Remove photo ${i + 1}`}
+                    className="absolute -top-2 -right-2 h-7 w-7 rounded-full bg-canvas border border-line text-[13px] leading-none hover:border-ink">×</button>
+                </li>
+              ))}
+            </ul>
+          )}
+          <div className="mt-3 flex items-center gap-3">
+            <input ref={fileInput} type="file" accept="image/*" capture="environment" multiple className="sr-only" onChange={(e) => addPhotos(e.target.files)} />
+            <Button variant="outline" size="compact" onClick={() => fileInput.current?.click()} disabled={photos.length >= PHOTO_MAX_COUNT || status.kind === "grading"}>
+              {photos.length ? "Add another photo" : "Add a photo"}
+            </Button>
+            <span className="text-[13px] text-ink-soft">{photoNote ?? "Photos are graded, not stored."}</span>
+          </div>
+        </div>
+      </Group>
 
       {graded?.overall_feedback && <GroupFooter>{graded.overall_feedback}</GroupFooter>}
 
