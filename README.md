@@ -66,7 +66,7 @@ The seed set (`content/*/seed-*.json`) is 80 original USNCO-style questions and 
 
 ## Deploy
 
-Vercel: import the repo, set the env vars, done. Apply `supabase/migrations/*.sql` in order in the Supabase SQL editor and enable Google + email (magic link) providers with `https://<domain>/auth/callback` as a redirect URL.
+Live at https://www.usevalence.app (Vercel, auto-deploys from main). Apply `supabase/migrations/*.sql` in order in the Supabase SQL editor and enable Google + email (magic link) providers with `https://<domain>/auth/callback` as a redirect URL.
 
 ## Metrics
 

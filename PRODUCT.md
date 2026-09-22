@@ -28,7 +28,7 @@ The only free tool that grades USNCO Part II free response, and the only one wit
 
 ## Capabilities and Constraints
 
-- Stack: Next.js 16 App Router, TypeScript, Tailwind v4 tokens, KaTeX + mhchem for chemistry. Deployed on Vercel at https://valence-chem.vercel.app.
+- Stack: Next.js 16 App Router, TypeScript, Tailwind v4 tokens, KaTeX + mhchem for chemistry. Deployed on Vercel at https://www.usevalence.app.
 - Chemistry rendering is sacred: equations, formulas, states, and units must read exactly like a printed exam. Never stylize KaTeX output beyond size and color inheritance.
 - Design constraints from the scope: one column, one primary action per screen, mobile-first at 375px, light and dark following the system with a manual toggle, WCAG AA including rendered chemistry and figures (invert line art in dark mode), tap targets ≥44px, system font stack, one accent color, motion only for feedback, no modals between questions, no gamification (streaks, confetti, badges, mascots, playful copy).
 - Every action gives feedback within 100ms; grading is the one slow action and shows progress and an estimate.

@@ -23,7 +23,7 @@ export async function GET(request: Request) {
   const fonts = await loadOgFonts();
   return new ImageResponse(
     (
-      <Frame meta={`${level} · timed mock`} footer="60 questions drawn to the real topic mix · valence-chem.vercel.app">
+      <Frame meta={`${level} · timed mock`} footer="60 questions drawn to the real topic mix · usevalence.app">
         <div style={{ display: "flex", alignItems: "flex-end", gap: 18, marginTop: 4 }}>
           <div style={{ fontSize: 112, fontWeight: 700, letterSpacing: -4, lineHeight: 1 }}>{String(correct)}</div>
           <div style={{ fontSize: 44, color: og.label2, paddingBottom: 14 }}>{`/ ${total} · ${pct}%`}</div>
