@@ -24,6 +24,10 @@ export interface Topic {
   local_weight: number;
   /** Approximate number of questions on the 60-question national Part I. */
   national_weight: number;
+  /** Position of this topic's block of six on the official exam (1–10). */
+  block?: number;
+  /** Question numbers that block covers on the official exam, e.g. "7–12". */
+  questions?: string;
   subtopics: string[];
 }
 

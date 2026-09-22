@@ -70,7 +70,7 @@ Skip questions that continue from a previous page or are cut off; mention them i
 Classify each question into one of these topic ids and pick the closest subtopic:
 {topic_lines}
 
-USNCO Part I exams (local and national) run 60 questions in ten blocks of about six, one block per topic, usually in this order: stoichiometry (1-6), states-of-matter (7-12), thermodynamics (13-18), kinetics (19-24), equilibrium (25-30), redox (31-36), atomic-structure (37-42), bonding (43-48), descriptive (49-54), organic (55-60). Treat the question number as a strong prior for topic_id, but classify by the chemistry actually asked; blocks are sometimes merged or shifted by a question or two.
+USNCO Part I exams (local and national) run 60 questions in ten blocks of about six, one block per topic, in this official order: stoichiometry (1-6, stoichiometry and solutions), descriptive (7-12, descriptive and laboratory chemistry), states-of-matter (13-18), thermodynamics (19-24), kinetics (25-30), equilibrium (31-36), redox (37-42), atomic-structure (43-48), bonding (49-54), organic (55-60). Treat the question number as a strong prior for topic_id, but classify by the chemistry actually asked; blocks are sometimes merged or shifted by a question or two.
 """
 
 
