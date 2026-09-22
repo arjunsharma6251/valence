@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Group, GroupHeader, Row, Skeleton, Tag } from "@/components/ui";
 import { CountUp } from "@/components/CountUp";
 import { Leaderboard } from "@/components/Leaderboard";
+import { Welcome } from "@/components/Welcome";
 import { supabaseBrowser } from "@/lib/supabase/client";
 import { getTopic, questions } from "@/lib/content";
 import { accuracyByDay } from "@/lib/mastery";
@@ -47,6 +48,7 @@ export function HomeScreen() {
 
   return (
     <div>
+      <Welcome />
       <ul className="stagger grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-8 md:gap-x-8">
         {dest.map((d, i) => (
           <li key={d.href} className="border-t border-line">
@@ -69,7 +71,7 @@ export function HomeScreen() {
           <div>
             <GroupHeader trailing="Weakest first">Topics</GroupHeader>
             <Group>
-              {weak.slice(0, 6).map((s) => {
+              {weak.map((s) => {
                 const t = getTopic(s.topic_id);
                 const acc = s.attempts ? Math.round((100 * s.correct) / s.attempts) : null;
                 const weakRow = acc !== null && acc < 60;

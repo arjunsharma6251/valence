@@ -45,7 +45,24 @@ def parse_key(pdf: Path) -> list[KeyRow]:
         inter.append(KeyRow(cur, cur_ans or "", cur_pct))
     by_num = {r.number: r for r in inter if 1 <= r.number <= 60}
     if len(by_num) >= 55 and sum(1 for r in by_num.values() if r.answer) >= 50:
-        return [by_num[k] for k in sorted(by_num)]
+        rows = [by_num[k] for k in sorted(by_num)]
+        # Some years print "% Correct" as its own column after all the answers.
+        # Then the interleaved pass attached nothing (or everything to #60):
+        # read the percent column in order, honouring a "removed" placeholder
+        # for an invalidated question, and only trust it when the count matches.
+        if sum(1 for r in rows if r.percent_correct is not None) < len(rows) // 2:
+            text = "\n".join(key_pages)
+            m0 = re.search(r"%\s*Correct", text)
+            i = m0.start() if m0 else -1
+            if i >= 0:
+                col: list[float | None] = []
+                for m in re.finditer(r"(\d{1,3})\s*%|\bremoved\b", text[i:]):
+                    col.append(None if m.group(0).endswith("removed") else float(m.group(1)) / 100)
+                if len(col) == 60:
+                    rows = [KeyRow(r.number, r.answer, col[r.number - 1]) for r in rows]
+                else:
+                    rows = [KeyRow(r.number, r.answer, None) for r in rows]
+        return rows
 
     numbers = [int(t.rstrip(".")) for t in tokens if re.fullmatch(r"\d{1,2}\.?", t) and 1 <= int(t.rstrip(".")) <= 60]
     answers = [t for t in tokens if re.fullmatch(r"[A-D]", t)]

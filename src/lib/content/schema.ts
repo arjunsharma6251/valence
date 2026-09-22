@@ -16,6 +16,7 @@ export const questionSchema = z.object({
   topic_id: z.string().min(1),
   subtopic: z.string(),
   est_percent_correct: z.number().min(0.01).max(0.99),
+  field_percent_correct: z.number().min(0).max(1).nullable().optional(),
   correct_option: optionLabel,
   options: z
     .array(z.object({ label: optionLabel, text_md: z.string().min(1) }))

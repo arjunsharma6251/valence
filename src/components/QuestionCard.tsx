@@ -167,6 +167,12 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
           {correct ? "Correct" : `Not quite. The answer is ${question.correct_option}.`}
         </p>
       )}
+      {revealed && question.field_percent_correct != null && (
+        <p className="mt-2 text-[13px] text-ink-soft animate-rise [animation-delay:80ms]">
+          <span className="tnum">{Math.round(question.field_percent_correct * 100)}%</span> of national qualifiers got this right
+          {mode !== "detail" && (correct ? (question.field_percent_correct < 0.4 ? ", so this one is hard. Nice." : ".") : (question.field_percent_correct >= 0.75 ? ", so it is worth a second look." : "."))}
+        </p>
+      )}
 
       <div className="mt-3 flex items-center gap-2">
         {revealed && (

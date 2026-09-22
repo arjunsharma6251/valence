@@ -29,6 +29,8 @@ export type EventName =
   | "sign_in"
   | "theme_changed"
   | "share"
+  | "welcome_shown"
+  | "welcome_dismissed"
   | "challenge_opened"
   | "group_created"
   | "group_joined"

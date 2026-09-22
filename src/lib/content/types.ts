@@ -52,6 +52,8 @@ export interface Question {
    * an author estimate. Converted to an Elo-style rating in src/lib/mastery.
    */
   est_percent_correct: number;
+  /** Official ACS percent of national qualifiers who answered correctly (0–1), when published. */
+  field_percent_correct?: number | null;
   correct_option: OptionLabel;
   options: QuestionOption[];
   /** The official one-line ACS solution, if published. */

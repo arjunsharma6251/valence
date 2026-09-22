@@ -135,6 +135,7 @@ def _held_question(row: dict, answer: dict, year: int, level: Level, qid: str) -
         "stem_md": row["stem_md"].strip(), "figure_url": None,
         "topic_id": row["topic_id"], "subtopic": row.get("subtopic", ""),
         "est_percent_correct": est,
+        "field_percent_correct": est if pct else None,
         "correct_option": answer["correct_option"],
         "options": [{"label": L, "text_md": f"Shown in the figure ({L})"} for L in "ABCD"],
         "acs_solution_md": answer.get("acs_solution_md") or None,

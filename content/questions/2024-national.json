@@ -8,7 +8,7 @@
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.54,
     "correct_option": "B",
     "options": [
       {
@@ -31,7 +31,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 1. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.54
   },
   {
     "id": "2024-N-03",
@@ -42,7 +43,7 @@
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.54,
     "correct_option": "D",
     "options": [
       {
@@ -65,7 +66,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 3. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.54
   },
   {
     "id": "2024-N-04",
@@ -76,7 +78,7 @@
     "figure_url": null,
     "topic_id": "stoichiometry",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.71,
     "correct_option": "D",
     "options": [
       {
@@ -99,7 +101,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 4. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.71
   },
   {
     "id": "2024-N-09",
@@ -110,7 +113,7 @@
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.52,
     "correct_option": "C",
     "options": [
       {
@@ -133,7 +136,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 9. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.52
   },
   {
     "id": "2024-N-10",
@@ -144,7 +148,7 @@
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.46,
     "correct_option": "D",
     "options": [
       {
@@ -167,7 +171,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 10. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.46
   },
   {
     "id": "2024-N-11",
@@ -178,7 +183,7 @@
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.63,
     "correct_option": "B",
     "options": [
       {
@@ -201,7 +206,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 11. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.63
   },
   {
     "id": "2024-N-12",
@@ -212,7 +218,7 @@
     "figure_url": null,
     "topic_id": "descriptive",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.55,
     "correct_option": "D",
     "options": [
       {
@@ -235,7 +241,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 12. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.55
   },
   {
     "id": "2024-N-13",
@@ -246,7 +253,7 @@
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.9,
     "correct_option": "C",
     "options": [
       {
@@ -269,7 +276,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 13. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.9
   },
   {
     "id": "2024-N-14",
@@ -280,7 +288,7 @@
     "figure_url": "/figures/2024-N-14.png",
     "topic_id": "states-of-matter",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.7,
     "correct_option": "A",
     "options": [
       {
@@ -303,7 +311,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 14. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.7
   },
   {
     "id": "2024-N-15",
@@ -314,7 +323,7 @@
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.35,
     "correct_option": "C",
     "options": [
       {
@@ -337,7 +346,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 15. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.35
   },
   {
     "id": "2024-N-16",
@@ -348,7 +358,7 @@
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.69,
     "correct_option": "D",
     "options": [
       {
@@ -371,7 +381,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 16. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.69
   },
   {
     "id": "2024-N-17",
@@ -382,7 +393,7 @@
     "figure_url": "/figures/2024-N-17.png",
     "topic_id": "states-of-matter",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.05,
     "correct_option": "B",
     "options": [
       {
@@ -405,7 +416,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 17. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.05
   },
   {
     "id": "2024-N-18",
@@ -416,7 +428,7 @@
     "figure_url": null,
     "topic_id": "states-of-matter",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.4,
     "correct_option": "C",
     "options": [
       {
@@ -439,7 +451,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 18. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.4
   },
   {
     "id": "2024-N-19",
@@ -450,7 +463,7 @@
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.81,
     "correct_option": "B",
     "options": [
       {
@@ -473,7 +486,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 19. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.81
   },
   {
     "id": "2024-N-20",
@@ -484,7 +498,7 @@
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.74,
     "correct_option": "A",
     "options": [
       {
@@ -507,7 +521,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 20. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.74
   },
   {
     "id": "2024-N-21",
@@ -518,7 +533,7 @@
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.39,
     "correct_option": "B",
     "options": [
       {
@@ -541,7 +556,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 21. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.39
   },
   {
     "id": "2024-N-22",
@@ -552,7 +568,7 @@
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.32,
     "correct_option": "A",
     "options": [
       {
@@ -575,7 +591,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 22. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.32
   },
   {
     "id": "2024-N-23",
@@ -586,7 +603,7 @@
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.6,
     "correct_option": "D",
     "options": [
       {
@@ -609,7 +626,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 23. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.6
   },
   {
     "id": "2024-N-24",
@@ -620,7 +638,7 @@
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.36,
     "correct_option": "A",
     "options": [
       {
@@ -643,7 +661,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 24. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.36
   },
   {
     "id": "2024-N-25",
@@ -654,7 +673,7 @@
     "figure_url": "/figures/2024-N-25.png",
     "topic_id": "kinetics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.84,
     "correct_option": "C",
     "options": [
       {
@@ -677,7 +696,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 25. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.84
   },
   {
     "id": "2024-N-26",
@@ -688,7 +708,7 @@
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.74,
     "correct_option": "B",
     "options": [
       {
@@ -711,7 +731,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 26. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.74
   },
   {
     "id": "2024-N-27",
@@ -722,7 +743,7 @@
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.4,
     "correct_option": "B",
     "options": [
       {
@@ -745,7 +766,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 27. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.4
   },
   {
     "id": "2024-N-28",
@@ -756,7 +778,7 @@
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.34,
     "correct_option": "B",
     "options": [
       {
@@ -779,7 +801,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 28. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.34
   },
   {
     "id": "2024-N-29",
@@ -790,7 +813,7 @@
     "figure_url": null,
     "topic_id": "kinetics",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.48,
     "correct_option": "A",
     "options": [
       {
@@ -813,7 +836,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 29. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.48
   },
   {
     "id": "2024-N-30",
@@ -847,7 +871,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 30. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.47
   },
   {
     "id": "2024-N-31",
@@ -858,7 +883,7 @@
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.52,
     "correct_option": "B",
     "options": [
       {
@@ -881,7 +906,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 31. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.52
   },
   {
     "id": "2024-N-32",
@@ -892,7 +918,7 @@
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.29,
     "correct_option": "D",
     "options": [
       {
@@ -915,7 +941,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 32. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.29
   },
   {
     "id": "2024-N-33",
@@ -926,7 +953,7 @@
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.33,
     "correct_option": "D",
     "options": [
       {
@@ -949,7 +976,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 33. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.33
   },
   {
     "id": "2024-N-34",
@@ -960,7 +988,7 @@
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.36,
     "correct_option": "A",
     "options": [
       {
@@ -983,7 +1011,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 34. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.36
   },
   {
     "id": "2024-N-35",
@@ -994,7 +1023,7 @@
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.09,
     "correct_option": "D",
     "options": [
       {
@@ -1017,7 +1046,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 35. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.09
   },
   {
     "id": "2024-N-36",
@@ -1028,7 +1058,7 @@
     "figure_url": null,
     "topic_id": "equilibrium",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.33,
     "correct_option": "C",
     "options": [
       {
@@ -1051,7 +1081,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 36. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.33
   },
   {
     "id": "2024-N-37",
@@ -1062,7 +1093,7 @@
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.74,
     "correct_option": "A",
     "options": [
       {
@@ -1085,7 +1116,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 37. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.74
   },
   {
     "id": "2024-N-38",
@@ -1096,7 +1128,7 @@
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.56,
     "correct_option": "D",
     "options": [
       {
@@ -1119,7 +1151,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 38. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.56
   },
   {
     "id": "2024-N-39",
@@ -1130,7 +1163,7 @@
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.44,
     "correct_option": "C",
     "options": [
       {
@@ -1153,7 +1186,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 39. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.44
   },
   {
     "id": "2024-N-40",
@@ -1164,7 +1198,7 @@
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.32,
     "correct_option": "C",
     "options": [
       {
@@ -1187,7 +1221,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 40. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.32
   },
   {
     "id": "2024-N-41",
@@ -1198,7 +1233,7 @@
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.15,
     "correct_option": "A",
     "options": [
       {
@@ -1221,7 +1256,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 41. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.15
   },
   {
     "id": "2024-N-42",
@@ -1232,7 +1268,7 @@
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.11,
     "correct_option": "A",
     "options": [
       {
@@ -1255,7 +1291,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 42. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.11
   },
   {
     "id": "2024-N-43",
@@ -1266,7 +1303,7 @@
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.3,
     "correct_option": "B",
     "options": [
       {
@@ -1289,7 +1326,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 43. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.3
   },
   {
     "id": "2024-N-44",
@@ -1300,7 +1338,7 @@
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.45,
     "correct_option": "D",
     "options": [
       {
@@ -1323,7 +1361,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 44. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.45
   },
   {
     "id": "2024-N-45",
@@ -1334,7 +1373,7 @@
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.52,
     "correct_option": "B",
     "options": [
       {
@@ -1357,7 +1396,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 45. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.52
   },
   {
     "id": "2024-N-46",
@@ -1368,7 +1408,7 @@
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.33,
     "correct_option": "D",
     "options": [
       {
@@ -1391,7 +1431,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 46. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.33
   },
   {
     "id": "2024-N-47",
@@ -1402,7 +1443,7 @@
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.28,
     "correct_option": "A",
     "options": [
       {
@@ -1425,7 +1466,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 47. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.28
   },
   {
     "id": "2024-N-48",
@@ -1436,7 +1478,7 @@
     "figure_url": null,
     "topic_id": "atomic-structure",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.52,
     "correct_option": "B",
     "options": [
       {
@@ -1459,7 +1501,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 48. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.52
   },
   {
     "id": "2024-N-49",
@@ -1470,7 +1513,7 @@
     "figure_url": "/figures/2024-N-49.png",
     "topic_id": "bonding",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.63,
     "correct_option": "C",
     "options": [
       {
@@ -1493,7 +1536,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 49. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.63
   },
   {
     "id": "2024-N-50",
@@ -1504,7 +1548,7 @@
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.3,
     "correct_option": "B",
     "options": [
       {
@@ -1527,7 +1571,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 50. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.3
   },
   {
     "id": "2024-N-51",
@@ -1538,7 +1583,7 @@
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.16,
     "correct_option": "B",
     "options": [
       {
@@ -1561,7 +1606,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 51. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.16
   },
   {
     "id": "2024-N-52",
@@ -1572,7 +1618,7 @@
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.15,
     "correct_option": "C",
     "options": [
       {
@@ -1595,7 +1641,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 52. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.15
   },
   {
     "id": "2024-N-53",
@@ -1606,7 +1653,7 @@
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.37,
     "correct_option": "A",
     "options": [
       {
@@ -1629,7 +1676,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 53. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.37
   },
   {
     "id": "2024-N-54",
@@ -1640,7 +1688,7 @@
     "figure_url": null,
     "topic_id": "bonding",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.22,
     "correct_option": "D",
     "options": [
       {
@@ -1663,7 +1711,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 54. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.22
   },
   {
     "id": "2024-N-55",
@@ -1674,7 +1723,7 @@
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.37,
     "correct_option": "A",
     "options": [
       {
@@ -1697,7 +1746,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 55. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.37
   },
   {
     "id": "2024-N-56",
@@ -1708,7 +1758,7 @@
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.27,
     "correct_option": "A",
     "options": [
       {
@@ -1731,7 +1781,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 56. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.27
   },
   {
     "id": "2024-N-57",
@@ -1742,7 +1793,7 @@
     "figure_url": null,
     "topic_id": "organic",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.39,
     "correct_option": "B",
     "options": [
       {
@@ -1765,7 +1816,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 57. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.39
   },
   {
     "id": "2024-N-58",
@@ -1776,7 +1828,7 @@
     "figure_url": "/figures/2024-N-58.png",
     "topic_id": "organic",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.43,
     "correct_option": "B",
     "options": [
       {
@@ -1799,7 +1851,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 58. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.43
   },
   {
     "id": "2024-N-59",
@@ -1810,7 +1863,7 @@
     "figure_url": "/figures/2024-N-59.png",
     "topic_id": "organic",
     "subtopic": "",
-    "est_percent_correct": 0.5,
+    "est_percent_correct": 0.61,
     "correct_option": "C",
     "options": [
       {
@@ -1833,7 +1886,8 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 59. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.61
   },
   {
     "id": "2024-N-60",
@@ -1867,6 +1921,7 @@
     "acs_solution_md": null,
     "source": "USNCO 2024 National Part I exam, question 60. © American Chemical Society; reproduced for non-commercial practice.",
     "verified_answer": true,
-    "polished": true
+    "polished": true,
+    "field_percent_correct": 0.25
   }
 ]
