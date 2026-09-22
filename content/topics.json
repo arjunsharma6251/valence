@@ -1,0 +1,22 @@
+[
+  { "id": "stoichiometry", "name": "Stoichiometry", "acs_category": "Stoichiometry", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["mole concept", "limiting reagent", "percent composition", "empirical formula", "solution stoichiometry", "gas stoichiometry"] },
+  { "id": "states-of-matter", "name": "States of matter", "acs_category": "States of Matter / Solutions", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["gas laws", "kinetic molecular theory", "intermolecular forces", "phase diagrams", "colligative properties", "solubility", "crystal structures"] },
+  { "id": "thermodynamics", "name": "Thermodynamics", "acs_category": "Thermodynamics", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["enthalpy", "Hess's law", "calorimetry", "entropy", "Gibbs free energy", "bond energies", "spontaneity"] },
+  { "id": "kinetics", "name": "Kinetics", "acs_category": "Kinetics", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["rate laws", "integrated rate laws", "half-life", "Arrhenius equation", "mechanisms", "catalysis", "reaction coordinate diagrams"] },
+  { "id": "equilibrium", "name": "Equilibrium", "acs_category": "Equilibrium", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["equilibrium constants", "Le Chatelier", "ICE tables", "Ksp", "acid-base equilibria", "buffers", "titration curves", "complex ions"] },
+  { "id": "redox", "name": "Redox and electrochemistry", "acs_category": "Oxidation-Reduction / Electrochemistry", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["oxidation states", "balancing redox", "galvanic cells", "standard potentials", "Nernst equation", "electrolysis", "Faraday's law"] },
+  { "id": "atomic-structure", "name": "Atomic structure and periodicity", "acs_category": "Atomic Structure / Periodicity", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["quantum numbers", "electron configuration", "periodic trends", "ionization energy", "photoelectron spectroscopy", "atomic spectra", "nuclear chemistry"] },
+  { "id": "bonding", "name": "Bonding and molecular structure", "acs_category": "Molecular Structure / Bonding", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["Lewis structures", "VSEPR", "hybridization", "molecular orbital theory", "polarity", "bond order", "resonance"] },
+  { "id": "descriptive", "name": "Descriptive and laboratory chemistry", "acs_category": "Descriptive Chemistry / Laboratory", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["ion colors", "solubility rules", "flame tests", "reactions of main-group elements", "transition metals", "lab technique", "gas identification", "safety"] },
+  { "id": "organic", "name": "Organic and biochemistry", "acs_category": "Organic / Biochemistry", "local_weight": 6, "national_weight": 6,
+    "subtopics": ["functional groups", "nomenclature", "isomerism", "stereochemistry", "reaction types", "polymers", "biomolecules"] }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "question_id": "seed-stoichiometry-01",
+    "body_md": "Molar mass of $\\ce{NH4NO3}$: $2(14.01) + 4(1.008) + 3(16.00) = 80.05$ g/mol.\n\nThere are two N atoms per formula unit: $2 \\times 14.01 = 28.02$ g.\n\nMass percent N $= \\dfrac{28.02}{80.05} \\times 100\\% = 35.0\\%$.",
+    "distractor_notes": {
+      "A": "Correct: both N atoms (28.02 g) divided by the molar mass (80.05 g).",
+      "B": "28.0% is the mass of N in grams per mole, not a percentage of the total.",
+      "C": "17.5% counts only one of the two nitrogen atoms.",
+      "D": "43.7% is roughly the mass percent of H plus N; it double counts."
+    },
+    "concept_ref": "Mass percent composition",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-stoichiometry-02",
+    "body_md": "Find which reagent runs out first.\n\n4.0 mol Al would need $4.0 \\times \\tfrac{3}{2} = 6.0$ mol $\\ce{Cl2}$, but only 5.0 mol is available, so $\\ce{Cl2}$ is limiting.\n\nMoles of product from the limiting reagent: $5.0 \\text{ mol } \\ce{Cl2} \\times \\dfrac{2 \\text{ mol } \\ce{AlCl3}}{3 \\text{ mol } \\ce{Cl2}} = 3.3$ mol.",
+    "distractor_notes": {
+      "A": "4.0 mol assumes Al is limiting; there is not enough chlorine for all the Al.",
+      "B": "Correct: chlorine limits, and 5.0 mol Cl2 gives 5.0 × 2/3 = 3.3 mol AlCl3.",
+      "C": "5.0 mol uses a 1:1 ratio between Cl2 and AlCl3; the ratio is 3:2.",
+      "D": "7.5 mol inverts the mole ratio (3/2 instead of 2/3)."
+    },
+    "concept_ref": "Limiting reagent",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-stoichiometry-03",
+    "body_md": "Assume 100 g of compound and convert each mass to moles.\n\nC: $54.5 / 12.01 = 4.54$ mol; H: $9.1 / 1.008 = 9.03$ mol; O: $36.4 / 16.00 = 2.28$ mol.\n\nDivide by the smallest (2.28): C 1.99, H 3.97, O 1.00, giving a 2 : 4 : 1 ratio.\n\nEmpirical formula: $\\ce{C2H4O}$.",
+    "distractor_notes": {
+      "A": "CH2O has a 1:2:1 ratio; it would be 40.0% C, not 54.5%.",
+      "B": "C3H6O has the same C:H ratio but the wrong O ratio (3:6:1 gives 62.1% C).",
+      "C": "C2H5O has an odd H count that does not match 9.1% H (it would be 8.5% H).",
+      "D": "Correct: mole ratio 4.54 : 9.03 : 2.28 reduces to 2 : 4 : 1."
+    },
+    "concept_ref": "Empirical formula from percent composition",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-stoichiometry-04",
+    "body_md": "$\\ce{H2SO4 + 2NaOH -> Na2SO4 + 2H2O}$, so 2 mol NaOH neutralize 1 mol $\\ce{H2SO4}$.\n\nMoles NaOH $= 0.0300 \\text{ L} \\times 0.200 \\text{ M} = 6.00 \\times 10^{-3}$ mol.\n\nMoles $\\ce{H2SO4} = 6.00 \\times 10^{-3} / 2 = 3.00 \\times 10^{-3}$ mol.\n\nConcentration $= 3.00 \\times 10^{-3} \\text{ mol} / 0.0250 \\text{ L} = 0.120$ M.",
+    "distractor_notes": {
+      "A": "Correct: 6.00 mmol NaOH ÷ 2 = 3.00 mmol acid in 25.0 mL.",
+      "B": "0.167 M inverts the volume ratio (25/30 instead of 30/25) and ignores the 2:1 ratio.",
+      "C": "0.240 M forgets that H2SO4 is diprotic and needs 2 mol NaOH per mole.",
+      "D": "0.060 M divides by 2 twice."
+    },
+    "concept_ref": "Acid-base titration stoichiometry",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-stoichiometry-05",
+    "body_md": "Balanced combustion: $\\ce{C3H8 + 5O2 -> 3CO2 + 4H2O}$.\n\nMoles $\\ce{O2}$ needed $= 2.0 \\text{ mol } \\ce{C3H8} \\times 5 = 10$ mol.\n\nVolume at STP $= 10 \\text{ mol} \\times 22.4 \\text{ L/mol} = 224$ L.",
+    "distractor_notes": {
+      "A": "44.8 L is the volume of the propane itself (2.0 mol), not the oxygen.",
+      "B": "Correct: 5 mol O2 per mol C3H8, so 10 mol O2 = 224 L at STP.",
+      "C": "112 L uses 5 mol O2 total instead of 5 mol per mol of propane.",
+      "D": "448 L doubles the answer by applying the factor of 2 twice."
+    },
+    "concept_ref": "Combustion stoichiometry",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-stoichiometry-06",
+    "body_md": "All C ends up in $\\ce{CO2}$ and all H in $\\ce{H2O}$.\n\nmol C $= 1.318 / 44.01 = 0.02995$ mol.\n\nmol H $= 2 \\times (0.719 / 18.02) = 0.0798$ mol.\n\nRatio H : C $= 0.0798 / 0.02995 = 2.67 = 8/3$, so the formula is $\\ce{C3H8}$.\n\nCheck: $0.02995(12.01) + 0.0798(1.008) = 0.440$ g, matching the sample mass.",
+    "distractor_notes": {
+      "A": "CH2 comes from rounding 2.67 down to 2; the ratio is 8:3, not 2:1.",
+      "B": "C2H5 (ratio 2.5) is close but does not match 2.67.",
+      "C": "C3H7 (ratio 2.33) is a bit low; check the factor of 2 for H in H2O.",
+      "D": "Correct: H/C = 0.0798/0.02995 = 2.67 = 8/3, giving C3H8."
+    },
+    "concept_ref": "Combustion analysis",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-stoichiometry-07",
+    "body_md": "Only $\\ce{NaHCO3}$ decomposes; the mass lost is $\\ce{H2O + CO2}$.\n\nPer 2 mol $\\ce{NaHCO3}$ (168.0 g), the mass lost is $18.02 + 44.01 = 62.03$ g.\n\nMass of $\\ce{NaHCO3} = 0.620 \\text{ g} \\times \\dfrac{168.0}{62.03} = 1.68$ g.\n\nMass percent $= 1.68 / 5.00 \\times 100\\% = 33.6\\%$.",
+    "distractor_notes": {
+      "A": "12.4% is the mass loss as a percent of the sample; that is not the NaHCO3 content.",
+      "B": "16.8% uses 84.0 g (1 mol NaHCO3) per 62.0 g lost; two moles of NaHCO3 are needed per mole of H2O and CO2.",
+      "C": "Correct: 0.620 g lost × (168.0 g NaHCO3 / 62.03 g lost) = 1.68 g, which is 33.6% of 5.00 g.",
+      "D": "67.2% doubles the correct answer; the 2:1 factor is already in the 168.0 g."
+    },
+    "concept_ref": "Gravimetric analysis of mixtures",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-stoichiometry-08",
+    "body_md": "Use the ideal gas law to find moles of $\\ce{H2}$ at the stated conditions (not STP).\n\n$n = \\dfrac{PV}{RT} = \\dfrac{(1.00)(0.500)}{(0.08206)(300)} = 0.0203$ mol $\\ce{H2}$.\n\nOne mole of Zn gives one mole of $\\ce{H2}$, so mass Zn $= 0.0203 \\times 65.38 = 1.33$ g.",
+    "distractor_notes": {
+      "A": "Correct: n = PV/RT at 300 K gives 0.0203 mol, times 65.38 g/mol = 1.33 g.",
+      "B": "1.46 g uses 273 K (STP) instead of the actual 300 K.",
+      "C": "0.665 g halves the answer by applying the 2:1 HCl ratio to zinc.",
+      "D": "2.66 g doubles the answer by using the 2 mol HCl coefficient on zinc."
+    },
+    "concept_ref": "Ideal gas law in stoichiometry",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-states-of-matter-01",
+    "body_md": "Combined gas law: $\\dfrac{P_1 V_1}{T_1} = \\dfrac{P_2 V_2}{T_2}$.\n\n$P_2 = P_1 \\times \\dfrac{V_1}{V_2} \\times \\dfrac{T_2}{T_1} = 2.00 \\times \\dfrac{4.00}{2.00} \\times \\dfrac{450}{300} = 6.00$ atm.\n\nHalving the volume doubles P; raising T by 1.5× multiplies P by 1.5.",
+    "distractor_notes": {
+      "A": "3.00 atm accounts for the temperature increase but not the compression.",
+      "B": "Correct: P scales as V1/V2 and T2/T1, giving 2.00 × 2 × 1.5 = 6.00 atm.",
+      "C": "2.67 atm inverts the temperature ratio (300/450).",
+      "D": "1.33 atm inverts both ratios."
+    },
+    "concept_ref": "Combined gas law",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-states-of-matter-02",
+    "body_md": "$u_\\text{rms} = \\sqrt{\\dfrac{3RT}{M}}$, so at equal $T$, $\\dfrac{u_{\\ce{H2}}}{u_{\\ce{O2}}} = \\sqrt{\\dfrac{M_{\\ce{O2}}}{M_{\\ce{H2}}}} = \\sqrt{\\dfrac{32}{2}} = \\sqrt{16} = 4$.",
+    "distractor_notes": {
+      "A": "16 is the ratio of molar masses; speed depends on the square root of that ratio.",
+      "B": "Correct: the speed ratio is the square root of the inverse molar-mass ratio, √16 = 4.",
+      "C": "2 takes the square root twice (fourth root of 16).",
+      "D": "1/4 inverts the ratio; lighter molecules move faster, not slower."
+    },
+    "concept_ref": "Root-mean-square speed",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-states-of-matter-03",
+    "body_md": "All four have similar molar masses (72–74 g/mol), so compare intermolecular forces.\n\n1-Butanol has an O–H group and can hydrogen bond; the others cannot.\n\nAmong the rest, pentane (linear) has stronger dispersion forces than compact 2,2-dimethylpropane; diethyl ether is weakly polar but not hydrogen bonded.\n\nBoiling points: 1-butanol (118 °C) > pentane (36 °C) ≈ diethyl ether (35 °C) > 2,2-dimethylpropane (10 °C).",
+    "distractor_notes": {
+      "A": "Pentane relies only on dispersion forces; it boils near 36 °C.",
+      "B": "2,2-Dimethylpropane is the most compact isomer and has the weakest dispersion forces of the group.",
+      "C": "Diethyl ether has an O atom but no O–H bond, so it cannot hydrogen bond with itself.",
+      "D": "Correct: hydrogen bonding in 1-butanol dominates at similar molar mass."
+    },
+    "concept_ref": "Intermolecular forces and boiling point",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-states-of-matter-04",
+    "body_md": "$\\ce{CaCl2}$ dissociates into 3 ions ($\\ce{Ca^2+ + 2Cl-}$), so the van't Hoff factor $i = 3$.\n\n$\\Delta T_\\text{f} = i K_\\text{f} m = 3 \\times 1.86 \\times 0.100 = 0.558$ °C.\n\nFreezing point $= 0 - 0.558 = -0.558$ °C.",
+    "distractor_notes": {
+      "A": "−0.186 °C ignores dissociation (i = 1).",
+      "B": "Correct: i = 3, so ΔTf = 3 × 1.86 × 0.100 = 0.558 °C.",
+      "C": "−0.372 °C uses i = 2, but CaCl2 gives three ions per formula unit.",
+      "D": "−1.86 °C uses a 1 m solution instead of 0.100 m."
+    },
+    "concept_ref": "Freezing point depression",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-states-of-matter-05",
+    "body_md": "Graham's law: $\\dfrac{r_\\text{unknown}}{r_\\text{He}} = \\sqrt{\\dfrac{M_\\text{He}}{M_\\text{unknown}}}$.\n\n$\\dfrac{1}{4} = \\sqrt{\\dfrac{4.00}{M}}$, so $\\dfrac{1}{16} = \\dfrac{4.00}{M}$ and $M = 64$ g/mol.\n\n$\\ce{SO2}$ has molar mass $32.06 + 2(16.00) = 64.1$ g/mol.",
+    "distractor_notes": {
+      "A": "CH4 (16 g/mol) would effuse at half the rate of He, not one quarter.",
+      "B": "O2 (32 g/mol) would effuse at 1/√8 ≈ 0.35 times the rate of He.",
+      "C": "Kr (83.8 g/mol) would be even slower, about 0.22 times.",
+      "D": "Correct: rate ratio 1/4 means molar mass ratio 16, so M = 64 g/mol = SO2."
+    },
+    "concept_ref": "Graham's law of effusion",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-states-of-matter-06",
+    "body_md": "In an FCC cell, atoms touch along the face diagonal, which has length $a\\sqrt{2}$ and spans 4 atomic radii.\n\n$4r = a\\sqrt{2}$, so $r = \\dfrac{a\\sqrt{2}}{4} = \\dfrac{a}{2\\sqrt{2}} = \\dfrac{400.}{2.828} = 141$ pm.",
+    "distractor_notes": {
+      "A": "200 pm assumes atoms touch along the edge (simple cubic, r = a/2).",
+      "B": "173 pm uses the body diagonal (BCC relation r = a√3/4).",
+      "C": "Correct: FCC atoms touch along the face diagonal, r = a√2/4 = 141 pm.",
+      "D": "283 pm is a/√2, the distance between adjacent atoms (2r), not the radius."
+    },
+    "concept_ref": "Cubic unit cell geometry",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-states-of-matter-07",
+    "body_md": "Convert pressure: $7.60 \\text{ torr} \\times \\dfrac{1 \\text{ atm}}{760 \\text{ torr}} = 0.0100$ atm.\n\n$\\Pi = MRT \\Rightarrow M = \\dfrac{0.0100}{(0.08206)(300)} = 4.06 \\times 10^{-4}$ mol/L.\n\nMoles in 0.1000 L: $4.06 \\times 10^{-5}$ mol.\n\nMolar mass $= \\dfrac{2.00 \\text{ g}}{4.06 \\times 10^{-5} \\text{ mol}} = 4.9 \\times 10^4$ g/mol.",
+    "distractor_notes": {
+      "A": "4.9 × 10³ uses 1.00 L instead of 0.100 L of solution.",
+      "B": "4.5 × 10⁴ uses 273 K instead of 300 K.",
+      "C": "4.9 × 10⁵ misplaces the decimal in the torr-to-atm conversion.",
+      "D": "Correct: Π = 0.0100 atm gives 4.06 × 10⁻⁵ mol in 100 mL, so M ≈ 4.9 × 10⁴ g/mol."
+    },
+    "concept_ref": "Osmotic pressure",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-states-of-matter-08",
+    "body_md": "The constant $a$ grows with the strength of intermolecular attractions.\n\nHe is a small nonpolar atom with very weak dispersion forces (smallest $a$).\n\n$\\ce{N2}$ and $\\ce{CO2}$ are nonpolar; $\\ce{CO2}$ has more electrons and larger dispersion forces.\n\n$\\ce{NH3}$ is polar and hydrogen bonds, giving the strongest attractions and the largest $a$ (about 4.2 L²·atm/mol², versus 3.6 for $\\ce{CO2}$).",
+    "distractor_notes": {
+      "A": "He has the weakest attractions of any gas; its a is nearly zero.",
+      "B": "N2 is nonpolar and small; its a is small (about 1.4).",
+      "C": "Correct: NH3 hydrogen bonds, so its attractive correction is largest.",
+      "D": "CO2 has sizeable dispersion forces but is nonpolar; its a is smaller than that of NH3."
+    },
+    "concept_ref": "Real gases and the van der Waals equation",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-thermodynamics-01",
+    "body_md": "Keep the first equation; reverse the second so $\\ce{CO}$ appears as a product.\n\n$\\ce{C + O2 -> CO2}$: $\\Delta H = -393.5$ kJ\n\n$\\ce{CO2 -> CO + 1/2 O2}$: $\\Delta H = +283.0$ kJ\n\nAdd: $\\ce{C + 1/2 O2 -> CO}$, $\\Delta H = -393.5 + 283.0 = -110.5$ kJ.",
+    "distractor_notes": {
+      "A": "Correct: −393.5 + 283.0 = −110.5 kJ after reversing the second equation.",
+      "B": "+110.5 kJ has the sign backwards; forming CO from its elements is exothermic.",
+      "C": "−676.5 kJ adds the two equations without reversing the second.",
+      "D": "−221.0 kJ doubles the answer, as if two moles of CO formed."
+    },
+    "concept_ref": "Hess's law",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-thermodynamics-02",
+    "body_md": "Heat absorbed by the water: $q = m c \\Delta T = 500. \\times 4.184 \\times 5.00 = 10{,}460$ J $= 10.46$ kJ.\n\nThat heat came from 2.00 g of fuel, so the heat of combustion is $10.46 / 2.00 = 5.23$ kJ/g.",
+    "distractor_notes": {
+      "A": "Correct: q = 500 × 4.184 × 5.00 = 10.46 kJ, divided by 2.00 g.",
+      "B": "10.5 kJ/g is the total heat, not divided by the 2.00 g of fuel.",
+      "C": "2.09 kJ/g uses a 2.00 °C rise instead of 5.00 °C.",
+      "D": "20.9 kJ/g multiplies by the sample mass instead of dividing."
+    },
+    "concept_ref": "Calorimetry (q = mcΔT)",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-thermodynamics-03",
+    "body_md": "Entropy increases when the number of gas molecules increases or when a substance moves toward a more disordered phase.\n\nOnly the decomposition of $\\ce{CaCO3}$ produces gas from a solid (0 → 1 mol gas), so its $\\Delta S > 0$.\n\nThe other three all decrease disorder: fewer gas moles (A, C) or liquid → solid (B).",
+    "distractor_notes": {
+      "A": "4 mol gas → 2 mol gas: entropy decreases.",
+      "B": "Freezing produces an ordered solid: entropy decreases.",
+      "C": "3 mol gas → 2 mol gas: entropy decreases.",
+      "D": "Correct: a solid releases a gas, so entropy increases."
+    },
+    "concept_ref": "Sign of entropy change",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-thermodynamics-04",
+    "body_md": "$\\Delta G = \\Delta H - T\\Delta S$. With $\\Delta H < 0$ and $\\Delta S < 0$, the enthalpy term favors the reaction and the entropy term opposes it.\n\nAt low $T$ the $-T\\Delta S$ term is small, so $\\Delta G < 0$; at high $T$ the positive $-T\\Delta S$ term dominates and $\\Delta G > 0$.\n\nThe crossover is at $T = \\Delta H / \\Delta S = 92{,}000 / 199 \\approx 460$ K.",
+    "distractor_notes": {
+      "A": "Spontaneous at all T requires ΔH < 0 and ΔS > 0.",
+      "B": "Correct: negative ΔH and negative ΔS give ΔG < 0 only below about 460 K.",
+      "C": "High T favors reactions with ΔS > 0, but here ΔS is negative.",
+      "D": "Never spontaneous requires ΔH > 0 and ΔS < 0."
+    },
+    "concept_ref": "Gibbs free energy and temperature",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-thermodynamics-05",
+    "body_md": "$\\Delta H \\approx \\sum(\\text{bonds broken}) - \\sum(\\text{bonds formed})$.\n\nBroken: one H–H (436) + one Cl–Cl (243) $= 679$ kJ.\n\nFormed: two H–Cl $= 2 \\times 432 = 864$ kJ.\n\n$\\Delta H = 679 - 864 = -185$ kJ.",
+    "distractor_notes": {
+      "A": "+185 kJ subtracts in the wrong order (formed minus broken).",
+      "B": "−247 kJ counts only one H–Cl bond formed instead of two.",
+      "C": "Correct: 436 + 243 − 2(432) = −185 kJ.",
+      "D": "−617 kJ subtracts only the Cl–Cl energy from the bonds formed."
+    },
+    "concept_ref": "Bond enthalpy estimates",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-thermodynamics-06",
+    "body_md": "$\\Delta G^\\circ = -RT \\ln K$.\n\n$\\ln(1.0 \\times 10^{5}) = 5 \\times 2.303 = 11.51$.\n\n$\\Delta G^\\circ = -(8.314)(298)(11.51) = -2.85 \\times 10^{4}$ J/mol $= -28.5$ kJ/mol.\n\nA large $K$ corresponds to a negative $\\Delta G^\\circ$.",
+    "distractor_notes": {
+      "A": "Correct: ΔG° = −RT ln K = −(8.314)(298)(11.51) = −28.5 kJ/mol.",
+      "B": "+28.5 kJ/mol has the wrong sign; K > 1 means products are favored and ΔG° < 0.",
+      "C": "−12.4 kJ/mol uses log10 K (5.0) instead of ln K (11.5).",
+      "D": "−285 kJ/mol is off by a factor of ten in the unit conversion."
+    },
+    "concept_ref": "ΔG° and the equilibrium constant",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-thermodynamics-07",
+    "body_md": "At the normal boiling point, liquid and vapor are in equilibrium, so $\\Delta G_\\text{vap} = 0$.\n\n$0 = \\Delta H - T\\Delta S \\Rightarrow T = \\dfrac{\\Delta H}{\\Delta S} = \\dfrac{40{,}700 \\text{ J/mol}}{109 \\text{ J/(mol·K)}} = 373$ K.\n\nThese are the values for water, which boils at 373 K.",
+    "distractor_notes": {
+      "A": "273 K is the freezing point of water, not the result of ΔH/ΔS.",
+      "B": "Correct: T = ΔH/ΔS = 40,700/109 = 373 K.",
+      "C": "0.373 K forgets to convert kJ to J.",
+      "D": "4.44 K multiplies ΔS by ΔH instead of dividing (in mismatched units)."
+    },
+    "concept_ref": "Phase equilibrium (ΔG = 0)",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-thermodynamics-08",
+    "body_md": "$\\Delta H = \\Delta U + \\Delta(PV) = \\Delta U + \\Delta n_\\text{gas} RT$ for ideal gases.\n\n$\\Delta n_\\text{gas} = 2 - (1 + 3) = -2$.\n\n$\\Delta n RT = (-2)(8.314)(298) = -4.96 \\times 10^{3}$ J $= -4.96$ kJ.\n\n$\\Delta U = \\Delta H - \\Delta n RT = -92.2 - (-4.96) = -87.2$ kJ.",
+    "distractor_notes": {
+      "A": "Correct: ΔU = ΔH − ΔnRT with Δn = −2 gives −92.2 + 4.96 = −87.2 kJ.",
+      "B": "−92.2 kJ assumes ΔU = ΔH, which is only true when Δn(gas) = 0.",
+      "C": "−82.3 kJ uses Δn = −4 (counts only reactant gas moles).",
+      "D": "−97.2 kJ subtracts 4.96 kJ instead of adding it (sign of Δn)."
+    },
+    "concept_ref": "Enthalpy vs. internal energy",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-kinetics-01",
+    "body_md": "Compare trials that change one concentration at a time.\n\nTrials 1 → 2: [A] doubles, rate goes ×4, so the order in A is 2.\n\nTrials 1 → 3: [B] doubles, rate goes ×2, so the order in B is 1.\n\nRate $= k[\\ce{A}]^2[\\ce{B}]$.",
+    "distractor_notes": {
+      "A": "First order in A would only double the rate when [A] doubles, but it quadrupled.",
+      "B": "Correct: rate ×4 for doubling [A] (second order) and ×2 for doubling [B] (first order).",
+      "C": "This swaps the orders; it is [A] that gives the ×4 response.",
+      "D": "Second order in B would quadruple the rate in trial 3; it only doubled."
+    },
+    "concept_ref": "Method of initial rates",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-kinetics-02",
+    "body_md": "Radioactive decay is first order, so each half-life halves the amount.\n\n90.0 min is three half-lives: $\\left(\\tfrac{1}{2}\\right)^3 = \\tfrac{1}{8} = 12.5\\%$.",
+    "distractor_notes": {
+      "A": "33% treats the decay as linear (90 min is 3 half-lives, not one third gone).",
+      "B": "Correct: three half-lives leave (1/2)³ = 1/8 = 12.5%.",
+      "C": "6.25% is four half-lives (120 min).",
+      "D": "25% is two half-lives (60 min), not three."
+    },
+    "concept_ref": "First-order half-life",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-kinetics-03",
+    "body_md": "The Arrhenius equation $k = A e^{-E_\\text{a}/RT}$ shows that $k$ depends on temperature through the exponential factor, which is the fraction of collisions with energy $\\ge E_\\text{a}$.\n\nCollision frequency rises only as $\\sqrt{T}$ (a few percent per 10 °C), far too little to explain the typical doubling of rate.\n\n$E_\\text{a}$ itself is a property of the reaction pathway and does not change with temperature.",
+    "distractor_notes": {
+      "A": "Correct: the Boltzmann fraction exp(−Ea/RT) rises steeply with T.",
+      "B": "Equilibrium position is a thermodynamic question and is unrelated to how fast the reaction proceeds.",
+      "C": "Activation energy is fixed by the mechanism; temperature does not change it (a catalyst does).",
+      "D": "Collision frequency scales with √T and increases only a few percent per 10 °C."
+    },
+    "concept_ref": "Arrhenius equation and temperature",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-kinetics-04",
+    "body_md": "The rate law is set by the slow (rate-determining) step.\n\nStep 1 is bimolecular in $\\ce{NO2}$, so rate $= k[\\ce{NO2}]^2$.\n\n$\\ce{CO}$ only appears after the slow step, so its concentration does not affect the rate; $\\ce{NO3}$ is an intermediate and cannot appear in the overall rate law.",
+    "distractor_notes": {
+      "A": "Correct: the slow step involves two NO2 molecules.",
+      "B": "This is the rate law of the overall equation, but rate laws come from the mechanism, not the stoichiometry.",
+      "C": "CO participates only in the fast step, so it does not appear.",
+      "D": "NO3 is an intermediate; intermediates are not written in the rate law."
+    },
+    "concept_ref": "Rate-determining step",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-kinetics-05",
+    "body_md": "On a reaction coordinate diagram, the transition state sits 75 kJ/mol above the reactants and the products sit 40 kJ/mol below the reactants.\n\n$E_\\text{a,reverse} = E_\\text{a,forward} - \\Delta H = 75 - (-40) = 115$ kJ/mol.\n\nFor an exothermic reaction the reverse barrier is always larger than the forward one.",
+    "distractor_notes": {
+      "A": "35 kJ/mol subtracts 40 instead of adding; the products are below the reactants, so the reverse climb is longer.",
+      "B": "40 kJ/mol is the magnitude of ΔH, not a barrier.",
+      "C": "75 kJ/mol is the forward barrier; the reverse differs by ΔH.",
+      "D": "Correct: Ea(rev) = Ea(fwd) − ΔH = 75 + 40 = 115 kJ/mol."
+    },
+    "concept_ref": "Reaction coordinate diagrams",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-kinetics-06",
+    "body_md": "Second-order integrated rate law: $\\dfrac{1}{[\\ce{A}]} = \\dfrac{1}{[\\ce{A}]_0} + kt$.\n\n$\\dfrac{1}{[\\ce{A}]} = \\dfrac{1}{0.500} + (0.200)(10.0) = 2.00 + 2.00 = 4.00$ M$^{-1}$.\n\n$[\\ce{A}] = 0.250$ M.",
+    "distractor_notes": {
+      "A": "0.0677 M uses the first-order law [A] = [A]0·e^(−kt).",
+      "B": "0.125 M applies two half-lives, but second-order half-lives are not constant.",
+      "C": "Correct: 1/[A] = 2.00 + 2.00 = 4.00, so [A] = 0.250 M.",
+      "D": "0.400 M uses a zero-order law [A] = [A]0 − kt with the wrong units."
+    },
+    "concept_ref": "Second-order integrated rate law",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-kinetics-07",
+    "body_md": "Two-temperature Arrhenius form: $\\ln\\dfrac{k_2}{k_1} = \\dfrac{E_\\text{a}}{R}\\left(\\dfrac{1}{T_1} - \\dfrac{1}{T_2}\\right)$.\n\n$\\dfrac{1}{300} - \\dfrac{1}{310} = \\dfrac{10}{93{,}000} = 1.075 \\times 10^{-4}$ K$^{-1}$.\n\n$E_\\text{a} = \\dfrac{R \\ln 2}{1.075 \\times 10^{-4}} = \\dfrac{(8.314)(0.693)}{1.075 \\times 10^{-4}} = 5.36 \\times 10^{4}$ J/mol $\\approx 54$ kJ/mol.",
+    "distractor_notes": {
+      "A": "5.4 kJ/mol is off by a factor of ten (misplaced decimal in 1/T1 − 1/T2).",
+      "B": "27 kJ/mol uses log10 2 (0.301) instead of ln 2 (0.693).",
+      "C": "107 kJ/mol doubles the answer (ln 4 instead of ln 2).",
+      "D": "Correct: Ea = R ln 2 / (1/300 − 1/310) ≈ 54 kJ/mol."
+    },
+    "concept_ref": "Two-temperature Arrhenius equation",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-kinetics-08",
+    "body_md": "The slow step gives rate $= k_2[\\ce{N2O2}][\\ce{O2}]$, but $\\ce{N2O2}$ is an intermediate and must be eliminated.\n\nStep 1 is a fast equilibrium: $K_1 = \\dfrac{[\\ce{N2O2}]}{[\\ce{NO}]^2}$, so $[\\ce{N2O2}] = K_1[\\ce{NO}]^2$.\n\nSubstituting: rate $= k_2 K_1 [\\ce{NO}]^2[\\ce{O2}] = k[\\ce{NO}]^2[\\ce{O2}]$.",
+    "distractor_notes": {
+      "A": "This is the slow-step rate law before eliminating the intermediate N2O2.",
+      "B": "This ignores the O2 in the slow step.",
+      "C": "Correct: substituting [N2O2] = K1[NO]² into the slow step gives k[NO]²[O2].",
+      "D": "This treats the overall reaction as elementary with the wrong coefficients."
+    },
+    "concept_ref": "Pre-equilibrium approximation",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-equilibrium-01",
+    "body_md": "Le Chatelier's principle: the system shifts to counteract a change.\n\nThe reaction is exothermic, so lowering $T$ favors the forward (heat-producing) direction.\n\nThere are 4 mol of gas on the left and 2 on the right, so raising $P$ favors the side with fewer gas moles: products.\n\nA catalyst speeds up both directions equally and does not change the equilibrium position.",
+    "distractor_notes": {
+      "A": "Higher T and lower P both push the equilibrium toward reactants.",
+      "B": "Correct: low temperature favors the exothermic direction; high pressure favors fewer gas moles.",
+      "C": "A catalyst changes the rate, not the position, of equilibrium.",
+      "D": "Removing a reactant shifts the equilibrium toward reactants, lowering NH3."
+    },
+    "concept_ref": "Le Chatelier's principle",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-equilibrium-02",
+    "body_md": "$K_\\text{p} = K_\\text{c}(RT)^{\\Delta n}$, where $\\Delta n$ is the change in moles of gas.\n\n$\\Delta n = 2 - 1 = 1$.\n\n$K_\\text{p} = 4.6 \\times 10^{-3} \\times (0.08206 \\times 298)^{1} = 4.6 \\times 10^{-3} \\times 24.5 = 0.11$.",
+    "distractor_notes": {
+      "A": "1.9 × 10⁻⁴ divides by RT instead of multiplying (Δn = −1).",
+      "B": "Kp equals Kc only when Δn = 0; here Δn = 1.",
+      "C": "Correct: Kp = Kc(RT)¹ = 4.6 × 10⁻³ × 24.5 = 0.11.",
+      "D": "2.8 uses (RT)² (Δn = 2), counting only the product side."
+    },
+    "concept_ref": "Relationship between Kp and Kc",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-equilibrium-03",
+    "body_md": "$\\ce{Ag2CrO4(s) <=> 2Ag+(aq) + CrO4^2-(aq)}$. If the solubility is $s$, then $[\\ce{Ag+}] = 2s$ and $[\\ce{CrO4^2-}] = s$.\n\n$K_\\text{sp} = (2s)^2(s) = 4s^3 = 1.1 \\times 10^{-12}$.\n\n$s^3 = 2.75 \\times 10^{-13}$, so $s = 6.5 \\times 10^{-5}$ M.",
+    "distractor_notes": {
+      "A": "Correct: 4s³ = Ksp gives s = (2.75 × 10⁻¹³)^(1/3) = 6.5 × 10⁻⁵ M.",
+      "B": "1.0 × 10⁻⁶ M is √Ksp, which applies only to 1:1 salts.",
+      "C": "1.0 × 10⁻⁴ M is the cube root of Ksp without the factor of 4 from (2s)².",
+      "D": "5.5 × 10⁻¹³ M is Ksp/2, not a solubility."
+    },
+    "concept_ref": "Solubility product",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-equilibrium-04",
+    "body_md": "$\\ce{HA <=> H+ + A-}$; let $x = [\\ce{H+}]$.\n\n$K_\\text{a} = \\dfrac{x^2}{0.10 - x} \\approx \\dfrac{x^2}{0.10} = 1.0 \\times 10^{-5}$.\n\n$x^2 = 1.0 \\times 10^{-6}$, so $x = 1.0 \\times 10^{-3}$ M and pH $= 3.00$.\n\nThe approximation holds because $x$ is 1% of 0.10 M.",
+    "distractor_notes": {
+      "A": "pH 1.00 treats the acid as strong (fully dissociated).",
+      "B": "pH 2.50 is −log(√Ka) with the concentration left out.",
+      "C": "Correct: [H+] = √(Ka·C) = 1.0 × 10⁻³ M, pH = 3.00.",
+      "D": "pH 5.00 is pKa, which is the pH only when [HA] = [A−]."
+    },
+    "concept_ref": "Weak acid pH",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-equilibrium-05",
+    "body_md": "Henderson–Hasselbalch: pH $= \\text{p}K_\\text{a} + \\log\\dfrac{[\\ce{A-}]}{[\\ce{HA}]}$.\n\npH $= 4.74 + \\log 10 = 4.74 + 1 = 5.74$.\n\nMore conjugate base than acid pushes the pH above p$K_\\text{a}$.",
+    "distractor_notes": {
+      "A": "3.74 subtracts the log term; more base means higher pH, not lower.",
+      "B": "4.74 is the pH only when the acid and base concentrations are equal.",
+      "C": "Correct: pH = pKa + log(10) = 5.74.",
+      "D": "6.74 adds 2, which would require a 100:1 ratio."
+    },
+    "concept_ref": "Henderson–Hasselbalch equation",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-equilibrium-06",
+    "body_md": "ICE: $[\\ce{H2}] = [\\ce{I2}] = 1.00 - x$, $[\\ce{HI}] = 2x$.\n\n$K_\\text{c} = \\dfrac{(2x)^2}{(1.00 - x)^2} = 64$.\n\nTake the square root of both sides: $\\dfrac{2x}{1.00 - x} = 8$, so $2x = 8 - 8x$ and $x = 0.80$ M.\n\n$[\\ce{HI}] = 2x = 1.60$ M.",
+    "distractor_notes": {
+      "A": "0.80 M is x, but [HI] = 2x.",
+      "B": "0.89 M drops the coefficient 2 in the ICE table and reports x.",
+      "C": "1.78 M drops the coefficient 2 when solving but then doubles at the end.",
+      "D": "Correct: 2x/(1 − x) = 8 gives x = 0.80, so [HI] = 1.60 M."
+    },
+    "concept_ref": "ICE table with perfect-square K",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-equilibrium-07",
+    "body_md": "At equivalence, all the acid has become acetate; the solution volume is 50.0 mL.\n\n$[\\ce{CH3COO-}] = 2.50 \\text{ mmol} / 50.0 \\text{ mL} = 0.0500$ M.\n\nAcetate is a weak base: $K_\\text{b} = K_\\text{w}/K_\\text{a} = 1.0 \\times 10^{-14} / 1.8 \\times 10^{-5} = 5.6 \\times 10^{-10}$.\n\n$[\\ce{OH-}] = \\sqrt{K_\\text{b} \\times 0.0500} = \\sqrt{2.8 \\times 10^{-11}} = 5.3 \\times 10^{-6}$ M.\n\npOH $= 5.28$, so pH $= 14.00 - 5.28 = 8.72$.",
+    "distractor_notes": {
+      "A": "pH 7.00 is the equivalence point only for a strong acid–strong base titration.",
+      "B": "Correct: the acetate hydrolyzes at 0.0500 M, giving pOH 5.28 and pH 8.72.",
+      "C": "8.87 forgets the dilution and uses 0.100 M acetate.",
+      "D": "5.28 is the pOH, not the pH."
+    },
+    "concept_ref": "Weak acid–strong base titration",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-equilibrium-08",
+    "body_md": "Add the two equilibria: $\\ce{AgCl(s) + 2NH3 <=> [Ag(NH3)2]+ + Cl-}$, with $K = K_\\text{sp} K_\\text{f} = (1.8 \\times 10^{-10})(1.6 \\times 10^{7}) = 2.9 \\times 10^{-3}$.\n\nLet $s$ = solubility: $[\\ce{Ag(NH3)2+}] = [\\ce{Cl-}] = s$ and $[\\ce{NH3}] = 1.0 - 2s$.\n\n$K = \\dfrac{s^2}{(1.0 - 2s)^2}$; take the square root: $\\dfrac{s}{1.0 - 2s} = 0.054$.\n\n$s = 0.054(1.0 - 2s) \\Rightarrow s(1 + 0.108) = 0.054 \\Rightarrow s = 4.8 \\times 10^{-2}$ M.",
+    "distractor_notes": {
+      "A": "1.3 × 10⁻⁵ M is the solubility in pure water (√Ksp), ignoring complex formation.",
+      "B": "2.9 × 10⁻³ M is the overall K itself, not the solubility.",
+      "C": "5.4 × 10⁻² M ignores the NH3 consumed (2 mol per Ag+), a 10% error.",
+      "D": "Correct: √(Ksp·Kf) = s/(1 − 2s) gives s = 0.048 M."
+    },
+    "concept_ref": "Complex-ion equilibria and solubility",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  }
+]

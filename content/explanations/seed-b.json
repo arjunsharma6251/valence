@@ -1,0 +1,562 @@
+[
+  {
+    "question_id": "seed-redox-01",
+    "body_md": "Assign O as $-2$ (no peroxide, no fluorine). Let the oxidation state of Cr be $x$.\n\n$2x + 7(-2) = -2$, so $2x = +12$ and $x = +6$.\n\nEach Cr is $+6$, the same as in chromate, $\\ce{CrO4^2-}$.",
+    "distractor_notes": {
+      "A": "+3 is Cr in $\\ce{Cr^3+}$ or $\\ce{Cr2O3}$; it does not balance the charge here.",
+      "B": "Correct: $2x - 14 = -2$ gives $x = +6$.",
+      "C": "+7 comes from forgetting the $2-$ charge on the ion ($2x - 14 = 0$).",
+      "D": "+12 is the total for both Cr atoms, not the oxidation state of one."
+    },
+    "concept_ref": "Oxidation state rules",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-redox-02",
+    "body_md": "Half-reactions:\n\nReduction: $\\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$\n\nOxidation: $\\ce{Fe^2+ -> Fe^3+ + e-}$ (×5)\n\nSum: $\\ce{MnO4- + 5Fe^2+ + 8H+ -> Mn^2+ + 5Fe^3+ + 4H2O}$\n\nCoefficients: $1 + 5 + 8 + 1 + 5 + 4 = 24$.",
+    "distractor_notes": {
+      "A": "16 leaves out the $\\ce{H+}$ needed to balance oxygen as water.",
+      "B": "20 results from using $4\\ce{H+}$ and $2\\ce{H2O}$, which does not balance O.",
+      "C": "Correct: $1+5+8+1+5+4 = 24$.",
+      "D": "28 double-counts the water or uses 6 Fe instead of 5."
+    },
+    "concept_ref": "Balancing redox in acid (half-reaction method)",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-redox-03",
+    "body_md": "The half-cell with the more positive $E^\\circ$ is the cathode (reduction): $\\ce{Ag+ + e- -> Ag}$.\n\n$E^\\circ_\\text{cell} = E^\\circ_\\text{cathode} - E^\\circ_\\text{anode} = 0.80 - (-0.76) = +1.56\\ \\text{V}$.\n\nMultiplying the Ag half-reaction by 2 to balance electrons does not change its potential.",
+    "distractor_notes": {
+      "A": "Correct: $0.80 - (-0.76) = 1.56$ V.",
+      "B": "0.04 V comes from computing $0.80 - 0.76$, dropping the sign of the Zn potential.",
+      "C": "2.36 V doubles the Ag potential when balancing electrons; potentials are intensive and are not multiplied.",
+      "D": "A negative $E^\\circ_\\text{cell}$ would mean the reaction is not spontaneous as written, but a galvanic cell runs spontaneously."
+    },
+    "concept_ref": "Standard cell potential",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-redox-04",
+    "body_md": "In a galvanic cell, oxidation happens at the anode and reduction at the cathode.\n\nElectrons leave the anode through the external wire, so the anode is negative and the cathode positive.\n\nThe salt bridge carries ions, not electrons: cations move toward the cathode (where positive charge is being consumed) and anions move toward the anode (where positive charge is being produced).",
+    "distractor_notes": {
+      "A": "Oxidation is always at the anode; reduction at the cathode (in both galvanic and electrolytic cells).",
+      "B": "Electrons move through the external wire; only ions move through the salt bridge.",
+      "C": "Correct: anions flow toward the anode to neutralize the metal cations produced there.",
+      "D": "In a galvanic cell the cathode is positive; it is negative only in an electrolytic cell."
+    },
+    "concept_ref": "Galvanic cell anatomy",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-redox-05",
+    "body_md": "Charge: $q = It = (2.00\\ \\text{A})(965\\ \\text{s}) = 1930\\ \\text{C}$.\n\nMoles of electrons: $1930 / 96485 = 0.0200\\ \\text{mol e}^-$.\n\n$\\ce{Cu^2+ + 2e- -> Cu}$, so mol Cu $= 0.0100$ mol.\n\nMass $= 0.0100 \\times 63.55 = 0.636\\ \\text{g}$.",
+    "distractor_notes": {
+      "A": "1.27 g assumes one electron per Cu; $\\ce{Cu^2+}$ needs two.",
+      "B": "0.318 g uses four electrons per Cu.",
+      "C": "2.54 g uses one electron per Cu and also doubles the charge.",
+      "D": "Correct: 0.0200 mol e⁻ → 0.0100 mol Cu → 0.636 g."
+    },
+    "concept_ref": "Faraday's laws of electrolysis",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-redox-06",
+    "body_md": "Overall: $\\ce{Zn + Cu^2+ -> Zn^2+ + Cu}$, $n = 2$, $Q = [\\ce{Zn^2+}]/[\\ce{Cu^2+}] = 0.010$.\n\nNernst: $E = E^\\circ - \\dfrac{0.0592}{n}\\log Q = 1.10 - \\dfrac{0.0592}{2}(-2) = 1.10 + 0.0592 = 1.16\\ \\text{V}$.\n\nA low product-ion concentration pushes the reaction forward, raising $E$ above $E^\\circ$.",
+    "distractor_notes": {
+      "A": "1.04 V has the sign of the correction reversed ($\\log Q$ is negative here).",
+      "B": "1.10 V is $E^\\circ$; concentrations are not standard, so $E \\ne E^\\circ$.",
+      "C": "Correct: $1.10 + 0.0296 \\times 2 = 1.16$ V.",
+      "D": "1.22 V uses $n = 1$ instead of $n = 2$."
+    },
+    "concept_ref": "Nernst equation",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-redox-07",
+    "body_md": "Potentials are not additive, but $\\Delta G^\\circ = -nFE^\\circ$ is.\n\n$\\ce{Fe^3+ + e- -> Fe^2+}$: $\\Delta G^\\circ = -1F(0.77)$\n\n$\\ce{Fe^2+ + 2e- -> Fe}$: $\\Delta G^\\circ = -2F(-0.44)$\n\nSum: $\\Delta G^\\circ = -F(0.77 - 0.88) = +0.11F$ for the 3-electron process, so $E^\\circ = -0.11/3 = -0.037\\ \\text{V} \\approx -0.04\\ \\text{V}$.",
+    "distractor_notes": {
+      "A": "Correct: $E^\\circ = \\dfrac{1(0.77) + 2(-0.44)}{3} = -0.037$ V.",
+      "B": "+0.33 V simply adds the two potentials; potentials are intensive and cannot be added for a combined half-reaction.",
+      "C": "+0.165 V is the unweighted average; the weighting must be by electrons transferred.",
+      "D": "−0.11 V is the electron-weighted sum before dividing by $n = 3$."
+    },
+    "concept_ref": "Combining half-reaction potentials via ΔG°",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-redox-08",
+    "body_md": "$E^\\circ_\\text{cell} = 0.80 - 0.34 = 0.46\\ \\text{V}$; $n = 2$ electrons are transferred (two $\\ce{Ag+}$ reduced per Cu).\n\n$\\log K = \\dfrac{nE^\\circ}{0.0592} = \\dfrac{2(0.46)}{0.0592} = 15.5$\n\n$K = 10^{15.5} \\approx 3 \\times 10^{15}$.",
+    "distractor_notes": {
+      "A": "$6 \\times 10^7$ uses $n = 1$.",
+      "B": "Correct: $\\log K = 15.5$.",
+      "C": "$3 \\times 10^{38}$ adds the two potentials ($1.14$ V) instead of subtracting.",
+      "D": "$1 \\times 10^{31}$ uses $n = 4$ (counting electrons in both half-reactions separately)."
+    },
+    "concept_ref": "Relationship between E° and K",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-atomic-structure-01",
+    "body_md": "$l$ can take integer values from $0$ to $n - 1$, and $m_l$ from $-l$ to $+l$.\n\nFor $n = 3$, $l$ can be 0, 1, or 2 only. $l = 3$ would describe an f subshell, which does not exist in the third shell.",
+    "distractor_notes": {
+      "A": "$(3,2,-2)$ is a 3d orbital; allowed.",
+      "B": "$(2,0,0)$ is the 2s orbital; allowed.",
+      "C": "Correct: $l = 3$ requires $n \\ge 4$.",
+      "D": "$(4,1,-1)$ is a 4p orbital; allowed."
+    },
+    "concept_ref": "Quantum number rules",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-atomic-structure-02",
+    "body_md": "Argon accounts for 18 electrons; six remain.\n\nThe aufbau prediction is $4s^2 3d^4$, but chromium is an exception: a half-filled d subshell with all six electrons unpaired is lower in energy, giving $4s^1 3d^5$.\n\nCopper ($4s^1 3d^{10}$) is the other common exception in this period.",
+    "distractor_notes": {
+      "A": "This is the naive aufbau result; Cr prefers the half-filled 3d.",
+      "B": "Correct: $4s^1 3d^5$, six unpaired electrons.",
+      "C": "That is seven valence electrons: manganese ($Z = 25$), not chromium.",
+      "D": "Placing all six electrons in 3d ignores that 4s is occupied in neutral atoms."
+    },
+    "concept_ref": "Electron configuration exceptions",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-atomic-structure-03",
+    "body_md": "All four species are isoelectronic (18 electrons).\n\nWith the same number of electrons, the nucleus with the fewest protons pulls least strongly: S (16) < Cl (17) < Ar (18) < K (19).\n\nSo the radius decreases $\\ce{S^2-} > \\ce{Cl-} > \\ce{Ar} > \\ce{K+}$.",
+    "distractor_notes": {
+      "A": "Correct: lowest nuclear charge in the isoelectronic series.",
+      "B": "$\\ce{Cl-}$ is large but has one more proton than $\\ce{S^2-}$.",
+      "C": "Neutral argon has 18 protons pulling the same 18 electrons.",
+      "D": "$\\ce{K+}$ has the most protons and is the smallest."
+    },
+    "concept_ref": "Isoelectronic series and ionic radius",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-atomic-structure-04",
+    "body_md": "The general trend is increasing first ionization energy across a period, but there are two dips.\n\nBe → B: the electron removed from B is in 2p, higher in energy than Be's 2s.\n\nN → O: nitrogen has a half-filled 2p ($2p^3$); oxygen's fourth 2p electron is paired, and electron–electron repulsion makes it easier to remove. So $\\text{IE}_1(\\ce{O}) < \\text{IE}_1(\\ce{N})$.",
+    "distractor_notes": {
+      "A": "Be > Li: Be's 2s electrons are held more tightly by the higher nuclear charge; normal trend.",
+      "B": "C > B: both remove a 2p electron; normal trend. The dip is between Be and B, not B and C.",
+      "C": "Correct: pairing in oxygen's 2p makes it easier to ionize than nitrogen.",
+      "D": "Ne > F: normal trend; noble gases have the highest IE in their period."
+    },
+    "concept_ref": "Ionization energy anomalies",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-atomic-structure-05",
+    "body_md": "$\\Delta E = 13.6\\left(\\dfrac{1}{2^2} - \\dfrac{1}{3^2}\\right) = 13.6 \\times \\dfrac{5}{36} = 1.89\\ \\text{eV}$\n\n$\\lambda = \\dfrac{hc}{\\Delta E} = \\dfrac{1240}{1.89} = 656\\ \\text{nm}$\n\nThis is the red H-α line of the Balmer series.",
+    "distractor_notes": {
+      "A": "122 nm is the Lyman-α line ($n = 2 \\to 1$).",
+      "B": "486 nm is $n = 4 \\to 2$ (H-β).",
+      "C": "1875 nm is $n = 4 \\to 3$ (Paschen series).",
+      "D": "Correct: 1.89 eV corresponds to 656 nm."
+    },
+    "concept_ref": "Hydrogen emission spectrum",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-atomic-structure-06",
+    "body_md": "Each PES peak corresponds to one subshell; peak height is proportional to the number of electrons in it.\n\n2 : 2 : 6 : 2 → $1s^2\\,2s^2\\,2p^6\\,3s^2$, a total of 12 electrons.\n\n$Z = 12$ is magnesium.",
+    "distractor_notes": {
+      "A": "Correct: $1s^2 2s^2 2p^6 3s^2$ is Mg.",
+      "B": "Na would end 2 : 2 : 6 : 1 ($3s^1$).",
+      "C": "Ne has only three peaks (2 : 2 : 6).",
+      "D": "Al would show five peaks, ending with a $3p^1$ peak of height 1."
+    },
+    "concept_ref": "Photoelectron spectroscopy",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-atomic-structure-07",
+    "body_md": "Alpha decay: mass number −4, atomic number −2 → $\\ce{^{234}_{90}Th}$.\n\nFirst β⁻: atomic number +1, mass unchanged → $\\ce{^{234}_{91}Pa}$.\n\nSecond β⁻: → $\\ce{^{234}_{92}U}$.\n\nThe net result is an isotope of the original element with mass number 4 lower.",
+    "distractor_notes": {
+      "A": "$\\ce{^{234}Th}$ is the product after the alpha decay only.",
+      "B": "Correct: two β⁻ decays return $Z$ to 92.",
+      "C": "$\\ce{^{230}Th}$ would require a second alpha decay.",
+      "D": "The alpha decay lowers $Z$ by 2 before the two β⁻ raise it by 2, and the mass number cannot stay 238."
+    },
+    "concept_ref": "Nuclear decay modes",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-atomic-structure-08",
+    "body_md": "$\\ce{Li^2+}$ has one electron and $Z = 3$.\n\n$E_1 = -13.6 \\times 3^2 / 1^2 = -122.4\\ \\text{eV}$.\n\nIonization energy is the energy to reach $n = \\infty$ ($E = 0$): $122\\ \\text{eV}$, nine times that of hydrogen.",
+    "distractor_notes": {
+      "A": "13.6 eV is hydrogen ($Z = 1$).",
+      "B": "40.8 eV scales by $Z$ instead of $Z^2$.",
+      "C": "367 eV scales by $Z^3$.",
+      "D": "Correct: $13.6 \\times 9 = 122$ eV."
+    },
+    "concept_ref": "Bohr model for hydrogen-like ions",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-bonding-01",
+    "body_md": "Sulfur has 6 valence electrons; four bond to F, leaving one lone pair.\n\nFive electron domains → trigonal bipyramidal electron geometry.\n\nThe lone pair occupies an equatorial position (fewer 90° repulsions), giving a seesaw molecular shape.",
+    "distractor_notes": {
+      "A": "Tetrahedral ignores the lone pair on S.",
+      "B": "Correct: 4 bonds + 1 lone pair = seesaw.",
+      "C": "Square planar needs 4 bonds + 2 lone pairs (e.g., $\\ce{XeF4}$).",
+      "D": "Trigonal pyramidal is 3 bonds + 1 lone pair (e.g., $\\ce{NH3}$)."
+    },
+    "concept_ref": "VSEPR with lone pairs",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-bonding-02",
+    "body_md": "A molecule is nonpolar when its bond dipoles cancel by symmetry.\n\n$\\ce{XeF4}$ is square planar (two lone pairs opposite each other), so the four Xe–F dipoles cancel.\n\n$\\ce{SF4}$ (seesaw), $\\ce{PCl3}$ (trigonal pyramidal) and $\\ce{SO2}$ (bent) all have lone pairs that break the symmetry.",
+    "distractor_notes": {
+      "A": "Correct: square planar, dipoles cancel.",
+      "B": "Seesaw shape; net dipole.",
+      "C": "Trigonal pyramidal; net dipole along the lone-pair axis.",
+      "D": "Bent; net dipole."
+    },
+    "concept_ref": "Molecular polarity and symmetry",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-bonding-03",
+    "body_md": "Cl has 7 valence electrons: three are used in Cl–F bonds, leaving two lone pairs.\n\nElectron domains: 3 bonds + 2 lone pairs = 5 → trigonal bipyramidal electron geometry → $sp^3d$ hybridization.\n\nThe molecular shape is T-shaped, with both lone pairs equatorial.",
+    "distractor_notes": {
+      "A": "$sp^2$ is three domains.",
+      "B": "$sp^3$ is four domains; that would be $\\ce{NF3}$-like.",
+      "C": "Correct: five electron domains.",
+      "D": "$sp^3d^2$ is six domains (e.g., $\\ce{BrF5}$)."
+    },
+    "concept_ref": "Hybridization from electron domains",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-bonding-04",
+    "body_md": "$\\ce{O2}$ has 12 valence electrons: $(\\sigma_{2s})^2(\\sigma^*_{2s})^2(\\sigma_{2p})^2(\\pi_{2p})^4(\\pi^*_{2p})^2$, bond order $(8-4)/2 = 2$.\n\n$\\ce{O2-}$ adds one electron to a $\\pi^*$ orbital: bonding 8, antibonding 5.\n\nBond order $= (8 - 5)/2 = 1.5$.",
+    "distractor_notes": {
+      "A": "1 is the peroxide ion, $\\ce{O2^2-}$.",
+      "B": "Correct: $(8-5)/2 = 1.5$.",
+      "C": "2 is neutral $\\ce{O2}$.",
+      "D": "2.5 is $\\ce{O2+}$ (an electron removed from $\\pi^*$)."
+    },
+    "concept_ref": "Bond order from MO diagrams",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-bonding-05",
+    "body_md": "Formal charge $=$ valence electrons $-$ nonbonding electrons $- \\tfrac{1}{2}$(bonding electrons).\n\nIn both major resonance forms the central N has four bonds and no lone pairs: $\\ce{N#N-O}$ and $\\ce{N=N=O}$.\n\nFC(central N) $= 5 - 0 - 4 = +1$ in each. The −1 charge sits on O (preferred, more electronegative) or on the terminal N.",
+    "distractor_notes": {
+      "A": "−1 is the formal charge on O in the $\\ce{N#N-O}$ structure.",
+      "B": "FC = 0 would need one lone pair and three bonds on the central N, which cannot complete the octets of both neighbors.",
+      "C": "Correct: four bonds and no lone pairs gives +1.",
+      "D": "+2 would require five bonds, impossible for nitrogen."
+    },
+    "concept_ref": "Formal charge",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-bonding-06",
+    "body_md": "Lone pairs compress bond angles: $\\ce{CH4}$ (109.5°) > $\\ce{NH3}$ (107°) > $\\ce{H2O}$ (104.5°).\n\nGoing down a group, the central atom is larger and less electronegative; the bonding pairs sit farther from it and repel each other less, and the bonds use nearly pure p orbitals.\n\n$\\ce{H2S}$ has a bond angle of about 92°, the smallest of the four.",
+    "distractor_notes": {
+      "A": "No lone pairs; ideal tetrahedral angle.",
+      "B": "One lone pair; 107°.",
+      "C": "Two lone pairs; 104.5°, but S is larger than O.",
+      "D": "Correct: two lone pairs on a larger central atom; ~92°."
+    },
+    "concept_ref": "Bond angle trends",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-bonding-07",
+    "body_md": "Bond length decreases as bond order increases.\n\nMO bond orders: $\\ce{O2+}$ 2.5, $\\ce{O2}$ 2, $\\ce{O2-}$ 1.5, $\\ce{O2^2-}$ 1.\n\nRemoving an electron from an antibonding $\\pi^*$ orbital strengthens and shortens the bond, so $\\ce{O2+}$ has the shortest bond (~112 pm).",
+    "distractor_notes": {
+      "A": "Bond order 2; second shortest.",
+      "B": "Bond order 1.5.",
+      "C": "Bond order 1; the longest.",
+      "D": "Correct: highest bond order, 2.5."
+    },
+    "concept_ref": "Bond order and bond length",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-bonding-08",
+    "body_md": "Count unpaired electrons using the MO diagram (for $\\ce{B2}$–$\\ce{N2}$, $\\pi_{2p}$ lies below $\\sigma_{2p}$).\n\n$\\ce{B2}$: 6 valence e⁻, $(\\pi_{2p})^2$ with one electron in each degenerate π orbital → 2 unpaired, paramagnetic.\n\n$\\ce{C2}$: $(\\pi_{2p})^4$ → all paired. $\\ce{N2}$: all paired.\n\n$\\ce{O2}$: $(\\pi^*_{2p})^2$ → 2 unpaired. $\\ce{NO}$: 11 valence e⁻, $(\\pi^*)^1$ → 1 unpaired.\n\nParamagnetic: $\\ce{B2}$, $\\ce{O2}$, $\\ce{NO}$ = 3.",
+    "distractor_notes": {
+      "A": "Correct: $\\ce{B2}$, $\\ce{O2}$ and $\\ce{NO}$.",
+      "B": "Counting only $\\ce{O2}$ misses $\\ce{B2}$ (Hund's rule in $\\pi_{2p}$) and $\\ce{NO}$ (odd electron).",
+      "C": "$\\ce{O2}$ and $\\ce{NO}$ alone misses $\\ce{B2}$.",
+      "D": "$\\ce{C2}$ is diamagnetic: its four π electrons fill both $\\pi_{2p}$ orbitals."
+    },
+    "concept_ref": "MO theory and magnetism",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-descriptive-01",
+    "body_md": "Flame colors arise from electrons in the metal ion relaxing after thermal excitation.\n\nCommon results: $\\ce{Na+}$ intense yellow, $\\ce{K+}$ lilac, $\\ce{Li+}$ crimson, $\\ce{Sr^2+}$ red, $\\ce{Ca^2+}$ brick red/orange, $\\ce{Ba^2+}$ apple green, $\\ce{Cu^2+}$ blue-green.\n\nApple green points to barium.",
+    "distractor_notes": {
+      "A": "Sodium is bright yellow.",
+      "B": "Potassium is lilac (often masked by sodium).",
+      "C": "Strontium is crimson red.",
+      "D": "Correct: barium gives apple green."
+    },
+    "concept_ref": "Flame test colors",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-descriptive-02",
+    "body_md": "Color in aqueous transition-metal ions comes from d–d transitions, which require a partially filled d subshell.\n\n$\\ce{Zn^2+}$ is $d^{10}$ (completely filled), so no d–d transition is possible and its solutions are colorless.\n\n$\\ce{Cu^2+}$ ($d^9$) is blue, $\\ce{Ni^2+}$ ($d^8$) green, $\\ce{Fe^3+}$ ($d^5$) yellow-brown.",
+    "distractor_notes": {
+      "A": "Blue.",
+      "B": "Correct: $d^{10}$, colorless.",
+      "C": "Green.",
+      "D": "Yellow to brown."
+    },
+    "concept_ref": "Colors of aqueous ions",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-descriptive-03",
+    "body_md": "Check each possible product against the solubility rules.\n\n$\\ce{Pb^2+ + 2I- -> PbI2(s)}$: lead(II) iodide is insoluble and precipitates as a bright yellow solid.\n\nAll nitrates, and the chlorides of Na, K and Ba, are soluble; $\\ce{NH4Cl + NaOH}$ releases $\\ce{NH3}$ gas on warming but forms no solid.",
+    "distractor_notes": {
+      "A": "Correct: yellow $\\ce{PbI2}$.",
+      "B": "All possible products are soluble alkali-metal salts.",
+      "C": "Produces $\\ce{NH3(g)}$ and water, not a solid.",
+      "D": "$\\ce{BaCl2}$ is soluble (barium sulfate is the insoluble one)."
+    },
+    "concept_ref": "Solubility rules",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-descriptive-04",
+    "body_md": "Standard gas tests: $\\ce{O2}$ relights a glowing splint; $\\ce{H2}$ gives a squeaky pop with a lit splint; $\\ce{CO2}$ turns limewater milky and extinguishes a flame; $\\ce{N2}$ is inert and extinguishes a flame.",
+    "distractor_notes": {
+      "A": "Hydrogen burns with a pop but does not relight a glowing splint.",
+      "B": "Carbon dioxide extinguishes flames.",
+      "C": "Nitrogen extinguishes flames.",
+      "D": "Correct: oxygen supports combustion."
+    },
+    "concept_ref": "Gas tests",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-descriptive-05",
+    "body_md": "A buret is calibrated to deliver any volume up to its capacity, read to ±0.01–0.05 mL, which is why it is used in titrations.\n\nA volumetric pipet delivers one fixed volume; a volumetric flask contains (does not deliver) one fixed volume; a graduated cylinder is only approximate.",
+    "distractor_notes": {
+      "A": "Contains a single fixed volume; used for making solutions.",
+      "B": "Variable but low precision.",
+      "C": "Correct: precise and variable.",
+      "D": "Precise but a single fixed volume."
+    },
+    "concept_ref": "Volumetric glassware",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-descriptive-06",
+    "body_md": "Amphoteric hydroxides react with both acids and strong bases.\n\n$\\ce{Zn(OH)2(s) + 2OH- -> [Zn(OH)4]^2-(aq)}$ (tetrahydroxozincate), so the white precipitate redissolves in excess base.\n\n$\\ce{Al(OH)3}$, $\\ce{Pb(OH)2}$, $\\ce{Sn(OH)2}$ and $\\ce{Cr(OH)3}$ behave similarly. $\\ce{Mg(OH)2}$ and $\\ce{Fe(OH)3}$ are purely basic and stay as precipitates.",
+    "distractor_notes": {
+      "A": "Basic only; remains insoluble in excess base.",
+      "B": "Correct: amphoteric, forms $\\ce{[Zn(OH)4]^2-}$.",
+      "C": "The rust-brown precipitate is not amphoteric.",
+      "D": "Not amphoteric; sparingly soluble regardless of excess base."
+    },
+    "concept_ref": "Amphoteric hydroxides",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-descriptive-07",
+    "body_md": "Ionic hydrides contain the hydride ion, $\\ce{H-}$, a strong base and reducing agent.\n\n$\\ce{NaH + H2O -> NaOH + H2}$: the hydride is oxidized to $\\ce{H2}$ and the solution is strongly basic.\n\n$\\ce{CaO}$ gives $\\ce{Ca(OH)2}$ (basic, but no gas); $\\ce{NH3}$ gives a weakly basic solution, no gas; $\\ce{SO2}$ gives acidic sulfurous acid.",
+    "distractor_notes": {
+      "A": "Basic solution but no hydrogen evolved.",
+      "B": "Weak base; no redox, no gas.",
+      "C": "Acidic oxide.",
+      "D": "Correct: hydride reduces water to $\\ce{H2}$, leaving $\\ce{OH-}$."
+    },
+    "concept_ref": "Reactions of metal hydrides",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-descriptive-08",
+    "body_md": "No precipitate with $\\ce{Cl-}$ rules out $\\ce{Ag+}$ (white $\\ce{AgCl}$).\n\nA white precipitate with sulfate points to $\\ce{BaSO4}$, one of the least soluble sulfates. $\\ce{CuSO4}$ and $\\ce{Na2SO4}$ are soluble (and a $\\ce{Cu^2+}$ solution would be blue).\n\nThe ion is $\\ce{Ba^2+}$.",
+    "distractor_notes": {
+      "A": "Correct: soluble chloride, insoluble white sulfate.",
+      "B": "Would have precipitated white $\\ce{AgCl}$ with HCl.",
+      "C": "Copper sulfate is soluble; the solution would also be blue.",
+      "D": "All common sodium salts are soluble."
+    },
+    "concept_ref": "Qualitative analysis of cations",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-organic-01",
+    "body_md": "Find the longest chain containing the –OH carbon: four carbons (butanol).\n\nNumber from the end nearest the –OH group: C1 bears the OH, so the methyl branch is on C3.\n\nName: 3-methylbutan-1-ol (also written 3-methyl-1-butanol).",
+    "distractor_notes": {
+      "A": "2-methylbutan-1-ol is $\\ce{CH3CH2CH(CH3)CH2OH}$, a different isomer.",
+      "B": "Numbering from the wrong end gives locant 4 for OH; the OH must get the lowest number.",
+      "C": "Correct.",
+      "D": "A 4-methylbutane is really a five-carbon chain (pentane)."
+    },
+    "concept_ref": "IUPAC nomenclature of alcohols",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-organic-02",
+    "body_md": "The fragment $\\ce{-C(=O)-O-C}$ is an ester: a carbonyl carbon bonded to an alkoxy group.\n\n$\\ce{CH3COOCH2CH3}$ is ethyl acetate (ethyl ethanoate), made from acetic acid and ethanol.\n\nAn ether has $\\ce{C-O-C}$ with no carbonyl; a carboxylic acid ends in $\\ce{-COOH}$.",
+    "distractor_notes": {
+      "A": "Ethers lack the C=O.",
+      "B": "Correct: ethyl ethanoate.",
+      "C": "A ketone's carbonyl is bonded to two carbons, not to an oxygen.",
+      "D": "The acidic H has been replaced by an ethyl group."
+    },
+    "concept_ref": "Functional group identification",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-organic-03",
+    "body_md": "Start from the two butane skeletons.\n\nn-butane: Cl on C1 (1-chlorobutane) or C2 (2-chlorobutane).\n\n2-methylpropane: Cl on a terminal carbon (1-chloro-2-methylpropane) or the central carbon (2-chloro-2-methylpropane).\n\nTotal: 4 constitutional isomers. (2-chlorobutane is also chiral, but stereoisomers are not counted here.)",
+    "distractor_notes": {
+      "A": "Correct: 2 from butane + 2 from 2-methylpropane.",
+      "B": "Counts only the straight-chain isomers.",
+      "C": "Misses one position on the branched skeleton.",
+      "D": "Counting the enantiomers of 2-chlorobutane separately gives 5 stereoisomers, but only 4 constitutional isomers."
+    },
+    "concept_ref": "Constitutional isomers",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-organic-04",
+    "body_md": "Geometric isomerism requires a C=C double bond with two different groups on each alkene carbon.\n\nBut-2-ene: each alkene carbon has H and $\\ce{CH3}$ → cis and trans forms exist.\n\nBut-1-ene has two H's on C1; 2-methylpropene has two $\\ce{CH3}$ groups on the same carbon; an alkyne is linear and has no geometric isomers.",
+    "distractor_notes": {
+      "A": "The terminal $\\ce{=CH2}$ carbon has two identical substituents.",
+      "B": "$\\ce{(CH3)2C=CH2}$: identical groups on each carbon.",
+      "C": "Triple bonds are linear; no cis/trans.",
+      "D": "Correct: $\\ce{CH3CH=CHCH3}$."
+    },
+    "concept_ref": "Cis–trans isomerism",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-organic-05",
+    "body_md": "The π bond of the alkene is broken and two new σ bonds form; all atoms of both reactants end up in the single product.\n\nThat is an addition reaction (specifically electrophilic addition of bromine). The rapid loss of bromine's color is a classic test for unsaturation.",
+    "distractor_notes": {
+      "A": "Substitution swaps one group for another (e.g., alkane + $\\ce{Br2}$ under UV light).",
+      "B": "Elimination is the reverse: removing atoms to form a double bond.",
+      "C": "Correct: everything adds across the double bond.",
+      "D": "Condensation joins two molecules with loss of a small molecule such as water."
+    },
+    "concept_ref": "Organic reaction types",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-organic-06",
+    "body_md": "There are two stereocenters (C2 and C3), so the maximum is $2^2 = 4$.\n\nBut the molecule is symmetric: the (2R,3S) and (2S,3R) forms are the same compound, a meso isomer with an internal mirror plane.\n\nStereoisomers: the meso compound plus the (2R,3R)/(2S,3S) pair of enantiomers = 3.",
+    "distractor_notes": {
+      "A": "Correct: one meso form + one enantiomeric pair.",
+      "B": "Two would be a single enantiomeric pair; the meso form is a separate compound.",
+      "C": "$2^n$ overcounts when a meso form exists.",
+      "D": "Six is not possible for two stereocenters."
+    },
+    "concept_ref": "Meso compounds",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-organic-07",
+    "body_md": "Compare conjugate-base stability.\n\nCarboxylic acids beat phenol and alcohols because the carboxylate charge is delocalized over two oxygens.\n\nAmong carboxylic acids, an electron-withdrawing chlorine on the α-carbon stabilizes the anion further by induction: chloroacetic acid ($\\text{p}K_a \\approx 2.9$) is stronger than acetic acid ($\\text{p}K_a \\approx 4.8$).",
+    "distractor_notes": {
+      "A": "Acetic acid lacks the inductive stabilization of chloroacetic acid.",
+      "B": "Correct: the inductive effect of Cl lowers the p$K_a$.",
+      "C": "Ethanol, p$K_a$ ≈ 16, is barely acidic.",
+      "D": "Phenol (p$K_a$ ≈ 10) is more acidic than alcohols but much weaker than carboxylic acids."
+    },
+    "concept_ref": "Acidity and inductive effects",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  },
+  {
+    "question_id": "seed-organic-08",
+    "body_md": "Tollens' reagent, $\\ce{[Ag(NH3)2]+}$, oxidizes aldehydes to carboxylates while depositing silver metal; ketones, ethers and alcohols do not react.\n\nOf the $\\ce{C4H8O}$ candidates, only butanal, $\\ce{CH3CH2CH2CHO}$, is an aldehyde.\n\nAll four are isomers: the one degree of unsaturation appears as a C=O, a ring, or a C=C.",
+    "distractor_notes": {
+      "A": "A ketone; not oxidized by Tollens'.",
+      "B": "A cyclic ether; unreactive.",
+      "C": "An alkene alcohol; alcohols are not oxidized by Tollens'.",
+      "D": "Correct: the aldehyde."
+    },
+    "concept_ref": "Tollens' test",
+    "verified": false,
+    "author": "claude-seed",
+    "updated_at": "2026-09-21"
+  }
+]

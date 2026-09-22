@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "seed-redox-01",
+    "year": 2026,
+    "level": "local",
+    "number": 41,
+    "stem_md": "What is the oxidation state of chromium in the dichromate ion, $\\ce{Cr2O7^2-}$?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "oxidation states",
+    "est_percent_correct": 0.8,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "+3"
+      },
+      {
+        "label": "B",
+        "text_md": "+6"
+      },
+      {
+        "label": "C",
+        "text_md": "+7"
+      },
+      {
+        "label": "D",
+        "text_md": "+12"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-redox-02",
+    "year": 2026,
+    "level": "local",
+    "number": 42,
+    "stem_md": "When $\\ce{MnO4- + Fe^2+ -> Mn^2+ + Fe^3+}$ is balanced in acidic solution with the smallest whole-number coefficients, what is the sum of all coefficients (including $\\ce{H+}$ and $\\ce{H2O}$)?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "balancing redox",
+    "est_percent_correct": 0.65,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "16"
+      },
+      {
+        "label": "B",
+        "text_md": "20"
+      },
+      {
+        "label": "C",
+        "text_md": "24"
+      },
+      {
+        "label": "D",
+        "text_md": "28"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-redox-03",
+    "year": 2026,
+    "level": "local",
+    "number": 43,
+    "stem_md": "A galvanic cell is built from the half-cells $\\ce{Zn^2+/Zn}$ ($E^\\circ = -0.76\\ \\text{V}$) and $\\ce{Ag+/Ag}$ ($E^\\circ = +0.80\\ \\text{V}$). What is the standard cell potential?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "standard potentials",
+    "est_percent_correct": 0.7,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "+1.56 V"
+      },
+      {
+        "label": "B",
+        "text_md": "+0.04 V"
+      },
+      {
+        "label": "C",
+        "text_md": "+2.36 V"
+      },
+      {
+        "label": "D",
+        "text_md": "−1.56 V"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-redox-04",
+    "year": 2026,
+    "level": "local",
+    "number": 44,
+    "stem_md": "Which statement about an operating galvanic (voltaic) cell is correct?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "galvanic cells",
+    "est_percent_correct": 0.6,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Oxidation occurs at the cathode."
+      },
+      {
+        "label": "B",
+        "text_md": "Electrons travel through the salt bridge from anode to cathode."
+      },
+      {
+        "label": "C",
+        "text_md": "Anions in the salt bridge migrate toward the anode compartment."
+      },
+      {
+        "label": "D",
+        "text_md": "The cathode is the negative electrode."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-redox-05",
+    "year": 2026,
+    "level": "local",
+    "number": 45,
+    "stem_md": "A current of 2.00 A is passed through aqueous $\\ce{CuSO4}$ for 965 s. What mass of copper is deposited at the cathode? ($F = 96485\\ \\text{C/mol}$; Cu = 63.55 g/mol)",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "Faraday's law",
+    "est_percent_correct": 0.55,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1.27 g"
+      },
+      {
+        "label": "B",
+        "text_md": "0.318 g"
+      },
+      {
+        "label": "C",
+        "text_md": "2.54 g"
+      },
+      {
+        "label": "D",
+        "text_md": "0.636 g"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-redox-06",
+    "year": 2026,
+    "level": "national",
+    "number": 46,
+    "stem_md": "For the cell $\\ce{Zn(s) | Zn^2+(0.010 M) || Cu^2+(1.0 M) | Cu(s)}$, $E^\\circ_\\text{cell} = 1.10\\ \\text{V}$. What is the cell potential at 25 °C?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "Nernst equation",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1.04 V"
+      },
+      {
+        "label": "B",
+        "text_md": "1.10 V"
+      },
+      {
+        "label": "C",
+        "text_md": "1.16 V"
+      },
+      {
+        "label": "D",
+        "text_md": "1.22 V"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-redox-07",
+    "year": 2026,
+    "level": "national",
+    "number": 47,
+    "stem_md": "Given $E^\\circ(\\ce{Fe^3+/Fe^2+}) = +0.77\\ \\text{V}$ and $E^\\circ(\\ce{Fe^2+/Fe}) = -0.44\\ \\text{V}$, what is $E^\\circ$ for $\\ce{Fe^3+ + 3e- -> Fe}$?",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "standard potentials",
+    "est_percent_correct": 0.35,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "−0.04 V"
+      },
+      {
+        "label": "B",
+        "text_md": "+0.33 V"
+      },
+      {
+        "label": "C",
+        "text_md": "+0.165 V"
+      },
+      {
+        "label": "D",
+        "text_md": "−0.11 V"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-redox-08",
+    "year": 2026,
+    "level": "national",
+    "number": 48,
+    "stem_md": "Using $E^\\circ(\\ce{Ag+/Ag}) = +0.80\\ \\text{V}$ and $E^\\circ(\\ce{Cu^2+/Cu}) = +0.34\\ \\text{V}$, estimate the equilibrium constant at 25 °C for $\\ce{2Ag+ + Cu -> 2Ag + Cu^2+}$.",
+    "figure_url": null,
+    "topic_id": "redox",
+    "subtopic": "standard potentials",
+    "est_percent_correct": 0.4,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$6 \\times 10^{7}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$3 \\times 10^{15}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$3 \\times 10^{38}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$1 \\times 10^{31}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-atomic-structure-01",
+    "year": 2026,
+    "level": "local",
+    "number": 49,
+    "stem_md": "Which set of quantum numbers $(n, l, m_l)$ is NOT allowed for an electron in an atom?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "quantum numbers",
+    "est_percent_correct": 0.75,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$(3, 2, -2)$"
+      },
+      {
+        "label": "B",
+        "text_md": "$(2, 0, 0)$"
+      },
+      {
+        "label": "C",
+        "text_md": "$(3, 3, 1)$"
+      },
+      {
+        "label": "D",
+        "text_md": "$(4, 1, -1)$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-atomic-structure-02",
+    "year": 2026,
+    "level": "local",
+    "number": 50,
+    "stem_md": "What is the ground-state electron configuration of a chromium atom ($Z = 24$)?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "electron configuration",
+    "est_percent_correct": 0.7,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$[\\ce{Ar}]\\,4s^2 3d^4$"
+      },
+      {
+        "label": "B",
+        "text_md": "$[\\ce{Ar}]\\,4s^1 3d^5$"
+      },
+      {
+        "label": "C",
+        "text_md": "$[\\ce{Ar}]\\,4s^2 3d^5$"
+      },
+      {
+        "label": "D",
+        "text_md": "$[\\ce{Ar}]\\,3d^6$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-atomic-structure-03",
+    "year": 2026,
+    "level": "local",
+    "number": 51,
+    "stem_md": "Which species has the largest radius?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "periodic trends",
+    "est_percent_correct": 0.6,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{S^2-}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{Cl-}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{Ar}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{K+}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-atomic-structure-04",
+    "year": 2026,
+    "level": "local",
+    "number": 52,
+    "stem_md": "For which pair of adjacent elements is the first ionization energy of the element on the right LOWER than that of the element on the left, contrary to the general trend across a period?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "ionization energy",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Li, Be"
+      },
+      {
+        "label": "B",
+        "text_md": "B, C"
+      },
+      {
+        "label": "C",
+        "text_md": "N, O"
+      },
+      {
+        "label": "D",
+        "text_md": "F, Ne"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-atomic-structure-05",
+    "year": 2026,
+    "level": "local",
+    "number": 53,
+    "stem_md": "What is the wavelength of the photon emitted when a hydrogen atom's electron falls from $n = 3$ to $n = 2$? (Use $E_n = -13.6\\ \\text{eV}/n^2$ and $hc = 1240\\ \\text{eV·nm}$.)",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "atomic spectra",
+    "est_percent_correct": 0.45,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "122 nm"
+      },
+      {
+        "label": "B",
+        "text_md": "486 nm"
+      },
+      {
+        "label": "C",
+        "text_md": "1875 nm"
+      },
+      {
+        "label": "D",
+        "text_md": "656 nm"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-atomic-structure-06",
+    "year": 2026,
+    "level": "national",
+    "number": 54,
+    "stem_md": "The photoelectron spectrum of an element shows exactly four peaks. In order of decreasing binding energy their relative heights are 2 : 2 : 6 : 2. Which element is it?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "photoelectron spectroscopy",
+    "est_percent_correct": 0.4,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Mg"
+      },
+      {
+        "label": "B",
+        "text_md": "Na"
+      },
+      {
+        "label": "C",
+        "text_md": "Ne"
+      },
+      {
+        "label": "D",
+        "text_md": "Al"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-atomic-structure-07",
+    "year": 2026,
+    "level": "national",
+    "number": 55,
+    "stem_md": "$\\ce{^{238}_{92}U}$ undergoes one alpha decay followed by two consecutive beta-minus decays. What is the resulting nuclide?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "nuclear chemistry",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{^{234}_{90}Th}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{^{234}_{92}U}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{^{230}_{90}Th}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{^{238}_{94}Pu}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-atomic-structure-08",
+    "year": 2026,
+    "level": "national",
+    "number": 56,
+    "stem_md": "Using the Bohr model, $E_n = -13.6\\ \\text{eV} \\times Z^2/n^2$ for a one-electron species. What is the ground-state ionization energy of $\\ce{Li^2+}$?",
+    "figure_url": null,
+    "topic_id": "atomic-structure",
+    "subtopic": "atomic spectra",
+    "est_percent_correct": 0.35,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "13.6 eV"
+      },
+      {
+        "label": "B",
+        "text_md": "40.8 eV"
+      },
+      {
+        "label": "C",
+        "text_md": "367 eV"
+      },
+      {
+        "label": "D",
+        "text_md": "122 eV"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-bonding-01",
+    "year": 2026,
+    "level": "local",
+    "number": 57,
+    "stem_md": "What is the molecular geometry of $\\ce{SF4}$?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "VSEPR",
+    "est_percent_correct": 0.7,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Tetrahedral"
+      },
+      {
+        "label": "B",
+        "text_md": "Seesaw"
+      },
+      {
+        "label": "C",
+        "text_md": "Square planar"
+      },
+      {
+        "label": "D",
+        "text_md": "Trigonal pyramidal"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-bonding-02",
+    "year": 2026,
+    "level": "local",
+    "number": 58,
+    "stem_md": "Which molecule is nonpolar?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "polarity",
+    "est_percent_correct": 0.65,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{XeF4}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{SF4}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{PCl3}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{SO2}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-bonding-03",
+    "year": 2026,
+    "level": "local",
+    "number": 59,
+    "stem_md": "What is the hybridization of the chlorine atom in $\\ce{ClF3}$?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "hybridization",
+    "est_percent_correct": 0.65,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$sp^2$"
+      },
+      {
+        "label": "B",
+        "text_md": "$sp^3$"
+      },
+      {
+        "label": "C",
+        "text_md": "$sp^3d$"
+      },
+      {
+        "label": "D",
+        "text_md": "$sp^3d^2$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-bonding-04",
+    "year": 2026,
+    "level": "local",
+    "number": 60,
+    "stem_md": "According to molecular orbital theory, what is the bond order of the superoxide ion, $\\ce{O2-}$?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "molecular orbital theory",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1"
+      },
+      {
+        "label": "B",
+        "text_md": "1.5"
+      },
+      {
+        "label": "C",
+        "text_md": "2"
+      },
+      {
+        "label": "D",
+        "text_md": "2.5"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-bonding-05",
+    "year": 2026,
+    "level": "local",
+    "number": 61,
+    "stem_md": "In the Lewis structures of nitrous oxide, $\\ce{N2O}$ (atom order N–N–O), what is the formal charge on the central nitrogen atom?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "resonance",
+    "est_percent_correct": 0.55,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "−1"
+      },
+      {
+        "label": "B",
+        "text_md": "0"
+      },
+      {
+        "label": "C",
+        "text_md": "+1"
+      },
+      {
+        "label": "D",
+        "text_md": "+2"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-bonding-06",
+    "year": 2026,
+    "level": "national",
+    "number": 62,
+    "stem_md": "Which molecule has the smallest H–X–H bond angle?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "VSEPR",
+    "est_percent_correct": 0.4,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{CH4}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{NH3}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{H2O}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{H2S}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-bonding-07",
+    "year": 2026,
+    "level": "national",
+    "number": 63,
+    "stem_md": "Which species has the shortest oxygen–oxygen bond?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "bond order",
+    "est_percent_correct": 0.4,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{O2}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{O2-}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{O2^2-}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{O2+}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-bonding-08",
+    "year": 2026,
+    "level": "national",
+    "number": 64,
+    "stem_md": "How many of the following diatomic species are paramagnetic: $\\ce{B2}$, $\\ce{C2}$, $\\ce{N2}$, $\\ce{O2}$, $\\ce{NO}$?",
+    "figure_url": null,
+    "topic_id": "bonding",
+    "subtopic": "molecular orbital theory",
+    "est_percent_correct": 0.35,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "3"
+      },
+      {
+        "label": "B",
+        "text_md": "1"
+      },
+      {
+        "label": "C",
+        "text_md": "2"
+      },
+      {
+        "label": "D",
+        "text_md": "4"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-descriptive-01",
+    "year": 2026,
+    "level": "local",
+    "number": 65,
+    "stem_md": "A salt held in a Bunsen flame gives an apple-green color. Which metal ion is most likely present?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "flame tests",
+    "est_percent_correct": 0.7,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{Na+}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{K+}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{Sr^2+}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{Ba^2+}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-descriptive-02",
+    "year": 2026,
+    "level": "local",
+    "number": 66,
+    "stem_md": "Which aqueous ion is colorless?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "ion colors",
+    "est_percent_correct": 0.7,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{Cu^2+}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{Zn^2+}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{Ni^2+}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{Fe^3+}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-descriptive-03",
+    "year": 2026,
+    "level": "local",
+    "number": 67,
+    "stem_md": "Mixing which pair of aqueous solutions produces a precipitate?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "solubility rules",
+    "est_percent_correct": 0.65,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{Pb(NO3)2}$ and $\\ce{KI}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{NaNO3}$ and $\\ce{KCl}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{NH4Cl}$ and $\\ce{NaOH}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{Ba(NO3)2}$ and $\\ce{NaCl}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-descriptive-04",
+    "year": 2026,
+    "level": "local",
+    "number": 68,
+    "stem_md": "A colorless, odorless gas causes a glowing wooden splint to burst back into flame. The gas is most likely:",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "gas identification",
+    "est_percent_correct": 0.75,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{H2}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{CO2}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{N2}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{O2}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-descriptive-05",
+    "year": 2026,
+    "level": "local",
+    "number": 69,
+    "stem_md": "Which piece of glassware is designed to deliver a precisely measured but variable volume of liquid?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "lab technique",
+    "est_percent_correct": 0.65,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Volumetric flask"
+      },
+      {
+        "label": "B",
+        "text_md": "Graduated cylinder"
+      },
+      {
+        "label": "C",
+        "text_md": "Buret"
+      },
+      {
+        "label": "D",
+        "text_md": "Volumetric pipet"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-descriptive-06",
+    "year": 2026,
+    "level": "national",
+    "number": 70,
+    "stem_md": "Which hydroxide precipitate dissolves when excess $\\ce{NaOH(aq)}$ is added?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "transition metals",
+    "est_percent_correct": 0.5,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{Mg(OH)2}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{Zn(OH)2}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{Fe(OH)3}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{Ca(OH)2}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-descriptive-07",
+    "year": 2026,
+    "level": "national",
+    "number": 71,
+    "stem_md": "Which compound reacts with water to produce both a basic solution and hydrogen gas?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "reactions of main-group elements",
+    "est_percent_correct": 0.45,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{CaO}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{NH3}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{SO2}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{NaH}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-descriptive-08",
+    "year": 2026,
+    "level": "national",
+    "number": 72,
+    "stem_md": "A solution contains exactly one of $\\ce{Ag+}$, $\\ce{Ba^2+}$, $\\ce{Cu^2+}$, $\\ce{Na+}$. Adding dilute $\\ce{HCl}$ gives no precipitate; adding dilute $\\ce{H2SO4}$ gives a white precipitate. Which ion is present?",
+    "figure_url": null,
+    "topic_id": "descriptive",
+    "subtopic": "solubility rules",
+    "est_percent_correct": 0.45,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{Ba^2+}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{Ag+}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{Cu^2+}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{Na+}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-organic-01",
+    "year": 2026,
+    "level": "local",
+    "number": 73,
+    "stem_md": "What is the IUPAC name of $\\ce{CH3CH(CH3)CH2CH2OH}$?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "nomenclature",
+    "est_percent_correct": 0.65,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "2-methylbutan-1-ol"
+      },
+      {
+        "label": "B",
+        "text_md": "2-methyl-4-butanol"
+      },
+      {
+        "label": "C",
+        "text_md": "3-methylbutan-1-ol"
+      },
+      {
+        "label": "D",
+        "text_md": "4-methylbutan-1-ol"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-organic-02",
+    "year": 2026,
+    "level": "local",
+    "number": 74,
+    "stem_md": "Which functional group is present in $\\ce{CH3COOCH2CH3}$?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "functional groups",
+    "est_percent_correct": 0.8,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Ether"
+      },
+      {
+        "label": "B",
+        "text_md": "Ester"
+      },
+      {
+        "label": "C",
+        "text_md": "Ketone"
+      },
+      {
+        "label": "D",
+        "text_md": "Carboxylic acid"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-organic-03",
+    "year": 2026,
+    "level": "local",
+    "number": 75,
+    "stem_md": "How many constitutional (structural) isomers have the molecular formula $\\ce{C4H9Cl}$?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "isomerism",
+    "est_percent_correct": 0.55,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "4"
+      },
+      {
+        "label": "B",
+        "text_md": "2"
+      },
+      {
+        "label": "C",
+        "text_md": "3"
+      },
+      {
+        "label": "D",
+        "text_md": "5"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-organic-04",
+    "year": 2026,
+    "level": "local",
+    "number": 76,
+    "stem_md": "Which compound can exist as cis and trans isomers?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "stereochemistry",
+    "est_percent_correct": 0.65,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "But-1-ene"
+      },
+      {
+        "label": "B",
+        "text_md": "2-Methylpropene"
+      },
+      {
+        "label": "C",
+        "text_md": "But-2-yne"
+      },
+      {
+        "label": "D",
+        "text_md": "But-2-ene"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-organic-05",
+    "year": 2026,
+    "level": "local",
+    "number": 77,
+    "stem_md": "The reaction $\\ce{CH2=CH2 + Br2 -> BrCH2CH2Br}$ is best classified as:",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "reaction types",
+    "est_percent_correct": 0.75,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Substitution"
+      },
+      {
+        "label": "B",
+        "text_md": "Elimination"
+      },
+      {
+        "label": "C",
+        "text_md": "Addition"
+      },
+      {
+        "label": "D",
+        "text_md": "Condensation"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-organic-06",
+    "year": 2026,
+    "level": "national",
+    "number": 78,
+    "stem_md": "How many stereoisomers exist for 2,3-dibromobutane, $\\ce{CH3CHBrCHBrCH3}$?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "stereochemistry",
+    "est_percent_correct": 0.35,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "3"
+      },
+      {
+        "label": "B",
+        "text_md": "2"
+      },
+      {
+        "label": "C",
+        "text_md": "4"
+      },
+      {
+        "label": "D",
+        "text_md": "6"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-organic-07",
+    "year": 2026,
+    "level": "national",
+    "number": 79,
+    "stem_md": "Which compound is the strongest acid?",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "functional groups",
+    "est_percent_correct": 0.4,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{CH3COOH}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{ClCH2COOH}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{CH3CH2OH}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{C6H5OH}$ (phenol)"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-organic-08",
+    "year": 2026,
+    "level": "national",
+    "number": 80,
+    "stem_md": "Compound X has molecular formula $\\ce{C4H8O}$ and gives a silver mirror with Tollens' reagent. X could be:",
+    "figure_url": null,
+    "topic_id": "organic",
+    "subtopic": "reaction types",
+    "est_percent_correct": 0.45,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "Butanone"
+      },
+      {
+        "label": "B",
+        "text_md": "Tetrahydrofuran (oxolane)"
+      },
+      {
+        "label": "C",
+        "text_md": "But-3-en-1-ol"
+      },
+      {
+        "label": "D",
+        "text_md": "Butanal"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  }
+]

@@ -1,0 +1,26 @@
+[project]
+name = "valence-pipeline"
+version = "0.1.0"
+description = "Offline content pipeline for Valence: exam PDF -> review CSV -> question JSON -> explanation drafts"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.60",
+    "pymupdf>=1.24",
+    "pydantic>=2.7",
+]
+
+[project.scripts]
+valence-pipeline = "valence_pipeline.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/valence_pipeline"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

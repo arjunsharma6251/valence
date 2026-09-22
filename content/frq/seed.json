@@ -1,0 +1,430 @@
+[
+  {
+    "id": "seed-frq-01",
+    "year": 2026,
+    "level": "national",
+    "number": 1,
+    "title": "Acetic acid buffers and titration",
+    "topic_id": "equilibrium",
+    "intro_md": "Acetic acid, $\\ce{CH3COOH}$, is a weak acid with $K_\\text{a} = 1.8 \\times 10^{-5}$ at 25 °C. Assume all solutions are at 25 °C and that $K_\\text{w} = 1.0 \\times 10^{-14}$.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Calculate the pH of a 0.200 M solution of acetic acid. State any approximation you make and justify it.",
+        "key_md": "$\\ce{CH3COOH <=> H+ + CH3COO-}$. Let $x = [\\ce{H+}]$. $K_\\text{a} = \\dfrac{x^2}{0.200 - x} \\approx \\dfrac{x^2}{0.200}$, so $x = \\sqrt{1.8\\times10^{-5}\\times0.200} = 1.9\\times10^{-3}$ M and pH $= 2.72$. The approximation $0.200 - x \\approx 0.200$ is valid because $x$ is less than 5% of 0.200 (0.95%).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct equilibrium expression $K_\\text{a} = x^2/(0.200 - x)$ with $x = [\\ce{H+}]$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct $[\\ce{H+}] = 1.9 \\times 10^{-3}$ M"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct pH = 2.72 (accept 2.72 ± 0.02)"
+          },
+          {
+            "points": 1,
+            "criterion": "States the small-x approximation and justifies it (x < 5% of 0.200)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "b",
+        "stem_md": "A buffer is prepared that is 0.200 M in $\\ce{CH3COOH}$ and 0.300 M in $\\ce{CH3COONa}$. Calculate the pH of this buffer.",
+        "key_md": "$\\text{p}K_\\text{a} = -\\log(1.8\\times10^{-5}) = 4.74$. Henderson–Hasselbalch: $\\text{pH} = \\text{p}K_\\text{a} + \\log\\dfrac{[\\ce{CH3COO-}]}{[\\ce{CH3COOH}]} = 4.74 + \\log\\dfrac{0.300}{0.200} = 4.74 + 0.18 = 4.92$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct p$K_\\text{a}$ = 4.74"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct use of Henderson–Hasselbalch (or equivalent equilibrium setup) with base/acid ratio 0.300/0.200"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct pH = 4.92 (accept 4.92 ± 0.02)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "0.020 mol of solid NaOH is added to 1.00 L of the buffer in part (b). Assume no volume change. Write the net ionic equation for the reaction that occurs and calculate the new pH.",
+        "key_md": "$\\ce{OH- + CH3COOH -> CH3COO- + H2O}$. Moles: acid $0.200 - 0.020 = 0.180$ mol; conjugate base $0.300 + 0.020 = 0.320$ mol (in 1.00 L). $\\text{pH} = 4.74 + \\log\\dfrac{0.320}{0.180} = 4.74 + 0.25 = 4.99$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct net ionic equation: $\\ce{OH- + CH3COOH -> CH3COO- + H2O}$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct new amounts: 0.180 mol acid and 0.320 mol conjugate base"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct pH = 4.99 (accept 4.99 ± 0.02)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "A 25.00 mL sample of 0.200 M acetic acid is titrated with 0.200 M NaOH. Calculate the pH at the equivalence point, and explain why phenolphthalein (color change range pH 8.2–10.0) is a suitable indicator whereas methyl orange (pH 3.1–4.4) is not.",
+        "key_md": "At equivalence, 25.00 mL of base has been added: total volume 50.00 mL, so $[\\ce{CH3COO-}] = \\dfrac{0.00500\\ \\text{mol}}{0.05000\\ \\text{L}} = 0.100$ M. $\\ce{CH3COO- + H2O <=> CH3COOH + OH-}$, $K_\\text{b} = K_\\text{w}/K_\\text{a} = 5.6\\times10^{-10}$. $[\\ce{OH-}] = \\sqrt{5.6\\times10^{-10}\\times0.100} = 7.5\\times10^{-6}$ M, pOH $= 5.13$, pH $= 8.87$. Phenolphthalein changes color across the steep part of the curve near pH 8.9, so its endpoint coincides with the equivalence point; methyl orange would change color around pH 4, long before equivalence, giving a large error.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Recognizes the solution at equivalence is 0.100 M acetate (accounts for dilution to 50.00 mL)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct $K_\\text{b} = 5.6 \\times 10^{-10}$ and hydrolysis equilibrium of acetate"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct pH = 8.87 (accept 8.85–8.90)"
+          },
+          {
+            "points": 1,
+            "criterion": "Explains that the indicator range must bracket the equivalence-point pH (~8.9): phenolphthalein does, methyl orange does not"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "Valence seed set (original, USNCO-style)"
+  },
+  {
+    "id": "seed-frq-02",
+    "year": 2026,
+    "level": "national",
+    "number": 2,
+    "title": "Decomposition kinetics of a peroxide",
+    "topic_id": "kinetics",
+    "intro_md": "A peroxide $\\ce{X2O2}$ decomposes in the gas phase: $\\ce{X2O2(g) -> X2O(g) + 1/2 O2(g)}$. The concentration of $\\ce{X2O2}$ was measured at 400 K:\n\n- t = 0 s: 0.800 M\n- t = 100 s: 0.400 M\n- t = 200 s: 0.200 M\n- t = 300 s: 0.100 M\n\nAt 450 K the rate constant is 4.00 times larger than at 400 K. $R = 8.314\\ \\text{J mol}^{-1}\\text{K}^{-1}$.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Determine the order of the reaction with respect to $\\ce{X2O2}$ and write the rate law. Justify your answer using the data.",
+        "key_md": "The concentration halves every 100 s regardless of the starting concentration (0.800 → 0.400 → 0.200 → 0.100), so the half-life is constant. A constant half-life is characteristic of a first-order reaction. Rate $= k[\\ce{X2O2}]$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "States first order"
+          },
+          {
+            "points": 1,
+            "criterion": "Justifies using constant half-life (100 s at every concentration) or a linear ln[X2O2] vs t plot"
+          },
+          {
+            "points": 1,
+            "criterion": "Writes rate = k[X2O2]"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the rate constant $k$ at 400 K. Include units.",
+        "key_md": "$t_{1/2} = 100$ s, so $k = \\dfrac{\\ln 2}{t_{1/2}} = \\dfrac{0.693}{100\\ \\text{s}} = 6.93 \\times 10^{-3}\\ \\text{s}^{-1}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Uses $k = \\ln 2 / t_{1/2}$ (or the integrated rate law with two data points)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct value $6.93 \\times 10^{-3}$ (accept 6.9 × 10⁻³) with units s⁻¹"
+          }
+        ],
+        "max_points": 2
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate the concentration of $\\ce{X2O2}$ remaining at t = 250 s at 400 K, and the time required for 90.0% of the original $\\ce{X2O2}$ to decompose.",
+        "key_md": "$[\\ce{X2O2}]_t = [\\ce{X2O2}]_0 e^{-kt} = 0.800\\,e^{-(6.93\\times10^{-3})(250)} = 0.800 \\times 0.177 = 0.141$ M. For 90.0% decomposition, $[\\ce{X2O2}]_t/[\\ce{X2O2}]_0 = 0.100$: $t = \\dfrac{\\ln 10}{k} = \\dfrac{2.303}{6.93\\times10^{-3}\\ \\text{s}^{-1}} = 332$ s.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct integrated first-order rate law $\\ln([A]_t/[A]_0) = -kt$"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct concentration at 250 s: 0.141 M (accept 0.14 M)"
+          },
+          {
+            "points": 1,
+            "criterion": "Sets ratio to 0.100 (not 0.900) for 90% decomposition"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct time = 332 s (accept 330–335 s)"
+          }
+        ],
+        "max_points": 4
+      },
+      {
+        "label": "d",
+        "stem_md": "Calculate the activation energy of the reaction in kJ/mol.",
+        "key_md": "$\\ln\\dfrac{k_2}{k_1} = \\dfrac{E_\\text{a}}{R}\\left(\\dfrac{1}{T_1} - \\dfrac{1}{T_2}\\right)$. $\\ln 4.00 = 1.386 = \\dfrac{E_\\text{a}}{8.314}\\left(\\dfrac{1}{400} - \\dfrac{1}{450}\\right) = \\dfrac{E_\\text{a}}{8.314}(2.78\\times10^{-4})$. $E_\\text{a} = \\dfrac{1.386 \\times 8.314}{2.78\\times10^{-4}} = 4.15\\times10^{4}$ J/mol $= 41.5$ kJ/mol.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct two-point Arrhenius equation with temperatures in kelvin"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct value 41.5 kJ/mol (accept 41–42 kJ/mol)"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct sign handling (Ea positive) and units kJ/mol"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "A proposed mechanism is:\n\nStep 1: $\\ce{X2O2 -> X2O + O}$ (slow)\n\nStep 2: $\\ce{O + O -> O2}$ (fast)\n\nShow that the mechanism is consistent with the rate law from part (a), and identify any intermediates.",
+        "key_md": "The slow step is rate-determining, so rate $= k_1[\\ce{X2O2}]$, which is first order in $\\ce{X2O2}$ and matches the experimental rate law. Adding the steps (step 1 taken twice, step 2 once) gives $\\ce{2X2O2 -> 2X2O + O2}$, equivalent to the overall equation. The oxygen atom, $\\ce{O}$, is an intermediate: it is produced in step 1 and consumed in step 2.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies the slow step as rate-determining and derives rate = k[X2O2]"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows the steps sum to the overall equation (2× step 1 + step 2)"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies O atom as the intermediate"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "Valence seed set (original, USNCO-style)"
+  },
+  {
+    "id": "seed-frq-03",
+    "year": 2026,
+    "level": "national",
+    "number": 3,
+    "title": "A zinc–silver galvanic cell",
+    "topic_id": "redox",
+    "intro_md": "Standard reduction potentials at 25 °C:\n\n- $\\ce{Ag+ + e- -> Ag}$   $E^\\circ = +0.80$ V\n- $\\ce{Zn^2+ + 2e- -> Zn}$   $E^\\circ = -0.76$ V\n\nA galvanic cell is constructed from a zinc electrode in 0.010 M $\\ce{Zn(NO3)2}$ and a silver electrode in 1.00 M $\\ce{AgNO3}$, connected by a salt bridge. $F = 96485$ C/mol, $R = 8.314$ J mol⁻¹ K⁻¹.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Write the balanced overall cell reaction, identify the anode and cathode, and calculate $E^\\circ_\\text{cell}$.",
+        "key_md": "Zinc is oxidized (anode): $\\ce{Zn -> Zn^2+ + 2e-}$. Silver ion is reduced (cathode): $\\ce{2Ag+ + 2e- -> 2Ag}$. Overall: $\\ce{Zn + 2Ag+ -> Zn^2+ + 2Ag}$. $E^\\circ_\\text{cell} = E^\\circ_\\text{cathode} - E^\\circ_\\text{anode} = 0.80 - (-0.76) = +1.56$ V.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct balanced overall equation with electrons cancelled (2 Ag⁺ per Zn)"
+          },
+          {
+            "points": 1,
+            "criterion": "Zn electrode = anode, Ag electrode = cathode"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct $E^\\circ_\\text{cell}$ = +1.56 V (potential not doubled)"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "b",
+        "stem_md": "Calculate the cell potential under the stated (non-standard) concentrations.",
+        "key_md": "$Q = \\dfrac{[\\ce{Zn^2+}]}{[\\ce{Ag+}]^2} = \\dfrac{0.010}{(1.00)^2} = 0.010$. Nernst: $E = E^\\circ - \\dfrac{0.0592}{n}\\log Q = 1.56 - \\dfrac{0.0592}{2}\\log(0.010) = 1.56 - (0.0296)(-2) = 1.56 + 0.06 = 1.62$ V.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct expression for Q with [Ag⁺] squared and solids omitted"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct Nernst equation with n = 2"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct E = 1.62 V (accept 1.62 ± 0.01) and recognizes it is larger than E°"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Calculate $\\Delta G^\\circ$ for the cell reaction and the value of $\\log K$ at 25 °C.",
+        "key_md": "$\\Delta G^\\circ = -nFE^\\circ = -(2)(96485)(1.56) = -3.01\\times10^{5}$ J $= -301$ kJ per mole of reaction. $\\log K = \\dfrac{nE^\\circ}{0.0592} = \\dfrac{2(1.56)}{0.0592} = 52.7$, so $K \\approx 10^{52.7}$ — the reaction goes essentially to completion.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct $\\Delta G^\\circ = -nFE^\\circ$ with n = 2"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct value −301 kJ (accept −300 to −302 kJ) with negative sign"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct log K = 52.7 (accept 52–53) with a correct relationship between E° and K"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "The cell is allowed to run. Describe, with reasoning, how the cell potential changes over time, and state what the mass of each electrode does.",
+        "key_md": "As the cell operates, $[\\ce{Zn^2+}]$ increases and $[\\ce{Ag+}]$ decreases, so $Q$ increases and $E$ decreases (Nernst: $E = E^\\circ - (0.0592/n)\\log Q$). The potential falls toward zero, which is reached when $Q = K$ and the cell is at equilibrium. The zinc electrode loses mass (Zn is oxidized to $\\ce{Zn^2+}$), and the silver electrode gains mass (Ag⁺ is reduced to Ag metal deposited on it).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "E decreases because Q increases ([Zn²⁺] up, [Ag⁺] down)"
+          },
+          {
+            "points": 1,
+            "criterion": "E → 0 at equilibrium (Q = K)"
+          },
+          {
+            "points": 1,
+            "criterion": "Zn electrode loses mass; Ag electrode gains mass"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "e",
+        "stem_md": "In a separate electrolytic cell, a current of 2.50 A is passed through aqueous $\\ce{AgNO3}$ for 30.0 minutes. Calculate the mass of silver deposited at the cathode.",
+        "key_md": "Charge $q = It = (2.50\\ \\text{A})(30.0 \\times 60\\ \\text{s}) = 4500$ C. Moles of electrons $= 4500/96485 = 0.0466$ mol. $\\ce{Ag+ + e- -> Ag}$: 1 mol e⁻ per mol Ag, so 0.0466 mol Ag $\\times 107.9$ g/mol $= 5.03$ g.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct charge 4500 C from q = It with time in seconds"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct moles of electrons 0.0466 mol and 1:1 ratio to Ag"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct mass 5.03 g (accept 5.0–5.1 g)"
+          }
+        ],
+        "max_points": 3
+      }
+    ],
+    "source": "Valence seed set (original, USNCO-style)"
+  },
+  {
+    "id": "seed-frq-04",
+    "year": 2026,
+    "level": "national",
+    "number": 4,
+    "title": "Structure and bonding in nitrogen oxides and related species",
+    "topic_id": "bonding",
+    "intro_md": "Answer the following questions about the species $\\ce{NO2-}$, $\\ce{NO2+}$, $\\ce{NO2}$, and $\\ce{N2O}$. Use Lewis structures, VSEPR theory, and molecular orbital ideas as appropriate.",
+    "parts": [
+      {
+        "label": "a",
+        "stem_md": "Draw (describe) the Lewis structure(s) of the nitrite ion, $\\ce{NO2-}$, including all resonance forms. Give the formal charge on each atom in one resonance form, the N–O bond order, and the O–N–O bond angle predicted by VSEPR.",
+        "key_md": "18 valence electrons. Two equivalent resonance forms: $\\ce{[O=N-O]-}$ ↔ $\\ce{[O-N=O]-}$, each with a lone pair on N, two lone pairs on the double-bonded O, and three lone pairs on the single-bonded O. Formal charges in one form: N = 0, double-bonded O = 0, single-bonded O = −1. Average N–O bond order = 1.5. N has three electron domains (two bonding, one lone pair): trigonal planar electron geometry, bent molecular shape, bond angle slightly less than 120° (observed ≈ 115°).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Correct Lewis structure with 18 electrons and lone pair on N"
+          },
+          {
+            "points": 1,
+            "criterion": "Shows both resonance forms as equivalent"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct formal charges (N 0; O 0 and −1) in a single form"
+          },
+          {
+            "points": 1,
+            "criterion": "Bond order 1.5"
+          },
+          {
+            "points": 1,
+            "criterion": "Bent, angle < 120° (accept ~115–120°) with lone-pair reasoning"
+          }
+        ],
+        "max_points": 5
+      },
+      {
+        "label": "b",
+        "stem_md": "The nitronium ion, $\\ce{NO2+}$, is linear, whereas $\\ce{NO2-}$ is bent. Explain this difference and compare the N–O bond lengths in the two ions.",
+        "key_md": "$\\ce{NO2+}$ has 16 valence electrons: $\\ce{[O=N=O]+}$, two double bonds and no lone pairs on N, so two electron domains give a linear geometry (180°) and sp hybridization at N. $\\ce{NO2-}$ has an additional electron pair on N (three domains), which forces a bent shape. The N–O bond order is 2 in $\\ce{NO2+}$ versus 1.5 in $\\ce{NO2-}$, so the N–O bonds are shorter in $\\ce{NO2+}$.",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "NO₂⁺ has no lone pair on N (two electron domains) → linear; NO₂⁻ has a lone pair → bent"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct Lewis structure of NO₂⁺ (O=N=O, 16 electrons)"
+          },
+          {
+            "points": 1,
+            "criterion": "Bond order 2 vs 1.5, so bonds shorter in NO₂⁺"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "c",
+        "stem_md": "Nitrogen dioxide, $\\ce{NO2}$, readily dimerizes to $\\ce{N2O4}$ at low temperature. Explain why $\\ce{NO2}$ dimerizes while $\\ce{NO2-}$ and $\\ce{NO2+}$ do not, and predict the O–N–O bond angle in $\\ce{NO2}$ relative to that in $\\ce{NO2-}$.",
+        "key_md": "$\\ce{NO2}$ has 17 valence electrons, an odd number, so it is a radical with an unpaired electron on N. Two radicals pair their unpaired electrons to form the N–N bond of $\\ce{N2O4}$; the closed-shell ions have no unpaired electron to share. In $\\ce{NO2}$ the N carries a single non-bonding electron rather than a full lone pair, which repels the bonding pairs less, so the O–N–O angle is larger than in $\\ce{NO2-}$ (≈134° vs ≈115°).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Identifies NO₂ as an odd-electron species (radical) with the unpaired electron on N"
+          },
+          {
+            "points": 1,
+            "criterion": "Dimerization forms an N–N bond by pairing the two unpaired electrons; ions are closed-shell so cannot"
+          },
+          {
+            "points": 1,
+            "criterion": "Angle in NO₂ larger than in NO₂⁻ because a single electron repels less than a lone pair"
+          }
+        ],
+        "max_points": 3
+      },
+      {
+        "label": "d",
+        "stem_md": "Nitrous oxide, $\\ce{N2O}$, has the connectivity N–N–O. Draw (describe) its three resonance structures, assign formal charges, and identify which structure contributes most to the actual bonding. Predict the molecular shape.",
+        "key_md": "16 valence electrons. Three resonance forms with connectivity N–N–O (formal charges listed as N, N, O): (1) $\\ce{N#N-O}$: 0, +1, −1; (2) $\\ce{N=N=O}$: −1, +1, 0; (3) $\\ce{N-N#O}$: −2, +1, +1. Structures (1) and (2) are the major contributors; (1) is usually regarded as the most important because the negative formal charge is on the more electronegative oxygen and the magnitudes of the charges are small. Structure (3) is negligible because it places −2 on nitrogen and +1 on the electronegative oxygen. The central N has two electron domains, so the molecule is linear (180°).",
+        "rubric": [
+          {
+            "points": 1,
+            "criterion": "Three resonance structures with correct connectivity N–N–O and 16 electrons"
+          },
+          {
+            "points": 1,
+            "criterion": "Correct formal charges for each structure (0,+1,−1; −1,+1,0; −2,+1,+1)"
+          },
+          {
+            "points": 1,
+            "criterion": "Identifies N≡N–O (−1 on O) as the major contributor with correct reasoning (charge on most electronegative atom / minimized charges) and N–N≡O as negligible"
+          },
+          {
+            "points": 1,
+            "criterion": "Linear molecular shape"
+          }
+        ],
+        "max_points": 4
+      }
+    ],
+    "source": "Valence seed set (original, USNCO-style)"
+  }
+]

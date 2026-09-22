@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "seed-stoichiometry-01",
+    "year": 2026,
+    "level": "local",
+    "number": 1,
+    "stem_md": "What is the mass percent of nitrogen in ammonium nitrate, $\\ce{NH4NO3}$?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "percent composition",
+    "est_percent_correct": 0.8,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "35.0%"
+      },
+      {
+        "label": "B",
+        "text_md": "28.0%"
+      },
+      {
+        "label": "C",
+        "text_md": "17.5%"
+      },
+      {
+        "label": "D",
+        "text_md": "43.7%"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-stoichiometry-02",
+    "year": 2026,
+    "level": "local",
+    "number": 2,
+    "stem_md": "Aluminum reacts with chlorine: $\\ce{2Al + 3Cl2 -> 2AlCl3}$. If 4.0 mol Al is mixed with 5.0 mol $\\ce{Cl2}$, what is the maximum number of moles of $\\ce{AlCl3}$ that can form?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "limiting reagent",
+    "est_percent_correct": 0.75,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "4.0 mol"
+      },
+      {
+        "label": "B",
+        "text_md": "3.3 mol"
+      },
+      {
+        "label": "C",
+        "text_md": "5.0 mol"
+      },
+      {
+        "label": "D",
+        "text_md": "7.5 mol"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-stoichiometry-03",
+    "year": 2026,
+    "level": "local",
+    "number": 3,
+    "stem_md": "A compound is 54.5% C, 9.1% H, and 36.4% O by mass. What is its empirical formula?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "empirical formula",
+    "est_percent_correct": 0.72,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{CH2O}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{C3H6O}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{C2H5O}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{C2H4O}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-stoichiometry-04",
+    "year": 2026,
+    "level": "local",
+    "number": 4,
+    "stem_md": "A 25.0 mL sample of sulfuric acid is neutralized by 30.0 mL of 0.200 M NaOH. What is the concentration of the $\\ce{H2SO4}$ solution?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "solution stoichiometry",
+    "est_percent_correct": 0.7,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.120 M"
+      },
+      {
+        "label": "B",
+        "text_md": "0.167 M"
+      },
+      {
+        "label": "C",
+        "text_md": "0.240 M"
+      },
+      {
+        "label": "D",
+        "text_md": "0.060 M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-stoichiometry-05",
+    "year": 2026,
+    "level": "local",
+    "number": 5,
+    "stem_md": "What volume of $\\ce{O2}$ at STP (22.4 L/mol) is required to completely burn 2.0 mol of propane, $\\ce{C3H8}$?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "gas stoichiometry",
+    "est_percent_correct": 0.78,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "44.8 L"
+      },
+      {
+        "label": "B",
+        "text_md": "224 L"
+      },
+      {
+        "label": "C",
+        "text_md": "112 L"
+      },
+      {
+        "label": "D",
+        "text_md": "448 L"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-stoichiometry-06",
+    "year": 2026,
+    "level": "national",
+    "number": 6,
+    "stem_md": "Complete combustion of 0.440 g of a hydrocarbon produces 1.318 g $\\ce{CO2}$ and 0.719 g $\\ce{H2O}$. What is the empirical formula of the hydrocarbon?",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "empirical formula",
+    "est_percent_correct": 0.55,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{CH2}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{C2H5}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{C3H7}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{C3H8}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-stoichiometry-07",
+    "year": 2026,
+    "level": "national",
+    "number": 7,
+    "stem_md": "A 5.00 g mixture of $\\ce{NaHCO3}$ and $\\ce{Na2CO3}$ is heated strongly until the mass no longer changes. The mass decreases by 0.620 g. What was the mass percent of $\\ce{NaHCO3}$ in the original mixture? ($\\ce{2NaHCO3 -> Na2CO3 + H2O + CO2}$; $\\ce{Na2CO3}$ does not decompose.)",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "mole concept",
+    "est_percent_correct": 0.45,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "12.4%"
+      },
+      {
+        "label": "B",
+        "text_md": "16.8%"
+      },
+      {
+        "label": "C",
+        "text_md": "33.6%"
+      },
+      {
+        "label": "D",
+        "text_md": "67.2%"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-stoichiometry-08",
+    "year": 2026,
+    "level": "national",
+    "number": 8,
+    "stem_md": "Zinc (molar mass 65.38 g/mol) reacts with excess HCl: $\\ce{Zn + 2HCl -> ZnCl2 + H2}$. What mass of zinc produces 500. mL of $\\ce{H2}$ collected at 27 °C and 1.00 atm? ($R = 0.08206$ L·atm/(mol·K))",
+    "figure_url": null,
+    "topic_id": "stoichiometry",
+    "subtopic": "gas stoichiometry",
+    "est_percent_correct": 0.5,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1.33 g"
+      },
+      {
+        "label": "B",
+        "text_md": "1.46 g"
+      },
+      {
+        "label": "C",
+        "text_md": "0.665 g"
+      },
+      {
+        "label": "D",
+        "text_md": "2.66 g"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-states-of-matter-01",
+    "year": 2026,
+    "level": "local",
+    "number": 9,
+    "stem_md": "A 4.00 L sample of gas at 2.00 atm and 300 K is compressed to 2.00 L and heated to 450 K. What is the final pressure?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "gas laws",
+    "est_percent_correct": 0.8,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "3.00 atm"
+      },
+      {
+        "label": "B",
+        "text_md": "6.00 atm"
+      },
+      {
+        "label": "C",
+        "text_md": "2.67 atm"
+      },
+      {
+        "label": "D",
+        "text_md": "1.33 atm"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-states-of-matter-02",
+    "year": 2026,
+    "level": "local",
+    "number": 10,
+    "stem_md": "At the same temperature, the root-mean-square speed of $\\ce{H2}$ molecules is approximately how many times that of $\\ce{O2}$ molecules?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "kinetic molecular theory",
+    "est_percent_correct": 0.7,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "16"
+      },
+      {
+        "label": "B",
+        "text_md": "4"
+      },
+      {
+        "label": "C",
+        "text_md": "2"
+      },
+      {
+        "label": "D",
+        "text_md": "1/4"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-states-of-matter-03",
+    "year": 2026,
+    "level": "local",
+    "number": 11,
+    "stem_md": "Which compound has the highest normal boiling point?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "intermolecular forces",
+    "est_percent_correct": 0.72,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "pentane"
+      },
+      {
+        "label": "B",
+        "text_md": "2,2-dimethylpropane"
+      },
+      {
+        "label": "C",
+        "text_md": "diethyl ether"
+      },
+      {
+        "label": "D",
+        "text_md": "1-butanol"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-states-of-matter-04",
+    "year": 2026,
+    "level": "local",
+    "number": 12,
+    "stem_md": "What is the freezing point of a 0.100 m aqueous solution of $\\ce{CaCl2}$, assuming complete dissociation? ($K_\\text{f}$ for water $= 1.86$ °C/m)",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "colligative properties",
+    "est_percent_correct": 0.68,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "−0.186 °C"
+      },
+      {
+        "label": "B",
+        "text_md": "−0.558 °C"
+      },
+      {
+        "label": "C",
+        "text_md": "−0.372 °C"
+      },
+      {
+        "label": "D",
+        "text_md": "−1.86 °C"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-states-of-matter-05",
+    "year": 2026,
+    "level": "local",
+    "number": 13,
+    "stem_md": "An unknown gas effuses through a pinhole at one-quarter the rate of helium under the same conditions. What is the unknown gas?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "gas laws",
+    "est_percent_correct": 0.65,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{CH4}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{O2}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{Kr}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{SO2}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-states-of-matter-06",
+    "year": 2026,
+    "level": "national",
+    "number": 14,
+    "stem_md": "A metal crystallizes in a face-centered cubic unit cell with an edge length of 400. pm. What is the atomic radius of the metal?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "crystal structures",
+    "est_percent_correct": 0.5,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "200. pm"
+      },
+      {
+        "label": "B",
+        "text_md": "173 pm"
+      },
+      {
+        "label": "C",
+        "text_md": "141 pm"
+      },
+      {
+        "label": "D",
+        "text_md": "283 pm"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-states-of-matter-07",
+    "year": 2026,
+    "level": "national",
+    "number": 15,
+    "stem_md": "A solution containing 2.00 g of a protein in 100.0 mL of water has an osmotic pressure of 7.60 torr at 27 °C. What is the approximate molar mass of the protein? ($R = 0.08206$ L·atm/(mol·K))",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "colligative properties",
+    "est_percent_correct": 0.42,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$4.9 \\times 10^3$ g/mol"
+      },
+      {
+        "label": "B",
+        "text_md": "$4.5 \\times 10^4$ g/mol"
+      },
+      {
+        "label": "C",
+        "text_md": "$4.9 \\times 10^5$ g/mol"
+      },
+      {
+        "label": "D",
+        "text_md": "$4.9 \\times 10^4$ g/mol"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-states-of-matter-08",
+    "year": 2026,
+    "level": "national",
+    "number": 16,
+    "stem_md": "For which gas is the van der Waals constant $a$ (which corrects for intermolecular attractions) the largest?",
+    "figure_url": null,
+    "topic_id": "states-of-matter",
+    "subtopic": "kinetic molecular theory",
+    "est_percent_correct": 0.48,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{He}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{N2}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{NH3}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{CO2}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-thermodynamics-01",
+    "year": 2026,
+    "level": "local",
+    "number": 17,
+    "stem_md": "Given: $\\ce{C(s) + O2(g) -> CO2(g)}$, $\\Delta H = -393.5$ kJ, and $\\ce{CO(g) + 1/2 O2(g) -> CO2(g)}$, $\\Delta H = -283.0$ kJ. What is $\\Delta H$ for $\\ce{C(s) + 1/2 O2(g) -> CO(g)}$?",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "Hess's law",
+    "est_percent_correct": 0.75,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "−110.5 kJ"
+      },
+      {
+        "label": "B",
+        "text_md": "+110.5 kJ"
+      },
+      {
+        "label": "C",
+        "text_md": "−676.5 kJ"
+      },
+      {
+        "label": "D",
+        "text_md": "−221.0 kJ"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-thermodynamics-02",
+    "year": 2026,
+    "level": "local",
+    "number": 18,
+    "stem_md": "A 2.00 g sample of a fuel is burned, and all the heat released warms 500. g of water from 20.0 °C to 25.0 °C. What is the heat of combustion of the fuel in kJ per gram? (specific heat of water $= 4.184$ J/(g·°C))",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "calorimetry",
+    "est_percent_correct": 0.72,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "5.23 kJ/g"
+      },
+      {
+        "label": "B",
+        "text_md": "10.5 kJ/g"
+      },
+      {
+        "label": "C",
+        "text_md": "2.09 kJ/g"
+      },
+      {
+        "label": "D",
+        "text_md": "20.9 kJ/g"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-thermodynamics-03",
+    "year": 2026,
+    "level": "local",
+    "number": 19,
+    "stem_md": "For which process is $\\Delta S$ of the system positive?",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "entropy",
+    "est_percent_correct": 0.78,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$\\ce{N2(g) + 3H2(g) -> 2NH3(g)}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$\\ce{H2O(l) -> H2O(s)}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$\\ce{2SO2(g) + O2(g) -> 2SO3(g)}$"
+      },
+      {
+        "label": "D",
+        "text_md": "$\\ce{CaCO3(s) -> CaO(s) + CO2(g)}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-thermodynamics-04",
+    "year": 2026,
+    "level": "local",
+    "number": 20,
+    "stem_md": "A reaction has $\\Delta H^\\circ = -92$ kJ and $\\Delta S^\\circ = -199$ J/K. Under standard conditions this reaction is spontaneous",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "spontaneity",
+    "est_percent_correct": 0.7,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "at all temperatures."
+      },
+      {
+        "label": "B",
+        "text_md": "at low temperatures only."
+      },
+      {
+        "label": "C",
+        "text_md": "at high temperatures only."
+      },
+      {
+        "label": "D",
+        "text_md": "at no temperature."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-thermodynamics-05",
+    "year": 2026,
+    "level": "local",
+    "number": 21,
+    "stem_md": "Using average bond energies (H–H 436 kJ/mol, Cl–Cl 243 kJ/mol, H–Cl 432 kJ/mol), estimate $\\Delta H$ for $\\ce{H2(g) + Cl2(g) -> 2HCl(g)}$.",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "bond energies",
+    "est_percent_correct": 0.74,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "+185 kJ"
+      },
+      {
+        "label": "B",
+        "text_md": "−247 kJ"
+      },
+      {
+        "label": "C",
+        "text_md": "−185 kJ"
+      },
+      {
+        "label": "D",
+        "text_md": "−617 kJ"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-thermodynamics-06",
+    "year": 2026,
+    "level": "national",
+    "number": 22,
+    "stem_md": "A reaction has an equilibrium constant $K = 1.0 \\times 10^{5}$ at 298 K. What is $\\Delta G^\\circ$ for the reaction? ($R = 8.314$ J/(mol·K))",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "Gibbs free energy",
+    "est_percent_correct": 0.55,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "−28.5 kJ/mol"
+      },
+      {
+        "label": "B",
+        "text_md": "+28.5 kJ/mol"
+      },
+      {
+        "label": "C",
+        "text_md": "−12.4 kJ/mol"
+      },
+      {
+        "label": "D",
+        "text_md": "−285 kJ/mol"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-thermodynamics-07",
+    "year": 2026,
+    "level": "national",
+    "number": 23,
+    "stem_md": "For a certain liquid, $\\Delta H_\\text{vap} = 40.7$ kJ/mol and $\\Delta S_\\text{vap} = 109$ J/(mol·K). Estimate its normal boiling point.",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "spontaneity",
+    "est_percent_correct": 0.52,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "273 K"
+      },
+      {
+        "label": "B",
+        "text_md": "373 K"
+      },
+      {
+        "label": "C",
+        "text_md": "0.373 K"
+      },
+      {
+        "label": "D",
+        "text_md": "4.44 K"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-thermodynamics-08",
+    "year": 2026,
+    "level": "national",
+    "number": 24,
+    "stem_md": "At 298 K, $\\Delta H^\\circ = -92.2$ kJ for $\\ce{N2(g) + 3H2(g) -> 2NH3(g)}$. What is $\\Delta U^\\circ$ (the change in internal energy) for this reaction? ($R = 8.314$ J/(mol·K))",
+    "figure_url": null,
+    "topic_id": "thermodynamics",
+    "subtopic": "enthalpy",
+    "est_percent_correct": 0.4,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "−87.2 kJ"
+      },
+      {
+        "label": "B",
+        "text_md": "−92.2 kJ"
+      },
+      {
+        "label": "C",
+        "text_md": "−82.3 kJ"
+      },
+      {
+        "label": "D",
+        "text_md": "−97.2 kJ"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-kinetics-01",
+    "year": 2026,
+    "level": "local",
+    "number": 25,
+    "stem_md": "Initial rates were measured for $\\ce{A + B -> C}$:\n\n- Trial 1: [A] = 0.10 M, [B] = 0.10 M, rate = $2.0 \\times 10^{-3}$ M/s\n- Trial 2: [A] = 0.20 M, [B] = 0.10 M, rate = $8.0 \\times 10^{-3}$ M/s\n- Trial 3: [A] = 0.10 M, [B] = 0.20 M, rate = $4.0 \\times 10^{-3}$ M/s\n\nWhat is the rate law?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "rate laws",
+    "est_percent_correct": 0.75,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "rate $= k[\\ce{A}][\\ce{B}]$"
+      },
+      {
+        "label": "B",
+        "text_md": "rate $= k[\\ce{A}]^2[\\ce{B}]$"
+      },
+      {
+        "label": "C",
+        "text_md": "rate $= k[\\ce{A}][\\ce{B}]^2$"
+      },
+      {
+        "label": "D",
+        "text_md": "rate $= k[\\ce{A}]^2[\\ce{B}]^2$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-kinetics-02",
+    "year": 2026,
+    "level": "local",
+    "number": 26,
+    "stem_md": "A radioactive isotope has a half-life of 30.0 minutes. What fraction of the original sample remains after 90.0 minutes?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "half-life",
+    "est_percent_correct": 0.78,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "33%"
+      },
+      {
+        "label": "B",
+        "text_md": "12.5%"
+      },
+      {
+        "label": "C",
+        "text_md": "6.25%"
+      },
+      {
+        "label": "D",
+        "text_md": "25%"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-kinetics-03",
+    "year": 2026,
+    "level": "local",
+    "number": 27,
+    "stem_md": "Raising the temperature increases the rate of a reaction mainly because",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "Arrhenius equation",
+    "est_percent_correct": 0.7,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "a larger fraction of collisions have energy exceeding the activation energy."
+      },
+      {
+        "label": "B",
+        "text_md": "the equilibrium shifts toward products."
+      },
+      {
+        "label": "C",
+        "text_md": "the activation energy of the reaction decreases."
+      },
+      {
+        "label": "D",
+        "text_md": "the collision frequency roughly doubles for each 10 °C rise."
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-kinetics-04",
+    "year": 2026,
+    "level": "local",
+    "number": 28,
+    "stem_md": "A proposed mechanism for $\\ce{NO2 + CO -> NO + CO2}$ is:\n\n- Step 1 (slow): $\\ce{NO2 + NO2 -> NO3 + NO}$\n- Step 2 (fast): $\\ce{NO3 + CO -> NO2 + CO2}$\n\nWhat rate law does this mechanism predict?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "mechanisms",
+    "est_percent_correct": 0.68,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "rate $= k[\\ce{NO2}]^2$"
+      },
+      {
+        "label": "B",
+        "text_md": "rate $= k[\\ce{NO2}][\\ce{CO}]$"
+      },
+      {
+        "label": "C",
+        "text_md": "rate $= k[\\ce{NO2}]^2[\\ce{CO}]$"
+      },
+      {
+        "label": "D",
+        "text_md": "rate $= k[\\ce{NO3}][\\ce{CO}]$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-kinetics-05",
+    "year": 2026,
+    "level": "local",
+    "number": 29,
+    "stem_md": "A reaction has an activation energy of 75 kJ/mol in the forward direction and $\\Delta H = -40$ kJ/mol. What is the activation energy of the reverse reaction?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "reaction coordinate diagrams",
+    "est_percent_correct": 0.72,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "35 kJ/mol"
+      },
+      {
+        "label": "B",
+        "text_md": "40 kJ/mol"
+      },
+      {
+        "label": "C",
+        "text_md": "75 kJ/mol"
+      },
+      {
+        "label": "D",
+        "text_md": "115 kJ/mol"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-kinetics-06",
+    "year": 2026,
+    "level": "national",
+    "number": 30,
+    "stem_md": "A reaction is second order in A with $k = 0.200$ M$^{-1}$s$^{-1}$. If $[\\ce{A}]_0 = 0.500$ M, what is $[\\ce{A}]$ after 10.0 s?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "integrated rate laws",
+    "est_percent_correct": 0.52,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.0677 M"
+      },
+      {
+        "label": "B",
+        "text_md": "0.125 M"
+      },
+      {
+        "label": "C",
+        "text_md": "0.250 M"
+      },
+      {
+        "label": "D",
+        "text_md": "0.400 M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-kinetics-07",
+    "year": 2026,
+    "level": "national",
+    "number": 31,
+    "stem_md": "The rate constant of a reaction doubles when the temperature is raised from 300 K to 310 K. What is the activation energy? ($R = 8.314$ J/(mol·K))",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "Arrhenius equation",
+    "est_percent_correct": 0.45,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "5.4 kJ/mol"
+      },
+      {
+        "label": "B",
+        "text_md": "27 kJ/mol"
+      },
+      {
+        "label": "C",
+        "text_md": "107 kJ/mol"
+      },
+      {
+        "label": "D",
+        "text_md": "54 kJ/mol"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-kinetics-08",
+    "year": 2026,
+    "level": "national",
+    "number": 32,
+    "stem_md": "A proposed mechanism for $\\ce{2NO + O2 -> 2NO2}$ is:\n\n- Step 1 (fast, reversible): $\\ce{2NO <=> N2O2}$\n- Step 2 (slow): $\\ce{N2O2 + O2 -> 2NO2}$\n\nWhat rate law does this mechanism predict?",
+    "figure_url": null,
+    "topic_id": "kinetics",
+    "subtopic": "mechanisms",
+    "est_percent_correct": 0.42,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "rate $= k[\\ce{N2O2}][\\ce{O2}]$"
+      },
+      {
+        "label": "B",
+        "text_md": "rate $= k[\\ce{NO}]^2$"
+      },
+      {
+        "label": "C",
+        "text_md": "rate $= k[\\ce{NO}]^2[\\ce{O2}]$"
+      },
+      {
+        "label": "D",
+        "text_md": "rate $= k[\\ce{NO}][\\ce{O2}]$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-equilibrium-01",
+    "year": 2026,
+    "level": "local",
+    "number": 33,
+    "stem_md": "For $\\ce{N2(g) + 3H2(g) <=> 2NH3(g)}$, $\\Delta H = -92$ kJ. Which change increases the equilibrium yield of $\\ce{NH3}$?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "Le Chatelier",
+    "est_percent_correct": 0.8,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "increasing temperature and decreasing pressure"
+      },
+      {
+        "label": "B",
+        "text_md": "decreasing temperature and increasing pressure"
+      },
+      {
+        "label": "C",
+        "text_md": "adding a catalyst"
+      },
+      {
+        "label": "D",
+        "text_md": "removing $\\ce{N2}$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-equilibrium-02",
+    "year": 2026,
+    "level": "local",
+    "number": 34,
+    "stem_md": "For $\\ce{N2O4(g) <=> 2NO2(g)}$, $K_\\text{c} = 4.6 \\times 10^{-3}$ at 298 K. What is $K_\\text{p}$? ($R = 0.08206$ L·atm/(mol·K))",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "equilibrium constants",
+    "est_percent_correct": 0.62,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$1.9 \\times 10^{-4}$"
+      },
+      {
+        "label": "B",
+        "text_md": "$4.6 \\times 10^{-3}$"
+      },
+      {
+        "label": "C",
+        "text_md": "$0.11$"
+      },
+      {
+        "label": "D",
+        "text_md": "$2.8$"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-equilibrium-03",
+    "year": 2026,
+    "level": "local",
+    "number": 35,
+    "stem_md": "The $K_\\text{sp}$ of silver chromate, $\\ce{Ag2CrO4}$, is $1.1 \\times 10^{-12}$. What is its molar solubility in pure water?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "Ksp",
+    "est_percent_correct": 0.6,
+    "correct_option": "A",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$6.5 \\times 10^{-5}$ M"
+      },
+      {
+        "label": "B",
+        "text_md": "$1.0 \\times 10^{-6}$ M"
+      },
+      {
+        "label": "C",
+        "text_md": "$1.0 \\times 10^{-4}$ M"
+      },
+      {
+        "label": "D",
+        "text_md": "$5.5 \\times 10^{-13}$ M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-equilibrium-04",
+    "year": 2026,
+    "level": "local",
+    "number": 36,
+    "stem_md": "What is the pH of a 0.10 M solution of a weak acid HA with $K_\\text{a} = 1.0 \\times 10^{-5}$?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "acid-base equilibria",
+    "est_percent_correct": 0.74,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "1.00"
+      },
+      {
+        "label": "B",
+        "text_md": "2.50"
+      },
+      {
+        "label": "C",
+        "text_md": "3.00"
+      },
+      {
+        "label": "D",
+        "text_md": "5.00"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-equilibrium-05",
+    "year": 2026,
+    "level": "local",
+    "number": 37,
+    "stem_md": "A buffer contains acetic acid (p$K_\\text{a}$ = 4.74) and sodium acetate. If the ratio $[\\ce{CH3COO-}]/[\\ce{CH3COOH}]$ is 10, what is the pH?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "buffers",
+    "est_percent_correct": 0.7,
+    "correct_option": "C",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "3.74"
+      },
+      {
+        "label": "B",
+        "text_md": "4.74"
+      },
+      {
+        "label": "C",
+        "text_md": "5.74"
+      },
+      {
+        "label": "D",
+        "text_md": "6.74"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-equilibrium-06",
+    "year": 2026,
+    "level": "national",
+    "number": 38,
+    "stem_md": "For $\\ce{H2(g) + I2(g) <=> 2HI(g)}$, $K_\\text{c} = 64$ at a certain temperature. If 1.00 M $\\ce{H2}$ and 1.00 M $\\ce{I2}$ are mixed, what is the equilibrium concentration of $\\ce{HI}$?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "ICE tables",
+    "est_percent_correct": 0.5,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "0.80 M"
+      },
+      {
+        "label": "B",
+        "text_md": "0.89 M"
+      },
+      {
+        "label": "C",
+        "text_md": "1.78 M"
+      },
+      {
+        "label": "D",
+        "text_md": "1.60 M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-equilibrium-07",
+    "year": 2026,
+    "level": "national",
+    "number": 39,
+    "stem_md": "25.0 mL of 0.100 M acetic acid ($K_\\text{a} = 1.8 \\times 10^{-5}$) is titrated with 0.100 M NaOH. What is the pH at the equivalence point?",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "titration curves",
+    "est_percent_correct": 0.45,
+    "correct_option": "B",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "7.00"
+      },
+      {
+        "label": "B",
+        "text_md": "8.72"
+      },
+      {
+        "label": "C",
+        "text_md": "8.87"
+      },
+      {
+        "label": "D",
+        "text_md": "5.28"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  },
+  {
+    "id": "seed-equilibrium-08",
+    "year": 2026,
+    "level": "national",
+    "number": 40,
+    "stem_md": "What is the molar solubility of AgCl ($K_\\text{sp} = 1.8 \\times 10^{-10}$) in 1.0 M $\\ce{NH3}$? The formation constant of $\\ce{[Ag(NH3)2]+}$ is $K_\\text{f} = 1.6 \\times 10^{7}$.",
+    "figure_url": null,
+    "topic_id": "equilibrium",
+    "subtopic": "complex ions",
+    "est_percent_correct": 0.38,
+    "correct_option": "D",
+    "options": [
+      {
+        "label": "A",
+        "text_md": "$1.3 \\times 10^{-5}$ M"
+      },
+      {
+        "label": "B",
+        "text_md": "$2.9 \\times 10^{-3}$ M"
+      },
+      {
+        "label": "C",
+        "text_md": "$5.4 \\times 10^{-2}$ M"
+      },
+      {
+        "label": "D",
+        "text_md": "$4.8 \\times 10^{-2}$ M"
+      }
+    ],
+    "acs_solution_md": null,
+    "source": "Valence seed set (original, USNCO-style)",
+    "verified_answer": true
+  }
+]
