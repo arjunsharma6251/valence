@@ -19,25 +19,42 @@ class KeyRow:
 
 def parse_key(pdf: Path) -> list[KeyRow]:
     doc = pymupdf.open(pdf)
-    # The key is on the last page or two; find the page that says KEY.
     pages = [doc[i].get_text() for i in range(doc.page_count)]
     key_pages = [t for t in pages[-3:] if re.search(r"\bKEY\b", t)]
     if not key_pages:
         return []
-    text = "\n".join(key_pages)
-    tokens = [t.strip() for t in text.split("\n") if t.strip()]
-    numbers = [int(t.rstrip(".")) for t in tokens if re.fullmatch(r"\d{1,2}\.?", t)]
+    tokens = "\n".join(key_pages).split()
+
+    # Interleaved layout ("1. B 87%" or "1. B"): each number is followed by its
+    # letter before the next number. Columnar layout (all numbers, then all
+    # letters, then all percents) is used when interleaving fails.
+    inter: list[KeyRow] = []
+    cur: int | None = None
+    cur_ans: str | None = None
+    cur_pct: float | None = None
+    for t in tokens:
+        if re.fullmatch(r"\d{1,2}\.?", t) and 1 <= int(t.rstrip(".")) <= 60:
+            if cur is not None:
+                inter.append(KeyRow(cur, cur_ans or "", cur_pct))
+            cur, cur_ans, cur_pct = int(t.rstrip(".")), None, None
+        elif cur is not None and cur_ans is None and re.fullmatch(r"[A-D]", t):
+            cur_ans = t
+        elif cur is not None and re.fullmatch(r"\d{1,3}%", t):
+            cur_pct = float(t[:-1]) / 100
+    if cur is not None:
+        inter.append(KeyRow(cur, cur_ans or "", cur_pct))
+    by_num = {r.number: r for r in inter if 1 <= r.number <= 60}
+    if len(by_num) >= 55 and sum(1 for r in by_num.values() if r.answer) >= 50:
+        return [by_num[k] for k in sorted(by_num)]
+
+    numbers = [int(t.rstrip(".")) for t in tokens if re.fullmatch(r"\d{1,2}\.?", t) and 1 <= int(t.rstrip(".")) <= 60]
     answers = [t for t in tokens if re.fullmatch(r"[A-D]", t)]
-    pcts = [float(t.rstrip("%")) / 100 for t in tokens if re.fullmatch(r"\d{1,3}%", t)]
-    # Two layouts: "n. A" interleaved (local) or three parallel columns per half (national).
+    pcts = [float(t[:-1]) / 100 for t in tokens if re.fullmatch(r"\d{1,3}%", t)]
     rows: list[KeyRow] = []
     if len(numbers) >= 60 and len(answers) >= 60:
-        nums = numbers[:60]
-        ans = answers[:60]
+        nums, ans = numbers[:60], answers[:60]
         pc = pcts[:60] if len(pcts) >= 60 else [None] * 60
-        # If the numbers are not sequential the layout was columnar; sort by number.
-        order = sorted(range(60), key=lambda i: nums[i])
-        for i in order:
+        for i in sorted(range(60), key=lambda i: nums[i]):
             rows.append(KeyRow(nums[i], ans[i], pc[i]))
     return rows
 

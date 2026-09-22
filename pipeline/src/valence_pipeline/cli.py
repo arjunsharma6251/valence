@@ -16,6 +16,12 @@ def main(argv: list[str] | None = None) -> None:
     e.add_argument("--level", choices=["local", "national"], required=True)
     e.add_argument("--out", type=Path, required=True, help="work directory, e.g. work/2024-local")
 
+    t = sub.add_parser("text-extract", help="no-AI: PDF text layer -> questions.csv + answers.csv (keys parsed from the PDF)")
+    t.add_argument("pdf", type=Path)
+    t.add_argument("--year", type=int, required=True)
+    t.add_argument("--level", choices=["local", "national"], required=True)
+    t.add_argument("--out", type=Path, required=True)
+
     r = sub.add_parser("review", help="summarize a work directory and list problems to fix")
     r.add_argument("work", type=Path)
 
@@ -33,6 +39,10 @@ def main(argv: list[str] | None = None) -> None:
         from .extract import run_extract
 
         run_extract(args.pdf, args.year, args.level, args.out)
+    elif args.cmd == "text-extract":
+        from .textparse import text_extract
+
+        print(text_extract(args.pdf, args.year, args.level, args.out))
     elif args.cmd == "review":
         from .review import run_review
 

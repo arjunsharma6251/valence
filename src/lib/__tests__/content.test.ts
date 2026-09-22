@@ -19,14 +19,16 @@ describe("content bundle", () => {
     }
   });
 
-  it("every question has an explanation with four distractor notes", () => {
+  it("every seed question has an explanation with four distractor notes; every explanation points at a question", () => {
     const byQ = new Map(explanations.map((e) => [e.question_id, e]));
-    for (const q of questions) {
+    const ids = new Set(questions.map((q) => q.id));
+    for (const q of questions.filter((q) => q.id.startsWith("seed-"))) {
       const e = byQ.get(q.id);
       expect(e, `${q.id} has no explanation`).toBeDefined();
       expect(explanationSchema.safeParse(e).success).toBe(true);
       for (const l of ["A", "B", "C", "D"] as const) expect(e!.distractor_notes[l].length, `${q.id} note ${l}`).toBeGreaterThan(0);
     }
+    for (const e of explanations) expect(ids.has(e.question_id), `${e.question_id} explanation is orphaned`).toBe(true);
   });
 
   it("FRQ rubrics sum to max points", () => {
