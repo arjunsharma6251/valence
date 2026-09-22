@@ -61,7 +61,8 @@ export function HomeScreen() {
 
       {total === 0 ? (
         <p className="mt-14 max-w-[52ch] text-[15px] text-ink-soft leading-relaxed animate-rise [animation-delay:200ms]">
-          Practice adapts to what you miss. Review brings it back on a schedule. After {PREDICTION_MIN} answers you get a predicted score. {questions.length} questions, no account needed.
+          Practice adapts to what you miss. Review brings it back on a schedule. After {PREDICTION_MIN} answers you get a predicted score. {questions.length} questions, no account needed.{" "}
+          <Link href="/about" className="text-accent whitespace-nowrap">What Valence does →</Link>
         </p>
       ) : (
         <div className="stagger md:grid md:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] md:gap-x-16 md:items-start">
