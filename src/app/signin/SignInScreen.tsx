@@ -48,6 +48,18 @@ export function SignInScreen() {
   };
   const signOut = async () => { await sb?.auth.signOut(); resetAnalytics(); setUser(null); };
 
+  const [reminders, setRemindersState] = useState<boolean | null>(null);
+  useEffect(() => {
+    if (!sb || !user) return;
+    sb.from("profiles").select("reminders_enabled").eq("id", user.id).maybeSingle().then(({ data }) => setRemindersState(data?.reminders_enabled ?? true));
+  }, [sb, user]);
+  const setReminders = async (on: boolean) => {
+    if (!sb || !user) return;
+    setRemindersState(on);
+    await sb.from("profiles").upsert({ id: user.id, reminders_enabled: on, reminders_paused_at: null });
+    track(on ? "reminders_on" : "reminders_off");
+  };
+
   return (
     <Narrow className="stagger">
       <LargeTitle className="pt-1 pb-4">Account</LargeTitle>
@@ -58,6 +70,9 @@ export function SignInScreen() {
         <Group>
           <Row title={user.email ?? "Signed in"} detail="Progress syncs across your devices">
             <Button variant="outline" size="compact" onClick={signOut}>Sign out</Button>
+          </Row>
+          <Row title="Email me when reviews are due" detail={reminders === null ? "Loading…" : reminders ? "One short note, only on days something is due" : "Off"}>
+            <Segmented label="Review reminders" value={reminders ? "on" : "off"} onChange={(v) => setReminders(v === "on")} options={[{ value: "off", label: "Off" }, { value: "on", label: "On" }]} />
           </Row>
         </Group>
       ) : (
@@ -80,7 +95,7 @@ export function SignInScreen() {
               {err && <p className="text-[13px] text-red" role="alert">{err}</p>}
             </div>
           </Group>
-          <GroupFooter>Optional. Sign in to keep progress across devices; this device’s {attempts} answers merge in.</GroupFooter>
+          <GroupFooter>Optional. Sign in to keep progress across devices; this device’s {attempts} answers merge in. We’ll email you when reviews are due, one click to stop.</GroupFooter>
         </>
       )}
 

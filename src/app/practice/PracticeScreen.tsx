@@ -2,6 +2,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
+import { SignInNudge } from "@/components/SignInNudge";
 import { Skeleton, usePageTitle } from "@/components/ui";
 import { IconChevron } from "@/components/icons";
 import { questions, topics, getQuestion } from "@/lib/content";
@@ -64,6 +65,7 @@ export function PracticeScreen() {
         <span className="sr-only">{count} answered this session</span>
       </div>
       <QuestionCard key={current.id} question={getQuestion(current.id)!} mode="practice" onAnswer={() => setCount((c) => c + 1)} onNext={pick} position={count ? `${count} answered` : undefined} />
+      <SignInNudge answered={count} />
     </div>
   );
 }
