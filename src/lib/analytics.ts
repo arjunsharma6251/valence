@@ -41,9 +41,15 @@ let ready = false;
 export function initAnalytics(anonId: string) {
   const key = process.env.NEXT_PUBLIC_POSTHOG_KEY;
   if (!key || ready || typeof window === "undefined") return;
+  // Local development never reports, unless explicitly asked to, so the
+  // dashboards only ever contain real visitors.
+  const local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname);
+  if (local && process.env.NEXT_PUBLIC_POSTHOG_DEV !== "true") return;
   posthog.init(key, {
     api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com",
-    capture_pageview: true,
+    // The app routes client-side, so page views must also fire on history
+    // changes or every path except the landing page is undercounted.
+    capture_pageview: "history_change",
     capture_pageleave: true,
     persistence: "localStorage+cookie",
     disable_session_recording: process.env.NEXT_PUBLIC_POSTHOG_REPLAY !== "true",

@@ -12,6 +12,9 @@ import { track } from "@/lib/analytics";
 import { shareLink } from "@/lib/share";
 import type { Attempt } from "@/lib/mastery";
 
+/** Attempts faster than this are not recorded (see `choose`). */
+const MIN_ATTEMPT_MS = 500;
+
 const LABELS: OptionLabel[] = ["A", "B", "C", "D"];
 const FLAG_REASONS: { value: "wrong_answer" | "unclear" | "typo" | "other"; label: string }[] = [
   { value: "wrong_answer", label: "Answer looks wrong" },
@@ -62,8 +65,11 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
       let attempt: Attempt | null = null;
       if (mode !== "mock") {
         const ms = Date.now() - startedAt.current;
-        attempt = recordAttempt({ question_id: question.id, chosen: label, ms_taken: ms, context: mode });
-        track("question_answered", { question_id: question.id, topic: question.topic_id, correct: label === question.correct_option, context: mode, ms });
+        // Faster than reading the stem is key-mashing, not an answer: reveal it,
+        // but keep it out of mastery, the review queue, sync and the leaderboard.
+        const counted = ms >= MIN_ATTEMPT_MS;
+        if (counted) attempt = recordAttempt({ question_id: question.id, chosen: label, ms_taken: ms, context: mode });
+        track("question_answered", { question_id: question.id, topic: question.topic_id, correct: label === question.correct_option, context: mode, ms, counted });
         setShowExpl(true);
       }
       onAnswer?.(label, attempt);
