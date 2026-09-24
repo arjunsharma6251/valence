@@ -163,7 +163,10 @@ export async function POST(request: Request) {
   }
   // Anonymous visitors get one grade to see what it does; after that the
   // daily cap is per account, which also makes the caps mean something.
-  if (!userId && (await ledger.countEver(subjects)) >= FREE_ANON_GRADES) {
+  // Keyed on the device's anonymous id only: a school on one shared IP must
+  // not exhaust the free grade for every student at once. IP still counts
+  // toward the daily cap below.
+  if (!userId && (!body.anon_id || (await ledger.countEver([`anon:${body.anon_id}`])) >= FREE_ANON_GRADES)) {
     return NextResponse.json({ ok: false, reason: "sign_in", message: `Your first grade was free. Sign in for up to ${DAILY_CAP} a day.` }, { status: 401 });
   }
   if ((await ledger.countToday(subjects)) >= DAILY_CAP) {
