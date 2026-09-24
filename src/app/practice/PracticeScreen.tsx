@@ -65,7 +65,7 @@ export function PracticeScreen() {
         <span className="sr-only">{count} answered this session</span>
       </div>
       <QuestionCard key={current.id} question={getQuestion(current.id)!} mode="practice" onAnswer={() => setCount((c) => c + 1)} onNext={pick} position={count ? `${count} answered` : undefined} />
-      <SignInNudge answered={count} />
+      <SignInNudge context="practice" show={count >= 2} />
     </div>
   );
 }

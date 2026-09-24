@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
+import { SignInNudge } from "@/components/SignInNudge";
 import { QuestionCard } from "@/components/QuestionCard";
 import { Button, Group, GroupFooter, GroupHeader, LargeTitle, LinkButton, Narrow, Row, Skeleton, Tag, usePageTitle } from "@/components/ui";
 import { IconPause, IconShare } from "@/components/icons";
@@ -225,6 +226,7 @@ function Report({ mock, onClose }: { mock: MockSession; onClose: () => void }) {
         </Button>
         <Button variant="plain" className="w-full" onClick={onClose}>Back</Button>
       </div>
+      <SignInNudge context="mock" score={{ correct: s.correct, total: s.total }} />
     </Narrow>
   );
 }

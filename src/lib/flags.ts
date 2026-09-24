@@ -55,3 +55,33 @@ export function useSnoozed(key: string): boolean {
 export function snooze(key: string, ms: number) {
   writeFlag(key, String(Date.now() + ms));
 }
+
+/** Same as useFlag but scoped to this tab session (sessionStorage). */
+export function readSessionFlag(key: string, fallback = ""): string {
+  try {
+    return sessionStorage.getItem(key) ?? fallback;
+  } catch {
+    return fallback;
+  }
+}
+export function writeSessionFlag(key: string, value: string) {
+  try {
+    sessionStorage.setItem(key, value);
+  } catch {
+    /* ignore */
+  }
+  for (const l of listeners.get("session:" + key) ?? []) l();
+}
+export function useSessionFlag(key: string, fallback = ""): string {
+  const k = "session:" + key;
+  return useSyncExternalStore(
+    (l) => {
+      const set = listeners.get(k) ?? new Set();
+      set.add(l);
+      listeners.set(k, set);
+      return () => set.delete(l);
+    },
+    () => readSessionFlag(key, fallback),
+    () => fallback,
+  );
+}

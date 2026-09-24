@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { track } from "@/lib/analytics";
+import { SignInNudge } from "@/components/SignInNudge";
 import { QuestionCard } from "@/components/QuestionCard";
 import { Button, Group, GroupFooter, GroupHeader, Row, Tag } from "@/components/ui";
 import { IconBack } from "@/components/icons";
@@ -24,6 +25,7 @@ export function QuestionDetail({ question, challenge = false }: { question: Ques
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState<Explanation | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
+  const [answered, setAnswered] = useState(false);
 
   useEffect(() => {
     fetch(`/api/explanations?question_id=${encodeURIComponent(question.id)}`)
@@ -56,7 +58,8 @@ export function QuestionDetail({ question, challenge = false }: { question: Ques
       ) : (
         <Link href="/practice" className="inline-flex items-center gap-0.5 text-accent text-[16px] min-h-[44px] -ml-2 pr-2 mb-1"><IconBack size={20} /> Practice</Link>
       )}
-      <QuestionCard question={question} mode={challenge ? "practice" : "detail"} onNext={challenge ? () => router.push("/practice") : undefined} nextLabel="Keep practicing" />
+      <QuestionCard question={question} mode={challenge ? "practice" : "detail"} onAnswer={() => setAnswered(true)} onNext={challenge ? () => router.push("/practice") : undefined} nextLabel="Keep practicing" />
+      {challenge && <SignInNudge context="challenge" show={answered} />}
       {override && <GroupFooter>Showing a contributor edit by {override.author} ({new Date(override.updated_at).toLocaleDateString()}){override.verified ? ", verified" : ", unverified"}.</GroupFooter>}
       {canEdit && !editing && <div className="pt-4"><Button variant="outline" className="w-full" onClick={startEdit}>Edit explanation</Button></div>}
       {msg && <GroupFooter>{msg}</GroupFooter>}

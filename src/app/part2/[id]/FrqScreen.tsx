@@ -10,13 +10,14 @@ import { useHydrated, useStore } from "@/lib/store";
 import type { FrqSubmission } from "@/lib/store/state";
 import { track } from "@/lib/analytics";
 import { PHOTO_MAX_COUNT, fileToJpegBase64 } from "@/lib/image";
+import { supabaseBrowser } from "@/lib/supabase/client";
 
 const SYMBOLS = ["→", "⇌", "Δ", "°", "⁺", "⁻", "²", "³", "₂", "₃", "₄", "×10^", "λ", "μ", "π"];
 
 type Status =
   | { kind: "idle" }
   | { kind: "grading"; startedAt: number }
-  | { kind: "error"; message: string; retryable: boolean }
+  | { kind: "error"; message: string; retryable: boolean; reason?: string }
   | { kind: "graded"; sub: FrqSubmission; cached: boolean };
 
 /**
@@ -37,6 +38,12 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
   const [photos, setPhotos] = useState<{ id: string; data: string }[]>([]);
   const [photoNote, setPhotoNote] = useState<string | null>(null);
   const fileInput = useRef<HTMLInputElement | null>(null);
+  const [signedIn, setSignedIn] = useState<boolean | null>(null);
+  useEffect(() => {
+    const sb = supabaseBrowser();
+    if (!sb) return;
+    sb.auth.getUser().then(({ data }) => setSignedIn(Boolean(data.user)));
+  }, []);
   const [elapsed, setElapsed] = useState(0);
   const focused = useRef<HTMLTextAreaElement | null>(null);
   const loaded = useRef(false);
@@ -94,7 +101,7 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
       const data = await res.json();
       if (!data.ok) {
         track("frq_grade_failed", { frq_id: problem.id, reason: data.reason ?? "unknown" });
-        setStatus({ kind: "error", message: data.message ?? "Grading failed.", retryable: !["daily_cap", "paused", "not_configured"].includes(data.reason) });
+        setStatus({ kind: "error", message: data.message ?? "Grading failed.", retryable: !["daily_cap", "paused", "not_configured", "sign_in"].includes(data.reason), reason: data.reason });
         setShowKey(true);
         return;
       }
@@ -229,12 +236,14 @@ export function FrqScreen({ problem }: { problem: FrqProblem }) {
           <div className="flex items-center gap-3">
             {status.kind === "grading" ? (
               <p className="flex-1 text-[15px] text-ink-soft tnum" aria-live="polite">Grading… {elapsed}s <span className="text-grey">(usually 5–15 s)</span></p>
+            ) : status.kind === "error" && status.reason === "sign_in" ? (
+              <p className="flex-1 text-[13px]" role="alert">{status.message} <Link href="/signin" className="text-accent whitespace-nowrap">Sign in →</Link></p>
             ) : status.kind === "error" ? (
               <p className="flex-1 text-[13px] text-red" role="alert">{status.message}</p>
             ) : graded ? (
               <p className="flex-1 text-[16px]"><span className="font-semibold tnum">{graded.total} / {graded.max_total}</span> <span className="text-ink-soft text-[13px]">AI-graded{status.kind === "graded" && status.cached ? ", cached" : ""}</span></p>
             ) : (
-              <p className="flex-1 text-[13px] text-ink-soft">Answers save as you type.</p>
+              <p className="flex-1 text-[13px] text-ink-soft">{signedIn === false ? "First grade is free. Sign in for 5 a day." : "Answers save as you type."}</p>
             )}
             <Button size="compact" onClick={grade} disabled={status.kind === "grading" || (status.kind === "error" && !status.retryable)}>
               {status.kind === "error" && status.retryable ? "Retry" : graded ? "Grade again" : "Grade"}

@@ -5,6 +5,7 @@ import { Group, GroupHeader, Row, Skeleton, Tag } from "@/components/ui";
 import { CountUp } from "@/components/CountUp";
 import { Leaderboard } from "@/components/Leaderboard";
 import { Welcome } from "@/components/Welcome";
+import { SignInNudge } from "@/components/SignInNudge";
 import { supabaseBrowser } from "@/lib/supabase/client";
 import { getTopic, questions } from "@/lib/content";
 import { accuracyByDay } from "@/lib/mastery";
@@ -49,6 +50,7 @@ export function HomeScreen() {
   return (
     <div>
       <Welcome />
+      <SignInNudge context="prediction" show={Boolean(prediction)} />
       <ul className="stagger grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-8 md:gap-x-8">
         {dest.map((d, i) => (
           <li key={d.href} className="border-t border-line">

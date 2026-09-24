@@ -59,7 +59,7 @@ export function composeReminder(input: { due: number; weakestTopicName: string |
   const n = input.due;
   const subject = n === 1 ? "1 review due on Valence" : `${n} reviews due on Valence`;
   const line = `${n === 1 ? "1 question is" : `${n} questions are`} due for review${input.weakestTopicName ? `. Weakest topic: ${input.weakestTopicName}` : ""}.`;
-  const text = `${line}\n\nReview now: ${input.reviewUrl}\n\nYou get this when reviews are due. Stop anytime: ${input.unsubscribeUrl}\n`;
+  const text = `${line}\nOpen the Review tab on Valence to clear it, or use the link below.\n\n${input.reviewUrl}\n\nYou get this when reviews are due. Stop anytime:\n${input.unsubscribeUrl}\n`;
   const html = `<!doctype html><html><body style="margin:0;padding:24px;background:#faf8f5;color:#151311;font:16px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Inter,sans-serif">
 <p style="margin:0 0 16px">${escapeHtml(line)}</p>
 <p style="margin:0 0 28px"><a href="${input.reviewUrl}" style="display:inline-block;padding:10px 16px;background:#151311;color:#faf8f5;text-decoration:none;border-radius:4px">Review now</a></p>

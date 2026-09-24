@@ -35,6 +35,7 @@ const GradeSchema = z.object({
 });
 
 const DAILY_CAP = Number(process.env.GRADING_DAILY_CAP ?? 5);
+const FREE_ANON_GRADES = Number(process.env.GRADING_FREE_ANON ?? 1);
 const MONTHLY_CAP_CENTS = Number(process.env.GRADING_MONTHLY_CAP_CENTS ?? 4000);
 const MODEL = process.env.GRADER_MODEL ?? "claude-sonnet-5";
 
@@ -42,6 +43,8 @@ const MODEL = process.env.GRADER_MODEL ?? "claude-sonnet-5";
 
 interface Ledger {
   countToday(subjects: string[]): Promise<number>;
+  /** All-time grades for any of the subjects (anonymous free-grade gate). */
+  countEver(subjects: string[]): Promise<number>;
   monthSpendCents(): Promise<number>;
   cached(key: string): Promise<unknown | null>;
   record(input: { subjects: string[]; frq_id: string; cost_cents: number; cache_key: string; grade: unknown; answers: Record<string, string>; user_id: string | null; anon_id: string | null; model: string }): Promise<void>;
@@ -53,6 +56,9 @@ const memoryLedger: Ledger = {
   async countToday(subjects) {
     const since = Date.now() - 86_400_000;
     return Math.max(...subjects.map((s) => mem.ledger.filter((l) => l.subject === s && l.at > since).length), 0);
+  },
+  async countEver(subjects) {
+    return Math.max(...subjects.map((s) => mem.ledger.filter((l) => l.subject === s).length), 0);
   },
   async monthSpendCents() {
     const since = Date.now() - 30 * 86_400_000;
@@ -78,6 +84,15 @@ function serviceLedger(): Ledger | null {
       const counts = await Promise.all(
         subjects.map(async (s) => {
           const { count } = await sb.from("grading_ledger").select("id", { count: "exact", head: true }).eq("subject", s).gt("created_at", since);
+          return count ?? 0;
+        }),
+      );
+      return Math.max(...counts, 0);
+    },
+    async countEver(subjects) {
+      const counts = await Promise.all(
+        subjects.map(async (s) => {
+          const { count } = await sb.from("grading_ledger").select("id", { count: "exact", head: true }).eq("subject", s);
           return count ?? 0;
         }),
       );
@@ -145,6 +160,11 @@ export async function POST(request: Request) {
 
   if ((await ledger.monthSpendCents()) >= MONTHLY_CAP_CENTS) {
     return NextResponse.json({ ok: false, reason: "paused", message: "Grading is paused for the rest of the month to keep Valence free. Your answer is saved on this device." }, { status: 503 });
+  }
+  // Anonymous visitors get one grade to see what it does; after that the
+  // daily cap is per account, which also makes the caps mean something.
+  if (!userId && (await ledger.countEver(subjects)) >= FREE_ANON_GRADES) {
+    return NextResponse.json({ ok: false, reason: "sign_in", message: `Your first grade was free. Sign in for up to ${DAILY_CAP} a day.` }, { status: 401 });
   }
   if ((await ledger.countToday(subjects)) >= DAILY_CAP) {
     return NextResponse.json({ ok: false, reason: "daily_cap", message: `You've used today's ${DAILY_CAP} graded submissions. The model answer is still below; try again tomorrow.` }, { status: 429 });
