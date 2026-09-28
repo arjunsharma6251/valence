@@ -42,6 +42,13 @@ export type EventName =
   | "leaderboard_optin";
 
 let ready = false;
+/**
+ * Events fired before init. React runs child effects before parent effects, so
+ * a component that tracks on mount (the welcome dialog did) would otherwise be
+ * dropped, because `initAnalytics` runs in a provider above it. Queue and flush.
+ */
+const pending: { event: EventName; props: Record<string, string | number | boolean | null> }[] = [];
+const MAX_PENDING = 50;
 
 export function initAnalytics(anonId: string) {
   const key = process.env.NEXT_PUBLIC_POSTHOG_KEY;
@@ -63,11 +70,15 @@ export function initAnalytics(anonId: string) {
   });
   posthog.identify(anonId);
   ready = true;
+  for (const p of pending.splice(0)) posthog.capture(p.event, p.props);
   track("session_start");
 }
 
 export function track(event: EventName, props: Record<string, string | number | boolean | null> = {}) {
-  if (!ready) return;
+  if (!ready) {
+    if (pending.length < MAX_PENDING) pending.push({ event, props });
+    return;
+  }
   posthog.capture(event, props);
 }
 

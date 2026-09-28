@@ -704,7 +704,7 @@
     "year": 2017,
     "level": "local",
     "number": 21,
-    "stem_md": "At what temperature is the following reaction at equilibrium when all substances are at standard pressure? Assume that entropies and enthalpies of reaction do not vary with temperature. $\\ce{PCl3(g) + Cl2(g) <=> PCl5(g)}$ Substance $\\Delta H^\\circ_f$, kJ mol$^{-1}$ $S^\\circ$, J mol$^{-1}$ K$^{-1}$ $\\ce{PCl3(g)}$ –288.7 311.6 $\\ce{Cl2(g)}$ 0 223.1 $\\ce{PCl5(g)}$ –374.9 364.2",
+    "stem_md": "At what temperature is the following reaction at equilibrium when all substances are at standard pressure? Assume that entropies and enthalpies of reaction do not vary with temperature. $\\ce{PCl3(g) + Cl2(g) <=> PCl5(g)}$\n\n- $\\ce{PCl3(g)}$: $\\Delta H^\\circ_f$, kJ mol$^{-1}$ –288.7; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 311.6\n- $\\ce{Cl2(g)}$: $\\Delta H^\\circ_f$, kJ mol$^{-1}$ 0; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 223.1\n- $\\ce{PCl5(g)}$: $\\Delta H^\\circ_f$, kJ mol$^{-1}$ –374.9; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 364.2",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
@@ -1369,7 +1369,7 @@
     "year": 2017,
     "level": "local",
     "number": 40,
-    "stem_md": "What is $E^\\circ$ for the following reaction? $\\ce{2 Al^3+(aq) + 3 Zn(s) -> 2 Al(s) + 3 Zn^2+(aq)}$ Half-Reaction $E^\\circ$, V $\\ce{Al^3+(aq) + 3 e- -> Al(s)}$ –1.66 $\\ce{Zn^2+(aq) + 2 e- -> Zn(s)}$ –0.76",
+    "stem_md": "What is $E^\\circ$ for the following reaction? $\\ce{2 Al^3+(aq) + 3 Zn(s) -> 2 Al(s) + 3 Zn^2+(aq)}$\n\n- $\\ce{Al^3+(aq) + 3 e- -> Al(s)}$: $E^\\circ$, V –1.66\n- $\\ce{Zn^2+(aq) + 2 e- -> Zn(s)}$: $E^\\circ$, V –0.76",
     "figure_url": null,
     "topic_id": "redox",
     "subtopic": "",
@@ -2000,7 +2000,7 @@
     "level": "local",
     "number": 58,
     "stem_md": "What is the structure of polypropylene, formed by the polymerization of propene ($\\ce{CH2=CHCH3}$)?",
-    "figure_url": null,
+    "figure_url": "/figures/2017-L-58.png",
     "topic_id": "organic",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -2008,19 +2008,19 @@
     "options": [
       {
         "label": "A",
-        "text_md": ". . . . . ."
+        "text_md": "Shown in the figure (A)"
       },
       {
         "label": "B",
-        "text_md": ". . . . . ."
+        "text_md": "Shown in the figure (B)"
       },
       {
         "label": "C",
-        "text_md": ". . . . . ."
+        "text_md": "Shown in the figure (C)"
       },
       {
         "label": "D",
-        "text_md": ". . . . . ."
+        "text_md": "Shown in the figure (D)"
       }
     ],
     "acs_solution_md": null,

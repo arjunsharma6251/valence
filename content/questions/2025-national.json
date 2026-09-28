@@ -739,7 +739,7 @@
     "year": 2025,
     "level": "national",
     "number": 22,
-    "stem_md": "The standard enthalpy of combustion of propene, $\\ce{C3H6(g)}$, is –1926 kJ mol$^{-1}$. Given the tabulated bond dissociation enthalpies (BDEs), what is the bond dissociation enthalpy of a $\\ce{C=C}$ bond? $\\ce{C3H6(g) + 4.5 O2(g) -> 3 CO2(g) + 3 H2O(g)}$ $\\Delta H^\\circ_\\text{rxn}$ = –1926 kJ mol$^{-1}$ Bond BDE, kJ mol$^{-1}$ Bond BDE, kJ mol$^{-1}$ $\\ce{C-H}$ 415 $\\ce{C-O}$ 350 $\\ce{O-H}$ 464 $\\ce{C=O}$ 804 $\\ce{O-O}$ 140 $\\ce{C-C}$ 345 $\\ce{O=O}$ 498 $\\ce{C=C}$ ???",
+    "stem_md": "The standard enthalpy of combustion of propene, $\\ce{C3H6(g)}$, is –1926 kJ mol$^{-1}$. Given the tabulated bond dissociation enthalpies (BDEs), what is the bond dissociation enthalpy of a $\\ce{C=C}$ bond?\n\n$\\ce{C3H6(g) + 4.5 O2(g) -> 3 CO2(g) + 3 H2O(g)}$ $\\Delta H^\\circ_\\text{rxn}$ = –1926 kJ mol$^{-1}$\n\n- Bond: $\\ce{C-H}$; BDE 415 kJ mol$^{-1}$\n- Bond: $\\ce{C-O}$; BDE 350 kJ mol$^{-1}$\n- Bond: $\\ce{O-H}$; BDE 464 kJ mol$^{-1}$\n- Bond: $\\ce{C=O}$; BDE 804 kJ mol$^{-1}$\n- Bond: $\\ce{O-O}$; BDE 140 kJ mol$^{-1}$\n- Bond: $\\ce{C-C}$; BDE 345 kJ mol$^{-1}$\n- Bond: $\\ce{O=O}$; BDE 498 kJ mol$^{-1}$\n- Bond: $\\ce{C=C}$; BDE ???",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",

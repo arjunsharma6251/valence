@@ -809,7 +809,7 @@
     "year": 2024,
     "level": "local",
     "number": 24,
-    "stem_md": "What is the $K_\\text{sp}$ of $\\ce{PbCl2}$ at 298 K? Species $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ $S^\\circ$, J mol$^{-1}$ K$^{-1}$ $\\ce{Pb^2+(aq)}$ –1.7 10.5 $\\ce{PbCl2(s)}$ –359.4 136.0 $\\ce{Cl-(aq)}$ –167.2 56.5",
+    "stem_md": "What is the $K_\\text{sp}$ of $\\ce{PbCl2}$ at 298 K?\n\n- Species: $\\ce{Pb^2+(aq)}$; $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ –1.7; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 10.5\n- Species: $\\ce{PbCl2(s)}$; $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ –359.4; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 136.0\n- Species: $\\ce{Cl-(aq)}$; $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ –167.2; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 56.5",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",

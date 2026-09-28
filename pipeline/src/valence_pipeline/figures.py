@@ -109,18 +109,100 @@ def _snap_clip(page: pymupdf.Page, clip: pymupdf.Rect, prose: str = "") -> pymup
     u = parts[0]
     for r in parts[1:]:
         u |= r
-    return (u + (-4, -4, 4, 4)) & (clip + (-6, -6, 6, 6))
+    out = (u + (-4, -4, 4, 4)) & (clip + (-6, -6, 6, 6))
+    # Don't let the top padding pick up the descenders of the stem line above.
+    above = [
+        pymupdf.Rect(line["bbox"]).y1
+        for block in page.get_text("dict")["blocks"]
+        for line in block.get("lines", [])
+        if pymupdf.Rect(line["bbox"]).y1 <= u.y0 + 2 and pymupdf.Rect(line["bbox"]).y1 > out.y0
+    ]
+    if above:
+        out.y0 = min(max(above) + 1, u.y0)
+    return out
 
 
-def crop(page: pymupdf.Page, box: Box, out: Path, prose: str = "") -> None:
+def _clip_for(page: pymupdf.Page, box: Box) -> pymupdf.Rect:
     r = page.rect
-    clip = pymupdf.Rect(
+    return pymupdf.Rect(
         r.width * max(0.0, box.x0 - PAD), r.height * max(0.0, box.y0 - PAD),
         r.width * min(1.0, box.x1 + PAD), r.height * min(1.0, box.y1 + PAD),
     )
+
+
+def _question_rects(page: pymupdf.Page) -> dict[int, pymupdf.Rect]:
+    """Where each question number starts on the page, from the text layer."""
+    out: dict[int, pymupdf.Rect] = {}
+    for block in page.get_text("dict")["blocks"]:
+        for line in block.get("lines", []):
+            text = "".join(sp["text"] for sp in line.get("spans", []))
+            m = re.match(r"\s*(\d{1,2})\.\s", text)
+            if m:
+                n = int(m.group(1))
+                r = pymupdf.Rect(line["bbox"])
+                if n not in out or r.y0 < out[n].y0:
+                    out[n] = r
+    return out
+
+
+def clamp_to_question(page: pymupdf.Page, clip: pymupdf.Rect, number: int) -> pymupdf.Rect:
+    """Keep the crop inside this question: below its own number, above the next
+    one, and within its column. Exams are two-column, and the model sometimes
+    slides the box down into the following question."""
+    rects = _question_rects(page)
+    here = rects.get(number)
+    if here is None:
+        return clip
+    out = pymupdf.Rect(clip)
+    out.y0 = max(out.y0, here.y0 - 2)
+    mid = page.rect.width / 2
+    right_column = here.x0 >= mid
+    below = [r for n, r in rects.items() if n > number and r.y0 > here.y0 and (r.x0 >= mid) == right_column]
+    if below:
+        out.y1 = min(out.y1, min(r.y0 for r in below) - 2)
+    if right_column:
+        out.x0 = max(out.x0, mid - 8)
+    else:
+        out.x1 = min(out.x1, mid + 8)
+    return out if out.y1 - out.y0 > 20 and out.x1 - out.x0 > 20 else clip
+
+
+def spills_into_neighbour(page: pymupdf.Page, box: Box, number: int) -> bool:
+    """True when the box swallows a different numbered question, which means the
+    model drifted off this question's artwork."""
+    text = page.get_textbox(_clip_for(page, box))
+    return any(re.search(rf"(^|\n)\s*{n}\.\s", text) for n in (number - 1, number + 1, number + 2))
+
+
+def crop(page: pymupdf.Page, box: Box, out: Path, prose: str = "", number: int | None = None) -> None:
+    clip = clamp_to_question(page, _clip_for(page, box), number) if number else _clip_for(page, box)
     zoom = DPI / 72
     clip = _snap_clip(page, clip, prose)
     page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), clip=clip).save(out)
+
+
+def resolve_page(doc: pymupdf.Document, number: int, stem: str, recorded: int) -> int:
+    """The page column in questions.csv is sometimes off (answer-key pages, or a
+    question that starts on the previous column). Trust it only when that page
+    really holds the question: look for "<n>." plus a distinctive word from the
+    stem, and otherwise scan the document for the best match."""
+    words = [w for w in re.findall(r"[A-Za-z]{6,}", re.sub(r"\$[^$]*\$", " ", stem))][:6]
+    marker = re.compile(rf"(^|\n)\s*{number}\.\s")
+
+    def score(i: int) -> int:
+        if i < 0 or i >= doc.page_count:
+            return -1
+        t = doc[i].get_text()
+        return (2 if marker.search(t) else 0) + sum(1 for w in words if w in t)
+
+    best, best_score = recorded - 1, score(recorded - 1)
+    if best_score >= 2 + min(2, len(words)):
+        return best
+    for i in range(doc.page_count):
+        sc = score(i)
+        if sc > best_score:
+            best, best_score = i, sc
+    return best
 
 
 def _held_question(row: dict, answer: dict, year: int, level: Level, qid: str) -> dict:
@@ -144,7 +226,7 @@ def _held_question(row: dict, answer: dict, year: int, level: Level, qid: str) -
     }
 
 
-def run_figures(content: Path, pdf: Path, work: Path, year: int, level: Level, out_dir: Path, id_suffix: str = "", workers: int = 4, dry_run: bool = False, redo: bool = False) -> None:
+def run_figures(content: Path, pdf: Path, work: Path, year: int, level: Level, out_dir: Path, id_suffix: str = "", workers: int = 4, dry_run: bool = False, redo: bool = False, only: set[int] | None = None) -> None:
     questions = json.loads(content.read_text())
     by_id = {q["id"]: q for q in questions}
     raw = {int(r["number"]): r for r in csv.DictReader(open(work / "questions.csv"))}
@@ -153,6 +235,8 @@ def run_figures(content: Path, pdf: Path, work: Path, year: int, level: Level, o
 
     todo: list[tuple[dict, dict, bool]] = []  # (question, raw row, held)
     for n, row in sorted(raw.items()):
+        if only is not None and n not in only:
+            continue
         qid = question_id(year, level, n) + id_suffix
         q = by_id.get(qid)
         if q is None:
@@ -162,7 +246,7 @@ def run_figures(content: Path, pdf: Path, work: Path, year: int, level: Level, o
         if q.get("figure_url") and not redo:
             continue
         text = q["stem_md"] + " " + " ".join(o["text_md"] for o in q["options"])
-        if FIGURE_WORDS.search(text):
+        if only is not None or FIGURE_WORDS.search(text):
             todo.append((q, row, False))
     print(f"{content.name}: {len(todo)} candidates ({sum(1 for t in todo if t[2])} held)", file=sys.stderr)
     if dry_run:
@@ -173,22 +257,33 @@ def run_figures(content: Path, pdf: Path, work: Path, year: int, level: Level, o
     out_dir.mkdir(parents=True, exist_ok=True)
     zoom = 1.6  # ~115 dpi page image for locating; crops are re-rendered at DPI
     page_png: dict[int, bytes] = {}
-    for _, row, _ in todo:
-        p = int(row["page"])
-        page_png.setdefault(p, _render(doc[p - 1], zoom))
+
+    def page_image(p: int) -> bytes:
+        if p not in page_png:
+            page_png[p] = _render(doc[p - 1], zoom)
+        return page_png[p]
 
     def work_one(item):
         q, row, held = item
-        p = int(row["page"])
-        try:
-            loc = locate(page_png[p], q["number"], q["stem_md"], p)
-        except Exception as e:  # noqa: BLE001
-            return q, held, None, f"error: {e}"
-        if not loc.has_figure or loc.box is None:
-            return q, held, None, loc.note
+        p = resolve_page(doc, q["number"], q["stem_md"], int(row["page"])) + 1
+        if p != int(row["page"]):
+            print(f"  {q['id']}: page {row['page']} -> {p}", file=sys.stderr)
+        loc = None
+        for attempt in range(2):
+            try:
+                loc = locate(page_image(p), q["number"], q["stem_md"], p)
+            except Exception as e:  # noqa: BLE001
+                return q, held, None, f"error: {e}"
+            if not loc.has_figure or loc.box is None:
+                return q, held, None, loc.note
+            if not spills_into_neighbour(doc[p - 1], loc.box, q["number"]):
+                break
+            print(f"  {q['id']}: box spilled into a neighbouring question, retrying", file=sys.stderr)
+        else:
+            return q, held, None, "box kept spilling into a neighbouring question"
         path = out_dir / f"{q['id']}.png"
         prose = q["stem_md"] + " " + " ".join(o["text_md"] for o in q["options"] if not o["text_md"].startswith("Shown in the figure"))
-        crop(doc[p - 1], loc.box, path, prose)
+        crop(doc[p - 1], loc.box, path, prose, q["number"])
         return q, held, path, loc.note
 
     attached = added = skipped = 0

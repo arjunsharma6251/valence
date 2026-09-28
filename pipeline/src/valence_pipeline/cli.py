@@ -41,6 +41,7 @@ def main(argv: list[str] | None = None) -> None:
     fg.add_argument("--id-suffix", default="")
     fg.add_argument("--dry-run", action="store_true")
     fg.add_argument("--redo", action="store_true", help="re-crop questions that already have a figure_url")
+    fg.add_argument("--only", help="comma-separated question numbers to (re)do, ignoring the usual text heuristics")
 
     ff = sub.add_parser("frq-figures", help="recover held Part II sub-parts by cropping their figures from the PDF")
     ff.add_argument("--year", type=int, required=True)
@@ -52,6 +53,9 @@ def main(argv: list[str] | None = None) -> None:
     da = sub.add_parser("draft-all", help="incremental explanation drafts for every content/questions/20*.json (re-runnable)")
     da.add_argument("--questions", type=Path, default=Path("../content/questions"))
     da.add_argument("--out", type=Path, default=Path("../content/explanations"))
+
+    tb = sub.add_parser("tables", help="re-format data tables the PDF flattened into one line")
+    tb.add_argument("files", type=Path, nargs="+")
 
     r = sub.add_parser("review", help="summarize a work directory and list problems to fix")
     r.add_argument("work", type=Path)
@@ -85,7 +89,7 @@ def main(argv: list[str] | None = None) -> None:
     elif args.cmd == "figures":
         from .figures import run_figures
 
-        run_figures(args.content, args.pdf, args.work, args.year, args.level, args.out, args.id_suffix, dry_run=args.dry_run, redo=args.redo)
+        run_figures(args.content, args.pdf, args.work, args.year, args.level, args.out, args.id_suffix, dry_run=args.dry_run, redo=args.redo, only={int(x) for x in args.only.split(',')} if args.only else None)
     elif args.cmd == "frq-figures":
         from .frqfig import run_frq_figures
 
@@ -94,6 +98,10 @@ def main(argv: list[str] | None = None) -> None:
         from .explain import run_draft_all
 
         run_draft_all(args.questions, args.out)
+    elif args.cmd == "tables":
+        from .tables import run_tables
+
+        run_tables(args.files)
     elif args.cmd == "review":
         from .review import run_review
 

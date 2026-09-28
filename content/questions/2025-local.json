@@ -1020,7 +1020,7 @@
     "level": "local",
     "number": 30,
     "stem_md": "The reaction of $\\ce{MnO4-(aq)}$ and $\\ce{H2C2O4(aq)}$ in acidic solution is autocatalytic because one of the products, $\\ce{Mn^2+(aq)}$, is a reducing agent. Starting from a mixture of reactants, which of the following graphs best shows how the concentration of $\\ce{MnO4-(aq)}$ changes over time?",
-    "figure_url": null,
+    "figure_url": "/figures/2025-L-30.png",
     "topic_id": "kinetics",
     "subtopic": "",
     "est_percent_correct": 0.5,
@@ -1028,19 +1028,19 @@
     "options": [
       {
         "label": "A",
-        "text_md": "$[\\ce{MnO4-}]$"
+        "text_md": "Shown in the figure (A)"
       },
       {
         "label": "B",
-        "text_md": "$[\\ce{MnO4-}]$"
+        "text_md": "Shown in the figure (B)"
       },
       {
         "label": "C",
-        "text_md": "$[\\ce{MnO4-}]$"
+        "text_md": "Shown in the figure (C)"
       },
       {
         "label": "D",
-        "text_md": "$[\\ce{MnO4-}]$"
+        "text_md": "Shown in the figure (D)"
       }
     ],
     "acs_solution_md": null,

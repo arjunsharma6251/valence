@@ -669,7 +669,7 @@
     "year": 2023,
     "level": "local",
     "number": 20,
-    "stem_md": "What is $\\Delta G^\\circ_\\text{f}$ of $\\ce{NO(g)}$ at 298 K? Substance $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ $S^\\circ$, J mol$^{-1}$ K$^{-1}$ $\\ce{N2(g)}$ 0 191.6 $\\ce{O2(g)}$ 0 205.2 $\\ce{NO(g)}$ 90.3 210.8",
+    "stem_md": "What is $\\Delta G^\\circ_\\text{f}$ of $\\ce{NO(g)}$ at 298 K?\n\n- Substance: $\\ce{N2(g)}$; $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ 0; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 191.6\n- Substance: $\\ce{O2(g)}$; $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ 0; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 205.2\n- Substance: $\\ce{NO(g)}$; $\\Delta H^\\circ_\\text{f}$, kJ mol$^{-1}$ 90.3; $S^\\circ$, J mol$^{-1}$ K$^{-1}$ 210.8",
     "figure_url": null,
     "topic_id": "thermodynamics",
     "subtopic": "",
