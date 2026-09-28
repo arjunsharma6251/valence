@@ -7,7 +7,7 @@ import { Leaderboard } from "@/components/Leaderboard";
 import { Welcome } from "@/components/Welcome";
 import { SignInNudge } from "@/components/SignInNudge";
 import { supabaseBrowser } from "@/lib/supabase/client";
-import { getTopic, questions } from "@/lib/content";
+import { frq, getTopic, questions } from "@/lib/content";
 import { accuracyByDay } from "@/lib/mastery";
 import { PREDICTION_MIN } from "@/lib/predict";
 import { useHydrated, useStore } from "@/lib/store";
@@ -44,7 +44,7 @@ export function HomeScreen() {
     { href: "/practice", name: "Practice", status: total ? `${total} answered` : "Adaptive, all topics" },
     { href: "/mock", name: "Mock exam", status: inProgress ? "In progress" : lastMock?.score ? `Last ${lastMock.score.correct}/${lastMock.score.total}` : "60 questions, timed" },
     { href: "/review", name: "Review", status: due.length ? `${due.length} due` : "Nothing due" },
-    { href: "/part2", name: "Part II", status: "Free response, graded" },
+    { href: "/part2", name: "Part II", status: `${frq.length} problems, graded` },
   ];
 
   return (
