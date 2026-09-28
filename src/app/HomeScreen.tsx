@@ -71,7 +71,7 @@ export function HomeScreen() {
       ) : (
         <div className="stagger md:grid md:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] md:gap-x-16 md:items-start">
           <div>
-            <GroupHeader trailing="Weakest first">Topics</GroupHeader>
+            <GroupHeader trailing="Weakest first"><Link href="/topics" className="hover:text-ink">Topics</Link></GroupHeader>
             <Group>
               {weak.map((s) => {
                 const t = getTopic(s.topic_id);

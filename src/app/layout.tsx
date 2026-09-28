@@ -8,13 +8,20 @@ import { ThemeScript } from "@/components/ThemeScript";
 import { Providers } from "@/components/Providers";
 import { TabBar, TopBar } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
+import { SiteSchema } from "@/components/SiteSchema";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000");
+import { siteName, siteUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: { default: "Valence", template: "%s · Valence" },
-  description: "Free, adaptive USNCO practice with real explanations and AI-graded free response.",
+  title: { default: "Valence — free USNCO practice with every past exam question", template: "%s · Valence" },
+  description:
+    "Practice every past U.S. National Chemistry Olympiad question, free. Adaptive practice by topic, timed mock exams, and Part II free response graded against the official key.",
+  alternates: { canonical: "/" },
+  applicationName: siteName,
+  openGraph: { type: "website", siteName, url: siteUrl, title: "Valence — free USNCO practice", description: "Every past USNCO question, adaptive practice, and AI-graded Part II free response." },
+  twitter: { card: "summary_large_image" },
+  robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = {
@@ -32,6 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" suppressHydrationWarning className="h-full">
       <head>
         <ThemeScript />
+        <SiteSchema />
       </head>
       <body className="min-h-full flex flex-col">
         <Providers>

@@ -65,6 +65,7 @@ export default function Page() {
         <Row href="/practice" title="Practice" detail="Ten questions takes about three minutes" />
         <Row href="/part2" title="Part II" detail="Pick a problem, type an answer, get graded" />
         <Row href="/mock" title="Mock exam" detail="The full 60, timed" />
+        <Row href="/topics" title="What’s on the exam" detail="The ten topic blocks, ranked by how hard qualifiers found them" />
       </Group>
       <GroupFooter>
         Questions are © American Chemical Society, reproduced for non-commercial practice; Valence is not affiliated with ACS. If you are a USNCO alum and want to verify explanations, <Link href="/feedback" className="text-accent">get in touch</Link>.
