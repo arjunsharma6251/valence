@@ -95,7 +95,7 @@ export function SignInScreen() {
               {err && <p className="text-[13px] text-red" role="alert">{err}</p>}
             </div>
           </Group>
-          <GroupFooter>Optional. Sign in to keep progress across devices; this device’s {attempts} answers merge in. We’ll email you when reviews are due, one click to stop.</GroupFooter>
+          <GroupFooter>Optional. Sign in to keep progress across devices; this device’s {attempts} answers merge in. We’ll email you when reviews are due, one click to stop, and you’ll appear on the weekly board once you pick a display name.</GroupFooter>
         </>
       )}
 
@@ -103,7 +103,7 @@ export function SignInScreen() {
 
       <GroupHeader>Leaderboard</GroupHeader>
       <Group>
-        <Row title="Show me on the weekly board" detail={user ? "Name, answered, accuracy and best mock only" : "Sign in first"}>
+        <Row title="Show me on the weekly board" detail={user ? "Name, answered, accuracy and best mock only. You appear once you pick a name." : "Sign in first"}>
           <Segmented label="Leaderboard" value={profile.public ? "on" : "off"} onChange={(v) => { if (!user) return; setProfile({ public: v === "on" }); if (v === "on") track("leaderboard_optin"); }} options={[{ value: "off", label: "Off" }, { value: "on", label: "On" }]} />
         </Row>
         {profile.public && (

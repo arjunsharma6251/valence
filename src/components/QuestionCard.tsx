@@ -7,8 +7,8 @@ import { IconCheck, IconFlag, IconShare, IconX } from "./icons";
 import { getExplanation, getTopic } from "@/lib/content";
 import type { OptionLabel, Question } from "@/lib/content/types";
 import { addFlag, recordAttempt } from "@/lib/store/actions";
-import { useStore } from "@/lib/store";
-import { track } from "@/lib/analytics";
+import { useStore, getState } from "@/lib/store";
+import { recordAnswerCount, track } from "@/lib/analytics";
 import { shareLink } from "@/lib/share";
 import type { Attempt } from "@/lib/mastery";
 
@@ -70,6 +70,7 @@ export function QuestionCard({ question, mode, selected = null, onAnswer, onNext
         const counted = ms >= MIN_ATTEMPT_MS;
         if (counted) attempt = recordAttempt({ question_id: question.id, chosen: label, ms_taken: ms, context: mode });
         track("question_answered", { question_id: question.id, topic: question.topic_id, correct: label === question.correct_option, context: mode, ms, counted });
+        if (counted) recordAnswerCount(getState().attempts.length);
         setShowExpl(true);
       }
       onAnswer?.(label, attempt);

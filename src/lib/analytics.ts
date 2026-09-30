@@ -82,6 +82,18 @@ export function track(event: EventName, props: Record<string, string | number | 
   posthog.capture(event, props);
 }
 
+/**
+ * Milestones at which we stamp the running answer count onto the person, so
+ * PostHog surveys and cohorts can target "has actually used this" without a
+ * request on every single answer.
+ */
+const ANSWER_MILESTONES = [1, 2, 5, 10, 25, 50, 100];
+
+export function recordAnswerCount(total: number) {
+  if (!ready || !ANSWER_MILESTONES.includes(total)) return;
+  posthog.setPersonProperties({ answers_total: total });
+}
+
 /** Link the anonymous id to the signed-in user so pre-signup history counts. */
 export function identifyUser(userId: string, props: Record<string, string | null> = {}) {
   if (!ready) return;

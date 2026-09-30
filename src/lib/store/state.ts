@@ -67,7 +67,7 @@ export function emptyState(anonId: string): UserState {
   return {
     version: 1,
     anon_id: anonId,
-    profile: { grade_year: null, target: null },
+    profile: { grade_year: null, target: null, display_name: null, public: true },
     attempts: [],
     cards: {},
     mocks: [],
@@ -99,7 +99,7 @@ export function mergeStates(a: UserState, b: UserState): UserState {
       grade_year: b.profile.grade_year ?? a.profile.grade_year,
       target: b.profile.target ?? a.profile.target,
       display_name: b.profile.display_name ?? a.profile.display_name ?? null,
-      public: b.profile.public ?? a.profile.public ?? false,
+      public: b.profile.public ?? a.profile.public ?? true,
     },
     attempts: byId(a.attempts, b.attempts).sort((x, y) => x.created_at.localeCompare(y.created_at)),
     cards,

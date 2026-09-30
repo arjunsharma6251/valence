@@ -25,7 +25,7 @@ export async function GET() {
 
   const state: UserState = {
     ...emptyState(user.id),
-    profile: { grade_year: profile.data?.grade_year ?? null, target: profile.data?.target ?? null, display_name: profile.data?.display_name ?? null, public: profile.data?.public ?? false },
+    profile: { grade_year: profile.data?.grade_year ?? null, target: profile.data?.target ?? null, display_name: profile.data?.display_name ?? null, public: profile.data?.public ?? true },
     attempts: (attempts.data ?? []) as UserState["attempts"],
     cards: Object.fromEntries(((cards.data ?? []) as UserState["cards"][string][]).map((c) => [c.question_id, c])),
     mocks: (mocks.data ?? []) as UserState["mocks"],
@@ -48,7 +48,7 @@ export async function POST(request: Request) {
 
   const uid = user.id;
   const results = await Promise.all([
-    sb.from("profiles").upsert({ id: uid, grade_year: s.profile.grade_year, target: s.profile.target, display_name: s.profile.display_name ?? null, public: s.profile.public ?? false }),
+    sb.from("profiles").upsert({ id: uid, grade_year: s.profile.grade_year, target: s.profile.target, display_name: s.profile.display_name ?? null, public: s.profile.public ?? true }),
     s.attempts.length
       ? sb.from("attempts").upsert(s.attempts.map((a) => ({ ...a, user_id: uid })), { onConflict: "id", ignoreDuplicates: true })
       : null,
