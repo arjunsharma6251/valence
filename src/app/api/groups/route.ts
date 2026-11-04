@@ -10,10 +10,12 @@ import { generateGroupCode, normalizeGroupCode, type GroupView } from "@/lib/gro
  * supabase/migrations/0002_groups.sql; the route never sees raw attempts.
  */
 async function loadGroups(sb: NonNullable<Awaited<ReturnType<typeof supabaseServer>>>): Promise<GroupView[]> {
-  const { data: groups } = await sb.from("study_groups").select("id,code,name").order("created_at");
+  const { data: groups, error } = await sb.from("study_groups").select("id,code,name").order("created_at");
+  if (error) console.error("load groups failed", error);
   const out: GroupView[] = [];
   for (const g of groups ?? []) {
-    const { data: members } = await sb.rpc("group_summary", { p_group: g.id });
+    const { data: members, error: summaryError } = await sb.rpc("group_summary", { p_group: g.id });
+    if (summaryError) console.error("group_summary failed", summaryError);
     out.push({ ...g, members: (members ?? []) as GroupView["members"] });
   }
   return out;
@@ -40,11 +42,12 @@ export async function POST(request: Request) {
     if (!name) return NextResponse.json({ ok: false, reason: "name_required" }, { status: 400 });
     for (let attempt = 0; attempt < 5; attempt++) {
       const code = generateGroupCode();
-      const { data, error } = await sb.from("study_groups").insert({ code, name, created_by: auth.user.id }).select("id").single();
+      const { error } = await sb.rpc("create_group", { p_code: code, p_name: name, p_display_name: displayName });
       if (error?.code === "23505") continue; // code collision, try again
-      if (error || !data) return NextResponse.json({ ok: false, error: error?.message }, { status: 500 });
-      const { error: mErr } = await sb.from("study_group_members").insert({ group_id: data.id, user_id: auth.user.id, display_name: displayName });
-      if (mErr) return NextResponse.json({ ok: false, error: mErr.message }, { status: 500 });
+      if (error) {
+        console.error("create_group failed", error);
+        return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
+      }
       return NextResponse.json({ ok: true, code, groups: await loadGroups(sb) });
     }
     return NextResponse.json({ ok: false, reason: "code_collision" }, { status: 500 });
@@ -57,7 +60,11 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true, groups: await loadGroups(sb) });
   }
   if (body.action === "leave" && body.group_id) {
-    await sb.from("study_group_members").delete().eq("group_id", body.group_id).eq("user_id", auth.user.id);
+    const { error } = await sb.from("study_group_members").delete().eq("group_id", body.group_id).eq("user_id", auth.user.id);
+    if (error) {
+      console.error("leave group failed", error);
+      return NextResponse.json({ ok: false, error: error.message }, { status: 500 });
+    }
     return NextResponse.json({ ok: true, groups: await loadGroups(sb) });
   }
   return NextResponse.json({ ok: false, reason: "bad_action" }, { status: 400 });
